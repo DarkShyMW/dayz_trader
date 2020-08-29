@@ -1675,8 +1675,8 @@
 
 
 	<Category> SQUAD MSF-C Other Clothes
-	    MSFC_G3Pants_Flecktarn,	*,		1000,		65
-	    MSFC_AdvancedCombatHelmet_ACU,	*,		1000,		65
+	    MSFC_G3Pants_Flecktarn,										*,		1000,		65
+	    MSFC_AdvancedCombatHelmet_ACU,						*,		1000,		65
         MSFC_6B47_Cover_EMR,	*,		1000,		65
         MSFC_G3Pants_EMR,	*,		1000,		65
         MSFC_6B47_Cover_Desert,	*,		1000,		65
