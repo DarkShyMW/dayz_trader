@@ -1038,9 +1038,12 @@
 		Mag_VSS_10Rnd,			M,		220,	110
 		Mag_SVD_10Rnd,			M,		250,	125
 		Mag_308WinSnaploader_2Rnd,		M,		1250,	125
+		Mag_VEPR_10rnd			M,		200,	100
+		Mag_VEPR_20rnd			M,		500, 	300
+		Mag_VEPR_35rnd			M,		750,	400
 		
 	<Category> Handguards
-		MP5_PlasticHndgrd,		*,		1000,	50
+		MP5_PlasticHndgrd,		*,		100,	50
 		MP5_RailHndgrd,			*,		150,	75
 		AK74_Hndgrd,			*,		150,	75
 		AK_WoodHndgrd,			*,		200,	100
@@ -1051,13 +1054,13 @@
 		M4_MPHndgrd,			*,		200,	100
 
 	<Category> Buttstocks
-		MP5k_StockBttstck,		*,		1000,	50
-		Fal_OeBttstck,			*,		1000,	50
+		MP5k_StockBttstck,		*,		100,	50
+		Fal_OeBttstck,			*,		100,	50
 		Fal_FoldingBttstck,		*,		150,	75
 		Saiga_Bttstck,			*,		150,	75
 		AKS74U_Bttstck,			*,		150,	75
 		AK74_WoodBttstck,		*,		150,	75
-		AK_PlasticBttstck,		*,		1000,	50
+		AK_PlasticBttstck,		*,		100,	50
 		AK_WoodBttstck,			*,		150,	75
 		AK_FoldingBttstck,		*,		250,	125
 		M4_OEBttstck,			*,		150,	75
@@ -1089,10 +1092,10 @@
 		MP5_Compensator,		*,		200,	100
 
 	<Category> Bayonets
-		Mosin_Bayonet,			*,		1000,	60
-		M9A1_Bayonet,			*,		150,	75
-		AK_Bayonet,				*,		150,	75
-		SKS_Bayonet,			*,		1000,	60
+		Mosin_Bayonet,			*,		1000,	600
+		M9A1_Bayonet,			*,		1500,	750
+		AK_Bayonet,				*,		1500,	750
+		SKS_Bayonet,			*,		10000,	600
 		
 	<Category> Flashlights
 		Universallight,			*,		120,	60
