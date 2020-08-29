@@ -1,8 +1,8 @@
 ///////////////////////////////////////////////////////////
-//														 //
+//														                           //
 //      Put the Steam64 IDs for your Admins in here      //
-//      Make a new Line for every ID!					 //
-//														 //
+//      Make a new Line for every ID!					           //
+//														                           //
 ///////////////////////////////////////////////////////////
 
 78901234567890123	// Admin No1
