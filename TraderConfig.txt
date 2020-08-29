@@ -1038,9 +1038,9 @@
 		Mag_VSS_10Rnd,			M,		220,	110
 		Mag_SVD_10Rnd,			M,		250,	125
 		Mag_308WinSnaploader_2Rnd,		M,		1250,	125
-		Mag_VEPR_10rnd			M,		200,	100
-		Mag_VEPR_20rnd			M,		500, 	300
-		Mag_VEPR_35rnd			M,		750,	400
+		Mag_VEPR_10rnd,			M,		200,	100
+		Mag_VEPR_20rnd,			M,		500, 	300
+		Mag_VEPR_35rnd,			M,		750,	400
 		
 	<Category> Handguards
 		MP5_PlasticHndgrd,		*,		100,	50
