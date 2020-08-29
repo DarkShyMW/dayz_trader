@@ -3379,8 +3379,8 @@
 		PlateCarrierPouches,												*,		1000,		20
 
 	<Category> Belt
-		CivilianBelt,																*,		1000,	30
-		MilitaryBelt,																*,		1000,	30
+		CivilianBelt,																*,		1000,		30
+		MilitaryBelt,																*,		1000,		30
 		MSFC_TacticalBeltMedium_Multicam,						*,		1000,		65
 		MSFC_TacticalBeltSmall_Multicam,						*,		1000,		65
 		MSFC_TacticalBeltLite_Multicam,							*,		1000,		65
@@ -3498,16 +3498,16 @@
 		MSFCAssaultBagMulticam,											*,		3000,			1000
 		MSFCRussianMilitaryAssaultBag,							*,		5000,		  1500
 		MSFCAssaultBagSURPATDesert,									*,		4000,			6500
-		MSFCAssaultBagSURPAT,												*,		4000,			65
-		MSFCAssaultBagATACSAU,											*,		4000,			65
-		MSFCAssaultBagATACSAU,											*,		4000,			65
+		MSFCAssaultBagSURPAT,												*,		4000,			6500
+		MSFCAssaultBagATACSAU,											*,		4000,			6500
+		MSFCAssaultBagATACSAU,											*,		4000,			6500
 		MSFCAssaultBagMulticamBlackMedic,						*,		4000,			6500
-		MSFCAssaultBagMulticamTropicMedic,					*,		45000,		6500
-		MSFCAssaultBagMulticamMedic,								*,		45000,		6500
-		MSFCAssaultBagSURPATDesertMedic,						*,		4000,			65
-		MSFCAssaultBagSURPATMedic,									*,		4000,			65
-		MSFCAssaultBagATACSAUMedic,									*,		4000,			65
-		MSFCAssaultBagATACSAUMedic,									*,		4000,			65
+		MSFCAssaultBagMulticamTropicMedic,					*,		4000,			6500
+		MSFCAssaultBagMulticamMedic,								*,		4000,			6500
+		MSFCAssaultBagSURPATDesertMedic,						*,		4000,			6500
+		MSFCAssaultBagSURPATMedic,									*,		4000,			6500
+		MSFCAssaultBagATACSAUMedic,									*,		4000,			6500
+		MSFCAssaultBagATACSAUMedic,									*,		4000,			6500
 		MilitaryGear_AssaultBag_PartizanM,					*,		4000,			1500
 		MilitaryGear_AssaultBag_Duckhunter,					*,		4000,			1500
 		MilitaryGear_AssaultBag_Multicam,						*,		4000,			1500
@@ -3524,6 +3524,8 @@
 		MilitaryGear_AssaultBag_CADPAT,							*,		4000,			1500
 		MilitaryGear_AssaultBag_Tropic,							*,		4000,			1500
 		MilitaryGear_AssaultBag_Yeger,							*,		4000,			1500
+		MSFCFlecktarnBag,														*,		4000,			1800
+		MSFCBlackTekStoBag,													*,		4000,			1800
 		HuntingBag,																	*,		6300,			3000
 		MilitaryGear_HuntingBag_PartizanM,					*,		6300,			3300
 		MilitaryGear_HuntingBag_Duckhunter,					*,		6300,			3300
@@ -3541,23 +3543,23 @@
 		MilitaryGear_HuntingBag_CADPAT,							*,		6300,			3300
 		MilitaryGear_HuntingBag_Tropic,							*,		6300,			3300
 		MilitaryGear_HuntingBag_Yeger,							*,		6300,			3300
-		TortillaBag,																*,		2000,			1000
-		MilitaryGear_TortillaBag_PartizanM,					*,		2000,			1000
-		MilitaryGear_TortillaBag_Duckhunter,				*,		2000,			1000
-		MilitaryGear_TortillaBag_Multicam,					*,		2000,			1000
-		MilitaryGear_TortillaBag_Splinter,					*,		2000,			1000
-		MilitaryGear_TortillaBag_Splinter_Dark,			*,		2000,			1000
-		MilitaryGear_TortillaBag_Tiger,							*,		2000,			1000
-		MilitaryGear_TortillaBag_Woodland,					*,		2000,			1000
-		MilitaryGear_TortillaBag_FLT,								*,		2000,			1000
-		MilitaryGear_TortillaBag_DPM,								*,		2000,			1000
-		MilitaryGear_TortillaBag_MPAT,							*,		2000,			1000
-		MilitaryGear_TortillaBag_Partizan,					*,		2000,			1000
-		MilitaryGear_TortillaBag_Skol,							*,		2000,			1000
-		MilitaryGear_TortillaBag_ATACS,							*,		2000,			1000
-		MilitaryGear_TortillaBag_CADPAT,						*,		2000,			1000
-		MilitaryGear_TortillaBag_Tropic,						*,		2000,			1000
-		MilitaryGear_TortillaBag_Yeger,							*,		2000,			1000
+		TortillaBag,																*,		4300,			2100
+		MilitaryGear_TortillaBag_PartizanM,					*,		4300,			2100
+		MilitaryGear_TortillaBag_Duckhunter,				*,		4300,			21000
+		MilitaryGear_TortillaBag_Multicam,					*,		4300,			21000
+		MilitaryGear_TortillaBag_Splinter,					*,		4300,			21000
+		MilitaryGear_TortillaBag_Splinter_Dark,			*,		4300,			21000
+		MilitaryGear_TortillaBag_Tiger,							*,		4300,			21000
+		MilitaryGear_TortillaBag_Woodland,					*,		4300,			21000
+		MilitaryGear_TortillaBag_FLT,								*,		4300,			21000
+		MilitaryGear_TortillaBag_DPM,								*,		4300,			21000
+		MilitaryGear_TortillaBag_MPAT,							*,		4300,			21000
+		MilitaryGear_TortillaBag_Partizan,					*,		4300,			21000
+		MilitaryGear_TortillaBag_Skol,							*,		4300,			21000
+		MilitaryGear_TortillaBag_ATACS,							*,		4300,			21000
+		MilitaryGear_TortillaBag_CADPAT,						*,		4300,			21000
+		MilitaryGear_TortillaBag_Tropic,						*,		4300,			21000
+		MilitaryGear_TortillaBag_Yeger,							*,		4300,			21000
 		CoyoteBag_Brown,														*,		5000,			3200
 		CoyoteBag_Green,														*,		8000,			4600
 		MSFCCoyoteBagMulticamBlack,									*,		10000,		6500
@@ -3623,35 +3625,33 @@
 		AliceBag_Black,															*,		7000,			3500
 		AliceBag_Green,															*,		6000,			4500
 		AliceBag_Camo,															*,		5000,			2500
-		MSFCAliceBagMulticamBlack,									*,		8000,			4500
-		MSFCAliceBagMulticamTropic,									*,		7000,			3500
-		MSFCAliceBagMulticam,												*,		6000,			2500
-		MSFCAliceBagSURPATDesert,										*,		5000,			2500
-		MSFCAliceBagSURPAT,													*,		5000,			2500
-		MSFCAliceBagATACSAU,												*,		5000,			2500
-		MSFCAliceBagATACSAU,												*,		5000,			2500
-		MilitaryGear_AliceBag_PartizanM,						*,		5000,			2500
-		MilitaryGear_AliceBag_Duckhunter,						*,		5000,			2500
-		MilitaryGear_AliceBag_Multicam,							*,		5000,			2500
-		MilitaryGear_AliceBag_Splinter,							*,		5000,			2500
-		MilitaryGear_AliceBag_Splinter_Dark,				*,		5000,			2500
-		MilitaryGear_AliceBag_Tiger,								*,		5000,			2500
-		MilitaryGear_AliceBag_Woodland,							*,		5000,			2500
-		MilitaryGear_AliceBag_FLT,									*,		5000,			2500
-		MilitaryGear_AliceBag_DPM,									*,		5000,			2500
-		MilitaryGear_AliceBag_MPAT,									*,		5000,			2500
-		MilitaryGear_AliceBag_Partizan,							*,		5000,			2500
-		MilitaryGear_AliceBag_Skol,									*,		5000,			2500
-		MilitaryGear_AliceBag_ATACS,								*,		5000,			2500
-		MilitaryGear_AliceBag_CADPAT,								*,		5000,			2500
-		MilitaryGear_AliceBag_Tropic,								*,		5000,			2500
-		MilitaryGear_AliceBag_Yeger,								*,		5000,			2500
+		MSFCAliceBagMulticamBlack,									*,		9000,			4500
+		MSFCAliceBagMulticamTropic,									*,		9000,			3500
+		MSFCAliceBagMulticam,												*,		9000,			3500
+		MSFCAliceBagSURPATDesert,										*,		9000,			3500
+		MSFCAliceBagSURPAT,													*,		9000,			3500
+		MSFCAliceBagATACSAU,												*,		9000,			3500
+		MSFCAliceBagATACSAU,												*,		9000,			3500
+		MilitaryGear_AliceBag_PartizanM,						*,		9000,			3500
+		MilitaryGear_AliceBag_Duckhunter,						*,		9000,			3500
+		MilitaryGear_AliceBag_Multicam,							*,		9000,			3500
+		MilitaryGear_AliceBag_Splinter,							*,		9000,			3500
+		MilitaryGear_AliceBag_Splinter_Dark,				*,		9000,			3500
+		MilitaryGear_AliceBag_Tiger,								*,		9000,			3500
+		MilitaryGear_AliceBag_Woodland,							*,		9000,			3500
+		MilitaryGear_AliceBag_FLT,									*,		9000,			3500
+		MilitaryGear_AliceBag_DPM,									*,		9000,			3500
+		MilitaryGear_AliceBag_MPAT,									*,		9000,			3500
+		MilitaryGear_AliceBag_Partizan,							*,		9000,			3500
+		MilitaryGear_AliceBag_Skol,									*,		9000,			3500
+		MilitaryGear_AliceBag_ATACS,								*,		9000,			3500
+		MilitaryGear_AliceBag_CADPAT,								*,		9000,			3500
+		MilitaryGear_AliceBag_Tropic,								*,		9000,			3500
+		MilitaryGear_AliceBag_Yeger,								*,		9000,			3500
+		MSFCBlackCamoBag,														*,		10000,		5200
 		Msp_MedicBag_Green,								        	*,		8000,			3500
 		Msp_MedicBag_Red,									        	*,		8000,	    3500
 		Msp_MedicBag_Blue,								        	*,		8000,	    3500
-		MSFCBlackCamoBag,														*,		3000,			1200
-		MSFCFlecktarnBag,														*,		3000,			1200
-		MSFCBlackTekStoBag,													*,		3000,			1200
 
 	//<Category> Handmade
 		//LeatherGloves_Beige,											*,		0,		0
