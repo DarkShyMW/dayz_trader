@@ -485,7 +485,19 @@
 
 
 <Trader> Weapon Trader
-	<Category> Melee
+
+	<Category> Ближний Бой
+		Msp_VorpalKnife,										W,      1000,   	100
+		Msp_GoodNightBat,										W,      5000,    	250
+		Msp_BeanBasher,											W,      5000,    	250
+		Msp_PipeAxe,												W,      5000,    	250
+		Msp_PlainBat,												W,      5000,    	250
+		Msp_PlainBat_Blue,									W,      5000,    	250
+		Msp_PlainBat_Black,									W,      5000,    	250
+		Msp_BlunderBat,											W,      5000,    	250
+		Msp_BassAxe,												W,      5000,    	250
+		MSFC_Huntsman_Knife,								W,			1000,			265
+		MSFC_DownrangeTomahawk,							W,			1000,			265
 		BrassKnuckles_Shiny,								W,		300,		200
 		StunBaton,													W,		450,		300
 		Pipe,																W,		200,		100
@@ -493,8 +505,8 @@
 		BaseballBat,												W,		350,		170
 		NailedBaseballBat,									W,		550,		200
 
-	<Category> Sidearms
-		MakarovIJ70,												W,		1000,	25
+	<Category> Пистолеты
+		MakarovIJ70,												W,		100,	25
 		CZ75,																W,		125,	30
 		FNX45,															W,		350,	190
 		Glock19,														W,		600,	230
@@ -502,42 +514,36 @@
 		Colt1911,														W,		640,	280
 		Engraved1911,												W,		1740,	180
 
-	<Category> Rifles
-		Izh18,															W,		350,	150
-		Mosin9130,													W,		1100,	600
-		CZ527,															W,		1000,	600
-		Winchester70,												W,		3000,	1500
-		SKS,																W,		2600,	1000
-
-	<Category> Shotguns
-		Mp133Shotgun,												W,		900,	400
-		Izh43Shotgun,												W,		500,	250
-		Saiga,															W,		1500,	600
-
-	<Category> Submachine Guns
+	<Category> Пистолеты-пулеметы
 		CZ61,																W,		400,	100
 		UMP45,															W,		500,	200
 		MP5K,																W,		350,	175
 		AKS74U,															W,		1100,	600
 
-	<Category> Assault Rifles
+	<Category> Винтовки
 		FAL,																W,		30000,	5500
 		AKM,																W,		3000,	1750
 		AK101,															W,		5000,	2750
 		AK74,																W,		3300,	1380
 		M4A1,																W,		5000,	2750
 
-	<Category> SQUAD MSF-C Melee Weapons
-	    MSFC_Huntsman_Knife,							*,		1000,		265
-	    MSFC_DownrangeTomahawk,						*,		1000,		265
-
-	<Category> Sniper Rifles
+	<Category> Снайп. Винтовки
+		Izh18,															W,		350,	150
+		Mosin9130,													W,		1100,	600
+		CZ527,															W,		1000,	600
+		Winchester70,												W,		3000,	1500
+		SKS,																W,		2600,	1000
 		VSS,																W,		16000,	9600
 		B95,																W,		10000,	-1
 		SVD,																W,		7000,	3001
 
-	<Category> Grenades
-		RGD5Grenade,												1,		-1,	100
+	<Category> Дробовики
+		Mp133Shotgun,												W,		900,	400
+		Izh43Shotgun,												W,		500,	250
+		Saiga,															W,		1500,	600
+
+	<Category> Гранаты
+		RGD5Grenade,												1,		-1,		100
 		M67Grenade,													1,		300,	100
 		M18SmokeGrenade_Red,								1,		300,	100
 		M18SmokeGrenade_Green,							1,		300,	100
@@ -548,16 +554,6 @@
 		RDG2SmokeGrenade_White,							1,		300,	100
 		FlashGrenade,												1,		300,	100
 
-	<Category> Melee
-		Msp_VorpalKnife,										W,      1000,   	100
-		Msp_GoodNightBat,										W,      5000,    	250
-		Msp_BeanBasher,											W,      5000,    	250
-		Msp_PipeAxe,												W,      5000,    	250
-		Msp_PlainBat,												W,      5000,    	250
-		Msp_PlainBat_Blue,									W,      5000,    	250
-		Msp_PlainBat_Black,									W,      5000,    	250
-		Msp_BlunderBat,											W,      5000,    	250
-		Msp_BassAxe,												W,      5000,    	250
 
 		<Category> SQUAD MSF-C Weapons
 		MSFC_OSV96,													W,		40000,		20000
