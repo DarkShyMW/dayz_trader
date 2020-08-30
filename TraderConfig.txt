@@ -2770,7 +2770,7 @@
 		SkateHelmet_Black,													*,		470,		220
 		SkateHelmet_Green,													*,		500,		230
 		HockeyHelmet_Red,														*,		500,		230
-		HockeyHelmet_Blue,													*,		500			130
+		HockeyHelmet_Blue,													*,		500,		130
 		HockeyHelmet_White,													*,		500,		130
 		HockeyHelmet_Black,													*,		550,		140
 		DirtBikeHelmet_Mouthguard,									*,  	250,		40
@@ -2804,123 +2804,123 @@
 		Mich2001Helmet,															*,		1500,		400
 		GorkaHelmetVisor,														*,		500,		200
 		GorkaHelmet,																*,		1900,		500
-		MSFCGorkaHelmetMulticamBlack,								*,		1000,		65
-		MSFCGorkaHelmetMulticamTropic,							*,		1000,		65
-		MSFCGorkaHelmetMulticam,										*,		1000,		65
-		MSFCDigitalNavyGorkaHelmet,									*,		1000,		65
-		MSFCGorkaHelmetSURPATDesert,								*,		1000,		65
-		MSFCGorkaHelmetSURPAT,											*,		1000,		65
-		MSFCGorkaHelmetATACSAU,											*,		1000,		65
-		MSFCGorkaHelmetATACSAU,											*,		1000,		65
+		MSFCGorkaHelmetMulticamBlack,								*,		4000,		1650
+		MSFCGorkaHelmetMulticamTropic,							*,		4000,		1650
+		MSFCGorkaHelmetMulticam,										*,		4000,		1650
+		MSFCDigitalNavyGorkaHelmet,									*,		4000,		1650
+		MSFCGorkaHelmetSURPATDesert,								*,		4000,		1650
+		MSFCGorkaHelmetSURPAT,											*,		4000,		1650
+		MSFCGorkaHelmetATACSAU,											*,		4000,		1650
+		MSFCGorkaHelmetATACSAU,											*,		4000,		1650
 		Ssh68Helmet,																*,		2500,		800
 		BallisticHelmet_UN,													*,		2500,		800
 		BallisticHelmet_Black,											*,		3000,		1000
 		BallisticHelmet_Green,											*,		3500,		1100
-		MSFCMich2000HelmetMulticamBlack,						*,		1000,		65
-		MSFCMich2000HelmetMulticamTropic,						*,		1000,		65
-		MSFCMich2000HelmetMulticam,									*,		1000,		65
-		MSFCMich2000HelmetSKULL,										*,		1000,		65
-		MSFCMich2000HelmetSURPATDesert,							*,		1000,		65
-		MSFCMich2000HelmetSURPAT,										*,		1000,		65
-		MSFCMich2000HelmetATACSAU,									*,		1000,		65
-		MSFCMich2000HelmetATACSAU,									*,		1000,		65
-		MSFC_AdvancedCombatHelmet_ACU,							*,		1000,		65
-		MSFC_AdvancedCombatHelmet_Green,						*,		1000,		65
-		MSFC_AdvancedCombatHelmet_Black,						*,		1000,		65
-		MSFC_AdvancedCombatHelmet_Desert,						*,		1000,		65
-		MSFC_AdvancedCombatHelmet_BDU,							*,		1000,		65
-		MSFC_AdvancedCombatHelmet_MarpatWD,					*,		1000,		65
-		MSFC_AdvancedCombatHelmet_MarpatDE,					*,		1000,		65
-		MSFC_HelmetPatch_Chernarus,									*,		1000,		65
-		MSFC_HelmetPatch_FSB,												*,		1000,		65
-		MSFC_HelmetPatch_MAMA_IM_SPEC,							*,		1000,		65
-		MSFC_HelmetPatch_MEDIC_EN,									*,		1000,		65
-		MSFC_HelmetPatch_MEDIC_RU,									*,		1000,		65
-		MSFC_HelmetPatch_MSFC_TEXT,									*,		1000,		65
-		MSFC_HelmetPatch_POEHAVSHY,									*,		1000,		65
-		MSFC_HelmetPatch_SBCH,											*,		1000,		65
-		MSFC_HelmetPatch_SOFA_ARMY_RF,							*,		1000,		65
-		MSFC_HelmetPatch_BENDER,										*,		1000,		65
-		MSFC_HelmetPatch_MSFC,											*,		1000,		65
-		MSFC_HelmetPatch_RU,												*,		1000,		65
-		MSFC_HelmetPatch_BY,												*,		1000,		65
-		MSFC_HelmetPatch_UA,												*,		1000,		65
-		MSFC_HelmetPatch_DE,												*,		1000,		65
-		MSFC_HelmetPatch_US,												*,		1000,		65
-		MSFC_HelmetPatch_Afghanistan,								*,		1000,		65
-		MSFC_HelmetPatch_Australia,									*,		1000,		65
-		MSFC_HelmetPatch_Austria,										*,		1000,		65
-		MSFC_HelmetPatch_Belgium,										*,		1000,		65
-		MSFC_HelmetPatch_Canada,										*,		1000,		65
-		MSFC_HelmetPatch_Croatia,										*,		1000,		65
-		MSFC_HelmetPatch_Czech,											*,		1000,		65
-		MSFC_HelmetPatch_DANGER,										*,		1000,		65
-		MSFC_HelmetPatch_Denmark,										*,		1000,		65
-		MSFC_HelmetPatch_Estonia,										*,		1000,		65
-		MSFC_HelmetPatch_Finland,										*,		1000,		65
-		MSFC_HelmetPatch_France,										*,		1000,		65
-		MSFC_HelmetPatch_Greece,										*,		1000,		65
-		MSFC_HelmetPatch_Hungary,										*,		1000,		65
-		MSFC_HelmetPatch_Irland,										*,		1000,		65
-		MSFC_HelmetPatch_Island,										*,		1000,		65
-		MSFC_HelmetPatch_Israel,										*,		1000,		65
-		MSFC_HelmetPatch_Italy,											*,		1000,		65
-		MSFC_HelmetPatch_Japan,											*,		1000,		65
-		MSFC_HelmetPatch_Netherlands,								*,		1000,		65
-		MSFC_HelmetPatch_Norway,										*,		1000,		65
-		MSFC_HelmetPatch_Poland,										*,		1000,		65
-		MSFC_HelmetPatch_Portugal,									*,		1000,		65
-		MSFC_HelmetPatch_Puerto,										*,		1000,		65
-		MSFC_HelmetPatch_SA,												*,		1000,		65
-		MSFC_HelmetPatch_Scotland,									*,		1000,		65
-		MSFC_HelmetPatch_Sweden,										*,		1000,		65
-		MSFC_HelmetPatch_Switzerland,								*,		1000,		65
-		MSFC_HelmetPatch_Thailand,									*,		1000,		65
-		MSFC_HelmetPatch_Turkey,										*,		1000,		65
-		MSFC_HelmetPatch_UK,												*,		1000,		65
-		MSFC_HelmetPatch_UN,												*,		1000,		65
-		MSFC_HelmetPatch_715,												*,		1000,		65
-		MSFC_IBH_Helmet_Desert,											*,		1000,		65
-		MSFC_IBH_Helmet_Black,											*,		1000,		65
-		MSFC_IBH_Helmet_Green,											*,		1000,		65
-		MSFC_IBH_Helmet_White,											*,		1000,		65
-		MSFC_IBH_Helmet_Gray,												*,		1000,		65
-		MSFCRussianMilitaryHelmet,									*,		1000,		65
-		MSFCSTALKERMilitaryHelmet,									*,		1000,		65
-		MSFCCSATHelmet,															*,		1000,		65
-		MSFCBlackCamoHelmet,												*,		1000,		65
-		MSFCUmbrellaHelmet,													*,		1000,		65
-		MSFCFlecktarnHelmet,												*,		1000,		65
-		MSFCDigitalNavyHelmet,											*,		1000,		65
-		MSFCRMRHelmet,															*,		1000,		65
-		MSFCACUHelmet,															*,		1000,		65
-		MSFCCadpatHelmet,														*,		1000,		65
-		MSFC_CombatHelmet_Green,										*,		1000,		65
-		MSFC_CombatHelmet_Black,										*,		1000,		65
-		MSFC_CombatHelmet_Desert,										*,		1000,		65
-		MSFCSTALKERDolgHelmet,											*,		1000,		65
-		MSFCSTALKERMercHelmet,											*,		1000,		65
-		MSFCSTALKERMonolitHelmet,										*,		1000,		65
-		MSFCSTALKERClearSkyHelmet,									*,		1000,		65
-		MilitaryGear_TacticalHelmet_PartizanM,			*,		150,		75
-		MilitaryGear_TacticalHelmet_PartizanM,			*,		150,		75
-		MilitaryGear_TacticalHelmet_PartizanM,			*,		150,		75
-		MilitaryGear_TacticalHelmet_PartizanM,			*,		160,		80
-		MilitaryGear_TacticalHelmet_Duckhunter,			*,		160,		80
-		MilitaryGear_TacticalHelmet_Multicam,				*,		160,		80
-		MilitaryGear_TacticalHelmet_Splinter,				*,		160,		80
-		MilitaryGear_TacticalHelmet_Splinter_Dark,	*,		160,		80
-		MilitaryGear_TacticalHelmet_Tiger,					*,		160,		80
-		MilitaryGear_TacticalHelmet_Woodland,				*,		160,		80
-		MilitaryGear_TacticalHelmet_FLT,						*,		160,		80
-		MilitaryGear_TacticalHelmet_DPM,						*,		160,		80
-		MilitaryGear_TacticalHelmet_MPAT,						*,		160,		80
-		MilitaryGear_TacticalHelmet_Partizan,				*,		160,		80
-		MilitaryGear_TacticalHelmet_Skol,						*,		160,		80
-		MilitaryGear_TacticalHelmet_ATACS,					*,		160,		80
-		MilitaryGear_TacticalHelmet_CADPAT,					*,		160,		80
-		MilitaryGear_TacticalHelmet_Tropic,					*,		160,		80
-		MilitaryGear_TacticalHelmet_Yeger,					*,		160,		80
+		MSFCMich2000HelmetMulticamBlack,						*,		2000,		650
+		MSFCMich2000HelmetMulticamTropic,						*,		2000,		650
+		MSFCMich2000HelmetMulticam,									*,		2000,		650
+		MSFCMich2000HelmetSKULL,										*,		2000,		650
+		MSFCMich2000HelmetSURPATDesert,							*,		2000,		650
+		MSFCMich2000HelmetSURPAT,										*,		2000,		650
+		MSFCMich2000HelmetATACSAU,									*,		2000,		650
+		MSFCMich2000HelmetATACSAU,									*,		2000,		650
+		MSFC_AdvancedCombatHelmet_ACU,							*,		2000,		650
+		MSFC_AdvancedCombatHelmet_Green,						*,		1000,		650
+		MSFC_AdvancedCombatHelmet_Black,						*,		1000,		650
+		MSFC_AdvancedCombatHelmet_Desert,						*,		1000,		650
+		MSFC_AdvancedCombatHelmet_BDU,							*,		1000,		650
+		MSFC_AdvancedCombatHelmet_MarpatWD,					*,		1000,		650
+		MSFC_AdvancedCombatHelmet_MarpatDE,					*,		1000,		650
+		MSFC_IBH_Helmet_Desert,											*,		3500,		1400
+		MSFC_IBH_Helmet_Black,											*,		3500,		1400
+		MSFC_IBH_Helmet_Green,											*,		3500,		1400
+		MSFC_IBH_Helmet_White,											*,		3500,		1400
+		MSFC_IBH_Helmet_Gray,												*,		3500,		1400
+		MSFCRussianMilitaryHelmet,									*,		2000,		650
+		MSFCSTALKERMilitaryHelmet,									*,		2000,		650
+		MSFCCSATHelmet,															*,		2000,		650
+		MSFCBlackCamoHelmet,												*,		2000,		650
+		MSFCUmbrellaHelmet,													*,		2000,		650
+		MSFCFlecktarnHelmet,												*,		2000,		650
+		MSFCDigitalNavyHelmet,											*,		2000,		650
+		MSFCRMRHelmet,															*,		2000,		650
+		MSFCACUHelmet,															*,		2000,		650
+		MSFCCadpatHelmet,														*,		6500,		3000
+		MSFC_CombatHelmet_Green,										*,		6500,		3000
+		MSFC_CombatHelmet_Black,										*,		6500,		3000
+		MSFC_CombatHelmet_Desert,										*,		6500,		3000
+		MSFCSTALKERDolgHelmet,											*,		6500,		3000
+		MSFCSTALKERMercHelmet,											*,		6500,		3000
+		MSFCSTALKERMonolitHelmet,										*,		6500,		3000
+		MSFCSTALKERClearSkyHelmet,									*,		6500,		3000
+		MilitaryGear_TacticalHelmet_PartizanM,			*,		3900,		1750
+		MilitaryGear_TacticalHelmet_PartizanM,			*,		3900,		1750
+		MilitaryGear_TacticalHelmet_PartizanM,			*,		3900,		1750
+		MilitaryGear_TacticalHelmet_PartizanM,			*,		3900,		1800
+		MilitaryGear_TacticalHelmet_Duckhunter,			*,		3900,		1800
+		MilitaryGear_TacticalHelmet_Multicam,				*,		3900,		1800
+		MilitaryGear_TacticalHelmet_Splinter,				*,		3900,		1800
+		MilitaryGear_TacticalHelmet_Splinter_Dark,	*,		3900,		1800
+		MilitaryGear_TacticalHelmet_Tiger,					*,		3900,		1800
+		MilitaryGear_TacticalHelmet_Woodland,				*,		3900,		1800
+		MilitaryGear_TacticalHelmet_FLT,						*,		3900,		1800
+		MilitaryGear_TacticalHelmet_DPM,						*,		3900,		1800
+		MilitaryGear_TacticalHelmet_MPAT,						*,		3900,		800
+		MilitaryGear_TacticalHelmet_Partizan,				*,		3900,		1800
+		MilitaryGear_TacticalHelmet_Skol,						*,		3900,		1800
+		MilitaryGear_TacticalHelmet_ATACS,					*,		3900,		1800
+		MilitaryGear_TacticalHelmet_CADPAT,					*,		3900,		1800
+		MilitaryGear_TacticalHelmet_Tropic,					*,		3900,		1800
+		MilitaryGear_TacticalHelmet_Yeger,					*,		3900,		1800
+		MSFC_HelmetPatch_Chernarus,									*,		1000,		300
+		MSFC_HelmetPatch_FSB,												*,		1000,		300
+		MSFC_HelmetPatch_MAMA_IM_SPEC,							*,		1000,		300
+		MSFC_HelmetPatch_MEDIC_EN,									*,		1000,		300
+		MSFC_HelmetPatch_MEDIC_RU,									*,		1000,		300
+		MSFC_HelmetPatch_MSFC_TEXT,									*,		1000,		300
+		MSFC_HelmetPatch_POEHAVSHY,									*,		1000,		300
+		MSFC_HelmetPatch_SBCH,											*,		1000,		300
+		MSFC_HelmetPatch_SOFA_ARMY_RF,							*,		1000,		300
+		MSFC_HelmetPatch_BENDER,										*,		1000,		300
+		MSFC_HelmetPatch_MSFC,											*,		1000,		300
+		MSFC_HelmetPatch_RU,												*,		1000,		300
+		MSFC_HelmetPatch_BY,												*,		1000,		300
+		MSFC_HelmetPatch_UA,												*,		1000,		300
+		MSFC_HelmetPatch_DE,												*,		1000,		300
+		MSFC_HelmetPatch_US,												*,		1000,		300
+		MSFC_HelmetPatch_Afghanistan,								*,		1000,		300
+		MSFC_HelmetPatch_Australia,									*,		1000,		300
+		MSFC_HelmetPatch_Austria,										*,		1000,		300
+		MSFC_HelmetPatch_Belgium,										*,		1000,		300
+		MSFC_HelmetPatch_Canada,										*,		1000,		300
+		MSFC_HelmetPatch_Croatia,										*,		1000,		300
+		MSFC_HelmetPatch_Czech,											*,		1000,		300
+		MSFC_HelmetPatch_DANGER,										*,		1000,		300
+		MSFC_HelmetPatch_Denmark,										*,		1000,		300
+		MSFC_HelmetPatch_Estonia,										*,		1000,		300
+		MSFC_HelmetPatch_Finland,										*,		1000,		300
+		MSFC_HelmetPatch_France,										*,		1000,		300
+		MSFC_HelmetPatch_Greece,										*,		1000,		300
+		MSFC_HelmetPatch_Hungary,										*,		1000,		300
+		MSFC_HelmetPatch_Irland,										*,		1000,		300
+		MSFC_HelmetPatch_Island,										*,		1000,		300
+		MSFC_HelmetPatch_Israel,										*,		1000,		300
+		MSFC_HelmetPatch_Italy,											*,		1000,		300
+		MSFC_HelmetPatch_Japan,											*,		1000,		300
+		MSFC_HelmetPatch_Netherlands,								*,		1000,		300
+		MSFC_HelmetPatch_Norway,										*,		1000,		300
+		MSFC_HelmetPatch_Poland,										*,		1000,		300
+		MSFC_HelmetPatch_Portugal,									*,		1000,		300
+		MSFC_HelmetPatch_Puerto,										*,		1000,		300
+		MSFC_HelmetPatch_SA,												*,		1000,		300
+		MSFC_HelmetPatch_Scotland,									*,		1000,		300
+		MSFC_HelmetPatch_Sweden,										*,		1000,		300
+		MSFC_HelmetPatch_Switzerland,								*,		1000,		300
+		MSFC_HelmetPatch_Thailand,									*,		1000,		300
+		MSFC_HelmetPatch_Turkey,										*,		1000,		300
+		MSFC_HelmetPatch_UK,												*,		1000,		300
+		MSFC_HelmetPatch_UN,												*,		1000,		300
+		MSFC_HelmetPatch_715,												*,		1000,		300
 
 	<Category> Masks
 		SurgicalMask,																*,		150,		30
@@ -2996,7 +2996,7 @@
 		MSFCSURPATDesertMask,												*,		1100,		650
 		MSFCSURPATMask,															*,		1100,		650
 		MSFCATACSAUMask,														*,		1100,		650
-		MSFCATACSAUMask,														*,		1100,		650
+		MSFCATACSAUMask,														*,		200,		100
 		Balaclava3Holes_Blue,												*,		200,		100
 		Balaclava3Holes_Beige,											*,		200,		100
 		Balaclava3Holes_Black,											*,		200,		100
@@ -3338,8 +3338,32 @@
 	<Category> Belt
 		CivilianBelt,																*,		300,		100
 		MilitaryBelt,																*,		900,		450
+		MSFC_WarBelt_MulticamBlack,									*,		1000,		500
+		MSFC_WarBelt_MulticamTropic,								*,		1000,		500
+		MSFC_WarBelt_Multicam,											*,		1000,		500
+		MSFC_WarBelt_Black,													*,		1000,		500
+		MSFC_WarBelt_Desert,												*,		1000,		500
+		MSFC_WarBelt_SURPATDesert,									*,		1000,		500
+		MSFC_WarBelt_SURPAT,												*,		1000,		500
+		MSFC_WarBelt_ATACSAU,												*,		1000,		500
+		MSFC_WarBelt_ATACSAU,												*,		1000,		500
 		MSFC_Pantera_TacBeltSmall,									*,		2500,		1250
 		MSFC_PanteraAutumn_TacBeltSmall,						*,		2500,		1250
+		MSFC_Pantera_TacBeltLite,										*,		2000,		1000
+		MSFC_PanteraAutumn_TacBeltLite,							*,		2000,		1000
+		MSFC_TacticalBeltLite_Multicam,							*,		2000,		1000
+		MSFC_TacticalBeltLite_MulticamBlack,				*,		2000,		1000
+		MSFC_TacticalBeltLite_MulticamTropic,				*,		2000,		1000
+		MSFC_TacticalBeltLite_EMR,									*,		2000,		1000
+		MSFC_TacticalBeltLite_Flecktarn,						*,		2000,		1000
+		MSFC_TacticalBeltLite_ACU,									*,		2000,		1000
+		MSFC_TacticalBeltLite_Black,								*,		2000,		1000
+		MSFC_TacticalBeltLite_Green,								*,		2000,		1000
+		MSFC_TacticalBeltLite_Desert,								*,		2000,		1000
+		MSFC_TacticalBeltLite_SURPATDesert,					*,		2000,		1000
+		MSFC_TacticalBeltLite_SURPAT,								*,		2000,		1000
+		MSFC_TacticalBeltLite_ATACSAU,							*,		2000,		1000
+		MSFC_TacticalBeltLite_ATACSAU,							*,		2000,		1000
 		MSFC_TacticalBeltSmall_Multicam,						*,		2500,		1250
 		MSFC_TacticalBeltSmall_MulticamBlack,				*,		2500,		1250
 		MSFC_TacticalBeltSmall_MulticamTropic,			*,		2500,		1250
@@ -3368,19 +3392,6 @@
 		MSFC_TacticalBeltMedium_SURPAT,							*,		5000,		2500
 		MSFC_TacticalBeltMedium_ATACSAU,						*,		5000,		2500
 		MSFC_TacticalBeltMedium_ATACSAU,						*,		5000,		2500
-		MSFC_TacticalBeltLite_Multicam,							*,		7500,		4500
-		MSFC_TacticalBeltLite_MulticamBlack,				*,		7500,		4500
-		MSFC_TacticalBeltLite_MulticamTropic,				*,		7500,		4500
-		MSFC_TacticalBeltLite_EMR,									*,		7500,		4500
-		MSFC_TacticalBeltLite_Flecktarn,						*,		7500,		4500
-		MSFC_TacticalBeltLite_ACU,									*,		7500,		4500
-		MSFC_TacticalBeltLite_Black,								*,		7500,		4500
-		MSFC_TacticalBeltLite_Green,								*,		7500,		4500
-		MSFC_TacticalBeltLite_Desert,								*,		7500,		4500
-		MSFC_TacticalBeltLite_SURPATDesert,					*,		7500,		4500
-		MSFC_TacticalBeltLite_SURPAT,								*,		7500,		4500
-		MSFC_TacticalBeltLite_ATACSAU,							*,		7500,		4500
-		MSFC_TacticalBeltLite_ATACSAU,							*,		7500,		4500
 		MSFC_TacticalBelt_MulticamBlack,						*,		7500,		4500
 		MSFC_TacticalBelt_MulticamTropic,						*,		7500,		4500
 		MSFC_TacticalBelt_Multicam,									*,		7500,		4500
@@ -3393,20 +3404,9 @@
 		MSFC_TacticalBelt_SURPATDesert,				    	*,		7500,		4500
 		MSFC_TacticalBelt_SURPAT,										*,		7500,		4500
 		MSFC_TacticalBelt_ATACSAU,									*,		7500,		4500
+		MSFC_PanteraAutumn_TacBeltLarge,						*,		7500,		500
+		MSFC_Pantera_TacBeltLarge,									*,		7500,		500
 		MSFC_TacticalBelt_ATACSAU,									*,		1000,		65
-		MSFC_WarBelt_MulticamBlack,									*,		1000,		500
-		MSFC_WarBelt_MulticamTropic,								*,		1000,		500
-		MSFC_WarBelt_Multicam,											*,		1000,		500
-		MSFC_WarBelt_Black,													*,		1000,		500
-		MSFC_WarBelt_Desert,												*,		1000,		500
-		MSFC_WarBelt_SURPATDesert,									*,		1000,		500
-		MSFC_WarBelt_SURPAT,												*,		1000,		500
-		MSFC_WarBelt_ATACSAU,												*,		1000,		500
-		MSFC_WarBelt_ATACSAU,												*,		1000,		500
-		MSFC_Pantera_TacBeltLarge,									*,		1000,		500
-		MSFC_Pantera_TacBeltLite,										*,		1000,		500
-		MSFC_PanteraAutumn_TacBeltLarge,						*,		1000,		500
-		MSFC_PanteraAutumn_TacBeltLite,							*,		1000,		500
 
 	<Category> Bags
 		ChildBag_Red,																*,		500,			250
