@@ -1721,64 +1721,6 @@
 		MSFCSTALKERBanditRespirator,								*,		1000,		65
 		MSFCSTALKEREcologHood,											*,		1000,		65
 
-	<Category> Military Gear | Other
-
-
-	<Category> Military Gear | PartizanM
-
-	<Category> Military Gear | Duckhunter
-
-	<Category> Military Gear | Multicam
-
-	<Category> Military Gear | Splinter
-
-	<Category> Military Gear | Splinter_Dark
-
-	<Category> Military Gear | Tiger
-
-	<Category> Military Gear | Woodland
-
-	<Category> Military Gear | FLT
-
-
-	<Category> Military Gear | DPM
-	<Category> Military Gear | MPAT
-
-	<Category> Military Gear | Partizan
-
-	<Category> Military Gear | Skol
-
-	<Category> Military Gear | Tropic
-	<Category> Military Gear | Yeger
-
-		<Category> SQUAD MSF-C A-TACS AU
-		MSFC_TacticalCap_ATACSAU,										*,		1000,		65
-		MSFC_IFAK_ATACSAU,													*,		1000,		65
-		MSFCM65ATACSAU,															*,		1000,		65
-		MSFCPCU5ATACSAUComander,										*,		1000,		65
-		MSFCPCU5ATACSAUMedic,												*,		1000,		65
-		MSFCPCU5ATACSAUReconnaissance,							*,		1000,		65
-		MSFCPCU5ATACSAUSniper,											*,		1000,		65
-		MSFCPCU5ATACSAUSapper,											*,		1000,		65
-		MSFCPCU5ATACSAUMachineGun,									*,		1000,		65
-		MSFCPCU5ATACSAUEngineer,										*,		1000,		65
-		MSFCPCU5ATACSAUTrooper,											*,		1000,		65
-		MSFCCapATACSAU,															*,		1000,		65
-		MSFCGorkaJATACSAU,													*,		1000,		65
-		MSFCGorkaPATACSAU,													*,		1000,   650
-		MSFCMich2001SURPAT,													*,		1000,		65
-		MSFCHoodSURPAT,															*,		1000,		65
-		MSFCMich2001ATACSAU,												*,		1000,		65
-		MSFCHoodATACSAU,														*,		1000,		65
-		MSFCTortilaATACSAU,													*,		1000,		65
-		MSFCPCU5ATACSAUSupply,											*,		1000,		65
-		MSFCSweaterATACSAU,													*,		1000,		65
-		MSFCPCU5ATACSAUPartComander,								*,		1000,		65
-		MSFCOpsCoreATACSAU,													*,		1000,		65
-		MSFCPCU5ATACSAUNoPatch,											*,		1000,		65
-    MSFCGorkaJATACSAUNoPatch,										*,		1000,		65
-		MSFC_BottlePouch_ATACSAU,										*,		1000,		65
-
 	<Category> SQUAD MSF-C A-TACS AU
 		MSFC_TacticalCap_ATACSAU,										*,		1000,		65
 		MSFC_IFAK_ATACSAU,													*,		1000,		65
@@ -1843,10 +1785,10 @@
 		Armband_Green,															*,		150,		50
 
 	<Category> Gloves
-		SurgicalGloves_LightBlue,										*,		50,		10
-		SurgicalGloves_Blue,												*,		50,		10
-		SurgicalGloves_White,												*,		50,		10
-		SurgicalGloves_Green,												*,		50,		10
+		SurgicalGloves_LightBlue,										*,		50,			10
+		SurgicalGloves_Blue,												*,		50,			10
+		SurgicalGloves_White,												*,		50,			10
+		SurgicalGloves_Green,												*,		50,			10
 		WorkingGloves_Yellow,												*,		250,		60
 		WorkingGloves_Beige,												*,		300,		80
 		WorkingGloves_Brown,												*,		300,		80
