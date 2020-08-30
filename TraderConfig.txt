@@ -499,27 +499,56 @@
 		Msp_BassAxe,												W,      5000,    	250
 		MSFC_Huntsman_Knife,								W,			1000,			265
 		MSFC_DownrangeTomahawk,							W,			1000,			265
-		BrassKnuckles_Shiny,								W,		300,		200
-		StunBaton,													W,		450,		300
-		Pipe,																W,		200,		100
-		CattleProd,													W,		250,		100
-		BaseballBat,												W,		350,		170
-		NailedBaseballBat,									W,		550,		200
+		BrassKnuckles_Shiny,								W,			300,		200
+		StunBaton,													W,			450,		300
+		Pipe,																W,			200,		100
+		CattleProd,													W,			250,		100
+		BaseballBat,												W,			350,		170
+		NailedBaseballBat,									W,			550,		200
 
 	<Category> Пистолеты
 		MakarovIJ70,												W,		100,	25
-		CZ75,																W,		125,	30
+		CZ75,																W,		255,	130
 		FNX45,															W,		350,	190
 		Glock19,														W,		600,	230
 		MKII,																W,		320,	160
 		Colt1911,														W,		640,	280
 		Engraved1911,												W,		1740,	180
+		PB1967,															W,		250,	125
+		COLT_1911,													W,		700,	480
+		COLT_1911_Desert,										W,		1000,	480
+		COLT_1911_Camo,											W,		1000,	480
+		COLT_1911_Ranger,										W,		1000,	480
+		COLT_1911_Fury,											W,		1000,	480
+		COLT_1911_red,											W,		1000,	480
+		GSH18,															W,		640,	280
+		M1935,															W,		700,	480
+		p220,																W,		700,	480
+		NailgGun,														W,		100,	25
+		glock_18,														W,		600,	230
+		P99,																W,		640,	280
+		SR1M,																W,		200,	50
+		M9_Berreta,													W,		800,	400
+		Pistol_Tokarev,											W,		600,	300
+		Pistol_Tokarev_Old,									W,		700,	300
 
 	<Category> Пистолеты-пулеметы
 		CZ61,																W,		400,	100
 		UMP45,															W,		500,	200
 		MP5K,																W,		350,	175
 		AKS74U,															W,		1100,	600
+		FP4_AKS74U_Brown,										W,		1100,	600
+		FP4_AKS74U_Blue,										W,		1100,	600
+		FP4_AKS74U_Red,											W,		1100,	600
+		FP4_AKS74U,												  W,		1100,	600
+		FP4_AKS74U_Black,										W,		1100,	600
+		FP4_AKS74U_Green,										W,		1100,	600
+		SR2,																W,		350,	175
+		SR2_black,													W,		700,	350
+		MAC10,															W,		350,	175
+		MAC10_desert,												W,		700,	350
+		CBJ,																W,		700,	350
+		PP19_01,														W,		1000,	500
 
 	<Category> Винтовки
 		FAL,																W,		30000,	5500
@@ -527,6 +556,31 @@
 		AK101,															W,		5000,	2750
 		AK74,																W,		3300,	1380
 		M4A1,																W,		5000,	2750
+		CS5,																W,		10000,	3500
+		DDM,																W,		4599,	2749
+		FP4_AK101_Brown,										W,		5000,	2750
+		FP4_AK101_Blue,											W,		5000,	2750
+		FP4_AK101_red,											W,		5000,	2750
+		FP4_AK74_Brown,											W,		3300,	1380
+		FP4_AK74_Blue,											W,		3300,	1380
+		FP4_AK74_Red,												W,		3300,	1380
+		FP4_AK74,													  W,		3300,	1380
+		FP4_AK74_Black,											W,		3300,	1380
+		FP4_AK74_Green,											W,		3300,	1380
+		FP4_AK101,													W,		5000,	2750
+		FP4_AK101_Black,										W,		5000,	2750
+		FP4_AK101_Green,										W,		5000,	2750
+		sg550,															W,		4500,	2250
+		SG552,															W,		4800,	2400
+		AK74UM,															W,		3300,	1380
+		RPK,																W,		8000,	4000
+		RPK_camo,														W,		10000,	-1
+		KAC,																W,		3300,	1600
+		Kac_HB,															W,		3800,	1900
+		Kac_RedLine,												W,		6000,	3000
+		ACE23,															W,		3300,	1380
+		ace23_desert,												W,		6300,	3380
+		ace23_WhiteSpray,										W,		6300,	3380
 
 	<Category> Снайп. Винтовки
 		Izh18,															W,		350,	150
@@ -537,11 +591,42 @@
 		VSS,																W,		16000,	9600
 		B95,																W,		10000,	-1
 		SVD,																W,		7000,	3001
+		SCAR_OLD,														W,		20000 	10000
+		SCAR,																W,		25000 	12500
+		SCAR_Black,													W,		28000 	14500
+		SCAR_ASIMOV,												W,		28000 	14500
+		SCAR_HB,														W,		28000 	14500
+		AS_VAL_WhiteSpray ,									W,		20000,	10000
+		AS_VAL,															W,		18000,	9000
+		AS_VAL_Desert,											W,		20000,	10000
+		AS_VAL_green,												W,		20000,	10000
+		M1Carbine
+		K_98
+		FP4_WIN70														W,		6000,	3500
+		FP4_WIN70_black											W,		7000,	4000
+		FP4_WIN70_green											W,		7000,	4000
+		svt40																W,		2600,	1000
+		VSK94,															W,		20000,	10000
+		SVD_1963,														W,		15000,	7500
+		Vintorez_oldHard,										W,		36000,	18000
+		Vintorez_veteran,										W,		36000,	18000
+		Vintorez,														W,		18000,	9000
+		Vintorez_Old,												W,		20000,	10000
+		R700,																W,		10000,	5000
+		PSG1,																W,		12000,	6000
+		m82,																W,		-1,			-1
+		m82_308win,													W,		-1,			-1
 
 	<Category> Дробовики
 		Mp133Shotgun,												W,		900,	400
 		Izh43Shotgun,												W,		500,	250
 		Saiga,															W,		1500,	600
+		Saiga12,														W,		2500,	1250
+		TOZ34,															W,		500,	250
+		590_Shotgun,												W,		900,	400
+		M1912_Shotgun,											W,		500,	250
+		Mp153Shotgun_black,									W,		3500,	1500
+		Mp153Shotgun,												W,		3000,	1250
 
 	<Category> Гранаты
 		RGD5Grenade,												1,		-1,		100
@@ -982,6 +1067,15 @@
 		Ammo_308WinTracer,									10,		1000,		35
 		Ammo_762x39Tracer,									10,		200,		50
 		Ammo_762x54Tracer,									10,		120,		20
+		Ammo_nails,													10,		20,		10
+		Ammo_762x25,												10,		50,		25
+		Ammo_762x33,												10,		50,		25
+		Ammo_792x57,												10,		50,		25
+		Ammo_9x39Tracer,										10,		210,	105
+		Ammo_12x99,													10,		-1,		-1
+		Ammo_12x99Tracer_Green,							10,		-1,		-1
+		Ammo_12x99Tracer_Yell,							10,		-1,		-1
+
 		// When changing Prices here keep in Mind that Players
 		// can just unpack the Ammoboxes and sell the Ammo seperatly!
 		// Originally the Ammoboxes buying Price is 20% less than
@@ -1005,6 +1099,13 @@
 		AmmoBox_556x45Tracer_20Rnd,					*,		400,	80
 		AmmoBox_762x39Tracer_20Rnd,					*,		400,	80
 		AmmoBox_762x54Tracer_20Rnd,					*,		400,	80
+		AmmoBox_762x25_25Rnd,								*,		300,	250
+		AmmoBox_762x33_20Rnd,								*,		300,	250
+		AmmoBox_792x57_25Rnd,								*,		500,	350
+		AmmoBox_9x39_20Rnd_Tracer,					*,		1000,	650
+		AmmoBox_12x99_10Rnd,								10,		-1,		-1
+		AmmoBox_12x99_10Rnd_TracerGreen,		10,		-1,		-1
+		AmmoBox_12x99_10Rnd_TracerYell,			10,		-1,		-1
 
 	<Category> Magazines
 		Mag_IJ70_8Rnd,											M,		20,		10
@@ -1024,8 +1125,8 @@
 		Mag_AKM_30Rnd,											M,		500,	110
 		Mag_AKM_Palm30Rnd,									M,		500,	110
 		Mag_AKM_Drum75Rnd,									M,		9800,	800
-		Mag_AK101_30Rnd,										M,		520,	50
-		Mag_AK74_30Rnd,											M,		520,	50
+		Mag_AK101_30Rnd,										M,		520,	250
+		Mag_AK74_30Rnd,											M,		520,	250
 		Mag_STANAG_30Rnd,										M,		520,	110
 		Mag_STANAGCoupled_30Rnd,						M,		1500,	220
 		Mag_CMAG_10Rnd,											M,		120,	60
@@ -1038,6 +1139,46 @@
 		Mag_VEPR_10rnd,											M,		200,	100
 		Mag_VEPR_20rnd,											M,		500, 	300
 		Mag_VEPR_35rnd,											M,		750,	400
+		Mag_M1_15Rnds,											M,		200,	100
+		Mag_rpk_40Rnd_Tracers,							M,		750,	400
+		Mag_rpk_40RndSpar_Tracer,						M,		750,	400
+		Mag_val_20Rnd_coupled_Tracer,				M,		500, 	300
+		Mag_tokarev_8Rnd,										M,		120,	60
+		Mag_CS5_10rnd,											M,		800,	400
+		Mag_MakarovPB_8Rnd,									M,		120,	60
+		Mag_VSK94_20Rnd,										M,		220,	110
+		Mag_DDM_30Rnd,											M,		220,	110
+		Mag_rpk_40RndSpar										M,		300,	150
+		Mag_val_20Rnd_coupled,							M,		600,	300
+		Mag_vss_10Rnds_coupled,							M,		500,	200
+		Mag_GSH18_18Rnd,										M,		120,	60
+		Mag_m1935_13Rnd,										M,		120,	60
+		Mag_sg550_30Rnd,										M,		220,	110
+		mag_p220_8rnd,											M,		220,	110
+		Mag_SR2_30Rnd,											M,		220,	110
+		Mag_AK74UM_30Rnd,										M,		220,	110
+		Mag_mac10_30Rnd,										M,		220,	110
+		Mag_CBJ_20Rnd,											M,		180,	90
+		Mag_CBJ_30Rnd,											M,		240,	120
+		Mag_CBJ_50Rnd,											M,		320,	160
+		Mag_Nailgun_50n,										M,		240,	120
+		Mag_psg_5Rnd,												M,		220,	110
+		Mag_SR1M_18Rnd,											M,		220,	110
+		Mag_RPK_40Rnd,											M,		500, 	300
+		mag_svt_10rnd,											M,		400,	200
+		mag_kac_30rnd,											M,		220,	100
+		Mag_glock_18_17Rnd,									M,		300,	150
+		M_1911_7Rnd,												M,		400,	200
+		Mag_ace23_30rnd,										M,		520,	250
+		Mag_sg552_30Rnd,										M,		320,	160
+		Mag_pp19_30Rnd,											M,		220,	100
+		Mag_m9_15Rnd,												M,		220,	110
+		Mag_Scar_20rnd,											M,		620,	310
+		Mag_VAL_20Rnd,											M,		420,	210
+		mag_vss_10rnds,											M,		220,	110
+		Mag_pp99_16Rnd,											M,		220,	110
+		Mag_m82_10Rnd,											M,		-1,	-1
+		Mag_m82_10Rnd308,										M,		-1,	-1
 
 	<Category> Handguards
 		MP5_PlasticHndgrd,									*,		100,	50
@@ -1078,11 +1219,18 @@
 		PSO1Optic,													*,		1100,	600
 		PSO11Optic,													*,		1400,	840
 		KazuarOptic,												*,		2200,	1400
+		FalconOptic,												*,		5000,	2500
+		PN23Optic,												*,		2200,	1400
 
 	<Category> Supressors
 		PistolSuppressor,										*,		180,	75
 		AK_Suppressor,											*,		250,	125
 		M4_Suppressor,											*,		250,	125
+		556_Suppressor,											*,		250,	125
+		pbs1_Suppressor,										*,		250,	125
+		Tundra_Suppressor,									*,		250,	125
+		HX762_Suppressor,										*,		250,	125
+		PBS4_Suppressor,										*,		250,	125
 
 	<Category> Compensators
 		Mosin_Compensator,									*,		150,	75
