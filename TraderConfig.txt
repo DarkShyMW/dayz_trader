@@ -537,12 +537,13 @@
 		UMP45,															W,		500,	200
 		MP5K,																W,		350,	175
 		AKS74U,															W,		1100,	600
-		FP4_AKS74U_Brown,										W,		1100,	600
-		FP4_AKS74U_Blue,										W,		1100,	600
-		FP4_AKS74U_Red,											W,		1100,	600
-		FP4_AKS74U,												  W,		1100,	600
-		FP4_AKS74U_Black,										W,		1100,	600
-		FP4_AKS74U_Green,										W,		1100,	600
+		FP4_AKS74U,													W,		1100,	600
+		FP4_AKS74U_Brown,											W,		1100,	600
+		FP4_AKS74U_Blue,											W,		1100,	600
+		FP4_AKS74U_Red,												W,		1100,	600
+		FP4_AKS74U_Black,											W,		1100,	600
+		FP4_AKS74U_Green,											W,		1100,	600
+		FP4_AKS74U_Tactical,										W,		1100,	600
 		SR2,																W,		350,	175
 		SR2_black,													W,		700,	350
 		MAC10,															W,		350,	175
@@ -553,34 +554,29 @@
 	<Category> Винтовки
 		FAL,																W,		30000,	5500
 		AKM,																W,		3000,	1750
-		AK101,															W,		5000,	2750
 		AK74,																W,		3300,	1380
 		M4A1,																W,		5000,	2750
 		CS5,																W,		10000,	3500
 		DDM,																W,		4599,	2749
-		FP4_AK101_Brown,										W,		5000,	2750
-		FP4_AK101_Blue,											W,		5000,	2750
-		FP4_AK101_red,											W,		5000,	2750
-		FP4_AK74_Brown,											W,		3300,	1380
-		FP4_AK74_Blue,											W,		3300,	1380
-		FP4_AK74_Red,												W,		3300,	1380
-		FP4_AK74,													  W,		3300,	1380
-		FP4_AK74_Black,											W,		3300,	1380
-		FP4_AK74_Green,											W,		3300,	1380
-		FP4_AK101,													W,		5000,	2750
-		FP4_AK101_Black,										W,		5000,	2750
-		FP4_AK101_Green,										W,		5000,	2750
-		sg550,															W,		4500,	2250
-		SG552,															W,		4800,	2400
-		AK74UM,															W,		3300,	1380
+		AK101,																W,		4500,	2000
+		AK101_Green,														W,		4500,	2000
+		AK101_Black,														W,		4500,	2000
+		FP4_AK101_Purpure,													W,		5000,	2750
+		FP4_AK101_Blue,														W,		5000,	2750
+		FP4_AK101_Red,														W,		5000,	2750
+		FP4_AK101_Lime,														W,		5000,	2750
+		FP4_AK101_HungryOrange,												W,		6500,	3500
+		sg550,																W,		4500,	2250
+		SG552,																W,		4800,	2400
+		AK74UM,																W,		3300,	1380
 		RPK,																W,		8000,	4000
-		RPK_camo,														W,		10000,	-1
+		RPK_camo,															W,		10000,	-1
 		KAC,																W,		3300,	1600
-		Kac_HB,															W,		3800,	1900
-		Kac_RedLine,												W,		6000,	3000
-		ACE23,															W,		3300,	1380
-		ace23_desert,												W,		6300,	3380
-		ace23_WhiteSpray,										W,		6300,	3380
+		Kac_HB,																W,		3800,	1900
+		Kac_RedLine,														W,		6000,	3000
+		ACE23,																W,		3300,	1380
+		ace23_desert,														W,		6300,	3380
+		ace23_WhiteSpray,													W,		6300,	3380
 
 	<Category> Снайп. Винтовки
 		Izh18,															W,		350,	150
@@ -596,16 +592,16 @@
 		SCAR_Black,													W,		28000 	14500
 		SCAR_ASIMOV,												W,		28000 	14500
 		SCAR_HB,														W,		28000 	14500
-		AS_VAL_WhiteSpray ,									W,		20000,	10000
+		AS_VAL_WhiteSpray,									W,		20000,	10000
 		AS_VAL,															W,		18000,	9000
 		AS_VAL_Desert,											W,		20000,	10000
 		AS_VAL_green,												W,		20000,	10000
-		M1Carbine
-		K_98
+		M1Carbine,
+		K_98,
 		FP4_WIN70														W,		6000,	3500
-		FP4_WIN70_black											W,		7000,	4000
-		FP4_WIN70_green											W,		7000,	4000
-		svt40																W,		2600,	1000
+		FP4_WIN70_black,											W,		7000,	4000
+		FP4_WIN70_green,											W,		7000,	4000
+		svt40,																W,		2600,	1000
 		VSK94,															W,		20000,	10000
 		SVD_1963,														W,		15000,	7500
 		Vintorez_oldHard,										W,		36000,	18000
