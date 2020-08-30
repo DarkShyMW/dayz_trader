@@ -462,8 +462,6 @@
 		Msp_Bookcase_Kit,										*,		15000,	6000
 	<Category> Misc
 		Msp_Bunny,												  *,		1600,	200
-		Msp_SantaJacket,										*,		1600,	200
-		Msp_SantaPants,											*,		1600,	200
 		Msp_BeachUmbrella,									*,		1600,	200
 		Msp_BeachBall,											*,		1600,	200
 		Msp_Volleyball,											*,		1600,	200
@@ -1392,14 +1390,9 @@
 
 <Trader> Clothing Trader
 	<Category> SQUAD MSF-C Multicam Black
-		MSFC_JPC_Vest_MulticamBlack,								*,		3000,		65
-		MSFC_TAC_TEC_Vest_MulticamBlack,						*,		4000,		65
 		MSFC_TacticalCap_MulticamBlack,							*,		1000,		65
-		MSFCEmpty_Mags_Bag_MulticamBlack,						*,		1000,		65
 		MSFC_IFAK_MulticamBlack,										*,		1000,		65
-		MSFC_Defender_Vest_MulticamBlack,						*,		1000,		65
 		MSFCM65MulticamBlack,												*,		1000,		65
-		MSFCPantsMulticamBlack,											*,		1000,		65
 		MSFCPCU5MulticamBlackComander,							*,		1000,		65
 		MSFCPCU5MulticamBlackMedic,									*,		1000,		65
 		MSFCPCU5MulticamBlackReconnaissance,				*,		1000,		65
@@ -1411,39 +1404,19 @@
 		MSFCCapMulticamBlack,												*,		1000,		65
 		MSFCGorkaJMulticamBlack,										*,		1000,		65
 		MSFCGorkaPMulticamBlack,										*,		1000,		65
-		MSFCBootsMulticamBlack,											*,		1000,		65
-		MSFCUKVestMulticamBlack,										*,		1000,		65
-		MSFCTShirtMulticamBlack,										*,		1000,		65
-		MSFCTacVestMulticamBlack,										*,		1000,		65
-		MSFCTacVestMulticamBlackLogo,							  *,		1000,		65
-		MSFCTacVestMulticamBlackMedic,							*,		1000,		65
 		MSFCMich2001MulticamBlack,									*,		1000,		65
 		MSFCHoodMulticamBlack,											*,		1000,		65
-		MSFCBandanaMulticamBlack,										*,		1000,		65
-		MSFCPlateCarrierVestMulticamBlack,					*,		1000,		65
-		MSFCPlateCarrierVestMulticamBlackLogo,			*,		1000,		65
 		MSFCTortilaMulticamBlack,										*,		1000,		65
-		MSFCNBCPantsMulticamBlack,									*,		1000,		65
-		MSFCNBCJacketMulticamBlack,									*,		1000,		65
-		MSFCNBCBootsMulticamBlack,									*,		1000,		65
-		MSFCPlateCarrierVestMulticamBlackMedic,			*,		1000,		65
-		MSFCPlateHolsterMulticamBlack,							*,		1000,		65
-		MSFCPlatePouchesMulticamBlack,							*,		1000,		65
 		MSFCPCU5MulticamBlackSupply,								*,		1000,		65
 		MSFCSweaterMulticamBlack,										*,		1000,		65
-		MSFCPressVestMulticamBlack,									*,		1000,		65
 		MSFCPCU5MulticamBlackPartComander,					*,		1000,		65
-		MSFCSmershVestMulticamBlack,								*,		1000,		65
 		MSFCOpsCoreMulticamBlack,										*,		1000,		65
 		MSFCPCU5MulticamBlackNoPatch,								*,		1000,		65
     MSFCGorkaJMulticamBlackNoPatch,							*,		1000,		65
-    MSFCBootsLowaMulticamBlack,									*,		1000,		65
-    MSFCBootsTrekkingMulticamBlack,							*,		1000,		65
 		MSFCPouchCargoMulticamBlack,								*,		1000,		65
 		MSFCPouchIFAKMulticamBlack,									*,		1000,		65
 		MSFC_FaceMack_MulticamBlack,								*,		1000,		65
-		MSFCLowaZephyrBootsMulticamBlack,						*,		1000,		65
-    MSFC_G3Pants_MulticamBlack,									*,		1000,		65
+
 	<Category> Military Gear | Large Tents
 		MilitaryGear_LargeTent_ATACS,								*,		17000,		1200
 		MilitaryGear_LargeTent_CADPAT,							*,		17000,		1200
@@ -1481,14 +1454,9 @@
 		MilitaryGear_CarTent_Yeger,									*,		15000,		700
 
 	<Category> SQUAD MSF-C Multicam Tropic
-		MSFC_JPC_Vest_MulticamTropic,								*,		1000,		65
-		MSFC_TAC_TEC_Vest_MulticamTropic,						*,		1000,		65
 		MSFC_TacticalCap_MulticamTropic,						*,		1000,		65
-		MSFCEmpty_Mags_Bag_MulticamTropic,					*,		1000,		65
 		MSFC_IFAK_MulticamTropic,										*,		1000,		65
-		MSFC_Defender_Vest_MulticamTropic,					*,		1000,		65
 		MSFCM65MulticamTropic,											*,		1000,		65
-		MSFCPantsMulticamTropic,										*,		1000,		65
 		MSFCPCU5MulticamTropicComander,							*,		1000,		65
 		MSFCPCU5MulticamTropicMedic,								*,		1000,		65
 		MSFCPCU5MulticamTropicReconnaissance,				*,		1000,		65
@@ -1500,50 +1468,24 @@
 		MSFCCapMulticamTropic,											*,		1000,		65
 		MSFCGorkaJMulticamTropic,										*,		1000,		65
 		MSFCGorkaPMulticamTropic,										*,		1000,		65
-		MSFCBootsMulticamTropic,										*,		1000,		65
-		MSFCUKVestMulticamTropic,										*,		1000,		65
-		MSFCTShirtMulticamTropic,										*,		1000,		65
-		MSFCTacVestMulticamTropic,									*,		1000,		65
-		MSFCTacVestMulticamTropicLogo,							*,		1000,		65
-		MSFCTacVestMulticamTropicMedic,							*,		1000,		65
 		MSFCMich2001MulticamTropic,									*,		1000,		65
 		MSFCHoodMulticamTropic,											*,		1000,		65
-		MSFCBandanaMulticamTropic,									*,		1000,		65
-		MSFCPlateCarrierVestMulticamTropic,					*,		1000,		65
-		MSFCPlateCarrierVestMulticamTropicLogo,			*,		1000,		65
 		MSFCTortilaMulticamTropic,									*,		1000,		65
-		MSFCNBCPantsMulticamTropic,									*,		1000,		65
-		MSFCNBCJacketMulticamTropic,								*,		1000,		65
-		MSFCNBCBootsMulticamTropic,									*,		1000,		65
-		MSFCPlateCarrierVestMulticamTropicMedic,		*,		1000,		65
-		MSFCPlateHolsterMulticamTropic,							*,		1000,		65
-		MSFCPlatePouchesMulticamTropic,							*,		1000,		65
 		MSFCPCU5MulticamTropicSupply,								*,		1000,		65
 		MSFCSweaterMulticamTropic,									*,		1000,		65
-		MSFCPressVestMulticamTropic,								*,		1000,		65
 		MSFCPCU5MulticamTropicPartComander,					*,		1000,		65
-		MSFCSmershVestMulticamTropic,								*,		1000,		65
 		MSFCOpsCoreMulticamTropic,									*,		1000,		65
 		MSFCPCU5MulticamTropicNoPatch,							*,		1000,		65
     MSFCGorkaJMulticamTropicNoPatch,				    *,		1000,		65
-    MSFCBootsLowaMulticamTropic,								*,		1000,		65
-    MSFCBootsTrekkingMulticamTropic,						*,		1000,		65
     MSFCPouchCargoMulticamTropic,								*,		1000,		65
     MSFCPouchIFAKMulticamTropic,								*,		1000,		65
 		MSFC_FaceMack_MulticamTropic,								*,		1000,		65
-		MSFCLowaZephyrBootsMulticamTropic,					*,		1000,		65
     MSFC_BottlePouch_MulticamTropic,						*,		1000,		65
-    MSFC_G3Pants_MulticamTropic,								*,		1000,		65
 
 	<Category> SQUAD MSF-C Multicam
-		MSFC_JPC_Vest_Multicam,											*,		1000,		65
-		MSFC_TAC_TEC_Vest_Multicam,									*,		1000,		65
 		MSFC_TacticalCap_Multicam,									*,		1000,		65
-		MSFCEmpty_Mags_Bag_Multicam,								*,		1000,		65
 		MSFC_IFAK_Multicam,													*,		1000,		65
-		MSFC_Defender_Vest_Multicam,								*,		1000,		65
 		MSFCM65Multicam,														*,		1000,		65
-		MSFCPantsMulticam,													*,		1000,		65
 		MSFCPCU5MulticamComander,										*,		1000,		65
 		MSFCPCU5MulticamMedic,											*,		1000,		65
 		MSFCPCU5MulticamReconnaissance,							*,		1000,		65
@@ -1555,46 +1497,24 @@
 		MSFCCapMulticam,														*,		1000,		65
 		MSFCGorkaJMulticam,													*,		1000,		65
 		MSFCGorkaPMulticam,													*,		1000,		65
-		MSFCBootsMulticam,													*,		1000,		65
-		MSFCUKVestMulticam,													*,		1000,		65
-		MSFCTShirtMulticam,													*,		1000,		65
-		MSFCTacVestMulticam,												*,		1000,		65
-		MSFCTacVestMulticamLogo,										*,		1000,		65
-		MSFCTacVestMulticamMedic,										*,		1000,		65
 		MSFCMich2001Multicam,	                      *,		1000,		65
 		MSFCHoodMulticam,														*,		1000,		65
-		MSFCBandanaMulticam,												*,		1000,		65
-		MSFCPlateCarrierVestMulticam,								*,		1000,		65
-		MSFCPlateCarrierVestMulticamLogo,						*,		1000,		65
 		MSFCTortilaMulticam,												*,		1000,		65
-		MSFCNBCPantsMulticam,												*,		1000,		65
-		MSFCNBCJacketMulticam,											*,		1000,		65
-		MSFCNBCBootsMulticam,												*,		1000,		65
-		MSFCPlateCarrierVestMulticamMedic,					*,		1000,		65
-		MSFCPlateHolsterMulticam,										*,		1000,		65
-		MSFCPlatePouchesMulticam,										*,		1000,		65
 		MSFCPCU5MulticamSupply,											*,		1000,		65
 		MSFCSweaterMulticam,												*,		1000,		65
-		MSFCPressVestMulticam,											*,		1000,		65
 		MSFCPCU5MulticamPartComander,								*,		1000,		65
-		MSFCSmershVestMulticam,											*,		1000,		65
 		MSFCOpsCoreMulticam,												*,		1000,		65
 		MSFCPCU5MulticamNoPatch,										*,		1000,		65
     MSFCGorkaJMulticamNoPatch,									*,		1000,		65
-		MSFCBootsLowaMulticam,											*,		1000,		65
-    MSFCBootsTrekkingMulticam,									*,		1000,		65
     MSFCPouchCargoMulticam,											*,		1000,		65
     MSFCPouchIFAKMulticam,											*,		1000,		65
 	  MSFC_FaceMack_Multicam,											*,		1000,		65
     MSFC_BottlePouch_Multicam,									*,		1000,		65
-    MSFC_G3Pants_Multicam,											*,		1000,		65
 
 
 	<Category> SQUAD MSF-C Other Clothes
-	 MSFC_G3Pants_Flecktarn,											*,		1000,		65
-   MSFC_6B47_Cover_EMR,													*,		1000,		65
-   MSFC_G3Pants_EMR,														*,		1000,		65
-   MSFC_6B47_Cover_Desert,											*,		1000,		65
+   	MSFC_6B47_Cover_EMR,												*,		1000,		65
+   	MSFC_6B47_Cover_Desert,											*,		1000,		65
 		MSFC_6B47_Cover_Black,											*,		1000,		65
 		MSFC_6B47_Cover_Green,											*,		1000,		65
 		MSFCOpsCoreHeadPhones_Green,								*,		1000,		65
@@ -1604,12 +1524,6 @@
 		MSFCOpsCore_Mandible_Black,									*,		1000,		65
 		MSFCOpsCore_Visor_Black,										*,		1000,		65
 		MSFC_BC_NVG21,															*,		1000,		65
-		MSFC_JPC_Vest_Green,												*,		1000,		65
-		MSFC_JPC_Vest_Black,												*,		1000,		65
-		MSFC_JPC_Vest_Desert,												*,		1000,		65
-		MSFC_TAC_TEC_Vest_Green,										*,		1000,		65
-		MSFC_TAC_TEC_Vest_Black,										*,		1000,		65
-		MSFC_TAC_TEC_Vest_Desert,										*,		1000,		65
 		MSFC_TacticalCap_Green,											*,		1000,		65
 		MSFC_TacticalCap_Black,											*,		1000,		65
 		MSFC_TacticalCap_Desert,										*,		1000,		65
@@ -1624,16 +1538,9 @@
 		MSFC_ZSh12M_Visor_Gray,											*,		1000,		65
 		MSFC_ZSh12M_Visor_White,										*,		1000,		65
 		MSFC_ZSh12M_Visor_Bandit,										*,		1000,		65
-		MSFCLowaZephyrBootsMulticam,								*,		1000,		65
-		MSFCEmpty_Mags_Bag_Green,										*,		1000,		65
-		MSFCEmpty_Mags_Bag_Desert,									*,		1000,		65
-		MSFCEmpty_Mags_Bag_Black,										*,		1000,		65
 		MSFC_IFAK_Green,														*,		1000,		65
 		MSFC_IFAK_Desert,														*,		1000,		65
 		MSFC_IFAK_Black,														*,		1000,		65
-		MSFC_Defender_Vest_Green,										*,		1000,		65
-		MSFC_Defender_Vest_Black,										*,		1000,		65
-		MSFC_Defender_Vest_Desert,									*,		1000,		65
 		MSFC_BallisticGoggles_Green,								*,		1000,		65
 		MSFC_BallisticGoggles_Black,								*,		1000,		65
 		MSFC_BallisticGoggles_Desert,								*,		1000,		65
@@ -1641,7 +1548,6 @@
 		MSFC_6B47_Black,														*,		1000,		65
 		MSFC_6B47_Desert,														*,		1000,		65
 		MSFC_6B47_EMR,															*,		1000,		65
-		MSFC_Defender_Vest_EMR,											*,		1000,		65
 		MSFC_6B45_Green,														*,		1000,		65
 		MSFC_6B45_Black,														*,		1000,		65
 		MSFC_6B45_Desert,														*,		1000,		65
@@ -1655,227 +1561,47 @@
 		MSFC_6B23_TTSKO,														*,		1000,		65
 		MSFC_6B45_TTSKO,														*,		1000,		65
 		MSFCHeadPhones,															*,		1000,		65
-		MSFCTShirtBlack,														*,		1000,		65
-		MSFCRussianMilitaryJacket,									*,		1000,		65
-		MSFCRussianMilitaryJacketEmblem,						*,		1000,		65
-		MSFCRussianMilitaryPants,										*,		1000,		65
-		MSFCCSATVest,																*,		1000,		65
 		MSFC_Beret_Red,															*,		1000,		65
 		MSFC_Beret_Green,														*,		1000,		65
 		MSFC_Beret_Black,														*,		1000,		65
 		MSFC_Beret_Blue,														*,		1000,		65
 		MSFC_Beret_Orange,													*,		1000,		65
-		MSFCSmershVestBlack,												*,		1000,		65
-		MSFCSmershVestGreen,												*,		1000,		65
-		MSFCSmershVestTan,													*,		1000,		65
-		MSFCTShirtPahom,														*,		1000,		65
-		MSFCJacketMercer,														*,		1000,		65
-		MSFCTShirtDayZ,															*,		1000,		65
-		MSFCTShirtGreen,														*,		1000,		65
-		MSFCBalaclava3HolesDemonSkull,							*,		1000,		65
-		MSFCBalaclavaBlackSkullGhosts,							*,		1000,		65
-		MSFCBalaclavaBlackDemonSkull,								*,		1000,		65
-		MSFCBalaclavaBlackSugarSkull,								*,		1000,		65
-		MSFCBalaclavaBlackDevilRed,									*,		1000,		65
-		MSFCBalaclavaBlackDevilRog,									*,		1000,		65
-		MSFCTShirtGreenElephant,										*,		1000,		65
-		MSFCRussianMilitaryPlateVest,								*,		1000,		65
-		MSFCRussianMilitaryJacketTwo,								*,		1000,		65
-		MSFCRussianMilitaryCargoPants,							*,		1000,		65
-		MSFCRussianMilitaryCap,											*,		1000,		65
-		MSFCOFPResistancePants,											*,		1000,		65
-		MSFCRBGPants,																*,		1000,		65
-		MSFCOFPResistancePants,											*,		1000,		65
-		MSFCRBGJacket,															*,		1000,		65
-		MSFCOFPResistanceJacket,										*,		1000,		65
-		MSFCRBGVest,																*,		1000,		65
-		MSFCOFPResistanceVest,											*,		1000,		65
-		MSFCUSMCWhitePants,													*,		1000,		65
-		MSFCUSMCJacketWhite,												*,		1000,		65
-		MSFCGorkaPantsBrown,												*,		1000,		65
-		MSFCGorkaJacketBrown,												*,		1000,		65
-		MSFCRussianMilitaryPlatePouches,						*,		1000,		65
-		MSFCRussianMilitaryPlateHolster,						*,		1000,		65
-		MSFCBlackCamoPants,													*,		1000,		65
-		MSFCBlackCamoJacket,												*,		1000,		65
 		MSFC_FaceMack_Skull,												*,		1000,		65
 		MSFC_TacticalGoggles_Black,									*,		1000,		65
-		MSFCRussianMilitaryVest,										*,		1000,		65
-		MSFCCSATJacket,															*,		1000,		65
-		MSFCUSMCSurpatJacketComander,								*,		1000,		65
-		MSFCUSMCSurpatJacket,												*,		1000,		65
-		MSFCCSATPants,															*,		1000,		65
-		MSFCUSMCSurpatPants,												*,		1000,		65
-		MSFCBlackCamoBoots,													*,		1000,		65
-		MSFCBlackCamoVest,													*,		1000,		65
-		MSFCBlackCamoPlateHolster,									*,		1000,		65
-		MSFCBlackCamoPlatePouches,									*,		1000,		65
-		MSFCTStarsTShirt,														*,		1000,		65
-		MSFCTUmbrellaJacket,												*,		1000,		65
-		MSFCTStarsPants,														*,		1000,		65
-		MSFCUmbrellaPants,													*,		1000,		65
-		MSFCUmbrellaVest,														*,		1000,		65
-		MSFCStarsVest,															*,		1000,		65
-		MSFCFlecktarnJacket,												*,		1000,		65
-		MSFCFlecktarnPants,													*,		1000,		65
-		MSFCFlecktarnBoots,													*,		1000,		65
-		MSFCFlecktarnCap,														*,		1000,		65
-		MSFCFlecktarnPlateHolster,									*,		1000,		65
-		MSFCFlecktarnPlatePouches,									*,		1000,		65
-		MSFCFlecktarnPlateVest,											*,		1000,		65
-		MSFCBalaclavaBlackSkullAllien,							*,		1000,		65
-		MSFCBalaclavaBlackSkullUSA,									*,		1000,		65
-		MSFCBalaclavaBlackBear,											*,		1000,		65
-		MSFCBalaclavaBlackTiger,										*,		1000,		65
-		MSFCBalaclavaBlackFireSkull,								*,		1000,		65
-		MSFCBalaclavaBlack		MSFC,									*,		1000,		65
-		MSFCBalaclavaBlackSpider,										*,		1000,		65
-		MSFCBalaclavaBlackDemonHell,								*,		1000,		65
-		MSFCBalaclavaBlackChastener,								*,		1000,		65
-		MSFCBalaclavaBlackSamurai,									*,		1000,		65
-		MSFCBalaclavaBlackSkullPaint,								*,		1000,		65
-		MSFCBalaclavaBlackSpiderVenomCarnage,				*,		1000,		65
-		MSFCBalaclavaBlackBloodyMouth,							*,		1000,		65
+		MSFCRussianMilitaryCap,											*,		1000,		65
 		MSFCRussianMilitaryTortila,									*,		1000,		65
-		MSFCBalaclavaBlackPrizrak,									*,		1000,		65
 		MSFCDigitalNavyTortila,											*,		1000,		65
-		MSFCDigitalNavyPants,												*,		1000,		65
-		MSFCDigitalNavyJacket,											*,		1000,		65
-		MSFCDigitalNavyVest,												*,		1000,		65
-		MSFCDigitalNavyBoots,												*,		1000,		65
-		MSFCBlackTekStoVest,												*,		1000,		65
-		MSFCBlackTekStoJacket,											*,		1000,		65
-		MSFCBlackTekStoPants,												*,		1000,		65
+		MSFCFlecktarnCap,														*,		1000,		65
 		MSFCBlackTekStoCap,													*,		1000,		65
-		MSFCBlackTekStoBoots,												*,		1000,		65
-		MSFCBlackTekStoPlateHolster,								*,		1000,		65
-		MSFCBlackTekStoPlatePouches,								*,		1000,		65
-		MSFCBlackTekStoPlateVest,										*,		1000,		65
-		MSFCDigitalNavyPlateVest,										*,		1000,		65
-		MSFCDigitalNavyPlatePouches,								*,		1000,		65
-		MSFCDigitalNavyPlateHolster,								*,		1000,		65
-		MSFCUmbrellaPlateVest,											*,		1000,		65
-		MSFCUmbrellaHolster,												*,		1000,		65
 		MSFCUmbrellaPouches,												*,		1000,		65
-		MSFCRussianMilitaryGorkaPants,							*,		1000,		65
-		MSFCRussianMilitaryGorkaJacket,							*,		1000,		65
-		MSFCRussianMilitaryGorkaJacketFlag,					*,		1000,		65
 		MSFC_Beret_NavyBlue,												*,		1000,		65
-		MSFCSmershVestGray,													*,		1000,		65
-		MSFCRMRPants,																*,		1000,		65
-		MSFCRMRPCU5Jacket,													*,		1000,		65
-		MSFCRMRPlateVest,														*,		1000,		65
-		MSFCRMRPlateHolster,												*,		1000,		65
-		MSFCRMRPlatePouches,												*,		1000,		65
-		MSFCRMRSmershVest,													*,		1000,		65
-		MSFCACUPants,																*,		1000,		65
-		MSFCACUPCU5Jacket,													*,		1000,		65
-		MSFCACUJacket,															*,		1000,		65
-		MSFCRMRJacket,															*,		1000,		65
-		MSFCACUPlateVest,														*,		1000,		65
-		MSFCACUPlateHolster,												*,		1000,		65
-		MSFCACUPlatePouches,												*,		1000,		65
 		MSFCOpsCoreGray,														*,		1000,		65
 		MSFCOpsCoreTan,															*,		1000,		65
 		MSFCOpsCoreBlack,														*,		1000,		65
 		MSFCOpsCoreEMR,															*,		1000,		65
 		MSFCOpsCoreFlecktarn,												*,		1000,		65
-		MSFCDigitalNavyJacketNoPatch,								*,		1000,		65
-		MSFCFlecktarnJacketNoPatch,									*,		1000,		65
-		MSFCRMRPCU5JacketNoPatch,										*,		1000,		65
-		MSFCACUPCU5JacketNoPatch,										*,		1000,		65
-		MSFCCadpatPants,														*,		1000,		65
-		MSFCCadpatJacket,														*,		1000,		65
-		MSFCCadpatJacketNoPatch,										*,		1000,		65
-		MSFCCadpatJacketM65,												*,		1000,		65
-		MSFCCadpatVest,															*,		1000,		65
-		MSFCCadpatPlateHolster,											*,		1000,		65
-		MSFCCadpatPlatePouches,											*,		1000,		65
 		MSFCOpsCoreRMR,															*,		1000,		65
 		MSFCOpsCoreACU,															*,		1000,		65
 		MSFCOpsCoreRMRAutumn,												*,		1000,		65
-		MSFCRMRAutumnPants,													*,		1000,		65
-		MSFCRMRAutumnPCU5Jacket,										*,		1000,		65
-		MSFCRMRAutumnPCU5JacketNoPatch,							*,		1000,		65
-		MSFCRMRAutumnJacket,												*,		1000,		65
-		MSFCRMRAutumnPlateVest,											*,		1000,		65
-		MSFCRMRAutumnPlateHolster,									*,		1000,		65
-		MSFCRMRAutumnPlatePouches,									*,		1000,		65
 		MSFCRussianMilitaryMountain,								*,		1000,		65
 		MSFCFlecktarnTortila,												*,		1000,		65
-		MSFCRussianMilitaryPCU5Jacket,							*,		1000,		65
-		MSFCRussianMilitaryPCU5JacketNoPatch,				*,		1000,		65
-		MSFCRussianMilitaryBoots,										*,		1000,		65
 		MSFCOpsCoreKryptekNeptune,									*,		1000,		65
-        MSFCOpsCoreKryptekMandrake,							*,		1000,		65
-        MSFCOpsCoreKryptekBanshee,							*,		1000,		65
-        MSFCOpsCoreKryptekTyphon,								*,		1000,		65
-        MSFCKryptekBansheePants,								*,		1000,		65
-        MSFCKryptekBansheePCU5Jacket,						*,		1000,		65
-        MSFCKryptekBansheePlateVest,						*,		1000,		65
-        MSFCKryptekBansheePlateHolster,					*,		1000,		65
-        MSFCKryptekBansheePlatePouches,					*,		1000,		65
-        MSFCKryptekTyphonPants,									*,		1000,		65
-        MSFCKryptekTyphonPCU5Jacket,						*,		1000,		65
-        MSFCKryptekTyphonPlateVest,							*,		1000,		65
-        MSFCKryptekTyphonPlateHolster,					*,		1000,		65
-        MSFCKryptekTyphonPlatePouches,					*,		1000,		65
-        MSFCKryptekMandrakePants,								*,		1000,		65
-        MSFCKryptekMandrakePCU5Jacket,					*,		1000,		65
-        MSFCKryptekMandrakePlateVest,						*,		1000,		65
-        MSFCKryptekMandrakePlateHolster,				*,		1000,		65
-        MSFCKryptekMandrakePlatePouches,				*,		1000,		65
-        MSFCKryptekNeptunePants,								*,		1000,		65
-        MSFCKryptekNeptunePCU5Jacket,						*,		1000,		65
-        MSFCKryptekNeptunePlateVest,						*,		1000,		65
-        MSFCKryptekNeptunePlateHolster,					*,		1000,		65
-        MSFCKryptekNeptunePlatePouches,					*,		1000,		65
-        MSFCOpsCoreKryptekWraith,								*,		1000,		65
-        MSFCOpsCoreKryptekRaid,									*,		1000,		65
-        MSFCKryptekRaidPants,										*,		1000,		65
-        MSFCKryptekRaidPCU5Jacket,							*,		1000,		65
-        MSFCKryptekRaidPlateVest,								*,		1000,		65
-        MSFCKryptekRaidPlateHolster,						*,		1000,		65
-        MSFCKryptekRaidPlatePouches,						*,		1000,		65
-        MSFCKryptekWraithPants,									*,		1000,		65
-        MSFCKryptekWraithPCU5Jacket,						*,		1000,		65
-        MSFCKryptekWraithPlateVest,							*,		1000,		65
-        MSFCKryptekWraithPlateHolster,					*,		1000,		65
-        MSFCKryptekWraithPlatePouches,					*,		1000,		65
-        MSFCOpsCoreDigitalNavy,									*,		1000,		65
-        MSFCOpsCoreOlive,												*,		1000,		65
-        MSFCTacticalBeardBlack,									*,		1000,		65
-        MSFCTacticalBeardGray,									*,		1000,		65
-        MSFCTacticalBeardBlonde,								*,		1000,		65
-        MSFCTacticalBeardBrown,									*,		1000,		65
-        MSFCTacticalBeardRed,										*,		1000,		65
-        MSFC_Beret_Burgundy,										*,		1000,		65
-		MSFCGorkaJacketDesert,											*,		1000,		65
-        MSFCGorkaPantsDesert,										*,		1000,		65
-		MSFCGorkaJacketGreen,												*,		1000,		65
-        MSFCGorkaPantsGreen,										*,		1000,		65
-        MSFCGorkaJacketNavy,										*,		1000,		65
-        MSFCGorkaPantsNavy,											*,		1000,		65
-		MSFCTShirtDayZCherno,												*,		1000,		65
+    MSFCOpsCoreKryptekMandrake,									*,		1000,		65
+    MSFCOpsCoreKryptekBanshee,									*,		1000,		65
+    MSFCOpsCoreKryptekTyphon,										*,		1000,		65
+    MSFCOpsCoreDigitalNavy,											*,		1000,		65
+    MSFCOpsCoreOlive,														*,		1000,		65
+    MSFCTacticalBeardBlack,											*,		1000,		65
+    MSFCTacticalBeardGray,											*,		1000,		65
+    MSFCTacticalBeardBlonde,										*,		1000,		65
+    MSFCTacticalBeardBrown,											*,		1000,		65
+    MSFCTacticalBeardRed,												*,		1000,		65
+    MSFC_Beret_Burgundy,												*,		1000,		65
 		MSFCOpsCoreNVG,															*,		1000,		500
 		MSFCOpsCoreHeadPhones,											*,		1000,		65
 		MSFCOpsCoreEarProtectors,										*,		1000,		65
-		MSFCProjectHonorPants,											*,		1000,		65
 		MSFCProjectHonorMich2001,										*,		1000,		65
-		MSFCProjectHonorPCU5Jacket,									*,		1000,		65
-		MSFCProjectHonorPlateVest,									*,		1000,		65
-		MSFCProjectHonorPlateHolster,								*,		1000,		65
-		MSFCProjectHonorPlatePouches,								*,		1000,		65
-		MSFCAOR2Pants,															*,		1000,		65
 		MSFCAOR2Mich2001,														*,		1000,		65
-		MSFCAOR2PCU5Jacket,													*,		1000,		65
-		MSFCAOR2PlateVest,													*,		1000,		65
-		MSFCAOR2PlateHolster,												*,		1000,		65
-		MSFCAOR2PlatePouches,												*,		1000,		65
-		MSFCLowaZephyrBootsBeige,										*,		1000,		65
-		MSFCLowaZephyrBootsBlack,										*,		1000,		65
-		MSFCLowaZephyrBootsGreen,										*,		1000,		65
-		MSFCLowaZephyrBootsGray,										*,		1000,		65
 		MSFC_TacticalGoggles_Green,									*,		1000,		65
 		MSFC_TacticalGoggles_Desert,								*,		1000,		65
 		MSFC_TacticalGoggles_Gray,									*,		1000,		65
@@ -1887,152 +1613,59 @@
 		MSFCOpsCoreCADPAT,													*,		1000,		65
 		MSFCOpsCoreAOR1,														*,		1000,		65
 		MSFCOpsCoreProjectHonor,										*,		1000,		65
-        MSFCAltyn_Green,												*,		1000,		65
-        MSFCAltyn_Black,												*,		1000,		65
-        MSFCAltyn_Desert,												*,		1000,		65
-        MSFCAltyn_Gray,													*,		1000,		65
-        MSFCAltyn_White,												*,		1000,		65
-        MSFCAltynVisor_Green,										*,		1000,		65
-        MSFCAltynVisor_Black,										*,		1000,		65
-        MSFCAltynVisor_Desert,									*,		1000,		65
-        MSFCAltynVisor_Gray,										*,		1000,		65
-        MSFCAltynVisor_White,										*,		1000,		65
-        MSFCPouchCargoGreen,										*,		1000,		65
-        MSFCPouchCargoDesert,										*,		1000,		65
-        MSFCPouchCargoBlack,										*,		1000,		65
-        MSFCPouchIFAKGreen,											*,		1000,		65
-        MSFCPouchIFAKDesert,										*,		1000,		65
-        MSFCPouchIFAKBlack,											*,		1000,		65
-        MSFC_GPNVG18_Desert,										*,		1000,		65
-        MSFC_GPNVG18_Black,											*,		1000,		65
-        MSFC_GPNVG18_Green,											*,		1000,		65
-        MSFCSmershVestEMR,											*,		1000,		65
-		MSFC_TacGopJacket_EMR,											*,		1000,		65
-		MSFC_TacGopPants_EMR,												*,		1000,		65
-		MSFC_TacGopJacket_ATACSFG,									*,		1000,		65
-		MSFC_TacGopPants_ATACSFG,										*,		1000,		65
-		MSFC_TacGopJacket_Multicam,									*,		1000,		65
-		MSFC_TacGopPants_Multicam,									*,		1000,		65
-		MSFC_G3Pants_Black,													*,		1000,		65
-		MSFC_G3Pants_Green,													*,		1000,		65
-		MSFC_G3Pants_Desert,												*,		1000,		65
+    MSFCAltyn_Green,														*,		1000,		65
+    MSFCAltyn_Black,														*,		1000,		65
+    MSFCAltyn_Desert,														*,		1000,		65
+    MSFCAltyn_Gray,															*,		1000,		65
+    MSFCAltyn_White,														*,		1000,		65
+    MSFCAltynVisor_Green,												*,		1000,		65
+    MSFCAltynVisor_Black,												*,		1000,		65
+    MSFCAltynVisor_Desert,											*,		1000,		65
+    MSFCAltynVisor_Gray,												*,		1000,		65
+    MSFCAltynVisor_White,												*,		1000,		65
+    MSFCPouchCargoGreen,												*,		1000,		65
+    MSFCPouchCargoDesert,												*,		1000,		65
+    MSFCPouchCargoBlack,												*,		1000,		65
+    MSFCPouchIFAKGreen,													*,		1000,		65
+    MSFCPouchIFAKDesert,												*,		1000,		65
+    MSFCPouchIFAKBlack,													*,		1000,		65
+    MSFC_GPNVG18_Desert,												*,		1000,		65
+    MSFC_GPNVG18_Black,													*,		1000,		65
+    MSFC_GPNVG18_Green,													*,		1000,		65
 		MSFC_KneePads_Black,												*,		1000,		65
 		MSFC_KneePads_Green,												*,		1000,		65
 		MSFC_KneePads_Desert,												*,		1000,		65
 		MSFC_KneePads_White,												*,		1000,		65
 		MSFC_Pantera_6B45,													*,		1000,		65
 		MSFC_Pantera_ACH,														*,		1000,		65
-		MSFC_Pantera_Jacket,												*,		1000,		65
-		MSFC_Pantera_JacketNoPatch,									*,		1000,		65
-		MSFC_Pantera_Pants,													*,		1000,		65
-		MSFC_Pantera_Bag,														*,		1000,		65
-		MSFC_Pantera_PlateHolster,									*,		1000,		65
-		MSFC_Pantera_PlatePouches,									*,		1000,		65
-		MSFC_Pantera_PlateVest,											*,		1000,		65
+		MSFCOpsCoreKryptekWraith,										*,		1000,		65
+		MSFCOpsCoreKryptekRaid,											*,		1000,		65
 		MSFC_PanteraAutumn_6B45,										*,		1000,		65
 		MSFC_PanteraAutumn_ACH,											*,		1000,		65
-		MSFC_PanteraAutumn_Jacket,									*,		1000,		65
-		MSFC_PanteraAutumn_JacketNoPatch,						*,		1000,		65
-		MSFC_PanteraAutumn_Pants,										*,		1000,		65
-		MSFC_PanteraAutumn_Bag,											*,		1000,		65
-		MSFC_PanteraAutumn_PlateHolster,						*,		1000,		65
-		MSFC_PanteraAutumn_PlatePouches,						*,		1000,		65
-		MSFC_PanteraAutumn_PlateVest,								*,		1000,		65
 
 	<Category> SQUAD MSF-C S.T.A.L.K.E.R.
-		MSFCSTALKERPants,														*,		1000,		65
-		MSFCSTALKERJacket,													*,		1000,		65
 		MSFCSTALKERHood,														*,		1000,		65
-		MSFCSTALKERVest,														*,		1000,		65
-		MSFCSTALKERBag,															*,		1000,		65
 		MSFCSTALKERRespirator,											*,		1000,		65
-		MSFCSTALKERDolgPants,												*,		1000,		65
-		MSFCSTALKERDolgJacket,											*,		1000,		65
 		MSFCSTALKERDolgHood,												*,		1000,		65
-		MSFCSTALKERDolgVest,												*,		1000,		65
-		MSFCSTALKERDolgBag,													*,		1000,		65
 		MSFCSTALKERDolgRespirator,									*,		1000,		65
-		MSFCSTALKERSvobodaPants,										*,		1000,		65
-		MSFCSTALKERSvobodaJacket,										*,		1000,		65
 		MSFCSTALKERSvobodaHood,											*,		1000,		65
-		MSFCSTALKERSvobodaVest,											*,		1000,		65
-		MSFCSTALKERSvobodaBag,											*,		1000,		65
 		MSFCSTALKERSvobodaRespirator,								*,		1000,		65
-		MSFCSTALKERMercPants,												*,		1000,		65
-		MSFCSTALKERMercJacket,											*,		1000,		65
 		MSFCSTALKERMercHood,												*,		1000,		65
-		MSFCSTALKERMercVest,												*,		1000,		65
-		MSFCSTALKERMercBag,													*,		1000,		65
 		MSFCSTALKERMercRespirator,									*,		1000,		65
-		MSFCSTALKERMonolitPants,										*,		1000,		65
-		MSFCSTALKERMonolitJacket,										*,		1000,		65
 		MSFCSTALKERMonolitHood,											*,		1000,		65
-		MSFCSTALKERMonolitVest,											*,		1000,		65
-		MSFCSTALKERMonolitBag,											*,		1000,		65
 		MSFCSTALKERMonolitRespirator,								*,		1000,		65
-		MSFCSTALKERClearSkyPants,										*,		1000,		65
-		MSFCSTALKERClearSkyJacket,									*,		1000,		65
 		MSFCSTALKERClearSkyHood,										*,		1000,		65
-		MSFCSTALKERClearSkyVest,										*,		1000,		65
-		MSFCSTALKERClearSkyBag,											*,		1000,		65
 		MSFCSTALKERClearSkyRespirator,							*,		1000,		65
-		MSFC_CombatHeadphones_Green,						*,		1000,		65
-		MSFC_CombatHeadphones_Black,						*,		1000,		65
-		MSFC_CombatHeadphones_Desert,						*,		1000,		65
-		MSFCSTALKERBanditPants,											*,		1000,		65
-		MSFCSTALKERBanditJacket,										*,		1000,		65
+		MSFC_CombatHeadphones_Green,								*,		1000,		65
+		MSFC_CombatHeadphones_Black,								*,		1000,		65
+		MSFC_CombatHeadphones_Desert,								*,		1000,		65
 		MSFCSTALKERBanditHood,											*,		1000,		65
-		MSFCSTALKERBanditVest,											*,		1000,		65
-		MSFCSTALKERBanditBag,												*,		1000,		65
-		MSFCSTALKERBanditRespirator,								*,		1000,		65
-		MSFCSTALKEREcologPants,											*,		1000,		65
-		MSFCSTALKEREcologJacket,										*,		1000,		65
-		MSFCSTALKEREcologBoots,											*,		1000,		65
-		MSFCSTALKEREcologHood,											*,		1000,		65
-		MSFCSTALKERMilitaryJacket,									*,		1000,		65
-		MSFCSTALKERMilitaryPants,										*,		1000,		65
-		MSFCSTALKERMilitaryVest,										*,		1000,		65
-		MSFCSTALKERMilitaryBag,											*,		1000,		65
-		MSFCSTALKERDolgPlateVest,										*,		1000,		65
-		MSFCSTALKERDolgPlateHolster,								*,		1000,		65
-		MSFCSTALKERDolgPlatePouches,								*,		1000,		65
-		MSFCSTALKERBanditJacketNoPatch,							*,		1000,		65
-		MSFCSTALKERClearSkyJacketNoPatch,						*,		1000,		65
-		MSFCSTALKERClearSkyPlateVest,								*,		1000,		65
-		MSFCSTALKERClearSkyPlateHolster,						*,		1000,		65
-		MSFCSTALKERClearSkyPlatePouches,						*,		1000,		65
-		MSFCSTALKERDolgJacketNoPatch,								*,		1000,		65
-		MSFCSTALKERMercJacketNoPatch,								*,		1000,		65
-		MSFCSTALKERMercPlateVest,										*,		1000,		65
-		MSFCSTALKERMercPlateHolster,								*,		1000,		65
-		MSFCSTALKERMercPlatePouches,								*,		1000,		65
-		MSFCSTALKERMonolitJacketNoPatch,						*,		1000,		65
-		MSFCSTALKERMonolitPlateVest,								*,		1000,		65
-		MSFCSTALKERMonolitPlateHolster,							*,		1000,		65
-		MSFCSTALKERMonolitPlatePouches,							*,		1000,		65
-		MSFCSTALKERJacketNoPatch,										*,		1000,		65
-		MSFCSTALKERSvobodaJacketNoPatch,						*,		1000,		65
-		MSFCSTALKERSvobodaPlateVest,								*,		1000,		65
-		MSFCSTALKERSvobodaPlateHolster,							*,		1000,		65
-		MSFCSTALKERSvobodaPlatePouches,							*,		1000,		65
-		MSFCSTALKERPants_Green,											*,		1000,		65
-		MSFCSTALKERJacket_Green,										*,		1000,		65
 		MSFCSTALKERHood_Green,											*,		1000,		65
-		MSFCSTALKERVest_Green,											*,		1000,		65
-		MSFCSTALKERBag_Green,												*,		1000,		65
 		MSFCSTALKERRespirator_Green,								*,		1000,		65
-		MSFCTShirtSTALKER_RP,												*,		1000,		65
-		MSFCTShirtSTALKER_RP_Radiation,							*,		1000,		65
 
 	<Category> SQUAD MSF-C SURPAT Desert
-		MSFC_JPC_Vest_SURPATDesert,									*,		1000,		65
-		MSFC_TAC_TEC_Vest_SURPATDesert,							*,		1000,		65
 		MSFC_TacticalCap_SURPATDesert,							*,		1000,		65
-		MSFCEmpty_Mags_Bag_SURPATDesert,						*,		1000,		65
-		MSFC_IFAK_SURPATDesert,											*,		1000,		65
-		MSFC_Defender_Vest_SURPATDesert,						*,		1000,		65
 		MSFCM65SURPATDesert,												*,		1000,		65
-		MSFCPantsSURPATDesert,											*,		1000,		65
 		MSFCPCU5SURPATDesertComander,								*,		1000,		65
 		MSFCPCU5SURPATDesertMedic,									*,		1000,		65
 		MSFCPCU5SURPATDesertReconnaissance,					*,		1000,		65
@@ -2044,50 +1677,25 @@
 		MSFCCapSURPATDesert,												*,		1000,		65
 		MSFCGorkaJSURPATDesert,											*,		1000,		65
 		MSFCGorkaPSURPATDesert,											*,		1000,		65
-		MSFCBootsSURPATDesert,											*,		1000,		65
-		MSFCUKVestSURPATDesert,											*,		1000,		65
-		MSFCTShirtSURPATDesert,											*,		1000,		65
-		MSFCTacVestSURPATDesert,										*,		1000,		65
-		MSFCTacVestSURPATDesertLogo,								*,		1000,		65
-		MSFCTacVestSURPATDesertMedic,								*,		1000,		65
 		MSFCMich2001SURPATDesert,										*,		1000,		65
 		MSFCHoodSURPATDesert,												*,		1000,		65
-		MSFCBandanaSURPATDesert,										*,		1000,		65
-		MSFCPlateCarrierVestSURPATDesert,						*,		1000,		65
-		MSFCPlateCarrierVestSURPATDesertLogo,				*,		1000,		65
 		MSFCTortilaSURPATDesert,										*,		1000,		65
-		MSFCNBCPantsSURPATDesert,										*,		1000,		65
-		MSFCNBCJacketSURPATDesert,									*,		1000,		65
-		MSFCNBCBootsSURPATDesert,										*,		1000,		65
-		MSFCPlateCarrierVestSURPATDesertMedic,			*,		1000,		65
-		MSFCPlateHolsterSURPATDesert,								*,		1000,		65
-		MSFCPlatePouchesSURPATDesert,								*,		1000,		65
 		MSFCPCU5SURPATDesertSupply,									*,		1000,		65
 		MSFCSweaterSURPATDesert,										*,		1000,		65
-		MSFCPressVestSURPATDesert,									*,		1000,		65
 		MSFCPCU5SURPATDesertPartComander,						*,		1000,		65
-		MSFCSmershVestSURPATDesert,									*,		1000,		65
-
 		MSFCOpsCoreSURPATDesert,										*,		1000,		65
     MSFCPCU5SURPATDesertNoPatch,								*,		1000,		65
     MSFCGorkaJSURPATDesertNoPatch,							*,		1000,		65
-		MSFCBootsLowaSURPATDesert,									*,		1000,		65
-    MSFCBootsTrekkingSURPATDesert,							*,		1000,		65
     MSFCPouchCargoSURPATDesert,									*,		1000,		65
     MSFCPouchIFAKSURPATDesert,									*,		1000,		65
 		MSFC_FaceMack_SURPATDesert,									*,		1000,		65
     MSFC_BottlePouch_SURPATDesert,							*,		1000,		65
-    MSFC_G3Pants_SURPATDesert,									*,		1000,		65
 
 	<Category> SQUAD MSF-C SURPAT
-		MSFC_JPC_Vest_SURPAT,												*,		1000,		65
-		MSFC_TAC_TEC_Vest_SURPAT,										*,		1000,		65
 		MSFC_TacticalCap_SURPAT,										*,		1000,		65
-		MSFCEmpty_Mags_Bag_SURPAT,									*,		1000,		65
+		MSFC_IFAK_SURPATDesert,											*,		1000,		65
 		MSFC_IFAK_SURPAT,														*,		1000,		65
-		MSFC_Defender_Vest_SURPAT,									*,		1000,		65
 		MSFCM65SURPAT,															*,		1000,		65
-		MSFCPantsSURPAT,														*,		1000,		65
 		MSFCPCU5SURPATComander,											*,		1000,		65
 		MSFCPCU5SURPATMedic,												*,		1000,		65
 		MSFCPCU5SURPATReconnaissance,								*,		1000,		65
@@ -2099,389 +1707,91 @@
 		MSFCCapSURPAT,															*,		1000,		65
 		MSFCGorkaJSURPAT,														*,		1000,		65
 		MSFCGorkaPSURPAT,														*,		1000,		65
-		MSFCBootsSURPAT,														*,		1000,		65
-		MSFCUKVestSURPAT,														*,		1000,		65
-		MSFCTShirtSURPAT,														*,		1000,		65
-		MSFCTacVestSURPAT,													*,		1000,		65
-		MSFCTacVestSURPATLogo,											*,		1000,		65
-		MSFCTacVestSURPATMedic,											*,		1000,		65
-		MSFCPlateCarrierVestSURPAT,									*,		1000,		65
-		MSFCPlateCarrierVestSURPATLogo,							*,		1000,		65
 		MSFCTortilaSURPAT,													*,		1000,		65
-		MSFCNBCPantsSURPAT,													*,		1000,		65
-		MSFCNBCJacketSURPAT,
-		MSFCNBCBootsSURPAT,													*,		1000,		65
-		MSFCPlateCarrierVestSURPATMedic,						*,		1000,		65
-		MSFCPlateHolsterSURPAT,											*,		1000,		65
-		MSFCPlatePouchesSURPAT,											*,		1000,		65
 		MSFCPCU5SURPATSupply,												*,		1000,		65
 		MSFCSweaterSURPAT,													*,		1000,		65
-		MSFCPressVestSURPAT,												*,		1000,		65
 		MSFCPCU5SURPATPartComander,									*,		1000,		65
-		MSFCSmershVestSURPAT,												*,		1000,		65
 		MSFCOpsCoreSURPAT,													*,		1000,		65
     MSFCPCU5SURPATNoPatch,											*,		1000,		65
     MSFCGorkaJSURPATNoPatch,										*,		1000,		65
-		MSFCBootsLowaSURPAT,												*,		1000,		65
-    MSFCBootsTrekkingSURPAT,										*,		1000,		65
     MSFCPouchCargoSURPAT,												*,		1000,		65
     MSFCPouchIFAKSURPAT,												*,		1000,		65
 		MSFC_FaceMack_SURPAT,												*,		1000,		65
-		MSFCLowaZephyrBootsSURPAT,									*,		1000,		65
-        MSFC_BottlePouch_SURPAT,								*,		1000,		65
-        MSFC_G3Pants_SURPAT,										*,		1000,		65
+    MSFC_BottlePouch_SURPAT,										*,		1000,		65
 
 	<Category> Military Gear | Other
-		MilitaryGear_Bandana_Black,									*,		80,		40
-		MilitaryGear_Bandana_Brown,									*,		80,		40
-
 
 
 	<Category> Military Gear | PartizanM
 		MilitaryGear_Beanie_PartizanM,							*,		80,		40
-		MilitaryGear_Bandana_PartizanM,							*,		80,		40
-		MilitaryGear_Balaclava3_PartizanM,					*,		100,	50
-		MilitaryGear_Balaclava3Skull_PartizanM,			*,		150,	75
-		MilitaryGear_TacticalShirt_PartizanM,				*,		400,	200
-		MilitaryGear_PatrolJacket_PartizanM,				*,		440,	220
-		MilitaryGear_FieldJacket_PartizanM,					*,		500,	250
-		MilitaryGear_CombatJacket_PartizanM,				*,		500,	250
-		MilitaryGear_TacticalPants_PartizanM,				*,		400,	200
-		MilitaryGear_PatrolPants_PartizanM,					*,		440,	220
-		MilitaryGear_FieldPants_PartizanM,					*,		500,	250
-		MilitaryGear_AssaultVest_PartizanM,					*,		440,	220
-		MilitaryGear_HighCapVest_PartizanM,					*,		500,	250
+		MSFCSTALKERBanditRespirator,								*,		1000,		65
+		MSFCSTALKEREcologHood,											*,		1000,		65
 		MilitaryGear_PlateCarrier_PartizanM,				*,		520,	260
-		MilitaryGear_GhillieGunWrap_PartizanM,			*,		2200,	-1
-		MilitaryGear_GhillieHood_PartizanM,					*,		2200,	-1
-		MilitaryGear_GhillieBushrag_PartizanM,			*,		4400,	-1
-		MilitaryGear_GhillieTop_PartizanM,					*,		10000,	-1
-		MilitaryGear_GhillieSuit_PartizanM,					*,		14000,	-1
 
 	<Category> Military Gear | Duckhunter
 		MilitaryGear_Beanie_Duckhunter,							*,		80,		40
-		MilitaryGear_Bandana_Duckhunter,						*,		80,		40
-		MilitaryGear_Balaclava3_Duckhunter,					*,		100,	50
-		MilitaryGear_Balaclava3Skull_Duckhunter,		*,		150,	75
-		MilitaryGear_TacticalShirt_Duckhunter,			*,		400,	200
-		MilitaryGear_PatrolJacket_Duckhunter,				*,		440,	220
-		MilitaryGear_FieldJacket_Duckhunter,				*,		500,	250
-		MilitaryGear_CombatJacket_Duckhunter,				*,		500,	250
-		MilitaryGear_TacticalPants_Duckhunter,			*,		400,	200
-		MilitaryGear_PatrolPants_Duckhunter,				*,		440,	220
-		MilitaryGear_FieldPants_Duckhunter,					*,		500,	250
-		MilitaryGear_AssaultVest_Duckhunter,				*,		440,	220
-		MilitaryGear_HighCapVest_Duckhunter,				*,		500,	250
 		MilitaryGear_PlateCarrier_Duckhunter,				*,		520,	260
-		MilitaryGear_GhillieGunWrap_Duckhunter,			*,		2200,	-1
-		MilitaryGear_GhillieHood_Duckhunter,				*,		2200,	-1
-		MilitaryGear_GhillieBushrag_Duckhunter,			*,		4400,	-1
-		MilitaryGear_GhillieTop_Duckhunter,					*,		10000,	-1
-		MilitaryGear_GhillieSuit_Duckhunter,				*,		14000,	-1
 
 	<Category> Military Gear | Multicam
 		MilitaryGear_Beanie_Multicam,								*,		80,		40
-		MilitaryGear_Bandana_Multicam,							*,		80,		40
-		MilitaryGear_Balaclava3_Multicam,						*,		100,	50
-		MilitaryGear_Balaclava3Skull_Multicam,			*,		150,	75
-		MilitaryGear_TacticalShirt_Multicam,				*,		400,	200
-		MilitaryGear_PatrolJacket_Multicam,					*,		440,	220
-		MilitaryGear_FieldJacket_Multicam,					*,		500,	250
-		MilitaryGear_CombatJacket_Multicam,					*,		500,	250
-		MilitaryGear_TacticalPants_Multicam,				*,		400,	200
-		MilitaryGear_PatrolPants_Multicam,					*,		440,	220
-		MilitaryGear_FieldPants_Multicam,						*,		500,	250
-		MilitaryGear_AssaultVest_Multicam,					*,		440,	220
-		MilitaryGear_HighCapVest_Multicam,					*,		500,	250
 		MilitaryGear_PlateCarrier_Multicam,					*,		520,	260
-		MilitaryGear_GhillieGunWrap_Multicam,				*,		220,	-1
-		MilitaryGear_GhillieHood_Multicam,					*,		2200,	-1
-		MilitaryGear_GhillieBushrag_Multicam,				*,		4400,	-1
-		MilitaryGear_GhillieTop_Multicam,						*,		10000,	-1
-		MilitaryGear_GhillieSuit_Multicam,					*,		14000,	-1
 
 	<Category> Military Gear | Splinter
 		MilitaryGear_Beanie_Splinter,								*,		80,		40
-		MilitaryGear_Bandana_Splinter,							*,		80,		40
-		MilitaryGear_Balaclava3_Splinter,						*,		100,	50
-		MilitaryGear_Balaclava3Skull_Splinter,			*,		150,	75
-		MilitaryGear_TacticalShirt_Splinter,				*,		400,	200
-		MilitaryGear_PatrolJacket_Splinter,					*,		440,	220
-		MilitaryGear_FieldJacket_Splinter,					*,		500,	250
-		MilitaryGear_CombatJacket_Splinter,					*,		500,	250
-		MilitaryGear_TacticalPants_Splinter,				*,		400,	200
-		MilitaryGear_PatrolPants_Splinter,					*,		440,	220
-		MilitaryGear_FieldPants_Splinter,						*,		500,	250
-		MilitaryGear_AssaultVest_Splinter,					*,		440,	220
-		MilitaryGear_HighCapVest_Splinter,					*,		500,	250
 		MilitaryGear_PlateCarrier_Splinter,					*,		520,	260
-		MilitaryGear_GhillieGunWrap_Splinter,				*,		2200,	-1
-		MilitaryGear_GhillieHood_Splinter,					*,		2200,	-1
-		MilitaryGear_GhillieBushrag_Splinter,				*,		4400,	-1
-		MilitaryGear_GhillieTop_Splinter,						*,		10000,	-1
-
 
 	<Category> Military Gear | Splinter_Dark
 		MilitaryGear_Beanie_Splinter_Dark,					*,		80,		40
-		MilitaryGear_Bandana_Splinter_Dark,					*,		80,		40
-		MilitaryGear_Balaclava3_Splinter_Dark,			*,		100,	50
-		MilitaryGear_Balaclava3Skull_Splinter_Dark,	*,		150,	75
-		MilitaryGear_TacticalShirt_Splinter_Dark,		*,		400,	200
-		MilitaryGear_PatrolJacket_Splinter_Dark,		*,		440,	220
-		MilitaryGear_FieldJacket_Splinter_Dark,			*,		500,	250
-		MilitaryGear_CombatJacket_Splinter_Dark,		*,		500,	250
-		MilitaryGear_TacticalPants_Splinter_Dark, 	*,		400,	200
-		MilitaryGear_PatrolPants_Splinter_Dark,	  	*,		440,	220
-		MilitaryGear_FieldPants_Splinter_Dark,	  	*,		500,	250
-		MilitaryGear_AssaultVest_Splinter_Dark,		  *,		440,	220
-		MilitaryGear_HighCapVest_Splinter_Dark,	 		*,		500,	250
 		MilitaryGear_PlateCarrier_Splinter_Dark,		*,		520,	260
-		MilitaryGear_GhillieGunWrap_Splinter_Dark,	*,		220,	-1
-		MilitaryGear_GhillieHood_Splinter_Dark,			*,		2200,	-1
-		MilitaryGear_GhillieBushrag_Splinter_Dark,	*,		4400,	-1
-		MilitaryGear_GhillieTop_Splinter_Dark,			*,		10000,	-1
-		MilitaryGear_GhillieSuit_Splinter_Dark,			*,		14000,	-1
 
 	<Category> Military Gear | Tiger
 		MilitaryGear_Beanie_Tiger,									*,		80,		40
-		MilitaryGear_Bandana_Tiger,									*,		80,		40
-		MilitaryGear_Balaclava3_Tiger,							*,		100,	50
-		MilitaryGear_Balaclava3Skull_Tiger,					*,		150,	75
-		MilitaryGear_TacticalShirt_Tiger,						*,		400,	200
-		MilitaryGear_PatrolJacket_Tiger,						*,		440,	220
-		MilitaryGear_FieldJacket_Tiger,							*,		500,	250
-		MilitaryGear_CombatJacket_Tiger,						*,		500,	250
-		MilitaryGear_TacticalPants_Tiger,						*,		400,	200
-		MilitaryGear_PatrolPants_Tiger,							*,		440,	220
-		MilitaryGear_FieldPants_Tiger,							*,		500,	250
-		MilitaryGear_AssaultVest_Tiger,							*,		440,	220
-		MilitaryGear_HighCapVest_Tiger,							*,		500,	250
 		MilitaryGear_PlateCarrier_Tiger,						*,		520,	260
-		MilitaryGear_GhillieGunWrap_Tiger,					*,		2200,	-1
-		MilitaryGear_GhillieHood_Tiger,							*,		2200,	-1
-		MilitaryGear_GhillieBushrag_Tiger,					*,		4400,	-1
-		MilitaryGear_GhillieTop_Tiger,							*,		10000,	-1
-		MilitaryGear_GhillieSuit_Tiger,							*,		14000,	-1
 
 	<Category> Military Gear | Woodland
 		MilitaryGear_Beanie_Woodland,								*,		80,		40
-		MilitaryGear_Bandana_Woodland,							*,		80,		40
-		MilitaryGear_Balaclava3_Woodland,						*,		100,	50
-		MilitaryGear_Balaclava3Skull_Woodland,			*,		150,	75
-		MilitaryGear_TacticalShirt_Woodland,				*,		400,	200
-		MilitaryGear_PatrolJacket_Woodland,					*,		440,	220
-		MilitaryGear_FieldJacket_Woodland,					*,		500,	250
-		MilitaryGear_CombatJacket_Woodland,					*,		500,	250
-		MilitaryGear_TacticalPants_Woodland,				*,		400,	200
-		MilitaryGear_PatrolPants_Woodland,					*,		440,	220
-		MilitaryGear_FieldPants_Woodland,						*,		500,	250
-		MilitaryGear_AssaultVest_Woodland,					*,		440,	220
-		MilitaryGear_HighCapVest_Woodland,					*,		500,	250
 		MilitaryGear_PlateCarrier_Woodland,					*,		520,	260
-		MilitaryGear_GhillieGunWrap_Woodland,				*,		2200,	-1
-		MilitaryGear_GhillieHood_Woodland,					*,		2200,	-1
-		MilitaryGear_GhillieBushrag_Woodland,				*,		4400,	-1
-		MilitaryGear_GhillieTop_Woodland,						*,		10000,	-1
-		MilitaryGear_GhillieSuit_Woodland,					*,		14000,	-1
 
 	<Category> Military Gear | FLT
 		MilitaryGear_Beanie_FLT,										*,		80,		40
-		MilitaryGear_Bandana_FLT,										*,		80,		40
-		MilitaryGear_Balaclava3_FLT,								*,		100,	50
-		MilitaryGear_Balaclava3Skull_FLT,						*,		150,	75
-		MilitaryGear_TacticalShirt_FLT,							*,		400,	200
-		MilitaryGear_PatrolJacket_FLT,							*,		440,	220
-		MilitaryGear_FieldJacket_FLT,								*,		500,	250
-		MilitaryGear_CombatJacket_FLT,							*,		500,	250
-		MilitaryGear_TacticalPants_FLT,							*,		400,	200
-		MilitaryGear_PatrolPants_FLT,								*,		440,	220
-		MilitaryGear_FieldPants_FLT,								*,		500,	250
-		MilitaryGear_AssaultVest_FLT,								*,		440,	220
-		MilitaryGear_HighCapVest_FLT,								*,		500,	250
 		MilitaryGear_PlateCarrier_FLT,							*,		520,	260
-		MilitaryGear_GhillieGunWrap_FLT,						*,		2200,	-1
-		MilitaryGear_GhillieHood_FLT,								*,		2200,	-1
-		MilitaryGear_GhillieBushrag_FLT,						*,		4400,	-1
-		MilitaryGear_GhillieTop_FLT,								*,		10000,	-1
-		MilitaryGear_GhillieSuit_FLT,								*,		14000,	-1
 
 	<Category> Military Gear | DPM
 		MilitaryGear_Beanie_DPM,										*,		80,		40
-		MilitaryGear_Bandana_DPM,										*,		80,		40
-		MilitaryGear_Balaclava3_DPM,								*,		100,	50
-		MilitaryGear_Balaclava3Skull_DPM,						*,		150,	75
-		MilitaryGear_TacticalShirt_DPM,							*,		400,	200
-		MilitaryGear_PatrolJacket_DPM,							*,		440,	220
-		MilitaryGear_FieldJacket_DPM,								*,		500,	250
-		MilitaryGear_CombatJacket_DPM,							*,		500,	250
-		MilitaryGear_TacticalPants_DPM,							*,		400,	200
-		MilitaryGear_PatrolPants_DPM,								*,		440,	220
-		MilitaryGear_FieldPants_DPM,								*,		500,	250
-		MilitaryGear_AssaultVest_DPM,								*,		440,	220
-		MilitaryGear_HighCapVest_DPM,								*,		500,	250
 		MilitaryGear_PlateCarrier_DPM,							*,		520,	260
-		MilitaryGear_GhillieGunWrap_DPM,						*,		2200,	-1
-		MilitaryGear_GhillieHood_DPM,								*,		2200,	-1
-		MilitaryGear_GhillieBushrag_DPM,						*,		4400,	-1
-		MilitaryGear_GhillieTop_DPM,								*,		10000,	-1
-		MilitaryGear_GhillieSuit_DPM,								*,		14000,	-1
 
 	<Category> Military Gear | MPAT
 		MilitaryGear_Beanie_MPAT,										*,		80,		40
-		MilitaryGear_Bandana_MPAT,									*,		80,		40
-		MilitaryGear_Balaclava3_MPAT,								*,		100,	50
-		MilitaryGear_Balaclava3Skull_MPAT,					*,		150,	75
-		MilitaryGear_TacticalShirt_MPAT,						*,		400,	200
-		MilitaryGear_PatrolJacket_MPAT,							*,		440,	220
-		MilitaryGear_FieldJacket_MPAT,							*,		500,	250
-		MilitaryGear_CombatJacket_MPAT,							*,		500,	250
-		MilitaryGear_TacticalPants_MPAT,						*,		400,	200
-		MilitaryGear_PatrolPants_MPAT,							*,		440,	220
-		MilitaryGear_FieldPants_MPAT,								*,		500,	250
-		MilitaryGear_AssaultVest_MPAT,							*,		440,	220
-		MilitaryGear_HighCapVest_MPAT,							*,		500,	250
 		MilitaryGear_PlateCarrier_MPAT,							*,		520,	260
-		MilitaryGear_GhillieGunWrap_MPAT,						*,		2200,	-1
-		MilitaryGear_GhillieHood_MPAT,							*,		2200,	-1
-		MilitaryGear_GhillieBushrag_MPAT,						*,		4400,	-1
-		MilitaryGear_GhillieTop_MPAT,								*,		10000,	-1
-		MilitaryGear_GhillieSuit_MPAT,							*,		14000,	-1
 
 	<Category> Military Gear | Partizan
 		MilitaryGear_Beanie_Partizan,								*,		80,		40
-		MilitaryGear_Bandana_Partizan,							*,		80,		40
-		MilitaryGear_Balaclava3_Partizan,						*,		100,	50
-		MilitaryGear_Balaclava3Skull_Partizan,			*,		150,	75
-		MilitaryGear_TacticalShirt_Partizan,				*,		400,	200
-		MilitaryGear_PatrolJacket_Partizan,					*,		440,	220
-		MilitaryGear_FieldJacket_Partizan,					*,		500,	250
-		MilitaryGear_CombatJacket_Partizan,					*,		500,	250
-		MilitaryGear_TacticalPants_Partizan,				*,		400,	200
-		MilitaryGear_PatrolPants_Partizan,					*,		440,	220
-		MilitaryGear_FieldPants_Partizan,						*,		500,	250
-		MilitaryGear_AssaultVest_Partizan,					*,		440,	220
-		MilitaryGear_HighCapVest_Partizan,					*,		500,	250
 		MilitaryGear_PlateCarrier_Partizan,					*,		520,	260
-		MilitaryGear_GhillieGunWrap_Partizan,				*,		2200,	-1
-		MilitaryGear_GhillieHood_Partizan,					*,		2200,	-1
-		MilitaryGear_GhillieBushrag_Partizan,				*,		4400,	-1
-		MilitaryGear_GhillieTop_Partizan,						*,		10000,	-1
-		MilitaryGear_GhillieSuit_Partizan,					*,		14000,	-1
 
 	<Category> Military Gear | Skol
 		MilitaryGear_Beanie_Skol,										*,		80,		40
-		MilitaryGear_Bandana_Skol,									*,		80,		40
-		MilitaryGear_Balaclava3_Skol,								*,		100,	50
-		MilitaryGear_Balaclava3Skull_Skol,					*,		150,	75
-		MilitaryGear_TacticalShirt_Skol,						*,		400,	200
-		MilitaryGear_PatrolJacket_Skol,							*,		440,	220
-		MilitaryGear_FieldJacket_Skol,							*,		500,	250
-		MilitaryGear_CombatJacket_Skol,							*,		500,	250
-		MilitaryGear_TacticalPants_Skol,						*,		400,	200
-		MilitaryGear_PatrolPants_Skol,							*,		440,	220
-		MilitaryGear_FieldPants_Skol,								*,		500,	250
-		MilitaryGear_AssaultVest_Skol,							*,		440,	220
-		MilitaryGear_HighCapVest_Skol,							*,		500,	250
 		MilitaryGear_PlateCarrier_Skol,							*,		520,	260
-		MilitaryGear_GhillieGunWrap_Skol,						*,		2200,	-1
-		MilitaryGear_GhillieHood_Skol,							*,		2200,	-1
-		MilitaryGear_GhillieBushrag_Skol,						*,		4400,	-1
-		MilitaryGear_GhillieTop_Skol,								*,		10000,	-1
-		MilitaryGear_GhillieSuit_Skol,							*,		14000,	-1
 
 	<Category> Military Gear | ATACS
-		MilitaryGear_Beanie_ATACS,									*,		80,		40
-		MilitaryGear_Bandana_ATACS,									*,		80,		40
-		MilitaryGear_Balaclava3_ATACS,							*,		100,	50
-		MilitaryGear_Balaclava3Skull_ATACS,					*,		150,	75
-		MilitaryGear_TacticalShirt_ATACS,						*,		400,	200
-		MilitaryGear_PatrolJacket_ATACS,						*,		440,	220
-		MilitaryGear_FieldJacket_ATACS,							*,		500,	250
-		MilitaryGear_CombatJacket_ATACS,						*,		500,	250
-		MilitaryGear_TacticalPants_ATACS,						*,		400,	200
-		MilitaryGear_PatrolPants_ATACS,							*,		440,	220
-		MilitaryGear_FieldPants_ATACS,							*,		500,	250
-		MilitaryGear_AssaultVest_ATACS,							*,		440,	220
-		MilitaryGear_HighCapVest_ATACS,							*,		500,	250
 		MilitaryGear_PlateCarrier_ATACS,						*,		520,	260
-		MilitaryGear_GhillieGunWrap_ATACS,					*,		2200,	-1
-		MilitaryGear_GhillieHood_ATACS,							*,		2200,	-1
-		MilitaryGear_GhillieBushrag_ATACS,					*,		4400,	-1
-		MilitaryGear_GhillieTop_ATACS,							*,		10000,	-1
-		MilitaryGear_GhillieSuit_ATACS,							*,		14000,	-1
 
 	<Category> Military Gear | CADPAT
-		MilitaryGear_Beanie_CADPAT,									*,		80,		40
-		MilitaryGear_Bandana_CADPAT,								*,		80,		40
-		MilitaryGear_Balaclava3_CADPAT,							*,		100,	50
-		MilitaryGear_Balaclava3Skull_CADPAT,				*,		150,	75
-		MilitaryGear_TacticalShirt_CADPAT,					*,		400,	200
-		MilitaryGear_PatrolJacket_CADPAT,						*,		440,	220
-		MilitaryGear_FieldJacket_CADPAT,						*,		500,	250
-		MilitaryGear_CombatJacket_CADPAT,						*,		500,	250
-		MilitaryGear_TacticalPants_CADPAT,					*,		400,	200
-		MilitaryGear_PatrolPants_CADPAT,						*,		440,	220
-		MilitaryGear_FieldPants_CADPAT,							*,		500,	250
-		MilitaryGear_AssaultVest_CADPAT,						*,		440,	220
-		MilitaryGear_HighCapVest_CADPAT,						*,		500,	250
 		MilitaryGear_PlateCarrier_CADPAT,						*,		520,	260
-		MilitaryGear_GhillieGunWrap_CADPAT,					*,		2200,	-1
-		MilitaryGear_GhillieHood_CADPAT,						*,		2200,	-1
-		MilitaryGear_GhillieBushrag_CADPAT,					*,		4400,	-1
-		MilitaryGear_GhillieTop_CADPAT,							*,		10000,	-1
-		MilitaryGear_GhillieSuit_CADPAT,						*,		14000,	-1
 
 	<Category> Military Gear | Tropic
 		MilitaryGear_Beanie_Tropic,									*,		80,		40
-		MilitaryGear_Bandana_Tropic,								*,		80,		40
-		MilitaryGear_Balaclava3_Tropic,							*,		100,	50
-		MilitaryGear_Balaclava3Skull_Tropic,				*,		150,	75
-		MilitaryGear_TacticalShirt_Tropic,					*,		400,	200
-		MilitaryGear_PatrolJacket_Tropic,						*,		440,	220
-		MilitaryGear_FieldJacket_Tropic,						*,		500,	250
-		MilitaryGear_CombatJacket_Tropic,						*,		500,	250
-		MilitaryGear_TacticalPants_Tropic,					*,		400,	200
-		MilitaryGear_PatrolPants_Tropic,						*,		440,	220
-		MilitaryGear_FieldPants_Tropic,							*,		500,	250
-		MilitaryGear_AssaultVest_Tropic,						*,		440,	220
-		MilitaryGear_HighCapVest_Tropic,						*,		500,	250
+		MilitaryGear_Beanie_CADPAT,									*,		80,		40
+		MilitaryGear_Beanie_ATACS,									*,		80,		40
 		MilitaryGear_PlateCarrier_Tropic,						*,		520,	260
-		MilitaryGear_GhillieGunWrap_Tropic,					*,		2200,	-1
-		MilitaryGear_GhillieHood_Tropic,						*,		2200,	-1
-		MilitaryGear_GhillieBushrag_Tropic,					*,		4400,	-1
-		MilitaryGear_GhillieTop_Tropic,							*,		10000,	-1
-		MilitaryGear_GhillieSuit_Tropic,						*,		14000,	-1
 
 	<Category> Military Gear | Yeger
 		MilitaryGear_Beanie_Yeger,									*,		80,		40
-		MilitaryGear_Bandana_Yeger,									*,		80,		40
-		MilitaryGear_Balaclava3_Yeger,							*,		100,	50
-		MilitaryGear_Balaclava3Skull_Yeger,					*,		150,	75
-		MilitaryGear_TacticalShirt_Yeger,						*,		400,	200
-		MilitaryGear_PatrolJacket_Yeger,						*,		440,	220
-		MilitaryGear_FieldJacket_Yeger,							*,		500,	250
-		MilitaryGear_CombatJacket_Yeger,						*,		500,	250
-		MilitaryGear_TacticalPants_Yeger,						*,		400,	200
-		MilitaryGear_PatrolPants_Yeger,							*,		440,	220
-		MilitaryGear_FieldPants_Yeger,							*,		500,	250
-		MilitaryGear_AssaultVest_Yeger,							*,		440,	220
-		MilitaryGear_HighCapVest_Yeger,							*,		500,	250
 		MilitaryGear_PlateCarrier_Yeger,						*,		520,	260
-		MilitaryGear_GhillieGunWrap_Yeger,					*,		2200,	-1
-		MilitaryGear_GhillieHood_Yeger,							*,		2200,	-1
-		MilitaryGear_GhillieBushrag_Yeger,					*,		4400,	-1
-		MilitaryGear_GhillieTop_Yeger,							*,		10000,	-1
-		MilitaryGear_GhillieSuit_Yeger,							*,		14000,	-1
 
 		<Category> SQUAD MSF-C A-TACS AU
-		MSFC_JPC_Vest_ATACSAU,											*,		1000,		65
-		MSFC_TAC_TEC_Vest_ATACSAU,									*,		1000,		65
 		MSFC_TacticalCap_ATACSAU,										*,		1000,		65
-		MSFCEmpty_Mags_Bag_ATACSAU,									*,		1000,		65
 		MSFC_IFAK_ATACSAU,													*,		1000,		65
-		MSFC_Defender_Vest_ATACSAU,									*,		1000,		65
 		MSFCM65ATACSAU,															*,		1000,		65
-		MSFCPantsATACSAU,														*,		1000,		65
 		MSFCPCU5ATACSAUComander,										*,		1000,		65
 		MSFCPCU5ATACSAUMedic,												*,		1000,		65
 		MSFCPCU5ATACSAUReconnaissance,							*,		1000,		65
@@ -2492,51 +1802,24 @@
 		MSFCPCU5ATACSAUTrooper,											*,		1000,		65
 		MSFCCapATACSAU,															*,		1000,		65
 		MSFCGorkaJATACSAU,													*,		1000,		65
-		MSFCGorkaPATACSAU,
-		MSFCBootsATACSAU,														*,		1000,		65
-		MSFCUKVestATACSAU,													*,		1000,		65
-		MSFCTShirtATACSAU,													*,		1000,		65
-		MSFCTacVestATACSAU,													*,		1000,		65
-		MSFCTacVestATACSAULogo,											*,		1000,		65
-		MSFCTacVestATACSAUMedic,										*,		1000,		65
+		MSFCGorkaPATACSAU,													*,		1000,   650
 		MSFCMich2001SURPAT,													*,		1000,		65
 		MSFCHoodSURPAT,															*,		1000,		65
-		MSFCBandanaSURPAT,													*,		1000,		65
 		MSFCMich2001ATACSAU,												*,		1000,		65
 		MSFCHoodATACSAU,														*,		1000,		65
-		MSFCBandanaATACSAU,													*,		1000,		65
-		MSFCPlateCarrierVestATACSAU,							  *,		1000,		65
-		MSFCPlateCarrierVestATACSAULogo,						*,		1000,		65
 		MSFCTortilaATACSAU,													*,		1000,		65
-		MSFCNBCPantsATACSAU,												*,		1000,		65
-		MSFCNBCJacketATACSAU,
-		MSFCNBCBootsATACSAU,												*,		1000,		65
-		MSFCPlateCarrierVestATACSAUMedic,						*,		1000,		65
-		MSFCPlateHolsterATACSAU,										*,		1000,		65
-		MSFCPlatePouchesATACSAU,										*,		1000,		65
 		MSFCPCU5ATACSAUSupply,											*,		1000,		65
 		MSFCSweaterATACSAU,													*,		1000,		65
-		MSFCPressVestATACSAU,												*,		1000,		65
 		MSFCPCU5ATACSAUPartComander,								*,		1000,		65
-		MSFCSmershVestATACSAU,											*,		1000,		65
 		MSFCOpsCoreATACSAU,													*,		1000,		65
 		MSFCPCU5ATACSAUNoPatch,											*,		1000,		65
     MSFCGorkaJATACSAUNoPatch,										*,		1000,		65
-		MSFCBootsLowaATACSAU,												*,		1000,		65
-    MSFCBootsTrekkingATACSAU,										*,		1000,		65
 		MSFC_BottlePouch_ATACSAU,										*,		1000,		65
-    MSFC_G3Pants_ATACSAU,												*,		1000,		65
-
 
 	<Category> SQUAD MSF-C A-TACS AU
-		MSFC_JPC_Vest_ATACSAU,											*,		1000,		65
-		MSFC_TAC_TEC_Vest_ATACSAU,									*,		1000,		65
 		MSFC_TacticalCap_ATACSAU,										*,		1000,		65
-		MSFCEmpty_Mags_Bag_ATACSAU,									*,		1000,		65
 		MSFC_IFAK_ATACSAU,													*,		1000,		65
-		MSFC_Defender_Vest_ATACSAU,									*,		1000,		65
 		MSFCM65ATACSAU,															*,		1000,		65
-		MSFCPantsATACSAU,														*,		1000,		65
 		MSFCPCU5ATACSAUComander,										*,		1000,		65
 		MSFCPCU5ATACSAUMedic,												*,		1000,		65
 		MSFCPCU5ATACSAUReconnaissance,							*,		1000,		65
@@ -2548,39 +1831,18 @@
 		MSFCCapATACSAU,															*,		1000,		65
 		MSFCGorkaJATACSAU,													*,		1000,		65
 		MSFCGorkaPATACSAU,													*,		1000,		65
-		MSFCBootsATACSAU,														*,		1000,		65
-		MSFCUKVestATACSAU,													*,		1000,		65
-		MSFCTShirtATACSAU,													*,		1000,		65
-		MSFCTacVestATACSAU,													*,		1000,		65
-		MSFCTacVestATACSAULogo,											*,		1000,		65
-		MSFCTacVestATACSAUMedic,										*,		1000,		65
 		MSFCHoodATACSAU,														*,		1000,		65
-		MSFCBandanaATACSAU,													*,		1000,		65
-		MSFCPlateCarrierVestATACSAU,								*,		1000,		65
-		MSFCPlateCarrierVestATACSAULogo,						*,		1000,		65
 		MSFCTortilaATACSAU,													*,		1000,		65
-		MSFCNBCPantsATACSAU,												*,		1000,		65
-		MSFCNBCJacketATACSAU,												*,		1000,		65
-		MSFCNBCBootsATACSAU,												*,		1000,		65
-		MSFCPlateCarrierVestATACSAUMedic,						*,		1000,		65
-		MSFCPlateHolsterATACSAU,										*,		1000,		65
-		MSFCPlatePouchesATACSAU,										*,		1000,		65
 		MSFCPCU5ATACSAUSupply,											*,		1000,		65
 		MSFCSweaterATACSAU,													*,		1000,		65
-		MSFCPressVestATACSAU,												*,		1000,		65
 		MSFCPCU5ATACSAUPartComander,								*,		1000,		65
-		MSFCSmershVestATACSAU,											*,		1000,		65
 		MSFCOpsCoreATACSAU,													*,		1000,		65
 		MSFCPCU5ATACSAUNoPatch,											*,		1000,		65
-        MSFCGorkaJATACSAUNoPatch,								*,		1000,		65
-		MSFCBootsLowaATACSAU,												*,		1000,		65
-        MSFCBootsTrekkingATACSAU,								*,		1000,		65
-        MSFCPouchCargoATACSAU,									*,		1000,		65
-        MSFCPouchIFAKATACSAU,										*,		1000,		65
+    MSFCGorkaJATACSAUNoPatch,										*,		1000,		65
+    MSFCPouchCargoATACSAU,											*,		1000,		65
+    MSFCPouchIFAKATACSAU,												*,		1000,		65
 		MSFC_FaceMack_ATACSAU,											*,		1000,		65
-		MSFCLowaZephyrBootsATACSAU,									*,		1000,		65
 		MSFC_BottlePouch_ATACSAU,										*,		1000,		65
-        MSFC_G3Pants_ATACSAU,										*,		1000,		65
 
 
 	<Category> Glasses
@@ -2647,114 +1909,139 @@
 		MSFCBlackTekStoGloves,											*,		1000,		650
 		MSFCRussianMilitaryGloves,									*,		1000,		650
 		MSFCACUGloves,															*,		1000,		650
-		MSFCGlovesSURPATDesert,											*,		1000,		650												*,		1000,		65
-		MSFCNBCGlovesSURPAT,												*,		1000,		650													*,		1000,		65
-		MSFCGlovesATACSAU,													*,		1000,		650												*,		1000,		65
+		MSFCGlovesSURPATDesert,											*,		1000,		650
+		MSFCNBCGlovesSURPAT,												*,		1000,		650
+		MSFCGlovesATACSAU,													*,		1000,		650
 		MSFCNBCGlovesATACSAU,												*,		1000,		650
 		MSFCGlovesATACSAU,													*,		1000,		650
 		MSFCNBCGlovesATACSAU,												*,		1000,		650
 
 	<Category> Hats & Caps
-		MedicalScrubsHat_Blue,											*,		2,		1
-		MedicalScrubsHat_White,											*,		2,		1
-		MedicalScrubsHat_Green,											*,		2,		1
-		Bandana_Polkapattern,												*,		6,		2
-		Bandana_Redpattern,													*,		6,		2
-		Bandana_Blackpattern,												*,		6,		2
-		Bandana_Greenpattern,												*,		8,		2
-		Bandana_Camopattern,												*,		10,		3
-		BaseballCap_CMMG_Pink,											*,		12,		3
-		BaseballCap_Pink,														*,		12,		3
-		BaseballCap_Red,														*,		12,		3
-		BaseballCap_Blue,														*,		12,		3
-		BaseballCap_Beige,													*,		12,		3
-		BaseballCap_CMMG_Black,											*,		12,		3
-		BaseballCap_Black,													*,		13,		3
-		BaseballCap_Olive,													*,		14,		4
-		BaseballCap_Camo,														*,		16,		5
-		PrisonerCap,																*,		16,		5
-		BoonieHat_Orange,														*,		16,		5
-		BoonieHat_Red,															*,		16,		5
-		BoonieHat_Blue,															*,		16,		5
-		BoonieHat_NavyBlue,													*,		16,		5
-		BoonieHat_Black,														*,		17,		5
-		BoonieHat_Tan,															*,		18,		6
-		BoonieHat_Olive,														*,		18,		6
-		BoonieHat_DPM,															*,		20,		7
-		BoonieHat_Dubok,														*,		20,		7
-		BoonieHat_Flecktran,												*,		20,		7
-		CowboyHat_Brown,														*,		20,		7
-		CowboyHat_darkBrown,												*,		20,		7
-		CowboyHat_black,														*,		20,		7
-		CowboyHat_green,														*,		20,		7
-		PilotkaCap,																	*,		25,		7
-		OfficerHat,																	*,		25,		7
-		PoliceCap,																	*,		25,		7
-		MilitaryBeret_ChDKZ,												*,		26,		7
-		MilitaryBeret_Red,													*,		26,		7
-		MilitaryBeret_UN,														*,		26,		7
-		MilitaryBeret_CDF,													*,		27,		7
-		MilitaryBeret_NZ,														*,		27,		7
-		BeanieHat_Pink,															*,		30,		8
-		BeanieHat_Red,															*,		30,		8
-		BeanieHat_Blue,															*,		30,		8
-		BeanieHat_Grey,															*,		30,		8
-		BeanieHat_Beige,														*,		30,		8
-		BeanieHat_Brown,														*,		30,		8
-		BeanieHat_Black,														*,		31,		8
-		BeanieHat_Green,														*,		32,		9
-		FlatCap_Red,																*,		32,		8
-		FlatCap_Blue,																*,		32,		8
-		FlatCap_BrownCheck,													*,		32,		8
-		FlatCap_GreyCheck,													*,		32,		8
-		FlatCap_Grey,																*,		32,		8
-		FlatCap_Brown,															*,		32,		8
-		FlatCap_Black,															*,		32,		8
-		FlatCap_BlackCheck,													*,		32,		8
-		ZmijovkaCap_Red,														*,		36,		9
-		ZmijovkaCap_Blue,														*,		36,		9
-		ZmijovkaCap_Brown,													*,		36,		9
-		ZmijovkaCap_Black,													*,		37,		9
-		ZmijovkaCap_Green,													*,		38,		10
-		RadarCap_Red,																*,		40,		10
-		RadarCap_Blue,															*,		40,		10
-		RadarCap_Brown,															*,		40,		10
-		RadarCap_Black,															*,		42,		10
-		RadarCap_Green,															*,		45,		12
-		Ushanka_Blue,																*,		50,		15
-		Ushanka_Black,															*,		50,		15
-		Ushanka_Green,															*,		55,		18
-		NBCHoodGray,																*,		100,	30
-		MSFCBeanieHatSURPAT,												*,		1000,		65
-		MSFCBoonieHatSURPAT,												*,		1000,		65
-		MSFCBoonieHatSURPATDesert,									*,		1000,		65
-		MSFCBeanieHatMulticamBlack,									*,		1000,		65
-		MSFCBoonieHatMulticamBlack,									*,		1000,		65
-		MSFCBeanieHatMulticamTropic,								*,		1000,		65
-		MSFCBoonieHatMulticamTropic,								*,		1000,		65
-		MSFCBeanieHatMulticam,											*,		1000,		65
-		MSFCBoonieHatMulticam,											*,		1000,		65
-		MilitaryGear_BoonieHat_PartizanM,						*,		80,		40
-		MilitaryGear_BoonieHat_Duckhunter,					*,		80,		40
-		MilitaryGear_BoonieHat_Multicam,						*,		80,		40
-		MilitaryGear_BoonieHat_Splinter,						*,		80,		40
-		MilitaryGear_BoonieHat_Splinter_Dark,				*,		80,		40
-		MilitaryGear_BoonieHat_Tiger,								*,		80,		40
-		MilitaryGear_BoonieHat_Woodland,						*,		80,		40
-		MilitaryGear_BoonieHat_FLT,									*,		80,		40
-		MilitaryGear_BoonieHat_DPM,									*,		80,		40
-		MilitaryGear_BoonieHat_MPAT,								*,		80,		40
-		MilitaryGear_BoonieHat_Partizan,						*,		80,		40
-		MilitaryGear_BoonieHat_Skol,								*,		80,		40
-		MilitaryGear_BoonieHat_ATACS,								*,		80,		40
-		MilitaryGear_BoonieHat_CADPAT,							*,		80,		40
-		MilitaryGear_BoonieHat_Tropic,							*,		80,		40
-		MilitaryGear_BoonieHat_Yeger,								*,		80,		40
-		MSFCBeanieHatATACSAU,												*,		1000,		65
-		MSFCBoonieHatATACSAU,												*,		1000,		65
-		MSFCBeanieHatATACSAU,												*,		1000,		65
-		MSFCBoonieHatATACSAU,												*,		1000,		65
-		MSFCMich2001ATACSAU,												*,		1000,		65
+		MedicalScrubsHat_Blue,											*,		100,		50
+		MedicalScrubsHat_White,											*,		100,		50
+		MedicalScrubsHat_Green,											*,		100,		50
+		Bandana_Polkapattern,												*,		100,		50
+		Bandana_Redpattern,													*,		100,		50
+		Bandana_Blackpattern,												*,		100,		50
+		Bandana_Greenpattern,												*,		100,		50
+		Bandana_Camopattern,												*,		100,		50
+		BaseballCap_CMMG_Pink,											*,		120,		50
+		BaseballCap_Pink,														*,		120,		50
+		BaseballCap_Red,														*,		120,		50
+		BaseballCap_Blue,														*,		120,		50
+		BaseballCap_Beige,													*,		120,		50
+		BaseballCap_CMMG_Black,											*,		120,		50
+		BaseballCap_Black,													*,		130,		50
+		BaseballCap_Olive,													*,		140,		50
+		BaseballCap_Camo,														*,		160,		50
+		PrisonerCap,																*,		160,		50
+		BoonieHat_Orange,														*,		160,		50
+		BoonieHat_Red,															*,		160,		50
+		BoonieHat_Blue,															*,		160,		50
+		BoonieHat_NavyBlue,													*,		160,		50
+		BoonieHat_Black,														*,		170,		50
+		BoonieHat_Tan,															*,		180,		60
+		BoonieHat_Olive,														*,		180,		60
+		BoonieHat_DPM,															*,		200,		70
+		BoonieHat_Dubok,														*,		200,		70
+		BoonieHat_Flecktran,												*,		200,		70
+		CowboyHat_Brown,														*,		200,		70
+		CowboyHat_darkBrown,												*,		200,		70
+		CowboyHat_black,														*,		200,		70
+		CowboyHat_green,														*,		200,		70
+		PilotkaCap,																	*,		250,		70
+		OfficerHat,																	*,		250,		70
+		PoliceCap,																	*,		250,		70
+		MilitaryBeret_ChDKZ,												*,		260,		70
+		MilitaryBeret_Red,													*,		260,		70
+		MilitaryBeret_UN,														*,		260,		70
+		MilitaryBeret_CDF,													*,		270,		70
+		MilitaryBeret_NZ,														*,		270,		70
+		BeanieHat_Pink,															*,		300,		80
+		BeanieHat_Red,															*,		300,		80
+		BeanieHat_Blue,															*,		300,		80
+		BeanieHat_Grey,															*,		300,		80
+		BeanieHat_Beige,														*,		300,		80
+		BeanieHat_Brown,														*,		300,		80
+		BeanieHat_Black,														*,		310,		80
+		BeanieHat_Green,														*,		320,		90
+		FlatCap_Red,																*,		320,		80
+		FlatCap_Blue,																*,		320,		80
+		FlatCap_BrownCheck,													*,		320,		80
+		FlatCap_GreyCheck,													*,		320,		80
+		FlatCap_Grey,																*,		320,		80
+		FlatCap_Brown,															*,		320,		80
+		FlatCap_Black,															*,		320,		80
+		FlatCap_BlackCheck,													*,		320,		80
+		ZmijovkaCap_Red,														*,		360,		90
+		ZmijovkaCap_Blue,														*,		360,		90
+		ZmijovkaCap_Brown,													*,		360,		90
+		ZmijovkaCap_Black,													*,		370,		90
+		ZmijovkaCap_Green,													*,		380,		100
+		RadarCap_Red,																*,		400,		100
+		RadarCap_Blue,															*,		400,		100
+		RadarCap_Brown,															*,		400,		100
+		RadarCap_Black,															*,		420,		100
+		RadarCap_Green,															*,		450,		120
+		Ushanka_Blue,																*,		500,		150
+		Ushanka_Black,															*,		500,		150
+		Ushanka_Green,															*,		550,		180
+		NBCHoodGray,																*,		100,		50
+		MSFCBeanieHatSURPAT,												*,		430,		170
+		MSFCBoonieHatSURPAT,												*,		430,		170
+		MSFCBoonieHatSURPATDesert,									*,		430,		170
+		MSFCBeanieHatMulticamBlack,									*,		430,		170
+		MSFCBoonieHatMulticamBlack,									*,		430,		170
+		MSFCBeanieHatMulticamTropic,								*,		430,		170
+		MSFCBoonieHatMulticamTropic,								*,		430,		170
+		MSFCBeanieHatMulticam,											*,		430,		170
+		MSFCBoonieHatMulticam,											*,		430,		170
+		MilitaryGear_BoonieHat_PartizanM,						*,		300,		120
+		MilitaryGear_BoonieHat_Duckhunter,					*,		300,		120
+		MilitaryGear_BoonieHat_Multicam,						*,		300,		120
+		MilitaryGear_BoonieHat_Splinter,						*,		300,		120
+		MilitaryGear_BoonieHat_Splinter_Dark,				*,		300,		120
+		MilitaryGear_BoonieHat_Tiger,								*,		300,		120
+		MilitaryGear_BoonieHat_Woodland,						*,		300,		120
+		MilitaryGear_BoonieHat_FLT,									*,		300,		120
+		MilitaryGear_BoonieHat_DPM,									*,		300,		120
+		MilitaryGear_BoonieHat_MPAT,								*,		300,		120
+		MilitaryGear_BoonieHat_Partizan,						*,		300,		120
+		MilitaryGear_BoonieHat_Skol,								*,		300,		120
+		MilitaryGear_BoonieHat_ATACS,								*,		300,		120
+		MilitaryGear_BoonieHat_CADPAT,							*,		300,		120
+		MilitaryGear_BoonieHat_Tropic,							*,		300,		120
+		MilitaryGear_BoonieHat_Yeger,								*,		300,		120
+		MSFCBeanieHatATACSAU,												*,		300,		100
+		MSFCBoonieHatATACSAU,												*,		300,		100
+		MSFCBeanieHatATACSAU,												*,		300,		100
+		MSFCBoonieHatATACSAU,												*,		300,		100
+		MSFCMich2001ATACSAU,												*,		300,		100
+		MSFCBandanaMulticamBlack,										*,		300,		100
+		MSFCBandanaMulticamTropic,									*,		300,		100
+		MSFCBandanaMulticam,												*,		300,		100
+		MSFCBandanaSURPATDesert,										*,		300,		100
+		MilitaryGear_Bandana_Black,									*,		300,		100
+		MilitaryGear_Bandana_Brown,									*,		300,		100
+		MilitaryGear_Bandana_PartizanM,							*,		300,		100
+		MilitaryGear_Bandana_Duckhunter,						*,		300,		100
+		MilitaryGear_Bandana_Multicam,							*,		300,		100
+		MilitaryGear_Bandana_Splinter,							*,		300,		100
+		MilitaryGear_Bandana_Splinter_Dark,					*,		300,		100
+		MilitaryGear_Bandana_Tiger,									*,		300,		100
+		MilitaryGear_Bandana_Woodland,							*,		300,		100
+		MilitaryGear_Bandana_FLT,										*,		300,		100
+		MilitaryGear_Bandana_DPM,										*,		300,		100
+		MilitaryGear_Bandana_MPAT,									*,		300,		100
+		MilitaryGear_Bandana_Partizan,							*,		300,		100
+		MilitaryGear_Bandana_Skol,									*,		300,		100
+		MilitaryGear_Bandana_ATACS,									*,		300,		100
+		MilitaryGear_Bandana_CADPAT,								*,		300,		100
+		MilitaryGear_Bandana_Tropic,								*,		300,		100
+		MilitaryGear_Bandana_Yeger,									*,		300,		100
+		MSFCBandanaSURPAT,													*,		1000,		100
+		MSFCBandanaATACSAU,													*,		1000,		100
+		MSFCBandanaATACSAU,													*,		1000,		100
 
 	<Category> Helmets
 		ConstructionHelmet_Yellow,									*, 	  300,		70
@@ -2923,12 +2210,12 @@
 		MSFC_HelmetPatch_715,												*,		1000,		300
 
 	<Category> Masks
-		SurgicalMask,																*,		150,		30
-		BandanaMask_PolkaPattern,										*,		250,		60
-		BandanaMask_RedPattern,											*,		250,		60
-		BandanaMask_BlackPattern,										*,		250,		60
-		BandanaMask_GreenPattern,										*,		300,		80
-		BandanaMask_CamoPattern,										*,		350,		100
+		SurgicalMask,																*,		450,		130
+		BandanaMask_PolkaPattern,										*,		450,		160
+		BandanaMask_RedPattern,											*,		450,		160
+		BandanaMask_BlackPattern,										*,		450,		160
+		BandanaMask_GreenPattern,										*,		400,		180
+		BandanaMask_CamoPattern,										*,		450,		100
 		MSFCBandanaMulticamBlackMask,								*,		450,		220
 		MSFCBandanaMulticamTropicMask,							*,		450,		220
 		MSFCBandanaMulticamMask,										*,		450,		220
@@ -2944,93 +2231,177 @@
 		MSFCGasMaskGP5Green,												*,		3000,		650
 		MSFCGasMaskGP5Tan,													*,		3000,		650
 		MSFCGasMaskGreen,														*,		3000,		650
-		MSFCGasMaskBlack,														*,		3000,		650
-		MSFCGasMaskGray,														*,		3000,		650
-		MSFCGasMaskWhite,														*,		3000,		650
-		MSFCIIIM6800GasMaskBlack,										*,		3000,		650
-		MSFCIIIM6800GasMaskBlue,										*,		3000,		650
-		MSFCIIIM6800GasMaskGreen,										*,		3000,		650
-		MSFCIIIM6800GasMaskYellow,									*,		3000,		650
-		MSFCGasMaskM50Black,												*,		3000,		650
-		MSFCGasMaskM50Green,												*,		3000,		650
-		MSFCGasMaskM50Tan,													*,		3000,		650
-		MSFCGasMaskM50White,												*,		3000,		650
-		MSFCGasMaskM04Black,												*,		3000,		650
-		MSFCGasMaskM04Green,												*,		3000,		650
-		MSFCGasMaskM04Tan,													*,		3000,		650
-		MSFCGasMaskM04White,												*,		3000,		650
-		MSFCRMRAutumnMask,													*,		3000,		650
+		MSFCGasMaskBlack,														*,		3000,		1650
+		MSFCGasMaskGray,														*,		3000,		1650
+		MSFCGasMaskWhite,														*,		3000,		1650
+		MSFCIIIM6800GasMaskBlack,										*,		3000,		1650
+		MSFCIIIM6800GasMaskBlue,										*,		3000,		1650
+		MSFCIIIM6800GasMaskGreen,										*,		3000,		1650
+		MSFCIIIM6800GasMaskYellow,									*,		3000,		1650
+		MSFCGasMaskM50Black,												*,		3000,		1650
+		MSFCGasMaskM50Green,												*,		3000,		1650
+		MSFCGasMaskM50Tan,													*,		3000,		1650
+		MSFCGasMaskM50White,												*,		3000,		1650
+		MSFCGasMaskM04Black,												*,		3000,		1650
+		MSFCGasMaskM04Green,												*,		3000,		1650
+		MSFCGasMaskM04Tan,													*,		3000,		1650
+		MSFCGasMaskM04White,												*,		3000,		1650
+		MSFCRMRAutumnMask,													*,		3000,		1650
 		MSFCIIIM6800GasMaskFilter,									*,		500,		250
-		MSFCIIIM6800GasMaskGray,										*,		3000,		65
-		MSFCIIIM6800GasMaskWhite,										*,		3000,		65
-		MSFCIIIM6800GasMaskDesert,									*,		3000,		65
-		MilitaryGear_GasMask_Black,									*,		3000, 	50
-		MilitaryGear_GasMask_Brown,									*,		3000,	  50
-		MilitaryGear_GasMask_Olive,									*,		3000,	  50
-		MilitaryGear_GP5GasMask_Black,							*,		3200, 	60
-		MilitaryGear_GP5GasMask_Brown,							*,		3200, 	60
-		MilitaryGear_GP5GasMask_Olive,							*,		3200,	  60
+		MSFCIIIM6800GasMaskGray,										*,		3000,		1650
+		MSFCIIIM6800GasMaskWhite,										*,		3000,		1650
+		MSFCIIIM6800GasMaskDesert,									*,		3000,		1650
+		MilitaryGear_GasMask_Black,									*,		3000, 	1500
+		MilitaryGear_GasMask_Brown,									*,		3000,	  1500
+		MilitaryGear_GasMask_Olive,									*,		3000,	  1500
+		MilitaryGear_GP5GasMask_Black,							*,		3200, 	1600
+		MilitaryGear_GP5GasMask_Brown,							*,		3200, 	1600
+		MilitaryGear_GP5GasMask_Olive,							*,		3200,	  1600
 		//HoxtonMask,																*,		400,		100
 		//WolfMask,																	*,		400,		100
 		//DallasMask,																*,		400,		100
-		MSFCTacticalMaskSURPATDesert,								*,		1400,		650
-		MSFCTacticalMaskSURPAT,											*,		1400,		650
-		MSFCTacticalMaskMulticamBlack,							*,		1400,		650
-		MSFCTacticalMaskMulticamTropic,							*,		1400,		650
-		MSFCTacticalMaskMulticam,										*,		1400,		650
-		MSFCTacticalMaskATACSAU,										*,		1400,		650
-		MSFCTacticalMaskATACSAU,										*,		1400,		650
-		MSFCMulticamBlackMask,											*,		1400,		650
-		MSFCMulticamTropicMask,											*,		1400,		650
-		MSFCMulticamMask,	                          *,		1400,		650
-		MSFC_BalaclavaMask_Green,										*,		1400,		650
-		MSFC_BalaclavaMask_Black,										*,		1400,		650
-		MSFC_BalaclavaMask_Desert,									*,		1400,		650
-		MSFC_BalaclavaMask_Skull,										*,		1400,		650
-		MSFC_FaceMack_ATACSAU,											*,		1400,		550
-		MSFCVenomMask,															*,		2000,		650
-		MSFCGhostMask,															*,		2000,		650
-		MSFCDigitalNavyMask,												*,		1100,		650
-		MSFCRMRMask,																*,		1100,		650
-		MSFCACUMask,																*,		1100,		650
-		MSFCSURPATDesertMask,												*,		1100,		650
-		MSFCSURPATMask,															*,		1100,		650
-		MSFCATACSAUMask,														*,		1100,		650
+		MSFCTacticalMaskSURPATDesert,								*,		400,		150
+		MSFCTacticalMaskSURPAT,											*,		400,		150
+		MSFCTacticalMaskMulticamBlack,							*,		400,		150
+		MSFCTacticalMaskMulticamTropic,							*,		400,		150
+		MSFCTacticalMaskMulticam,										*,		400,		150
+		MSFCTacticalMaskATACSAU,										*,		400,		150
+		MSFCTacticalMaskATACSAU,										*,		400,		150
+		MSFCMulticamBlackMask,											*,		400,		150
+		MSFCMulticamTropicMask,											*,		400,		150
+		MSFCMulticamMask,	                          *,		400,		150
+		MSFC_FaceMack_ATACSAU,											*,		400,		150
+		MSFCVenomMask,															*,		400,		150
+		MSFCGhostMask,															*,		400,		150
+		MSFCDigitalNavyMask,												*,		400,		150
+		MSFCRMRMask,																*,		400,		150
+		MSFCACUMask,																*,		400,		150
+		MSFCSURPATDesertMask,												*,		400,		150
+		MSFCSURPATMask,															*,		400,		150
+		MSFCATACSAUMask,														*,		400,		150
 		MSFCATACSAUMask,														*,		200,		100
+		MSFC_BalaclavaMask_Green,										*,		300,		100
+		MSFC_BalaclavaMask_Black,										*,		300,		100
+		MSFC_BalaclavaMask_Desert,									*,		300,		100
+		MSFC_BalaclavaMask_Skull,										*,		300,		100
+		MSFCBalaclava3HolesDemonSkull,							*,		300,		100
+		MSFCBalaclavaBlackSkullGhosts,							*,		300,		100
+		MSFCBalaclavaBlackDemonSkull,								*,		300,		100
+		MSFCBalaclavaBlackSugarSkull,								*,		300,		100
+		MSFCBalaclavaBlackDevilRed,									*,		300,		100
+		MSFCBalaclavaBlackDevilRog,									*,		300,		100
+		MSFCBalaclavaBlackSkullAllien,							*,		300,		100
+		MSFCBalaclavaBlackSkullUSA,									*,		300,		100
+		MSFCBalaclavaBlackBear,											*,		300,		100
+		MSFCBalaclavaBlackTiger,										*,		300,		100
+		MSFCBalaclavaBlackFireSkull,								*,		300,		100
+		//MSFCBalaclavaBlack		MSFC,								*,		300,		100
+		MSFCBalaclavaBlackSpider,										*,		300,		100
+		MSFCBalaclavaBlackDemonHell,								*,		300,		100
+		MSFCBalaclavaBlackChastener,								*,		300,		100
+		MSFCBalaclavaBlackSamurai,									*,		300,		100
+		MSFCBalaclavaBlackSkullPaint,								*,		300,		100
+		MSFCBalaclavaBlackSpiderVenomCarnage,				*,		300,		100
+		MSFCBalaclavaBlackBloodyMouth,							*,		300,		100
+		MSFCBalaclavaBlackPrizrak,									*,		300,		100
+		MilitaryGear_Balaclava3_PartizanM,					*,		100,		50
+		MilitaryGear_Balaclava3Skull_PartizanM,			*,		150,		75
+		MilitaryGear_Balaclava3_Duckhunter,					*,		100,		50
+		MilitaryGear_Balaclava3Skull_Duckhunter,		*,		150,		75
+		MilitaryGear_Balaclava3_Multicam,						*,		100,		50
+		MilitaryGear_Balaclava3Skull_Multicam,			*,		150,		75
+		MilitaryGear_Balaclava3_Splinter,						*,		100,		50
+		MilitaryGear_Balaclava3Skull_Splinter,			*,		150,		75
+		MilitaryGear_Balaclava3_Splinter_Dark,			*,		100,		50
+		MilitaryGear_Balaclava3Skull_Splinter_Dark,	*,		150,		75
+		MilitaryGear_Balaclava3_Tiger,							*,		100,		50
+		MilitaryGear_Balaclava3Skull_Tiger,					*,		150,		75
+		MilitaryGear_Balaclava3_Woodland,						*,		100,		50
+		MilitaryGear_Balaclava3Skull_Woodland,			*,		150,		75
+		MilitaryGear_Balaclava3_FLT,								*,		100,		50
+		MilitaryGear_Balaclava3Skull_FLT,						*,		150,		75
+		MilitaryGear_Balaclava3_DPM,								*,		100,		50
+		MilitaryGear_Balaclava3Skull_DPM,						*,		150,		75
+		MilitaryGear_Balaclava3_MPAT,								*,		100,		50
+		MilitaryGear_Balaclava3Skull_MPAT,					*,		150,		75
+		MilitaryGear_Balaclava3_Partizan,						*,		100,		50
+		MilitaryGear_Balaclava3Skull_Partizan,			*,		150,		75
+		MilitaryGear_Balaclava3_Skol,								*,		100,		50
+		MilitaryGear_Balaclava3Skull_Skol,					*,		150,		75
+		MilitaryGear_Balaclava3_ATACS,							*,		100,		50
+		MilitaryGear_Balaclava3Skull_ATACS,					*,		150,		75
+		MilitaryGear_Balaclava3_CADPAT,							*,		100,		50
+		MilitaryGear_Balaclava3Skull_CADPAT,				*,		150,		75
+		MilitaryGear_Balaclava3_Tropic,							*,		100,		50
+		MilitaryGear_Balaclava3Skull_Tropic,				*,		150,		75
+		MilitaryGear_Balaclava3_Yeger,							*,		100,		50
+		MilitaryGear_Balaclava3Skull_Yeger,					*,		150,		75
 		Balaclava3Holes_Blue,												*,		200,		100
 		Balaclava3Holes_Beige,											*,		200,		100
 		Balaclava3Holes_Black,											*,		200,		100
 		Balaclava3Holes_Green,											*,		200,		100
 
 	<Category> Shirts
-		TShirt_OrangeWhiteStripes,									*,	8,		2
-		TShirt_RedBlackStripes,											*,		8,		2
-		TShirt_Red,																	*,		8,		2
-		TShirt_Blue,																*,		8,		2
-		TShirt_White,																*,		10,		2
-		TShirt_Grey,																*,		10,		2
-		TShirt_Beige,																*,		10,		2
-		TShirt_Black,																*,		12,		3
-		TShirt_Green,																*,		12,		3
-		TelnyashkaShirt,														*,		14,		3
-		Shirt_RedCheck,															*,		16,		4
-		Shirt_BlueCheckBright,											*,		16,		4
-		Shirt_BlueCheck,														*,		16,		4
-		Shirt_WhiteCheck,														*,		16,		4
-		Shirt_PlaneBlack,														*,		17,		4
-		Shirt_GreenCheck,														*,		18,		4
-		Blouse_Violet,															*,		16,		4
-		Blouse_Blue,																*,		16,		4
-		Blouse_White,																*,		16,		4
-		Blouse_Green,																*,		18,		4
-		MedicalScrubsShirt_Blue,										*,		20,		5
-		MedicalScrubsShirt_White,										*,		20,		5
-		MedicalScrubsShirt_Green,										*,		20,		5
-		ChernarusSportShirt,												*,		25,		6
-		TacticalShirt_Grey,													*,		36,		10
-		TacticalShirt_Tan,													*,		37,		10
-		TacticalShirt_Black,												*,		38,		10
-		TacticalShirt_Olive,												*,		40,		12
+		TShirt_OrangeWhiteStripes,									*,		80,			20
+		TShirt_RedBlackStripes,											*,		80,			20
+		TShirt_Red,																	*,		80,			20
+		TShirt_Blue,																*,		80,			20
+		TShirt_White,																*,		100,		20
+		TShirt_Grey,																*,		100,		20
+		TShirt_Beige,																*,		100,		20
+		TShirt_Black,																*,		120,		30
+		TShirt_Green,																*,		120,		30
+		TelnyashkaShirt,														*,		140,		30
+		Shirt_RedCheck,															*,		160,		40
+		Shirt_BlueCheckBright,											*,		160,		40
+		Shirt_BlueCheck,														*,		160,		40
+		Shirt_WhiteCheck,														*,		160,		40
+		Shirt_PlaneBlack,														*,		170,		40
+		Shirt_GreenCheck,														*,		180,		40
+		Blouse_Violet,															*,		160,		40
+		Blouse_Blue,																*,		160,		40
+		Blouse_White,																*,		160,		40
+		Blouse_Green,																*,		180,		40
+		MedicalScrubsShirt_Blue,										*,		200,		50
+		MedicalScrubsShirt_White,										*,		20,			50
+		MedicalScrubsShirt_Green,										*,		200,		50
+		ChernarusSportShirt,												*,		250,		60
+		TacticalShirt_Grey,													*,		900,		100
+		TacticalShirt_Tan,													*,		900,		100
+		TacticalShirt_Black,												*,		900,		100
+		TacticalShirt_Olive,												*,		900,		120
+		MSFCTShirtMulticamBlack,										*,		900,		650
+		MilitaryGear_TacticalShirt_PartizanM,				*,		900,		200
+		MSFCTShirtMulticamTropic,										*,		900,		400
+		MSFCTShirtMulticam,													*,		900,		400
+		MSFCTShirtBlack,														*,		900,		400
+		MSFCTShirtPahom,														*,		900,		400
+		MSFCTShirtDayZ,															*,		900,		400
+		MSFCTShirtGreen,														*,		900,		400
+		MSFCTShirtGreenElephant,										*,		900,		400
+		MSFCTStarsTShirt,														*,		900,		400
+		MSFCTShirtDayZCherno,												*,		900,		400
+		MSFCTShirtSTALKER_RP,												*,		900,		400
+		MSFCTShirtSTALKER_RP_Radiation,							*,		900,		400
+		MSFCTShirtSURPATDesert,											*,		900,		400
+		MSFCTShirtSURPAT,														*,		900,		400
+		MilitaryGear_TacticalShirt_Duckhunter,			*,		900,		400
+		MilitaryGear_TacticalShirt_Multicam,				*,		900,		400
+		MilitaryGear_TacticalShirt_Splinter,				*,		900,		400
+		MilitaryGear_TacticalShirt_Splinter_Dark,		*,		900,		400
+		MilitaryGear_TacticalShirt_Tiger,						*,		900,		400
+		MilitaryGear_TacticalShirt_Woodland,				*,		900,		400
+		MilitaryGear_TacticalShirt_FLT,							*,		900,		400
+		MilitaryGear_TacticalShirt_DPM,							*,		900,		400
+		MilitaryGear_TacticalShirt_MPAT,						*,		900,		400
+		MilitaryGear_TacticalShirt_Partizan,				*,		900,		400
+		MilitaryGear_TacticalShirt_Skol,						*,		900,		400
+		MilitaryGear_TacticalShirt_ATACS,						*,		900,		400
+		MilitaryGear_TacticalShirt_CADPAT,					*,		900,		300
+		MilitaryGear_TacticalShirt_Tropic,					*,		900,		300
+		MilitaryGear_TacticalShirt_Yeger,						*,		900,		200
+		MSFCTShirtATACSAU,													*,		900,		300
+		MSFCTShirtATACSAU,													*,		900,		300
 
 	<Category> Hoodies & Sweater
 		Sweater_Red,																*,		200,		500
@@ -3060,251 +2431,710 @@
 		HighCapacityVest_Black,											*,		20000,	6000
 		HighCapacityVest_Olive,											*,		23000,	7500
 		PlateCarrierVest,														*,		25000,	8000
+		MSFCUKVestSURPATDesert,											*,		6000,		2500
+		MSFCTacVestSURPATDesert,										*,		6000,		2500
+		MSFCTacVestSURPATDesertLogo,								*,		6000,		2500
+		MSFCTacVestSURPATDesertMedic,								*,		6000,		2500
+		MSFCPlateCarrierVestSURPATDesert,						*,		6000,		2500
+		MSFCPlateCarrierVestSURPATDesertLogo,				*,		6000,		2500
+		MSFCPlateCarrierVestSURPATDesertMedic,			*,		6000,		2500
+		MSFCPressVestSURPATDesert,									*,		6000,		2500
+		MSFCSmershVestSURPATDesert,									*,		6000,		2500
+		MSFCUKVestSURPAT,														*,		6000,		2500
+		MSFCTacVestSURPAT,													*,		6000,		2500
+		MSFCTacVestSURPATLogo,											*,		6000,		2500
+		MSFCTacVestSURPATMedic,											*,		6000,		2500
+		MSFCPlateCarrierVestSURPAT,									*,		6000,		2500
+		MSFCPlateCarrierVestSURPATLogo,							*,		6000,		2500
+		MSFCPlateCarrierVestSURPATMedic,						*,		6000,		2500
+		MSFCPressVestSURPAT,												*,		6000,		2500
+		MSFCSmershVestSURPAT,												*,		6000,		2500
+		MSFC_JPC_Vest_MulticamBlack,								*,		6000,		2500
+		MSFC_TAC_TEC_Vest_MulticamBlack,						*,		6000,		2500
+		MSFC_Defender_Vest_MulticamBlack,						*,		6000,		2500
+		MSFCUKVestMulticamBlack,										*,		6000,		2500
+		MSFCTacVestMulticamBlack,										*,		6000,		2500
+		MSFCTacVestMulticamBlackLogo,							  *,		6000,		2500
+		MSFCTacVestMulticamBlackMedic,							*,		6000,		2500
+		MSFCPlateCarrierVestMulticamBlack,					*,		6000,		2500
+		MSFCPlateCarrierVestMulticamBlackLogo,			*,		6000,		2500
+		MSFCPlateCarrierVestMulticamBlackMedic,			*,		6000,		2500
+		MSFCPressVestMulticamBlack,									*,		6000,		2500
+		MSFCSmershVestMulticamBlack,								*,		6000,		2500
+		MSFC_JPC_Vest_MulticamTropic,								*,		6000,		2500
+		MSFC_TAC_TEC_Vest_MulticamTropic,						*,		6000,		2500
+		MSFC_Defender_Vest_MulticamTropic,					*,		6000,		2500
+		MSFCUKVestMulticamTropic,										*,		6000,		2500
+		MSFCTacVestMulticamTropic,									*,		6000,		2500
+		MSFCTacVestMulticamTropicLogo,							*,		6000,		2500
+		MSFCTacVestMulticamTropicMedic,							*,		6000,		2500
+		MSFCPlateCarrierVestMulticamTropic,					*,		6000,		2500
+		MSFCPlateCarrierVestMulticamTropicLogo,			*,		6000,		2500
+		MSFCPlateCarrierVestMulticamTropicMedic,		*,		6000,		2500
+		MSFCPressVestMulticamTropic,								*,		6000,		2500
+		MSFCSmershVestMulticamTropic,								*,		6000,		2500
+		MSFC_JPC_Vest_Multicam,											*,		6000,		2500
+		MSFC_TAC_TEC_Vest_Multicam,									*,		6000,		2500
+		MSFCUKVestMulticam,													*,		6000,		2500
+		MSFCTacVestMulticam,												*,		6000,		2500
+		MSFCTacVestMulticamLogo,										*,		6000,		2500
+		MSFCTacVestMulticamMedic,										*,		6000,		2500
+		MSFCPlateCarrierVestMulticam,								*,		6000,		2500
+		MSFCPlateCarrierVestMulticamLogo,						*,		6000,		2500
+		MSFCPlateCarrierVestMulticamMedic,					*,		6000,		2500
+		MSFCPressVestMulticam,											*,		6000,		2500
+		MSFCSmershVestMulticam,											*,		6000,		2500
+		MSFC_JPC_Vest_Green,												*,		6000,		2500
+		MSFC_JPC_Vest_Black,												*,		6000,		2500
+		MSFC_JPC_Vest_Desert,												*,		6000,		2500
+		MSFC_TAC_TEC_Vest_Green,										*,		6000,		2500
+		MSFC_TAC_TEC_Vest_Black,										*,		6000,		2500
+		MSFC_TAC_TEC_Vest_Desert,										*,		6000,		2500
+		MSFC_Defender_Vest_Green,										*,		6000,		2500
+		MSFC_Defender_Vest_Black,										*,		6000,		2500
+		MSFC_Defender_Vest_Desert,									*,		6000,		2500
+		MSFCCSATVest,																*,		6000,		2500
+		MSFC_Defender_Vest_EMR,											*,		6000,		2500
+		MSFCSmershVestBlack,												*,		6000,		2500
+		MSFCSmershVestGreen,												*,		6000,		2500
+		MSFCSmershVestTan,													*,		6000,		2500
+		MSFCRussianMilitaryPlateVest,								*,		6000,		2500
+		MSFCRBGVest,																*,		6000,		2500
+		MSFCOFPResistanceVest,											*,		6000,		2500
+		MSFCRussianMilitaryVest,										*,		6000,		2500
+		MSFCBlackCamoVest,													*,		6000,		2500
+		MSFCUmbrellaVest,														*,		6000,		2500
+		MSFCStarsVest,															*,		6000,		2500
+		MSFCFlecktarnPlateVest,											*,		6000,		2500
+		MSFCDigitalNavyVest,												*,		6000,		2500
+		MSFCBlackTekStoVest,												*,		6000,		2500
+		MSFCBlackTekStoPlateVest,										*,		6000,		2500
+		MSFCDigitalNavyPlateVest,										*,		3000,		1250
+		MSFCUmbrellaPlateVest,											*,		3000,		1250
+		MSFCSmershVestGray,													*,		3000,		1250
+		MSFCRMRPlateVest,														*,		3000,		1250
+		MSFCRMRSmershVest,													*,		3000,		1250
+		MSFCACUPlateVest,														*,		3000,		1250
+		MSFCCadpatVest,															*,		3000,		1250
+		MSFCRMRAutumnPlateVest,											*,		3000,		1250
+		MSFCKryptekBansheePlateVest,								*,		3000,		1250
+		MSFCKryptekTyphonPlateVest,									*,		3000,		1250
+		MSFCKryptekMandrakePlateVest,								*,		3000,		1250
+		MSFCKryptekRaidPlateVest,										*,		3000,		1250
+		MSFCKryptekWraithPlateVest,									*,		3000,		1250
+		MSFCKryptekNeptunePlateVest,								*,		3000,		1250
+		MSFCProjectHonorPlateVest,									*,		3000,		1250
+		MSFCAOR2PlateVest,													*,		3000,		1250
+		MSFCSmershVestEMR,													*,		3000,		1250
+		MSFC_Pantera_PlateVest,											*,		3000,		1250
+		MSFC_PanteraAutumn_PlateVest,								*,		3000,		1250
+		MSFCSTALKERVest,														*,		3000,		1250
+		MSFCSTALKERDolgVest,												*,		3000,		1250
+		MSFCSTALKERSvobodaVest,											*,		3000,		1250
+		MSFCSTALKERMercVest,												*,		3000,		1250
+		MSFCSTALKERMonolitVest,											*,		3000,		1250
+		MSFCSTALKERClearSkyVest,										*,		3000,		1250
+		MSFCSTALKERBanditVest,											*,		3000,		1250
+		MSFCSTALKERMilitaryVest,										*,		3000,		1250
+		MSFCSTALKERDolgPlateVest,										*,		3000,		1250
+		MSFCSTALKERClearSkyPlateVest,								*,		3000,		1250
+		MSFCSTALKERMercPlateVest,										*,		3000,		1250
+		MSFCSTALKERMonolitPlateVest,								*,		3000,		1250
+		MSFCSTALKERSvobodaPlateVest,								*,		3000,		1250
+		MSFCSTALKERVest_Green,											*,		3000,		1250
+		MSFC_JPC_Vest_SURPATDesert,									*,		3000,		1250
+		MSFC_TAC_TEC_Vest_SURPATDesert,							*,		3000,		1250
+		MSFC_Defender_Vest_SURPATDesert,						*,		3000,		1250
+		MSFC_JPC_Vest_SURPAT,												*,		3000,		1250
+		MSFC_TAC_TEC_Vest_SURPAT,										*,		3000,		1250
+		MSFC_Defender_Vest_SURPAT,									*,		3000,		1250
+		MilitaryGear_AssaultVest_PartizanM,					*,		440,		220
+		MilitaryGear_HighCapVest_PartizanM,					*,		500,		250
+		MilitaryGear_AssaultVest_Duckhunter,				*,		440,		220
+		MilitaryGear_HighCapVest_Duckhunter,				*,		500,		250
+		MilitaryGear_AssaultVest_Multicam,					*,		440,		220
+		MilitaryGear_HighCapVest_Multicam,					*,		500,		250
+		MilitaryGear_AssaultVest_Splinter,					*,		440,		220
+		MilitaryGear_HighCapVest_Splinter,					*,		500,		250
+		MilitaryGear_AssaultVest_Splinter_Dark,		  *,		440,		220
+		MilitaryGear_HighCapVest_Splinter_Dark,	 		*,		500,		250
+		MilitaryGear_AssaultVest_Tiger,							*,		440,		220
+		MilitaryGear_HighCapVest_Tiger,							*,		500,		250
+		MilitaryGear_AssaultVest_Woodland,					*,		440,		220
+		MilitaryGear_HighCapVest_Woodland,					*,		500,		250
+		MilitaryGear_AssaultVest_FLT,								*,		440,		220
+		MilitaryGear_HighCapVest_FLT,								*,		500,		250
+		MilitaryGear_AssaultVest_DPM,								*,		440,		220
+		MilitaryGear_HighCapVest_DPM,								*,		500,		250
+		MilitaryGear_AssaultVest_MPAT,							*,		440,		220
+		MilitaryGear_HighCapVest_MPAT,							*,		500,		250
+		MilitaryGear_AssaultVest_Partizan,					*,		440,		220
+		MilitaryGear_HighCapVest_Partizan,					*,		500,		250
+		MilitaryGear_AssaultVest_Skol,							*,		440,		220
+		MilitaryGear_HighCapVest_Skol,							*,		500,		250
+		MilitaryGear_AssaultVest_ATACS,							*,		440,		220
+		MilitaryGear_HighCapVest_ATACS,							*,		500,		250
+		MilitaryGear_AssaultVest_CADPAT,						*,		440,		220
+		MilitaryGear_HighCapVest_CADPAT,						*,		500,		250
+		MilitaryGear_AssaultVest_Tropic,						*,		440,		220
+		MilitaryGear_HighCapVest_Tropic,						*,		500,		250
+		MilitaryGear_AssaultVest_Yeger,							*,		440,		220
+		MilitaryGear_HighCapVest_Yeger,							*,		500,		250
+		MSFC_JPC_Vest_ATACSAU,											*,		1000,		500
+		MSFC_TAC_TEC_Vest_ATACSAU,									*,		1000,		500
+		MSFC_Defender_Vest_ATACSAU,									*,		1000,		500
+		MSFCUKVestATACSAU,													*,		1000,		500
+		MSFCTacVestATACSAU,													*,		1000,		500
+		MSFCTacVestATACSAULogo,											*,		1000,		500
+		MSFCTacVestATACSAUMedic,										*,		1000,		500
+		MSFCPlateCarrierVestATACSAU,							  *,		1000,		500
+		MSFCPlateCarrierVestATACSAULogo,						*,		1000,		500
+		MSFCPlateCarrierVestATACSAUMedic,						*,		1000,		500
+		MSFCPressVestATACSAU,												*,		1000,		500
+		MSFCSmershVestATACSAU,											*,		1000,		500
+		MSFC_JPC_Vest_ATACSAU,											*,		1000,		500
+		MSFC_TAC_TEC_Vest_ATACSAU,									*,		1000,		500
+		MSFC_Defender_Vest_ATACSAU,									*,		1000,		500
+		MSFCUKVestATACSAU,													*,		1000,		500
+		MSFCTacVestATACSAU,													*,		1000,		500
+		MSFCTacVestATACSAULogo,											*,		1000,		500
+		MSFCTacVestATACSAUMedic,										*,		1000,		500
+		MSFCPlateCarrierVestATACSAU,								*,		1000,		500
+		MSFCPlateCarrierVestATACSAULogo,						*,		1000,		500
+		MSFCPlateCarrierVestATACSAUMedic,						*,		1000,		500
+		MSFCPressVestATACSAU,												*,		1000,		500
+		MSFCSmershVestATACSAU,											*,		1000,		500
 
 	<Category> Jackets & Coats
-		LabCoat,																		*,		10,		2
-		TrackSuitJacket_Red,												*,		15,		3
-		TrackSuitJacket_LightBlue,									*,	15,		3
-		TrackSuitJacket_Blue,												*,		15,		3
-		TrackSuitJacket_Black,											*,		15,		3
-		TrackSuitJacket_Green,											*,		15,		3
-		DenimJacket,																*,		18,		4
-		ManSuit_Blue,																*,		18,		4
-		ManSuit_White,															*,		18,		4
-		ManSuit_LightGrey,													*,		18,		4
-		ManSuit_DarkGrey,														*,		18,		4
-		ManSuit_Beige,															*,		18,		4
-		ManSuit_Brown,															*,		18,		4
-		ManSuit_Black,															*,		18,		4
-		ManSuit_Khaki,															*,		18,		4
-		WomanSuit_Blue,															*,		18,		4
-		WomanSuit_White,														*,		18,		4
-		WomanSuit_LightGrey,												*,		18,		4
-		WomanSuit_DarkGrey,													*,		18,		4
-		WomanSuit_Beige,														*,		18,		4
-		WomanSuit_Brown,														*,		18,		4
-		WomanSuit_Black,														*,		18,		4
-		WomanSuit_Khaki,														*,		18,		4
-		WoolCoat_Red,																*,		18,		4
-		WoolCoat_RedCheck,													*,		18,		4
-		WoolCoat_Blue,															*,		18,		4
-		WoolCoat_BlueCheck,													*,		18,		4
-		WoolCoat_GreyCheck,													*,		18,		4
-		WoolCoat_BrownCheck,												*,		18,		4
-		WoolCoat_Beige,															*,		18,		4
-		WoolCoat_Black,															*,		19,		4
-		WoolCoat_BlackCheck,												*,		19,		4
-		WoolCoat_Green,															*,		20,		5
-		RidersJacket_Black,													*,		20,		5
-		FirefighterJacket_Beige,										*,		24,		6
-		FirefighterJacket_Black,										*,		24,		6
-		JumpsuitJacket_Red,													*,		26,		6
-		JumpsuitJacket_Blue,												*,		26,		6
-		JumpsuitJacket_Gray,												*,		26,		6
-		JumpsuitJacket_Green,												*,		26,		6
-		BomberJacket_Maroon,												*,		26,		6
-		BomberJacket_SkyBlue,												*,		26,		6
-		BomberJacket_Blue,													*,		26,		6
-		BomberJacket_Grey,													*,		26,		6
-		BomberJacket_Brown,													*,		26,		6
-		BomberJacket_Black,													*,		28,		7
-		BomberJacket_Olive,													*,		30,		7
-		QuiltedJacket_Orange,												*,		26,		6
-		QuiltedJacket_Yellow,												*,		26,		6
-		QuiltedJacket_Red,													*,		26,		6
-		QuiltedJacket_Violet,												*,		26,		6
-		QuiltedJacket_Blue,													*,		26,		6
-		QuiltedJacket_Grey,													*,		26,		6
-		QuiltedJacket_Black,												*,		28,		7
-		QuiltedJacket_Green,											  *,		30,		7
-		PrisonUniformJacket,												*,		28,		7
-		PoliceJacketOrel,														*,		32,		8
-		PoliceJacket,																*,		34,		8
-		ParamedicJacket_Crimson,										*,		36,		9
-		ParamedicJacket_Blue,												*,		36,		9
-		ParamedicJacket_Green,											*,		36,		9
-		HikingJacket_Red,														*,		36,		9
-		HikingJacket_Blue,													*,		38,		9
-		HikingJacket_Black,													*,		38,		9
-		HikingJacket_Green,													*,		40,		10
-		Raincoat_Pink,															*,		70,		15
-		Raincoat_Orange,														*,		70,		15
-		Raincoat_Yellow,														*,		70,		15
-		Raincoat_Red,																*,		70,		15
-		Raincoat_Blue,															*,		70,		15
-		Raincoat_Black,															*,		80,		20
-		Raincoat_Green,															*,		1000,	25
-		TTsKOJacket_Camo,														*,		1000,	25
-		BDUJacket,																	*,		1000,	25
-		HuntingJacket_Winter,												*,		120,	35
-		HuntingJacket_Brown,												*,		120,	35
-		HuntingJacket_Autumn,												*,		120,	35
-		HuntingJacket_Spring,												*,		120,	35
-		HuntingJacket_Summer,												*,		120,	35
-		M65Jacket_Tan,															*,		130,	40
-		M65Jacket_Black,														*,		130,	40
-		M65Jacket_Khaki,														*,		130,	40
-		M65Jacket_Olive,														*,		130,	40
-		GorkaEJacket_Autumn,												*,		140,	45
-		GorkaEJacket_Flat,													*,		140,	45
-		GorkaEJacket_PautRev,												*,		140,	45
-		GorkaEJacket_Summer,												*,		140,	45
-		USMCJacket_Desert,													*,		140,	45
-		USMCJacket_Woodland,												*,		155,	55
-		NBCJacketGray,															*,		250,	80
+		LabCoat,																		*,		100,		50
+		TrackSuitJacket_Red,												*,		150,		50
+		TrackSuitJacket_LightBlue,									*,		150,		50
+		TrackSuitJacket_Blue,												*,		150,		50
+		TrackSuitJacket_Black,											*,		150,		50
+		TrackSuitJacket_Green,											*,		150,		50
+		DenimJacket,																*,		180,		50
+		ManSuit_Blue,																*,		180,		50
+		ManSuit_White,															*,		180,		50
+		ManSuit_LightGrey,													*,		180,		50
+		ManSuit_DarkGrey,														*,		180,		50
+		ManSuit_Beige,															*,		180,		50
+		ManSuit_Brown,															*,		180,		50
+		ManSuit_Black,															*,		180,		50
+		ManSuit_Khaki,															*,		180,		50
+		WomanSuit_Blue,															*,		180,		50
+		WomanSuit_White,														*,		180,		50
+		WomanSuit_LightGrey,												*,		180,		50
+		WomanSuit_DarkGrey,													*,		180,		100
+		WomanSuit_Beige,														*,		180,		100
+		WomanSuit_Brown,														*,		180,		100
+		WomanSuit_Black,														*,		180,		100
+		WomanSuit_Khaki,														*,		180,		100
+		WoolCoat_Red,																*,		180,		100
+		WoolCoat_RedCheck,													*,		180,		100
+		WoolCoat_Blue,															*,		180,		100
+		WoolCoat_BlueCheck,													*,		180,		100
+		WoolCoat_GreyCheck,													*,		180,		100
+		WoolCoat_BrownCheck,												*,		180,		100
+		WoolCoat_Beige,															*,		180,		100
+		WoolCoat_Black,															*,		190,		100
+		WoolCoat_BlackCheck,												*,		190,		100
+		WoolCoat_Green,															*,		200,		100
+		RidersJacket_Black,													*,		200,		100
+		FirefighterJacket_Beige,										*,		240,		100
+		FirefighterJacket_Black,										*,		240,		100
+		JumpsuitJacket_Red,													*,		260,		100
+		JumpsuitJacket_Blue,												*,		260,		100
+		JumpsuitJacket_Gray,												*,		260,		100
+		JumpsuitJacket_Green,												*,		260,		100
+		BomberJacket_Maroon,												*,		260,		100
+		BomberJacket_SkyBlue,												*,		260,		100
+		BomberJacket_Blue,													*,		260,		100
+		BomberJacket_Grey,													*,		260,		100
+		BomberJacket_Brown,													*,		260,		100
+		BomberJacket_Black,													*,		280,		100
+		BomberJacket_Olive,													*,		300,		100
+		QuiltedJacket_Orange,												*,		260,		100
+		QuiltedJacket_Yellow,												*,		260,		100
+		QuiltedJacket_Red,													*,		260,		100
+		QuiltedJacket_Violet,												*,		260,		100
+		QuiltedJacket_Blue,													*,		260,		100
+		QuiltedJacket_Grey,													*,		260,		100
+		QuiltedJacket_Black,												*,		280,		100
+		QuiltedJacket_Green,											  *,		300,		100
+		PrisonUniformJacket,												*,		280,		100
+		PoliceJacketOrel,														*,		320,		100
+		PoliceJacket,																*,		340,		100
+		ParamedicJacket_Crimson,										*,		360,		100
+		ParamedicJacket_Blue,												*,		360,		100
+		ParamedicJacket_Green,											*,		360,		100
+		HikingJacket_Red,														*,		360,		100
+		HikingJacket_Blue,													*,		380,		100
+		HikingJacket_Black,													*,		380,		100
+		HikingJacket_Green,													*,		400,		100
+		Raincoat_Pink,															*,		700,		200
+		Raincoat_Orange,														*,		700,		200
+		Raincoat_Yellow,														*,		700,		200
+		Raincoat_Red,																*,		700,		200
+		Raincoat_Blue,															*,		700,		200
+		Raincoat_Black,															*,		800,		300
+		Raincoat_Green,															*,		900,		400
+		TTsKOJacket_Camo,														*,		1000,		400
+		BDUJacket,																	*,		1000,		25
+		HuntingJacket_Winter,												*,		2100,		1050
+		HuntingJacket_Brown,												*,		2100,		1050
+		HuntingJacket_Autumn,												*,		2100,		1050
+		HuntingJacket_Spring,												*,		2100,		1050
+		HuntingJacket_Summer,												*,		2100,		1050
+		M65Jacket_Tan,															*,		1900,		800
+		M65Jacket_Black,														*,		130,		800
+		M65Jacket_Khaki,														*,		130,		800
+		M65Jacket_Olive,														*,		130,		800
+		GorkaEJacket_Autumn,												*,		1400,		450
+		GorkaEJacket_Flat,													*,		1400,		450
+		GorkaEJacket_PautRev,												*,		1400,		450
+		GorkaEJacket_Summer,												*,		1400,		450
+		USMCJacket_Desert,													*,		1400,		450
+		USMCJacket_Woodland,												*,		1550,		550
+		NBCJacketGray,															*,		2500,		800
+		Msp_SantaJacket,														*,		1600,		200
+		MSFCNBCJacketMulticamBlack,									*,		1000,		650
+		MSFCNBCJacketMulticamTropic,								*,		1000,		650
+		MSFCNBCJacketMulticam,											*,		1000,		650
+		MSFCRussianMilitaryJacket,									*,		1000,		650
+		MSFCRussianMilitaryJacketEmblem,						*,		1000,		650
+		MSFCJacketMercer,														*,		1000,		650
+		MSFCRussianMilitaryJacketTwo,								*,		1000,		650
+		MSFCRBGJacket,															*,		1000,		650
+		MSFCOFPResistanceJacket,										*,		1000,		650
+		MSFCUSMCJacketWhite,												*,		1000,		650
+		MSFCBlackCamoJacket,												*,		1000,		650
+		MSFCCSATJacket,															*,		1000,		650
+		MSFCUSMCSurpatJacketComander,								*,		1000,		650
+		MSFCUSMCSurpatJacket,												*,		1000,		650
+		MSFCTUmbrellaJacket,												*,		1000,		650
+		MSFCFlecktarnJacket,												*,		1000,		650
+		MSFCDigitalNavyJacket,											*,		1000,		650
+		MSFCBlackTekStoJacket,											*,		1000,		650
+		MSFCRussianMilitaryGorkaJacket,							*,		1000,		650
+		MSFCRussianMilitaryGorkaJacketFlag,					*,		1000,		650
+		MSFCRMRPCU5Jacket,													*,		1000,		650
+		MSFCACUPCU5Jacket,													*,		1000,		650
+		MSFCACUJacket,															*,		1000,		650
+		MSFCRMRJacket,															*,		1000,		650
+		MSFCDigitalNavyJacketNoPatch,								*,		1000,		650
+		MSFCFlecktarnJacketNoPatch,									*,		1000,		650
+		MSFCRMRPCU5JacketNoPatch,										*,		1000,		650
+		MSFCACUPCU5JacketNoPatch,										*,		1000,		650
+		MSFCCadpatJacket,														*,		1000,		650
+		MSFCCadpatJacketM65,												*,		1000,		650
+		MSFCRMRAutumnPCU5Jacket,										*,		1000,		650
+		MSFCRMRAutumnPCU5JacketNoPatch,							*,		1000,		650
+		MSFCRMRAutumnJacket,												*,		1000,		650
+		MSFCRussianMilitaryPCU5Jacket,							*,		1000,		650
+		MSFCRussianMilitaryPCU5JacketNoPatch,				*,		1000,		650
+		MSFCKryptekBansheePCU5Jacket,								*,		1000,		650
+		MSFCKryptekTyphonPCU5Jacket,								*,		1000,		650
+		MSFCKryptekMandrakePCU5Jacket,							*,		1000,		650
+		MSFCKryptekNeptunePCU5Jacket,								*,		1000,		650
+		MSFCKryptekRaidPCU5Jacket,									*,		1000,		650
+		MSFCKryptekWraithPCU5Jacket,								*,		1000,		650
+		MSFCGorkaJacketDesert,											*,		1000,		650
+		MSFCGorkaJacketGreen,												*,		1000,		650
+		MSFCGorkaJacketNavy,												*,		1000,		650
+		MSFCProjectHonorPCU5Jacket,									*,		1000,		650
+		MSFCAOR2PCU5Jacket,													*,		1000,		650
+		MSFC_TacGopJacket_EMR,											*,		1000,		650
+		MSFC_Pantera_JacketNoPatch,									*,		1000,		650
+		MSFC_PanteraAutumn_Jacket,									*,		1000,		650
+		MSFC_PanteraAutumn_JacketNoPatch,						*,		1000,		650
+		MSFCSTALKERJacket,													*,		1000,		650
+		MSFCSTALKERDolgJacket,											*,		1000,		650
+		MSFCSTALKERSvobodaJacket,										*,		1000,		650
+		MSFCSTALKERMercJacket,											*,		1000,		650
+		MSFCSTALKERMonolitJacket,										*,		1000,		650
+		MSFCSTALKERClearSkyJacket,									*,		1000,		650
+		MSFCSTALKERBanditJacket,										*,		1000,		650
+		MSFCSTALKEREcologJacket,										*,		1000,		650
+		MSFCSTALKERMilitaryJacket,									*,		1000,		650
+		MSFCSTALKERBanditJacketNoPatch,							*,		1000,		650
+		MSFCSTALKERClearSkyJacketNoPatch,						*,		1000,		650
+		MSFCSTALKERDolgJacketNoPatch,								*,		1000,		650
+		MSFCSTALKERMercJacketNoPatch,								*,		1000,		650
+		MSFCSTALKERMonolitJacketNoPatch,						*,		1000,		650
+		MSFCSTALKERJacketNoPatch,										*,		1000,		650
+		MSFCSTALKERSvobodaJacketNoPatch,						*,		1000,		650
+		MSFCSTALKERJacket_Green,										*,		1000,		650
+		MSFCNBCJacketSURPATDesert,									*,		1000,		650
+		MSFCNBCJacketSURPAT,                        *,    1000,   650
+		MilitaryGear_PatrolJacket_PartizanM,				*,		440,		220
+		MilitaryGear_FieldJacket_PartizanM,					*,		500,		250
+		MilitaryGear_CombatJacket_PartizanM,				*,		500,		250
+		MilitaryGear_PatrolJacket_Duckhunter,				*,		440,		220
+		MilitaryGear_FieldJacket_Duckhunter,				*,		500,		250
+		MilitaryGear_CombatJacket_Duckhunter,				*,		500,		250
+		MilitaryGear_PatrolJacket_Multicam,					*,		440,		220
+		MilitaryGear_FieldJacket_Multicam,					*,		500,		250
+		MilitaryGear_CombatJacket_Multicam,					*,		500,		250
+		MilitaryGear_PatrolJacket_Splinter,					*,		440,		220
+		MilitaryGear_FieldJacket_Splinter,					*,		500,		250
+		MilitaryGear_PatrolJacket_Splinter_Dark,		*,		440,		220
+		MilitaryGear_FieldJacket_Splinter_Dark,			*,		500,		250
+		MilitaryGear_CombatJacket_Splinter_Dark,		*,		500,		250
+		MilitaryGear_PatrolJacket_Tiger,						*,		440,		220
+		MilitaryGear_FieldJacket_Tiger,							*,		500,		250
+		MilitaryGear_CombatJacket_Tiger,						*,		500,		250
+		MilitaryGear_PatrolJacket_Woodland,					*,		440,		220
+		MilitaryGear_FieldJacket_Woodland,					*,		500,		250
+		MilitaryGear_CombatJacket_Woodland,					*,		500,		250
+		MilitaryGear_PatrolJacket_FLT,							*,		440,		220
+		MilitaryGear_FieldJacket_FLT,								*,		500,		250
+		MilitaryGear_CombatJacket_FLT,							*,		500,		250
+		MilitaryGear_PatrolJacket_DPM,							*,		440,		220
+		MilitaryGear_FieldJacket_DPM,								*,		500,		250
+		MilitaryGear_CombatJacket_DPM,							*,		500,		250
+		MilitaryGear_PatrolJacket_MPAT,							*,		440,		220
+		MilitaryGear_FieldJacket_MPAT,							*,		500,		250
+		MilitaryGear_CombatJacket_MPAT,							*,		500,		250
+		MilitaryGear_PatrolJacket_Partizan,					*,		440,		220
+		MilitaryGear_FieldJacket_Partizan,					*,		500,		250
+		MilitaryGear_CombatJacket_Partizan,					*,		500,		250
+		MilitaryGear_PatrolJacket_Skol,							*,		440,		220
+		MilitaryGear_FieldJacket_Skol,							*,		500,		250
+		MilitaryGear_CombatJacket_Skol,							*,		500,		250
+		MilitaryGear_PatrolJacket_ATACS,						*,		440,		220
+		MilitaryGear_FieldJacket_ATACS,							*,		500,		250
+		MilitaryGear_CombatJacket_ATACS,						*,		500,		250
+		MilitaryGear_PatrolJacket_CADPAT,						*,		440,		220
+		MilitaryGear_FieldJacket_CADPAT,						*,		500,		250
+		MilitaryGear_CombatJacket_CADPAT,						*,		500,		250
+		MilitaryGear_PatrolJacket_Tropic,						*,		440,		220
+		MilitaryGear_FieldJacket_Tropic,						*,		500,		250
+		MilitaryGear_CombatJacket_Tropic,						*,		500,		250
+		MilitaryGear_PatrolJacket_Yeger,						*,		440,		220
+		MilitaryGear_FieldJacket_Yeger,							*,		500,		250
+		MilitaryGear_CombatJacket_Yeger,						*,		500,		250
+		MSFCNBCJacketATACSAU,												*,		1000,		650
+		MSFCNBCJacketATACSAU,												*,		1000,		650
 
 	<Category> Skirts & Dresses
-		Skirt_Yellow,																*,		30,		10
-		Skirt_Red,																	*,		30,		10
-		Skirt_Blue,																	*,		30,		10
-		Skirt_White,																*,		30,		10
-		MiniDress_Pink,															*,		35,		10
-		MiniDress_PinkChecker,											*,		35,		10
-		MiniDress_RedChecker,												*,		35,		10
-		MiniDress_BlueChecker,											*,		35,		10
-		MiniDress_BlueWithDots,											*,		35,		10
-		MiniDress_WhiteChecker,											*,		35,		10
-		MiniDress_BrownChecker,											*,		35,		10
-		MiniDress_GreenChecker,											*,		35,		10
-		NurseDress_Blue,														*,		40,		10
-		NurseDress_White,														*,		40,		10
+		Skirt_Yellow,																*,		300,		100
+		Skirt_Red,																	*,		300,		100
+		Skirt_Blue,																	*,		300,		100
+		Skirt_White,																*,		300,		100
+		MiniDress_Pink,															*,		350,		100
+		MiniDress_PinkChecker,											*,		350,		100
+		MiniDress_RedChecker,												*,		350,		100
+		MiniDress_BlueChecker,											*,		350,		100
+		MiniDress_BlueWithDots,											*,		350,		100
+		MiniDress_WhiteChecker,											*,		350,		100
+		MiniDress_BrownChecker,											*,		350,		100
+		MiniDress_GreenChecker,											*,		350,		100
+		NurseDress_Blue,														*,		400,		100
+		NurseDress_White,														*,		400,		100
 
 	<Category> Pants
-		MedicalScrubsPants_Blue,										*,		10,		2
-		MedicalScrubsPants_White,										*,		10,		2
-		MedicalScrubsPants_Green,										*,		10,		2
-		TrackSuitPants_Red,													*,		15,		3
-		TrackSuitPants_LightBlue,										*,		15,		3
-		TrackSuitPants_Blue,												*,		15,		3
-		TrackSuitPants_Black,												*,		15,		3
-		TrackSuitPants_Green,												*,		15,		3
-		PrisonUniformPants,													*,		17,		4
-		Breeches_Pink,															*,		20,		5
-		Breeches_Red,																*,		20,		5
-		Breeches_Blue,															*,		20,		5
-		Breeches_White,															*,		20,		5
-		Breeches_Beetcheck,													*,		20,		5
-		Breeches_Beige,															*,		21,		5
-		Breeches_Browncheck,												*,		21,		5
-		Breeches_Black,															*,		22,		5
-		Breeches_Blackcheck,												*,		22,		5
-		Breeches_Green,															*,		24,		6
-		SlacksPants_Blue,														*,		20,		5
-		SlacksPants_White,													*,		20,		5
-		SlacksPants_LightGrey,											*,		20,		5
-		SlacksPants_DarkGrey,												*,		20,		5
-		SlacksPants_Beige,													*,		20,		5
-		SlacksPants_Brown,													*,		21,		5
-		SlacksPants_Black,													*,		22,		5
-		SlacksPants_Khaki,													*,		24,		6
-		CanvasPantsMidi_Red,												*,		24,		6
-		CanvasPantsMidi_Violet,											*,		24,		6
-		CanvasPantsMidi_Blue,												*,		24,		6
-		CanvasPantsMidi_Grey,												*,		24,		6
-		CanvasPantsMidi_Beige,											*,		25,		6
-		CanvasPants_Red,														*,		26,		6
-		CanvasPants_Violet,													*,		26,		6
-		CanvasPants_Blue,														*,		26,		6
-		CanvasPants_Grey,														*,		26,		6
-		CanvasPants_Beige,													*,		28,		6
-		JumpsuitPants_Red,													*,		28,		6
-		JumpsuitPants_Blue,													*,		28,		6
-		JumpsuitPants_Grey,													*,		28,		6
-		JumpsuitPants_Green,												*,		28,		6
-		PolicePants,																*,		28,		6
-		ParamedicPants_Crimson,											*,		35,		8
-		ParamedicPants_Blue,												*,		35,		8
-		ParamedicPants_Green,												*,		35,		8
-		FirefightersPants_Beige,										*,		35,		8
-		FirefightersPants_Black,										*,		35,		8
-		CargoPants_Blue,														*,		35,		8
-		CargoPants_Grey,														*,		35,		8
-		CargoPants_Beige,														*,		35,		8
-		CargoPants_Black,														*,		35,		8
-		CargoPants_Green,														*,		35,		8
-		ShortJeans_Red,															*,		38,		8
-		ShortJeans_Blue,														*,		38,		8
-		ShortJeans_Darkblue,												*,		38,		8
-		ShortJeans_Brown,														*,		38,		8
-		ShortJeans_Black,														*,		40,		10
-		ShortJeans_Green,														*,		42,		10
-		Jeans_Blue,																	*,		40,		10
-		Jeans_BlueDark,															*,		40,		10
-		Jeans_Grey,																	*,		40,		10
-		Jeans_Brown,																*,		40,		10
-		Jeans_Black,																*,		42,		10
-		Jeans_Green,																*,		45,		12
-		TTSKOPants,																	*,		55,		15
-		BDUPants,																		*,		65,		18
-		USMCPants_Desert,														*,		65,		18
-		USMCPants_Woodland,													*,		70,		20
-		PolicePantsOrel,														*,		70,		20
-		HunterPants_Winter,													*,		90,		25
-		HunterPants_Brown,													*,		1000,	30
-		HunterPants_Spring,													*,		1000,	30
-		HunterPants_Autumn,													*,		1000,	30
-		HunterPants_Summer,													*,		1000,	30
-		GorkaPants_Flat,														*,		130,	40
-		GorkaPants_PautRev,													*,		130,	40
-		GorkaPants_Autumn,													*,		130,	40
-		GorkaPants_Summer,													*,		130,	40
-		NBCPantsGray,																*,		200,	65
+		MedicalScrubsPants_Blue,										*,		350,		150
+		MedicalScrubsPants_White,										*,		350,		150
+		MedicalScrubsPants_Green,										*,		400,		200
+		TrackSuitPants_Red,													*,		150,		50
+		TrackSuitPants_LightBlue,										*,		150,		50
+		TrackSuitPants_Blue,												*,		150,		50
+		TrackSuitPants_Black,												*,		150,		50
+		TrackSuitPants_Green,												*,		150,		50
+		PrisonUniformPants,													*,		170,		50
+		Breeches_Pink,															*,		200,		50
+		Breeches_Red,																*,		200,		50
+		Breeches_Blue,															*,		200,		50
+		Breeches_White,															*,		200,		50
+		Breeches_Beige,															*,		210,		50
+		Breeches_Browncheck,												*,		210,		50
+		Breeches_Black,															*,		220,		50
+		Breeches_Blackcheck,												*,		220,		50
+		Breeches_Green,															*,		240,		60
+		SlacksPants_Blue,														*,		200,		50
+		SlacksPants_White,													*,		200,		50
+		SlacksPants_LightGrey,											*,		200,		50
+		SlacksPants_DarkGrey,												*,		200,		50
+		SlacksPants_Beige,													*,		200,		50
+		SlacksPants_Brown,													*,		210,		50
+		SlacksPants_Black,													*,		220,		50
+		SlacksPants_Khaki,													*,		240,		60
+		CanvasPantsMidi_Red,												*,		240,		60
+		CanvasPantsMidi_Violet,											*,		240,		60
+		CanvasPantsMidi_Blue,												*,		240,		60
+		CanvasPantsMidi_Grey,												*,		240,		60
+		CanvasPantsMidi_Beige,											*,		250,		60
+		CanvasPants_Red,														*,		260,		60
+		CanvasPants_Violet,													*,		260,		60
+		CanvasPants_Blue,														*,		260,		60
+		CanvasPants_Grey,														*,		260,		60
+		CanvasPants_Beige,													*,		280,		60
+		JumpsuitPants_Red,													*,		280,		60
+		JumpsuitPants_Blue,													*,		280,		60
+		JumpsuitPants_Grey,													*,		280,		60
+		JumpsuitPants_Green,												*,		280,		60
+		PolicePants,																*,		280,		60
+		ParamedicPants_Crimson,											*,		350,		80
+		ParamedicPants_Blue,												*,		350,		80
+		ParamedicPants_Green,												*,		350,		80
+		FirefightersPants_Beige,										*,		350,		80
+		FirefightersPants_Black,										*,		350,		80
+		CargoPants_Blue,														*,		350,		80
+		CargoPants_Grey,														*,		350,		80
+		CargoPants_Beige,														*,		350,		80
+		CargoPants_Black,														*,		350,		80
+		CargoPants_Green,														*,		350,		80
+		ShortJeans_Red,															*,		380,		80
+		ShortJeans_Blue,														*,		380,		80
+		ShortJeans_Darkblue,												*,		380,		80
+		ShortJeans_Brown,														*,		380,		80
+		ShortJeans_Black,														*,		400,		100
+		ShortJeans_Green,														*,		420,		100
+		Jeans_Blue,																	*,		400,		100
+		Jeans_BlueDark,															*,		400,		100
+		Jeans_Grey,																	*,		400,		100
+		Jeans_Brown,																*,		400,		100
+		Jeans_Black,																*,		420,		100
+		Jeans_Green,																*,		450,		120
+		TTSKOPants,																	*,		550,		150
+		BDUPants,																		*,		650,		180
+		USMCPants_Desert,														*,		650,		180
+		USMCPants_Woodland,													*,		700,		200
+		PolicePantsOrel,														*,		700,		200
+		HunterPants_Winter,													*,		900,		250
+		HunterPants_Brown,													*,		2000,		500
+		HunterPants_Spring,													*,		2000,		500
+		HunterPants_Autumn,													*,		2000,		500
+		HunterPants_Summer,													*,		2000,		500
+		GorkaPants_Flat,														*,		2300,		500
+		GorkaPants_PautRev,													*,		2300,		500
+		GorkaPants_Autumn,													*,		2300,		500
+		GorkaPants_Summer,													*,		2300,		500
+		NBCPantsGray,																*,		2000,		500
+		MSFCPantsMulticamBlack,											*,		1000,		650
+		MSFCNBCPantsMulticamBlack,									*,		1000,		650
+		MSFC_G3Pants_MulticamBlack,									*,		1000,		650
+		MSFCPantsMulticamTropic,										*,		1000,		650
+		MSFCNBCPantsMulticamTropic,									*,		1000,		650
+		MSFC_G3Pants_MulticamTropic,								*,		1000,		650
+		MSFCPantsMulticam,													*,		1000,		650
+		MSFCNBCPantsMulticam,												*,		1000,		650
+		MSFC_G3Pants_Multicam,											*,		1000,		650
+		MSFC_G3Pants_Flecktarn,											*,		1000,		650
+		MSFC_G3Pants_EMR,														*,		1000,		650
+		MSFCRussianMilitaryPants,										*,		1000,		650
+		MSFCRussianMilitaryCargoPants,							*,		1000,		650
+		MSFCOFPResistancePants,											*,		1000,		650
+		MSFCRBGPants,																*,		1000,		650
+		MSFCOFPResistancePants,											*,		1000,		650
+		MSFCUSMCWhitePants,													*,		1000,		650
+		MSFCGorkaPantsBrown,												*,		1000,		650
+		MSFCGorkaJacketBrown,												*,		1000,		650
+		MSFCBlackCamoPants,													*,		1000,		650
+		MSFCCSATPants,															*,		1000,		650
+		MSFCUSMCSurpatPants,												*,		1000,		650
+		MSFCTStarsPants,														*,		1000,		650
+		MSFCUmbrellaPants,													*,		1000,		650
+		MSFCFlecktarnPants,													*,		1000,		650
+		MSFCDigitalNavyPants,												*,		1000,		650
+		MSFCBlackTekStoPants,												*,		1000,		650
+		MSFCRussianMilitaryGorkaPants,							*,		1000,		650
+		MSFCRMRPants,																*,		1000,		650
+		MSFCACUPants,																*,		1000,		650
+		MSFCCadpatPants,														*,		1000,		650
+		MSFCRMRAutumnPants,													*,		1000,		650
+		MSFCKryptekBansheePants,										*,		1000,		650
+		MSFCKryptekTyphonPants,											*,		1000,		650
+		MSFCKryptekMandrakePants,										*,		1000,		650
+		MSFCKryptekNeptunePants,										*,		1000,		650
+		MSFCKryptekRaidPants,												*,		1000,		650
+		MSFCKryptekWraithPants,											*,		1000,		650
+		MSFCGorkaPantsDesert,												*,		1000,		650
+		MSFCGorkaPantsGreen,												*,		1000,		650
+		MSFCGorkaPantsNavy,													*,		1000,		650
+		MSFCProjectHonorPants,											*,		1000,		650
+		MSFCAOR2Pants,															*,		1000,		650
+		MSFC_TacGopPants_EMR,												*,		1000,		650
+		MSFC_TacGopJacket_ATACSFG,									*,		1000,		650
+		MSFC_TacGopPants_ATACSFG,										*,		1000,		650
+		MSFC_TacGopJacket_Multicam,									*,		1000,		650
+		MSFC_TacGopPants_Multicam,									*,		1000,		650
+		MSFC_G3Pants_Black,													*,		1000,		650
+		MSFC_G3Pants_Green,													*,		1000,		650
+		MSFC_G3Pants_Desert,												*,		1000,		650
+		MSFC_Pantera_Pants,													*,		1000,		650
+		MSFC_PanteraAutumn_Pants,										*,		1000,		650
+		MSFCSTALKERPants,														*,		1000,		650
+		MSFCSTALKERDolgPants,												*,		1000,		650
+		MSFCSTALKERSvobodaPants,										*,		1000,		650
+		MSFC_G3Pants_ATACSAU,												*,		1000,		650
+		Msp_SantaPants,															*,		1600,		200
+		MSFCSTALKERMercPants,												*,		1000,		650
+		MSFCSTALKERMonolitPants,										*,		1000,		650
+		MSFCSTALKERClearSkyPants,										*,		1000,		650
+		MSFCSTALKERBanditPants,											*,		1000,		650
+		MSFCSTALKEREcologPants,											*,		1000,		650
+		MSFCSTALKERMilitaryPants,										*,		1000,		650
+		MSFCSTALKERPants_Green,											*,		1000,		650
+		MSFCPantsSURPATDesert,											*,		1000,		650
+		MSFCNBCPantsSURPATDesert,										*,		1000,		650
+		MSFC_G3Pants_SURPATDesert,									*,		1000,		650
+		MSFCPantsSURPAT,														*,		1000,		650
+		MSFCNBCPantsSURPAT,													*,		1000,		650
+		MSFC_G3Pants_SURPAT,												*,		1000,		650
+		MilitaryGear_TacticalPants_PartizanM,				*,		400,		200
+		MilitaryGear_PatrolPants_PartizanM,					*,		440,		220
+		MilitaryGear_FieldPants_PartizanM,					*,		500,		250
+		MilitaryGear_TacticalPants_Duckhunter,			*,		400,		200
+		MilitaryGear_PatrolPants_Duckhunter,				*,		440,		220
+		MilitaryGear_FieldPants_Duckhunter,					*,		500,		250
+		MilitaryGear_TacticalPants_Multicam,				*,		400,		200
+		MilitaryGear_PatrolPants_Multicam,					*,		440,		220
+		MilitaryGear_FieldPants_Multicam,						*,		500,		250
+		MilitaryGear_CombatJacket_Splinter,					*,		500,		250
+		MilitaryGear_TacticalPants_Splinter,				*,		400,		200
+		MilitaryGear_PatrolPants_Splinter,					*,		440,		220
+		MilitaryGear_FieldPants_Splinter,						*,		500,		250
+		MilitaryGear_TacticalPants_Splinter_Dark, 	*,		400,		200
+		MilitaryGear_PatrolPants_Splinter_Dark,	  	*,		440,		220
+		MilitaryGear_FieldPants_Splinter_Dark,	  	*,		500,		250
+		MilitaryGear_TacticalPants_Tiger,						*,		400,		200
+		MilitaryGear_PatrolPants_Tiger,							*,		440,		220
+		MilitaryGear_FieldPants_Tiger,							*,		500,		250
+		MilitaryGear_TacticalPants_Woodland,				*,		400,		200
+		MilitaryGear_PatrolPants_Woodland,					*,		440,		220
+		MilitaryGear_FieldPants_Woodland,						*,		500,		250
+		MilitaryGear_TacticalPants_FLT,							*,		400,		200
+		MilitaryGear_PatrolPants_FLT,								*,		440,		220
+		MilitaryGear_FieldPants_FLT,								*,		500,		250
+		MilitaryGear_TacticalPants_DPM,							*,		400,		200
+		MilitaryGear_PatrolPants_DPM,								*,		440,		220
+		MilitaryGear_FieldPants_DPM,								*,		500,		250
+		MilitaryGear_TacticalPants_MPAT,						*,		400,		200
+		MilitaryGear_PatrolPants_MPAT,							*,		440,		220
+			MilitaryGear_FieldPants_MPAT,							*,		500,		250
+		MilitaryGear_TacticalPants_Partizan,				*,		400,		200
+		MilitaryGear_PatrolPants_Partizan,					*,		440,		220
+		MilitaryGear_FieldPants_Partizan,						*,		500,		250
+		MilitaryGear_TacticalPants_Skol,						*,		400,		200
+		MilitaryGear_PatrolPants_Skol,							*,		440,		220
+		MilitaryGear_FieldPants_Skol,								*,		500,		250
+		MilitaryGear_TacticalPants_ATACS,						*,		400,		200
+		MilitaryGear_PatrolPants_ATACS,							*,		440,		220
+		MilitaryGear_FieldPants_ATACS,							*,		500,		250
+		MilitaryGear_TacticalPants_CADPAT,					*,		400,		200
+		MilitaryGear_PatrolPants_CADPAT,						*,		440,		220
+		MilitaryGear_FieldPants_CADPAT,							*,		500,		250
+		MilitaryGear_TacticalPants_Tropic,					*,		400,		200
+		MilitaryGear_PatrolPants_Tropic,						*,		440,		220
+		MilitaryGear_FieldPants_Tropic,							*,		500,		250
+		MilitaryGear_TacticalPants_Yeger,						*,		400,		200
+		MilitaryGear_PatrolPants_Yeger,							*,		440,		220
+		MilitaryGear_FieldPants_Yeger,							*,		500,		250
+		MSFCPantsATACSAU,														*,		1000,		650
+		MSFCNBCPantsATACSAU,												*,		1000,		650
+		MSFCPantsATACSAU,														*,		1000,		650
+		MSFCNBCPantsATACSAU,												*,		1000,		650
+		MSFC_G3Pants_ATACSAU,												*,		1000,		650
 
 	<Category> Shoes & Boots
-		AthleticShoes_Blue,													*,		17,		4
-		AthleticShoes_Grey,													*,		20,		5
-		AthleticShoes_Brown,												*,		20,		5
-		AthleticShoes_Black,												*,		23,		5
-		AthleticShoes_Green,												*,		23,		5
-		JoggingShoes_Violet,												*,		30,		7
-		JoggingShoes_Red,														*,		30,		7
-		JoggingShoes_Blue,													*,		30,		7
-		JoggingShoes_White,													*,		30,		7
-		JoggingShoes_Black,													*,		30,		7
-		Sneakers_Red,																*,		30,		7
-		Sneakers_White,															*,		30,		7
-		Sneakers_Gray,															*,		30,		7
-		Sneakers_Black,															*,		31,		7
-		Sneakers_Green,															*,		32,		7
-		DressShoes_White,														*,		32,		7
-		DressShoes_Brown,														*,		35,		8
-		DressShoes_Black,														*,		35,		8
-		DressShoes_Beige,														*,		35,		8
-		DressShoes_Sunburst,												*,		35,		8
-		HikingBootsLow_Blue,												*,		45,		12
-		HikingBootsLow_Grey,												*,		45,		12
-		HikingBootsLow_Beige,												*,		48,		13
-		HikingBootsLow_Black,												*,		50,		14
-		WorkingBoots_Yellow,												*,		55,		12
-		WorkingBoots_Grey,													*,		60,		15
-		WorkingBoots_Beige,													*,		60,		15
-		WorkingBoots_Brown,													*,		60,		15
-		WorkingBoots_Green,													*,		65,		17
-		HikingBoots_Brown,													*,		75,		20
-		HikingBoots_Black,													*,		75,		20
-		CombatBoots_Grey,														*,		80,		22
-		CombatBoots_Beige,													*,		80,		22
-		CombatBoots_Brown,													*,		80,		22
-		CombatBoots_Black,													*,		80,		22
-		CombatBoots_Green,													*,		80,		22
-		JungleBoots_Beige,													*,		85,		24
-		JungleBoots_Brown,													*,		85,		24
-		JungleBoots_Black,													*,		85,		24
-		JungleBoots_Olive,													*,		85,		24
-		JungleBoots_Green,													*,		85,		24
-		Wellies_Grey,																*,		85,		25
-		Wellies_Brown,															*,		85,		25
-		Wellies_Black,															*,		85,		25
-		Wellies_Green,															*,		90,		28
-		TTSKOBoots,																	*,		1000,	35
-		MilitaryBoots_Redpunk,											*,		1000,	35
-		MilitaryBoots_Bluerock,											*,		105,	35
-		MilitaryBoots_Beige,												*,		110,	35
-		MilitaryBoots_Brown,												*,		110,	35
-		MilitaryBoots_Black,												*,		110,	35
-		NBCBootsGray,																*,		150,	50
-		MSFCLowaZephyrBootsSURPATDesert,						*,		1000,		65
-		MSFCLowaZephyrBootsATACSAU,									*,		1000,		65
+		AthleticShoes_Blue,													*,		170,		40
+		AthleticShoes_Grey,													*,		200,		50
+		AthleticShoes_Brown,												*,		200,		50
+		AthleticShoes_Black,												*,		230,		50
+		AthleticShoes_Green,												*,		230,		50
+		JoggingShoes_Violet,												*,		300,		70
+		JoggingShoes_Red,														*,		300, 		70
+		JoggingShoes_Blue,													*,		300,		70
+		JoggingShoes_White,													*,		300,		70
+		JoggingShoes_Black,													*,		300,		70
+		Sneakers_Red,																*,		300,		70
+		Sneakers_White,															*,		300,		70
+		Sneakers_Gray,															*,		300,		70
+		Sneakers_Black,															*,		310,		70
+		Sneakers_Green,															*,		320,		70
+		DressShoes_White,														*,		320,		70
+		DressShoes_Brown,														*,		350,		80
+		DressShoes_Black,														*,		350,		80
+		DressShoes_Beige,														*,		350,		80
+		DressShoes_Sunburst,												*,		350,		80
+		HikingBootsLow_Blue,												*,		450,		120
+		HikingBootsLow_Grey,												*,		450,		120
+		HikingBootsLow_Beige,												*,		480,		130
+		HikingBootsLow_Black,												*,		500,		140
+		WorkingBoots_Yellow,												*,		550,		120
+		WorkingBoots_Grey,													*,		600,		150
+		WorkingBoots_Beige,													*,		600,		150
+		WorkingBoots_Brown,													*,		600,		150
+		WorkingBoots_Green,													*,		650,		170
+		HikingBoots_Brown,													*,		750,		200
+		HikingBoots_Black,													*,		750,		2000
+		CombatBoots_Grey,														*,		800,		220
+		CombatBoots_Beige,													*,		800,		220
+		CombatBoots_Brown,													*,		800,		220
+		CombatBoots_Black,													*,		800,		220
+		CombatBoots_Green,													*,		800,		220
+		JungleBoots_Beige,													*,		850,		240
+		JungleBoots_Brown,													*,		850,		240
+		JungleBoots_Black,													*,		850,		240
+		JungleBoots_Olive,													*,		850,		240
+		JungleBoots_Green,													*,		850,		240
+		Wellies_Grey,																*,		850,		250
+		Wellies_Brown,															*,		850,		250
+		Wellies_Black,															*,		850,		250
+		Wellies_Green,															*,		900,		280
+		TTSKOBoots,																	*,		1000,		350
+		MilitaryBoots_Redpunk,											*,		500,		350
+		MilitaryBoots_Bluerock,											*,		500,		350
+		MilitaryBoots_Beige,												*,		500,		350
+		MilitaryBoots_Brown,												*,		500,		350
+		MilitaryBoots_Black,												*,		700,		450
+		NBCBootsGray,																*,		700,		500
+		MSFCLowaZephyrBootsSURPATDesert,						*,		1000,		650
+		MSFCLowaZephyrBootsATACSAU,									*,		1000,		650
+		MSFCBootsMulticamBlack,											*,		1000,		650
+		MSFCNBCBootsMulticamBlack,									*,		1000,		650
+		MSFCBootsLowaMulticamBlack,									*,		1000,		650
+		MSFCBootsTrekkingMulticamBlack,							*,		1000,		650
+		MSFCLowaZephyrBootsMulticamBlack,						*,		1000,		650
+		MSFCBootsMulticamTropic,										*,		1000,		650
+		MSFCNBCBootsMulticamTropic,									*,		1000,		650
+		MSFCBootsLowaMulticamTropic,								*,		1000,		650
+		MSFCBootsTrekkingMulticamTropic,						*,		1000,		650
+		MSFCLowaZephyrBootsMulticamTropic,					*,		1000,		650
+		MSFCBootsMulticam,													*,		1000,		650
+		MSFCNBCBootsMulticam,												*,		1000,		650
+		MSFCBootsLowaMulticam,											*,		1000,		650
+		MSFCBootsTrekkingMulticam,									*,		1000,		650
+		MSFCLowaZephyrBootsMulticam,								*,		1000,		650
+		MSFCBlackCamoBoots,													*,		1000,		650
+		MSFCFlecktarnBoots,													*,		1000,		650
+		MSFCDigitalNavyBoots,												*,		1000,		650
+		MSFCBlackTekStoBoots,												*,		1000,		650
+		MSFCRussianMilitaryBoots,										*,		1000,		650
+		MSFCLowaZephyrBootsBeige,										*,		1000,		650
+		MSFCLowaZephyrBootsBlack,										*,		1000,		650
+		MSFCLowaZephyrBootsGreen,										*,		1000,		650
+		MSFCLowaZephyrBootsGray,										*,		1000,		650
+		MSFCSTALKEREcologBoots,											*,		1000,		650
+		MSFCBootsSURPATDesert,											*,		1000,		650
+		MSFCNBCBootsSURPATDesert,										*,		1000,		650
+		MSFCBootsLowaSURPATDesert,									*,		1000,		650
+		MSFCBootsTrekkingSURPATDesert,							*,		1000,		650
+		MSFCBootsSURPAT,														*,		1000,		650
+		MSFCNBCBootsSURPAT,													*,		1000,		650
+		MSFCBootsLowaSURPAT,												*,		1000,		650
+		MSFCBootsTrekkingSURPAT,										*,		1000,		650
+		MSFCLowaZephyrBootsSURPAT,									*,		1000,		650
+		MSFCBootsATACSAU,														*,		1000,		650
+		MSFCNBCBootsATACSAU,												*,		1000,		650
+		MSFCBootsLowaATACSAU,												*,		1000,		650
+		MSFCBootsTrekkingATACSAU,										*,		1000,		650
+		MSFCBootsATACSAU,														*,		1000,		650
+		MSFCNBCBootsATACSAU,												*,		1000,		650
+		MSFCBootsLowaATACSAU,												*,		1000,		650
+		MSFCBootsTrekkingATACSAU,										*,		1000,		650
+		MSFCLowaZephyrBootsATACSAU,									*,		1000,		650
 
 	<Category> Ghillie
 		// Keep in Mind that Players can also
@@ -3321,23 +3151,165 @@
 		GhillieTop_Mossy,														*,		7600,	200
 		GhillieTop_Tan,															*,		7600,	200
 		GhillieTop_Woodland,												*,		7600,	200
+		MilitaryGear_GhillieTop_Duckhunter,					*,		10000,	-1
+		MilitaryGear_GhillieTop_Multicam,						*,		10000,	-1
+		MilitaryGear_GhillieTop_Splinter,						*,		10000,	-1
+		MilitaryGear_GhillieTop_Splinter_Dark,			*,		10000,	-1
+		MilitaryGear_GhillieTop_Tiger,							*,		10000,	-1
+		MilitaryGear_GhillieTop_Woodland,						*,		10000,	-1
+		MilitaryGear_GhillieTop_FLT,								*,		10000,	-1
+		MilitaryGear_GhillieTop_DPM,								*,		10000,	-1
+		MilitaryGear_GhillieTop_MPAT,								*,		10000,	-1
+		MilitaryGear_GhillieTop_Partizan,						*,		10000,	-1
+		MilitaryGear_GhillieTop_Skol,								*,		10000,	-1
+		MilitaryGear_GhillieTop_ATACS,							*,		10000,	-1
+		MilitaryGear_GhillieTop_CADPAT,							*,		10000,	-1
+		MilitaryGear_GhillieTop_Tropic,							*,		10000,	-1
+		MilitaryGear_GhillieTop_Yeger,							*,		10000,	-1
+		MilitaryGear_GhillieTop_PartizanM,					*,		10000,	-1
 		GhillieSuit_Mossy,													*,		10000,	300
 		GhillieSuit_Tan,														*,		10000,	300
 		GhillieSuit_Woodland,												*,		10000,	300
+		MilitaryGear_GhillieSuit_PartizanM,					*,		14000,	-1
+		MilitaryGear_GhillieSuit_Duckhunter,				*,		14000,	-1
+		MilitaryGear_GhillieSuit_Multicam,					*,		14000,	-1
+		MilitaryGear_GhillieSuit_Splinter_Dark,			*,		14000,	-1
+		MilitaryGear_GhillieSuit_Tiger,							*,		14000,	-1
+		MilitaryGear_GhillieSuit_Woodland,					*,		14000,	-1
+		MilitaryGear_GhillieSuit_FLT,								*,		14000,	-1
+		MilitaryGear_GhillieSuit_DPM,								*,		14000,	-1
+		MilitaryGear_GhillieSuit_MPAT,							*,		14000,	-1
+		MilitaryGear_GhillieSuit_Partizan,					*,		14000,	-1
+		MilitaryGear_GhillieSuit_Skol,							*,		14000,	-1
+		MilitaryGear_GhillieSuit_ATACS,							*,		14000,	-1
+		MilitaryGear_GhillieSuit_CADPAT,						*,		14000,	-1
+		MilitaryGear_GhillieSuit_Tropic,						*,		14000,	-1
+		MilitaryGear_GhillieSuit_Yeger,							*,		14000,	-1
+
+		MilitaryGear_GhillieGunWrap_PartizanM,			*,		2200,	-1
+		MilitaryGear_GhillieGunWrap_CADPAT,					*,		2200,	-1
+		MilitaryGear_GhillieGunWrap_Duckhunter,			*,		2200,	-1
+		MilitaryGear_GhillieGunWrap_Multicam,				*,		220,	-1
+		MilitaryGear_GhillieGunWrap_Splinter,				*,		2200,	-1
+		MilitaryGear_GhillieGunWrap_Splinter_Dark,	*,		220,	-1
+		MilitaryGear_GhillieGunWrap_Tiger,					*,		2200,	-1
+		MilitaryGear_GhillieGunWrap_Woodland,				*,		2200,	-1
+		MilitaryGear_GhillieGunWrap_FLT,						*,		2200,	-1
+		MilitaryGear_GhillieGunWrap_DPM,						*,		2200,	-1
+		MilitaryGear_GhillieGunWrap_MPAT,						*,		2200,	-1
+		MilitaryGear_GhillieGunWrap_Partizan,				*,		2200,	-1
+		MilitaryGear_GhillieGunWrap_Skol,						*,		2200,	-1
+		MilitaryGear_GhillieGunWrap_ATACS,					*,		2200,	-1
+		MilitaryGear_GhillieGunWrap_Tropic,					*,		2200,	-1
+		MilitaryGear_GhillieGunWrap_Yeger,					*,		2200,	-1
+		MilitaryGear_GhillieHood_PartizanM,					*,		2200,	-1
+		MilitaryGear_GhillieHood_Duckhunter,				*,		2200,	-1
+		MilitaryGear_GhillieHood_Multicam,					*,		2200,	-1
+		MilitaryGear_GhillieHood_Splinter,					*,		2200,	-1
+		MilitaryGear_GhillieHood_Splinter_Dark,			*,		2200,	-1
+		MilitaryGear_GhillieHood_Tiger,							*,		2200,	-1
+		MilitaryGear_GhillieHood_Woodland,					*,		2200,	-1
+		MilitaryGear_GhillieHood_FLT,								*,		2200,	-1
+		MilitaryGear_GhillieHood_DPM,								*,		2200,	-1
+		MilitaryGear_GhillieHood_MPAT,							*,		2200,	-1
+		MilitaryGear_GhillieHood_Partizan,					*,		2200,	-1
+		MilitaryGear_GhillieHood_Skol,							*,		2200,	-1
+		MilitaryGear_GhillieHood_ATACS,							*,		2200,	-1
+		MilitaryGear_GhillieHood_CADPAT,						*,		2200,	-1
+		MilitaryGear_GhillieHood_Tropic,						*,		2200,	-1
+		MilitaryGear_GhillieHood_Yeger,							*,		2200,	-1
+		MilitaryGear_GhillieBushrag_PartizanM,			*,		4400,	-1
+		MilitaryGear_GhillieBushrag_Duckhunter,			*,		4400,	-1
+		MilitaryGear_GhillieBushrag_Multicam,				*,		4400,	-1
+		MilitaryGear_GhillieBushrag_Splinter,				*,		4400,	-1
+		MilitaryGear_GhillieBushrag_Splinter_Dark,	*,		4400,	-1
+		MilitaryGear_GhillieBushrag_Tiger,					*,		4400,	-1
+		MilitaryGear_GhillieBushrag_Woodland,				*,		4400,	-1
+		MilitaryGear_GhillieBushrag_FLT,						*,		4400,	-1
+		MilitaryGear_GhillieBushrag_DPM,						*,		4400,	-1
+		MilitaryGear_GhillieBushrag_MPAT,						*,		4400,	-1
+		MilitaryGear_GhillieBushrag_Partizan,				*,		4400,	-1
+		MilitaryGear_GhillieBushrag_Skol,						*,		4400,	-1
+		MilitaryGear_GhillieBushrag_ATACS,					*,		4400,	-1
+		MilitaryGear_GhillieBushrag_CADPAT,					*,		4400,	-1
+		MilitaryGear_GhillieBushrag_Tropic,					*,		4400,	-1
+		MilitaryGear_GhillieBushrag_Yeger,					*,		4400,	-1
 
 	//<Category> Seasonal
-		//SantasBeard,															*,		15,		0
-		//SantasHat,																*,		35,		0
-		//PumpkinHelmet,														*,		50,		0
+		//SantasBeard,															*,		150,		0
+		//SantasHat,																*,		350,		0
+		//PumpkinHelmet,														*,		500,		0
 
 	<Category> Holster & Pouches
-		ChestHolster,																*,		60,		20
-		PlateCarrierHolster,												*,		60,		20
-		PlateCarrierPouches,												*,		1000,		20
+		ChestHolster,																*,		600,		200
+		PlateCarrierHolster,												*,		600,		200
+		MSFCPlateHolsterMulticamBlack,							*,		1000,		650
+		MSFCPlateHolsterMulticamTropic,							*,		1000,		650
+		MSFCPlateHolsterMulticam,										*,		1000,		650
+		MSFCRussianMilitaryPlateHolster,						*,		1000,		650
+		MSFCBlackCamoPlateHolster,									*,		1000,		650
+		MSFCFlecktarnPlateHolster,									*,		1000,		650
+		MSFCBlackTekStoPlateHolster,								*,		1000,		650
+		MSFCDigitalNavyPlateHolster,								*,		1000,		650
+		MSFCUmbrellaHolster,												*,		1000,		650
+		MSFCRMRPlateHolster,												*,		1000,		650
+		MSFCACUPlateHolster,												*,		1000,		650
+		MSFCCadpatPlateHolster,											*,		1000,		650
+		MSFCRMRAutumnPlateHolster,									*,		1000,		650
+		MSFCKryptekBansheePlateHolster,							*,		1000,		650
+		MSFCKryptekMandrakePlateHolster,						*,		1000,		650
+		MSFCKryptekNeptunePlateHolster,							*,		1000,		650
+		MSFCKryptekRaidPlateHolster,								*,		1000,		650
+		MSFCKryptekWraithPlateHolster,							*,		1000,		650
+		MSFCProjectHonorPlateHolster,								*,		1000,		650
+		MSFCAOR2PlateHolster,												*,		1000,		650
+		MSFC_Pantera_PlateHolster,									*,		1000,		650
+		MSFC_PanteraAutumn_PlateHolster,						*,		1000,		650
+		MSFCSTALKERDolgPlateHolster,								*,		1000,		650
+		MSFCSTALKERClearSkyPlateHolster,						*,		1000,		650
+		MSFCSTALKERMercPlateHolster,								*,		1000,		650
+		MSFCSTALKERMonolitPlateHolster,							*,		1000,		650
+		MSFCSTALKERSvobodaPlateHolster,							*,		1000,		650
+		MSFCPlateHolsterSURPATDesert,								*,		1000,		650
+		MSFCPlateHolsterSURPAT,											*,		1000,		650
+		MSFCPlateHolsterATACSAU,										*,		1000,		650
+		MSFCPlateHolsterATACSAU,										*,		1000,		650
+		PlateCarrierPouches,												*,		1000,		400
+		MSFCPlatePouchesMulticamBlack,							*,		1000,		650
+		MSFCPlatePouchesMulticamTropic,							*,		1000,		650
+		MSFCPlatePouchesMulticam,										*,		1000,		650
+		MSFCRussianMilitaryPlatePouches,						*,		1000,		650
+		MSFCBlackCamoPlatePouches,									*,		1000,		650
+		MSFCFlecktarnPlatePouches,									*,		1000,		650
+		MSFCBlackTekStoPlatePouches,								*,		1000,		650
+		MSFCDigitalNavyPlatePouches,								*,		1000,		650
+		MSFCRMRPlatePouches,												*,		1000,		650
+		MSFCACUPlatePouches,												*,		1000,		650
+		MSFCCadpatPlatePouches,											*,		1000,		650
+		MSFCRMRAutumnPlatePouches,									*,		1000,		650
+		MSFCKryptekBansheePlatePouches,							*,		1000,		650
+		MSFCKryptekTyphonPlatePouches,							*,		1000,		650
+		MSFCKryptekMandrakePlatePouches,						*,		1000,		650
+		MSFCKryptekNeptunePlatePouches,							*,		1000,		650
+		MSFCKryptekRaidPlatePouches,								*,		1000,		650
+		MSFCKryptekWraithPlatePouches,							*,		1000,		650
+		MSFCProjectHonorPlatePouches,								*,		1000,		650
+		MSFCAOR2PlatePouches,												*,		1000,		650
+		MSFC_Pantera_PlatePouches,									*,		1000,		650
+		MSFC_PanteraAutumn_PlatePouches,						*,		1000,		650
+		MSFCSTALKERDolgPlatePouches,								*,		1000,		650
+		MSFCSTALKERClearSkyPlatePouches,						*,		1000,		650
+		MSFCSTALKERMercPlatePouches,								*,		1000,		650
+		MSFCSTALKERMonolitPlatePouches,							*,		1000,		650
+		MSFCSTALKERSvobodaPlatePouches,							*,		1000,		650
+		MSFCPlatePouchesSURPATDesert,								*,		1000,		650
+		MSFCPlatePouchesSURPAT,											*,		1000,		650
+		MSFCPlatePouchesATACSAU,										*,		1000,		650
+		MSFCPlatePouchesATACSAU,										*,		1000,		650
 
 	<Category> Belt
 		CivilianBelt,																*,		300,		100
-		MilitaryBelt,																*,		900,		450
+		MilitaryBelt,																*,		700,		450
 		MSFC_WarBelt_MulticamBlack,									*,		1000,		500
 		MSFC_WarBelt_MulticamTropic,								*,		1000,		500
 		MSFC_WarBelt_Multicam,											*,		1000,		500
@@ -3406,7 +3378,7 @@
 		MSFC_TacticalBelt_ATACSAU,									*,		7500,		4500
 		MSFC_PanteraAutumn_TacBeltLarge,						*,		7500,		500
 		MSFC_Pantera_TacBeltLarge,									*,		7500,		500
-		MSFC_TacticalBelt_ATACSAU,									*,		1000,		65
+		MSFC_TacticalBelt_ATACSAU,									*,		1000,		500
 
 	<Category> Bags
 		ChildBag_Red,																*,		500,			250
@@ -3433,6 +3405,8 @@
 		MSFCAssaultBagSURPAT,												*,		4000,			2500
 		MSFCAssaultBagATACSAU,											*,		4000,			2500
 		MSFCAssaultBagATACSAU,											*,		4000,			2500
+		MSFC_Pantera_Bag,														*,		7000,			2500
+		MSFC_PanteraAutumn_Bag,											*,		7000,			2500
 		MSFCAssaultBagMulticamBlackMedic,						*,		4500,			3000
 		MSFCAssaultBagMulticamTropicMedic,					*,		4500,			3000
 		MSFCAssaultBagMulticamMedic,								*,		4500,			3000
@@ -3650,6 +3624,25 @@
 		WaterproofBag_Yellow,												*,		350,			200
 		WaterproofBag_Orange,												*,		350,			200
 		WaterproofBag_Green,												*,		500,			450
+		MSFCEmpty_Mags_Bag_MulticamBlack,						*,		300,			150
+		MSFCEmpty_Mags_Bag_MulticamTropic,					*,		300,			150
+		MSFCEmpty_Mags_Bag_Multicam,								*,		300,			150
+		MSFCEmpty_Mags_Bag_Green,										*,		300,			150
+		MSFCEmpty_Mags_Bag_Desert,									*,		300,			150
+		MSFCEmpty_Mags_Bag_Black,										*,		300,			150
+		MSFCEmpty_Mags_Bag_ATACSAU,									*,		300,			150
+		MSFCEmpty_Mags_Bag_ATACSAU,									*,		300,			150
+		MSFCEmpty_Mags_Bag_SURPATDesert,						*,		300,			150
+		MSFCEmpty_Mags_Bag_SURPAT,									*,		300,			150
+		MSFCSTALKERBag,															*,		1000,			65
+		MSFCSTALKERDolgBag,													*,		1000,			65
+		MSFCSTALKERSvobodaBag,											*,		1000,			65
+		MSFCSTALKERMercBag,													*,		1000,			65
+		MSFCSTALKERMonolitBag,											*,		1000,			65
+		MSFCSTALKERClearSkyBag,											*,		1000,			65
+		MSFCSTALKERBag_Green,												*,		1000,			65
+		MSFCSTALKERBanditBag,												*,		1000,			65
+		MSFCSTALKERMilitaryBag,											*,		1000,			65
 
 	//<Category> Handmade
 		//LeatherGloves_Beige,											*,		-1,		0
