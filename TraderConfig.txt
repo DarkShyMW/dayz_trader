@@ -3125,7 +3125,7 @@
 		MSFCBlackCamoPlateHolster,									*,		2100,		710
 		MSFCFlecktarnPlateHolster,									*,		2100,		710
 		MSFCBlackTekStoPlateHolster,								*,		2100,		710
-		MSFCDigitalNavyPlateHolster,								*,		2100,		7101300
+		MSFCDigitalNavyPlateHolster,								*,		2100,		710
 		MSFCUmbrellaHolster,												*,		2100,		710
 		MSFCRMRPlateHolster,												*,		2100,		710
 		MSFCACUPlateHolster,												*,		2100,		710
