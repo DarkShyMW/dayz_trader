@@ -1718,75 +1718,38 @@
     MSFCPouchIFAKSURPAT,												*,		1000,		65
 		MSFC_FaceMack_SURPAT,												*,		1000,		65
     MSFC_BottlePouch_SURPAT,										*,		1000,		65
+		MSFCSTALKERBanditRespirator,								*,		1000,		65
+		MSFCSTALKEREcologHood,											*,		1000,		65
 
 	<Category> Military Gear | Other
 
 
 	<Category> Military Gear | PartizanM
-		MilitaryGear_Beanie_PartizanM,							*,		80,		40
-		MSFCSTALKERBanditRespirator,								*,		1000,		65
-		MSFCSTALKEREcologHood,											*,		1000,		65
-		MilitaryGear_PlateCarrier_PartizanM,				*,		520,	260
 
 	<Category> Military Gear | Duckhunter
-		MilitaryGear_Beanie_Duckhunter,							*,		80,		40
-		MilitaryGear_PlateCarrier_Duckhunter,				*,		520,	260
 
 	<Category> Military Gear | Multicam
-		MilitaryGear_Beanie_Multicam,								*,		80,		40
-		MilitaryGear_PlateCarrier_Multicam,					*,		520,	260
 
 	<Category> Military Gear | Splinter
-		MilitaryGear_Beanie_Splinter,								*,		80,		40
-		MilitaryGear_PlateCarrier_Splinter,					*,		520,	260
 
 	<Category> Military Gear | Splinter_Dark
-		MilitaryGear_Beanie_Splinter_Dark,					*,		80,		40
-		MilitaryGear_PlateCarrier_Splinter_Dark,		*,		520,	260
 
 	<Category> Military Gear | Tiger
-		MilitaryGear_Beanie_Tiger,									*,		80,		40
-		MilitaryGear_PlateCarrier_Tiger,						*,		520,	260
 
 	<Category> Military Gear | Woodland
-		MilitaryGear_Beanie_Woodland,								*,		80,		40
-		MilitaryGear_PlateCarrier_Woodland,					*,		520,	260
 
 	<Category> Military Gear | FLT
-		MilitaryGear_Beanie_FLT,										*,		80,		40
-		MilitaryGear_PlateCarrier_FLT,							*,		520,	260
+
 
 	<Category> Military Gear | DPM
-		MilitaryGear_Beanie_DPM,										*,		80,		40
-		MilitaryGear_PlateCarrier_DPM,							*,		520,	260
-
 	<Category> Military Gear | MPAT
-		MilitaryGear_Beanie_MPAT,										*,		80,		40
-		MilitaryGear_PlateCarrier_MPAT,							*,		520,	260
 
 	<Category> Military Gear | Partizan
-		MilitaryGear_Beanie_Partizan,								*,		80,		40
-		MilitaryGear_PlateCarrier_Partizan,					*,		520,	260
 
 	<Category> Military Gear | Skol
-		MilitaryGear_Beanie_Skol,										*,		80,		40
-		MilitaryGear_PlateCarrier_Skol,							*,		520,	260
-
-	<Category> Military Gear | ATACS
-		MilitaryGear_PlateCarrier_ATACS,						*,		520,	260
-
-	<Category> Military Gear | CADPAT
-		MilitaryGear_PlateCarrier_CADPAT,						*,		520,	260
 
 	<Category> Military Gear | Tropic
-		MilitaryGear_Beanie_Tropic,									*,		80,		40
-		MilitaryGear_Beanie_CADPAT,									*,		80,		40
-		MilitaryGear_Beanie_ATACS,									*,		80,		40
-		MilitaryGear_PlateCarrier_Tropic,						*,		520,	260
-
 	<Category> Military Gear | Yeger
-		MilitaryGear_Beanie_Yeger,									*,		80,		40
-		MilitaryGear_PlateCarrier_Yeger,						*,		520,	260
 
 		<Category> SQUAD MSF-C A-TACS AU
 		MSFC_TacticalCap_ATACSAU,										*,		1000,		65
@@ -2039,9 +2002,25 @@
 		MilitaryGear_Bandana_CADPAT,								*,		300,		100
 		MilitaryGear_Bandana_Tropic,								*,		300,		100
 		MilitaryGear_Bandana_Yeger,									*,		300,		100
-		MSFCBandanaSURPAT,													*,		1000,		100
-		MSFCBandanaATACSAU,													*,		1000,		100
-		MSFCBandanaATACSAU,													*,		1000,		100
+		MSFCBandanaSURPAT,													*,		300,		100
+		MSFCBandanaATACSAU,													*,		300,		100
+		MSFCBandanaATACSAU,													*,		300,		100
+		MilitaryGear_Beanie_Yeger,									*,		300,		100
+		MilitaryGear_Beanie_PartizanM,							*,		300,		100
+		MilitaryGear_Beanie_Duckhunter,							*,		300,		100
+		MilitaryGear_Beanie_Multicam,								*,		300,		100
+		MilitaryGear_Beanie_Splinter,								*,		300,		100
+		MilitaryGear_Beanie_Splinter_Dark,					*,		300,		100
+		MilitaryGear_Beanie_Tiger,									*,		300,		100
+		MilitaryGear_Beanie_Woodland,								*,		300,		100
+		MilitaryGear_Beanie_FLT,										*,		300,		100
+		MilitaryGear_Beanie_DPM,										*,		300,		100
+		MilitaryGear_Beanie_MPAT,										*,		300,		100
+		MilitaryGear_Beanie_Partizan,								*,		300,		100
+		MilitaryGear_Beanie_Skol,										*,		300,		100
+		MilitaryGear_Beanie_Tropic,									*,		300,		100
+		MilitaryGear_Beanie_CADPAT,									*,		300,		100
+		MilitaryGear_Beanie_ATACS,									*,		300,		100
 
 	<Category> Helmets
 		ConstructionHelmet_Yellow,									*, 	  300,		70
@@ -2430,23 +2409,56 @@
 		SmershVest,																	*,		15000,	5000
 		HighCapacityVest_Black,											*,		20000,	6000
 		HighCapacityVest_Olive,											*,		23000,	7500
+
 		PlateCarrierVest,														*,		25000,	8000
+		MilitaryGear_PlateCarrier_FLT,							*,		25000,	8000
+		MilitaryGear_PlateCarrier_PartizanM,				*,		25000,	8000
+		MilitaryGear_PlateCarrier_Duckhunter,				*,		25000,	8000
+		MilitaryGear_PlateCarrier_Multicam,					*,		25000,	8000
+		MilitaryGear_PlateCarrier_Splinter,					*,		25000,	8000
+		MilitaryGear_PlateCarrier_Splinter_Dark,		*,		25000,	8000
+		MilitaryGear_PlateCarrier_Tiger,						*,		25000,	8000
+		MilitaryGear_PlateCarrier_Woodland,					*,		25000,	8000
+		MilitaryGear_PlateCarrier_DPM,							*,		25000,	8000
+		MilitaryGear_PlateCarrier_MPAT,							*,		25000,	8000
+		MilitaryGear_PlateCarrier_Partizan,					*,		25000,	8000
+		MilitaryGear_PlateCarrier_Skol,							*,		25000,	8000
+		MilitaryGear_PlateCarrier_ATACS,						*,		25000,	8000
+		MilitaryGear_PlateCarrier_CADPAT,						*,		25000,	8000
+		MilitaryGear_PlateCarrier_Tropic,						*,		25000,	8000
+		MilitaryGear_PlateCarrier_Yeger,						*,		25000,	8000
+		MSFCPlateCarrierVestSURPATDesert,						*,		25000,	8000
+		MSFCPlateCarrierVestSURPATDesertLogo,				*,		25000,	8000
+		MSFCPlateCarrierVestSURPATMedic,						*,		25000,	8000
+		MSFCPlateCarrierVestMulticamBlackMedic,			*,		25000,	9500
+		MSFCPlateCarrierVestMulticamTropicMedic,		*,		25000,	9500
+		MSFCPlateCarrierVestMulticamMedic,					*,		25000,	9500
+		MSFCPlateCarrierVestATACSAUMedic,						*,		25000,	9500
+		MSFCPlateCarrierVestATACSAUMedic,						*,		25000,	9500
+		MSFCPlateCarrierVestSURPATDesertMedic,			*,		25000,	9500
+		MSFCPlateCarrierVestSURPAT,									*,		25000,	8000
+		MSFCPlateCarrierVestSURPATLogo,							*,		25000,	8000
+		MSFCPlateCarrierVestMulticamBlack,					*,		25000,	8000
+		MSFCPlateCarrierVestMulticamBlackLogo,			*,		25000,	8000
+		MSFCPlateCarrierVestMulticamTropic,					*,		25000,	8000
+		MSFCPlateCarrierVestMulticamTropicLogo,			*,		25000,	8000
+		MSFCPlateCarrierVestMulticam,								*,		25000,	8000
+		MSFCPlateCarrierVestMulticamLogo,						*,		25000,	8000
+		MSFCPlateCarrierVestATACSAU,							  *,		25000,	8000
+		MSFCPlateCarrierVestATACSAULogo,						*,		25000,	8000
+		MSFCPlateCarrierVestATACSAU,								*,		25000,	8000
+		MSFCPlateCarrierVestATACSAULogo,						*,		25000,	8000
+
 		MSFCUKVestSURPATDesert,											*,		6000,		2500
 		MSFCTacVestSURPATDesert,										*,		6000,		2500
 		MSFCTacVestSURPATDesertLogo,								*,		6000,		2500
 		MSFCTacVestSURPATDesertMedic,								*,		6000,		2500
-		MSFCPlateCarrierVestSURPATDesert,						*,		6000,		2500
-		MSFCPlateCarrierVestSURPATDesertLogo,				*,		6000,		2500
-		MSFCPlateCarrierVestSURPATDesertMedic,			*,		6000,		2500
 		MSFCPressVestSURPATDesert,									*,		6000,		2500
 		MSFCSmershVestSURPATDesert,									*,		6000,		2500
 		MSFCUKVestSURPAT,														*,		6000,		2500
 		MSFCTacVestSURPAT,													*,		6000,		2500
 		MSFCTacVestSURPATLogo,											*,		6000,		2500
 		MSFCTacVestSURPATMedic,											*,		6000,		2500
-		MSFCPlateCarrierVestSURPAT,									*,		6000,		2500
-		MSFCPlateCarrierVestSURPATLogo,							*,		6000,		2500
-		MSFCPlateCarrierVestSURPATMedic,						*,		6000,		2500
 		MSFCPressVestSURPAT,												*,		6000,		2500
 		MSFCSmershVestSURPAT,												*,		6000,		2500
 		MSFC_JPC_Vest_MulticamBlack,								*,		6000,		2500
@@ -2456,9 +2468,6 @@
 		MSFCTacVestMulticamBlack,										*,		6000,		2500
 		MSFCTacVestMulticamBlackLogo,							  *,		6000,		2500
 		MSFCTacVestMulticamBlackMedic,							*,		6000,		2500
-		MSFCPlateCarrierVestMulticamBlack,					*,		6000,		2500
-		MSFCPlateCarrierVestMulticamBlackLogo,			*,		6000,		2500
-		MSFCPlateCarrierVestMulticamBlackMedic,			*,		6000,		2500
 		MSFCPressVestMulticamBlack,									*,		6000,		2500
 		MSFCSmershVestMulticamBlack,								*,		6000,		2500
 		MSFC_JPC_Vest_MulticamTropic,								*,		6000,		2500
@@ -2468,9 +2477,6 @@
 		MSFCTacVestMulticamTropic,									*,		6000,		2500
 		MSFCTacVestMulticamTropicLogo,							*,		6000,		2500
 		MSFCTacVestMulticamTropicMedic,							*,		6000,		2500
-		MSFCPlateCarrierVestMulticamTropic,					*,		6000,		2500
-		MSFCPlateCarrierVestMulticamTropicLogo,			*,		6000,		2500
-		MSFCPlateCarrierVestMulticamTropicMedic,		*,		6000,		2500
 		MSFCPressVestMulticamTropic,								*,		6000,		2500
 		MSFCSmershVestMulticamTropic,								*,		6000,		2500
 		MSFC_JPC_Vest_Multicam,											*,		6000,		2500
@@ -2479,9 +2485,6 @@
 		MSFCTacVestMulticam,												*,		6000,		2500
 		MSFCTacVestMulticamLogo,										*,		6000,		2500
 		MSFCTacVestMulticamMedic,										*,		6000,		2500
-		MSFCPlateCarrierVestMulticam,								*,		6000,		2500
-		MSFCPlateCarrierVestMulticamLogo,						*,		6000,		2500
-		MSFCPlateCarrierVestMulticamMedic,					*,		6000,		2500
 		MSFCPressVestMulticam,											*,		6000,		2500
 		MSFCSmershVestMulticam,											*,		6000,		2500
 		MSFC_JPC_Vest_Green,												*,		6000,		2500
@@ -2587,9 +2590,6 @@
 		MSFCTacVestATACSAU,													*,		1000,		500
 		MSFCTacVestATACSAULogo,											*,		1000,		500
 		MSFCTacVestATACSAUMedic,										*,		1000,		500
-		MSFCPlateCarrierVestATACSAU,							  *,		1000,		500
-		MSFCPlateCarrierVestATACSAULogo,						*,		1000,		500
-		MSFCPlateCarrierVestATACSAUMedic,						*,		1000,		500
 		MSFCPressVestATACSAU,												*,		1000,		500
 		MSFCSmershVestATACSAU,											*,		1000,		500
 		MSFC_JPC_Vest_ATACSAU,											*,		1000,		500
@@ -2599,9 +2599,6 @@
 		MSFCTacVestATACSAU,													*,		1000,		500
 		MSFCTacVestATACSAULogo,											*,		1000,		500
 		MSFCTacVestATACSAUMedic,										*,		1000,		500
-		MSFCPlateCarrierVestATACSAU,								*,		1000,		500
-		MSFCPlateCarrierVestATACSAULogo,						*,		1000,		500
-		MSFCPlateCarrierVestATACSAUMedic,						*,		1000,		500
 		MSFCPressVestATACSAU,												*,		1000,		500
 		MSFCSmershVestATACSAU,											*,		1000,		500
 
