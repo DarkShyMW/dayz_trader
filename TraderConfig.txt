@@ -548,7 +548,6 @@
 		SR2_black,													W,		700,	350
 		MAC10,															W,		350,	175
 		MAC10_desert,												W,		700,	350
-		CBJ,																W,		700,	350
 		PP19_01,														W,		1000,	500
 
 	<Category> Винтовки
@@ -576,7 +575,6 @@
 		Kac_RedLine,														W,		6000,	3000
 		ACE23,																W,		3300,	1380
 		ace23_desert,														W,		6300,	3380
-		ace23_WhiteSpray,													W,		6300,	3380
 
 	<Category> Снайп. Винтовки
 		Izh18,															W,		350,	150
@@ -1144,7 +1142,7 @@
 		Mag_MakarovPB_8Rnd,									M,		120,	60
 		Mag_VSK94_20Rnd,										M,		220,	110
 		Mag_DDM_30Rnd,											M,		220,	110
-		Mag_rpk_40RndSpar										M,		300,	150
+		Mag_rpk_40RndSpar,										M,		300,	150
 		Mag_val_20Rnd_coupled,							M,		600,	300
 		Mag_vss_10Rnds_coupled,							M,		500,	200
 		Mag_GSH18_18Rnd,										M,		120,	60
@@ -1154,9 +1152,6 @@
 		Mag_SR2_30Rnd,											M,		220,	110
 		Mag_AK74UM_30Rnd,										M,		220,	110
 		Mag_mac10_30Rnd,										M,		220,	110
-		Mag_CBJ_20Rnd,											M,		180,	90
-		Mag_CBJ_30Rnd,											M,		240,	120
-		Mag_CBJ_50Rnd,											M,		320,	160
 		Mag_Nailgun_50n,										M,		240,	120
 		Mag_psg_5Rnd,												M,		220,	110
 		Mag_SR1M_18Rnd,											M,		220,	110
