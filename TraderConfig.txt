@@ -1098,13 +1098,13 @@
 		Universallight,											*,		120,	60
 
 	<Category> SQUAD MSF-C Weapon Attachments
-        MSFC_DHG_Suppressor,										*,		500,		250
-        MSFC_PBS4_Suppressor,										*,		500,		250
-        MSFC_SWR_PistolSuppressor,							*,		500,		250
-        MSFC_OSV_Optic,													*,		2000,		500
-        MSFC_BarretOptic,												*,		2000,		500
-        MSFC_AK_Zenitco_Handguard,							*,		500,		250
-        MSFC_AK_Tactical_Buttstck,							*,		500,		250
+  	MSFC_DHG_Suppressor,										*,		500,		250
+  	MSFC_PBS4_Suppressor,										*,		500,		250
+  	MSFC_SWR_PistolSuppressor,							*,		500,		250
+	  MSFC_OSV_Optic,													*,		2000,		500
+	  MSFC_BarretOptic,												*,		2000,		500
+	  MSFC_AK_Zenitco_Handguard,							*,		500,		250
+	  MSFC_AK_Tactical_Buttstck,							*,		500,		250
 		MSFC_AK_PlasticButtstock_WHITE,							*,		500,		250
 		MSFC_AK_PlasticButtstock_ATACS_AU,					*,		500,		250
 		MSFC_AK_PlasticButtstock_ATACS_FG,					*,		500,		250
@@ -2556,22 +2556,16 @@
 		MSFC_TacGopJacket_ATACSFG,									*,		1680,		710
 		MSFC_TacGopJacket_Multicam,									*,		1680,		710
 		MSFCGorkaJMulticamBlack,										*,		1300,		450
-		MSFCGorkaPMulticamBlack,										*,		1300,		450
 		MSFCGorkaJMulticamBlackNoPatch,							*,		1300,		450
 		MSFCGorkaJMulticamTropic,										*,		1300,		450
-		MSFCGorkaPMulticamTropic,										*,		1300,		450
 		MSFCGorkaJMulticamTropicNoPatch,				    *,		1300,		450
 		MSFCGorkaJMulticam,													*,		1300,		450
-		MSFCGorkaPMulticam,													*,		1300,		450
 		MSFCGorkaJMulticamNoPatch,									*,		1300,		450
 		MSFCGorkaJSURPATDesert,											*,		1300,		450
-		MSFCGorkaPSURPATDesert,											*,		1300,		450
 		MSFCGorkaJSURPATDesertNoPatch,							*,		1300,		450
 		MSFCGorkaJSURPAT,														*,		1300,		450
-		MSFCGorkaPSURPAT,														*,		1300,		450
 		MSFCGorkaJSURPATNoPatch,										*,		1300,		450
 		MSFCGorkaJATACSAU,													*,		1300,		450
-		MSFCGorkaPATACSAU,													*,		1300,		450
 		MSFCGorkaJATACSAUNoPatch,										*,		1300,		450
 
 	<Category> Skirts & Dresses
@@ -2768,6 +2762,12 @@
 		MilitaryGear_FieldPants_CADPAT,							*,		750,		250
 		MilitaryGear_FieldPants_Tropic,							*,		750,		250
 		MilitaryGear_FieldPants_Yeger,							*,		500,		250
+		MSFCGorkaPMulticamBlack,										*,		500,		250
+		MSFCGorkaPMulticamTropic,										*,		500,		250
+		MSFCGorkaPMulticam,													*,		500,		250
+		MSFCGorkaPSURPATDesert,											*,		500,		250
+		MSFCGorkaPSURPAT,														*,		500,		250
+		MSFCGorkaPATACSAU,													*,		500,		250
 		MSFCPantsATACSAU,														*,		500,		250
 		MSFCPantsATACSAU,														*,		500,		250
 		MSFC_G3Pants_MulticamBlack,									*,		450,		210
@@ -3281,10 +3281,10 @@
 		MilitaryGear_MountainBag_ATACS,							*,		5000,			2300
 		MilitaryGear_MountainBag_CADPAT,						*,		5000,			2300
 		MilitaryGear_MountainBag_Yeger,							*,		5000,			2300
-		AliceBag_Black,															*,		7000,			3500
+		//AliceBag_Black,														*,		7000,			3500
 		AliceBag_Green,															*,		6000,			4500
 		AliceBag_Camo,															*,		5000,			2500
-		MSFCAliceBagMulticamBlack,									*,		9000,			4500
+		//MSFCAliceBagMulticamBlack,								*,		9000,			4500
 		MSFCAliceBagMulticamTropic,									*,		9000,			3500
 		MSFCAliceBagMulticam,												*,		9000,			3500
 		MSFCAliceBagSURPATDesert,										*,		9000,			3500
@@ -3295,7 +3295,7 @@
 		MilitaryGear_AliceBag_Duckhunter,						*,		9000,			3500
 		MilitaryGear_AliceBag_Multicam,							*,		9000,			3500
 		MilitaryGear_AliceBag_Splinter,							*,		9000,			3500
-		MilitaryGear_AliceBag_Splinter_Dark,				*,		9000,			3500
+		//MilitaryGear_AliceBag_Splinter_Dark,				*,		9000,			3500
 		MilitaryGear_AliceBag_Tiger,								*,		9000,			3500
 		MilitaryGear_AliceBag_Woodland,							*,		9000,			3500
 		MilitaryGear_AliceBag_FLT,									*,		9000,			3500
@@ -3457,8 +3457,10 @@
 			MSFC_GPNVG18_Black,													*,		8200,		3265
 			MSFC_GPNVG18_Green,													*,		8200,		3265
 			MSFC_BC_NVG21,															*,		12200,	6665
+			NVGHeadstrap,																*,		900,		500
+			MilitaryGear_TacticalHelmet_PartizanM,			*,		3900,		1750
 
-	<Category> Противогаз и химкостюм
+	<Category> Противогаз и 2000костюм
 			GP5GasMask,																	*,		1200,		400
 			MSFCGasMaskGP5Black,												*,		3000,		650
 			MSFCGasMaskGP5Green,												*,		3000,		650
@@ -3490,57 +3492,57 @@
 			MilitaryGear_GP5GasMask_Black,							*,		3200, 	1600
 			MilitaryGear_GP5GasMask_Brown,							*,		3200, 	1600
 			MilitaryGear_GP5GasMask_Olive,							*,		3200,	  1600
-			MSFCSTALKERHood,														*,		8000,		4670
-			MSFCSTALKERDolgHood,												*,		8000,		4670
-			MSFCSTALKERSvobodaHood,											*,		8000,		4670
-			MSFCSTALKERMercHood,												*,		8000,		4670
-			MSFCSTALKERMonolitHood,											*,		8000,		4670
-			MSFCSTALKERClearSkyHood,										*,		8000,		4670
-			MSFCSTALKERBanditHood,											*,		8000,		4670
-			MSFCSTALKERHood_Green,											*,		8000,		4670
-			MSFCHoodMulticamTropic,											*,		8000,		4670
-			MSFCHoodMulticamBlack,											*,		8000,		4670
-			MSFCHoodMulticam,														*,		8000,		4670
-			MSFCHoodSURPATDesert,												*,		8000,		4670
-			MSFCSTALKEREcologHood,											*,		8000,		5300
-			MSFCHoodATACSAU,														*,		8000,		4670
-			NBCHoodGray,																*,		25000,  3200
-			NBCGlovesGray,															*,		8000,		2560
-			MSFCNBCGlovesSURPATDesert,									*,		8000,		2560
-			MSFCNBCGlovesMulticamTropic,								*,		8000,		2560
-			MSFCNBCGlovesMulticamBlack,									*,		8000,		2560
-			MSFCNBCGlovesMulticam,											*,		8000,		2560
-			MSFCNBCGlovesSURPAT,												*,		8000,		2560
-			MSFCNBCGlovesATACSAU,												*,		8000,		2560
-			MSFCNBCGlovesATACSAU,												*,		8000,		2560
-			MSFCSTALKEREcologGloves,										*,		8000,		4200
-			NBCJacketGray,															*,		20000,	2600
-			MSFCSTALKEREcologJacket,										*,		20000,	5600
-			MSFCNBCJacketMulticamBlack,									*,		20000,	2600
-			MSFCNBCJacketMulticamTropic,								*,		20000,	4600
-			MSFCNBCJacketMulticam,											*,		20000,	4600
-			MSFCNBCJacketSURPATDesert,									*,		20000,	4600
-			MSFCNBCJacketSURPAT,                        *,    20000,  4600
-			MSFCNBCJacketATACSAU,												*,		20000,	4600
-			MSFCNBCJacketATACSAU,												*,		20000,	4600
-			NBCPantsGray,																*,		16000,	3300
-			MSFCSTALKEREcologPants,											*,		16000,	4600
-			MSFCNBCPantsMulticamBlack,									*,		16000,	3300
-			MSFCNBCPantsMulticamTropic,									*,		16000,	3300
-			MSFCNBCPantsMulticam,												*,		16000,	3300
-			MSFCNBCPantsSURPATDesert,										*,		16000,	3300
-			MSFCNBCPantsSURPAT,													*,		16000,	3300
-			MSFCNBCPantsATACSAU,												*,		16000,	3300
-			MSFCNBCPantsATACSAU,												*,		16000,	3300
-			MSFCNBCBootsATACSAU,												*,		8000,		2560
-			MSFCNBCBootsMulticamBlack,									*,		8000,		2560
-			MSFCNBCBootsMulticamTropic,									*,		8000,		2560
-			MSFCNBCBootsMulticam,												*,		8000,		2560
-			MSFCNBCBootsSURPATDesert,										*,		8000,		2560
-			MSFCNBCBootsSURPAT,													*,		8000,		2560
-			MSFCNBCBootsATACSAU,												*,		8000,		2560
-			MSFCSTALKEREcologBoots,											*,		8000,		3500
-			NBCBootsGray,																*,		8000,		2560
+			MSFCSTALKERHood,														*,		2000,		1070
+			MSFCSTALKERDolgHood,												*,		2000,		1070
+			MSFCSTALKERSvobodaHood,											*,		2000,		1070
+			MSFCSTALKERMercHood,												*,		2000,		1070
+			MSFCSTALKERMonolitHood,											*,		2000,		1070
+			MSFCSTALKERClearSkyHood,										*,		2000,		1070
+			MSFCSTALKERBanditHood,											*,		2000,		1070
+			MSFCSTALKERHood_Green,											*,		2000,		1070
+			MSFCHoodMulticamTropic,											*,		2000,		1070
+			MSFCHoodMulticamBlack,											*,		2000,		1070
+			MSFCHoodMulticam,														*,		2000,		1070
+			MSFCHoodSURPATDesert,												*,		2000,		1070
+			MSFCSTALKEREcologHood,											*,		2000,		1070
+			MSFCHoodATACSAU,														*,		2000,		1070
+			NBCHoodGray,																*,		2000, 	1070
+			NBCGlovesGray,															*,		2000,		1070
+			MSFCNBCGlovesSURPATDesert,									*,		2000,		1070
+			MSFCNBCGlovesMulticamTropic,								*,		2000,		1070
+			MSFCNBCGlovesMulticamBlack,									*,		2000,		1070
+			MSFCNBCGlovesMulticam,											*,		2000,		1070
+			MSFCNBCGlovesSURPAT,												*,		2000,		1070
+			MSFCNBCGlovesATACSAU,												*,		2000,		1070
+			MSFCNBCGlovesATACSAU,												*,		2000,		1070
+			MSFCSTALKEREcologGloves,										*,		2000,		1070
+			NBCJacketGray,															*,		2000,		1070
+			MSFCSTALKEREcologJacket,										*,		2000,		1070
+			MSFCNBCJacketMulticamBlack,									*,		2000,		1070
+			MSFCNBCJacketMulticamTropic,								*,		2000,		1070
+			MSFCNBCJacketMulticam,											*,		2000,		1070
+			MSFCNBCJacketSURPATDesert,									*,		2000,		1070
+			MSFCNBCJacketSURPAT,                        *,    2000, 	1070
+			MSFCNBCJacketATACSAU,												*,		2000,		1070
+			MSFCNBCJacketATACSAU,												*,		2000,		1070
+			NBCPantsGray,																*,		2000,		1070
+			MSFCSTALKEREcologPants,											*,		2000,		1070
+			MSFCNBCPantsMulticamBlack,									*,		2000,		1070
+			MSFCNBCPantsMulticamTropic,									*,		2000,		1070
+			MSFCNBCPantsMulticam,												*,		2000,		1070
+			MSFCNBCPantsSURPATDesert,										*,		2000,		1070
+			MSFCNBCPantsSURPAT,													*,		2000,		1070
+			MSFCNBCPantsATACSAU,												*,		2000,		1070
+			MSFCNBCPantsATACSAU,												*,		2000,		1070
+			MSFCNBCBootsATACSAU,												*,		2000,		1070
+			MSFCNBCBootsMulticamBlack,									*,		2000,		1070
+			MSFCNBCBootsMulticamTropic,									*,		2000,		1070
+			MSFCNBCBootsMulticam,												*,		2000,		1070
+			MSFCNBCBootsSURPATDesert,										*,		2000,		1070
+			MSFCNBCBootsSURPAT,													*,		2000,		1070
+			MSFCNBCBootsATACSAU,												*,		2000,		1070
+			MSFCSTALKEREcologBoots,											*,		2000,		1070
+			NBCBootsGray,																*,		2000,		1070
 
 	//<Category> Handmade
 		//LeatherGloves_Beige,											*,		-1,		0
@@ -3580,18 +3582,18 @@
 
 <Trader> Vehicles Trader
 	<Category> Vehicles
-		OffroadHatchback,														V,		14000,	8000	// Use VNK instead of V as Quantity to not give a Vehicle Key when bought.
-		OffroadHatchback_Blue,											V,		14000,	8000
-		OffroadHatchback_White,											V,		14000,	8000
-		Hatchback_02,																V,		16000,	9600
-		Hatchback_02_Blue,													V,		16000,	9600
-		Hatchback_02_Black,													V,		16000,	9600
-		Sedan_02,																		V,		18000,	10200
-		Sedan_02_Red,																V,		18000,	10200
-		Sedan_02_Grey,															V,		18000,	10200
-		CivilianSedan,															V,		20000,	11000
-		CivilianSedan_Wine,													V,		20000,	11000
-		CivilianSedan_Black,												V,		20000,	11000
+		OffroadHatchback,														V,		140000,	8000	// Use VNK instead of V as Quantity to not give a Vehicle Key when bought.
+		OffroadHatchback_Blue,											V,		140000,	8000
+		OffroadHatchback_White,											V,		140000,	8000
+		Hatchback_02,																V,		160000,	9600
+		Hatchback_02_Blue,													V,		160000,	9600
+		Hatchback_02_Black,													V,		160000,	9600
+		Sedan_02,																		V,		180000,	10200
+		Sedan_02_Red,																V,		180000,	10200
+		Sedan_02_Grey,															V,		180000,	10200
+		CivilianSedan,															V,		200000,	11000
+		CivilianSedan_Wine,													V,		200000,	11000
+		CivilianSedan_Black,												V,		200000,	11000
 
 	<Category> Vehicle Parts
 		HeadlightH7_Box,														*,		30,		15
@@ -3757,7 +3759,7 @@
 		CrSk_Porsche_911_Speedster,                 V,      130000,	  25000
 		CrSk_Porsche_911_Speedster_Pink,            V,      130000,   25000
 		CrSk_Porsche_911_Speedster_Green,           V,      130000,   25000
-	    	CrSk_Ferrari_458_Speciale_Black,        V,  	  180000,   25000
+	  CrSk_Ferrari_458_Speciale_Black,     		    V,  	  180000,   25000
 		CrSk_Ferrari_458_Speciale_Pink,             V,      180000,   25000
 		CrSk_Ferrari_458_Speciale,                  V,      180000,   25000
 		CrSk_Ferrari_458_Speciale_Red,              V,      180000,   50000
