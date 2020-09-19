@@ -408,11 +408,11 @@
 		Msp_TackleBox_Black,		            *,		6000,		1600
 		Msp_CoolerBox,		                  *,		6000,		1600
 		Msp_CoolerBox_Black,		            *,		6000,		1600
-		Msp_SmallFridge,		                *,		16000,		4000
-		Msp_JackDanielsFridge,		         	*,		16000,		4000
-		Msp_GrenadeBox,		                  *,		16000,		4000
-		Msp_TreasureChest,		              *,		16000,		4000
-		Msp_MedievalChest,		              *,		16000,		4000
+		Msp_SmallFridge,		                *,		16000,	4000
+		Msp_JackDanielsFridge,		         	*,		16000,	4000
+		Msp_GrenadeBox,		                  *,		16000,	4000
+		Msp_TreasureChest,		              *,		16000,	4000
+		Msp_MedievalChest,		              *,		16000,	4000
 	<Category> Barrels
 		Msp_Barrel_Donation,		            *,		8600,		4000
 		Msp_Barrel_Donation_Ammo,		        *,		8600,		4000
@@ -538,12 +538,12 @@
 		MP5K,																W,		350,	175
 		AKS74U,															W,		1100,	600
 		FP4_AKS74U,													W,		1100,	600
-		FP4_AKS74U_Brown,											W,		1100,	600
-		FP4_AKS74U_Blue,											W,		1100,	600
-		FP4_AKS74U_Red,												W,		1100,	600
-		FP4_AKS74U_Black,											W,		1100,	600
-		FP4_AKS74U_Green,											W,		1100,	600
-		FP4_AKS74U_Tactical,										W,		1100,	600
+		FP4_AKS74U_Brown,										W,		1100,	600
+		FP4_AKS74U_Blue,										W,		1100,	600
+		FP4_AKS74U_Red,											W,		1100,	600
+		FP4_AKS74U_Black,										W,		1100,	600
+		FP4_AKS74U_Green,										W,		1100,	600
+		FP4_AKS74U_Tactical,								W,		1100,	600
 		SR2,																W,		350,	175
 		SR2_black,													W,		700,	350
 		MAC10,															W,		350,	175
@@ -555,26 +555,26 @@
 		AKM,																W,		3000,	1750
 		AK74,																W,		3300,	1380
 		M4A1,																W,		5000,	2750
-		CS5,																W,		10000,	3500
+		CS5,																W,		10000,3500
 		DDM,																W,		4599,	2749
-		AK101,																W,		4500,	2000
-		AK101_Green,														W,		4500,	2000
-		AK101_Black,														W,		4500,	2000
-		FP4_AK101_Purpure,													W,		5000,	2750
-		FP4_AK101_Blue,														W,		5000,	2750
-		FP4_AK101_Red,														W,		5000,	2750
-		FP4_AK101_Lime,														W,		5000,	2750
-		FP4_AK101_HungryOrange,												W,		6500,	3500
-		sg550,																W,		4500,	2250
-		SG552,																W,		4800,	2400
-		AK74UM,																W,		3300,	1380
+		AK101,															W,		4500,	2000
+		AK101_Green,												W,		4500,	2000
+		AK101_Black,												W,		4500,	2000
+		FP4_AK101_Purpure,									W,		5000,	2750
+		FP4_AK101_Blue,											W,		5000,	2750
+		FP4_AK101_Red,											W,		5000,	2750
+		FP4_AK101_Lime,											W,		5000,	2750
+		FP4_AK101_HungryOrange,		  				W,		6500,	3500
+		sg550,															W,		4500,	2250
+		SG552,															W,		4800,	2400
+		AK74UM,															W,		3300,	1380
 		RPK,																W,		8000,	4000
-		RPK_camo,															W,		10000,	-1
+		RPK_camo,														W,		10000,	-1
 		KAC,																W,		3300,	1600
-		Kac_HB,																W,		3800,	1900
-		Kac_RedLine,														W,		6000,	3000
-		ACE23,																W,		3300,	1380
-		ace23_desert,														W,		6300,	3380
+		Kac_HB,															W,		3800,	1900
+		Kac_RedLine,												W,		6000,	3000
+		ACE23,															W,		3300,	1380
+		ace23_desert,												W,		6300,	3380
 
 	<Category> Снайп. Винтовки
 		Izh18,															W,		350,	150
@@ -1211,7 +1211,7 @@
 		PSO11Optic,													*,		1400,	840
 		KazuarOptic,												*,		2200,	1400
 		FalconOptic,												*,		5000,	2500
-		PN23Optic,												*,		2200,	1400
+		PN23Optic,													*,		2200,	1400
 
 	<Category> Supressors
 		PistolSuppressor,										*,		180,	75
@@ -2157,7 +2157,7 @@
 		Blouse_White,																*,		160,		40
 		Blouse_Green,																*,		180,		40
 		MedicalScrubsShirt_Blue,										*,		200,		50
-		MedicalScrubsShirt_White,										*,		200,			50
+		MedicalScrubsShirt_White,										*,		200,		50
 		MedicalScrubsShirt_Green,										*,		200,		50
 		ChernarusSportShirt,												*,		250,		60
 		TacticalShirt_Grey,													*,		900,		100
@@ -3434,7 +3434,7 @@
 		MilitaryGear_AliceBag_Duckhunter,						*,		9000,			3500
 		MilitaryGear_AliceBag_Multicam,							*,		9000,			3500
 		MilitaryGear_AliceBag_Splinter,							*,		9000,			3500
-		//MilitaryGear_AliceBag_Splinter_Dark,				*,		9000,			3500
+		//MilitaryGear_AliceBag_Splinter_Dark,			*,		9000,			3500
 		MilitaryGear_AliceBag_Tiger,								*,		9000,			3500
 		MilitaryGear_AliceBag_Woodland,							*,		9000,			3500
 		MilitaryGear_AliceBag_FLT,									*,		9000,			3500
@@ -3557,39 +3557,39 @@
 		MSFCPouchCargoATACSAU,											*,		500,			250
 		MSFCPouchCargoATACSAU,											*,		500,			250
 
-	<Category> Большие Палатки И Автомобильные Палатки
-			MilitaryGear_LargeTent_ATACS,								*,		17000,		1200
-			MilitaryGear_LargeTent_CADPAT,							*,		17000,		1200
-			MilitaryGear_LargeTent_DPM,									*,		17000,		1200
-			MilitaryGear_LargeTent_Duckhunter,					*,		17000,		1200
-			MilitaryGear_LargeTent_FLT,									*,		17000,		1200
-			MilitaryGear_LargeTent_MPAT,								*,		17000,		1200
-			MilitaryGear_LargeTent_Multicam,						*,		17000,		1200
-			MilitaryGear_LargeTent_Partizan,						*,		17000,		1200
-			MilitaryGear_LargeTent_PartizanM,						*,		17000,		1200
-			MilitaryGear_LargeTent_Skol,								*,		17000,		1200
-			MilitaryGear_LargeTent_Splinter,						*,		17000,		1200
-			MilitaryGear_LargeTent_Splinter_Dark,				*,		17000,		1200
-			MilitaryGear_LargeTent_Tiger,								*,		17000,		1200
-			MilitaryGear_LargeTent_Tropic,							*,		17000,		1200
-			MilitaryGear_LargeTent_Woodland,						*,		17000,		1200
-			MilitaryGear_LargeTent_Yeger,								*,		17000,		1200
-			MilitaryGear_CarTent_ATACS,									*,		15000,		700
-			MilitaryGear_CarTent_CADPAT,								*,		15000,		700
-			MilitaryGear_CarTent_DPM,										*,		15000,		700
-			MilitaryGear_CarTent_Duckhunter,						*,		15000,		700
-			MilitaryGear_CarTent_FLT,										*,		15000,		700
-			MilitaryGear_CarTent_MPAT,									*,		15000,		700
-			MilitaryGear_CarTent_Multicam,							*,		15000,		700
-			MilitaryGear_CarTent_Partizan,							*,		15000,		700
-			MilitaryGear_CarTent_PartizanM,							*,		15000,		700
-			MilitaryGear_CarTent_Skol,									*,		15000,		700
-			MilitaryGear_CarTent_Splinter,							*,		15000,		700
-			MilitaryGear_CarTent_Splinter_Dark,					*,		15000,		700
-			MilitaryGear_CarTent_Tiger,									*,		15000,		700
-			MilitaryGear_CarTent_Tropic,								*,		15000,		700
-			MilitaryGear_CarTent_Woodland,							*,		15000,		700
-			MilitaryGear_CarTent_Yeger,									*,		15000,		700
+	//<Category> Большие Палатки И Автомобильные Палатки
+			//MilitaryGear_LargeTent_ATACS,								*,		17000,		1200
+			//MilitaryGear_LargeTent_CADPAT,							*,		17000,		1200
+			//MilitaryGear_LargeTent_DPM,									*,		17000,		1200
+			//MilitaryGear_LargeTent_Duckhunter,					*,		17000,		1200
+			//MilitaryGear_LargeTent_FLT,									*,		17000,		1200
+			//MilitaryGear_LargeTent_MPAT,								*,		17000,		1200
+			//MilitaryGear_LargeTent_Multicam,						*,		17000,		1200
+			//MilitaryGear_LargeTent_Partizan,						*,		17000,		1200
+			//MilitaryGear_LargeTent_PartizanM,						*,		17000,		1200
+			//MilitaryGear_LargeTent_Skol,								*,		17000,		1200
+			//MilitaryGear_LargeTent_Splinter,						*,		17000,		1200
+			//MilitaryGear_LargeTent_Splinter_Dark,				*,		17000,		1200
+			//MilitaryGear_LargeTent_Tiger,								*,		17000,		1200
+			//MilitaryGear_LargeTent_Tropic,							*,		17000,		1200
+			//MilitaryGear_LargeTent_Woodland,						*,		17000,		1200
+			//MilitaryGear_LargeTent_Yeger,								*,		17000,		1200
+			//MilitaryGear_CarTent_ATACS,									*,		15000,		700
+			//MilitaryGear_CarTent_CADPAT,								*,		15000,		700
+			//MilitaryGear_CarTent_DPM,										*,		15000,		700
+			//MilitaryGear_CarTent_Duckhunter,						*,		15000,		700
+			//MilitaryGear_CarTent_FLT,										*,		15000,		700
+			//MilitaryGear_CarTent_MPAT,									*,		15000,		700
+			//MilitaryGear_CarTent_Multicam,							*,		15000,		700
+			//MilitaryGear_CarTent_Partizan,							*,		15000,		700
+			//MilitaryGear_CarTent_PartizanM,							*,		15000,		700
+			//MilitaryGear_CarTent_Skol,									*,		15000,		700
+			//MilitaryGear_CarTent_Splinter,							*,		15000,		700
+			//MilitaryGear_CarTent_Splinter_Dark,					*,		15000,		700
+			//MilitaryGear_CarTent_Tiger,									*,		15000,		700
+			//MilitaryGear_CarTent_Tropic,								*,		15000,		700
+			//MilitaryGear_CarTent_Woodland,							*,		15000,		700
+			//MilitaryGear_CarTent_Yeger,									*,		15000,		700
 
 	<Category> ПНВ
 			MSFC_GPNVG18_Desert,												*,		8200,		3265
