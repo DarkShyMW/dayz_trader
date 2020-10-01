@@ -967,29 +967,29 @@
 		MSFC_CZ527_REDBLACKWHITE,						W,		6000,		1500
 		MSFC_CZ527_Honeycomb,								W,		6000,		1500
 		MSFC_CZ527_STAR,										W,		6000,		1500
-		MSFC_SVD_Wooden,										W,		16000,		1500
+		MSFC_SVD_Wooden,										W,		16000,	1500
         MSFC_AKM_Kryptek_Banshee,				W,		4500,		1500
-        MSFC_SVD_Kryptek_Banshee,				W,		11000,		1500
+        MSFC_SVD_Kryptek_Banshee,				W,		11000,	1500
         MSFC_UMP_Kryptek_Banshee,				W,		4000,		1500
         MSFC_M4A1_Kryptek_Banshee,			W,		7000,		1500
         MSFC_AKM_Kryptek_Neptune,				W,		4500,		1500
-        MSFC_SVD_Kryptek_Neptune,				W,		13000,		1500
+        MSFC_SVD_Kryptek_Neptune,				W,		13000,	1500
         MSFC_UMP_Kryptek_Neptune,				W,		4000,		1500
         MSFC_M4A1_Kryptek_Neptune,			W,		7000,		1500
         MSFC_AKM_Kryptek_Typhon,				W,		6000,		1500
-        MSFC_SVD_Kryptek_Typhon,				W,		13000,		1500
+        MSFC_SVD_Kryptek_Typhon,				W,		13000,	1500
         MSFC_UMP_Kryptek_Typhon,				W,		4000,		1500
         MSFC_M4A1_Kryptek_Typhon,				W,		7000,		1500
         MSFC_AKM_Kryptek_Mandrake,			W,		6000,		1500
-        MSFC_SVD_Kryptek_Mandrake,			W,		10000,		1500
+        MSFC_SVD_Kryptek_Mandrake,			W,		10000,	1500
         MSFC_UMP_Kryptek_Mandrake,			W,		4000,		1500
         MSFC_M4A1_Kryptek_Mandrake,			W,		6000,		1500
         MSFC_AKM_Kryptek_Wraith,				W,		6000,		1500
-        MSFC_SVD_Kryptek_Wraith,				W,		10000,		1500
+        MSFC_SVD_Kryptek_Wraith,				W,		10000,	1500
         MSFC_UMP_Kryptek_Wraith,				W,		4000,		1500
         MSFC_M4A1_Kryptek_Wraith,				W,		7000,		1500
         MSFC_AKM_Kryptek_Raid,					W,		6000,		1500
-        MSFC_SVD_Kryptek_Raid,					W,		10000,		1500
+        MSFC_SVD_Kryptek_Raid,					W,		10000,	1500
         MSFC_UMP_Kryptek_Raid,					W,		4000,		1500
         MSFC_M4A1_Kryptek_Raid,					W,		8000,		1500
         MSFC_AK74_WHITE,								W,		4000,		1500
@@ -1097,79 +1097,92 @@
 		AmmoBox_762x33_20Rnd,								*,		300,	250
 		AmmoBox_792x57_25Rnd,								*,		500,	350
 		AmmoBox_9x39_20Rnd_Tracer,					*,		1000,	650
-		AmmoBox_12x99_10Rnd,								10,		-1,		-1
-		AmmoBox_12x99_10Rnd_TracerGreen,		10,		-1,		-1
-		AmmoBox_12x99_10Rnd_TracerYell,			10,		-1,		-1
-
+		AmmoBox_12x99_10Rnd,								*,		100,		100
+		AmmoBox_12x99_10Rnd_TracerGreen,		*,		100,		100
+		AmmoBox_12x99_10Rnd_TracerYell,			*,		100,		100
+		MassAmmoBox_556x45_10Rnd,						*,		100,		100
+		AmmoBox_408Chey,										*,		100,		100
+		AmmoBox_12gaBB,											*,		100,		100
+		AmmoBox_338, 												*,		100,		100
+		Ammo_408Chey, 											*,		100,		100
+		Ammo_338,														*,		100,		100
+		Ammo_12GaBB, 												*,		100,		100
 	<Category> Magazines
-		Mag_IJ70_8Rnd,											M,		20,		10
+		Mag_IJ70_8Rnd,											M,		20,			10
 		Mag_CZ75_15Rnd,											M,		250,		100
 		Mag_Glock_15Rnd,										M,		350,		200
-		Mag_MKII_10Rnd,											M,		40,		20
+		Mag_MKII_10Rnd,											M,		40,			20
 		Mag_1911_7Rnd,											M,		300,		150
 		Mag_FNX45_15Rnd,										M,		400,		200
 		Mag_CZ527_5rnd,											M,		600,		300
-		Mag_CZ61_20Rnd,											M,		30,	10
-		Mag_UMP_25Rnd,											M,		150,	75
-		Mag_MP5_30Rnd,											M,		200,	100
-		Mag_FAL_20Rnd,											M,		5000,	500
-		Mag_Saiga_5Rnd,											M,		100,	50
-		Mag_Saiga_8Rnd,											M,		220,	60
-		Mag_Saiga_Drum20Rnd,								M,		900,	500
-		Mag_AKM_30Rnd,											M,		500,	110
-		Mag_AKM_Palm30Rnd,									M,		500,	110
-		Mag_AKM_Drum75Rnd,									M,		9800,	800
-		Mag_AK101_30Rnd,										M,		520,	250
-		Mag_AK74_30Rnd,											M,		520,	250
-		Mag_STANAG_30Rnd,										M,		520,	110
-		Mag_STANAGCoupled_30Rnd,						M,		1500,	220
-		Mag_CMAG_10Rnd,											M,		120,	60
-		Mag_CMAG_20Rnd,											M,		180,	80
-		Mag_CMAG_30Rnd,											M,		220,	110
-		Mag_CMAG_40Rnd,											M,		450,	150
-		Mag_VSS_10Rnd,											M,		220,	110
-		Mag_SVD_10Rnd,											M,		250,	125
-		Mag_308WinSnaploader_2Rnd,					M,		1250,	125
-		Mag_VEPR_10rnd,											M,		200,	100
-		Mag_VEPR_20rnd,											M,		500, 	300
-		Mag_VEPR_35rnd,											M,		750,	400
-		Mag_M1_15Rnds,											M,		200,	100
-		Mag_rpk_40Rnd_Tracers,							M,		750,	400
-		Mag_rpk_40RndSpar_Tracer,						M,		750,	400
-		Mag_val_20Rnd_coupled_Tracer,				M,		500, 	300
-		Mag_tokarev_8Rnd,										M,		120,	60
-		Mag_CS5_10rnd,											M,		800,	400
-		Mag_MakarovPB_8Rnd,									M,		120,	60
-		Mag_VSK94_20Rnd,										M,		220,	110
-		Mag_DDM_30Rnd,											M,		220,	110
-		Mag_rpk_40RndSpar,										M,		300,	150
-		Mag_val_20Rnd_coupled,							M,		600,	300
-		Mag_vss_10Rnds_coupled,							M,		500,	200
-		Mag_GSH18_18Rnd,										M,		120,	60
-		Mag_m1935_13Rnd,										M,		120,	60
-		Mag_sg550_30Rnd,										M,		220,	110
-		mag_p220_8rnd,											M,		220,	110
-		Mag_SR2_30Rnd,											M,		220,	110
-		Mag_AK74UM_30Rnd,										M,		220,	110
-		Mag_mac10_30Rnd,										M,		220,	110
-		Mag_Nailgun_50n,										M,		240,	120
-		Mag_psg_5Rnd,												M,		220,	110
-		Mag_SR1M_18Rnd,											M,		220,	110
-		Mag_RPK_40Rnd,											M,		500, 	300
-		mag_svt_10rnd,											M,		400,	200
-		mag_kac_30rnd,											M,		220,	100
-		Mag_glock_18_17Rnd,									M,		300,	150
-		M_1911_7Rnd,												M,		400,	200
-		Mag_ace23_30rnd,										M,		520,	250
-		Mag_sg552_30Rnd,										M,		320,	160
-		Mag_pp19_30Rnd,											M,		220,	100
-		Mag_m9_15Rnd,												M,		220,	110
-		Mag_Scar_20rnd,											M,		620,	310
-		Mag_VAL_20Rnd,											M,		420,	210
-		mag_vss_10rnds,											M,		220,	110
-		Mag_pp99_16Rnd,											M,		220,	110
-		Mag_m82_10Rnd,											M,		-1,	-1
-		Mag_m82_10Rnd308,										M,		-1,	-1
+		Mag_CZ61_20Rnd,											M,		30,			10
+		Mag_UMP_25Rnd,											M,		150,		75
+		Mag_MP5_30Rnd,											M,		200,		100
+		Mag_FAL_20Rnd,											M,		5000,		500
+		Mag_Saiga_5Rnd,											M,		100,		50
+		Mag_Saiga_8Rnd,											M,		220,		60
+		Mag_Saiga_Drum20Rnd,								M,		900,		500
+		Mag_AKM_30Rnd,											M,		500,		110
+		Mag_AKM_Palm30Rnd,									M,		500,		110
+		Mag_AKM_Drum75Rnd,									M,		9800,		800
+		Mag_AK101_30Rnd,										M,		520,		250
+		Mag_AK74_30Rnd,											M,		520,		250
+		Mag_STANAG_30Rnd,										M,		520,		110
+		Mag_STANAGCoupled_30Rnd,						M,		1500,		220
+		Mag_CMAG_10Rnd,											M,		120,		60
+		Mag_CMAG_20Rnd,											M,		180,		80
+		Mag_CMAG_30Rnd,											M,		220,		110
+		Mag_CMAG_40Rnd,											M,		450,		150
+		Mag_VSS_10Rnd,											M,		220,		110
+		Mag_SVD_10Rnd,											M,		250,		125
+		Mag_308WinSnaploader_2Rnd,					M,		1250,		125
+		Mag_VEPR_10rnd,											M,		200,		100
+		Mag_VEPR_20rnd,											M,		500,	 	300
+		Mag_VEPR_35rnd,											M,		750,		400
+		Mag_M1_15Rnds,											M,		200,		100
+		Mag_rpk_40Rnd_Tracers,							M,		750,		400
+		Mag_rpk_40RndSpar_Tracer,						M,		750,		400
+		Mag_val_20Rnd_coupled_Tracer,				M,		500,	 	300
+		Mag_tokarev_8Rnd,										M,		120,		60
+		Mag_CS5_10rnd,											M,		800,		400
+		Mag_MakarovPB_8Rnd,									M,		120,		60
+		Mag_VSK94_20Rnd,										M,		220,		110
+		Mag_DDM_30Rnd,											M,		220,		110
+		Mag_rpk_40RndSpar,									M,		300,		150
+		Mag_val_20Rnd_coupled,							M,		600,		300
+		Mag_vss_10Rnds_coupled,							M,		500,		200
+		Mag_GSH18_18Rnd,										M,		120,		60
+		Mag_m1935_13Rnd,										M,		120,		60
+		Mag_sg550_30Rnd,										M,		220,		110
+		mag_p220_8rnd,											M,		220,		110
+		Mag_SR2_30Rnd,											M,		220,		110
+		Mag_AK74UM_30Rnd,										M,		220,		110
+		Mag_mac10_30Rnd,										M,		220,		110
+		Mag_Nailgun_50n,										M,		240,		120
+		Mag_psg_5Rnd,												M,		220,		110
+		Mag_SR1M_18Rnd,											M,		220,		110
+		Mag_RPK_40Rnd,											M,		500, 		300
+		mag_svt_10rnd,											M,		400,		200
+		mag_kac_30rnd,											M,		220,		100
+		Mag_glock_18_17Rnd,									M,		300,		150
+		M_1911_7Rnd,												M,		400,		200
+		Mag_ace23_30rnd,										M,		520,		250
+		Mag_sg552_30Rnd,										M,		320,		160
+		Mag_pp19_30Rnd,											M,		220,		100
+		Mag_m9_15Rnd,												M,		220,		110
+		Mag_Scar_20rnd,											M,		620,		310
+		Mag_VAL_20Rnd,											M,		420,		210
+		mag_vss_10rnds,											M,		220,		110
+		Mag_pp99_16Rnd,											M,		220,		110
+		Mag_m82_10Rnd,											M,		-1,			-1
+		Mag_m82_10Rnd308,										M,		-1,			-1
+		Scout556mag													M,		666,		666
+		kivaarimag													M,		666,		666
+		MassG18Mag													M,		666,		666
+		MassSVTmag													M,		666,		666
+		Massm300mag													M,		666,		666
+		Mag_CMAG_10Rnd_Black								M,		666,		666
+		Mass357M1911Mag 										M,		666,		666
 
 	<Category> Handguards
 		MP5_PlasticHndgrd,									*,		100,	50
