@@ -3892,42 +3892,6 @@
 		CivSedanDoors_BackRight_BlackRust,					*,		500,	180
 		CivSedanWheel,															*,		600,	120
 
-<Category> ModVehicles
-		CrSk_Koenigsegg_Agera_R,        					  v,      2000000,  100000
-		CrSk_Koenigsegg_Agera_R_Red,        			  v,      2500000,  100000
-		CrSk_Koenigsegg_Agera_R_White,        		  v,      2500000,  100000
-		CrSk_Koenigsegg_Agera_R_Chrome,        		  v,      2500000,  100000
-		CrSk_Koenigsegg_Agera_R_CamoGreen,          v,      2500000,  100000
-		CrSk_Koenigsegg_Agera_R_Green,       		    v,      2500000,  100000
-		CrSk_Koenigsegg_Agera_R_Camo_space,         v,      2500000,  100000
-		CrSk_Rolls_Royce_Wraith_OrangeTop,          v,      150000,   50000
-		CrSk_Rolls_Royce_Wraith_BlueTop,           	v,      150000,   50000
-		CrSk_Rolls_Royce_Wraith,           					v,      150000,   50000
-		CrSk_Bentley_Continental_GT_11,           	v,      100000,   25000
-		CrSk_Bentley_Continental_GT_11_Silver,      v,      100000,   25000
-		CrSk_Bentley_Continental_GT_11_Black,       v,      100000,   25000
-		CrSk_Bentley_Continental_GT_11_Pink,        v,      100000,   25000
- 		CrSk_GAZ_3309_SF,                           V,      500000,   250000
-		CrSk_Porsche_911_Speedster,                 V,      130000,	  25000
-		CrSk_Porsche_911_Speedster_Pink,            V,      130000,   25000
-		CrSk_Porsche_911_Speedster_Green,           V,      130000,   25000
-	  CrSk_Ferrari_458_Speciale_Black,     		    V,  	  180000,   25000
-		CrSk_Ferrari_458_Speciale_Pink,             V,      180000,   25000
-		CrSk_Ferrari_458_Speciale,                  V,      180000,   25000
-		CrSk_Ferrari_458_Speciale_Red,              V,      180000,   50000
-		CrSk_Ferrari_458_Speciale_Green,            V,      180000,   50000
-		CrSk_Mercedes_G65_AMG_Hamann,	         	    V,      500000,   50000
-		CrSk_Mercedes_G65_AMG_Hamann_Gold,	        V,      500000,	  150000
-		CrSk_Mercedes_G65_AMG_Hamann_Green,	        V,      500000,   150000
-		CrSk_Lamborghini_Urus_Pink,	                V,      800000,   115000
-		CrSk_Lamborghini_Urus,	                    V,      800000,   120000
-		CrSk_Jeep_Wrangler_Rubicon_12,              V,      350000,   25000
-		CrSk_Volkswagen_Transporter_T1,             V,      800000,   25000
-		CrSk_Land_Rover_RR_Sport_12_Black,          V,      500000,	  25000
-		CrSk_Land_Rover_RR_Sport_12,                V,      500000,	  25000
-		CrSk_Bugatti_Chiron_SS_300,                 V,      3990000,  100000
-		CrSk_Porsche_919_Hybrid,                    V,      2500000,  100000
-
 	<Category> Keys
 		VehicleKeyDuplicate,	   										K,		5000,	-1 		// The choosen Classname here only gets displayed in the UI (Name/Description); Make Sure SellValue is set to -1
 
