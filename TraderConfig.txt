@@ -98,16 +98,17 @@
 		TacticalBaconCan,										*,		500,		200
 
 	<Category> Meat
-		ChickenBreastMeat,									S,		200,		100
-		GoatSteakMeat,											S,		300,		100
-		SheepSteakMeat,											S,		300,		100
-		PigSteakMeat,												S,		400,		200
-		BoarSteakMeat,											S,		400,		200
-		WolfSteakMeat,											S,		400,		200
-		DeerSteakMeat,											S,		500,		200
-		CowSteakMeat,												S,		500,		200
-		Sardines,														S,		700,		400
-		Carp,																S,		1000,		500
+		ChickenBreastMeat,									S,		3200,		2100
+		GoatSteakMeat,											S,		4300,		2500
+		SheepSteakMeat,											S,		5000,		3100
+		PigSteakMeat,												S,		4500,		2200
+		BoarSteakMeat,											S,		6400,		3200
+		WolfSteakMeat,											S,		6400,		4200
+		DeerSteakMeat,											S,		2500,		1200
+		CowSteakMeat,												S,		3500,		1200
+		BearSteakMeat,											S,    8000,		5000
+		Sardines,														S,		3700,		2400
+		Carp,																S,		3700,		2400
 		Mackerel,														S,		1000,		500
 
 	<Category> Animal Parts
@@ -115,6 +116,7 @@
 		Lard,																*,		20,		10
 		Guts,																*,		20,		10
 		SmallGuts,													*,		20,		10
+		BearPelt,														*,		20000, 10000
 
 	<Category> Drinks
 		SodaCan_Cola, 											*,		50, 		15
@@ -3313,7 +3315,7 @@
 			NVGHeadstrap,																*,		900,		500
 			MilitaryGear_TacticalHelmet_PartizanM,			*,		3900,		1750
 
-	<Category> Противогаз и 2000костюм
+	<Category> Противогаз и химкостюм
 			GP5GasMask,																	*,		1200,		400
 			MSFCGasMaskGP5Black,												*,		3000,		650
 			MSFCGasMaskGP5Green,												*,		3000,		650
