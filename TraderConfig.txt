@@ -2655,7 +2655,7 @@
 		MSFCSTALKERMilitaryBag,											*,		800,			400
 		MSFCFlecktarnBag,														*,		800,			400
 		MSFCBlackTekStoBag,													*,		800,			400
-		
+
 		//60 slot
 		MSFC_SMALL_BACKPACK_MulticamBlack,					*,		1400,		900
 		MSFC_SMALL_BACKPACK_MulticamTropic,					*,		1400,		900
@@ -2923,6 +2923,19 @@
 			MilitaryGear_TacticalHelmet_PartizanM,			*,		3900,		1750
 
 	<Category> Противогаз и химкостюм
+	//
+			alp_NBCJacketCamo 													*,		1200,		400
+			alp_NBCPantsCamo  													*,		1200,		400
+			alp_NBCHoodCamo   													*,		1200,		400
+			alp_NBCBootsCamo  													*,		1200,		400
+			alp_NBCGlovesCamo 													*,		1200,		400
+			alp_GasMaskCamo   													*,		1200,		400
+			alp_geiger_counter													*,		1200,		400
+			alp_radboxtablets 													*,		1200,		400
+
+
+
+	//
 			GP5GasMask,																	*,		1200,		400
 			MSFCGasMaskGP5Black,												*,		3000,		650
 			MSFCGasMaskGP5Green,												*,		3000,		650
