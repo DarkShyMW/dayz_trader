@@ -157,6 +157,7 @@
 		PainkillerTablets,									*,		100,		60
 		Epinephrine,												*,		200,		100
 		Morphine,														*,		250,		150
+		alp_radboxtablets 									*,		2000,		500
 
 	<Category> Money Exchange
 		MoneyRuble1,			1,		1,		-1
@@ -213,19 +214,19 @@
 		NVGoggles,													*,		5000,	2500
 
 	<Category> Fire & Lights
-		Chemlight_Blue,											*,		-1,		1
-		Chemlight_Green,										*,		-1,		1
-		Chemlight_Red,											*,		-1,		1
-		Chemlight_White,										*,		-1,		1
-		Chemlight_Yellow,										*,		-1,		1
+		Chemlight_Blue,											*,		-1,			1
+		Chemlight_Green,										*,		-1,			1
+		Chemlight_Red,											*,		-1,			1
+		Chemlight_White,										*,		-1,			1
+		Chemlight_Yellow,										*,		-1,			1
 		Roadflare,													*,		200,		50
-		Matchbox,														*,		50,		20
+		Matchbox,														*,		50,			20
 		Flashlight,													*,		150,		50
 		PortableGasLamp,										*,		250,		100
 		PortableGasStove,										*,		250,		100
 		Headtorch_Black,										*,		600,		400
 		Headtorch_Grey,											*,		600,		400
-		Spotlight,													*,		1100,	700
+		Spotlight,													*,		1100,		700
 
 	<Category> Cooking & Hunting Supplies
 		PurificationTablets,								*,		150,		75
@@ -257,8 +258,9 @@
 		NailBox,														*,		300000,	1
 		BarbedWire,													*,		450,	200
 		Camonet,														*,		900,	450
-		HescoBox,														*,		-1,	650
+		HescoBox,														*,		-1,		650
 		CodeLock														*,		5000	500
+		alp_geiger_counter									*,		570,	190
 		BarrelHoles_Blue,										*,		-1,	5000
 		BarrelHoles_Green,									*,		-1,	5000
 		BarrelHoles_Red,										*,		-1,	5000
@@ -270,7 +272,7 @@
 		SeaChest,														*,		2000,	400
 		PowerGenerator,											*,		3000,	1000
 		MediumTent,													*,		3300,	500
-		CarTent,														*,		10000,	700
+		CarTent,														*,		10000,	3700
 		LargeTent,													*,		15000,	3200
 
 	<Category> Seeds & Lime
@@ -2674,23 +2676,23 @@
 		DryBag_Blue,																*,		1500,			450
 		DryBag_Black,																*,		1500,			650
 		DryBag_Green,																*,		1500,			500
-		HuntingBag,																	*,		2100,			3000
-		MilitaryGear_HuntingBag_PartizanM,					*,		2100,			3300
-		MilitaryGear_HuntingBag_Duckhunter,					*,		2100,			3300
-		MilitaryGear_HuntingBag_Multicam,						*,		2100,			3300
-		MilitaryGear_HuntingBag_Splinter,						*,		2100,			3300
-		MilitaryGear_HuntingBag_Splinter_Dark,			*,		2100,			3300
-		MilitaryGear_HuntingBag_Tiger,							*,		2100,			3300
-		MilitaryGear_HuntingBag_Woodland,						*,		2100,			3300
-		MilitaryGear_HuntingBag_FLT,								*,		2100,			3300
-		MilitaryGear_HuntingBag_DPM,								*,		2100,			3300
-		MilitaryGear_HuntingBag_MPAT,								*,		2100,			3300
-		MilitaryGear_HuntingBag_Partizan,						*,		2100,			3300
-		MilitaryGear_HuntingBag_Skol,								*,		2100,			3300
-		MilitaryGear_HuntingBag_ATACS,							*,		2100,			3300
-		MilitaryGear_HuntingBag_CADPAT,							*,		2100,			3300
-		MilitaryGear_HuntingBag_Tropic,							*,		2100,			3300
-		MilitaryGear_HuntingBag_Yeger,							*,		2100,			3300
+		HuntingBag,																	*,		2100,			900
+		MilitaryGear_HuntingBag_PartizanM,					*,		2100,			900
+		MilitaryGear_HuntingBag_Duckhunter,					*,		2100,			900
+		MilitaryGear_HuntingBag_Multicam,						*,		2100,			900
+		MilitaryGear_HuntingBag_Splinter,						*,		2100,			900
+		MilitaryGear_HuntingBag_Splinter_Dark,			*,		2100,			900
+		MilitaryGear_HuntingBag_Tiger,							*,		2100,			900
+		MilitaryGear_HuntingBag_Woodland,						*,		2100,			900
+		MilitaryGear_HuntingBag_FLT,								*,		2100,			900
+		MilitaryGear_HuntingBag_DPM,								*,		2100,			900
+		MilitaryGear_HuntingBag_MPAT,								*,		2100,			900
+		MilitaryGear_HuntingBag_Partizan,						*,		2100,			900
+		MilitaryGear_HuntingBag_Skol,								*,		2100,			900
+		MilitaryGear_HuntingBag_ATACS,							*,		2100,			900
+		MilitaryGear_HuntingBag_CADPAT,							*,		2100,			900
+		MilitaryGear_HuntingBag_Tropic,							*,		2100,			900
+		MilitaryGear_HuntingBag_Yeger,							*,		2100,			900
 		MSFCCoyoteBagSURPATDesert,									*,		2450,			1350
 		MSFCCoyoteBagSURPAT,												*,		2450,			1350
 		MSFCCoyoteBagATACSAU,												*,		2450,			1350
@@ -2923,19 +2925,12 @@
 			MilitaryGear_TacticalHelmet_PartizanM,			*,		3900,		1750
 
 	<Category> Противогаз и химкостюм
-	//
-			alp_NBCJacketCamo 													*,		1200,		400
-			alp_NBCPantsCamo  													*,		1200,		400
-			alp_NBCHoodCamo   													*,		1200,		400
-			alp_NBCBootsCamo  													*,		1200,		400
-			alp_NBCGlovesCamo 													*,		1200,		400
-			alp_GasMaskCamo   													*,		1200,		400
-			alp_geiger_counter													*,		1200,		400
-			alp_radboxtablets 													*,		1200,		400
-
-
-
-	//
+			alp_NBCJacketCamo 													*,		9000,		2700
+			alp_NBCPantsCamo  													*,		9000,		2700
+			alp_NBCHoodCamo   													*,		9000,		2700
+			alp_NBCBootsCamo  													*,		9000,		2700
+			alp_NBCGlovesCamo 													*,		9000,		2700
+			alp_GasMaskCamo   													*,		9000,		2700
 			GP5GasMask,																	*,		1200,		400
 			MSFCGasMaskGP5Black,												*,		3000,		650
 			MSFCGasMaskGP5Green,												*,		3000,		650
