@@ -254,7 +254,7 @@
 		MediumGasCanister,									*,		1000,	20
 		LargeGasCanister,										*,		200,	35
 		CanisterGasoline,										*,		800,	200
-		NailBox,														*,		3000000,	1
+		NailBox,														*,		300000,	1
 		BarbedWire,													*,		450,	200
 		Camonet,														*,		900,	450
 		HescoBox,														*,		-1,	650
@@ -263,15 +263,15 @@
 		BarrelHoles_Green,									*,		-1,	5000
 		BarrelHoles_Red,										*,		-1,	5000
 		BarrelHoles_Yellow,									*,		-1,	5000
-		Barrel_Blue,												M,		4500,	2500
-		Barrel_Green,												M,		4500,	2500
-		Barrel_Red,													M,		4500,	2500
-		Barrel_Yellow,											M,		4500,	2500
+		Barrel_Blue,												M,		5000,	2500
+		Barrel_Green,												M,		5000,	2500
+		Barrel_Red,													M,		5000,	2500
+		Barrel_Yellow,											M,		5000,	2500
 		SeaChest,														*,		2000,	400
 		PowerGenerator,											*,		3000,	1000
 		MediumTent,													*,		3300,	500
 		CarTent,														*,		10000,	700
-		LargeTent,													*,		17000,	1200
+		LargeTent,													*,		15000,	3200
 
 	<Category> Seeds & Lime
 		TomatoSeedsPack,										*,		4, 		1
@@ -288,8 +288,8 @@
 
 	<Category> Storage
 		Msp_LargeAmmoBox,										*,		4000,		1000
-		Msp_AmericanAppleCrate,		          *,		6000,		1600
-		Msp_AppleCrate,		                  *,		6000,		1600
+		Msp_AmericanAppleCrate,		          *,		3000,		800
+		Msp_AppleCrate,		                  *,		3000,		800
 		Msp_PlasticCrate,		                *,		6000,		1600
 		Msp_AmmoCrate,		                  *,		6000,		1600
 		Msp_TackleBox,		                  *,		6000,		1600
@@ -322,9 +322,9 @@
 		Msp_WaterBarrel_Valve,		          *,		5500,		1000
 		Msp_WaterBarrel_Valve_Darkwood,		  *,		5500,		1000
 	<Category> Kits and base items
-		Msp_FireplaceRailing,								*,		6000,	2000
-		Msp_EmptySquarePlanterBox,					*,		6000,	2000
-		Msp_EmptyPlanterBox,								*,		6000,	2000
+		Msp_FireplaceRailing,								*,		6000,		2000
+		Msp_EmptySquarePlanterBox,					*,		6000,		2000
+		Msp_EmptyPlanterBox,								*,		6000,		2000
 		Msp_BeachChair_Kit,									*,		10000,	3000
 		Msp_KiddiePool_Kit,									*,		10000,	3000
 		Msp_KiddiePool_Pink_Kit,						*,		10000,	3000
@@ -343,11 +343,11 @@
 		Msp_ToolsBench_Blue_Kit,						*,		15000,	6000
 		Msp_ToolsBench_Grey_Kit,						*,		15000,	6000
 		Msp_ToolsBench_Red_Kit,							*,		15000,	6000
-		Msp_BlueFridge_Kit,								  *,		15000,	6000
-		Msp_RetroBlueFridge_Kit,						*,		15000,	6000
-		Msp_RustyFridge_Kit,								*,		15000,	6000
-		Msp_Blue50sFridge_Kit,							*,		15000,	6000
-		Msp_50sFridge_Kit,								 	*,		15000,	6000
+		Msp_BlueFridge_Kit,								  *,		8000,		3500
+		Msp_RetroBlueFridge_Kit,						*,		8000,		3500
+		Msp_RustyFridge_Kit,								*,		8000,		3500
+		Msp_Blue50sFridge_Kit,							*,		8000,		3500
+		Msp_50sFridge_Kit,								 	*,		8000,		3500
 		Msp_Freezer_Kit,										*,		15000,	6000
 		Msp_Gazebo_Kit,											*,		15000,	6000
 		Msp_StoneFireplace_Kit,							*,		15000,	6000
@@ -402,7 +402,7 @@
 		MKII,																W,		320,	160
 		Colt1911,														W,		640,	280
 		Engraved1911,												W,		1740,	180
-		MSFC_P250,													W,		900,		400
+		MSFC_P250,													W,		900,	400
 
 	<Category> Пистолеты-пулеметы
 		CZ61,																W,		400,	100
@@ -474,8 +474,8 @@
 		MSFC_BlackEagleII,									W,		8000,		2000
 
 	<Category> Гранаты
-		RGD5Grenade,												1,		-1,		100
-		M67Grenade,													1,		300,	100
+		RGD5Grenade,												1,		-1,		1000
+		M67Grenade,													1,		-1,		1000
 		M18SmokeGrenade_Red,								1,		300,	100
 		M18SmokeGrenade_Green,							1,		300,	100
 		M18SmokeGrenade_Yellow,							1,		300,	100
@@ -843,7 +843,7 @@
         MSFC_DRUM762_Mag_75Rnd,									*,		5000,		2500
         MSFC_RPK74_Mag_45Rnd,										*,		5000,		2500
         MSFC_STANAG556_Mag_30Rnd,								*,		5000,		2500
-        MSFC_PMAG556_Mag_30Rnd,									*,		5000,		2500
+      	MSFC_PMAG556_Mag_30Rnd,									*,		5000,		2500
 		MSFC_PMAG762_Mag_30Rnd,											*,		5000,		2500
 		MSFC_SCAR17_Mag_20Rnd,											*,		3500,		1250
 		MSFC_RPK_Mag_45Rnd,													*,		3500,		1250
