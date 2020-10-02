@@ -453,15 +453,15 @@
 		R700,																W,		10000,	5000
 		PSG1,																W,		12000,	6000
 		MSFC_VPO136,												W,		4000,		2000
-		MSFC_OSV96,													W,		40000,		20000
+		MSFC_OSV96,													W,		96000,		30000
 		MSFC_L96A1_Green,										W,		40000,		7000
-		MSFC_Barret50BMG_Beige,							W,		54000,		22000
-		MSFC_Barret50BMG_Green,							W,		54000,		22000
-		MSFC_Barret50BMG_Desert,						W,		54000,		22000
-		MSFC_Barret50BMG_Black,							W,		54000,		22000
-		MSFC_ORSIS_T5000,										W,		45000,		20000
-		MSFC_ORSIS_T5000_Green,							W,		45000,		20000
-		MSFC_ORSIS_T5000_Desert,						W,		45000,		20000
+		MSFC_Barret50BMG_Beige,							W,		-,		-
+		MSFC_Barret50BMG_Green,							W,		-,		-
+		MSFC_Barret50BMG_Desert,						W,		-,		-
+		MSFC_Barret50BMG_Black,							W,		-,		-
+		MSFC_ORSIS_T5000,										W,		85000,		20000
+		MSFC_ORSIS_T5000_Green,							W,		85000,		20000
+		MSFC_ORSIS_T5000_Desert,						W,		85000,		20000
 		MSFC_Tigr308,												W,		5500,		2000
 
 	<Category> Дробовики
@@ -831,15 +831,15 @@
         MSFC_M4_RISHndgrd_Kryptek_Neptune,				*,		500,		250
 
 		<Category> SQUAD MSF-C Weapon Magazines
-       	MSFC_OSV96_5rnd_Mag,										*,		5000,		2500
+       	MSFC_OSV96_5rnd_Mag,										*,		15000,		5500
        	MSFC_Ammo_127x108,											*,		5000,		2500
-       	MSFC_PP19_Vityaz_Mag_30Rnd,							*,		500,		250
+       	MSFC_PP19_Vityaz_Mag_30Rnd,							*,		400,		200
        	MSFC_L96A1_5_Rnd_Mag,										*,		5000,		2500
-       	MSFC_Barret_10rnd_Mag,									*,		5000,		2500
-       	MSFC_Ammo_50BMG,												*,		10000,		4000
+       	MSFC_Barret_10rnd_Mag,									*,		15000,		2500
+       	MSFC_Ammo_50BMG,												10,		10000,		4000
        	MSFC_AR15_9mm_mag,											*,		500,		250
        	MSFC_P250_Mag_15Rnd,										*,		500,		250
-        MSFC_ORSIS_T5000_10_Rnd_Mag,						*,		5000,		2500
+        MSFC_ORSIS_T5000_10_Rnd_Mag,						*,		8000,		2500
         MSFC_DRUM762_Mag_75Rnd,									*,		5000,		2500
         MSFC_RPK74_Mag_45Rnd,										*,		5000,		2500
         MSFC_STANAG556_Mag_30Rnd,								*,		5000,		2500
