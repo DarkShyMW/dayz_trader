@@ -235,43 +235,43 @@
 		BearTrap,														*,		500,		300
 
 	<Category> Hardware Supplies
-		Paper,															*,		-1,		20
-		Pen_Blue,														*,		-1,		40
-		Rope,																*,		75,		25
+		Paper,															*,		-1,			20
+		Pen_Blue,														*,		-1,			40
+		Rope,																*,		75,			25
 		TannedLeather,											*,		4500,		3000
-		AntiPestsSpray,											*,		80,		40
+		AntiPestsSpray,											*,		80,			40
 		MetalWire,													*,		200,		100
-		EpoxyPutty,													*,		50,		25
+		EpoxyPutty,													*,		50,			25
 		DuctTape,														*,		250,		100
 		XmasLights,													*,		125,		50
-		HandcuffKeys,												*,		50,		25
-		Handcuffs,													*,		50,		25
+		HandcuffKeys,												*,		50,			25
+		Handcuffs,													*,		50,			25
 		Netting,														1,		150,		75
 		BurlapSack,													*,		450,		150
 		MetalPlate,													*,		1600,		500
 		SmallProtectorCase,									*,		900,		450
 		AmmoBox,														*,		900,		450
-		SmallGasCanister,										*,		80,		15
-		MediumGasCanister,									*,		1000,	20
-		LargeGasCanister,										*,		200,	35
-		CanisterGasoline,										*,		800,	200
+		SmallGasCanister,										*,		80,			15
+		MediumGasCanister,									*,		1000,		20
+		LargeGasCanister,										*,		200,		35
+		CanisterGasoline,										*,		800,		200
 		NailBox,														*,		300000,	1
-		BarbedWire,													*,		450,	200
-		Camonet,														*,		900,	450
-		HescoBox,														*,		-1,		650
-		CodeLock														*,		5000	500
-		alp_geiger_counter									*,		570,	190
-		BarrelHoles_Blue,										*,		-1,	5000
-		BarrelHoles_Green,									*,		-1,	5000
-		BarrelHoles_Red,										*,		-1,	5000
-		BarrelHoles_Yellow,									*,		-1,	5000
-		Barrel_Blue,												M,		5000,	2500
-		Barrel_Green,												M,		5000,	2500
-		Barrel_Red,													M,		5000,	2500
-		Barrel_Yellow,											M,		5000,	2500
-		SeaChest,														*,		2000,	400
-		PowerGenerator,											*,		3000,	1000
-		MediumTent,													*,		3300,	500
+		BarbedWire,													*,		450,		200
+		Camonet,														*,		900,		450
+		HescoBox,														*,		-1,			650
+		CodeLock														*,		5000		500
+		alp_geiger_counter									*,		570,		190
+		BarrelHoles_Blue,										*,		-1,			5000
+		BarrelHoles_Green,									*,		-1,			5000
+		BarrelHoles_Red,										*,		-1,			5000
+		BarrelHoles_Yellow,									*,		-1,			5000
+		Barrel_Blue,												M,		5000,		2500
+		Barrel_Green,												M,		5000,		2500
+		Barrel_Red,													M,		5000,		2500
+		Barrel_Yellow,											M,		5000,		2500
+		SeaChest,														*,		2000,		400
+		PowerGenerator,											*,		3000,		1000
+		MediumTent,													*,		3300,		500
 		CarTent,														*,		10000,	3700
 		LargeTent,													*,		15000,	3200
 
