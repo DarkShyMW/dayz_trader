@@ -116,6 +116,7 @@
 		Lard,																*,		20,		10
 		Guts,																*,		20,		10
 		SmallGuts,													*,		20,		10
+		WolfPelt,														*,		10000, 5000
 		BearPelt,														*,		20000, 10000
 
 	<Category> Drinks
