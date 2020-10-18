@@ -1990,54 +1990,6 @@
 		MSFCSTALKERJacketNoPatch,										*,		1600,		650
 		MSFCSTALKERSvobodaJacketNoPatch,						*,		1600,		650
 		MSFCSTALKERJacket_Green,										*,		1600,		650
-		MilitaryGear_PatrolJacket_PartizanM,				*,		1680,		710
-		MilitaryGear_FieldJacket_PartizanM,					*,		1680,		710
-		MilitaryGear_CombatJacket_PartizanM,				*,		1680,		710
-		MilitaryGear_PatrolJacket_Duckhunter,				*,		1680,		710
-		MilitaryGear_FieldJacket_Duckhunter,				*,		1680,		710
-		MilitaryGear_CombatJacket_Duckhunter,				*,		1680,		710
-		MilitaryGear_PatrolJacket_Multicam,					*,		1680,		710
-		MilitaryGear_FieldJacket_Multicam,					*,		1680,		710
-		MilitaryGear_CombatJacket_Multicam,					*,		1680,		710
-		MilitaryGear_PatrolJacket_Splinter,					*,		1680,		710
-		MilitaryGear_FieldJacket_Splinter,					*,		1680,		710
-		MilitaryGear_PatrolJacket_Splinter_Dark,		*,		1680,		710
-		MilitaryGear_FieldJacket_Splinter_Dark,			*,		1680,		710
-		MilitaryGear_CombatJacket_Splinter_Dark,		*,		1680,		710
-		MilitaryGear_PatrolJacket_Tiger,						*,		1680,		710
-		MilitaryGear_FieldJacket_Tiger,							*,		1680,		710
-		MilitaryGear_CombatJacket_Tiger,						*,		1680,		710
-		MilitaryGear_PatrolJacket_Woodland,					*,		1680,		710
-		MilitaryGear_FieldJacket_Woodland,					*,		1680,		710
-		MilitaryGear_CombatJacket_Woodland,					*,		1680,		710
-		MilitaryGear_PatrolJacket_FLT,							*,		1680,		710
-		MilitaryGear_FieldJacket_FLT,								*,		1680,		710
-		MilitaryGear_CombatJacket_FLT,							*,		1680,		710
-		MilitaryGear_PatrolJacket_DPM,							*,		1680,		710
-		MilitaryGear_FieldJacket_DPM,								*,		1680,		710
-		MilitaryGear_CombatJacket_DPM,							*,		1680,		710
-		MilitaryGear_PatrolJacket_MPAT,							*,		1680,		710
-		MilitaryGear_FieldJacket_MPAT,							*,		1680,		710
-		MilitaryGear_CombatJacket_MPAT,							*,		1680,		710
-		MilitaryGear_PatrolJacket_Partizan,					*,		1680,		710
-		MilitaryGear_FieldJacket_Partizan,					*,		1680,		710
-		MilitaryGear_CombatJacket_Partizan,					*,		1680,		710
-		MilitaryGear_PatrolJacket_Skol,							*,		1680,		710
-		MilitaryGear_FieldJacket_Skol,							*,		1680,		710
-		MilitaryGear_CombatJacket_Skol,							*,		1680,		710
-		MilitaryGear_PatrolJacket_ATACS,						*,		1680,		710
-		MilitaryGear_FieldJacket_ATACS,							*,		1680,		710
-		MilitaryGear_CombatJacket_ATACS,						*,		1680,		710
-		MilitaryGear_PatrolJacket_CADPAT,						*,		1680,		710
-		MilitaryGear_FieldJacket_CADPAT,						*,		1680,		710
-		MilitaryGear_CombatJacket_CADPAT,						*,		1680,		710
-		MilitaryGear_PatrolJacket_Tropic,						*,		1680,		710
-		MilitaryGear_FieldJacket_Tropic,						*,		1680,		710
-		MilitaryGear_CombatJacket_Tropic,						*,		1680,		710
-		MilitaryGear_PatrolJacket_Yeger,						*,		1680,		710
-		MilitaryGear_FieldJacket_Yeger,							*,		1680,		710
-		MilitaryGear_CombatJacket_Yeger,						*,		1680,		710
-		MilitaryGear_CombatJacket_Splinter,					*,		1680,		710
 		MSFC_TacGopJacket_ATACSFG,									*,		1680,		710
 		MSFC_TacGopJacket_Multicam,									*,		1680,		710
 		MSFCGorkaJMulticamBlack,										*,		1300,		450
@@ -2199,54 +2151,6 @@
 		MSFCSTALKERPants_Green,											*,		750,		150
 		MSFCPantsSURPATDesert,											*,		750,		150
 		MSFCPantsSURPAT,														*,		750,		150
-		MilitaryGear_TacticalPants_PartizanM,				*,		750,		200
-		MilitaryGear_TacticalPants_Duckhunter,			*,		750,		200
-		MilitaryGear_TacticalPants_Multicam,				*,		750,		200
-		MilitaryGear_TacticalPants_Splinter,				*,		750,		200
-		MilitaryGear_TacticalPants_Splinter_Dark, 	*,		750,		200
-		MilitaryGear_TacticalPants_Tiger,						*,		750,		200
-		MilitaryGear_TacticalPants_Woodland,				*,		750,		200
-		MilitaryGear_TacticalPants_FLT,							*,		750,		200
-		MilitaryGear_TacticalPants_DPM,							*,		750,		200
-		MilitaryGear_TacticalPants_MPAT,						*,		750,		200
-		MilitaryGear_TacticalPants_Partizan,				*,		750,		200
-		MilitaryGear_TacticalPants_Skol,						*,		750,		200
-		MilitaryGear_TacticalPants_ATACS,						*,		750,		200
-		MilitaryGear_TacticalPants_CADPAT,					*,		750,		200
-		MilitaryGear_TacticalPants_Tropic,					*,		750,		200
-		MilitaryGear_TacticalPants_Yeger,						*,		750,		200
-		MilitaryGear_PatrolPants_PartizanM,					*,		750,		220
-		MilitaryGear_PatrolPants_Duckhunter,				*,		750,		220
-		MilitaryGear_PatrolPants_Multicam,					*,		750,		220
-		MilitaryGear_PatrolPants_Splinter,					*,		750,		220
-		MilitaryGear_PatrolPants_Splinter_Dark,	  	*,		750,		220
-		MilitaryGear_PatrolPants_Tiger,							*,		750,		220
-		MilitaryGear_PatrolPants_Woodland,					*,		750,		220
-		MilitaryGear_PatrolPants_FLT,								*,		750,		220
-		MilitaryGear_PatrolPants_DPM,								*,		750,		220
-		MilitaryGear_PatrolPants_MPAT,							*,		750,		220
-		MilitaryGear_PatrolPants_Partizan,					*,		750,		220
-		MilitaryGear_PatrolPants_Skol,							*,		750,		220
-		MilitaryGear_PatrolPants_ATACS,							*,		750,		220
-		MilitaryGear_PatrolPants_CADPAT,						*,		750,		220
-		MilitaryGear_PatrolPants_Tropic,						*,		750,		220
-		MilitaryGear_PatrolPants_Yeger,							*,		750,		220
-		MilitaryGear_FieldPants_PartizanM,					*,		750,		250
-		MilitaryGear_FieldPants_Duckhunter,					*,		750,		250
-		MilitaryGear_FieldPants_Multicam,						*,		750,		250
-		MilitaryGear_FieldPants_Splinter,						*,		750,		250
-		MilitaryGear_FieldPants_Splinter_Dark,	  	*,		750,		250
-		MilitaryGear_FieldPants_Tiger,							*,		750,		250
-		MilitaryGear_FieldPants_Woodland,						*,		750,		250
-		MilitaryGear_FieldPants_FLT,								*,		750,		250
-		MilitaryGear_FieldPants_DPM,								*,		750,		250
-		MilitaryGear_FieldPants_MPAT,								*,		750,		250
-		MilitaryGear_FieldPants_Partizan,						*,		750,		250
-		MilitaryGear_FieldPants_Skol,								*,		750,		250
-		MilitaryGear_FieldPants_ATACS,							*,		750,		250
-		MilitaryGear_FieldPants_CADPAT,							*,		750,		250
-		MilitaryGear_FieldPants_Tropic,							*,		750,		250
-		MilitaryGear_FieldPants_Yeger,							*,		500,		250
 		MSFCGorkaPMulticamBlack,										*,		500,		250
 		MSFCGorkaPMulticamTropic,										*,		500,		250
 		MSFCGorkaPMulticam,													*,		500,		250
@@ -2357,6 +2261,34 @@
 		MSFCBootsATACSAU,														*,		400,		150
 		MSFCBootsLowaATACSAU,												*,		400,		150
 		MSFCBootsTrekkingATACSAU,										*,		400,		150
+
+		<Category> ХИМЗА
+				ToxicM18SmokeGrenade_Green,	*,		15000,		5000
+				ToxicM18SmokeGrenade_Red,	*,		15000,		5000
+				ToxicM18SmokeGrenade_Green,	*,		15000,		5000
+				ToxicM18SmokeGrenade_Purple,	*,		15000,		5000
+				ToxicM18SmokeGrenade_Yellow,	*,		15000,		5000
+				ToxicM18SmokeGrenade_White,	*,		15000,		5000
+				ToxicCure,			*,		10000,		3000
+				ToxicZoneGP5GasMask_black,	*,		12000,		3000
+				ToxicZoneGP5GasMask_green,	*,		12000,		3000
+				ToxicZoneSuits_Hood_black,	*,		12000,		3000
+				ToxicZoneSuits_Hood_green,	*,		12000,		3000
+				ToxicZoneSuits_Hood_yellow,	*,		12000,		3000
+				ToxicZoneSuits_Gloves_black,	*,		12000,		3000
+				ToxicZoneSuits_Gloves_green,	*,		12000,		3000
+				ToxicZoneSuits_Gloves_yellow,   *,		12000,		3000
+				ToxicZoneSuits_Jacket_yellow,   *,		12000,		5000
+				ToxicZoneSuits_Jacket_green,   *,		12000,		5000
+				ToxicZoneSuits_Jacket_black,	*,		12000,		5000
+				ToxicZoneSuits_Pants_yellow,	*,		12000,		5000
+				ToxicZoneSuits_Pants_green,	*,		12000,		5000
+				ToxicZoneSuits_Pants_black,	*,		12000,		5000
+				ToxicZoneSuits_Boots_yellow,	*,		12000,		5000
+				ToxicZoneSuits_Boots_green,	*,		12000,		5000
+				ToxicZoneSuits_Boots_black,	*,		12000,		5000
+				GP5GasMask_Filter,		*,		 6500,           3050
+
 	<Category> Ghillie
 		// Keep in Mind that Players can also
 		// craft Ghillie Clothing and sell them!
@@ -3053,18 +2985,22 @@
 
 <Trader> Vehicles Trader
 	<Category> Vehicles
-		OffroadHatchback,														V,		140000,	8000	// Use VNK instead of V as Quantity to not give a Vehicle Key when bought.
-		OffroadHatchback_Blue,											V,		140000,	8000
-		OffroadHatchback_White,											V,		140000,	8000
-		CivilianSedan,															V,		160000,	11000
-		CivilianSedan_Wine,													V,		160000,	11000
-		CivilianSedan_Black,												V,		160000,	11000
-		Sedan_02,																		V,		180000,	10200
-		Sedan_02_Red,																V,		180000,	10200
-		Sedan_02_Grey,															V,		180000,	10200
-		Hatchback_02,																V,		200000,	9600
-		Hatchback_02_Blue,													V,		200000,	9600
-		Hatchback_02_Black,													V,		200000,	9600
+		OffroadHatchback,														V,		140000,	18000	// Use VNK instead of V as Quantity to not give a Vehicle Key when bought.
+		OffroadHatchback_Blue,											V,		140000,	18000
+		OffroadHatchback_White,											V,		140000,	18000
+		CivilianSedan,															V,		160000,	15000
+		CivilianSedan_Wine,													V,		160000,	15000
+		CivilianSedan_Black,												V,		160000,	15000
+		Sedan_02,																		V,		180000,	20200
+		Sedan_02_Red,																V,		180000,	20200
+		Sedan_02_Grey,															V,		180000,	20200
+		Hatchback_02,																V,		200000,	39600
+		Hatchback_02_Blue,													V,		200000,	39600
+		Hatchback_02_Black,													V,		200000,	39600
+		CrSk_Typhoon_K_53949_khaki,     					  V,   	1300000, 0
+		CrSk_Typhoon_K_53949,            						V,   	1300000, 0
+
+
 
 	<Category> Vehicle Parts
 		HeadlightH7_Box,														*,		30,		15
@@ -3210,6 +3146,17 @@
 		CivSedanDoors_BackRight_WineRust,						*,		500,	180
 		CivSedanDoors_BackRight_BlackRust,					*,		500,	180
 		CivSedanWheel,															*,		600,	120
+		TyphoonK53949_bagazhnik_khaki,   						*,   35000,   15000
+		TyphoonK53949_bagazhnik,         						*,   35000,   15000
+		TyphoonK53949_dver_1_1_khaki,    						*,   35000,   15000
+		TyphoonK53949_dver_2_1_khaki,         	    *,   35000,   15000
+		TyphoonK53949_dver_1_2_khaki,         	    *,   35000,   15000
+		TyphoonK53949_dver_2_2_khaki,         	    *,   35000,   15000
+		TyphoonK53949_dver_1_1,         	          *,   35000,   15000
+		TyphoonK53949_dver_2_1,         	          *,   35000,   15000
+		TyphoonK53949_dver_1_2,         	          *,   35000,   15000
+		TyphoonK53949_dver_2_2,         	          *,   35000,   15000
+		TyphoonK53949_koleso,           	          *,   35000,   15000
 
 	<Category> Keys
 		VehicleKeyDuplicate,	   										K,		10000,	-1 		// The choosen Classname here only gets displayed in the UI (Name/Description); Make Sure SellValue is set to -1
