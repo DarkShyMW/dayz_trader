@@ -116,14 +116,14 @@
 		Lard,																*,		200,		100
 		Guts,																*,		200,		100
 		SmallGuts,													*,		200,		100
-		PlgPelt															*,		-1,			 2000
-		RabbltPelt													*,		-1,			 3000
-		CowPelt															*,		-1,   	4000
-		WildboarPelt												*,		-1,		 4000
-		DeerPelt														*,		-1,		 4000
-		ShepPelt														*,		-1,		 4000
-		GoatPelt														*,		-1,		 4000
-		FoxPelt															*,		-1, 	4000
+		PlgPelt,														*,		-1,			 2000
+		RabbltPelt,													*,		-1,			 3000
+		CowPelt,														*,		-1,   	4000
+		WildboarPelt,												*,		-1,		 4000
+		DeerPelt,														*,		-1,		 4000
+		ShepPelt,														*,		-1,		 4000
+		GoatPelt,														*,		-1,		 4000
+		FoxPelt,														*,		-1, 	4000
 		WolfPelt,														*,		10000, 5000
 		BearPelt,														*,		20000, 10000
 
