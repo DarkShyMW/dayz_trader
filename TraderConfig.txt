@@ -887,6 +887,271 @@
 		//MSFC_Mag_AKM_Drum75Rnd_STAR,								*,		7350,		4125
 
 
+		<Category> FIDOv4 Assalt Rifles
+		CS5,			                      *,		1500,	750
+		DDM,			                      *,		1500,	750
+		FP4_AK101_Brown,			          *,		1500,	750
+		FP4_AK101_Blue,			              *,		1500,	750
+		FP4_AK101_red,			              *,		1500,	750
+		FP4_AKS74U_Brown,			          *,		1200,	600
+		FP4_AKS74U_Blue,			          *,		1200,	600
+		FP4_AKS74U_Red,			              *,		1200,	600
+		FP4_AK74_Brown,			              *,		1500,	750
+		FP4_AK74_Blue,			              *,		1500,	750
+		FP4_AK74_Red,			              *,		1500,	750
+		FP4_AKS74U,			                  *,		1200,	600
+		FP4_AKS74U_Black,			          *,		1200,	600
+		FP4_AKS74U_Green,			          *,		1200,	600
+		FP4_AK74,			                  *,		1500,	750
+		FP4_AK74_Black,			              *,		1500,	750
+		FP4_AK74_Green,			              *,		1500,	750
+		FP4_AK101,			                  *,		1500,	750
+		FP4_AK101_Black,			          *,		1500,	750
+		FP4_AK101_Green,			          *,		1500,	750
+		sg550,			                      *,		1500,	750
+		SG552,			                      *,		1500,	750
+		AK74UM,			                      *,		1500,	750
+		RPK,			                      *,		1000,	500
+		RPK_camo,			                  *,		1200,	600
+		KAC,			                      *,		1500,	750
+		Kac_HB,			                      *,		2000,	1000
+		Kac_RedLine,			              *,		2200,	1100
+		ACE23,			                      *,		2000,	1000
+		ace23_desert,			              *,		2200,	1100
+		ace23_WhiteSpray,			          *,		2200,	1100
+		SCAR_OLD,			                  *,		2000,	1000
+		SCAR,			                      *,		2000,	1000
+		SCAR_Black,			                  *,		2000,	1000
+		SCAR_ASIMOV,			              *,		2200,	1100
+		SCAR_HB,			                  *,		2200,	1100
+		AS_VAL_WhiteSpray, 			          *,		2000,	1000
+		AS_VAL,			                      *,		2000,	1000
+		AS_VAL_Desert,			              *,		2000,	1000
+		AS_VAL_green,			              *,		2000,	1000
+
+<Category> FIDOv4 Rifles
+		M1Carbine,			                  *,		1500,	750
+		K_98,			                      *,		1000,	500
+		FP4_WIN70,			                  *,		1200,	600
+		FP4_WIN70_black,			          *,		1200,	600
+		FP4_WIN70_green,			          *,		1200,	600
+		svt40,			                      *,		1500,	750
+
+<Category> FIDOv4 Handguns
+		PB1967,			                      *,		500,	250
+		COLT_1911,			                  *,		500,	250
+		COLT_1911_Desert,			          *,		700,	350
+		COLT_1911_Camo,			              *,		700,	350
+		COLT_1911_Ranger,			          *,		700,	350
+		COLT_1911_Fury,			              *,		700,	350
+		COLT_1911_red,			              *,		700,	350
+		GSH18,			                      *,		700,	350
+		M1935,			                      *,		700,	350
+		p220,			                      *,		700,	350
+		NailgGun,			                  *,		500,	250
+		glock_18,			                  *,		400,	200
+		P99,			                      *,		800,	400
+		SR1M,			                      *,		700,	350
+		M9_Berreta,			                  *,		800,	400
+		Pistol_Tokarev,			              *,		700,	350
+		Pistol_Tokarev_Old,			          *,		700,	350
+
+<Category> FIDOv4 Shotguns
+		Saiga12,			                  *,		1500,	750
+		TOZ34,			                      *,		1500,	750
+		590_Shotgun,			              *,		1500,	750
+		M1912_Shotgun,			              *,		1500,	750
+		Mp153Shotgun_black,			          *,		1500,	750
+		Mp153Shotgun,			              *,		1500,	750
+
+<Category> FIDOv4 Sniper Rifles
+		VSK94,			                      *,		2000,	1000
+		SVD_1963,			                  *,		2000,	1000
+		Vintorez_oldHard,			          *,		2000,	1000
+		Vintorez_veteran,			          *,		2000,	1000
+		Vintorez,			                  *,		1500,	750
+		Vintorez_Old,			              *,		1500,	750
+		R700,			                      *,		2000,	1000
+		PSG1,			                      *,		2200,	1100
+
+
+<Category> FIDOv4 Sub Machine guns
+		SR2,			                      *,		1200,	600
+		SR2_black,			                  *,		1500,	750
+		MAC10,			                      *,		1000,	500
+		MAC10_desert,			              *,		1500,	750
+		CBJ,			                      *,		1500,	750
+		PP19_01,			                  *,		1500,	750
+
+<Category> FIDOv4 Heavy Guns
+		m82,			                      *,		3000,	1500
+		m82_308win,			                  *,		3000,	1500
+
+<Category> FIDOv4 Magazines
+
+		Mag_M1_15Rnds,	                      *,		300,	150
+		Mag_rpk_40Rnd_Tracers,                *,		300,	150
+		Mag_rpk_40RndSpar_Tracer,             *,		300,	150
+		Mag_val_20Rnd_coupled_Tracer,         *,		300,	150
+		Mag_tokarev_8Rnd,                     *,		300,	150
+		Mag_CS5_10rnd,                        *,		300,	150
+		Mag_FP4_AK101_30Rnd,                  *,		300,	150
+		Mag_MakarovPB_8Rnd ,                  *,		300,	150
+		Mag_VSK94_20Rnd,                      *,		300,	150
+		Mag_DDM_30Rnd ,                       *,		300,	150
+		Mag_rpk_40RndSpar,                    *,		300,	150
+		Mag_val_20Rnd_coupled,                *,		300,	150
+		Mag_vss_10Rnds_coupled,               *,		300,	150
+		Mag_GSH18_18Rnd,                      *,		300,	150
+		Mag_m1935_13Rnd,                      *,		300,	150
+		Mag_sg550_30Rnd,                      *,		300,	150
+		mag_p220_8rnd,                        *,		300,	150
+		Mag_SR2_30Rnd,                        *,		300,	150
+		Mag_AK74UM_30Rnd,                     *,		300,	150
+		Mag_mac10_30Rnd,                      *,		300,	150
+		Mag_m82_10Rnd,                        *,		300,	150
+		Mag_m82_10Rnd308,                     *,		300,	150
+		Mag_CBJ_20Rnd,                        *,		300,	150
+		Mag_CBJ_30Rnd,                        *,		300,	150
+		Mag_CBJ_50Rnd,                        *,		300,	150
+		Mag_Nailgun_50n,                      *,		300,	150
+		Mag_psg_5Rnd,                         *,		300,	150
+		Mag_SR1M_18Rnd,                       *,		300,	150
+		Mag_RPK_40Rnd,                        *,		300,	150
+		mag_svt_10rnd,                        *,		300,	150
+		mag_kac_30rnd,                        *,		300,	150
+		Mag_glock_18_17Rnd,                   *,		300,	150
+		M_1911_7Rnd,                          *,		300,	150
+		Mag_ace23_30rnd,                      *,		300,	150
+		Mag_sg552_30Rnd,                      *,		300,	150
+		Mag_pp19_30Rnd,                       *,		300,	150
+		Mag_m9_15Rnd,                         *,		300,	150
+		Mag_Scar_20rnd,                       *,		300,	150
+		Mag_VAL_20Rnd,                        *,		300,	150
+		mag_vss_10rnds,                       *,		300,	150
+		Mag_pp99_16Rnd,                       *,		300,	150
+
+<Category> FIDOv4 Ammobox
+
+		AmmoBox_12x99_10Rnd_TracerGreen,      *,		100,	20
+		AmmoBox_12x99_10Rnd_TracerYell,       *,		100,	20
+		AmmoBox_762x25_25Rnd,                 *,		100,	20
+		AmmoBox_762x33_20Rnd,                 *,		100,	20
+		AmmoBox_792x57_25Rnd,                 *,		100,	20
+		AmmoBox_9x39_20Rnd_Tracer,            *,		100,	20
+		AmmoBox_12x99_10Rnd,                  *,		100,	20
+
+<Category> FIDOv4 BULLET CLASS
+
+		Nails_steels,                         *,		100,	20
+		Bullet_762x25,                        *,		100,	20
+		Bullet_762x33,                        *,		100,	20
+		Bullet_792x57,                        *,		100,	20
+		Bullet_12x99TracerGreen,              *,		300,	50
+		Bullet_12x99TracerYell,               *,		300,	50
+		Bullet_9x39Tracer,                    *,		300,	50
+		Bullet_12x99,                         *,		100,	20
+		Nails_steels,                         *,		100,	20
+
+<Category> FIDOv4 SUPPRESSOR
+
+		556_Suppressor,                       *,		400,	200
+		pbs1_Suppressor,                      *,		400,	200
+		Tundra_Suppressor,                    *,		400,	200
+		HX762_Suppressor,                     *,		400,	200
+		PBS4_Suppressor,                      *,		400,	200
+
+<Category> FIDOv4 OPTIC
+
+		FalconOptic,                          *,		1000,	500
+		PN23Optic,                            *,		1000,	500
+
+<Category> FIDOv4 ACCESSORIES
+
+		AK_Wood_insulating_Hndgrd,            *,		100,	20
+		AK_WoodSteel_Hndgrd,                  *,		100,	20
+
+<Category> FIDOv4 HAND WEAPONS
+
+		Tomahawk,                             *,		3000,	1500
+
+
+
+
+<Category> FIDOv4 UNSORTED ACCESSORIES
+		HighCapacityVest_LES,                 *,		500,	250
+		CargoPants_LES,                       *,		500,	250
+		M65Jacket_LES,                        *,		500,	250
+		FP4_Hood_LES,                         *,		500,	250
+		FP4_Military_Case,                    *,		500,	250
+		FP4_SEVA_Helmet,                      *,		1000,	500
+
+		GorkaPants_LES,                       *,		700,	500
+		GorkaJacket_LES,                      *,		700,	500
+		FP4_chips3,                           *,		500,	250
+		FP4_chips2,                           *,		500,	250
+		FP4_chips,                            *,		500,	250
+		FP4_baton,                            *,		500,	250
+		FP4_Kolbasa,                          *,		500,	250
+		FP4_weapon_Wrap,                      *,		500,	250
+
+		K6_3_Helmet_Green,                    *,		1000,	500
+		K6_3_Helmet,                          *,		1000,	500
+		OldHelmet,                            *,		1000,	500
+		fp4_Sharf,                            *,		1000,	500
+
+		FP4_bildBord,                         *,		1000,	500
+		TAG_RAD2,                             *,		1000,	500
+		TAG_monolit,                          *,		1000,	500
+		TAG_DOLG,                             *,		1000,	500
+		TAG_renegati,                         *,		1000,	500
+		TAG_banditi,                          *,		1000,	500
+		TAG_free,                             *,		1000,	500
+		TAG_ClearNebo,                        *,		1000,	500
+		TAG_Naem,                             *,		1000,	500
+		TAG_batan,                            *,		1000,	500
+		TAG_gas,                              *,		1000,	500
+		TAG_gas2,                             *,		1000,	500
+
+		Bandaid_bandage,                      *,		500,	250
+		elastic_bandage,                      *,		500,	250
+
+		FP4_Hood_black,                       *,		500,	250
+		FP4_Hood_Autumn,                      *,		500,	250
+		FP4_Hood_Summer,                      *,		500,	250
+		FP4_Hood_vkpo,                        *,		500,	250
+		FP4_Hood_Beige,                       *,		500,	250
+		FP4_Hood_City,                        *,		500,	250
+		FP4_Hood_Desert,                      *,		500,	250
+		FP4_Hood_Winter,                      *,		500,	250
+
+		TAG_MIR,                              *,		1000,	500
+	TAG_rad,                              *,		1000,	500
+	TAG_sparta,                           *,		1000,	500
+	TAG_oxota,                            *,		1000,	500
+	TAG_knife,                            *,		1000,	500
+	TAG_rang1,                            *,		1000,	500
+	TAG_rang2,                            *,		1000,	500
+	TAG_rang3,                            *,		1000,	500
+	TAG_rang4,                            *,		1000,	500
+	TAG_rang5,                            *,		1000,	500
+	TAG_rang6,                            *,		1000,	500
+	TAG_rang7,                            *,		1000,	500
+	TAG_rang8,                            *,		1000,	500
+	TAG_bear,                             *,		1000,	500
+	TAG_Wolf,                             *,		1000,	500
+	TAG_Pirates,                          *,		1000,	500
+		FP4_VKPO_DEMI_USHANKA,                *,		1000,	500
+		FP4_VKPO_Demi,                        *,		1000,	500
+		FP4_VKPO_Demi_RHBZ,                   *,		1000,	500
+		FP4_VKPO_Demi_VDV,                    *,		1000,	500
+		FP4_VKPO_Demi_Pants,                  *,		1000,	500
+		FP4_VKPO_LETO_CAP,                    *,		1000,	500
+		FP4_VKPO_LETO_Tors_RHBZ,              *,		1000,	500
+		FP4_VKPO_LETO_Tors_RTV,               *,		1000,	500
+		FP4_VKPO_LETO_Pants,                  *,		1000,	500
+
+
 <Trader> Clothing Trader
 	<Category> Glasses
 		SportGlasses_Orange,												*,		100,		80
@@ -2294,6 +2559,87 @@
 				ToxicZoneSuits_Boots_green,	*,		12000,		5000
 				ToxicZoneSuits_Boots_black,	*,		12000,		5000
 				GP5GasMask_Filter,		*,		 6500,           3050
+
+				
+				<Category> SQUAD MSF-C Multicam Snow
+	MSFC_JPC_Vest_MulticamSnow,	*,		100,		65
+	MSFC_TAC_TEC_Vest_MulticamSnow,	*,		100,		65
+	MSFC_TacticalCap_MulticamSnow,	*,		100,		65
+	MSFC_WarBelt_MulticamSnow,	*,		100,		65
+	MSFCEmpty_Mags_Bag_MulticamSnow,	*,		100,		65
+	MSFC_IFAK_MulticamSnow,	*,		100,		65
+	MSFC_Defender_Vest_MulticamSnow,	*,		100,		65
+	MSFCM65MulticamSnow,	*,		100,		65
+	MSFCPantsMulticamSnow,	*,		100,		65
+	MSFCPCU5MulticamSnowComander,	*,		100,		65
+	MSFCPCU5MulticamSnowMedic,	*,		100,		65
+	MSFCPCU5MulticamSnowReconnaissance,	*,		100,		65
+	MSFCPCU5MulticamSnowSniper,	*,		100,		65
+	MSFCPCU5MulticamSnowSapper,	*,		100,		65
+	MSFCPCU5MulticamSnowMachineGun,	*,		100,		65
+	MSFCPCU5MulticamSnowEngineer,	*,		100,		65
+	MSFCPCU5MulticamSnowTrooper,	*,		100,		65
+	MSFCCapMulticamSnow,	*,		100,		65
+	MSFCGorkaJMulticamSnow,	*,		100,		65
+	MSFCGorkaPMulticamSnow,	*,		100,		65
+	MSFCGlovesMulticamSnow,	*,		100,		65
+	MSFCBootsMulticamSnow,	*,		100,		65
+	MSFCUKVestMulticamSnow,	*,		100,		65
+	MSFCTShirtMulticamSnow,	*,		100,		65
+	MSFCTacVestMulticamSnow,	*,		100,		65
+	MSFCTacVestMulticamSnowLogo,	*,		100,		65
+	MSFCTacVestMulticamSnowMedic,	*,		100,		65
+	MSFCBeanieHatMulticamSnow,	*,		100,		65
+	MSFCBoonieHatMulticamSnow,	*,		100,		65
+	MSFCCoyoteBagMulticamSnow,	*,		100,		65
+	MSFCMulticamSnowMask,	*,		100,		65
+	MSFCMich2001MulticamSnow,	*,		100,		65
+	MSFCAssaultBagMulticamSnow,	*,		100,		65
+	MSFCAssaultBagMulticamSnowMedic,	*,		100,		65
+	MSFCHoodMulticamSnow,	*,		100,		65
+	MSFCBandanaMulticamSnow,	*,		100,		65
+	MSFCBandanaMulticamSnowMask,	*,		100,		65
+	MSFCPlateCarrierVestMulticamSnow,	*,		100,		65
+	MSFCPlateCarrierVestMulticamSnowLogo,	*,		100,		65
+	MSFCTortilaMulticamSnow,	*,		100,		65
+	MSFCAliceBagMulticamSnow,	*,		100,		65
+	MSFCNBCPantsMulticamSnow,	*,		100,		65
+	MSFCNBCJacketMulticamSnow,	*,		100,		65
+	MSFCNBCGlovesMulticamSnow,	*,		100,		65
+	MSFCNBCBootsMulticamSnow,	*,		100,		65
+	MSFCPlateCarrierVestMulticamSnowMedic,	*,		100,		65
+	MSFCMountainBagMulticamSnow,	*,		100,		65
+	MSFCPlateHolsterMulticamSnow,	*,		100,		65
+	MSFCPlatePouchesMulticamSnow,	*,		100,		65
+	MSFCPCU5MulticamSnowSupply,	*,		100,		65
+	MSFCGorkaHelmetMulticamSnow,	*,		100,		65
+	MSFCMich2000HelmetMulticamSnow,	*,		100,		65
+	MSFCSweaterMulticamSnow,	*,		100,		65
+	MSFCPressVestMulticamSnow,	*,		100,		65
+	MSFCPCU5MulticamSnowPartComander,	*,		100,		65
+	MSFCSmershVestMulticamSnow,	*,		100,		65
+	MSFCSmershBagMulticamSnow,	*,		100,		65
+	MSFCOpsCoreMulticamSnow,	*,		100,		65
+	MSFCTacticalMaskMulticamSnow,	*,		100,		65
+	MSFCSmershBagMedicMulticamSnow,	*,		100,		65
+	MSFCPCU5MulticamSnowNoPatch,	*,		100,		65
+			MSFCGorkaJMulticamSnowNoPatch,	*,		100,		65
+			MSFCBootsLowaMulticamSnow,	*,		100,		65
+			MSFCBootsTrekkingMulticamSnow,	*,		100,		65
+			MSFCBackpackPegasusMulticamSnow,	*,		100,		65
+			MSFCBackpackCargoMulticamSnow,	*,		100,		65
+			MSFCPouchCargoMulticamSnow,	*,		100,		65
+			MSFCPouchIFAKMulticamSnow,	*,		100,		65
+	MSFC_FaceMack_MulticamSnow,	*,		100,		65
+			MSFC_TacticalBelt_MulticamSnow,	*,		100,		65
+	MSFCLowaZephyrBootsMulticamSnow,	*,		100,		65
+	MSFC_TacticalBeltMedium_MulticamSnow,	*,		100,		65
+			MSFC_TacticalBeltSmall_MulticamSnow,	*,		100,		65
+	MSFC_TacticalBeltLite_MulticamSnow,	*,		100,		65
+	MSFC_BIG_BACKPACK_MulticamSnow,	*,		100,		65
+			MSFC_SMALL_BACKPACK_MulticamSnow,	*,		100,		65
+			MSFC_BottlePouch_MulticamSnow,	*,		100,		65
+			MSFC_G3Pants_MulticamSnow,	*,		100,		65
 
 	<Category> Ghillie
 		// Keep in Mind that Players can also
