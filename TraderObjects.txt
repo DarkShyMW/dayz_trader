@@ -269,7 +269,7 @@
 <ObjectOrientation>	-112.26684,	0,			0
 <ObjectAttachment>	AviatorGlasses
 <ObjectAttachment>	ZmijovkaCap_Blue
-<ObjectAttachment>	Hoodie_GraffitiTiles
+<ObjectAttachment>	USMCJacket_Woodland
 <ObjectAttachment>	Jeans_BlueDark
 <ObjectAttachment>	Sneakers_White
 
