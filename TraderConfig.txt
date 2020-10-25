@@ -112,10 +112,18 @@
 		Mackerel,														S,		1000,		500
 
 	<Category> Animal Parts
-		Bone,																*,		20,		10
-		Lard,																*,		20,		10
-		Guts,																*,		20,		10
-		SmallGuts,													*,		20,		10
+		Bone,																*,		200,		100
+		Lard,																*,		200,		100
+		Guts,																*,		200,		100
+		SmallGuts,													*,		200,		100
+		PlgPelt															*,		-1,			 2000
+		RabbltPelt													*,		-1,			 3000
+		CowPelt															*,		-1,   	4000
+		WildboarPelt												*,		-1,		 4000
+		DeerPelt														*,		-1,		 4000
+		ShepPelt														*,		-1,		 4000
+		GoatPelt														*,		-1,		 4000
+		FoxPelt															*,		-1, 	4000
 		WolfPelt,														*,		10000, 5000
 		BearPelt,														*,		20000, 10000
 
@@ -124,8 +132,8 @@
 		SodaCan_Kvass, 											*,		50, 		15
 		SodaCan_Pipsi, 											*,		50, 		15
 		SodaCan_Spite, 											*,		50, 		15
-		WaterBottle,												*,		50,		25
-		Canteen,														*,		80,		45
+		WaterBottle,												*,		50,			25
+		Canteen,														*,		80,			45
 		Vodka,															*,		120,		85
 		MSFCPohuinBottle,	                  *,		150,		70
 		MSFC_BottlePouch_MulticamTropic,		*,		200,		70
@@ -158,7 +166,6 @@
 		PainkillerTablets,									*,		100,		60
 		Epinephrine,												*,		200,		100
 		Morphine,														*,		250,		150
-		alp_radboxtablets 									*,		2000,		500
 
 	<Category> Money Exchange
 		MoneyRuble1,			1,		1,		-1
@@ -260,8 +267,7 @@
 		BarbedWire,													*,		450,		200
 		Camonet,														*,		900,		450
 		HescoBox,														*,		-1,			650
-		CodeLock														*,		5000		500
-		alp_geiger_counter									*,		570,		190
+		CodeLock,														*,		5000		500
 		BarrelHoles_Blue,										*,		-1,			5000
 		BarrelHoles_Green,									*,		-1,			5000
 		BarrelHoles_Red,										*,		-1,			5000
@@ -458,10 +464,10 @@
 		MSFC_VPO136,												W,		4000,		2000
 		MSFC_OSV96,													W,		96000,		30000
 		MSFC_L96A1_Green,										W,		40000,		7000
-		MSFC_Barret50BMG_Beige,							W,		-,		-
-		MSFC_Barret50BMG_Green,							W,		-,		-
-		MSFC_Barret50BMG_Desert,						W,		-,		-
-		MSFC_Barret50BMG_Black,							W,		-,		-
+		MSFC_Barret50BMG_Beige,							W,		-1,		50000
+		MSFC_Barret50BMG_Green,							W,		-1,		50000
+		MSFC_Barret50BMG_Desert,						W,		-1,		50000
+		MSFC_Barret50BMG_Black,							W,		-1,		50000
 		MSFC_ORSIS_T5000,										W,		85000,		20000
 		MSFC_ORSIS_T5000_Green,							W,		85000,		20000
 		MSFC_ORSIS_T5000_Desert,						W,		85000,		20000
@@ -601,42 +607,42 @@
 		PSO1Optic,													*,		1100,	600
 		PSO11Optic,													*,		1400,	840
 		KazuarOptic,												*,		2200,	1400
-		AD_B13Mount,          							*,      3900,    350
-		AD_MosinMount,          					  *,      3900,    350
-		AD_ACOG,           									*,      3900,    350
-		AD_ACOG_MosinMount,                 *,      3900,    350
-		AD_ACOG_B13,                        *,      3900,    350
-		AD_ACOG_RMR,                        *,      3900,    350
-		AD_ACOG_RMR_MosinMount,             *,      3900,    350
-		AD_ACOG_RMR_B13,                    *,      3900,    350
-		AD_DHF5,           									*,      3900,    350
-		AD_DHF5_MosinMount,           			*,      3900,    350
-		AD_DHF5_B13,           							*,      3900,    350
-		AD_MRS,           									*,      3900,    350
-		AD_MRS_MosinMount,           				*,      3900,    350
-		AD_MRS_B13,           							*,      3900,    350
-		AD_NFATACR,           							*,      3900,    350
-		AD_NFATACR_MosinMount,           		*,      3900,    350
-		AD_NFATACR_B13,           					*,      3900,    350
-		AD_NFATACR_1_8,           					*,      3900,    350
-		AD_NFATACR_1_8_MosinMount,          *,      3900,    350
-		AD_NFATACR_1_8_B13,           			*,      3900,    350
-		AD_OKP7,           									*,      3900,    350
-		AD_OKP7_MosinMount,           			*,      3900,    350
-		AD_OKP7_B13,           							*,      3900,    350
-		AD_Pilad,           								*,      3900,    350
-		AD_Pilad_MosinMount,           			*,      3900,    350
-		AD_Pilad_B13,           						*,      3390,    350
-		AD_PVS4,          								  *,      3900,    350
-		AD_PVS4_MosinMount,          	 			*,      3900,    350
-		AD_PVS4_B13,           							*,      3900,    350
-		AD_RMR,           									*,      3900,    350
-		AD_RMR_LM,           								*,      3900,    350
-		AD_RMR_LM_MosinMount,           		*,      3900,    350
-		AD_RMR_LM_B13,           						*,      3900,    350
-		AD_RMR_TM,           								*,      3900,    350
-		AD_RMR_TM_MosinMount,           		*,      3900,    350
-		AD_RMR_TM_B13,           						*,      3900,    350
+		//AD_B13Mount,          							*,      3900,    350
+		//AD_MosinMount,          					  *,      3900,    350
+		//AD_ACOG,           									*,      3900,    350
+		//AD_ACOG_MosinMount,                 *,      3900,    350
+		//AD_ACOG_B13,                        *,      3900,    350
+		//AD_ACOG_RMR,                        *,      3900,    350
+		//AD_ACOG_RMR_MosinMount,             *,      3900,    350
+		//AD_ACOG_RMR_B13,                    *,      3900,    350
+		//AD_DHF5,           									*,      3900,    350
+		//AD_DHF5_MosinMount,           			*,      3900,    350
+		//AD_DHF5_B13,           							*,      3900,    350
+		//AD_MRS,           									*,      3900,    350
+		//AD_MRS_MosinMount,           				*,      3900,    350
+		//AD_MRS_B13,           							*,      3900,    350
+		//AD_NFATACR,           							*,      3900,    350
+		//AD_NFATACR_MosinMount,           		*,      3900,    350
+		//AD_NFATACR_B13,           					*,      3900,    350
+		//AD_NFATACR_1_8,           					*,      3900,    350
+		//AD_NFATACR_1_8_MosinMount,          *,      3900,    350
+		//AD_NFATACR_1_8_B13,           			*,      3900,    350
+		//AD_OKP7,           									*,      3900,    350
+		//AD_OKP7_MosinMount,           			*,      3900,    350
+		//AD_OKP7_B13,           							*,      3900,    350
+		//AD_Pilad,           								*,      3900,    350
+		//AD_Pilad_MosinMount,           			*,      3900,    350
+		//AD_Pilad_B13,           						*,      3390,    350
+		//AD_PVS4,          								  *,      3900,    350
+		//AD_PVS4_MosinMount,          	 			*,      3900,    350
+		//AD_PVS4_B13,           							*,      3900,    350
+		//AD_RMR,           									*,      3900,    350
+		//AD_RMR_LM,           								*,      3900,    350
+		//AD_RMR_LM_MosinMount,           		*,      3900,    350
+		//AD_RMR_LM_B13,           						*,      3900,    350
+		//AD_RMR_TM,           								*,      3900,    350
+		//AD_RMR_TM_MosinMount,           		*,      3900,    350
+		//AD_RMR_TM_B13,           						*,      3900,    350
 
 	<Category> Supressors
 		PistolSuppressor,										*,		180,	75
@@ -834,19 +840,19 @@
         MSFC_M4_RISHndgrd_Kryptek_Neptune,				*,		500,		250
 
 		<Category> SQUAD MSF-C Weapon Magazines
-       	MSFC_OSV96_5rnd_Mag,										*,		15000,		5500
-       	MSFC_Ammo_127x108,											*,		5000,		2500
-       	MSFC_PP19_Vityaz_Mag_30Rnd,							*,		400,		200
-       	MSFC_L96A1_5_Rnd_Mag,										*,		5000,		2500
-       	MSFC_Barret_10rnd_Mag,									*,		15000,		2500
-       	MSFC_Ammo_50BMG,												10,		10000,		4000
-       	MSFC_AR15_9mm_mag,											*,		500,		250
-       	MSFC_P250_Mag_15Rnd,										*,		500,		250
-        MSFC_ORSIS_T5000_10_Rnd_Mag,						*,		8000,		2500
-        MSFC_DRUM762_Mag_75Rnd,									*,		5000,		2500
-        MSFC_RPK74_Mag_45Rnd,										*,		5000,		2500
-        MSFC_STANAG556_Mag_30Rnd,								*,		5000,		2500
-      	MSFC_PMAG556_Mag_30Rnd,									*,		5000,		2500
+    MSFC_OSV96_5rnd_Mag,										*,		15000,		5500
+    MSFC_Ammo_127x108,											*,		5000,		2500
+    MSFC_PP19_Vityaz_Mag_30Rnd,							*,		400,		200
+    MSFC_L96A1_5_Rnd_Mag,										*,		5000,		2500
+    MSFC_Barret_10rnd_Mag,									*,		15000,		2500
+    MSFC_Ammo_50BMG,												10,		10000,		4000
+    MSFC_AR15_9mm_mag,											*,		500,		250
+  	MSFC_P250_Mag_15Rnd,										*,		500,		250
+    MSFC_ORSIS_T5000_10_Rnd_Mag,						*,		8000,		2500
+    MSFC_DRUM762_Mag_75Rnd,									*,		5000,		2500
+    MSFC_RPK74_Mag_45Rnd,										*,		5000,		2500
+    MSFC_STANAG556_Mag_30Rnd,								*,		5000,		2500
+    MSFC_PMAG556_Mag_30Rnd,									*,		5000,		2500
 		MSFC_PMAG762_Mag_30Rnd,											*,		5000,		2500
 		MSFC_SCAR17_Mag_20Rnd,											*,		3500,		1250
 		MSFC_RPK_Mag_45Rnd,													*,		3500,		1250
@@ -878,7 +884,7 @@
 		//MSFC_Mag_AKM_Drum75Rnd_MATRIX,						*,		350,		125
 		//MSFC_Mag_AKM_Drum75Rnd_REDBLACKWHITE,			*,		350,		125
 		//MSFC_Mag_AKM_Drum75Rnd_Honeycomb,					*,		350,		125
-		MSFC_Mag_AKM_Drum75Rnd_STAR,								*,		7350,		4125
+		//MSFC_Mag_AKM_Drum75Rnd_STAR,								*,		7350,		4125
 
 
 <Trader> Clothing Trader
@@ -1038,22 +1044,22 @@
 		MSFCBoonieHatMulticamTropic,								*,		430,		170
 		MSFCBeanieHatMulticam,											*,		430,		170
 		MSFCBoonieHatMulticam,											*,		430,		170
-		MilitaryGear_BoonieHat_PartizanM,						*,		300,		120
-		MilitaryGear_BoonieHat_Duckhunter,					*,		300,		120
-		MilitaryGear_BoonieHat_Multicam,						*,		300,		120
-		MilitaryGear_BoonieHat_Splinter,						*,		300,		120
-		MilitaryGear_BoonieHat_Splinter_Dark,				*,		300,		120
-		MilitaryGear_BoonieHat_Tiger,								*,		300,		120
-		MilitaryGear_BoonieHat_Woodland,						*,		300,		120
-		MilitaryGear_BoonieHat_FLT,									*,		300,		120
-		MilitaryGear_BoonieHat_DPM,									*,		300,		120
-		MilitaryGear_BoonieHat_MPAT,								*,		300,		120
-		MilitaryGear_BoonieHat_Partizan,						*,		300,		120
-		MilitaryGear_BoonieHat_Skol,								*,		300,		120
-		MilitaryGear_BoonieHat_ATACS,								*,		300,		120
-		MilitaryGear_BoonieHat_CADPAT,							*,		300,		120
-		MilitaryGear_BoonieHat_Tropic,							*,		300,		120
-		MilitaryGear_BoonieHat_Yeger,								*,		300,		120
+		//MilitaryGear_BoonieHat_PartizanM,						*,		300,		120
+		//MilitaryGear_BoonieHat_Duckhunter,					*,		300,		120
+		//MilitaryGear_BoonieHat_Multicam,						*,		300,		120
+		//MilitaryGear_BoonieHat_Splinter,						*,		300,		120
+		//MilitaryGear_BoonieHat_Splinter_Dark,				*,		300,		120
+		//MilitaryGear_BoonieHat_Tiger,								*,		300,		120
+		//MilitaryGear_BoonieHat_Woodland,						*,		300,		120
+		//MilitaryGear_BoonieHat_FLT,									*,		300,		120
+		//MilitaryGear_BoonieHat_DPM,									*,		300,		120
+		//MilitaryGear_BoonieHat_MPAT,								*,		300,		120
+		//MilitaryGear_BoonieHat_Partizan,						*,		300,		120
+		//MilitaryGear_BoonieHat_Skol,								*,		300,		120
+		//MilitaryGear_BoonieHat_ATACS,								*,		300,		120
+		//MilitaryGear_BoonieHat_CADPAT,							*,		300,		120
+		//MilitaryGear_BoonieHat_Tropic,							*,		300,		120
+		//MilitaryGear_BoonieHat_Yeger,								*,		300,		120
 		MSFCBeanieHatATACSAU,												*,		300,		100
 		MSFCBoonieHatATACSAU,												*,		300,		100
 		MSFCBeanieHatATACSAU,												*,		300,		100
@@ -1062,43 +1068,43 @@
 		MSFCBandanaMulticamTropic,									*,		300,		100
 		MSFCBandanaMulticam,												*,		300,		100
 		MSFCBandanaSURPATDesert,										*,		300,		100
-		MilitaryGear_Bandana_Black,									*,		300,		100
-		MilitaryGear_Bandana_Brown,									*,		300,		100
-		MilitaryGear_Bandana_PartizanM,							*,		300,		100
-		MilitaryGear_Bandana_Duckhunter,						*,		300,		100
-		MilitaryGear_Bandana_Multicam,							*,		300,		100
-		MilitaryGear_Bandana_Splinter,							*,		300,		100
-		MilitaryGear_Bandana_Splinter_Dark,					*,		300,		100
-		MilitaryGear_Bandana_Tiger,									*,		300,		100
-		MilitaryGear_Bandana_Woodland,							*,		300,		100
-		MilitaryGear_Bandana_FLT,										*,		300,		100
-		MilitaryGear_Bandana_DPM,										*,		300,		100
-		MilitaryGear_Bandana_MPAT,									*,		300,		100
-		MilitaryGear_Bandana_Partizan,							*,		300,		100
-		MilitaryGear_Bandana_Skol,									*,		300,		100
-		MilitaryGear_Bandana_ATACS,									*,		300,		100
-		MilitaryGear_Bandana_CADPAT,								*,		300,		100
-		MilitaryGear_Bandana_Tropic,								*,		300,		100
-		MilitaryGear_Bandana_Yeger,									*,		300,		100
+		//MilitaryGear_Bandana_Black,									*,		300,		100
+		//MilitaryGear_Bandana_Brown,									*,		300,		100
+		//MilitaryGear_Bandana_PartizanM,							*,		300,		100
+		//MilitaryGear_Bandana_Duckhunter,						*,		300,		100
+		//MilitaryGear_Bandana_Multicam,							*,		300,		100
+		//MilitaryGear_Bandana_Splinter,							*,		300,		100
+		//MilitaryGear_Bandana_Splinter_Dark,					*,		300,		100
+		//MilitaryGear_Bandana_Tiger,									*,		300,		100
+		//MilitaryGear_Bandana_Woodland,							*,		300,		100
+		//MilitaryGear_Bandana_FLT,										*,		300,		100
+		//MilitaryGear_Bandana_DPM,										*,		300,		100
+		//MilitaryGear_Bandana_MPAT,									*,		300,		100
+		//MilitaryGear_Bandana_Partizan,							*,		300,		100
+		//MilitaryGear_Bandana_Skol,									*,		300,		100
+		//MilitaryGear_Bandana_ATACS,									*,		300,		100
+		//MilitaryGear_Bandana_CADPAT,								*,		300,		100
+		//MilitaryGear_Bandana_Tropic,								*,		300,		100
+		//MilitaryGear_Bandana_Yeger,									*,		300,		100
 		MSFCBandanaSURPAT,													*,		300,		100
 		MSFCBandanaATACSAU,													*,		300,		100
 		MSFCBandanaATACSAU,													*,		300,		100
-		MilitaryGear_Beanie_Yeger,									*,		300,		100
-		MilitaryGear_Beanie_PartizanM,							*,		300,		100
-		MilitaryGear_Beanie_Duckhunter,							*,		300,		100
-		MilitaryGear_Beanie_Multicam,								*,		300,		100
-		MilitaryGear_Beanie_Splinter,								*,		300,		100
-		MilitaryGear_Beanie_Splinter_Dark,					*,		300,		100
-		MilitaryGear_Beanie_Tiger,									*,		300,		100
-		MilitaryGear_Beanie_Woodland,								*,		300,		100
-		MilitaryGear_Beanie_FLT,										*,		300,		100
-		MilitaryGear_Beanie_DPM,										*,		300,		100
-		MilitaryGear_Beanie_MPAT,										*,		300,		100
-		MilitaryGear_Beanie_Partizan,								*,		300,		100
-		MilitaryGear_Beanie_Skol,										*,		300,		100
-		MilitaryGear_Beanie_Tropic,									*,		300,		100
-		MilitaryGear_Beanie_CADPAT,									*,		300,		100
-		MilitaryGear_Beanie_ATACS,									*,		300,		100
+		//MilitaryGear_Beanie_Yeger,									*,		300,		100
+		//MilitaryGear_Beanie_PartizanM,							*,		300,		100
+		//MilitaryGear_Beanie_Duckhunter,							*,		300,		100
+		//MilitaryGear_Beanie_Multicam,								*,		300,		100
+		//MilitaryGear_Beanie_Splinter,								*,		300,		100
+		//MilitaryGear_Beanie_Splinter_Dark,					*,		300,		100
+		//MilitaryGear_Beanie_Tiger,									*,		300,		100
+		//MilitaryGear_Beanie_Woodland,								*,		300,		100
+		//MilitaryGear_Beanie_FLT,										*,		300,		100
+		//MilitaryGear_Beanie_DPM,										*,		300,		100
+		//MilitaryGear_Beanie_MPAT,										*,		300,		100
+		//MilitaryGear_Beanie_Partizan,								*,		300,		100
+		//MilitaryGear_Beanie_Skol,										*,		300,		100
+		//MilitaryGear_Beanie_Tropic,									*,		300,		100
+		//MilitaryGear_Beanie_CADPAT,									*,		300,		100
+		//MilitaryGear_Beanie_ATACS,									*,		300,		100
 		MSFC_CombatHeadphones_Green,								*,		-1,		870
 		MSFC_CombatHeadphones_Black,								*,		-1,		870
 		MSFC_CombatHeadphones_Desert,								*,		-1,		870
@@ -1241,25 +1247,25 @@
 		MSFCSTALKERMercHelmet,											*,		6500,		3000
 		MSFCSTALKERMonolitHelmet,										*,		6500,		3000
 		MSFCSTALKERClearSkyHelmet,									*,		6500,		3000
-		MilitaryGear_TacticalHelmet_PartizanM,			*,		3900,		1750
-		MilitaryGear_TacticalHelmet_PartizanM,			*,		3900,		1750
-		MilitaryGear_TacticalHelmet_PartizanM,			*,		3900,		1750
-		MilitaryGear_TacticalHelmet_PartizanM,			*,		3900,		1800
-		MilitaryGear_TacticalHelmet_Duckhunter,			*,		3900,		1800
-		MilitaryGear_TacticalHelmet_Multicam,				*,		3900,		1800
-		MilitaryGear_TacticalHelmet_Splinter,				*,		3900,		1800
-		MilitaryGear_TacticalHelmet_Splinter_Dark,	*,		3900,		1800
-		MilitaryGear_TacticalHelmet_Tiger,					*,		3900,		1800
-		MilitaryGear_TacticalHelmet_Woodland,				*,		3900,		1800
-		MilitaryGear_TacticalHelmet_FLT,						*,		3900,		1800
-		MilitaryGear_TacticalHelmet_DPM,						*,		3900,		1800
-		MilitaryGear_TacticalHelmet_MPAT,						*,		3900,		1800
-		MilitaryGear_TacticalHelmet_Partizan,				*,		3900,		1800
-		MilitaryGear_TacticalHelmet_Skol,						*,		3900,		1800
-		MilitaryGear_TacticalHelmet_ATACS,					*,		3900,		1800
-		MilitaryGear_TacticalHelmet_CADPAT,					*,		3900,		1800
-		MilitaryGear_TacticalHelmet_Tropic,					*,		3900,		1800
-		MilitaryGear_TacticalHelmet_Yeger,					*,		3900,		1800
+		//MilitaryGear_TacticalHelmet_PartizanM,			*,		3900,		1750
+		//MilitaryGear_TacticalHelmet_PartizanM,			*,		3900,		1750
+		//MilitaryGear_TacticalHelmet_PartizanM,			*,		3900,		1750
+		//MilitaryGear_TacticalHelmet_PartizanM,			*,		3900,		1800
+		//MilitaryGear_TacticalHelmet_Duckhunter,			*,		3900,		1800
+		//MilitaryGear_TacticalHelmet_Multicam,				*,		3900,		1800
+		//MilitaryGear_TacticalHelmet_Splinter,				*,		3900,		1800
+		//MilitaryGear_TacticalHelmet_Splinter_Dark,	*,		3900,		1800
+		//MilitaryGear_TacticalHelmet_Tiger,					*,		3900,		1800
+		//MilitaryGear_TacticalHelmet_Woodland,				*,		3900,		1800
+		//MilitaryGear_TacticalHelmet_FLT,						*,		3900,		1800
+		//MilitaryGear_TacticalHelmet_DPM,						*,		3900,		1800
+		//MilitaryGear_TacticalHelmet_MPAT,						*,		3900,		1800
+		//MilitaryGear_TacticalHelmet_Partizan,				*,		3900,		1800
+		//MilitaryGear_TacticalHelmet_Skol,						*,		3900,		1800
+		//MilitaryGear_TacticalHelmet_ATACS,					*,		3900,		1800
+		//MilitaryGear_TacticalHelmet_CADPAT,					*,		3900,		1800
+		//MilitaryGear_TacticalHelmet_Tropic,					*,		3900,		1800
+		//MilitaryGear_TacticalHelmet_Yeger,					*,		3900,		1800
 		Mich2001Helmet,															*,		3900,		1500
 		MSFCProjectHonorMich2001,										*,		3900,		1165
 		MSFCAOR2Mich2001,														*,		3900,		1265
@@ -1437,38 +1443,38 @@
 		MSFCBalaclavaBlackSpiderVenomCarnage,				*,		300,		100
 		MSFCBalaclavaBlackBloodyMouth,							*,		300,		100
 		MSFCBalaclavaBlackPrizrak,									*,		300,		100
-		MilitaryGear_Balaclava3_PartizanM,					*,		100,		50
-		MilitaryGear_Balaclava3Skull_PartizanM,			*,		150,		75
-		MilitaryGear_Balaclava3_Duckhunter,					*,		100,		50
-		MilitaryGear_Balaclava3Skull_Duckhunter,		*,		150,		75
-		MilitaryGear_Balaclava3_Multicam,						*,		100,		50
-		MilitaryGear_Balaclava3Skull_Multicam,			*,		150,		75
-		MilitaryGear_Balaclava3_Splinter,						*,		100,		50
-		MilitaryGear_Balaclava3Skull_Splinter,			*,		150,		75
-		MilitaryGear_Balaclava3_Splinter_Dark,			*,		100,		50
-		MilitaryGear_Balaclava3Skull_Splinter_Dark,	*,		150,		75
-		MilitaryGear_Balaclava3_Tiger,							*,		100,		50
-		MilitaryGear_Balaclava3Skull_Tiger,					*,		150,		75
-		MilitaryGear_Balaclava3_Woodland,						*,		100,		50
-		MilitaryGear_Balaclava3Skull_Woodland,			*,		150,		75
-		MilitaryGear_Balaclava3_FLT,								*,		100,		50
-		MilitaryGear_Balaclava3Skull_FLT,						*,		150,		75
-		MilitaryGear_Balaclava3_DPM,								*,		100,		50
-		MilitaryGear_Balaclava3Skull_DPM,						*,		150,		75
-		MilitaryGear_Balaclava3_MPAT,								*,		100,		50
-		MilitaryGear_Balaclava3Skull_MPAT,					*,		150,		75
-		MilitaryGear_Balaclava3_Partizan,						*,		100,		50
-		MilitaryGear_Balaclava3Skull_Partizan,			*,		150,		75
-		MilitaryGear_Balaclava3_Skol,								*,		100,		50
-		MilitaryGear_Balaclava3Skull_Skol,					*,		150,		75
-		MilitaryGear_Balaclava3_ATACS,							*,		100,		50
-		MilitaryGear_Balaclava3Skull_ATACS,					*,		150,		75
-		MilitaryGear_Balaclava3_CADPAT,							*,		100,		50
-		MilitaryGear_Balaclava3Skull_CADPAT,				*,		150,		75
-		MilitaryGear_Balaclava3_Tropic,							*,		100,		50
-		MilitaryGear_Balaclava3Skull_Tropic,				*,		150,		75
-		MilitaryGear_Balaclava3_Yeger,							*,		100,		50
-		MilitaryGear_Balaclava3Skull_Yeger,					*,		150,		75
+		//MilitaryGear_Balaclava3_PartizanM,					*,		100,		50
+		//MilitaryGear_Balaclava3Skull_PartizanM,			*,		150,		75
+		//MilitaryGear_Balaclava3_Duckhunter,					*,		100,		50
+		//MilitaryGear_Balaclava3Skull_Duckhunter,		*,		150,		75
+		//MilitaryGear_Balaclava3_Multicam,						*,		100,		50
+		//MilitaryGear_Balaclava3Skull_Multicam,			*,		150,		75
+		//MilitaryGear_Balaclava3_Splinter,						*,		100,		50
+		//MilitaryGear_Balaclava3Skull_Splinter,			*,		150,		75
+		//MilitaryGear_Balaclava3_Splinter_Dark,			*,		100,		50
+		//MilitaryGear_Balaclava3Skull_Splinter_Dark,	*,		150,		75
+		//MilitaryGear_Balaclava3_Tiger,							*,		100,		50
+		//MilitaryGear_Balaclava3Skull_Tiger,					*,		150,		75
+		//MilitaryGear_Balaclava3_Woodland,						*,		100,		50
+		//MilitaryGear_Balaclava3Skull_Woodland,			*,		150,		75
+		//MilitaryGear_Balaclava3_FLT,								*,		100,		50
+		//MilitaryGear_Balaclava3Skull_FLT,						*,		150,		75
+		//MilitaryGear_Balaclava3_DPM,								*,		100,		50
+		//MilitaryGear_Balaclava3Skull_DPM,						*,		150,		75
+		//MilitaryGear_Balaclava3_MPAT,								*,		100,		50
+		//MilitaryGear_Balaclava3Skull_MPAT,					*,		150,		75
+		//MilitaryGear_Balaclava3_Partizan,						*,		100,		50
+		//MilitaryGear_Balaclava3Skull_Partizan,			*,		150,		75
+		//MilitaryGear_Balaclava3_Skol,								*,		100,		50
+		//MilitaryGear_Balaclava3Skull_Skol,					*,		150,		75
+		//MilitaryGear_Balaclava3_ATACS,							*,		100,		50
+		//MilitaryGear_Balaclava3Skull_ATACS,					*,		150,		75
+		//MilitaryGear_Balaclava3_CADPAT,							*,		100,		50
+		//MilitaryGear_Balaclava3Skull_CADPAT,				*,		150,		75
+		//MilitaryGear_Balaclava3_Tropic,							*,		100,		50
+		//MilitaryGear_Balaclava3Skull_Tropic,				*,		150,		75
+		//MilitaryGear_Balaclava3_Yeger,							*,		100,		50
+		//MilitaryGear_Balaclava3Skull_Yeger,					*,		150,		75
 		Balaclava3Holes_Blue,												*,		200,		100
 		Balaclava3Holes_Beige,											*,		200,		100
 		Balaclava3Holes_Black,											*,		200,		100
@@ -1511,7 +1517,7 @@
 		TacticalShirt_Black,												*,		900,		100
 		TacticalShirt_Olive,												*,		900,		120
 		MSFCTShirtMulticamBlack,										*,		900,		650
-		MilitaryGear_TacticalShirt_PartizanM,				*,		900,		200
+		//MilitaryGear_TacticalShirt_PartizanM,				*,		900,		200
 		MSFCTShirtMulticamTropic,										*,		900,		400
 		MSFCTShirtMulticam,													*,		900,		400
 		MSFCTShirtBlack,														*,		900,		400
@@ -1525,21 +1531,21 @@
 		MSFCTShirtSTALKER_RP_Radiation,							*,		900,		400
 		MSFCTShirtSURPATDesert,											*,		900,		400
 		MSFCTShirtSURPAT,														*,		900,		400
-		MilitaryGear_TacticalShirt_Duckhunter,			*,		900,		400
-		MilitaryGear_TacticalShirt_Multicam,				*,		900,		400
-		MilitaryGear_TacticalShirt_Splinter,				*,		900,		400
-		MilitaryGear_TacticalShirt_Splinter_Dark,		*,		900,		400
-		MilitaryGear_TacticalShirt_Tiger,						*,		900,		400
-		MilitaryGear_TacticalShirt_Woodland,				*,		900,		400
-		MilitaryGear_TacticalShirt_FLT,							*,		900,		400
-		MilitaryGear_TacticalShirt_DPM,							*,		900,		400
-		MilitaryGear_TacticalShirt_MPAT,						*,		900,		400
-		MilitaryGear_TacticalShirt_Partizan,				*,		900,		400
-		MilitaryGear_TacticalShirt_Skol,						*,		900,		400
-		MilitaryGear_TacticalShirt_ATACS,						*,		900,		400
-		MilitaryGear_TacticalShirt_CADPAT,					*,		900,		300
-		MilitaryGear_TacticalShirt_Tropic,					*,		900,		300
-		MilitaryGear_TacticalShirt_Yeger,						*,		900,		200
+		//MilitaryGear_TacticalShirt_Duckhunter,			*,		900,		400
+		//MilitaryGear_TacticalShirt_Multicam,				*,		900,		400
+		//MilitaryGear_TacticalShirt_Splinter,				*,		900,		400
+		//MilitaryGear_TacticalShirt_Splinter_Dark,		*,		900,		400
+		//MilitaryGear_TacticalShirt_Tiger,						*,		900,		400
+		//MilitaryGear_TacticalShirt_Woodland,				*,		900,		400
+		//MilitaryGear_TacticalShirt_FLT,							*,		900,		400
+		//MilitaryGear_TacticalShirt_DPM,							*,		900,		400
+		//MilitaryGear_TacticalShirt_MPAT,						*,		900,		400
+		//MilitaryGear_TacticalShirt_Partizan,				*,		900,		400
+		//MilitaryGear_TacticalShirt_Skol,						*,		900,		400
+		//MilitaryGear_TacticalShirt_ATACS,						*,		900,		400
+		//MilitaryGear_TacticalShirt_CADPAT,					*,		900,		300
+		//MilitaryGear_TacticalShirt_Tropic,					*,		900,		300
+		//MilitaryGear_TacticalShirt_Yeger,						*,		900,		200
 		MSFCTShirtATACSAU,													*,		900,		300
 		MSFCTShirtATACSAU,													*,		900,		300
 		MSFCPCU5ATACSAUComander,										*,		850,		340
@@ -1655,22 +1661,22 @@
 		MSFCSTALKERBanditVest,											*,		2200,		1400
 		MSFCSTALKERMilitaryVest,										*,		2200,		1400
 		MSFCSTALKERVest_Green,											*,		2200,		1400
-		MilitaryGear_AssaultVest_PartizanM,					*,		1800,		750
-		MilitaryGear_AssaultVest_Duckhunter,				*,		1800,		750
-		MilitaryGear_AssaultVest_Multicam,					*,		1800,		750
-		MilitaryGear_AssaultVest_Splinter,					*,		1800,		750
-		MilitaryGear_AssaultVest_Splinter_Dark,		  *,		1800,		750
-		MilitaryGear_AssaultVest_Tiger,							*,		1800,		750
-		MilitaryGear_AssaultVest_Woodland,					*,		1800,		750
-		MilitaryGear_AssaultVest_FLT,								*,		1800,		750
-		MilitaryGear_AssaultVest_DPM,								*,		1800,		750
-		MilitaryGear_AssaultVest_MPAT,							*,		1800,		750
-		MilitaryGear_AssaultVest_Partizan,					*,		1800,		750
-		MilitaryGear_AssaultVest_Skol,							*,		1800,		750
-		MilitaryGear_AssaultVest_ATACS,							*,		1800,		750
-		MilitaryGear_AssaultVest_CADPAT,						*,		1800,		750
-		MilitaryGear_AssaultVest_Tropic,						*,		1800,		750
-		MilitaryGear_AssaultVest_Yeger,							*,		1800,		750
+		//MilitaryGear_AssaultVest_PartizanM,					*,		1800,		750
+		//MilitaryGear_AssaultVest_Duckhunter,				*,		1800,		750
+		//MilitaryGear_AssaultVest_Multicam,					*,		1800,		750
+		//MilitaryGear_AssaultVest_Splinter,					*,		1800,		750
+		//MilitaryGear_AssaultVest_Splinter_Dark,		  *,		1800,		750
+		//MilitaryGear_AssaultVest_Tiger,							*,		1800,		750
+		//MilitaryGear_AssaultVest_Woodland,					*,		1800,		750
+		//MilitaryGear_AssaultVest_FLT,								*,		1800,		750
+		//MilitaryGear_AssaultVest_DPM,								*,		1800,		750
+		//MilitaryGear_AssaultVest_MPAT,							*,		1800,		750
+		//MilitaryGear_AssaultVest_Partizan,					*,		1800,		750
+		//MilitaryGear_AssaultVest_Skol,							*,		1800,		750
+		//MilitaryGear_AssaultVest_ATACS,							*,		1800,		750
+		//MilitaryGear_AssaultVest_CADPAT,						*,		1800,		750
+		//MilitaryGear_AssaultVest_Tropic,						*,		1800,		750
+		//MilitaryGear_AssaultVest_Yeger,							*,		1800,		750
 		MSFCUKVestSURPAT,														*,		2900,		1090
 		MSFCUKVestSURPATDesert,											*,		2900,		1090
 		MSFCUKVestMulticamBlack,										*,		2900,		1090
@@ -1678,22 +1684,22 @@
 		MSFCUKVestMulticam,													*,		2900,		1090
 		MSFCUKVestATACSAU,													*,		2900,		1090
 		MSFCUKVestATACSAU,													*,		2900,		1090
-		MilitaryGear_HighCapVest_PartizanM,					*,		2900,		1090
-		MilitaryGear_HighCapVest_Duckhunter,				*,		2900,		1090
-		MilitaryGear_HighCapVest_Multicam,					*,		2900,		1090
-		MilitaryGear_HighCapVest_Splinter,					*,		2900,		1090
-		MilitaryGear_HighCapVest_Splinter_Dark,	 		*,		2900,		1090
-		MilitaryGear_HighCapVest_Tiger,							*,		2900,		1090
-		MilitaryGear_HighCapVest_Woodland,					*,		2900,		1090
-		MilitaryGear_HighCapVest_FLT,								*,		2900,		1090
-		MilitaryGear_HighCapVest_DPM,								*,		2900,		1090
-		MilitaryGear_HighCapVest_MPAT,							*,		2900,		1090
-		MilitaryGear_HighCapVest_Partizan,					*,		2900,		1090
-		MilitaryGear_HighCapVest_Skol,							*,		2900,		1090
-		MilitaryGear_HighCapVest_ATACS,							*,		2900,		1090
-		MilitaryGear_HighCapVest_CADPAT,						*,		2900,		1090
-		MilitaryGear_HighCapVest_Tropic,						*,		2900,		1090
-		MilitaryGear_HighCapVest_Yeger,							*,		2900,		1090
+		//MilitaryGear_HighCapVest_PartizanM,					*,		2900,		1090
+		//MilitaryGear_HighCapVest_Duckhunter,				*,		2900,		1090
+		//MilitaryGear_HighCapVest_Multicam,					*,		2900,		1090
+		//MilitaryGear_HighCapVest_Splinter,					*,		2900,		1090
+		//MilitaryGear_HighCapVest_Splinter_Dark,	 		*,		2900,		1090
+		//MilitaryGear_HighCapVest_Tiger,							*,		2900,		1090
+		//MilitaryGear_HighCapVest_Woodland,					*,		2900,		1090
+		//MilitaryGear_HighCapVest_FLT,								*,		2900,		1090
+		//MilitaryGear_HighCapVest_DPM,								*,		2900,		1090
+		//MilitaryGear_HighCapVest_MPAT,							*,		2900,		1090
+		//MilitaryGear_HighCapVest_Partizan,					*,		2900,		1090
+		//MilitaryGear_HighCapVest_Skol,							*,		2900,		1090
+		//MilitaryGear_HighCapVest_ATACS,							*,		2900,		1090
+		//MilitaryGear_HighCapVest_CADPAT,						*,		2900,		1090
+		//MilitaryGear_HighCapVest_Tropic,						*,		2900,		1090
+		//MilitaryGear_HighCapVest_Yeger,							*,		2900,		1090
 
 		SmershVest,																	*,		2500,		1190
 		MSFCSmershVestSURPATDesert,									*,		2500,		1190
@@ -1793,21 +1799,21 @@
 		MSFCSTALKERMonolitPlateVest,								*,		25000,	4500
 		MSFCSTALKERSvobodaPlateVest,								*,		25000,	4500
 		PlateCarrierVest,														*,		25000,	8000
-		MilitaryGear_PlateCarrier_FLT,							*,		25000,	4500
-		MilitaryGear_PlateCarrier_PartizanM,				*,		25000,	4500
-		MilitaryGear_PlateCarrier_Duckhunter,				*,		25000,	4500
-		MilitaryGear_PlateCarrier_Multicam,					*,		25000,	4500
-		MilitaryGear_PlateCarrier_Splinter,					*,		25000,	4500
-		MilitaryGear_PlateCarrier_Splinter_Dark,		*,		25000,	4500
-		MilitaryGear_PlateCarrier_Tiger,						*,		25000,	4500
-		MilitaryGear_PlateCarrier_Woodland,					*,		25000,	4500
-		MilitaryGear_PlateCarrier_DPM,							*,		25000,	4500
-		MilitaryGear_PlateCarrier_MPAT,							*,		25000,	4500
-		MilitaryGear_PlateCarrier_Skol,							*,		25000,	4500
-		MilitaryGear_PlateCarrier_ATACS,						*,		25000,	4500
-		MilitaryGear_PlateCarrier_CADPAT,						*,		25000,	4500
-		MilitaryGear_PlateCarrier_Tropic,						*,		25000,	4500
-		MilitaryGear_PlateCarrier_Yeger,						*,		25000,	4500
+		//MilitaryGear_PlateCarrier_FLT,							*,		25000,	4500
+		//MilitaryGear_PlateCarrier_PartizanM,				*,		25000,	4500
+		//MilitaryGear_PlateCarrier_Duckhunter,				*,		25000,	4500
+		//MilitaryGear_PlateCarrier_Multicam,					*,		25000,	4500
+		//MilitaryGear_PlateCarrier_Splinter,					*,		25000,	4500
+		//MilitaryGear_PlateCarrier_Splinter_Dark,		*,		25000,	4500
+		//MilitaryGear_PlateCarrier_Tiger,						*,		25000,	4500
+		//MilitaryGear_PlateCarrier_Woodland,					*,		25000,	4500
+		//MilitaryGear_PlateCarrier_DPM,							*,		25000,	4500
+		//MilitaryGear_PlateCarrier_MPAT,							*,		25000,	4500
+		//MilitaryGear_PlateCarrier_Skol,							*,		25000,	4500
+		//MilitaryGear_PlateCarrier_ATACS,						*,		25000,	4500
+		//MilitaryGear_PlateCarrier_CADPAT,						*,		25000,	4500
+		//MilitaryGear_PlateCarrier_Tropic,						*,		25000,	4500
+		//MilitaryGear_PlateCarrier_Yeger,						*,		25000,	4500
 		MSFCPlateCarrierVestSURPATDesert,						*,		25000,	4500
 		MSFCPlateCarrierVestSURPATDesertLogo,				*,		25000,	4500
 		MSFCPlateCarrierVestSURPATMedic,						*,		25000,	4500
@@ -2304,89 +2310,89 @@
 		GhillieTop_Mossy,														*,		7600,	200
 		GhillieTop_Tan,															*,		7600,	200
 		GhillieTop_Woodland,												*,		7600,	200
-		MilitaryGear_GhillieTop_Duckhunter,					*,		10000,	-1
-		MilitaryGear_GhillieTop_Multicam,						*,		10000,	-1
-		MilitaryGear_GhillieTop_Splinter,						*,		10000,	-1
-		MilitaryGear_GhillieTop_Splinter_Dark,			*,		10000,	-1
-		MilitaryGear_GhillieTop_Tiger,							*,		10000,	-1
-		MilitaryGear_GhillieTop_Woodland,						*,		10000,	-1
-		MilitaryGear_GhillieTop_FLT,								*,		10000,	-1
-		MilitaryGear_GhillieTop_DPM,								*,		10000,	-1
-		MilitaryGear_GhillieTop_MPAT,								*,		10000,	-1
-		MilitaryGear_GhillieTop_Partizan,						*,		10000,	-1
-		MilitaryGear_GhillieTop_Skol,								*,		10000,	-1
-		MilitaryGear_GhillieTop_ATACS,							*,		10000,	-1
-		MilitaryGear_GhillieTop_CADPAT,							*,		10000,	-1
-		MilitaryGear_GhillieTop_Tropic,							*,		10000,	-1
-		MilitaryGear_GhillieTop_Yeger,							*,		10000,	-1
-		MilitaryGear_GhillieTop_PartizanM,					*,		10000,	-1
+		//MilitaryGear_GhillieTop_Duckhunter,					*,		10000,	-1
+		//MilitaryGear_GhillieTop_Multicam,						*,		10000,	-1
+		//MilitaryGear_GhillieTop_Splinter,						*,		10000,	-1
+		//MilitaryGear_GhillieTop_Splinter_Dark,			*,		10000,	-1
+		//MilitaryGear_GhillieTop_Tiger,							*,		10000,	-1
+		//MilitaryGear_GhillieTop_Woodland,						*,		10000,	-1
+		//MilitaryGear_GhillieTop_FLT,								*,		10000,	-1
+		//MilitaryGear_GhillieTop_DPM,								*,		10000,	-1
+		//MilitaryGear_GhillieTop_MPAT,								*,		10000,	-1
+		//MilitaryGear_GhillieTop_Partizan,						*,		10000,	-1
+		//MilitaryGear_GhillieTop_Skol,								*,		10000,	-1
+		//MilitaryGear_GhillieTop_ATACS,							*,		10000,	-1
+		//MilitaryGear_GhillieTop_CADPAT,							*,		10000,	-1
+		//MilitaryGear_GhillieTop_Tropic,							*,		10000,	-1
+		//MilitaryGear_GhillieTop_Yeger,							*,		10000,	-1
+		//MilitaryGear_GhillieTop_PartizanM,					*,		10000,	-1
 		GhillieSuit_Mossy,													*,		10000,	-1
 		GhillieSuit_Tan,														*,		10000,	-1
 		GhillieSuit_Woodland,												*,		10000,	-1
-		MilitaryGear_GhillieSuit_PartizanM,					*,		14000,	-1
-		MilitaryGear_GhillieSuit_Duckhunter,				*,		14000,	-1
-		MilitaryGear_GhillieSuit_Multicam,					*,		14000,	-1
-		MilitaryGear_GhillieSuit_Splinter_Dark,			*,		14000,	-1
-		MilitaryGear_GhillieSuit_Tiger,							*,		14000,	-1
-		MilitaryGear_GhillieSuit_Woodland,					*,		14000,	-1
-		MilitaryGear_GhillieSuit_FLT,								*,		14000,	-1
-		MilitaryGear_GhillieSuit_DPM,								*,		14000,	-1
-		MilitaryGear_GhillieSuit_MPAT,							*,		14000,	-1
-		MilitaryGear_GhillieSuit_Partizan,					*,		14000,	-1
-		MilitaryGear_GhillieSuit_Skol,							*,		14000,	-1
-		MilitaryGear_GhillieSuit_ATACS,							*,		14000,	-1
-		MilitaryGear_GhillieSuit_CADPAT,						*,		14000,	-1
-		MilitaryGear_GhillieSuit_Tropic,						*,		14000,	-1
-		MilitaryGear_GhillieSuit_Yeger,							*,		14000,	-1
+		//MilitaryGear_GhillieSuit_PartizanM,					*,		14000,	-1
+		//MilitaryGear_GhillieSuit_Duckhunter,				*,		14000,	-1
+		//MilitaryGear_GhillieSuit_Multicam,					*,		14000,	-1
+		//MilitaryGear_GhillieSuit_Splinter_Dark,			*,		14000,	-1
+		//MilitaryGear_GhillieSuit_Tiger,							*,		14000,	-1
+		//MilitaryGear_GhillieSuit_Woodland,					*,		14000,	-1
+		//MilitaryGear_GhillieSuit_FLT,								*,		14000,	-1
+		//MilitaryGear_GhillieSuit_DPM,								*,		14000,	-1
+		//MilitaryGear_GhillieSuit_MPAT,							*,		14000,	-1
+		//MilitaryGear_GhillieSuit_Partizan,					*,		14000,	-1
+		//MilitaryGear_GhillieSuit_Skol,							*,		14000,	-1
+		//MilitaryGear_GhillieSuit_ATACS,							*,		14000,	-1
+		//MilitaryGear_GhillieSuit_CADPAT,						*,		14000,	-1
+		//MilitaryGear_GhillieSuit_Tropic,						*,		14000,	-1
+		//MilitaryGear_GhillieSuit_Yeger,							*,		14000,	-1
 
-		MilitaryGear_GhillieGunWrap_PartizanM,			*,		2200,	-1
-		MilitaryGear_GhillieGunWrap_CADPAT,					*,		2200,	-1
-		MilitaryGear_GhillieGunWrap_Duckhunter,			*,		2200,	-1
-		MilitaryGear_GhillieGunWrap_Multicam,				*,		2200,	-1
-		MilitaryGear_GhillieGunWrap_Splinter,				*,		2200,	-1
-		MilitaryGear_GhillieGunWrap_Splinter_Dark,	*,		2200,	-1
-		MilitaryGear_GhillieGunWrap_Tiger,					*,		2200,	-1
-		MilitaryGear_GhillieGunWrap_Woodland,				*,		2200,	-1
-		MilitaryGear_GhillieGunWrap_FLT,						*,		2200,	-1
-		MilitaryGear_GhillieGunWrap_DPM,						*,		2200,	-1
-		MilitaryGear_GhillieGunWrap_MPAT,						*,		2200,	-1
-		MilitaryGear_GhillieGunWrap_Partizan,				*,		2200,	-1
-		MilitaryGear_GhillieGunWrap_Skol,						*,		2200,	-1
-		MilitaryGear_GhillieGunWrap_ATACS,					*,		2200,	-1
-		MilitaryGear_GhillieGunWrap_Tropic,					*,		2200,	-1
-		MilitaryGear_GhillieGunWrap_Yeger,					*,		2200,	-1
-		MilitaryGear_GhillieHood_PartizanM,					*,		2200,	-1
-		MilitaryGear_GhillieHood_Duckhunter,				*,		2200,	-1
-		MilitaryGear_GhillieHood_Multicam,					*,		2200,	-1
-		MilitaryGear_GhillieHood_Splinter,					*,		2200,	-1
-		MilitaryGear_GhillieHood_Splinter_Dark,			*,		2200,	-1
-		MilitaryGear_GhillieHood_Tiger,							*,		2200,	-1
-		MilitaryGear_GhillieHood_Woodland,					*,		2200,	-1
-		MilitaryGear_GhillieHood_FLT,								*,		2200,	-1
-		MilitaryGear_GhillieHood_DPM,								*,		2200,	-1
-		MilitaryGear_GhillieHood_MPAT,							*,		2200,	-1
-		MilitaryGear_GhillieHood_Partizan,					*,		2200,	-1
-		MilitaryGear_GhillieHood_Skol,							*,		2200,	-1
-		MilitaryGear_GhillieHood_ATACS,							*,		2200,	-1
-		MilitaryGear_GhillieHood_CADPAT,						*,		2200,	-1
-		MilitaryGear_GhillieHood_Tropic,						*,		2200,	-1
-		MilitaryGear_GhillieHood_Yeger,							*,		2200,	-1
-		MilitaryGear_GhillieBushrag_PartizanM,			*,		4400,	-1
-		MilitaryGear_GhillieBushrag_Duckhunter,			*,		4400,	-1
-		MilitaryGear_GhillieBushrag_Multicam,				*,		4400,	-1
-		MilitaryGear_GhillieBushrag_Splinter,				*,		4400,	-1
-		MilitaryGear_GhillieBushrag_Splinter_Dark,	*,		4400,	-1
-		MilitaryGear_GhillieBushrag_Tiger,					*,		4400,	-1
-		MilitaryGear_GhillieBushrag_Woodland,				*,		4400,	-1
-		MilitaryGear_GhillieBushrag_FLT,						*,		4400,	-1
-		MilitaryGear_GhillieBushrag_DPM,						*,		4400,	-1
-		MilitaryGear_GhillieBushrag_MPAT,						*,		4400,	-1
-		MilitaryGear_GhillieBushrag_Partizan,				*,		4400,	-1
-		MilitaryGear_GhillieBushrag_Skol,						*,		4400,	-1
-		MilitaryGear_GhillieBushrag_ATACS,					*,		4400,	-1
-		MilitaryGear_GhillieBushrag_CADPAT,					*,		4400,	-1
-		MilitaryGear_GhillieBushrag_Tropic,					*,		4400,	-1
-		MilitaryGear_GhillieBushrag_Yeger,					*,		4400,	-1
+		//MilitaryGear_GhillieGunWrap_PartizanM,			*,		2200,	-1
+		//MilitaryGear_GhillieGunWrap_CADPAT,					*,		2200,	-1
+		//MilitaryGear_GhillieGunWrap_Duckhunter,			*,		2200,	-1
+		//MilitaryGear_GhillieGunWrap_Multicam,				*,		2200,	-1
+		//MilitaryGear_GhillieGunWrap_Splinter,				*,		2200,	-1
+		//MilitaryGear_GhillieGunWrap_Splinter_Dark,	*,		2200,	-1
+		//MilitaryGear_GhillieGunWrap_Tiger,					*,		2200,	-1
+		//MilitaryGear_GhillieGunWrap_Woodland,				*,		2200,	-1
+		//MilitaryGear_GhillieGunWrap_FLT,						*,		2200,	-1
+		//MilitaryGear_GhillieGunWrap_DPM,						*,		2200,	-1
+		//MilitaryGear_GhillieGunWrap_MPAT,						*,		2200,	-1
+		//MilitaryGear_GhillieGunWrap_Partizan,				*,		2200,	-1
+		//MilitaryGear_GhillieGunWrap_Skol,						*,		2200,	-1
+		//MilitaryGear_GhillieGunWrap_ATACS,					*,		2200,	-1
+		//MilitaryGear_GhillieGunWrap_Tropic,					*,		2200,	-1
+		//MilitaryGear_GhillieGunWrap_Yeger,					*,		2200,	-1
+		//MilitaryGear_GhillieHood_PartizanM,					*,		2200,	-1
+		//MilitaryGear_GhillieHood_Duckhunter,				*,		2200,	-1
+		//MilitaryGear_GhillieHood_Multicam,					*,		2200,	-1
+		//MilitaryGear_GhillieHood_Splinter,					*,		2200,	-1
+		//MilitaryGear_GhillieHood_Splinter_Dark,			*,		2200,	-1
+		//MilitaryGear_GhillieHood_Tiger,							*,		2200,	-1
+		//MilitaryGear_GhillieHood_Woodland,					*,		2200,	-1
+		//MilitaryGear_GhillieHood_FLT,								*,		2200,	-1
+		//MilitaryGear_GhillieHood_DPM,								*,		2200,	-1
+		//MilitaryGear_GhillieHood_MPAT,							*,		2200,	-1
+		//MilitaryGear_GhillieHood_Partizan,					*,		2200,	-1
+		//MilitaryGear_GhillieHood_Skol,							*,		2200,	-1
+		//MilitaryGear_GhillieHood_ATACS,							*,		2200,	-1
+		//MilitaryGear_GhillieHood_CADPAT,						*,		2200,	-1
+		//MilitaryGear_GhillieHood_Tropic,						*,		2200,	-1
+		//MilitaryGear_GhillieHood_Yeger,							*,		2200,	-1
+		//MilitaryGear_GhillieBushrag_PartizanM,			*,		4400,	-1
+		//MilitaryGear_GhillieBushrag_Duckhunter,			*,		4400,	-1
+		//MilitaryGear_GhillieBushrag_Multicam,				*,		4400,	-1
+		//MilitaryGear_GhillieBushrag_Splinter,				*,		4400,	-1
+		//MilitaryGear_GhillieBushrag_Splinter_Dark,	*,		4400,	-1
+		//MilitaryGear_GhillieBushrag_Tiger,					*,		4400,	-1
+		//MilitaryGear_GhillieBushrag_Woodland,				*,		4400,	-1
+		//MilitaryGear_GhillieBushrag_FLT,						*,		4400,	-1
+		//MilitaryGear_GhillieBushrag_DPM,						*,		4400,	-1
+		//MilitaryGear_GhillieBushrag_MPAT,						*,		4400,	-1
+		//MilitaryGear_GhillieBushrag_Partizan,				*,		4400,	-1
+		//MilitaryGear_GhillieBushrag_Skol,						*,		4400,	-1
+		//MilitaryGear_GhillieBushrag_ATACS,					*,		4400,	-1
+		//MilitaryGear_GhillieBushrag_CADPAT,					*,		4400,	-1
+		//MilitaryGear_GhillieBushrag_Tropic,					*,		4400,	-1
+		//MilitaryGear_GhillieBushrag_Yeger,					*,		4400,	-1
 
 	//<Category> Seasonal
 		//SantasBeard,															*,		150,		0
@@ -2556,22 +2562,22 @@
 		MSFCAssaultBagSURPATMedic,									*,		800,			400
 		MSFCAssaultBagATACSAUMedic,									*,		800,			400
 		MSFCAssaultBagATACSAUMedic,									*,		800,			400
-		MilitaryGear_AssaultBag_PartizanM,					*,		800,			400
-		MilitaryGear_AssaultBag_Duckhunter,					*,		800,			400
-		MilitaryGear_AssaultBag_Multicam,						*,		800,			400
-		MilitaryGear_AssaultBag_Splinter,						*,		800,			400
-		MilitaryGear_AssaultBag_Splinter_Dark,			*,		800,			400
-		MilitaryGear_AssaultBag_Tiger,							*,		800,			400
-		MilitaryGear_AssaultBag_Woodland,						*,		800,			400
-		MilitaryGear_AssaultBag_FLT,								*,		800,			400
-		MilitaryGear_AssaultBag_DPM,								*,		800,			400
-		MilitaryGear_AssaultBag_MPAT,								*,		800,			400
-		MilitaryGear_AssaultBag_Partizan,						*,		800,			400
-		MilitaryGear_AssaultBag_Skol,								*,		800,			400
-		MilitaryGear_AssaultBag_ATACS,							*,		800,			400
-		MilitaryGear_AssaultBag_CADPAT,							*,		800,			400
-		MilitaryGear_AssaultBag_Tropic,							*,		800,			400
-		MilitaryGear_AssaultBag_Yeger,							*,		800,			400
+		//MilitaryGear_AssaultBag_PartizanM,					*,		800,			400
+		//MilitaryGear_AssaultBag_Duckhunter,					*,		800,			400
+		//MilitaryGear_AssaultBag_Multicam,						*,		800,			400
+		//MilitaryGear_AssaultBag_Splinter,						*,		800,			400
+		//MilitaryGear_AssaultBag_Splinter_Dark,			*,		800,			400
+		//MilitaryGear_AssaultBag_Tiger,							*,		800,			400
+		//MilitaryGear_AssaultBag_Woodland,						*,		800,			400
+		//MilitaryGear_AssaultBag_FLT,								*,		800,			400
+		//MilitaryGear_AssaultBag_DPM,								*,		800,			400
+		//MilitaryGear_AssaultBag_MPAT,								*,		800,			400
+		//MilitaryGear_AssaultBag_Partizan,						*,		800,			400
+		//MilitaryGear_AssaultBag_Skol,								*,		800,			400
+		//MilitaryGear_AssaultBag_ATACS,							*,		800,			400
+		//MilitaryGear_AssaultBag_CADPAT,							*,		800,			400
+		//MilitaryGear_AssaultBag_Tropic,							*,		800,			400
+		//MilitaryGear_AssaultBag_Yeger,							*,		800,			400
 		MSFCAssaultBagMulticamBlack,								*,		800,			400
 		MSFCAssaultBagMulticamTropic,								*,		800,			400
 		MSFCAssaultBagMulticam,											*,		800,			400
@@ -2610,63 +2616,63 @@
 		DryBag_Black,																*,		1500,			650
 		DryBag_Green,																*,		1500,			500
 		HuntingBag,																	*,		2100,			900
-		MilitaryGear_HuntingBag_PartizanM,					*,		2100,			900
-		MilitaryGear_HuntingBag_Duckhunter,					*,		2100,			900
-		MilitaryGear_HuntingBag_Multicam,						*,		2100,			900
-		MilitaryGear_HuntingBag_Splinter,						*,		2100,			900
-		MilitaryGear_HuntingBag_Splinter_Dark,			*,		2100,			900
-		MilitaryGear_HuntingBag_Tiger,							*,		2100,			900
-		MilitaryGear_HuntingBag_Woodland,						*,		2100,			900
-		MilitaryGear_HuntingBag_FLT,								*,		2100,			900
-		MilitaryGear_HuntingBag_DPM,								*,		2100,			900
-		MilitaryGear_HuntingBag_MPAT,								*,		2100,			900
-		MilitaryGear_HuntingBag_Partizan,						*,		2100,			900
-		MilitaryGear_HuntingBag_Skol,								*,		2100,			900
-		MilitaryGear_HuntingBag_ATACS,							*,		2100,			900
-		MilitaryGear_HuntingBag_CADPAT,							*,		2100,			900
-		MilitaryGear_HuntingBag_Tropic,							*,		2100,			900
-		MilitaryGear_HuntingBag_Yeger,							*,		2100,			900
+		//MilitaryGear_HuntingBag_PartizanM,					*,		2100,			900
+		//MilitaryGear_HuntingBag_Duckhunter,					*,		2100,			900
+		//MilitaryGear_HuntingBag_Multicam,						*,		2100,			900
+		//MilitaryGear_HuntingBag_Splinter,						*,		2100,			900
+		//MilitaryGear_HuntingBag_Splinter_Dark,			*,		2100,			900
+		//MilitaryGear_HuntingBag_Tiger,							*,		2100,			900
+		//MilitaryGear_HuntingBag_Woodland,						*,		2100,			900
+		//MilitaryGear_HuntingBag_FLT,								*,		2100,			900
+		//MilitaryGear_HuntingBag_DPM,								*,		2100,			900
+		//MilitaryGear_HuntingBag_MPAT,								*,		2100,			900
+		//MilitaryGear_HuntingBag_Partizan,						*,		2100,			900
+		//MilitaryGear_HuntingBag_Skol,								*,		2100,			900
+		//MilitaryGear_HuntingBag_ATACS,							*,		2100,			900
+		//MilitaryGear_HuntingBag_CADPAT,							*,		2100,			900
+		//MilitaryGear_HuntingBag_Tropic,							*,		2100,			900
+		//MilitaryGear_HuntingBag_Yeger,							*,		2100,			900
 		MSFCCoyoteBagSURPATDesert,									*,		2450,			1350
 		MSFCCoyoteBagSURPAT,												*,		2450,			1350
 		MSFCCoyoteBagATACSAU,												*,		2450,			1350
 		MSFCCoyoteBagATACSAU,												*,		2450,			1350
-		MilitaryGear_CoyoteBag_PartizanM,						*,		2450,			1350
-		MilitaryGear_CoyoteBag_Duckhunter,					*,		2450,			1350
-		MilitaryGear_CoyoteBag_Multicam,						*,		2450,			1350
-		MilitaryGear_CoyoteBag_Splinter,						*,		2450,			1350
-		MilitaryGear_CoyoteBag_Splinter_Dark,				*,		2450,			1350
-		MilitaryGear_CoyoteBag_Tiger,								*,		2450,			1350
-		MilitaryGear_CoyoteBag_Woodland,						*,		2450,			1350
-		MilitaryGear_CoyoteBag_DPM,									*,		2450,			1350
-		MilitaryGear_CoyoteBag_MPAT,								*,		2450,			1350
-		MilitaryGear_CoyoteBag_Partizan,						*,		2450,			1350
-		MilitaryGear_CoyoteBag_Skol,								*,		2450,			1350
-		MilitaryGear_CoyoteBag_ATACS,								*,		2450,			1350
-		MilitaryGear_CoyoteBag_CADPAT,							*,		2450,			1350
-		MilitaryGear_CoyoteBag_Tropic,							*,		2450,			1350
-		MilitaryGear_CoyoteBag_Yeger,								*,		2450,			1350
+		//MilitaryGear_CoyoteBag_PartizanM,						*,		2450,			1350
+		//MilitaryGear_CoyoteBag_Duckhunter,					*,		2450,			1350
+		//MilitaryGear_CoyoteBag_Multicam,						*,		2450,			1350
+		//MilitaryGear_CoyoteBag_Splinter,						*,		2450,			1350
+		//MilitaryGear_CoyoteBag_Splinter_Dark,				*,		2450,			1350
+		//MilitaryGear_CoyoteBag_Tiger,								*,		2450,			1350
+		//MilitaryGear_CoyoteBag_Woodland,						*,		2450,			1350
+		//MilitaryGear_CoyoteBag_DPM,									*,		2450,			1350
+		//MilitaryGear_CoyoteBag_MPAT,								*,		2450,			1350
+		//MilitaryGear_CoyoteBag_Partizan,						*,		2450,			1350
+		//MilitaryGear_CoyoteBag_Skol,								*,		2450,			1350
+		//MilitaryGear_CoyoteBag_ATACS,								*,		2450,			1350
+		//MilitaryGear_CoyoteBag_CADPAT,							*,		2450,			1350
+		//MilitaryGear_CoyoteBag_Tropic,							*,		2450,			1350
+		//MilitaryGear_CoyoteBag_Yeger,								*,		2450,			1350
 		CoyoteBag_Brown,														*,		2300,			1300
 		CoyoteBag_Green,														*,		2500,			1600
 		MSFCCoyoteBagMulticamBlack,									*,		2900,			1700
 		MSFCCoyoteBagMulticamTropic,								*,		3100,			1400
 		MSFCCoyoteBagMulticam,											*,		3100,			1400
 		TortillaBag,																*,		2650,			1200
-		MilitaryGear_TortillaBag_PartizanM,					*,		2650,			1200
-		MilitaryGear_TortillaBag_Duckhunter,				*,		2650,			1200
-		MilitaryGear_TortillaBag_Multicam,					*,		2650,			1200
-		MilitaryGear_TortillaBag_Splinter,					*,		2650,			1200
-		MilitaryGear_TortillaBag_Splinter_Dark,			*,		2650,			1200
-		MilitaryGear_TortillaBag_Tiger,							*,		2650,			1200
-		MilitaryGear_TortillaBag_Woodland,					*,		2650,			1200
-		MilitaryGear_TortillaBag_FLT,								*,		2650,			1200
-		MilitaryGear_TortillaBag_DPM,								*,		2650,			1200
-		MilitaryGear_TortillaBag_MPAT,							*,		2650,			1200
-		MilitaryGear_TortillaBag_Partizan,					*,		2650,			1200
-		MilitaryGear_TortillaBag_Skol,							*,		2650,			1200
-		MilitaryGear_TortillaBag_ATACS,							*,		2650,			1200
-		MilitaryGear_TortillaBag_CADPAT,						*,		2650,			1200
-		MilitaryGear_TortillaBag_Tropic,						*,		2650,			1200
-		MilitaryGear_TortillaBag_Yeger,							*,		2650,			1200
+		//MilitaryGear_TortillaBag_PartizanM,					*,		2650,			1200
+		//MilitaryGear_TortillaBag_Duckhunter,				*,		2650,			1200
+		//MilitaryGear_TortillaBag_Multicam,					*,		2650,			1200
+		//MilitaryGear_TortillaBag_Splinter,					*,		2650,			1200
+		//MilitaryGear_TortillaBag_Splinter_Dark,			*,		2650,			1200
+		//MilitaryGear_TortillaBag_Tiger,							*,		2650,			1200
+		//MilitaryGear_TortillaBag_Woodland,					*,		2650,			1200
+		//MilitaryGear_TortillaBag_FLT,								*,		2650,			1200
+		//MilitaryGear_TortillaBag_DPM,								*,		2650,			1200
+		//MilitaryGear_TortillaBag_MPAT,							*,		2650,			1200
+		//MilitaryGear_TortillaBag_Partizan,					*,		2650,			1200
+		//MilitaryGear_TortillaBag_Skol,							*,		2650,			1200
+		//MilitaryGear_TortillaBag_ATACS,							*,		2650,			1200
+		//MilitaryGear_TortillaBag_CADPAT,						*,		2650,			1200
+		//MilitaryGear_TortillaBag_Tropic,						*,		2650,			1200
+		//MilitaryGear_TortillaBag_Yeger,							*,		2650,			1200
 		MSFCTortilaMulticamBlack,										*,		2600,			1350
 		MSFCTortilaMulticamTropic,									*,		2600,			1350
 		MSFCTortilaMulticam,												*,		2600,			1350
@@ -2684,20 +2690,20 @@
 		Msp_MedicBag_Green,								        	*,		4500,			2000
 		Msp_MedicBag_Red,									        	*,		4500,	    2000
 		Msp_MedicBag_Blue,								        	*,		4500,	    2000
-		MilitaryGear_MountainBag_PartizanM,					*,		5000,			2000
-		MilitaryGear_MountainBag_Duckhunter,				*,		5000,			2000
-		MilitaryGear_MountainBag_Multicam,					*,		5000,			2000
-		MilitaryGear_MountainBag_Splinter,					*,		5000,			2000
-		MilitaryGear_MountainBag_Splinter_Dark,			*,		5000,			2000
-		MilitaryGear_MountainBag_Tiger,							*,		5000,			2000
-		MilitaryGear_MountainBag_Woodland,					*,		5000,			2000
-		MilitaryGear_MountainBag_DPM,								*,		5000,			2000
-		MilitaryGear_MountainBag_MPAT,							*,		5000,			2000
-		MilitaryGear_MountainBag_Partizan,					*,		5000,			2000
-		MilitaryGear_MountainBag_Skol,							*,		5000,			2000
-		MilitaryGear_MountainBag_ATACS,							*,		5000,			2000
-		MilitaryGear_MountainBag_CADPAT,						*,		5000,			2000
-		MilitaryGear_MountainBag_Yeger,							*,		5000,			2000
+		//MilitaryGear_MountainBag_PartizanM,					*,		5000,			2000
+		//MilitaryGear_MountainBag_Duckhunter,				*,		5000,			2000
+		//MilitaryGear_MountainBag_Multicam,					*,		5000,			2000
+		//MilitaryGear_MountainBag_Splinter,					*,		5000,			2000
+		//MilitaryGear_MountainBag_Splinter_Dark,			*,		5000,			2000
+		//MilitaryGear_MountainBag_Tiger,							*,		5000,			2000
+		//MilitaryGear_MountainBag_Woodland,					*,		5000,			2000
+		//MilitaryGear_MountainBag_DPM,								*,		5000,			2000
+		//MilitaryGear_MountainBag_MPAT,							*,		5000,			2000
+		//MilitaryGear_MountainBag_Partizan,					*,		5000,			2000
+		//MilitaryGear_MountainBag_Skol,							*,		5000,			2000
+		//MilitaryGear_MountainBag_ATACS,							*,		5000,			2000
+		//MilitaryGear_MountainBag_CADPAT,						*,		5000,			2000
+		//MilitaryGear_MountainBag_Yeger,							*,		5000,			2000
 		MSFCRussianMilitaryMountain,								*,		5000,			4100
 		MSFCBackpackCargoMulticamBlack,							*,		7000,			3000
 		MSFCBackpackCargoMulticamTropic,						*,		7000,			3000
@@ -2720,21 +2726,21 @@
 		MSFCBackpackPegasusATACSAU,									*,		7900,			3900
 		MSFCBackpackPegasusMulticamBlack,						*,		9000,			4900
 		//90 slot
-		MilitaryGear_AliceBag_PartizanM,						*,		6000,			2900
-		MilitaryGear_AliceBag_Duckhunter,						*,		6000,			2900
-		MilitaryGear_AliceBag_Multicam,							*,		6000,			2900
-		MilitaryGear_AliceBag_Splinter,							*,		6000,			2900
-		MilitaryGear_AliceBag_Tiger,								*,		6000,			2900
-		MilitaryGear_AliceBag_Woodland,							*,		6000,			2900
-		MilitaryGear_AliceBag_FLT,									*,		6000,			2900
-		MilitaryGear_AliceBag_DPM,									*,		6000,			2900
-		MilitaryGear_AliceBag_MPAT,									*,		6000,			2900
-		MilitaryGear_AliceBag_Partizan,							*,		6000,			2900
-		MilitaryGear_AliceBag_Skol,									*,		6000,			2900
-		MilitaryGear_AliceBag_ATACS,								*,		6000,			2900
-		MilitaryGear_AliceBag_CADPAT,								*,		6000,			2900
-		MilitaryGear_AliceBag_Tropic,								*,		6000,			2900
-		MilitaryGear_AliceBag_Yeger,								*,		6000,			2900
+		//MilitaryGear_AliceBag_PartizanM,						*,		6000,			2900
+		//MilitaryGear_AliceBag_Duckhunter,						*,		6000,			2900
+		//MilitaryGear_AliceBag_Multicam,							*,		6000,			2900
+		//MilitaryGear_AliceBag_Splinter,							*,		6000,			2900
+		//MilitaryGear_AliceBag_Tiger,								*,		6000,			2900
+		//MilitaryGear_AliceBag_Woodland,							*,		6000,			2900
+		//MilitaryGear_AliceBag_FLT,									*,		6000,			2900
+		//MilitaryGear_AliceBag_DPM,									*,		6000,			2900
+		//MilitaryGear_AliceBag_MPAT,									*,		6000,			2900
+		//MilitaryGear_AliceBag_Partizan,							*,		6000,			2900
+		//MilitaryGear_AliceBag_Skol,									*,		6000,			2900
+		//MilitaryGear_AliceBag_ATACS,								*,		6000,			2900
+		//MilitaryGear_AliceBag_CADPAT,								*,		6000,			2900
+		//MilitaryGear_AliceBag_Tropic,								*,		6000,			2900
+		//MilitaryGear_AliceBag_Yeger,								*,		6000,			2900
 		MSFCAliceBagMulticamTropic,									*,		6000,			2900
 		MSFCAliceBagMulticam,												*,		6000,			2900
 		MSFCAliceBagSURPATDesert,										*,		6000,			2900
@@ -2855,7 +2861,7 @@
 			MSFC_GPNVG18_Green,													*,		8200,		3265
 			MSFC_BC_NVG21,															*,		12200,	6665
 			NVGHeadstrap,																*,		900,		500
-			MilitaryGear_TacticalHelmet_PartizanM,			*,		3900,		1750
+			//MilitaryGear_TacticalHelmet_PartizanM,			*,		3900,		1750
 
 	<Category> Противогаз и химкостюм
 			alp_NBCJacketCamo 													*,		9000,		2700
@@ -2889,12 +2895,12 @@
 			MSFCIIIM6800GasMaskGray,										*,		3000,		1650
 			MSFCIIIM6800GasMaskWhite,										*,		3000,		1650
 			MSFCIIIM6800GasMaskDesert,									*,		3000,		1650
-			MilitaryGear_GasMask_Black,									*,		3000, 	1500
-			MilitaryGear_GasMask_Brown,									*,		3000,	  1500
-			MilitaryGear_GasMask_Olive,									*,		3000,	  1500
-			MilitaryGear_GP5GasMask_Black,							*,		3200, 	1600
-			MilitaryGear_GP5GasMask_Brown,							*,		3200, 	1600
-			MilitaryGear_GP5GasMask_Olive,							*,		3200,	  1600
+			//MilitaryGear_GasMask_Black,									*,		3000, 	1500
+			//MilitaryGear_GasMask_Brown,									*,		3000,	  1500
+			//MilitaryGear_GasMask_Olive,									*,		3000,	  1500
+			//MilitaryGear_GP5GasMask_Black,							*,		3200, 	1600
+			//MilitaryGear_GP5GasMask_Brown,							*,		3200, 	1600
+			//MilitaryGear_GP5GasMask_Olive,							*,		3200,	  1600
 			MSFCSTALKERHood,														*,		2000,		1070
 			MSFCSTALKERDolgHood,												*,		2000,		1070
 			MSFCSTALKERSvobodaHood,											*,		2000,		1070
