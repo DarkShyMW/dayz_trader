@@ -121,12 +121,12 @@
 		Lard,																*,		200,		100
 		Guts,																*,		200,		100
 		SmallGuts,													*,		200,		100
-		PlgPelt,														*,		-1,			 2000
-		RabbltPelt,													*,		-1,			 3000
+		PigPelt,														*,		-1,			 2000
+		RabbitPelt,													*,		-1,			 3000
 		CowPelt,														*,		-1,   	4000
 		WildboarPelt,												*,		-1,		 4000
 		DeerPelt,														*,		-1,		 4000
-		ShepPelt,														*,		-1,		 4000
+		SheepPelt,														*,		-1,		 4000
 		GoatPelt,														*,		-1,		 4000
 		FoxPelt,														*,		-1, 	4000
 		WolfPelt,														*,		10000, 5000
@@ -274,7 +274,7 @@
 		BarbedWire,													*,		450,		200
 		Camonet,														*,		900,		450
 		HescoBox,														*,		-1,			650
-		CodeLock,														*,		5000		500
+		CodeLock,														*,		5000,		500
 		BarrelHoles_Blue,										*,		-1,			5000
 		BarrelHoles_Green,									*,		-1,			5000
 		BarrelHoles_Red,										*,		-1,			5000
@@ -433,7 +433,7 @@
 		GSH18,			                      	W,		700,	350
 		M1935,			                      	W,		700,	350
 		p220,			                      		W,		700,	350
-		NailgGun,			                  		W,		500,	250
+		//NailgGun,			                  		W,		500,	250
 		P99,			                      		W,		800,	400
 		SR1M,			                      		W,		700,	350
 		M9_Berreta,			                  	W,		800,	400
@@ -450,7 +450,7 @@
 		AK74UM,			                   			W,		1100,	600
 		SR2,			                      		W,		1100,	600
 		SR2_black,			                  	W,		1300,	750
-		CBJ,			                      		W,		1500,	750
+		//CBJ,			                      		W,		1500,	750
 		PP19_01,			                  		W,		1500,	750
 		MSFC_PP19_Vityaz,										W,		2200,	900
 
@@ -464,28 +464,28 @@
 		FP4_AKS74U_Brown,			  		        W,		3300,		1450
 		FP4_AKS74U_Blue,			     		      W,		3300,		1450
 		FP4_AKS74U_Red,			         	      W,		3300,		1450
-		FP4_AK74_Brown,			        	      W,		3300,		1450
-		FP4_AK74_Blue,			       	        W,		3300,		1450
-		FP4_AK74_Red,			         		      W,		3300,		1450
+		//FP4_AK74_Brown,			        	      W,		3300,		1450
+		//FP4_AK74_Blue,			       	        W,		3300,		1450
+		//FP4_AK74_Red,			         		      W,		3300,		1450
 		FP4_AKS74U,			           	        W,		3300,		1450
 		FP4_AKS74U_Black,			   		        W,		3300,		1450
 		FP4_AKS74U_Green,			    	        W,		3300,		1450
-		FP4_AK74,			            	        W,		3300,		1450
-		FP4_AK74_Black,			         	      W,		3300,		1450
-		FP4_AK74_Green,			     	          W,		3300,		1450
+		//FP4_AK74,			            	        W,		3300,		1450
+		//FP4_AK74_Black,			         	      W,		3300,		1450
+		//FP4_AK74_Green,			     	          W,		3300,		1450
 		AK101,															W,		4500,		2000
 		AK101_Green,												W,		4500,		2000
 		AK101_Black,												W,		4500,		2000
-		FP4_AK101_Brown,			       			  W,		4500,		2000
+		//FP4_AK101_Brown,			       			  W,		4500,		2000
 		FP4_AK101_Blue,			          	    W,		4500,		2000
 		FP4_AK101_red,			          	    W,		4500,		2000
-		FP4_AK101,			           	        W,		4500,		2000
-		FP4_AK101_Black,			         		  W,		4500,		2000
-		FP4_AK101_Green,			          		W,		4500,		2000
+		//FP4_AK101,			           	        W,		4500,		2000
+		//FP4_AK101_Black,			         		  W,		4500,		2000
+		//FP4_AK101_Green,			          		W,		4500,		2000
 		MSFC_AK103,													W,		5000,		2000
 		ACE23,			                     	  W,		3500,		1500
 		ace23_desert,			              		W,		3500,		1500
-		ace23_WhiteSpray,			          		W,		3500,		1500
+		//ace23_WhiteSpray,			          		W,		3500,		1500
 		MSFC_AKCR2019,											W,		4000,		2000
 		MSFC_AS_VAL,												W,		7400,		3000
 		AS_VAL_WhiteSpray, 			       	    W,		7400,		3000
@@ -515,8 +515,8 @@
 		KAC,			                     		  W,		7000,		3500
 		SCAR_OLD,			                  		W,		20000,	10000
 		SCAR,			                      		W,		20000,	10000
-		SCAR_Black,			                 	  W,		20000,	10000
-		FN_SCAR_BLACK,											W,		25000,	12500
+		//SCAR_Black,			                 	  W,		20000,	10000
+		//FN_SCAR_BLACK,											W,		25000,	12500
 		FN_SCAR_H,													W,		22000,	11000
 
 	<Category> Снайп. Винтовки
@@ -527,9 +527,9 @@
 		K_98,			                    		  W,		4000,	1500
 		svt40,			                  		  W,		4000,	1500
 		Winchester70,												W,		3000,	1500
-		FP4_WIN70,			            		    W,		6000,	3600
-		FP4_WIN70_black,			       			  W,		7000,	4600
-		FP4_WIN70_green,			       			  W,		6000,	3600
+		//FP4_WIN70,			            		    W,		6000,	3600
+		//FP4_WIN70_black,			       			  W,		7000,	4600
+		//FP4_WIN70_green,			       			  W,		6000,	3600
 		SKS,																W,		2600,	1000
 		VSS,																W,		16000,	9600
 		B95,																W,		10000,	-1
@@ -539,7 +539,7 @@
 		R700,																W,		10000,	5000
 		FAL,																W,		30000,	5500
 		PSG1,																W,		12000,	6000
-		CS5,			                    		  W,		15000,	7500
+		CS5,			                    		  W,				-1,	9000
 		MSFC_VPO136,												W,		4000,		2000
 		Vintorez,			                		  W,		20000,	9500
 		Vintorez_oldHard,			         		  W,		20000,	9500
@@ -608,15 +608,15 @@
 		Ammo_308WinTracer,									10,		1000,		35
 		Ammo_762x39Tracer,									10,		200,		50
 		Ammo_762x54Tracer,									10,		120,		20
-		Nails_steels,                       10,		100,	20
-		//Bullet_762x25,                      10,		100,	20
-		//Bullet_762x33,                      10,		100,	20
-		//Bullet_792x57,                      10,		100,	20
-		//Bullet_12x99TracerGreen,            10,		300,	50
-		//Bullet_12x99TracerYell,             10,		300,	50
-		//Bullet_9x39Tracer,                  10,		300,	50
-		//Bullet_12x99,                       10,		100,	20
 		//Nails_steels,                       10,		100,	20
+		//Bullet_762x25,                      10,		400,	200
+		//Bullet_762x33,                      10,		400,	200
+		//Bullet_792x57,                      10,		400,	200
+		//Bullet_12x99TracerGreen,            10,		400,	200
+		//Bullet_12x99TracerYell,             10,		400,	200
+		//Bullet_9x39Tracer,                  10,		400,	200
+		//Bullet_12x99,                       10,		400,	200
+		//Nails_steels,                       10,		100,	200
 
 		// When changing Prices here keep in Mind that Players
 		// can just unpack the Ammoboxes and sell the Ammo seperatly!
@@ -629,22 +629,22 @@
 		AmmoBox_45ACP_25rnd,								*,		25,		15
 		AmmoBox_00buck_10rnd,								*,		60,		25
 		AmmoBox_12gaSlug_10Rnd,							*,		80,		35
-		AmmoBox_9x39_20Rnd,									*,		220,		20
-		AmmoBox_9x39AP_20Rnd,								*,		500,		60
+		AmmoBox_9x39_20Rnd,									*,		220,	20
+		AmmoBox_9x39AP_20Rnd,								*,		500,	60
 		AmmoBox_9x39_20Rnd_Tracer,          *,		600,	200
-		AmmoBox_308Win_20Rnd,								*,		300,		60
+		AmmoBox_308Win_20Rnd,								*,		300,	60
 		AmmoBox_545x39_20Rnd,								*,		90,		60
 		AmmoBox_556x45_20Rnd,								*,		90,		60
 		AmmoBox_762x39_20Rnd,								*,		90,		60
 		AmmoBox_762x54_20Rnd,								*,		200,	120
 		AmmoBox_308WinTracer_20Rnd,					*,		2000,	800
-		AmmoBox_545x39Tracer_20Rnd,					*,		4000, 	800
+		AmmoBox_545x39Tracer_20Rnd,					*,		4000, 800
 		AmmoBox_556x45Tracer_20Rnd,					*,		4000,	800
 		AmmoBox_762x39Tracer_20Rnd,					*,		4000,	800
 		AmmoBox_762x54Tracer_20Rnd,					*,		4000,	800
 		AmmoBox_12x99_10Rnd_TracerGreen,    *,		6000,	2000
 		AmmoBox_12x99_10Rnd_TracerYell,     *,		6000,	2000
-		Ammo_338,														*,		10000,		1000
+		Ammo_338,														*,		10000,1000
 		AmmoBox_762x25_25Rnd,               *,		1000,	200
 		AmmoBox_762x33_20Rnd,               *,		1000,	200
 		AmmoBox_792x57_25Rnd,               *,		1000,	200
@@ -679,47 +679,43 @@
 		Mag_308WinSnaploader_2Rnd,					M,		1250,		125
 		Mag_MakarovPB_8Rnd,									M,		120,		60
 		//mag fidow
-		Mag_M1_15Rnds,	                    M,		300,	150
-		Mag_rpk_40Rnd_Tracers,              M,		300,	150
-		Mag_rpk_40RndSpar_Tracer,           M,		300,	150
-		Mag_val_20Rnd_coupled_Tracer,       M,		300,	150
-		Mag_tokarev_8Rnd,                   M,		300,	150
-		Mag_CS5_10rnd,                      M,		300,	150
-		Mag_FP4_AK101_30Rnd,                M,		300,	150
-		Mag_MakarovPB_8Rnd ,                M,		300,	150
-		Mag_VSK94_20Rnd,                    M,		300,	150
-		Mag_DDM_30Rnd ,                     M,		300,	150
-		Mag_rpk_40RndSpar,                  M,		300,	150
-		Mag_val_20Rnd_coupled,              M,		300,	150
-		Mag_vss_10Rnds_coupled,             M,		300,	150
+		Mag_M1_15Rnds,	                    M,		450,	150
+		Mag_rpk_40Rnd_Tracers,              M,		1500,	150
+		Mag_rpk_40RndSpar_Tracer,           M,		1500,	150
+		Mag_val_20Rnd_coupled_Tracer,       M,		190,	150
+		Mag_tokarev_8Rnd,                   M,		500,	150
+		Mag_CS5_10rnd,                      M,		-1,	1500
+		//Mag_FP4_AK101_30Rnd,                M,		300,	150
+		Mag_MakarovPB_8Rnd ,                M,		100,	50
+		Mag_VSK94_20Rnd,                    M,		1200,	850
+		Mag_DDM_30Rnd ,                     M,		1900,	150
+		Mag_rpk_40RndSpar,                  M,		1500,	150
+		Mag_val_20Rnd_coupled,              M,		1300,	150
+		Mag_vss_10Rnds_coupled,             M,		2300,	150
 		Mag_GSH18_18Rnd,                    M,		300,	150
 		Mag_m1935_13Rnd,                    M,		300,	150
-		Mag_sg550_30Rnd,                    M,		300,	150
+		Mag_sg550_30Rnd,                    M,		1300,	150
 		mag_p220_8rnd,                      M,		300,	150
 		Mag_SR2_30Rnd,                      M,		300,	150
-		Mag_AK74UM_30Rnd,                   M,		300,	150
-		Mag_mac10_30Rnd,                    M,		300,	150
-		Mag_m82_10Rnd,                      M,		300,	150
-		Mag_m82_10Rnd308,                   M,		300,	150
-		Mag_CBJ_20Rnd,                      M,		300,	150
-		Mag_CBJ_30Rnd,                      M,		300,	150
-		Mag_CBJ_50Rnd,                      M,		300,	150
-		Mag_Nailgun_50n,                    M,		300,	150
-		Mag_psg_5Rnd,                       M,		300,	150
-		Mag_SR1M_18Rnd,                     M,		300,	150
-		Mag_RPK_40Rnd,                      M,		300,	150
-		mag_svt_10rnd,                      M,		300,	150
-		mag_kac_30rnd,                      M,		300,	150
-		Mag_glock_18_17Rnd,                 M,		300,	150
-		M_1911_7Rnd,                        M,		300,	150
-		Mag_ace23_30rnd,                    M,		300,	150
-		Mag_sg552_30Rnd,                    M,		300,	150
-		Mag_pp19_30Rnd,                     M,		300,	150
-		Mag_m9_15Rnd,                       M,		300,	150
-		Mag_Scar_20rnd,                     M,		300,	150
-		Mag_VAL_20Rnd,                      M,		300,	150
-		mag_vss_10rnds,                     M,		300,	150
-		Mag_pp99_16Rnd,                     M,		300,	150
+		Mag_AK74UM_30Rnd,                   M,		700,	150
+		Mag_mac10_30Rnd,                    M,		450,	1500
+		Mag_m82_10Rnd,                      M,		12500,	1500
+		Mag_m82_10Rnd308,                   M,		12500,	1500
+		Mag_psg_5Rnd,                       M,		3300,	150
+		Mag_SR1M_18Rnd,                     M,		1300,	150
+		Mag_RPK_40Rnd,                      M,		1500,	150
+		mag_svt_10rnd,                      M,		900,	150
+		mag_kac_30rnd,                      M,		900,	150
+		Mag_glock_18_17Rnd,                 M,		900,	150
+		M_1911_7Rnd,                        M,		900,	150
+		Mag_ace23_30rnd,                    M,		900,	150
+		Mag_sg552_30Rnd,                    M,		900,	150
+		Mag_pp19_30Rnd,                     M,		600,	150
+		Mag_m9_15Rnd,                       M,		900,	150
+		Mag_Scar_20rnd,                     M,		1500,	150
+		Mag_VAL_20Rnd,                      M,		3000,	150
+		mag_vss_10rnds,                     M,		900,	150
+		Mag_pp99_16Rnd,                     M,		900,	150
 		Mag_SCAR_H_20RND,										M,		1000, 500
 		Mag_SCAR_H_40RND,										M,		2900, 1450
 
@@ -3284,8 +3280,8 @@
 		Hatchback_02,																V,		200000,	39600
 		Hatchback_02_Blue,													V,		200000,	39600
 		Hatchback_02_Black,													V,		200000,	39600
-		CrSk_Typhoon_K_53949_khaki,     					  V,   	1300000, 0
-		CrSk_Typhoon_K_53949,            						V,   	1300000, 0
+		CrSk_Typhoon_K_53949_khaki,     					  V,   	1300000, 100000
+		CrSk_Typhoon_K_53949,            						V,   	1300000, 100000
 
 
 
