@@ -510,16 +510,15 @@
 		MSFC_MSBS,													W,		52000,	25000
 		M4A1,																W,		5000,		2750
 		sg550,			                     	  W,		8000,	3900
-		SG552,			                      	W,		800,	3900
-		DDM,			                      		W,		1500,	750
-		KAC,			                     		  W,		1500,	750
-		Kac_HB,			                     	  W,		2000,	1000
-		Kac_RedLine,			              		W,		2200,	1100
-		SCAR_OLD,			                  		W,		2000,	1000
-		SCAR,			                      		W,		2000,	1000
-		SCAR_Black,			                 	  W,		2000,	1000
-		SCAR_ASIMOV,			              		W,		2200,	1100
-		SCAR_HB,			                  		W,		2200,	1100
+		SG552,			                      	W,		8000,	3900
+		DDM,			                      		W,		15000,	7500
+		KAC,			                     		  W,		7000,	3500
+		SCAR_OLD,			                  		W,		20000,	10000
+		SCAR,			                      		W,		20000,	10000
+		SCAR_Black,			                 	  W,		20000,	10000
+		SCAR_ASIMOV,			              		W,		22000,	11000
+		SCAR_HB,			                  		W,		22000,	11000
+		FN_SCAR_BLACK,											W,		25000,	12500
 
 	<Category> Снайп. Винтовки
 		Izh18,															W,		350,	150
@@ -570,7 +569,8 @@
 		Mp153Shotgun,			              		W,		1500,	750
 		Mp153Shotgun_black,			          	W,		1500,	750
 		Saiga,															W,		2000,	600
-		Saiga12,			                  		W,		2500,	750
+		Vepr12,			                  		  W,		2500,	1750
+		Vepr12u,			                  		W,		3500,	1750
 		MSFC_Vepr15,												W,		4000,		2000
 		MSFC_SaigaMK223Rem,									W,		4000,		2000
 		MSFC_Mossberg590,										W,		3000,		1000
@@ -721,6 +721,8 @@
 		Mag_VAL_20Rnd,                      M,		300,	150
 		mag_vss_10rnds,                     M,		300,	150
 		Mag_pp99_16Rnd,                     M,		300,	150
+		Mag_SCAR_H_20RND,										M,		1000, 500
+		Mag_SCAR_H_40RND,										M,		2900, 1450
 
 	<Category> Handguards
 		MP5_PlasticHndgrd,									*,		100,	50
@@ -2522,84 +2524,84 @@
 
 
 				<Category> SQUAD MSF-C Multicam Snow
-	MSFC_JPC_Vest_MulticamSnow,	*,		100,		65
-	MSFC_TAC_TEC_Vest_MulticamSnow,	*,		100,		65
-	MSFC_TacticalCap_MulticamSnow,	*,		100,		65
-	MSFC_WarBelt_MulticamSnow,	*,		100,		65
-	MSFCEmpty_Mags_Bag_MulticamSnow,	*,		100,		65
-	MSFC_IFAK_MulticamSnow,	*,		100,		65
-	MSFC_Defender_Vest_MulticamSnow,	*,		100,		65
-	MSFCM65MulticamSnow,	*,		100,		65
-	MSFCPantsMulticamSnow,	*,		100,		65
-	MSFCPCU5MulticamSnowComander,	*,		100,		65
-	MSFCPCU5MulticamSnowMedic,	*,		100,		65
-	MSFCPCU5MulticamSnowReconnaissance,	*,		100,		65
-	MSFCPCU5MulticamSnowSniper,	*,		100,		65
-	MSFCPCU5MulticamSnowSapper,	*,		100,		65
-	MSFCPCU5MulticamSnowMachineGun,	*,		100,		65
-	MSFCPCU5MulticamSnowEngineer,	*,		100,		65
-	MSFCPCU5MulticamSnowTrooper,	*,		100,		65
-	MSFCCapMulticamSnow,	*,		100,		65
-	MSFCGorkaJMulticamSnow,	*,		100,		65
-	MSFCGorkaPMulticamSnow,	*,		100,		65
-	MSFCGlovesMulticamSnow,	*,		100,		65
-	MSFCBootsMulticamSnow,	*,		100,		65
-	MSFCUKVestMulticamSnow,	*,		100,		65
-	MSFCTShirtMulticamSnow,	*,		100,		65
-	MSFCTacVestMulticamSnow,	*,		100,		65
-	MSFCTacVestMulticamSnowLogo,	*,		100,		65
-	MSFCTacVestMulticamSnowMedic,	*,		100,		65
-	MSFCBeanieHatMulticamSnow,	*,		100,		65
-	MSFCBoonieHatMulticamSnow,	*,		100,		65
-	MSFCCoyoteBagMulticamSnow,	*,		100,		65
-	MSFCMulticamSnowMask,	*,		100,		65
-	MSFCMich2001MulticamSnow,	*,		100,		65
-	MSFCAssaultBagMulticamSnow,	*,		100,		65
-	MSFCAssaultBagMulticamSnowMedic,	*,		100,		65
-	MSFCHoodMulticamSnow,	*,		100,		65
-	MSFCBandanaMulticamSnow,	*,		100,		65
-	MSFCBandanaMulticamSnowMask,	*,		100,		65
-	MSFCPlateCarrierVestMulticamSnow,	*,		100,		65
-	MSFCPlateCarrierVestMulticamSnowLogo,	*,		100,		65
-	MSFCTortilaMulticamSnow,	*,		100,		65
-	MSFCAliceBagMulticamSnow,	*,		100,		65
-	MSFCNBCPantsMulticamSnow,	*,		100,		65
-	MSFCNBCJacketMulticamSnow,	*,		100,		65
-	MSFCNBCGlovesMulticamSnow,	*,		100,		65
-	MSFCNBCBootsMulticamSnow,	*,		100,		65
-	MSFCPlateCarrierVestMulticamSnowMedic,	*,		100,		65
-	MSFCMountainBagMulticamSnow,	*,		100,		65
-	MSFCPlateHolsterMulticamSnow,	*,		100,		65
-	MSFCPlatePouchesMulticamSnow,	*,		100,		65
-	MSFCPCU5MulticamSnowSupply,	*,		100,		65
-	MSFCGorkaHelmetMulticamSnow,	*,		100,		65
-	MSFCMich2000HelmetMulticamSnow,	*,		100,		65
-	MSFCSweaterMulticamSnow,	*,		100,		65
-	MSFCPressVestMulticamSnow,	*,		100,		65
-	MSFCPCU5MulticamSnowPartComander,	*,		100,		65
-	MSFCSmershVestMulticamSnow,	*,		100,		65
-	MSFCSmershBagMulticamSnow,	*,		100,		65
-	MSFCOpsCoreMulticamSnow,	*,		100,		65
-	MSFCTacticalMaskMulticamSnow,	*,		100,		65
-	MSFCSmershBagMedicMulticamSnow,	*,		100,		65
-	MSFCPCU5MulticamSnowNoPatch,	*,		100,		65
-			MSFCGorkaJMulticamSnowNoPatch,	*,		100,		65
-			MSFCBootsLowaMulticamSnow,	*,		100,		65
-			MSFCBootsTrekkingMulticamSnow,	*,		100,		65
-			MSFCBackpackPegasusMulticamSnow,	*,		100,		65
-			MSFCBackpackCargoMulticamSnow,	*,		100,		65
-			MSFCPouchCargoMulticamSnow,	*,		100,		65
-			MSFCPouchIFAKMulticamSnow,	*,		100,		65
-	MSFC_FaceMack_MulticamSnow,	*,		100,		65
-			MSFC_TacticalBelt_MulticamSnow,	*,		100,		65
-	MSFCLowaZephyrBootsMulticamSnow,	*,		100,		65
-	MSFC_TacticalBeltMedium_MulticamSnow,	*,		100,		65
-			MSFC_TacticalBeltSmall_MulticamSnow,	*,		100,		65
-	MSFC_TacticalBeltLite_MulticamSnow,	*,		100,		65
-	MSFC_BIG_BACKPACK_MulticamSnow,	*,		100,		65
-			MSFC_SMALL_BACKPACK_MulticamSnow,	*,		100,		65
-			MSFC_BottlePouch_MulticamSnow,	*,		100,		65
-			MSFC_G3Pants_MulticamSnow,	*,		100,		65
+						MSFC_JPC_Vest_MulticamSnow,	*,		5000,		1000
+						MSFC_TAC_TEC_Vest_MulticamSnow,	*,		5000,		1000
+						MSFC_TacticalCap_MulticamSnow,	*,		5000,		1000
+						MSFC_WarBelt_MulticamSnow,	*,		5000,		1000
+						MSFCEmpty_Mags_Bag_MulticamSnow,	*,		5000,		1000
+						MSFC_IFAK_MulticamSnow,	*,		5000,		1000
+						MSFC_Defender_Vest_MulticamSnow,	*,		5000,		1000
+						MSFCM65MulticamSnow,	*,		5000,		1000
+						MSFCPantsMulticamSnow,	*,		5000,		1000
+						MSFCPCU5MulticamSnowComander,	*,		5000,		1000
+						MSFCPCU5MulticamSnowMedic,	*,		5000,		1000
+						MSFCPCU5MulticamSnowReconnaissance,	*,		5000,		1000
+						MSFCPCU5MulticamSnowSniper,	*,		5000,		1000
+						MSFCPCU5MulticamSnowSapper,	*,		5000,		1000
+						MSFCPCU5MulticamSnowMachineGun,	*,		5000,		1000
+						MSFCPCU5MulticamSnowEngineer,	*,		5000,		1000
+						MSFCPCU5MulticamSnowTrooper,	*,		5000,		1000
+						MSFCCapMulticamSnow,	*,		5000,		1000
+						MSFCGorkaJMulticamSnow,	*,		5000,		1000
+						MSFCGorkaPMulticamSnow,	*,		5000,		1000
+						MSFCGlovesMulticamSnow,	*,		5000,		1000
+						MSFCBootsMulticamSnow,	*,		5000,		1000
+						MSFCUKVestMulticamSnow,	*,		5000,		1000
+						MSFCTShirtMulticamSnow,	*,		5000,		1000
+						MSFCTacVestMulticamSnow,	*,		5000,		1000
+						MSFCTacVestMulticamSnowLogo,	*,		5000,		1000
+						MSFCTacVestMulticamSnowMedic,	*,		5000,		1000
+						MSFCBeanieHatMulticamSnow,	*,		5000,		1000
+						MSFCBoonieHatMulticamSnow,	*,		5000,		1000
+						MSFCCoyoteBagMulticamSnow,	*,		5000,		1000
+						MSFCMulticamSnowMask,	*,		5000,		1000
+						MSFCMich2001MulticamSnow,	*,		5000,		1000
+						MSFCAssaultBagMulticamSnow,	*,		5000,		1000
+						MSFCAssaultBagMulticamSnowMedic,	*,		5000,		1000
+						MSFCHoodMulticamSnow,	*,		5000,		1000
+						MSFCBandanaMulticamSnow,	*,		5000,		1000
+						MSFCBandanaMulticamSnowMask,	*,		5000,		1000
+						MSFCPlateCarrierVestMulticamSnow,	*,		5000,		1000
+						MSFCPlateCarrierVestMulticamSnowLogo,	*,		5000,		1000
+						MSFCTortilaMulticamSnow,	*,		5000,		1000
+						MSFCAliceBagMulticamSnow,	*,		5000,		1000
+						MSFCNBCPantsMulticamSnow,	*,		5000,		1000
+						MSFCNBCJacketMulticamSnow,	*,		5000,		1000
+						MSFCNBCGlovesMulticamSnow,	*,		5000,		1000
+						MSFCNBCBootsMulticamSnow,	*,		5000,		1000
+						MSFCPlateCarrierVestMulticamSnowMedic,	*,		5000,		1000
+						MSFCMountainBagMulticamSnow,	*,		5000,		1000
+						MSFCPlateHolsterMulticamSnow,	*,		5000,		1000
+						MSFCPlatePouchesMulticamSnow,	*,		5000,		1000
+						MSFCPCU5MulticamSnowSupply,	*,		5000,		1000
+						MSFCGorkaHelmetMulticamSnow,	*,		5000,		1000
+						MSFCMich2000HelmetMulticamSnow,	*,		5000,		1000
+						MSFCSweaterMulticamSnow,	*,		5000,		1000
+						MSFCPressVestMulticamSnow,	*,		5000,		1000
+						MSFCPCU5MulticamSnowPartComander,	*,		5000,		1000
+						MSFCSmershVestMulticamSnow,	*,		5000,		1000
+						MSFCSmershBagMulticamSnow,	*,		5000,		1000
+						MSFCOpsCoreMulticamSnow,	*,		5000,		1000
+						MSFCTacticalMaskMulticamSnow,	*,		5000,		1000
+						MSFCSmershBagMedicMulticamSnow,	*,		5000,		1000
+						MSFCPCU5MulticamSnowNoPatch,	*,		5000,		1000
+						MSFCGorkaJMulticamSnowNoPatch,	*,		5000,		1000
+						MSFCBootsLowaMulticamSnow,	*,		5000,		1000
+						MSFCBootsTrekkingMulticamSnow,	*,		5000,		1000
+						MSFCBackpackPegasusMulticamSnow,	*,		5000,		1000
+						MSFCBackpackCargoMulticamSnow,	*,		5000,		1000
+						MSFCPouchCargoMulticamSnow,	*,		5000,		1000
+						MSFCPouchIFAKMulticamSnow,	*,		5000,		1000
+						MSFC_FaceMack_MulticamSnow,	*,		5000,		1000
+						MSFC_TacticalBelt_MulticamSnow,	*,		5000,		1000
+						MSFCLowaZephyrBootsMulticamSnow,	*,		5000,		1000
+						MSFC_TacticalBeltMedium_MulticamSnow,	*,		5000,		1000
+						MSFC_TacticalBeltSmall_MulticamSnow,	*,		5000,		1000
+						MSFC_TacticalBeltLite_MulticamSnow,	*,		5000,		1000
+						MSFC_BIG_BACKPACK_MulticamSnow,	*,		5000,		1000
+						MSFC_SMALL_BACKPACK_MulticamSnow,	*,		5000,		1000
+						MSFC_BottlePouch_MulticamSnow,	*,		5000,		10000
+						MSFC_G3Pants_MulticamSnow,	*,		5000,		10000
 
 	<Category> Ghillie
 		// Keep in Mind that Players can also
@@ -2616,40 +2618,14 @@
 		GhillieTop_Mossy,														*,		7600,	200
 		GhillieTop_Tan,															*,		7600,	200
 		GhillieTop_Woodland,												*,		7600,	200
-		//MilitaryGear_GhillieTop_Duckhunter,					*,		10000,	-1
-		//MilitaryGear_GhillieTop_Multicam,						*,		10000,	-1
-		//MilitaryGear_GhillieTop_Splinter,						*,		10000,	-1
-		//MilitaryGear_GhillieTop_Splinter_Dark,			*,		10000,	-1
-		//MilitaryGear_GhillieTop_Tiger,							*,		10000,	-1
-		//MilitaryGear_GhillieTop_Woodland,						*,		10000,	-1
-		//MilitaryGear_GhillieTop_FLT,								*,		10000,	-1
-		//MilitaryGear_GhillieTop_DPM,								*,		10000,	-1
-		//MilitaryGear_GhillieTop_MPAT,								*,		10000,	-1
-		//MilitaryGear_GhillieTop_Partizan,						*,		10000,	-1
-		//MilitaryGear_GhillieTop_Skol,								*,		10000,	-1
-		//MilitaryGear_GhillieTop_ATACS,							*,		10000,	-1
-		//MilitaryGear_GhillieTop_CADPAT,							*,		10000,	-1
-		//MilitaryGear_GhillieTop_Tropic,							*,		10000,	-1
-		//MilitaryGear_GhillieTop_Yeger,							*,		10000,	-1
-		//MilitaryGear_GhillieTop_PartizanM,					*,		10000,	-1
 		GhillieSuit_Mossy,													*,		10000,	-1
 		GhillieSuit_Tan,														*,		10000,	-1
 		GhillieSuit_Woodland,												*,		10000,	-1
-		//MilitaryGear_GhillieSuit_PartizanM,					*,		14000,	-1
-		//MilitaryGear_GhillieSuit_Duckhunter,				*,		14000,	-1
-		//MilitaryGear_GhillieSuit_Multicam,					*,		14000,	-1
-		//MilitaryGear_GhillieSuit_Splinter_Dark,			*,		14000,	-1
-		//MilitaryGear_GhillieSuit_Tiger,							*,		14000,	-1
-		//MilitaryGear_GhillieSuit_Woodland,					*,		14000,	-1
-		//MilitaryGear_GhillieSuit_FLT,								*,		14000,	-1
-		//MilitaryGear_GhillieSuit_DPM,								*,		14000,	-1
-		//MilitaryGear_GhillieSuit_MPAT,							*,		14000,	-1
-		//MilitaryGear_GhillieSuit_Partizan,					*,		14000,	-1
-		//MilitaryGear_GhillieSuit_Skol,							*,		14000,	-1
-		//MilitaryGear_GhillieSuit_ATACS,							*,		14000,	-1
-		//MilitaryGear_GhillieSuit_CADPAT,						*,		14000,	-1
-		//MilitaryGear_GhillieSuit_Tropic,						*,		14000,	-1
-		//MilitaryGear_GhillieSuit_Yeger,							*,		14000,	-1
+		MSFCGhillieWeaponMulticamSnow,							*,		7500,	 3000
+		MSFCGhillieHoodMulticamSnow,								*,		12000, 6000
+		MSFCGhillieSuitMulticamSnow,								*,		15000,	7500
+		MSFCGhillieTopMulticamSnow,									*,		7000,		4500
+
 
 		//MilitaryGear_GhillieGunWrap_PartizanM,			*,		2200,	-1
 		//MilitaryGear_GhillieGunWrap_CADPAT,					*,		2200,	-1
