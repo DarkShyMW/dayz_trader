@@ -3141,12 +3141,6 @@
 			//MilitaryGear_TacticalHelmet_PartizanM,			*,		3900,		1750
 
 	<Category> Противогаз и химкостюм
-			alp_NBCJacketCamo 													*,		9000,		2700
-			alp_NBCPantsCamo  													*,		9000,		2700
-			alp_NBCHoodCamo   													*,		9000,		2700
-			alp_NBCBootsCamo  													*,		9000,		2700
-			alp_NBCGlovesCamo 													*,		9000,		2700
-			alp_GasMaskCamo   													*,		9000,		2700
 			GP5GasMask,																	*,		1200,		400
 			MSFCGasMaskGP5Black,												*,		3000,		650
 			MSFCGasMaskGP5Green,												*,		3000,		650
