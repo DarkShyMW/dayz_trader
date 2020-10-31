@@ -395,23 +395,23 @@
 <Trader> Weapon Trader
 
 	<Category> Ближний Бой
-		Msp_VorpalKnife,										W,      1000,   	100
-		Msp_GoodNightBat,										W,      5000,    	250
-		Msp_BeanBasher,											W,      5000,    	250
-		Msp_PipeAxe,												W,      5000,    	250
-		Msp_PlainBat,												W,      5000,    	250
-		Msp_PlainBat_Blue,									W,      5000,    	250
-		Msp_PlainBat_Black,									W,      5000,    	250
-		Msp_BlunderBat,											W,      5000,    	250
-		Msp_BassAxe,												W,      5000,    	250
-		MSFC_Huntsman_Knife,								W,			1000,			265
-		MSFC_DownrangeTomahawk,							W,			1000,			265
+		Msp_GoodNightBat,										W,      5000,    	2500
+		Msp_BeanBasher,											W,      5000,    	2500
+		Msp_PipeAxe,												W,      5000,    	2500
+		Msp_PlainBat,												W,      5000,    	2500
+		Msp_PlainBat_Blue,									W,      5000,    	2500
+		Msp_PlainBat_Black,									W,      5000,    	2500
+		Msp_BlunderBat,											W,      5000,    	2500
+		Msp_BassAxe,												W,      5000,    	2500
+		Msp_VorpalKnife,										W,      1500,   	800
+		MSFC_Huntsman_Knife,								W,			600,			390
 		BrassKnuckles_Shiny,								W,			300,			200
 		StunBaton,													W,			450,			300
 		Pipe,																W,			200,			100
 		CattleProd,													W,			250,			100
 		BaseballBat,												W,			350,			170
 		NailedBaseballBat,									W,			550,			200
+		MSFC_DownrangeTomahawk,							W,			-1,				3000
 		Tomahawk,                           W,			-1,				6000
 
 	<Category> Пистолеты
@@ -541,16 +541,16 @@
 		K_98,			                    		  W,		4000,	1500
 		svt40,			                  		  W,		4000,	1500
 		Winchester70,												W,		3000,	1500
-		//FP4_WIN70,			            		   W,		6000,	3600
-		//FP4_WIN70_black,			       			 W,		7000,	4600
-		//FP4_WIN70_green,			       			 W,		6000,	3600
+		//FP4_WIN70,			            		  W,		6000,	3600
+		//FP4_WIN70_black,			       			W,		7000,	4600
+		//FP4_WIN70_green,			       			W,		6000,	3600
 		SKS,																W,		2600,	1000
 		VSS,																W,		16000,	9600
 		B95,																W,		10000,	-1
 		MSFC_Tigr308,												W,		5500,		2000
 		SVD,																W,		7000,		3100
 		SV98,															  W,		7000,		4500
-		SV98_100lvl,												W,		-1,			50000
+		SV98_100lvl,												W,		-1,			90000
 		SVD_1963,			                  		W,		7500,		3600
 		FP4_M24_Rifle,											W,		12000,	5000
 		FP4_M24_Snake,											W,		12000,	5000
@@ -578,16 +578,16 @@
 
 
 	<Category> Дробовики
-		Izh43Shotgun,												W,		500,	250
-		TOZ34,			                     	  W,		600,	350
-		590_Shotgun,			              		W,		700,	400
-		Mp133Shotgun,												W,		900,	500
-		M1912_Shotgun,			              	W,		1200,	650
-		Mp153Shotgun,			              		W,		1500,	750
-		Mp153Shotgun_black,			          	W,		1500,	750
-		Saiga,															W,		2000,	600
-		Vepr12,			                  		  W,		2500,	1750
-		Vepr12u,			                  		W,		3500,	1750
+		Izh43Shotgun,												W,		500,		250
+		TOZ34,			                     	  W,		600,		350
+		590_Shotgun,			              		W,		700,		400
+		Mp133Shotgun,												W,		900,		500
+		M1912_Shotgun,			              	W,		1200,		650
+		Mp153Shotgun,			              		W,		1500,		750
+		Mp153Shotgun_black,			          	W,		1500,		750
+		Saiga,															W,		2000,		600
+		Vepr12,			                  		  W,		2500,		1750
+		Vepr12u,			                  		W,		3500,		1750
 		MSFC_Vepr15,												W,		4000,		2000
 		MSFC_SaigaMK223Rem,									W,		4000,		2000
 		MSFC_Mossberg590,										W,		3000,		1000
@@ -613,32 +613,47 @@
 
 <Trader> Weapon Supplies
 	<Category> Россыпь патроны (10 шт)
-		Ammo_380,														10,		1,		-1
-		Ammo_9x19,													10,		10,		5
-		Ammo_22,														10,		-1,		1
-		Ammo_45ACP,													10,		10,		5
-		Ammo_12gaPellets,										10,		30,		10
-		Ammo_12gaSlug,											10,		40,		20
+		Ammo_380,														10,		10,			1
+		Ammo_9x19,													10,		10,			5
+		Ammo_22,														10,		-1,			1
+		Ammo_45ACP,													10,		10,			5
+		Ammo_12gaPellets,										10,		30,			10
+		Ammo_12gaSlug,											10,		40,			20
 		Ammo_9x39,													10,		110,		15
 		Ammo_9x39AP,												10,		250,		30
 		Ammo_308Win,												10,		150,		10
-		Ammo_545x39,												10,		45,		22
-		Ammo_556x45,												10,		50,		25
-		Ammo_762x39,												10,		50,		25
-		Ammo_762x54,												10,		1000,		250
+		Ammo_545x39,												10,		45,			22
+		Ammo_556x45,												10,		50,			25
+		Ammo_762x39,												10,		50,			25
+		Ammo_762x54,												10,		70,			25
 		Ammo_556x45Tracer,									10,		200,		50
 		Ammo_545x39Tracer,									10,		200,		50
 		Ammo_308WinTracer,									10,		1000,		350
 		Ammo_762x39Tracer,									10,		200,		50
 		Ammo_762x54Tracer,									10,		120,		20
-		Ammo_338,														10,		175,	50
-		Bullet_762x25,                      10,		400,	200
-		Bullet_762x33,                      10,		400,	200
-		Bullet_792x57,                      10,		400,	200
-		Bullet_12x99TracerGreen,            10,		400,	200
-		Bullet_12x99TracerYell,             10,		400,	200
-		Bullet_9x39Tracer,                  10,		400,	200
-		Bullet_12x99,                       10,		400,	200
+		Ammo_338,														10,		175,		50
+		Ammo_9x39Tracer,                 		10,		400,		200
+		Ammo_762x25,                      	10,		400,		200
+		Ammo_762x33,                     	 	10,		400,		200
+		Ammo_792x57,                     	 	10,		400,		200
+		Ammo_12x99,                      	 	10,		8000,		4500
+		Ammo_12x99TracerGreen,           	 	10,		9000,		4500
+		Ammo_12x99TracerYell,            	 	10,		9000,		3500
+		Ammo_792x33,												10, 	-1, 		470
+		Ammo_9x18, 													10, 	-1, 		470
+		Ammo_338Tracer,											10, 	-1, 		470
+		Ammo_5x7x28,												10, 	-1, 		470
+		Ammo_5x7x28Tracer,									10, 	-1, 		470
+		Ammo_303,														10, 	-1, 		470
+		Ammo_408,														10, 	-1, 		470
+		Ammo_408Tracer,											10, 	-1, 		470
+		Ammo_4x30,													10, 	-1, 		400
+		Ammo_12_7x55,												10, 	-1, 		400
+		//Ammo_															10, 	-1, 		200
+		//Ammo_															10, 	-1, 		200
+		//Ammo_															10, 	-1, 		200
+		//Ammo_															10, 	-1, 		200
+
 
 
 		// When changing Prices here keep in Mind that Players
@@ -647,73 +662,418 @@
 		// buying single Ammo. The Selling Price is the same as
 		// selling the Ammo seperately.
 	<Category> Коробки с патронами
-		AmmoBox_380_35rnd,									*,		10,		-1
-		AmmoBox_9x19_25rnd,									*,		25,		15
-		AmmoBox_45ACP_25rnd,								*,		25,		15
-		AmmoBox_00buck_10rnd,								*,		60,		25
-		AmmoBox_12gaSlug_10Rnd,							*,		80,		35
-		AmmoBox_9x39_20Rnd,									*,		220,	20
-		AmmoBox_9x39AP_20Rnd,								*,		500,	60
-		AmmoBox_9x39_20Rnd_Tracer,          *,		600,	200
-		AmmoBox_308Win_20Rnd,								*,		300,	60
-		AmmoBox_545x39_20Rnd,								*,		90,		60
-		AmmoBox_556x45_20Rnd,								*,		90,		60
-		AmmoBox_762x39_20Rnd,								*,		90,		60
-		AmmoBox_762x54_20Rnd,								*,		200,	120
-		AmmoBox_308WinTracer_20Rnd,					*,		2000,	800
-		AmmoBox_545x39Tracer_20Rnd,					*,		4000, 800
-		AmmoBox_556x45Tracer_20Rnd,					*,		4000,	800
-		AmmoBox_762x39Tracer_20Rnd,					*,		4000,	800
-		AmmoBox_762x54Tracer_20Rnd,					*,		4000,	800
-		AmmoBox_12x99_10Rnd_TracerGreen,    *,		6000,	2000
-		AmmoBox_12x99_10Rnd_TracerYell,     *,		6000,	2000
-		AmmoBox_762x25_25Rnd,               *,		1000,	200
-		AmmoBox_762x33_20Rnd,               *,		1000,	200
-		AmmoBox_792x57_25Rnd,               *,		1000,	200
-		AmmoBox_12x99_10Rnd,                *,		1000,	200
+		AmmoBox_380_35rnd,									*,		100,	-1
+		AmmoBox_9x19_25rnd,									*,		250,	150
+		AmmoBox_45ACP_25rnd,								*,		250,	150
+		AmmoBox_00buck_10rnd,								*,		600,	250
+		AmmoBox_12gaSlug_10Rnd,							*,		800,	350
+		AmmoBox_308Win_20Rnd,								*,		800,	450
+		AmmoBox_308WinTracer_20Rnd,					*,		3500,	800
+		AmmoBox_545x39Tracer_20Rnd,					*,		3000, 800
+		AmmoBox_556x45Tracer_20Rnd,					*,		3000,	800
+		AmmoBox_762x39Tracer_20Rnd,					*,		3000,	800
+		AmmoBox_762x54Tracer_20Rnd,					*,		3000,	800
+		AmmoBox_338Tracer,									*,		-1,		800
+		AmmoBox_9x39_20Rnd_Tracer,          *,		5000,	2700
+		AmmoBox_12x99_10Rnd_TracerGreen,    *,		9000,	4500
+		AmmoBox_12x99_10Rnd_TracerYell,     *,		9000,	4500
+		AmmoBox_5x7x28Tracer,								*,		-1,		800
+		AmmoBox_408Tracer_10rnd,						*,		-1,		700
+		AmmoBox_545x39_20Rnd,								*,		700,	450
+		AmmoBox_556x45_20Rnd,								*,		700,	450
+		AmmoBox_762x25_25Rnd,               *,		700,	350
+		AmmoBox_762x33_20Rnd,               *,		700,	350
+		AmmoBox_792x57_25Rnd,               *,		700,	350
+		AmmoBox_762x39_20Rnd,								*,		500,	250
+		AmmoBox_762x54_20Rnd,								*,		500,	250
+		AmmoBox_9x39_20Rnd,									*,		3200,	900
+		AmmoBox_9x39AP_20Rnd,								*,		6000,	2500
+		AmmoBox_12x99_10Rnd,                *,		8000,	3500
+		AmmoBox_9x18,												*,		-1,		400
+		AmmoBox_338,												*,		-1,		800
+		AmmoBox_792x33,											*,		-1,		500
+		AmmoBox_5x7x28,											*,		-1,		800
+		AmmoBox_303_15Rnd,									*,		-1,		800
+		AmmoBox_408CT_10rnd,								*,		-1,		600
+		AmmoBox_4x30,												*,		-1,		300
+		AmmoBox_12_7x55,										*,		-1,		800
+		//AmmoBox_New_											*,		-1,		250
+		//AmmoBox_													*,		-1,		250
+		//AmmoBox_													*,		-1,		250
+		//AmmoBox_													*,		-1,		250
+
+			//<Category> Патроны MOD
+		//Ammo_new_762x39Hp,								10, -1,  -1
+		//Ammo_new_762x39Bp,   							10, -1,  -1
+		//Ammo_new_762x39Ps,   							10, -1,  -1
+		//Ammo_new_762x39T45M,  						10, -1,  -1
+		//Ammo_new_762x39Us,   							10, -1,  -1
+		//Ammo_new_762x39Imbalanced,   			10, -1,  -1
+		//Ammo_new_762x547Bt1,   						10, -1,  -1
+		//Ammo_new_762x547H37,   						10, -1,  -1
+		//Ammo_new_762x54Lps,   						10, -1,  -1
+		//Ammo_new_762x54Snb,   						10, -1,  -1
+		//Ammo_new_762x547H1,   						10, -1,  -1
+		//Ammo_new_762x54T46M,   						10, -1,  -1
+		//Ammo_new_762x54Imbalanced,   			10, -1,  -1
+		//Ammo_new_762x33Ap,   							10, -1,  -1
+		//Ammo_new_762x33Fmj,   						10, -1,  -1
+		//Ammo_new_762x33Imbalanced,   			10, -1,  -1
+		//Ammo_new_792x33Ap,   							10, -1,  -1
+		//Ammo_new_792x33Fmj,   						10, -1,  -1
+		//Ammo_new_792x33Imbalanced,   			10, -1,  -1
+		//792x33Fmj,   											10, -1,  -1
+		//792x33Imbalanced,   							10, -1,  -1
+		//Ammo_new_762x25Fmj43,   					10, -1,  -1
+		//Ammo_new_762x25Lrn,   						10, -1,  -1
+		//Ammo_new_762x25LrnPc,   					10, -1,  -1
+		//Ammo_new_762x25Akbs,   						10, -1,  -1
+		//Ammo_new_762x25Gl,   							10, -1,  -1
+		//Ammo_new_762x25Pt,   							10, -1,  -1
+		//Ammo_new_762x25Pst,   						10, -1,  -1
+		//Ammo_new_762x25Imbalanced,   			10, -1,  -1
+		//Ammo_new_792x57SmE,   						10, -1,  -1
+		//Ammo_new_792x57SS,   							10, -1,  -1
+		//Ammo_new_792x57SmEAP,   					10, -1,  -1
+		//Ammo_new_792x57SmK,   						10, -1,  -1
+		//Ammo_new_792x57SmKW,   						10, -1,  -1
+		//Ammo_new_792x57Imbalanced,   			10, -1,  -1
+		//Ammo_9x39AP,   										10, -1,  -1
+		//Ammo_new_9x39Sp5,   							10, -1,  -1
+		//Ammo_new_9x397H9,   							10, -1,  -1
+		//Ammo_new_9x397H12,   							10, -1,  -1
+		//Ammo_new_9x39Imbalanced,   				10, -1,  -1
+		//Ammo_new_9x39Sp6,  								10, -1,	 -1
+		//Ammo_new_380BondedJhp,   					10, -1,  -1
+		//Ammo_new_380Jhp,   								10, -1,  -1
+		//Ammo_new_380HydraShokJhp,   			10, -1,  -1
+		//Ammo_new_380SilvertipJhp,   			10, -1,  -1
+		//Ammo_new_380Xtp,   								10, -1,  -1
+		//Ammo_new_380Fmj,   								10, -1,  -1
+		//Ammo_new_380Imbalanced,   				10, -1,  -1
+		//Ammo_new_9x19Pst,   							10, -1,  -1
+		//Ammo_new_9x19Pso,   							10, -1,  -1
+		//Ammo_new_9x19LugerCci,   					10, -1,  -1
+		//Ammo_new_9x19Rip,  								10, -1,  -1
+		//Ammo_new_9x19Ap,   								10, -1,  -1
+		//Ammo_new_9x197H31,   							10, -1,  -1
+		//Ammo_new_9x19QuakeMaker,   				10, -1,  -1
+		//Ammo_new_9x19Imbalanced,   				10, -1,  -1
+		//Ammo_new_45AcpAP,   							10, -1,  -1
+		//Ammo_new_45AcpFmj,   							10, -1,  -1
+		//Ammo_new_45AcpHydrShock,   				10, -1,  -1
+		//Ammo_new_45AcpLasermatchFmj,   		10, -1,  -1
+		//Ammo_new_45AcpRip,   							10, -1,  -1
+		//Ammo_new_45AcpImbalanced,   			10, -1,  -1
+		//Ammo_new_12gaBuckshot5,   				10, -1,  -1
+		//Ammo_new_12gaExpressBuckshot6,   	10, -1,  -1
+		//Ammo_new_12gaBuckshot7,   				10, -1,  -1
+		//Ammo_new_12gaMagnumBuckshot8,   	10, -1,  -1
+		//Ammo_new_12gaRip,   							10, -1,  -1
+		//Ammo_new_12gaAP20,   							10, -1,  -1
+		//Ammo_new_12ga2Sabot,  						10, -1,  -1
+		//Ammo_new_12gaFtxCustomLIte,   		10, -1,  -1
+		//Ammo_new_12gaGrizzly40,   				10, -1,  -1
+		//Ammo_new_12gaPoleva3,   					10, -1,  -1
+		//Ammo_new_12gaPoleva6,   					10, -1,  -1
+		//Ammo_new_12ga50Bmg,   						10, -1,  -1
+		//Ammo_new_12gaLead,   							10, -1,  -1
+		//Ammo_new_12gaFlchetteS,   				10, -1,  -1
+		//Ammo_new_12gaSuperFormance,   		10, -1,  -1
+		//Ammo_new_12gaCopperSabotPremier,  10, -1,  -1
+		//Ammo_new_12gaImbalanced,   				10, -1,  -1
+		//Ammo_new_12gaImbalancedSlug,   		10, -1,  -1
+		//Ammo_new_308WinM61,   						10, -1,  -1
+		//Ammo_new_308WinM62,   						10, -1,  -1
+		//Ammo_new_308WinM80,   						10, -1,  -1
+		//Ammo_new_308WinM993,  						10, -1,  -1
+		//Ammo_new_308WinUltraNosler,   		10, -1,  -1
+		//Ammo_new_308WinFMJ,  							10, -1,  -1
+		//Ammo_new_308WinSP,   							10, -1,  -1
+		//Ammo_new_308WinImbalanced,   			10, -1,  -1
+		//Ammo_new_545x397H39,   						10, -1,  -1
+		//Ammo_new_545x39Fmj,   						10, -1,  -1
+		//Ammo_new_545x39Hp,   							10, -1,  -1
+		//Ammo_new_545x39Sp,   							10, -1,  -1
+		//Ammo_new_545x39Bp,   							10, -1,  -1
+		//Ammo_new_545x39Bs,   							10, -1,  -1
+		//Ammo_new_545x39Bt,   							10, -1,  -1
+		//Ammo_new_545x39Pp,   							10, -1,  -1
+		//Ammo_new_545x39Prs,  							10, -1,  -1
+		//Ammo_new_545x39Ps,   							10, -1,  -1
+		//Ammo_new_545x39T,    							10, -1,  -1
+		//Ammo_new_545x39Us,   							10, -1,  -1
+		//Ammo_new_545x39Imbalanced,   			10, -1,  -1
+		//Ammo_new_556x45M855,   						10, -1,  -1
+		//Ammo_new_556x45M856,   						10, -1,  -1
+		//Ammo_new_556x45M856A1,   					10, -1,  -1
+		//Ammo_new_556x45M995,   						10, -1,  -1
+		//Ammo_new_556x45Mk255,   					10, -1,  -1
+		//Ammo_new_556x4555Fmj,   					10, -1,  -1
+		//Ammo_new_556x4555Hp,  					 	10, -1,  -1
+		//Ammo_new_556x45Warmage,   				10, -1,  -1
+		//Ammo_new_556x45Imbalanced,   			10, -1,  -1
+		//Ammo_new_12x99Speer,	   					10, -1,  -1
+		//Ammo_new_12x99Adi,		   					10, -1,  -1
+		//Ammo_new_12x99Hornady,   					10, -1,  -1
+		//Ammo_new_12x99Barnes, 	 					10, -1,  -1
+		//Ammo_new_12x99Imbalanced,					10, -1,  -1
+		//Ammo_new_338Partition,						10, -1,  -1
+		//Ammo_new_338Sp,										10, -1,  -1
+		//Ammo_new_338Hpbt,									10, -1,  -1
+		//Ammo_new_338FmjBt,								10, -1,  -1
+		//Ammo_new_338Fmj,									10, -1,  -1
+		//Ammo_new_408Solid,								10, -1,  -1
+		//Ammo_new_408HPBT,									10, -1,  -1
+		//Ammo_new_408Imbalanced,						10, -1,  -1
+		//Ammo_new_9x18Bzt,									10, -1,  -1
+		//Ammo_new_9x18P,										10, -1,  -1
+		//Ammo_new_9x18Pbm,									10, -1,  -1
+		//Ammo_new_9x18Pmm,									10, -1,  -1
+		//Ammo_new_9x18Pp,									10, -1,  -1
+		//Ammo_new_9x18Ppt,									10, -1,  -1
+		//Ammo_new_9x18Prs,									10, -1,  -1
+		//Ammo_new_9x18Ps,									10, -1,  -1
+		//Ammo_new_9x18Pso,									10, -1,  -1
+		//Ammo_new_9x18Pst,									10, -1,  -1
+		//Ammo_new_9x18Psb,									10, -1,  -1
+		//Ammo_new_9x18Rg028,								10, -1,  -1
+		//Ammo_new_9x18Sp7,									10, -1,  -1
+		//Ammo_new_9x18Sp8,									10, -1,  -1
+		//Ammo_new_9x18Imbalanced,					10, -1,  -1
+		//Ammo_new_303S,										10, -1,  -1
+		//Ammo_new_303SS,										10, -1,  -1
+		//Ammo_new_303ArmorPiercing,				10, -1,  -1
+		//Ammo_new_303Imbalanced,						10, -1,  -1
+		//Ammo_new_4x30ApSx,								10, -1,  -1
+		//Ammo_new_4x30ActionSx,						10, -1,  -1
+		//Ammo_new_4x30FmjSx,								10, -1,  -1
+		//Ammo_new_4x30SubsonicSx,					10, -1,  -1
+		//Ammo_new_4x30Imbalanced,					10, -1,  -1
+		//Ammo_new_12_7x55Ps12,							10, -1,  -1
+		//Ammo_new_12_7x55Ps12A,						10, -1,  -1
+		//Ammo_new_12_7x55Ps12B,						10, -1,  -1
+		//Ammo_new_12_7x55Imbalanced,				10, -1,  -1
+		//Ammo_new_22Subsonic,							10, -1,  -1
+		//Ammo_new_22StandardVelocity,			10, -1,  -1
+		//Ammo_new_22HighVelocity,					10, -1,  -1
+		//Ammo_new_22HyperVelocity,					10, -1,  -1
+		//Ammo_new_22Imbalanced,						10, -1,  -1
+		//<Category> Коробки
+		//AmmoBox_New_12gaBuckshot5,									*, -1,  150
+		//AmmoBox_New_12gaExpressBuckshot6,						*, -1,  150
+		//AmmoBox_New_12gaBuckshot7,									*, -1,  150
+		//AmmoBox_New_12gaMagnumBuckshot8,						*, -1,  150
+		//AmmoBox_New_12gaRip,						  					*, -1,  150
+		//AmmoBox_New_12gaAP20,						  					*, -1,  150
+		//AmmoBox_New_12ga2Sabot,											*, -1,  150
+		//AmmoBox_New_12gaFtxCustomLIte,							*, -1,  150
+		//AmmoBox_New_12gaGrizzly40,									*, -1,  150
+		//AmmoBox_New_12gaPoleva3,										*, -1,  150
+		//AmmoBox_New_12gaPoleva6,										*, -1,  150
+		//AmmoBox_New_12ga50Bmg,											*, -1,  150
+		//AmmoBox_New_12gaLead,												*, -1,  150
+		//AmmoBox_New_12gaFlchetteS,									*, -1,  150
+		//AmmoBox_New_12gaSuperFormance,							*, -1,  150
+		//AmmoBox_New_12gaCopperSabotPremier,					*, -1,  150
+		//AmmoBox_New_12gaImbalanced,									*, -1,  150
+		//AmmoBox_New_12gaImbalancedSlug,							*, -1,  150
+		//AmmoBox_New_22Subsonic,											*, -1,  150
+		//AmmoBox_New_22StandardVelocity,							*, -1,  150
+		//AmmoBox_New_22HighVelocity,									*, -1,  150
+		//AmmoBox_New_22HyperVelocity,								*, -1,  150
+		//AmmoBox_New_22Imbalanced,										*, -1,  150
+		//AmmoBox_New_308WinM61,											*, -1,  150
+		//AmmoBox_New_308WinM62,											*, -1,  150
+		//AmmoBox_New_308WinM80,											*, -1,  150
+		//AmmoBox_New_308WinM993,											*, -1,  150
+		//AmmoBox_New_308WinUltraNosler,							*, -1,  150
+		//AmmoBox_New_308WinFMJ,											*, -1,  150
+		//AmmoBox_New_308WinSP,												*, -1,  150
+		//AmmoBox_New_308WinImbalanced,								*, -1,  150
+		//AmmoBox_New_357QuikShokJhp,									*, -1,  150
+		//AmmoBox_New_357HollowPoint,									*, -1,  150
+		//AmmoBox_New_357GoldDotJhp,									*, -1,  150
+		//AmmoBox_New_357ClassicJhp,									*, -1,  150
+		//AmmoBox_New_357GoldenSaberJhp,							*, -1,  150
+		//AmmoBox_New_357Semiwadcutter,								*, -1,  150
+		//AmmoBox_New_357SilvertipJhp,								*, -1,  150
+		//AmmoBox_New_357Imbalanced,									*, -1,  150
+		//AmmoBox_New_380BondedJhp,										*, -1,  150
+		//AmmoBox_New_380Jhp,													*, -1,  150
+		//AmmoBox_New_380HydraShokJhp,								*, -1,  150
+		//AmmoBox_New_380SilvertipJhp,								*, -1,  150
+		//AmmoBox_New_380Xtp,													*, -1,  150
+		//AmmoBox_New_380Fmj,													*, -1,  150
+		//AmmoBox_New_380Imbalanced,									*, -1,  150
+		//AmmoBox_New_45AcpAP,												*, -1,  150
+		//AmmoBox_New_45AcpFmj,												*, -1,  150
+		//AmmoBox_New_45AcpHydrShock,									*, -1,  150
+		//AmmoBox_New_45AcpLasermatchFmj,							*, -1,  150
+		//AmmoBox_New_45AcpRip,												*, -1,  150
+		//AmmoBox_New_45AcpImbalanced,								*, -1,  150
+		//AmmoBox_New_545x397H39,											*, -1,  150
+		//AmmoBox_New_545x39Fmj,											*, -1,  150
+		//AmmoBox_New_545x39Hp,												*, -1,  150
+		//AmmoBox_New_545x39Sp,												*, -1,  150
+		//AmmoBox_new_545x39Bp,												*, -1,  150
+		//AmmoBox_new_545x39Bs,												*, -1,  150
+		//AmmoBox_new_545x39Bt,												*, -1,  150
+		//AmmoBox_new_545x39Pp,												*, -1,  150
+		//AmmoBox_new_545x39Prs,											*, -1,  150
+		//AmmoBox_new_545x39Ps,												*, -1,  150
+		//AmmoBox_new_545x39T,												*, -1,  150
+		//AmmoBox_new_545x39Us,												*, -1,  150
+		//AmmoBox_new_545x39Imbalanced,								*, -1,  150
+		//AmmoBox_new_556x45M855,											*, -1,  150
+		//AmmoBox_new_556x45M855A1,										*, -1,  150
+		//AmmoBox_new_556x45M856,											*, -1,  150
+		//AmmoBox_new_556x45M856A1,										*, -1,  150
+		//AmmoBox_new_556x45M995,											*, -1,  150
+		//AmmoBox_new_556x45Mk255,										*, -1,  150
+		//AmmoBox_new_556x4555Fmj,										*, -1,  150
+		//AmmoBox_new_556x4555Hp,											*, -1,  150
+		//AmmoBox_new_556x45Warmage,									*, -1,  150
+		//AmmoBox_new_556x45Imbalanced,								*, -1,  150
+		//AmmoBox_new_762x39Hp,												*, -1,  150
+		//AmmoBox_new_762x39Bp,												*, -1,  150
+		//AmmoBox_new_762x39Ps,												*, -1,  150
+		//AmmoBox_new_762x39T45M,											*, -1,  150
+		//AmmoBox_new_762x39Us,												*, -1,  150
+		//AmmoBox_new_762x39Imbalanced,								*, -1,  150
+		//AmmoBox_new_762x547Bt1,											*, -1,  150
+		//AmmoBox_new_762x547H37,											*, -1,  150
+		//AmmoBox_new_762x54Lps,											*, -1,  150
+		//AmmoBox_new_762x54Snb,											*, -1,  150
+		//AmmoBox_new_762x547H1,											*, -1,  150
+		//AmmoBox_new_762x54T46M,											*, -1,  150
+		//AmmoBox_new_762x54Imbalanced,								*, -1,  150
+		//AmmoBox_new_9x19Pst,												*, -1,  150
+		//AmmoBox_new_9x19Pso,												*, -1,  150
+		//AmmoBox_new_9x19LugerCci,										*, -1,  150
+		//AmmoBox_new_9x19Ap,													*, -1,  150
+		//AmmoBox_new_9x19Rip,												*, -1,  150
+		//AmmoBox_new_9x197H31,												*, -1,  150
+		//AmmoBox_new_9x19QuakeMaker,									*, -1,  150
+		//AmmoBox_new_9x19Imbalanced,									*, -1,  150
+		//AmmoBox_new_9x39Sp5,												*, -1,  150
+		//AmmoBox_new_9x39Sp6,												*, -1,  150
+		//AmmoBox_new_9x397H9,												*, -1,  150
+		//AmmoBox_new_9x397H12,												*, -1,  150
+		//AmmoBox_new_9x39Imbalanced,									*, -1,  150
+		//AmmoBox_new_12_7x55Ps12,										*, -1,  150
+		//AmmoBox_new_12_7x55Ps12A,										*, -1,  150
+		//AmmoBox_new_12_7x55Ps12B,										*, -1,  150
+		//AmmoBox_new_12_7x55Imbalanced,							*, -1,  150
+		//AmmoBox_new_12x99Speer,											*, -1,  150
+		//AmmoBox_new_12x99Adi,												*, -1,  150
+		//AmmoBox_new_12x99Barnes,										*, -1,  150
+		//AmmoBox_new_12x99Hornady,										*, -1,  150
+		//AmmoBox_new_12x99Barnes,										*, -1,  150
+		//AmmoBox_new_12x99Imbalanced,								*, -1,  150
+		//AmmoBox_new_303S,														*, -1,  150
+		//AmmoBox_new_303SS,													*, -1,  150
+		//AmmoBox_new_303ArmorPiercing,								*, -1,  150
+		//AmmoBox_new_303Imbalanced,									*, -1,  150
+		//AmmoBox_new_338Partition,										*, -1,  150
+		//AmmoBox_new_338Sp,													*, -1,  150
+		//AmmoBox_new_338Hpbt,												*, -1,  150
+		//AmmoBox_new_338FmjBt,												*, -1,  150
+		//AmmoBox_new_338Fmj,													*, -1,  150
+		//AmmoBox_new_338Imbalanced,									*, -1,  150
+		//AmmoBox_new_408Solid,												*, -1,  150
+		//AmmoBox_new_408HPBT,												*, -1,  150
+		//AmmoBox_new_408Imbalanced,									*, -1,  150
+		//AmmoBox_new_4x30ApSx,												*, -1,  150
+		//AmmoBox_new_4x30ActionSx,										*, -1,  150
+		//AmmoBox_new_4x30FmjSx,											*, -1,  150
+		//AmmoBox_new_4x30SubsonicSx,									*, -1,  150
+		//AmmoBox_new_4x30Imbalanced,									*, -1,  150
+		//AmmoBox_new_5_7x28L191,											*, -1,  150
+		//AmmoBox_new_5_7x28R37F,											*, -1,  150
+		//AmmoBox_new_5_7x28R37X,											*, -1,  150
+		//AmmoBox_new_5_7x28SB193,										*, -1,  150
+		//AmmoBox_new_5_7x28SS190,										*, -1,  150
+		//AmmoBox_new_5_7x28SS197SR,									*, -1,  150
+		//AmmoBox_new_5_7x28SS198LF,									*, -1,  150
+		//AmmoBox_new_5_7x28Imbalanced,								*, -1,  150
+		//AmmoBox_new_762x25Fmj43,										*, -1,  150
+		//AmmoBox_new_762x25Lrn,											*, -1,  150
+		//AmmoBox_new_762x25LrnPc,										*, -1,  150
+		//AmmoBox_new_762x25Akbs,											*, -1,  150
+		//AmmoBox_new_762x25Gl,												*, -1,  150
+		//AmmoBox_new_762x25Pt,												*, -1,  150
+		//AmmoBox_new_762x25Pst,											*, -1,  150
+		//AmmoBox_new_762x25Imbalanced,								*, -1,  150
+		//AmmoBox_new_762x33Ap,												*, -1,  150
+		//AmmoBox_new_762x33Fmj,											*, -1,  150
+		//AmmoBox_new_762x33Imbalanced,								*, -1,  150
+		//AmmoBox_new_792x33Ap,												*, -1,  150
+		//AmmoBox_new_792x33Fmj,											*, -1,  150
+		//AmmoBox_new_792x33Imbalanced,								*, -1,  150
+		//AmmoBox_new_792x57SmE,											*, -1,  150
+		//AmmoBox_new_792x57SS,												*, -1,  150
+		//AmmoBox_new_792x57SmK,											*, -1,  150
+		//AmmoBox_new_792x57SmEAP,										*, -1,  150
+		//AmmoBox_new_792x57SmKW,											*, -1,  150
+		//AmmoBox_new_792x57Imbalanced,								*, -1,  150
+		//AmmoBox_new_9x18Bzt,												*, -1,  150
+		//AmmoBox_new_9x18P,													*, -1,  150
+		//AmmoBox_new_9x18Pbm,												*, -1,  150
+		//AmmoBox_new_9x18Pmm,												*, -1,  150
+		//AmmoBox_new_9x18Pp,													*, -1,  150
+		//AmmoBox_new_9x18Ppt,												*, -1,  150
+		//AmmoBox_new_9x18Prs,												*, -1,  150
+		//AmmoBox_new_9x18Ps,													*, -1,  150
+		//AmmoBox_new_9x18Pso,												*, -1,  150
+		//AmmoBox_new_9x18Pst,												*, -1,  150
+		//AmmoBox_new_9x18Psb,												*, -1,  150
+		//AmmoBox_new_9x18Rg028,											*, -1,  150
+		//AmmoBox_new_9x18Sp7,												*, -1,  150
+		//AmmoBox_new_9x18Sp8,												*, -1,  150
+		//AmmoBox_new_9x18Imbalanced,									*, -1,  150
 
 	<Category> Magazines
 		Mag_IJ70_8Rnd,											M,		20,			10
+		Mag_MKII_10Rnd,											M,		40,			20
+		Mag_CZ61_20Rnd,											M,		30,			10
 		Mag_CZ75_15Rnd,											M,		250,		100
 		Mag_Glock_15Rnd,										M,		350,		200
-		Mag_MKII_10Rnd,											M,		40,			20
 		Mag_1911_7Rnd,											M,		300,		150
 		Mag_FNX45_15Rnd,										M,		400,		200
 		Mag_CZ527_5rnd,											M,		600,		300
-		Mag_CZ61_20Rnd,											M,		30,			10
-		Mag_UMP_25Rnd,											M,		150,		75
+		Mag_UMP_25Rnd,											M,		450,		75
 		Mag_MP5_30Rnd,											M,		200,		100
 		Mag_FAL_20Rnd,											M,		5000,		500
-		Mag_Saiga_5Rnd,											M,		100,		50
-		Mag_Saiga_8Rnd,											M,		220,		60
+		Mag_Saiga_5Rnd,											M,		300,		150
+		Mag_Saiga_8Rnd,											M,		520,		260
 		Mag_Saiga_Drum20Rnd,								M,		900,		500
 		Mag_AKM_30Rnd,											M,		500,		110
-		Mag_AKM_Palm30Rnd,									M,		500,		110
-		Mag_AK101_30Rnd,										M,		520,		250
-		Mag_AK74_30Rnd,											M,		520,		250
-		Mag_STANAG_30Rnd,										M,		520,		110
-		Mag_STANAGCoupled_30Rnd,						M,		1500,		220
-		Mag_CMAG_10Rnd,											M,		120,		60
-		Mag_CMAG_20Rnd,											M,		180,		80
-		Mag_CMAG_30Rnd,											M,		220,		110
-		Mag_VSS_10Rnd,											M,		220,		110
-		Mag_SVD_10Rnd,											M,		250,		125
-		Mag_308WinSnaploader_2Rnd,					M,		1250,		125
+		Mag_AKM_Palm30Rnd,									M,		500,		250
+		Mag_AK101_30Rnd,										M,		820,		250
+		Mag_AK74_30Rnd,											M,		620,		320
+		Mag_STANAG_30Rnd,										M,		520,		200
+		Mag_STANAGCoupled_30Rnd,						M,		1500,		300
+		Mag_CMAG_10Rnd,											M,		390,		190
+		Mag_CMAG_20Rnd,											M,		480,		240
+		Mag_CMAG_30Rnd,											M,		550,		290
+		Mag_VSS_10Rnd,											M,		2200,		800
+		Mag_SVD_10Rnd,											M,		700,		450
+		Mag_308WinSnaploader_2Rnd,					M,		1250,		500
 		Mag_MakarovPB_8Rnd,									M,		120,		60
 		//mag fidow
 		Mag_M1_15Rnds,	                    M,		450,	150
 		Mag_rpk_40Rnd_Tracers,              M,		1500,	150
 		Mag_rpk_40RndSpar_Tracer,           M,		1500,	150
-		Mag_val_20Rnd_coupled_Tracer,       M,		190,	150
-		Mag_tokarev_8Rnd,                   M,		500,	150
-		Mag_CS5_10rnd,                      M,		-1,	1500
-		//Mag_FP4_AK101_30Rnd,                M,		300,	150
-		Mag_MakarovPB_8Rnd ,                M,		100,	50
+		Mag_val_20Rnd_coupled_Tracer,       M,		3900,	1350
+		Mag_tokarev_8Rnd,                   M,		500,	350
+		Mag_CS5_10rnd,                      M,		-1,		1500
+		//Mag_FP4_AK101_30Rnd,               M,		300,	150
 		Mag_VSK94_20Rnd,                    M,		1200,	850
-		Mag_DDM_30Rnd ,                     M,		1900,	150
-		Mag_rpk_40RndSpar,                  M,		1500,	150
-		Mag_val_20Rnd_coupled,              M,		1300,	150
-		Mag_vss_10Rnds_coupled,             M,		2300,	150
+		Mag_DDM_30Rnd ,                     M,		1900,	450
+		Mag_rpk_40RndSpar,                  M,		1500,	450
+		Mag_val_20Rnd_coupled,              M,		1300,	450
+		Mag_vss_10Rnds_coupled,             M,		2300,	850
 		Mag_GSH18_18Rnd,                    M,		300,	150
 		Mag_m1935_13Rnd,                    M,		300,	150
 		Mag_sg550_30Rnd,                    M,		1300,	150
@@ -734,9 +1094,9 @@
 		Mag_sg552_30Rnd,                    M,		900,	150
 		Mag_pp19_30Rnd,                     M,		600,	150
 		Mag_m9_15Rnd,                       M,		900,	150
-		Mag_Scar_20rnd,                     M,		1500,	150
-		Mag_VAL_20Rnd,                      M,		3000,	150
-		mag_vss_10rnds,                     M,		900,	150
+		Mag_Scar_20rnd,                     M,		1500,	750
+		Mag_VAL_20Rnd,                      M,		3000,	1500
+		mag_vss_10rnds,                     M,		4900,	2200
 		Mag_pp99_16Rnd,                     M,		900,	150
 		Mag_SCAR_H_20RND,										M,		1000, 500
 		Mag_SCAR_H_40RND,										M,		2900, 1450
@@ -1423,9 +1783,9 @@
 		BallisticHelmet_UN,													*,		2500,		800
 		BallisticHelmet_Black,											*,		3000,		1000
 		BallisticHelmet_Green,											*,		3500,		1100
-		MSFCMich2000HelmetMulticamBlack,						*,		2000,		725
-		MSFCMich2000HelmetMulticamTropic,						*,		2000,		725
-		MSFCMich2000HelmetMulticam,									*,		2000,		725
+		MSFCMich2000HelmetMulticamBlack,						*,		3000,		1520
+		MSFCMich2000HelmetMulticamTropic,						*,		3000,		1520
+		MSFCMich2000HelmetMulticam,									*,		3000,		1520
 		MSFCMich2000HelmetSKULL,										*,		2000,		725
 		MSFCMich2000HelmetSURPATDesert,							*,		2000,		725
 		MSFCMich2000HelmetSURPAT,										*,		2000,		725
@@ -2530,45 +2890,45 @@
 		MSFC_IFAK_MulticamSnow,								*,		700,		350
 		MSFCM65MulticamSnow,									*,		2900,		1500
 		MSFCPantsMulticamSnow,								*,		950,		450
-		MSFCPCU5MulticamSnowPartComander,			*,		1200,		950
-		MSFCPCU5MulticamSnowComander,					*,		1200,		950
-		MSFCPCU5MulticamSnowMedic,						*,		1200,		950
-		MSFCPCU5MulticamSnowReconnaissance,		*,		1200,		950
-		MSFCPCU5MulticamSnowSniper,						*,		1200,		950
-		MSFCPCU5MulticamSnowSapper,						*,		1200,		950
-		MSFCPCU5MulticamSnowMachineGun,				*,		1200,		950
-		MSFCPCU5MulticamSnowEngineer,					*,		1200,		950
-		MSFCPCU5MulticamSnowTrooper,					*,		1200,		950
-		MSFCCapMulticamSnow,									*,		5000,		1000
-		MSFCGorkaJMulticamSnow,								*,		5000,		1000
-		MSFCGorkaPMulticamSnow,								*,		5000,		1000
-		MSFCGlovesMulticamSnow,								*,		5000,		1000
-		MSFCBootsMulticamSnow,								*,		5000,		1000
-		MSFCBootsLowaMulticamSnow,						*,		5000,		1000
-		MSFCBootsTrekkingMulticamSnow,				*,		5000,		1000
-		MSFCLowaZephyrBootsMulticamSnow,			*,		5000,		1000
-		MSFCTShirtMulticamSnow,								*,		5000,		1000
-		MSFCBeanieHatMulticamSnow,						*,		5000,		1000
-		MSFCBoonieHatMulticamSnow,						*,		5000,		1000
-		MSFCMulticamSnowMask,									*,		5000,		1000
-		MSFCTacticalMaskMulticamSnow,					*,		5000,		1000
-		MSFCBandanaMulticamSnowMask,					*,		5000,		1000
-		MSFCBandanaMulticamSnow,							*,		5000,		1000
-		MSFCHoodMulticamSnow,									*,		5000,		1000
-		MSFCTortilaMulticamSnow,							*,		5000,		1000
-		MSFCPlateHolsterMulticamSnow,					*,		5000,		1000
-		MSFCPlatePouchesMulticamSnow,					*,		5000,		1000
-		MSFCPCU5MulticamSnowSupply,						*,		5000,		1000
-		MSFCGorkaHelmetMulticamSnow,					*,		5000,		1000
-		MSFCMich2000HelmetMulticamSnow,				*,		5000,		1000
-		MSFCMich2001MulticamSnow,							*,		5000,		1000
-		MSFCSweaterMulticamSnow,							*,		5000,		1000
-		MSFCOpsCoreMulticamSnow,							*,		5000,		1000
-		MSFCPCU5MulticamSnowNoPatch,					*,		5000,		1000
-		MSFCGorkaJMulticamSnowNoPatch,				*,		5000,		1000
-		MSFCPouchCargoMulticamSnow,						*,		5000,		1000
-		MSFCPouchIFAKMulticamSnow,						*,		5000,		1000
-		MSFC_FaceMack_MulticamSnow,						*,		5000,		1000
+		MSFCPCU5MulticamSnowPartComander,			*,		1200,		850
+		MSFCPCU5MulticamSnowComander,					*,		1200,		850
+		MSFCPCU5MulticamSnowMedic,						*,		1200,		850
+		MSFCPCU5MulticamSnowReconnaissance,		*,		1200,		850
+		MSFCPCU5MulticamSnowSniper,						*,		1200,		850
+		MSFCPCU5MulticamSnowSapper,						*,		1200,		850
+		MSFCPCU5MulticamSnowMachineGun,				*,		1200,		850
+		MSFCPCU5MulticamSnowEngineer,					*,		1200,		850
+		MSFCPCU5MulticamSnowTrooper,					*,		1200,		850
+		MSFCPCU5MulticamSnowSupply,						*,		1200,		850
+		MSFCPCU5MulticamSnowNoPatch,					*,		1000,		800
+		MSFCCapMulticamSnow,									*,		400,		200
+		MSFCGorkaJMulticamSnow,								*,		1600,		950
+		MSFCGorkaJMulticamSnowNoPatch,				*,		1500,		700
+		MSFCGorkaPMulticamSnow,								*,		900,		400
+		MSFCGlovesMulticamSnow,								*,		850,		400
+		MSFCBootsMulticamSnow,								*,		750,		350
+		MSFCBootsLowaMulticamSnow,						*,		750,		350
+		MSFCBootsTrekkingMulticamSnow,				*,		750,		350
+		MSFCLowaZephyrBootsMulticamSnow,			*,		1800,		950
+		MSFCTShirtMulticamSnow,								*,		1300,		650
+		MSFCBeanieHatMulticamSnow,						*,		670,		320
+		MSFCBoonieHatMulticamSnow,						*,		670,		320
+		MSFCMulticamSnowMask,									*,		600,		300
+		MSFCTacticalMaskMulticamSnow,					*,		600,		300
+		MSFCBandanaMulticamSnowMask,					*,		700,		350
+		MSFCBandanaMulticamSnow,							*,		750,		360
+		MSFCHoodMulticamSnow,									*,		3000,		1600
+		MSFCTortilaMulticamSnow,							*,		4700,		2400
+		MSFCPlateHolsterMulticamSnow,					*,		3300,		1250
+		MSFCPlatePouchesMulticamSnow,					*,		4300,		1800
+		MSFCGorkaHelmetMulticamSnow,					*,		6500,		3700
+		MSFCMich2000HelmetMulticamSnow,				*,		4900,		2600
+		MSFCMich2001MulticamSnow,							*,		5200,		2500
+		MSFCSweaterMulticamSnow,							*,		450,		200
+		MSFCOpsCoreMulticamSnow,							*,		5100,		2450
+		MSFCPouchCargoMulticamSnow,						*,		600,		350
+		MSFCPouchIFAKMulticamSnow,						*,		600,		300
+		MSFC_FaceMack_MulticamSnow,						*,		800,		400
 		MSFC_TacticalBelt_MulticamSnow,				*,		9600,		4200
 		MSFC_TacticalBeltMedium_MulticamSnow,	*,		6000,		3900
 		MSFC_TacticalBeltSmall_MulticamSnow,	*,		4500,		2550
