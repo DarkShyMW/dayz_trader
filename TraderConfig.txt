@@ -423,12 +423,16 @@
 		MKII,																W,		320,	160
 		Colt1911,														W,		640,	280
 		COLT_1911,			                  	W,		640,	250
-		COLT_1911_Desert,			          		W,		-1,	45000
-		COLT_1911_Camo,			              	W,		-1,	45000
-		COLT_1911_Ranger,			          		W,		-1,	45000
-		COLT_1911_Fury,			              	W,		-1,	45000
-		COLT_1911_red,			              	W,		-1,	45000
-		Engraved1911,												W,		-1,	45000
+		COLT_1911_Desert,			          		W,		-1,		45000
+		COLT_1911_Camo,			              	W,		-1,		45000
+		COLT_1911_Ranger,			          		W,		-1,		45000
+		COLT_1911_Fury,			              	W,		-1,		45000
+		COLT_1911_red,			              	W,		-1,		45000
+		Engraved1911,												W,		-1,		45000
+		Deagle_Gold,												W,		-1,		60000
+		FP4_DesetEagle,											W,		5800,	2800
+		Fp4_DesetEagle,											W,		5800,	2800
+		Deagle,															W,		5800,	2800
 		MSFC_P250,													W,		900,	400
 		PB1967,			                      	W,		500,	250
 		GSH18,			                      	W,		700,	350
@@ -649,6 +653,8 @@
 		Ammo_408Tracer,											10, 	-1, 		470
 		Ammo_4x30,													10, 	-1, 		400
 		Ammo_12_7x55,												10, 	-1, 		400
+		MSFC_Ammo_127x108,									10,		-1,			2500
+		MSFC_Ammo_50BMG,										10,		-1,			4000
 		//Ammo_															10, 	-1, 		200
 		//Ammo_															10, 	-1, 		200
 		//Ammo_															10, 	-1, 		200
@@ -859,6 +865,7 @@
 		//Ammo_new_22HighVelocity,					10, -1,  -1
 		//Ammo_new_22HyperVelocity,					10, -1,  -1
 		//Ammo_new_22Imbalanced,						10, -1,  -1
+
 		//<Category> Коробки
 		//AmmoBox_New_12gaBuckshot5,									*, -1,  150
 		//AmmoBox_New_12gaExpressBuckshot6,						*, -1,  150
@@ -1042,6 +1049,7 @@
 		Mag_1911_7Rnd,											M,		300,		150
 		Mag_FNX45_15Rnd,										M,		400,		200
 		Mag_CZ527_5rnd,											M,		600,		300
+		Mag_Deagle_9rnd
 		Mag_UMP_25Rnd,											M,		450,		75
 		Mag_MP5_30Rnd,											M,		200,		100
 		Mag_FAL_20Rnd,											M,		5000,		500
@@ -1100,6 +1108,25 @@
 		Mag_pp99_16Rnd,                     M,		900,	150
 		Mag_SCAR_H_20RND,										M,		1000, 500
 		Mag_SCAR_H_40RND,										M,		2900, 1450
+		MSFC_OSV96_5rnd_Mag,												*,		15000,		5500
+    MSFC_PP19_Vityaz_Mag_30Rnd,									*,		400,		200
+    MSFC_L96A1_5_Rnd_Mag,												*,		5000,		2500
+    MSFC_Barret_10rnd_Mag,											*,		15000,		2500
+    MSFC_AR15_9mm_mag,													*,		500,		250
+  	MSFC_P250_Mag_15Rnd,												*,		500,		250
+    MSFC_ORSIS_T5000_10_Rnd_Mag,								*,		8000,		2500
+    MSFC_DRUM762_Mag_75Rnd,											*,		5000,		2500
+    MSFC_RPK74_Mag_45Rnd,												*,		5000,		2500
+    MSFC_STANAG556_Mag_30Rnd,										*,		5000,		2500
+    MSFC_PMAG556_Mag_30Rnd,											*,		5000,		2500
+		MSFC_PMAG762_Mag_30Rnd,											*,		5000,		2500
+		MSFC_SCAR17_Mag_20Rnd,											*,		3500,		1250
+		MSFC_RPK_Mag_45Rnd,													*,		3500,		1250
+		MSFC_Tigr308_10_Rnd,												*,		3500,		1250
+		MSFC_PMAG556_Mag_30Rnd_Green,								*,		3500,		1250
+		MSFC_PMAG556_Mag_30Rnd_Desert,							*,		3500,		1250
+		MSFC_PMAG762_Mag_30Rnd_Green,								*,		3500,		1250
+		MSFC_PMAG762_Mag_30Rnd_Desert,							*,		3500,		1250
 
 	<Category> Handguards
 		MP5_PlasticHndgrd,									*,		100,	50
@@ -1178,7 +1205,6 @@
 		//AD_RMR_TM,           								*,      3900,    350
 		//AD_RMR_TM_MosinMount,           		*,      3900,    350
 		//AD_RMR_TM_B13,           						*,      3900,    350
-
 	<Category> Supressors
 		PistolSuppressor,										*,		180,	75
 		AK_Suppressor,											*,		250,	125
@@ -1382,28 +1408,7 @@
     MSFC_M4_OEBttstck_Kryptek_Neptune,					*,		500,		250
     MSFC_M4_RISHndgrd_Kryptek_Neptune,					*,		500,		250
 
-		<Category> SQUAD MSF-C Weapon Magazines
-    MSFC_OSV96_5rnd_Mag,												*,		15000,		5500
-    MSFC_Ammo_127x108,													*,		5000,		2500
-    MSFC_PP19_Vityaz_Mag_30Rnd,									*,		400,		200
-    MSFC_L96A1_5_Rnd_Mag,												*,		5000,		2500
-    MSFC_Barret_10rnd_Mag,											*,		15000,		2500
-    MSFC_Ammo_50BMG,														10,		10000,		4000
-    MSFC_AR15_9mm_mag,													*,		500,		250
-  	MSFC_P250_Mag_15Rnd,												*,		500,		250
-    MSFC_ORSIS_T5000_10_Rnd_Mag,								*,		8000,		2500
-    MSFC_DRUM762_Mag_75Rnd,											*,		5000,		2500
-    MSFC_RPK74_Mag_45Rnd,												*,		5000,		2500
-    MSFC_STANAG556_Mag_30Rnd,										*,		5000,		2500
-    MSFC_PMAG556_Mag_30Rnd,											*,		5000,		2500
-		MSFC_PMAG762_Mag_30Rnd,											*,		5000,		2500
-		MSFC_SCAR17_Mag_20Rnd,											*,		3500,		1250
-		MSFC_RPK_Mag_45Rnd,													*,		3500,		1250
-		MSFC_Tigr308_10_Rnd,												*,		3500,		1250
-		MSFC_PMAG556_Mag_30Rnd_Green,								*,		3500,		1250
-		MSFC_PMAG556_Mag_30Rnd_Desert,							*,		3500,		1250
-		MSFC_PMAG762_Mag_30Rnd_Green,								*,		3500,		1250
-		MSFC_PMAG762_Mag_30Rnd_Desert,							*,		3500,		1250
+		//<Category> SQUAD MSF-C Weapon Magazines
 		//MSFC_Mag_AKM_Drum75Rnd_WHITE,							*,		350,		125
 		//MSFC_Mag_AKM_Drum75Rnd_ATACS_AU,					*,		350,		125
 		//MSFC_Mag_AKM_Drum75Rnd_ATACS_FG,					*,		350,		125
