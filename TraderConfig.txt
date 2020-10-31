@@ -1430,34 +1430,82 @@
 		//MSFC_Mag_AKM_Drum75Rnd_STAR,							*,		7350,		4125
 
 <Trader> Clothing Trader
-<Category> FIDOv4 TAG
-	TAG_RAD2,                             *,		1000,	500
-	TAG_monolit,                          *,		1000,	500
-	TAG_DOLG,                             *,		1000,	500
-	TAG_renegati,                         *,		1000,	500
-	TAG_banditi,                          *,		1000,	500
-	TAG_free,                             *,		1000,	500
-	TAG_ClearNebo,                        *,		1000,	500
-	TAG_Naem,                             *,		1000,	500
-	TAG_batan,                            *,		1000,	500
-	TAG_gas,                              *,		1000,	500
-	TAG_gas2,                             *,		1000,	500
-	TAG_MIR,                              *,		1000,	500
-	TAG_rad,                              *,		1000,	500
-	TAG_sparta,                           *,		1000,	500
-	TAG_oxota,                            *,		1000,	500
-	TAG_knife,                            *,		1000,	500
-	TAG_rang1,                            *,		1000,	500
-	TAG_rang2,                            *,		1000,	500
-	TAG_rang3,                            *,		1000,	500
-	TAG_rang4,                            *,		1000,	500
-	TAG_rang5,                            *,		1000,	500
-	TAG_rang6,                            *,		1000,	500
-	TAG_rang7,                            *,		1000,	500
-	TAG_rang8,                            *,		1000,	500
-	TAG_bear,                             *,		1000,	500
-	TAG_Wolf,                             *,		1000,	500
-	TAG_Pirates,                          *,		1000,	500
+<Category>Multicam Snow
+MSFC_JPC_Vest_MulticamSnow,						*,		2500,		1300
+MSFC_TAC_TEC_Vest_MulticamSnow,				*,		2500,		1300
+MSFCUKVestMulticamSnow,								*,		4100,		1000
+MSFCTacVestMulticamSnow,							*,		6000,		2900
+MSFCTacVestMulticamSnowLogo,					*,		6000,		2900
+MSFCTacVestMulticamSnowMedic,					*,		6000,		2900
+MSFC_Defender_Vest_MulticamSnow,			*,		9000,		5200
+MSFCPlateCarrierVestMulticamSnow,			*,		35000,	20000
+MSFCPlateCarrierVestMulticamSnowLogo,	*,		35000,	20000
+MSFCPlateCarrierVestMulticamSnowMedic,*,		35000,	20000
+MSFCPressVestMulticamSnow,						*,		4100,		2200
+MSFCSmershVestMulticamSnow,						*,		3500,		1900
+MSFCEmpty_Mags_Bag_MulticamSnow,			*,		600,		300
+MSFC_IFAK_MulticamSnow,								*,		700,		350
+MSFCM65MulticamSnow,									*,		2900,		1500
+MSFCPantsMulticamSnow,								*,		950,		450
+MSFCPCU5MulticamSnowPartComander,			*,		1200,		850
+MSFCPCU5MulticamSnowComander,					*,		1200,		850
+MSFCPCU5MulticamSnowMedic,						*,		1200,		850
+MSFCPCU5MulticamSnowReconnaissance,		*,		1200,		850
+MSFCPCU5MulticamSnowSniper,						*,		1200,		850
+MSFCPCU5MulticamSnowSapper,						*,		1200,		850
+MSFCPCU5MulticamSnowMachineGun,				*,		1200,		850
+MSFCPCU5MulticamSnowEngineer,					*,		1200,		850
+MSFCPCU5MulticamSnowTrooper,					*,		1200,		850
+MSFCPCU5MulticamSnowSupply,						*,		1200,		850
+MSFCPCU5MulticamSnowNoPatch,					*,		1000,		800
+MSFCCapMulticamSnow,									*,		400,		200
+MSFCGorkaJMulticamSnow,								*,		1600,		950
+MSFCGorkaJMulticamSnowNoPatch,				*,		1500,		700
+MSFCGorkaPMulticamSnow,								*,		900,		400
+MSFCGlovesMulticamSnow,								*,		850,		400
+MSFCBootsMulticamSnow,								*,		750,		350
+MSFCBootsLowaMulticamSnow,						*,		750,		350
+MSFCBootsTrekkingMulticamSnow,				*,		750,		350
+MSFCLowaZephyrBootsMulticamSnow,			*,		1800,		950
+MSFCTShirtMulticamSnow,								*,		1300,		650
+MSFCBeanieHatMulticamSnow,						*,		670,		320
+MSFCBoonieHatMulticamSnow,						*,		670,		320
+MSFCMulticamSnowMask,									*,		600,		300
+MSFCTacticalMaskMulticamSnow,					*,		600,		300
+MSFCBandanaMulticamSnowMask,					*,		700,		350
+MSFCBandanaMulticamSnow,							*,		750,		360
+MSFCHoodMulticamSnow,									*,		3000,		1600
+MSFCTortilaMulticamSnow,							*,		4700,		2400
+MSFCPlateHolsterMulticamSnow,					*,		3300,		1250
+MSFCPlatePouchesMulticamSnow,					*,		4300,		1800
+MSFCGorkaHelmetMulticamSnow,					*,		6500,		3700
+MSFCMich2000HelmetMulticamSnow,				*,		4900,		2600
+MSFCMich2001MulticamSnow,							*,		5200,		2500
+MSFCSweaterMulticamSnow,							*,		450,		200
+MSFCOpsCoreMulticamSnow,							*,		5100,		2450
+MSFCPouchCargoMulticamSnow,						*,		600,		350
+MSFCPouchIFAKMulticamSnow,						*,		600,		300
+MSFC_FaceMack_MulticamSnow,						*,		800,		400
+MSFC_TacticalBelt_MulticamSnow,				*,		9600,		4200
+MSFC_TacticalBeltMedium_MulticamSnow,	*,		6000,		3900
+MSFC_TacticalBeltSmall_MulticamSnow,	*,		4500,		2550
+MSFC_TacticalBeltLite_MulticamSnow,		*,		3000,		3500
+MSFC_WarBelt_MulticamSnow,						*,		1500,		700
+MSFCBackpackPegasusMulticamSnow,			*,		11800,	1000
+MSFCBackpackCargoMulticamSnow,				*,		9990,		4600
+MSFC_BIG_BACKPACK_MulticamSnow,				*,		17000,	9000
+MSFC_SMALL_BACKPACK_MulticamSnow,			*,		2700,		1150
+MSFCCoyoteBagMulticamSnow,						*,		4800,		2400
+MSFCAssaultBagMulticamSnow,						*,		1900,		900
+MSFCAssaultBagMulticamSnowMedic,			*,		1900,		900
+MSFCAliceBagMulticamSnow,							*,		8000,		4900
+MSFCMountainBagMulticamSnow,					*,		9500,		5950
+MSFCSmershBagMulticamSnow,						*,		1200,		700
+MSFCSmershBagMedicMulticamSnow,				*,		900,		500
+MSFC_BottlePouch_MulticamSnow,				*,		400,		200
+MSFC_TacticalCap_MulticamSnow,				*,		400,		200
+MSFC_G3Pants_MulticamSnow,						*,		950,		400
+
 
 	<Category> Glasses
 		SportGlasses_Orange,												*,		100,		80
@@ -1942,6 +1990,35 @@
 		FP4_SEVA_Helmet,                      			*,		1500,		500
 		FP4_SEVA_Helmet															*,		1500,		500
 		OldHelmet,                            			*,		1500,		500
+
+		<Category> FIDOv4 TAG
+			TAG_RAD2,                             *,		1000,	500
+			TAG_monolit,                          *,		1000,	500
+			TAG_DOLG,                             *,		1000,	500
+			TAG_renegati,                         *,		1000,	500
+			TAG_banditi,                          *,		1000,	500
+			TAG_free,                             *,		1000,	500
+			TAG_ClearNebo,                        *,		1000,	500
+			TAG_Naem,                             *,		1000,	500
+			TAG_batan,                            *,		1000,	500
+			TAG_gas,                              *,		1000,	500
+			TAG_gas2,                             *,		1000,	500
+			TAG_MIR,                              *,		1000,	500
+			TAG_rad,                              *,		1000,	500
+			TAG_sparta,                           *,		1000,	500
+			TAG_oxota,                            *,		1000,	500
+			TAG_knife,                            *,		1000,	500
+			TAG_rang1,                            *,		1000,	500
+			TAG_rang2,                            *,		1000,	500
+			TAG_rang3,                            *,		1000,	500
+			TAG_rang4,                            *,		1000,	500
+			TAG_rang5,                            *,		1000,	500
+			TAG_rang6,                            *,		1000,	500
+			TAG_rang7,                            *,		1000,	500
+			TAG_rang8,                            *,		1000,	500
+			TAG_bear,                             *,		1000,	500
+			TAG_Wolf,                             *,		1000,	500
+			TAG_Pirates,                          *,		1000,	500
 
 	<Category> Masks
 		FP4_Hood_LES,                         			*,		500,	250
@@ -2871,83 +2948,6 @@
 		MSFCBootsATACSAU,														*,		400,		150
 		MSFCBootsLowaATACSAU,												*,		400,		150
 		MSFCBootsTrekkingATACSAU,										*,		400,		150
-
-
-				<Category>Multicam Snow123
-		MSFC_JPC_Vest_MulticamSnow,						*,		2500,		1300
-		MSFC_TAC_TEC_Vest_MulticamSnow,				*,		2500,		1300
-		MSFCUKVestMulticamSnow,								*,		4100,		1000
-		MSFCTacVestMulticamSnow,							*,		6000,		2900
-		MSFCTacVestMulticamSnowLogo,					*,		6000,		2900
-		MSFCTacVestMulticamSnowMedic,					*,		6000,		2900
-		MSFC_Defender_Vest_MulticamSnow,			*,		9000,		5200
-		MSFCPlateCarrierVestMulticamSnow,			*,		35000,	20000
-		MSFCPlateCarrierVestMulticamSnowLogo,	*,		35000,	20000
-		MSFCPlateCarrierVestMulticamSnowMedic,*,		35000,	20000
-		MSFCPressVestMulticamSnow,						*,		4100,		2200
-		MSFCSmershVestMulticamSnow,						*,		3500,		1900
-		MSFCEmpty_Mags_Bag_MulticamSnow,			*,		600,		300
-		MSFC_IFAK_MulticamSnow,								*,		700,		350
-		MSFCM65MulticamSnow,									*,		2900,		1500
-		MSFCPantsMulticamSnow,								*,		950,		450
-		MSFCPCU5MulticamSnowPartComander,			*,		1200,		850
-		MSFCPCU5MulticamSnowComander,					*,		1200,		850
-		MSFCPCU5MulticamSnowMedic,						*,		1200,		850
-		MSFCPCU5MulticamSnowReconnaissance,		*,		1200,		850
-		MSFCPCU5MulticamSnowSniper,						*,		1200,		850
-		MSFCPCU5MulticamSnowSapper,						*,		1200,		850
-		MSFCPCU5MulticamSnowMachineGun,				*,		1200,		850
-		MSFCPCU5MulticamSnowEngineer,					*,		1200,		850
-		MSFCPCU5MulticamSnowTrooper,					*,		1200,		850
-		MSFCPCU5MulticamSnowSupply,						*,		1200,		850
-		MSFCPCU5MulticamSnowNoPatch,					*,		1000,		800
-		MSFCCapMulticamSnow,									*,		400,		200
-		MSFCGorkaJMulticamSnow,								*,		1600,		950
-		MSFCGorkaJMulticamSnowNoPatch,				*,		1500,		700
-		MSFCGorkaPMulticamSnow,								*,		900,		400
-		MSFCGlovesMulticamSnow,								*,		850,		400
-		MSFCBootsMulticamSnow,								*,		750,		350
-		MSFCBootsLowaMulticamSnow,						*,		750,		350
-		MSFCBootsTrekkingMulticamSnow,				*,		750,		350
-		MSFCLowaZephyrBootsMulticamSnow,			*,		1800,		950
-		MSFCTShirtMulticamSnow,								*,		1300,		650
-		MSFCBeanieHatMulticamSnow,						*,		670,		320
-		MSFCBoonieHatMulticamSnow,						*,		670,		320
-		MSFCMulticamSnowMask,									*,		600,		300
-		MSFCTacticalMaskMulticamSnow,					*,		600,		300
-		MSFCBandanaMulticamSnowMask,					*,		700,		350
-		MSFCBandanaMulticamSnow,							*,		750,		360
-		MSFCHoodMulticamSnow,									*,		3000,		1600
-		MSFCTortilaMulticamSnow,							*,		4700,		2400
-		MSFCPlateHolsterMulticamSnow,					*,		3300,		1250
-		MSFCPlatePouchesMulticamSnow,					*,		4300,		1800
-		MSFCGorkaHelmetMulticamSnow,					*,		6500,		3700
-		MSFCMich2000HelmetMulticamSnow,				*,		4900,		2600
-		MSFCMich2001MulticamSnow,							*,		5200,		2500
-		MSFCSweaterMulticamSnow,							*,		450,		200
-		MSFCOpsCoreMulticamSnow,							*,		5100,		2450
-		MSFCPouchCargoMulticamSnow,						*,		600,		350
-		MSFCPouchIFAKMulticamSnow,						*,		600,		300
-		MSFC_FaceMack_MulticamSnow,						*,		800,		400
-		MSFC_TacticalBelt_MulticamSnow,				*,		9600,		4200
-		MSFC_TacticalBeltMedium_MulticamSnow,	*,		6000,		3900
-		MSFC_TacticalBeltSmall_MulticamSnow,	*,		4500,		2550
-		MSFC_TacticalBeltLite_MulticamSnow,		*,		3000,		3500
-		MSFC_WarBelt_MulticamSnow,						*,		1500,		700
-		MSFCBackpackPegasusMulticamSnow,			*,		11800,	1000
-		MSFCBackpackCargoMulticamSnow,				*,		9990,		4600
-		MSFC_BIG_BACKPACK_MulticamSnow,				*,		17000,	9000
-		MSFC_SMALL_BACKPACK_MulticamSnow,			*,		2700,		1150
-		MSFCCoyoteBagMulticamSnow,						*,		4800,		2400
-		MSFCAssaultBagMulticamSnow,						*,		1900,		900
-		MSFCAssaultBagMulticamSnowMedic,			*,		1900,		900
-		MSFCAliceBagMulticamSnow,							*,		8000,		4900
-		MSFCMountainBagMulticamSnow,					*,		9500,		5950
-		MSFCSmershBagMulticamSnow,						*,		1200,		700
-		MSFCSmershBagMedicMulticamSnow,				*,		900,		500
-		MSFC_BottlePouch_MulticamSnow,				*,		400,		200
-		MSFC_TacticalCap_MulticamSnow,				*,		400,		200
-		MSFC_G3Pants_MulticamSnow,						*,		950,		400
 
 	<Category> Ghillie
 		// Keep in Mind that Players can also
