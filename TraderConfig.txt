@@ -284,13 +284,17 @@
 		Barrel_Green,												M,		5000,		2500
 		Barrel_Red,													M,		5000,		2500
 		Barrel_Yellow,											M,		5000,		2500
-		FP4_Military_Case,                  *,		10000,	6500
+		msp_MilitaryCrate_Brown,            *,    7000,   3500
+		msp_MilitaryCrate_Green,            *,    7000,   3500
+		msp_MilitaryCrate_Grey,             *,    7000,   3500
+		msp_MilitaryCrate_Olive,            *,    7000,   3500
+		FP4_Military_Case_Tan,              *,		10000,	6500
 		SeaChest,														*,		2000,		400
 		PowerGenerator,											*,		3000,		1000
 		MediumTent,													*,		3300,		500
 		CarTent,														*,		10000,	3700
 		LargeTent,													*,		15000,	3200
-	//FP4_bildBord,                         *,		-1,	500000
+	//FP4_bildBord,                       *,		-1,	500000
 
 	<Category> Seeds & Lime
 		TomatoSeedsPack,										*,		4, 		1
