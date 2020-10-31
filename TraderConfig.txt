@@ -161,6 +161,7 @@
 		SalineBag,													*,		150,		80
 		BloodBagEmpty,											*,		180,		100
 		FirstAidKit,												*,		200,		100
+		ToxicCure,													*,		10000,		3000
 		//Defibrillator,										*,		35, 	20
 
 	<Category> Medications
@@ -422,18 +423,18 @@
 		MKII,																W,		320,	160
 		Colt1911,														W,		640,	280
 		COLT_1911,			                  	W,		640,	250
-		COLT_1911_Desert,			          		W,		900,	450
-		COLT_1911_Camo,			              	W,		900,	450
-		COLT_1911_Ranger,			          		W,		900,	450
-		COLT_1911_Fury,			              	W,		900,	450
-		COLT_1911_red,			              	W,		900,	450
-		Engraved1911,												W,		1740,	180
+		COLT_1911_Desert,			          		W,		-1,	45000
+		COLT_1911_Camo,			              	W,		-1,	45000
+		COLT_1911_Ranger,			          		W,		-1,	45000
+		COLT_1911_Fury,			              	W,		-1,	45000
+		COLT_1911_red,			              	W,		-1,	45000
+		Engraved1911,												W,		-1,	45000
 		MSFC_P250,													W,		900,	400
 		PB1967,			                      	W,		500,	250
 		GSH18,			                      	W,		700,	350
 		M1935,			                      	W,		700,	350
 		p220,			                      		W,		700,	350
-		//NailgGun,			                  		W,		500,	250
+		//NailgGun,			                  	W,		500,	250
 		P99,			                      		W,		800,	400
 		SR1M,			                      		W,		700,	350
 		M9_Berreta,			                  	W,		800,	400
@@ -458,34 +459,44 @@
 		AKM,																W,		3000,		1750
 		MSFC_AK15,													W,		5000,		2000
 		MSFC_AK15M,													W,		6000,		2000
-		MSFC_AK12M,													W,		5000,		2000
-		MSFC_AK13M,													W,		4000,		2000
+		AK12_camo, 													W,		6000,		2000
+		AK12_camoVKPO, 											W,		6000,		3000
+		AK12_camoCITY, 											W,		9000,		4600
+		MSFC_AK12MR, 												W,		6000,		3500
+		MSFC_AK12_Green, 										W,		6000,		3500
+		MSFC_AK12_Desert, 									W,		6000,		3500
+		MSFC_AK12M,													W,		5000,		3000
+		MSFC_AK13M,													W,		4000,		3000
+		FP4_AKS74U_Tactical,								W,		4500,		2250
 		AK74,																W,		3300,		1450
-		FP4_AKS74U_Brown,			  		        W,		3300,		1450
-		FP4_AKS74U_Blue,			     		      W,		3300,		1450
-		FP4_AKS74U_Red,			         	      W,		3300,		1450
-		//FP4_AK74_Brown,			        	      W,		3300,		1450
-		//FP4_AK74_Blue,			       	        W,		3300,		1450
-		//FP4_AK74_Red,			         		      W,		3300,		1450
+		FP4_AKS74U_Brown,			  		        W,		-1,			4500
+		FP4_AKS74U_Blue,			     		      W,		-1,			4500
+		FP4_AKS74U_Red,			         	      W,		-1,			4000
+		//FP4_AK74_Brown,			        	    W,		3300,		1450
+		//FP4_AK74_Blue,			       	      W,		3300,		1450
+		//FP4_AK74_Red,			         		    W,		3300,		1450
 		FP4_AKS74U,			           	        W,		3300,		1450
 		FP4_AKS74U_Black,			   		        W,		3300,		1450
 		FP4_AKS74U_Green,			    	        W,		3300,		1450
-		//FP4_AK74,			            	        W,		3300,		1450
-		//FP4_AK74_Black,			         	      W,		3300,		1450
-		//FP4_AK74_Green,			     	          W,		3300,		1450
+		//FP4_AK74,			            	      W,		3300,		1450
+		//FP4_AK74_Black,			         	    W,		3300,		1450
+		//FP4_AK74_Green,			     	        W,		3300,		1450
 		AK101,															W,		4500,		2000
 		AK101_Green,												W,		4500,		2000
 		AK101_Black,												W,		4500,		2000
-		//FP4_AK101_Brown,			       			  W,		4500,		2000
-		FP4_AK101_Blue,			          	    W,		4500,		2000
-		FP4_AK101_red,			          	    W,		4500,		2000
-		//FP4_AK101,			           	        W,		4500,		2000
-		//FP4_AK101_Black,			         		  W,		4500,		2000
-		//FP4_AK101_Green,			          		W,		4500,		2000
+		//FP4_AK101_Brown,			       			W,		4500,		2000
+		FP4_AK101_Blue,			          	    W,		4500,		3000
+		FP4_AK101_red,			          	    W,		4500,		3000
+		FP4_AK101_HungryOrange,			        W,		4500,		3000
+		FP4_AK101_Lime,			          	    W,		4500,		3000
+		FP4_AK101_Purpure,			          	W,		4500,		3000
+		//FP4_AK101,			           	      W,		4500,		2000
+		//FP4_AK101_Black,			         		W,		4500,		2000
+		//FP4_AK101_Green,			          	W,		4500,		2000
 		MSFC_AK103,													W,		5000,		2000
 		ACE23,			                     	  W,		3500,		1500
 		ace23_desert,			              		W,		3500,		1500
-		//ace23_WhiteSpray,			          		W,		3500,		1500
+		//ace23_WhiteSpray,			          	W,		3500,		1500
 		MSFC_AKCR2019,											W,		4000,		2000
 		MSFC_AS_VAL,												W,		7400,		3000
 		AS_VAL_WhiteSpray, 			       	    W,		7400,		3000
@@ -522,24 +533,31 @@
 	<Category> Снайп. Винтовки
 		Izh18,															W,		350,	150
 		Mosin9130,													W,		1100,	600
+		Mosin9130_Green,										W,		1200,	700
+		Mosin9130_Camo,											W,		1500,	850
+		Mosin9130_Black,										W,		1900,	900
 		CZ527,															W,		1000,	600
 		M1Carbine,			              		  W,		4000,	1500
 		K_98,			                    		  W,		4000,	1500
 		svt40,			                  		  W,		4000,	1500
 		Winchester70,												W,		3000,	1500
-		//FP4_WIN70,			            		    W,		6000,	3600
-		//FP4_WIN70_black,			       			  W,		7000,	4600
-		//FP4_WIN70_green,			       			  W,		6000,	3600
+		//FP4_WIN70,			            		   W,		6000,	3600
+		//FP4_WIN70_black,			       			 W,		7000,	4600
+		//FP4_WIN70_green,			       			 W,		6000,	3600
 		SKS,																W,		2600,	1000
 		VSS,																W,		16000,	9600
 		B95,																W,		10000,	-1
 		MSFC_Tigr308,												W,		5500,		2000
 		SVD,																W,		7000,		3100
-				SVD_1963,			                  W,		7500,		3600
+		SV98,															  W,		7000,		4500
+		SV98_100lvl,												W,		-1,			50000
+		SVD_1963,			                  		W,		7500,		3600
+		FP4_M24_Rifle,											W,		12000,	5000
+		FP4_M24_Snake,											W,		12000,	5000
 		R700,																W,		10000,	5000
 		FAL,																W,		30000,	5500
 		PSG1,																W,		12000,	6000
-		CS5,			                    		  W,				-1,	9000
+		CS5,			                    		  W,		-1,			9000
 		MSFC_VPO136,												W,		4000,		2000
 		Vintorez,			                		  W,		20000,	9500
 		Vintorez_oldHard,			         		  W,		20000,	9500
@@ -587,6 +605,11 @@
 		RDG2SmokeGrenade_Black,							1,		300,	100
 		RDG2SmokeGrenade_White,							1,		300,	100
 		FlashGrenade,												1,		300,	100
+		ToxicM18SmokeGrenade_Green,					*,		15000,		5000
+		ToxicM18SmokeGrenade_Red,						*,		15000,		5000
+		ToxicM18SmokeGrenade_Purple,				*,		15000,		5000
+		ToxicM18SmokeGrenade_Yellow,				*,		15000,		5000
+		ToxicM18SmokeGrenade_White,					*,		15000,		5000
 
 <Trader> Weapon Supplies
 	<Category> Россыпь патроны (10 шт)
@@ -602,21 +625,21 @@
 		Ammo_545x39,												10,		45,		22
 		Ammo_556x45,												10,		50,		25
 		Ammo_762x39,												10,		50,		25
-		Ammo_762x54,												10,		1000,		25
+		Ammo_762x54,												10,		1000,		250
 		Ammo_556x45Tracer,									10,		200,		50
 		Ammo_545x39Tracer,									10,		200,		50
-		Ammo_308WinTracer,									10,		1000,		35
+		Ammo_308WinTracer,									10,		1000,		350
 		Ammo_762x39Tracer,									10,		200,		50
 		Ammo_762x54Tracer,									10,		120,		20
-		//Nails_steels,                       10,		100,	20
-		//Bullet_762x25,                      10,		400,	200
-		//Bullet_762x33,                      10,		400,	200
-		//Bullet_792x57,                      10,		400,	200
-		//Bullet_12x99TracerGreen,            10,		400,	200
-		//Bullet_12x99TracerYell,             10,		400,	200
-		//Bullet_9x39Tracer,                  10,		400,	200
-		//Bullet_12x99,                       10,		400,	200
-		//Nails_steels,                       10,		100,	200
+		Ammo_338,														10,		175,	50
+		Bullet_762x25,                      10,		400,	200
+		Bullet_762x33,                      10,		400,	200
+		Bullet_792x57,                      10,		400,	200
+		Bullet_12x99TracerGreen,            10,		400,	200
+		Bullet_12x99TracerYell,             10,		400,	200
+		Bullet_9x39Tracer,                  10,		400,	200
+		Bullet_12x99,                       10,		400,	200
+
 
 		// When changing Prices here keep in Mind that Players
 		// can just unpack the Ammoboxes and sell the Ammo seperatly!
@@ -644,7 +667,6 @@
 		AmmoBox_762x54Tracer_20Rnd,					*,		4000,	800
 		AmmoBox_12x99_10Rnd_TracerGreen,    *,		6000,	2000
 		AmmoBox_12x99_10Rnd_TracerYell,     *,		6000,	2000
-		Ammo_338,														*,		10000,1000
 		AmmoBox_762x25_25Rnd,               *,		1000,	200
 		AmmoBox_762x33_20Rnd,               *,		1000,	200
 		AmmoBox_792x57_25Rnd,               *,		1000,	200
@@ -2490,113 +2512,82 @@
 		MSFCBootsLowaATACSAU,												*,		400,		150
 		MSFCBootsTrekkingATACSAU,										*,		400,		150
 
-		<Category> ХИМЗА
-				ToxicM18SmokeGrenade_Green,	*,		15000,		5000
-				ToxicM18SmokeGrenade_Red,	*,		15000,		5000
-				ToxicM18SmokeGrenade_Green,	*,		15000,		5000
-				ToxicM18SmokeGrenade_Purple,	*,		15000,		5000
-				ToxicM18SmokeGrenade_Yellow,	*,		15000,		5000
-				ToxicM18SmokeGrenade_White,	*,		15000,		5000
-				ToxicCure,			*,		10000,		3000
-				ToxicZoneGP5GasMask_black,	*,		12000,		3000
-				ToxicZoneGP5GasMask_green,	*,		12000,		3000
-				ToxicZoneSuits_Hood_black,	*,		12000,		3000
-				ToxicZoneSuits_Hood_green,	*,		12000,		3000
-				ToxicZoneSuits_Hood_yellow,	*,		12000,		3000
-				ToxicZoneSuits_Gloves_black,	*,		12000,		3000
-				ToxicZoneSuits_Gloves_green,	*,		12000,		3000
-				ToxicZoneSuits_Gloves_yellow,   *,		12000,		3000
-				ToxicZoneSuits_Jacket_yellow,   *,		12000,		5000
-				ToxicZoneSuits_Jacket_green,   *,		12000,		5000
-				ToxicZoneSuits_Jacket_black,	*,		12000,		5000
-				ToxicZoneSuits_Pants_yellow,	*,		12000,		5000
-				ToxicZoneSuits_Pants_green,	*,		12000,		5000
-				ToxicZoneSuits_Pants_black,	*,		12000,		5000
-				ToxicZoneSuits_Boots_yellow,	*,		12000,		5000
-				ToxicZoneSuits_Boots_green,	*,		12000,		5000
-				ToxicZoneSuits_Boots_black,	*,		12000,		5000
-				GP5GasMask_Filter,		*,		 6500,           3050
 
-
-				<Category> SQUAD MSF-C Multicam Snow
-						MSFC_JPC_Vest_MulticamSnow,	*,		5000,		1000
-						MSFC_TAC_TEC_Vest_MulticamSnow,	*,		5000,		1000
-						MSFC_TacticalCap_MulticamSnow,	*,		5000,		1000
-						MSFC_WarBelt_MulticamSnow,	*,		5000,		1000
-						MSFCEmpty_Mags_Bag_MulticamSnow,	*,		5000,		1000
-						MSFC_IFAK_MulticamSnow,	*,		5000,		1000
-						MSFC_Defender_Vest_MulticamSnow,	*,		5000,		1000
-						MSFCM65MulticamSnow,	*,		5000,		1000
-						MSFCPantsMulticamSnow,	*,		5000,		1000
-						MSFCPCU5MulticamSnowComander,	*,		5000,		1000
-						MSFCPCU5MulticamSnowMedic,	*,		5000,		1000
-						MSFCPCU5MulticamSnowReconnaissance,	*,		5000,		1000
-						MSFCPCU5MulticamSnowSniper,	*,		5000,		1000
-						MSFCPCU5MulticamSnowSapper,	*,		5000,		1000
-						MSFCPCU5MulticamSnowMachineGun,	*,		5000,		1000
-						MSFCPCU5MulticamSnowEngineer,	*,		5000,		1000
-						MSFCPCU5MulticamSnowTrooper,	*,		5000,		1000
-						MSFCCapMulticamSnow,	*,		5000,		1000
-						MSFCGorkaJMulticamSnow,	*,		5000,		1000
-						MSFCGorkaPMulticamSnow,	*,		5000,		1000
-						MSFCGlovesMulticamSnow,	*,		5000,		1000
-						MSFCBootsMulticamSnow,	*,		5000,		1000
-						MSFCUKVestMulticamSnow,	*,		5000,		1000
-						MSFCTShirtMulticamSnow,	*,		5000,		1000
-						MSFCTacVestMulticamSnow,	*,		5000,		1000
-						MSFCTacVestMulticamSnowLogo,	*,		5000,		1000
-						MSFCTacVestMulticamSnowMedic,	*,		5000,		1000
-						MSFCBeanieHatMulticamSnow,	*,		5000,		1000
-						MSFCBoonieHatMulticamSnow,	*,		5000,		1000
-						MSFCCoyoteBagMulticamSnow,	*,		5000,		1000
-						MSFCMulticamSnowMask,	*,		5000,		1000
-						MSFCMich2001MulticamSnow,	*,		5000,		1000
-						MSFCAssaultBagMulticamSnow,	*,		5000,		1000
-						MSFCAssaultBagMulticamSnowMedic,	*,		5000,		1000
-						MSFCHoodMulticamSnow,	*,		5000,		1000
-						MSFCBandanaMulticamSnow,	*,		5000,		1000
-						MSFCBandanaMulticamSnowMask,	*,		5000,		1000
-						MSFCPlateCarrierVestMulticamSnow,	*,		5000,		1000
-						MSFCPlateCarrierVestMulticamSnowLogo,	*,		5000,		1000
-						MSFCTortilaMulticamSnow,	*,		5000,		1000
-						MSFCAliceBagMulticamSnow,	*,		5000,		1000
-						MSFCNBCPantsMulticamSnow,	*,		5000,		1000
-						MSFCNBCJacketMulticamSnow,	*,		5000,		1000
-						MSFCNBCGlovesMulticamSnow,	*,		5000,		1000
-						MSFCNBCBootsMulticamSnow,	*,		5000,		1000
-						MSFCPlateCarrierVestMulticamSnowMedic,	*,		5000,		1000
-						MSFCMountainBagMulticamSnow,	*,		5000,		1000
-						MSFCPlateHolsterMulticamSnow,	*,		5000,		1000
-						MSFCPlatePouchesMulticamSnow,	*,		5000,		1000
-						MSFCPCU5MulticamSnowSupply,	*,		5000,		1000
-						MSFCGorkaHelmetMulticamSnow,	*,		5000,		1000
-						MSFCMich2000HelmetMulticamSnow,	*,		5000,		1000
-						MSFCSweaterMulticamSnow,	*,		5000,		1000
-						MSFCPressVestMulticamSnow,	*,		5000,		1000
-						MSFCPCU5MulticamSnowPartComander,	*,		5000,		1000
-						MSFCSmershVestMulticamSnow,	*,		5000,		1000
-						MSFCSmershBagMulticamSnow,	*,		5000,		1000
-						MSFCOpsCoreMulticamSnow,	*,		5000,		1000
-						MSFCTacticalMaskMulticamSnow,	*,		5000,		1000
-						MSFCSmershBagMedicMulticamSnow,	*,		5000,		1000
-						MSFCPCU5MulticamSnowNoPatch,	*,		5000,		1000
-						MSFCGorkaJMulticamSnowNoPatch,	*,		5000,		1000
-						MSFCBootsLowaMulticamSnow,	*,		5000,		1000
-						MSFCBootsTrekkingMulticamSnow,	*,		5000,		1000
-						MSFCBackpackPegasusMulticamSnow,	*,		5000,		1000
-						MSFCBackpackCargoMulticamSnow,	*,		5000,		1000
-						MSFCPouchCargoMulticamSnow,	*,		5000,		1000
-						MSFCPouchIFAKMulticamSnow,	*,		5000,		1000
-						MSFC_FaceMack_MulticamSnow,	*,		5000,		1000
-						MSFC_TacticalBelt_MulticamSnow,	*,		5000,		1000
-						MSFCLowaZephyrBootsMulticamSnow,	*,		5000,		1000
-						MSFC_TacticalBeltMedium_MulticamSnow,	*,		5000,		1000
-						MSFC_TacticalBeltSmall_MulticamSnow,	*,		5000,		1000
-						MSFC_TacticalBeltLite_MulticamSnow,	*,		5000,		1000
-						MSFC_BIG_BACKPACK_MulticamSnow,	*,		5000,		1000
-						MSFC_SMALL_BACKPACK_MulticamSnow,	*,		5000,		1000
-						MSFC_BottlePouch_MulticamSnow,	*,		5000,		10000
-						MSFC_G3Pants_MulticamSnow,	*,		5000,		10000
+				<Category>Multicam Snow123
+		MSFC_JPC_Vest_MulticamSnow,						*,		2500,		1300
+		MSFC_TAC_TEC_Vest_MulticamSnow,				*,		2500,		1300
+		MSFCUKVestMulticamSnow,								*,		4100,		1000
+		MSFCTacVestMulticamSnow,							*,		6000,		2900
+		MSFCTacVestMulticamSnowLogo,					*,		6000,		2900
+		MSFCTacVestMulticamSnowMedic,					*,		6000,		2900
+		MSFC_Defender_Vest_MulticamSnow,			*,		9000,		5200
+		MSFCPlateCarrierVestMulticamSnow,			*,		35000,	20000
+		MSFCPlateCarrierVestMulticamSnowLogo,	*,		35000,	20000
+		MSFCPlateCarrierVestMulticamSnowMedic,*,		35000,	20000
+		MSFCPressVestMulticamSnow,						*,		4100,		2200
+		MSFCSmershVestMulticamSnow,						*,		3500,		1900
+		MSFCEmpty_Mags_Bag_MulticamSnow,			*,		600,		300
+		MSFC_IFAK_MulticamSnow,								*,		700,		350
+		MSFCM65MulticamSnow,									*,		2900,		1500
+		MSFCPantsMulticamSnow,								*,		950,		450
+		MSFCPCU5MulticamSnowPartComander,			*,		1200,		950
+		MSFCPCU5MulticamSnowComander,					*,		1200,		950
+		MSFCPCU5MulticamSnowMedic,						*,		1200,		950
+		MSFCPCU5MulticamSnowReconnaissance,		*,		1200,		950
+		MSFCPCU5MulticamSnowSniper,						*,		1200,		950
+		MSFCPCU5MulticamSnowSapper,						*,		1200,		950
+		MSFCPCU5MulticamSnowMachineGun,				*,		1200,		950
+		MSFCPCU5MulticamSnowEngineer,					*,		1200,		950
+		MSFCPCU5MulticamSnowTrooper,					*,		1200,		950
+		MSFCCapMulticamSnow,									*,		5000,		1000
+		MSFCGorkaJMulticamSnow,								*,		5000,		1000
+		MSFCGorkaPMulticamSnow,								*,		5000,		1000
+		MSFCGlovesMulticamSnow,								*,		5000,		1000
+		MSFCBootsMulticamSnow,								*,		5000,		1000
+		MSFCBootsLowaMulticamSnow,						*,		5000,		1000
+		MSFCBootsTrekkingMulticamSnow,				*,		5000,		1000
+		MSFCLowaZephyrBootsMulticamSnow,			*,		5000,		1000
+		MSFCTShirtMulticamSnow,								*,		5000,		1000
+		MSFCBeanieHatMulticamSnow,						*,		5000,		1000
+		MSFCBoonieHatMulticamSnow,						*,		5000,		1000
+		MSFCMulticamSnowMask,									*,		5000,		1000
+		MSFCTacticalMaskMulticamSnow,					*,		5000,		1000
+		MSFCBandanaMulticamSnowMask,					*,		5000,		1000
+		MSFCBandanaMulticamSnow,							*,		5000,		1000
+		MSFCHoodMulticamSnow,									*,		5000,		1000
+		MSFCTortilaMulticamSnow,							*,		5000,		1000
+		MSFCPlateHolsterMulticamSnow,					*,		5000,		1000
+		MSFCPlatePouchesMulticamSnow,					*,		5000,		1000
+		MSFCPCU5MulticamSnowSupply,						*,		5000,		1000
+		MSFCGorkaHelmetMulticamSnow,					*,		5000,		1000
+		MSFCMich2000HelmetMulticamSnow,				*,		5000,		1000
+		MSFCMich2001MulticamSnow,							*,		5000,		1000
+		MSFCSweaterMulticamSnow,							*,		5000,		1000
+		MSFCOpsCoreMulticamSnow,							*,		5000,		1000
+		MSFCPCU5MulticamSnowNoPatch,					*,		5000,		1000
+		MSFCGorkaJMulticamSnowNoPatch,				*,		5000,		1000
+		MSFCPouchCargoMulticamSnow,						*,		5000,		1000
+		MSFCPouchIFAKMulticamSnow,						*,		5000,		1000
+		MSFC_FaceMack_MulticamSnow,						*,		5000,		1000
+		MSFC_TacticalBelt_MulticamSnow,				*,		9600,		4200
+		MSFC_TacticalBeltMedium_MulticamSnow,	*,		6000,		3900
+		MSFC_TacticalBeltSmall_MulticamSnow,	*,		4500,		2550
+		MSFC_TacticalBeltLite_MulticamSnow,		*,		3000,		3500
+		MSFC_WarBelt_MulticamSnow,						*,		1500,		700
+		MSFCBackpackPegasusMulticamSnow,			*,		11800,	1000
+		MSFCBackpackCargoMulticamSnow,				*,		9990,		4600
+		MSFC_BIG_BACKPACK_MulticamSnow,				*,		17000,	9000
+		MSFC_SMALL_BACKPACK_MulticamSnow,			*,		2700,		1150
+		MSFCCoyoteBagMulticamSnow,						*,		4800,		2400
+		MSFCAssaultBagMulticamSnow,						*,		1900,		900
+		MSFCAssaultBagMulticamSnowMedic,			*,		1900,		900
+		MSFCAliceBagMulticamSnow,							*,		8000,		4900
+		MSFCMountainBagMulticamSnow,					*,		9500,		5950
+		MSFCSmershBagMulticamSnow,						*,		1200,		700
+		MSFCSmershBagMedicMulticamSnow,				*,		900,		500
+		MSFC_BottlePouch_MulticamSnow,				*,		400,		200
+		MSFC_TacticalCap_MulticamSnow,				*,		400,		200
+		MSFC_G3Pants_MulticamSnow,						*,		950,		400
 
 	<Category> Ghillie
 		// Keep in Mind that Players can also
@@ -2832,29 +2823,29 @@
 		AssaultBag_Ttsko,														*,		800,			400
 		MSFC_Pantera_Bag,														*,		800,			400
 		MSFC_PanteraAutumn_Bag,											*,		800,			400
-		MSFCAssaultBagMulticamBlackMedic,						*,		800,			400
-		MSFCAssaultBagMulticamTropicMedic,					*,		800,			400
-		MSFCAssaultBagMulticamMedic,								*,		800,			400
+		MSFCAssaultBagMulticamBlackMedic,						*,		1100,			600
+		MSFCAssaultBagMulticamTropicMedic,					*,		1100,			600
+		MSFCAssaultBagMulticamMedic,								*,		1100,			600
 		MSFCAssaultBagSURPATDesertMedic,						*,		800,			400
 		MSFCAssaultBagSURPATMedic,									*,		800,			400
 		MSFCAssaultBagATACSAUMedic,									*,		800,			400
 		MSFCAssaultBagATACSAUMedic,									*,		800,			400
-		//MilitaryGear_AssaultBag_PartizanM,					*,		800,			400
-		//MilitaryGear_AssaultBag_Duckhunter,					*,		800,			400
-		//MilitaryGear_AssaultBag_Multicam,						*,		800,			400
-		//MilitaryGear_AssaultBag_Splinter,						*,		800,			400
-		//MilitaryGear_AssaultBag_Splinter_Dark,			*,		800,			400
-		//MilitaryGear_AssaultBag_Tiger,							*,		800,			400
-		//MilitaryGear_AssaultBag_Woodland,						*,		800,			400
-		//MilitaryGear_AssaultBag_FLT,								*,		800,			400
-		//MilitaryGear_AssaultBag_DPM,								*,		800,			400
-		//MilitaryGear_AssaultBag_MPAT,								*,		800,			400
-		//MilitaryGear_AssaultBag_Partizan,						*,		800,			400
-		//MilitaryGear_AssaultBag_Skol,								*,		800,			400
-		//MilitaryGear_AssaultBag_ATACS,							*,		800,			400
-		//MilitaryGear_AssaultBag_CADPAT,							*,		800,			400
-		//MilitaryGear_AssaultBag_Tropic,							*,		800,			400
-		//MilitaryGear_AssaultBag_Yeger,							*,		800,			400
+		//MilitaryGear_AssaultBag_PartizanM,				*,		800,			400
+		//MilitaryGear_AssaultBag_Duckhunter,				*,		800,			400
+		//MilitaryGear_AssaultBag_Multicam,					*,		800,			400
+		//MilitaryGear_AssaultBag_Splinter,					*,		800,			400
+		//MilitaryGear_AssaultBag_Splinter_Dark,		*,		800,			400
+		//MilitaryGear_AssaultBag_Tiger,						*,		800,			400
+		//MilitaryGear_AssaultBag_Woodland,					*,		800,			400
+		//MilitaryGear_AssaultBag_FLT,							*,		800,			400
+		//MilitaryGear_AssaultBag_DPM,							*,		800,			400
+		//MilitaryGear_AssaultBag_MPAT,							*,		800,			400
+		//MilitaryGear_AssaultBag_Partizan,					*,		800,			400
+		//MilitaryGear_AssaultBag_Skol,							*,		800,			400
+		//MilitaryGear_AssaultBag_ATACS,						*,		800,			400
+		//MilitaryGear_AssaultBag_CADPAT,						*,		800,			400
+		//MilitaryGear_AssaultBag_Tropic,						*,		800,			400
+		//MilitaryGear_AssaultBag_Yeger,						*,		800,			400
 		MSFCAssaultBagMulticamBlack,								*,		800,			400
 		MSFCAssaultBagMulticamTropic,								*,		800,			400
 		MSFCAssaultBagMulticam,											*,		800,			400
@@ -3142,6 +3133,7 @@
 
 	<Category> Противогаз и химкостюм
 			GP5GasMask,																	*,		1200,		400
+			GP5GasMask_Filter,													*,		 6500,           3050
 			MSFCGasMaskGP5Black,												*,		3000,		650
 			MSFCGasMaskGP5Green,												*,		3000,		650
 			MSFCGasMaskGP5Tan,													*,		3000,		650
@@ -3166,12 +3158,12 @@
 			MSFCIIIM6800GasMaskGray,										*,		3000,		1650
 			MSFCIIIM6800GasMaskWhite,										*,		3000,		1650
 			MSFCIIIM6800GasMaskDesert,									*,		3000,		1650
-			//MilitaryGear_GasMask_Black,									*,		3000, 	1500
-			//MilitaryGear_GasMask_Brown,									*,		3000,	  1500
-			//MilitaryGear_GasMask_Olive,									*,		3000,	  1500
-			//MilitaryGear_GP5GasMask_Black,							*,		3200, 	1600
-			//MilitaryGear_GP5GasMask_Brown,							*,		3200, 	1600
-			//MilitaryGear_GP5GasMask_Olive,							*,		3200,	  1600
+			//MilitaryGear_GasMask_Black,								*,		3000, 	1500
+			//MilitaryGear_GasMask_Brown,								*,		3000,	  1500
+			//MilitaryGear_GasMask_Olive,								*,		3000,	  1500
+			//MilitaryGear_GP5GasMask_Black,						*,		3200, 	1600
+			//MilitaryGear_GP5GasMask_Brown,						*,		3200, 	1600
+			//MilitaryGear_GP5GasMask_Olive,						*,		3200,	  1600
 			MSFCSTALKERHood,														*,		2000,		1070
 			MSFCSTALKERDolgHood,												*,		2000,		1070
 			MSFCSTALKERSvobodaHood,											*,		2000,		1070
@@ -3223,6 +3215,28 @@
 			MSFCNBCBootsATACSAU,												*,		2000,		1070
 			MSFCSTALKEREcologBoots,											*,		2000,		1070
 			NBCBootsGray,																*,		2000,		1070
+			MSFCNBCPantsMulticamSnow,										*,		10000,	1000
+			MSFCNBCJacketMulticamSnow,									*,		10000,	1000
+			MSFCNBCGlovesMulticamSnow,									*,		10000,	1000
+			MSFCNBCBootsMulticamSnow,										*,		10000,	1000
+			ToxicZoneSuits_Hood_black,									*,		12000,	6000
+			ToxicZoneSuits_Hood_green,									*,		12000,	6000
+			ToxicZoneSuits_Hood_yellow,									*,		12000,	6000
+			ToxicZoneSuits_Gloves_black,								*,		12000,	6000
+			ToxicZoneSuits_Gloves_green,								*,		12000,	6000
+			ToxicZoneSuits_Gloves_yellow,  							*,		12000,	6000
+			ToxicZoneSuits_Jacket_yellow,  							*,		12000,	6000
+			ToxicZoneSuits_Jacket_green, 		  					*,		12000,	6000
+			ToxicZoneSuits_Jacket_black,								*,		12000,	6000
+			ToxicZoneSuits_Pants_yellow,								*,		12000,	6000
+			ToxicZoneSuits_Pants_green,									*,		12000,	6000
+			ToxicZoneSuits_Pants_black,									*,		12000,	6000
+			ToxicZoneSuits_Boots_yellow,								*,		12000,	6000
+			ToxicZoneSuits_Boots_green,									*,		12000,	6000
+			ToxicZoneSuits_Boots_black,									*,		12000,	6000
+			ToxicZoneGP5GasMask_black,									*,		12000,	6000
+			ToxicZoneGP5GasMask_green,									*,		12000,	6000
+
 
 	//<Category> Handmade
 		//LeatherGloves_Beige,											*,		-1,		0
