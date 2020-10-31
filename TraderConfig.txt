@@ -148,20 +148,10 @@
 		MSFC_BottlePouch_SURPAT,						*,		200,		70
 		MSFC_BottlePouch_ATACSAU,						*,		200,		70
 
-	<Category> Medical Supplies
+	//<Category> Medical Supplies
 		//Rag,					1,		1,		-1
-		BandageDressing,										1,		230,		110
-		BloodTestKit,												*,		350,		120
 		//InjectionVial,										*,		50, 		20
-		Thermometer,												*,		50,		20
-		DisinfectantSpray,									*,		80,		50
 		//Syringe,													*,		180, 		50
-		Heatpack,														*,		10,		5
-		StartKitIV,													*,		410,		160
-		SalineBag,													*,		150,		80
-		BloodBagEmpty,											*,		180,		100
-		FirstAidKit,												*,		200,		100
-		ToxicCure,													*,		10000,		3000
 		//Defibrillator,										*,		35, 	20
 
 	<Category> Medications
@@ -169,6 +159,16 @@
 		DisinfectantAlcohol,								*,		40,		20
 		VitaminBottle,											*,		60,		40
 		TetracyclineAntibiotics,						*,		80,		50
+		Thermometer,												*,		50,		20
+		BandageDressing,										1,		230,		110
+		BloodTestKit,												*,		350,		120
+		DisinfectantSpray,									*,		80,		50
+		Heatpack,														*,		10,		5
+		StartKitIV,													*,		410,		160
+		SalineBag,													*,		150,		80
+		BloodBagEmpty,											*,		180,		100
+		FirstAidKit,												*,		200,		100
+		ToxicCure,													*,		10000,		3000
 		PainkillerTablets,									*,		100,		60
 		Epinephrine,												*,		200,		100
 		Morphine,														*,		250,		150
@@ -544,6 +544,7 @@
 		M1Carbine,			              		  W,		4000,	1500
 		K_98,			                    		  W,		4000,	1500
 		svt40,			                  		  W,		4000,	1500
+		Repeater,														W,    5000, 2500
 		Winchester70,												W,		3000,	1500
 		//FP4_WIN70,			            		  W,		6000,	3600
 		//FP4_WIN70_black,			       			W,		7000,	4600
@@ -867,29 +868,29 @@
 		//Ammo_new_22Imbalanced,						10, -1,  -1
 
 	<Category> Коробки
-		AmmoBox_New_12gaBuckshot5,									*, -1,  600
-		AmmoBox_New_12gaExpressBuckshot6,						*, -1,  600
-		AmmoBox_New_12gaBuckshot7,									*, -1,  600
-		AmmoBox_New_12gaMagnumBuckshot8,						*, -1,  600
-		AmmoBox_New_12gaRip,						  					*, -1,  600
-		AmmoBox_New_12gaAP20,						  					*, -1,  600
-		AmmoBox_New_12ga2Sabot,											*, -1,  600
-		AmmoBox_New_12gaFtxCustomLIte,							*, -1,  600
-		AmmoBox_New_12gaGrizzly40,									*, -1,  600
-		AmmoBox_New_12gaPoleva3,										*, -1,  600
-		AmmoBox_New_12gaPoleva6,										*, -1,  600
-		AmmoBox_New_12ga50Bmg,											*, -1,  600
-		AmmoBox_New_12gaLead,												*, -1,  600
-		AmmoBox_New_12gaFlchetteS,									*, -1,  600
-		AmmoBox_New_12gaSuperFormance,							*, -1,  600
-		AmmoBox_New_12gaCopperSabotPremier,					*, -1,  600
-		AmmoBox_New_12gaImbalanced,									*, -1,  600
-		AmmoBox_New_12gaImbalancedSlug,							*, -1,  600
-		AmmoBox_New_22Subsonic,											*, -1,  600
-		AmmoBox_New_22StandardVelocity,							*, -1,  600
-		AmmoBox_New_22HighVelocity,									*, -1,  600
-		AmmoBox_New_22HyperVelocity,								*, -1,  600
-		AmmoBox_New_22Imbalanced,										*, -1,  600
+		AmmoBox_New_12gaBuckshot5,									*, -1,  450
+		AmmoBox_New_12gaExpressBuckshot6,						*, -1,  450
+		AmmoBox_New_12gaBuckshot7,									*, -1,  450
+		AmmoBox_New_12gaMagnumBuckshot8,						*, -1,  450
+		AmmoBox_New_12gaRip,						  					*, -1,  450
+		AmmoBox_New_12gaAP20,						  					*, -1,  450
+		AmmoBox_New_12ga2Sabot,											*, -1,  450
+		AmmoBox_New_12gaFtxCustomLIte,							*, -1,  450
+		AmmoBox_New_12gaGrizzly40,									*, -1,  450
+		AmmoBox_New_12gaPoleva3,										*, -1,  450
+		AmmoBox_New_12gaPoleva6,										*, -1,  450
+		AmmoBox_New_12ga50Bmg,											*, -1,  450
+		AmmoBox_New_12gaLead,												*, -1,  450
+		AmmoBox_New_12gaFlchetteS,									*, -1,  450
+		AmmoBox_New_12gaSuperFormance,							*, -1,  450
+		AmmoBox_New_12gaCopperSabotPremier,					*, -1,  450
+		AmmoBox_New_12gaImbalanced,									*, -1,  450
+		AmmoBox_New_12gaImbalancedSlug,							*, -1,  450
+		AmmoBox_New_22Subsonic,											*, -1,  500
+		AmmoBox_New_22StandardVelocity,							*, -1,  500
+		AmmoBox_New_22HighVelocity,									*, -1,  500
+		AmmoBox_New_22HyperVelocity,								*, -1,  500
+		AmmoBox_New_22Imbalanced,										*, -1,  500
 		AmmoBox_New_308WinM61,											*, -1,  600
 		AmmoBox_New_308WinM62,											*, -1,  600
 		AmmoBox_New_308WinM80,											*, -1,  600
@@ -906,19 +907,19 @@
 		AmmoBox_New_357Semiwadcutter,								*, -1,  600
 		AmmoBox_New_357SilvertipJhp,								*, -1,  600
 		AmmoBox_New_357Imbalanced,									*, -1,  600
-		AmmoBox_New_380BondedJhp,										*, -1,  600
-		AmmoBox_New_380Jhp,													*, -1,  600
-		AmmoBox_New_380HydraShokJhp,								*, -1,  600
-		AmmoBox_New_380SilvertipJhp,								*, -1,  600
-		AmmoBox_New_380Xtp,													*, -1,  600
-		AmmoBox_New_380Fmj,													*, -1,  600
-		AmmoBox_New_380Imbalanced,									*, -1,  600
-		AmmoBox_New_45AcpAP,												*, -1,  600
-		AmmoBox_New_45AcpFmj,												*, -1,  600
-		AmmoBox_New_45AcpHydrShock,									*, -1,  600
-		AmmoBox_New_45AcpLasermatchFmj,							*, -1,  600
-		AmmoBox_New_45AcpRip,												*, -1,  600
-		AmmoBox_New_45AcpImbalanced,								*, -1,  600
+		AmmoBox_New_380BondedJhp,										*, -1,  250
+		AmmoBox_New_380Jhp,													*, -1,  250
+		AmmoBox_New_380HydraShokJhp,								*, -1,  250
+		AmmoBox_New_380SilvertipJhp,								*, -1,  250
+		AmmoBox_New_380Xtp,													*, -1,  250
+		AmmoBox_New_380Fmj,													*, -1,  250
+		AmmoBox_New_380Imbalanced,									*, -1,  250
+		AmmoBox_New_45AcpAP,												*, -1,  250
+		AmmoBox_New_45AcpFmj,												*, -1,  250
+		AmmoBox_New_45AcpHydrShock,									*, -1,  250
+		AmmoBox_New_45AcpLasermatchFmj,							*, -1,  250
+		AmmoBox_New_45AcpRip,												*, -1,  250
+		AmmoBox_New_45AcpImbalanced,								*, -1,  250
 		AmmoBox_New_545x397H39,											*, -1,  600
 		AmmoBox_New_545x39Fmj,											*, -1,  600
 		AmmoBox_New_545x39Hp,												*, -1,  600
@@ -955,19 +956,19 @@
 		AmmoBox_new_762x547H1,											*, -1,  600
 		AmmoBox_new_762x54T46M,											*, -1,  600
 		AmmoBox_new_762x54Imbalanced,								*, -1,  600
-		AmmoBox_new_9x19Pst,												*, -1,  600
-		AmmoBox_new_9x19Pso,												*, -1,  600
-		AmmoBox_new_9x19LugerCci,										*, -1,  600
-		AmmoBox_new_9x19Ap,													*, -1,  600
-		AmmoBox_new_9x19Rip,												*, -1,  600
-		AmmoBox_new_9x197H31,												*, -1,  600
-		AmmoBox_new_9x19QuakeMaker,									*, -1,  600
-		AmmoBox_new_9x19Imbalanced,									*, -1,  600
-		AmmoBox_new_9x39Sp5,												*, -1,  600
-		AmmoBox_new_9x39Sp6,												*, -1,  600
-		AmmoBox_new_9x397H9,												*, -1,  600
-		AmmoBox_new_9x397H12,												*, -1,  600
-		AmmoBox_new_9x39Imbalanced,									*, -1,  600
+		AmmoBox_new_9x19Pst,												*, -1,  450
+		AmmoBox_new_9x19Pso,												*, -1,  450
+		AmmoBox_new_9x19LugerCci,										*, -1,  450
+		AmmoBox_new_9x19Ap,													*, -1,  450
+		AmmoBox_new_9x19Rip,												*, -1,  450
+		AmmoBox_new_9x197H31,												*, -1,  450
+		AmmoBox_new_9x19QuakeMaker,									*, -1,  450
+		AmmoBox_new_9x19Imbalanced,									*, -1,  450
+		AmmoBox_new_9x39Sp5,												*, -1,  800
+		AmmoBox_new_9x39Sp6,												*, -1,  800
+		AmmoBox_new_9x397H9,												*, -1,  800
+		AmmoBox_new_9x397H12,												*, -1,  800
+		AmmoBox_new_9x39Imbalanced,									*, -1,  800
 		AmmoBox_new_12_7x55Ps12,										*, -1,  600
 		AmmoBox_new_12_7x55Ps12A,										*, -1,  600
 		AmmoBox_new_12_7x55Ps12B,										*, -1,  600
@@ -1024,21 +1025,21 @@
 		AmmoBox_new_792x57SmEAP,										*, -1,  600
 		AmmoBox_new_792x57SmKW,											*, -1,  600
 		AmmoBox_new_792x57Imbalanced,								*, -1,  600
-		AmmoBox_new_9x18Bzt,												*, -1,  600
-		AmmoBox_new_9x18P,													*, -1,  600
-		AmmoBox_new_9x18Pbm,												*, -1,  600
-		AmmoBox_new_9x18Pmm,												*, -1,  600
-		AmmoBox_new_9x18Pp,													*, -1,  600
-		AmmoBox_new_9x18Ppt,												*, -1,  600
-		AmmoBox_new_9x18Prs,												*, -1,  600
-		AmmoBox_new_9x18Ps,													*, -1,  600
-		AmmoBox_new_9x18Pso,												*, -1,  600
-		AmmoBox_new_9x18Pst,												*, -1,  600
-		AmmoBox_new_9x18Psb,												*, -1,  600
-		AmmoBox_new_9x18Rg028,											*, -1,  600
-		AmmoBox_new_9x18Sp7,												*, -1,  600
-		AmmoBox_new_9x18Sp8,												*, -1,  600
-		AmmoBox_new_9x18Imbalanced,									*, -1,  600
+		AmmoBox_new_9x18Bzt,												*, -1,  500
+		AmmoBox_new_9x18P,													*, -1,  500
+		AmmoBox_new_9x18Pbm,												*, -1,  500
+		AmmoBox_new_9x18Pmm,												*, -1,  500
+		AmmoBox_new_9x18Pp,													*, -1,  500
+		AmmoBox_new_9x18Ppt,												*, -1,  500
+		AmmoBox_new_9x18Prs,												*, -1,  500
+		AmmoBox_new_9x18Ps,													*, -1,  500
+		AmmoBox_new_9x18Pso,												*, -1,  500
+		AmmoBox_new_9x18Pst,												*, -1,  500
+		AmmoBox_new_9x18Psb,												*, -1,  500
+		AmmoBox_new_9x18Rg028,											*, -1,  500
+		AmmoBox_new_9x18Sp7,												*, -1,  500
+		AmmoBox_new_9x18Sp8,												*, -1,  500
+		AmmoBox_new_9x18Imbalanced,									*, -1,  500
 
 	<Category> Magazines
 		Mag_IJ70_8Rnd,											M,		20,			10
