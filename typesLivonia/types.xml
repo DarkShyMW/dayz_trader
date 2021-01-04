@@ -1563,7 +1563,7 @@
         <usage name="Police"/>
     </type>
     <type name="B95">
-        <nominal>10</nominal>
+        <nominal>19</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
         <min>5</min>
@@ -1573,6 +1573,8 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Hunting"/>
+        <usage name="Firefighter"/>
+        <usage name="Village"/>
         <value name="Tier1"/>
         <value name="Tier2"/>
     </type>
@@ -4102,6 +4104,8 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Village"/>
+        <usage name="Police"/>
+        <usage name="Town"/>
     </type>
     <type name="CombatBoots_Beige">
         <nominal>5</nominal>
@@ -4208,7 +4212,7 @@
         <usage name="Farm"/>
     </type>
     <type name="Compass">
-        <nominal>25</nominal>
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>1800</restock>
         <min>10</min>
@@ -4344,8 +4348,8 @@
         <category name="clothes"/>
         <usage name="Farm"/>
         <usage name="Village"/>
+        <value name="Tier1"/>
         <value name="Tier2"/>
-        <value name="Tier3"/>
     </type>
     <type name="CowboyHat_black">
         <nominal>12</nominal>
@@ -4359,8 +4363,8 @@
         <category name="clothes"/>
         <usage name="Farm"/>
         <usage name="Village"/>
+        <value name="Tier1"/>
         <value name="Tier2"/>
-        <value name="Tier3"/>
     </type>
     <type name="CowboyHat_darkBrown">
         <nominal>12</nominal>
@@ -4374,8 +4378,8 @@
         <category name="clothes"/>
         <usage name="Farm"/>
         <usage name="Village"/>
+        <value name="Tier1"/>
         <value name="Tier2"/>
-        <value name="Tier3"/>
     </type>
     <type name="CowboyHat_green">
         <nominal>12</nominal>
@@ -4389,8 +4393,8 @@
         <category name="clothes"/>
         <usage name="Farm"/>
         <usage name="Village"/>
+        <value name="Tier1"/>
         <value name="Tier2"/>
-        <value name="Tier3"/>
     </type>
     <type name="CoyoteBag_Brown">
         <nominal>1</nominal>
@@ -4932,7 +4936,7 @@
         <category name="tools"/>
     </type>
     <type name="Engraved1911">
-        <nominal>5</nominal>
+        <nominal>3</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
         <min>2</min>
@@ -4942,6 +4946,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Village"/>
+        <usage name="Police"/>
     </type>
     <type name="Epinephrine">
         <nominal>15</nominal>
@@ -9288,6 +9293,7 @@
         <category name="weapons"/>
         <tag name="shelves"/>
         <usage name="Village"/>
+        <usage name="Police"/>
     </type>
     <type name="Mag_AK101_30Rnd">
         <nominal>20</nominal>
