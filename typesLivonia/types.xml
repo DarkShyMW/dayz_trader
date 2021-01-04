@@ -23,7 +23,6 @@
         <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
-        <value name="Tier2"/>
         <value name="Tier3"/>
     </type>
     <type name="AK101_Black">
@@ -119,7 +118,7 @@
         <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
-        <value name="Tier3"/>
+        <value name="Tier1"/>
     </type>
     <type name="AKS74U">
         <nominal>10</nominal>
@@ -183,6 +182,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
+        <value name="Tier1" />
         <value name="Tier2"/>
         <value name="Tier3"/>
     </type>
@@ -302,7 +302,7 @@
         <category name="weapons"/>
     </type>
     <type name="AK_Suppressor">
-        <nominal>5</nominal>
+        <nominal>15</nominal>
         <lifetime>14400</lifetime>
         <restock>14400</restock>
         <min>2</min>
@@ -314,7 +314,7 @@
         <usage name="Military"/>
     </type>
     <type name="AK_WoodBttstck">
-        <nominal>5</nominal>
+        <nominal>10</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
         <min>2</min>
@@ -348,7 +348,7 @@
         <category name="weapons"/>
     </type>
     <type name="AK_WoodHndgrd">
-        <nominal>5</nominal>
+        <nominal>10</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
         <min>2</min>
@@ -453,7 +453,7 @@
         <usage name="Military"/>
     </type>
     <type name="AmmoBox_00buck_10rnd">
-        <nominal>15</nominal>
+        <nominal>29</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
         <min>8</min>
@@ -476,7 +476,9 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
+        <tag name="shelves"/>
         <usage name="Police"/>
+        <usage name="Hunting"/>
     </type>
     <type name="AmmoBox_12gaSlug_10Rnd">
         <nominal>30</nominal>
@@ -488,11 +490,12 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
+        <tag name="shelves"/>
         <usage name="Police"/>
         <usage name="Hunting"/>
     </type>
     <type name="AmmoBox_22_50Rnd">
-        <nominal>30</nominal>
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
         <min>15</min>
@@ -544,6 +547,8 @@
         <category name="weapons"/>
         <tag name="shelves"/>
         <usage name="Village"/>
+        <usage name="Town" />
+        <usage name="Police"/>
     </type>
     <type name="AmmoBox_380_35rnd">
         <nominal>30</nominal>
@@ -570,7 +575,7 @@
         <usage name="Military"/>
     </type>
     <type name="AmmoBox_545x39Tracer_20Rnd">
-        <nominal>10</nominal>
+        <nominal>15</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
         <min>5</min>
@@ -581,6 +586,7 @@
         <category name="weapons"/>
         <tag name="shelves"/>
         <usage name="Military"/>
+        <value name="Tier2"/>
         <value name="Tier3"/>
     </type>
     <type name="AmmoBox_545x39_20Rnd">
@@ -595,6 +601,8 @@
         <category name="weapons"/>
         <tag name="shelves"/>
         <usage name="Military"/>
+        <value name="Tier1"/>
+        <value name="Tier2"/>
         <value name="Tier3"/>
     </type>
     <type name="AmmoBox_556x45Tracer_20Rnd">
@@ -609,6 +617,7 @@
         <category name="weapons"/>
         <tag name="shelves"/>
         <usage name="Military"/>
+        <value name="Tier2"/>
         <value name="Tier3"/>
     </type>
     <type name="AmmoBox_556x45_20Rnd">
@@ -623,10 +632,11 @@
         <category name="weapons"/>
         <tag name="shelves"/>
         <usage name="Military"/>
+        <value name="Tier2"/>
         <value name="Tier3"/>
     </type>
     <type name="AmmoBox_762x39Tracer_20Rnd">
-        <nominal>10</nominal>
+        <nominal>30</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
         <min>5</min>
@@ -637,10 +647,12 @@
         <category name="weapons"/>
         <tag name="shelves"/>
         <usage name="Military"/>
+        <value name="Tier1"/>
+        <value name="Tier2"/>
         <value name="Tier3"/>
     </type>
     <type name="AmmoBox_762x39_20Rnd">
-        <nominal>20</nominal>
+        <nominal>30</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
         <min>10</min>
@@ -650,6 +662,8 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
+        <value name="Tier1"/>
+        <value name="Tier2"/>
         <value name="Tier3"/>
     </type>
     <type name="AmmoBox_762x54Tracer_20Rnd">
@@ -664,6 +678,7 @@
         <category name="weapons"/>
         <tag name="shelves"/>
         <usage name="Military"/>
+        <value name="Tier2"/>
         <value name="Tier3"/>
     </type>
     <type name="AmmoBox_762x54_20Rnd">
@@ -678,6 +693,7 @@
         <category name="weapons"/>
         <usage name="Military"/>
         <usage name="Hunting"/>
+        <value name="Tier1"/>
         <value name="Tier2"/>
         <value name="Tier3"/>
     </type>
@@ -693,6 +709,8 @@
         <category name="weapons"/>
         <usage name="Military"/>
         <usage name="Police"/>
+        <value name="Tier1"/>
+        <value name="Tier2"/>
     </type>
     <type name="AmmoBox_9x39AP_20Rnd">
         <nominal>5</nominal>
@@ -705,6 +723,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
+        <value name="Tier3"/>
     </type>
     <type name="AmmoBox_9x39_20Rnd">
         <nominal>8</nominal>
@@ -717,6 +736,8 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
     </type>
     <type name="Ammo_12gaPellets">
         <nominal>40</nominal>
@@ -760,7 +781,7 @@
         <usage name="Village"/>
     </type>
     <type name="Ammo_22">
-        <nominal>50</nominal>
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
         <min>30</min>
@@ -799,7 +820,7 @@
         <category name="weapons"/>
         <tag name="shelves"/>
         <usage name="Hunting"/>
-        <value name="Tier3"/>
+        <value name="Tier2"/>
     </type>
     <type name="Ammo_357">
         <nominal>45</nominal>
@@ -877,6 +898,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
+        <value name="Tier1"/>
         <value name="Tier2"/>
         <value name="Tier3"/>
     </type>
@@ -892,6 +914,7 @@
         <category name="weapons"/>
         <tag name="shelves"/>
         <usage name="Military"/>
+        <value name="Tier1"/>
         <value name="Tier2"/>
         <value name="Tier3"/>
     </type>
@@ -909,6 +932,7 @@
         <usage name="Farm"/>
         <usage name="Village"/>
         <usage name="Hunting"/>
+        <usage name="Military"/>
     </type>
     <type name="Ammo_762x39Tracer">
         <nominal>20</nominal>
@@ -922,8 +946,8 @@
         <category name="weapons"/>
         <tag name="shelves"/>
         <usage name="Military"/>
+        <value name="Tier1"/>
         <value name="Tier2"/>
-        <value name="Tier3"/>
     </type>
     <type name="Ammo_762x54">
         <nominal>50</nominal>
@@ -938,8 +962,8 @@
         <tag name="shelves"/>
         <usage name="Farm"/>
         <usage name="Village"/>
+        <value name="Tier1"/>
         <value name="Tier2"/>
-        <value name="Tier3"/>
     </type>
     <type name="Ammo_762x54Tracer">
         <nominal>20</nominal>
@@ -953,6 +977,7 @@
         <category name="weapons"/>
         <tag name="shelves"/>
         <usage name="Military"/>
+        <value name="Tier1"/>
         <value name="Tier2"/>
         <value name="Tier3"/>
     </type>
@@ -967,6 +992,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Village"/>
+        <usage name="Police"/>
     </type>
     <type name="Ammo_9x39">
         <nominal>15</nominal>
@@ -979,6 +1005,8 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
     </type>
     <type name="Ammo_9x39AP">
         <nominal>10</nominal>
@@ -991,11 +1019,10 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
-        <value name="Tier2"/>
         <value name="Tier3"/>
     </type>
     <type name="Ammo_Flare">
-        <nominal>5</nominal>
+        <nominal>15</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
         <min>2</min>
@@ -1011,7 +1038,7 @@
         <usage name="Coast"/>
     </type>
     <type name="Ammo_FlareBlue">
-        <nominal>5</nominal>
+        <nominal>15</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
         <min>2</min>
@@ -1027,7 +1054,7 @@
         <usage name="Coast"/>
     </type>
     <type name="Ammo_FlareGreen">
-        <nominal>5</nominal>
+        <nominal>15</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
         <min>2</min>
@@ -1043,7 +1070,7 @@
         <usage name="Coast"/>
     </type>
     <type name="Ammo_FlareRed">
-        <nominal>5</nominal>
+        <nominal>15</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
         <min>2</min>
@@ -2090,6 +2117,8 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="tools"/>
         <usage name="Military"/>
+        <value name="Tier1"/>
+        <value name="Tier2"/>
         <value name="Tier3"/>
     </type>
     <type name="BaseballBat">
@@ -3010,6 +3039,7 @@
         <usage name="Farm"/>
         <usage name="Village"/>
         <usage name="Hunting"/>
+        <value name="Tier1"/>
         <value name="Tier2"/>
     </type>
     <type name="CZ61">
@@ -3087,7 +3117,7 @@
         <category name="tools"/>
     </type>
     <type name="CanisterGasoline">
-        <nominal>50</nominal>
+        <nominal>25</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
         <min>30</min>
@@ -9143,7 +9173,7 @@
         <value name="Tier3"/>
     </type>
     <type name="MKII">
-        <nominal>40</nominal>
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
         <min>20</min>
@@ -9298,7 +9328,8 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
-        <value name="Tier3"/>
+        <value name="Tier1"/>
+        <value name="Tier2"/>
     </type>
     <type name="Mag_AKM_Drum75Rnd">
         <nominal>5</nominal>
@@ -9312,6 +9343,7 @@
         <category name="weapons"/>
         <tag name="shelves"/>
         <usage name="Military"/>
+        <value name="Tier3"/>
     </type>
     <type name="Mag_AKM_Palm30Rnd">
         <nominal>10</nominal>
@@ -9325,6 +9357,8 @@
         <category name="weapons"/>
         <tag name="shelves"/>
         <usage name="Military"/>
+        <value name="Tier1"/>
+        <value name="Tier2"/>
     </type>
     <type name="Mag_CMAG_10Rnd">
         <nominal>10</nominal>
@@ -9338,6 +9372,8 @@
         <category name="weapons"/>
         <tag name="shelves"/>
         <usage name="Military"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
     </type>
     <type name="Mag_CMAG_20Rnd">
         <nominal>10</nominal>
@@ -9391,8 +9427,8 @@
         <usage name="Farm"/>
         <usage name="Village"/>
         <usage name="Hunting"/>
+        <value name="Tier1"/>
         <value name="Tier2"/>
-        <value name="Tier3"/>
     </type>
     <type name="Mag_CZ61_20Rnd">
         <nominal>25</nominal>
@@ -9487,7 +9523,7 @@
         <usage name="Village"/>
     </type>
     <type name="Mag_MKII_10Rnd">
-        <nominal>30</nominal>
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
         <min>20</min>
@@ -9514,7 +9550,7 @@
         <value name="Tier2"/>
     </type>
     <type name="Mag_Ruger1022_15Rnd">
-        <nominal>17</nominal>
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
         <min>10</min>
@@ -9528,7 +9564,7 @@
         <usage name="Village"/>
     </type>
     <type name="Mag_Ruger1022_30Rnd">
-        <nominal>17</nominal>
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
         <min>10</min>
@@ -9581,6 +9617,9 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
+        <value name="Tier1"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
     </type>
     <type name="Mag_Saiga_5Rnd">
         <nominal>10</nominal>
@@ -9593,6 +9632,9 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
+        <usage name="Police"/>
+        <value name="Tier1"/>
+        <value name="Tier2"/>
     </type>
     <type name="Mag_Saiga_8Rnd">
         <nominal>8</nominal>
@@ -9605,6 +9647,9 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
+        <usage name="Police"/>
+        <value name="Tier1"/>
+        <value name="Tier2"/>
     </type>
     <type name="Mag_Saiga_Drum20Rnd">
         <nominal>5</nominal>
@@ -9617,7 +9662,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
-        <value name="Tier3"/>
+        <value name="Tier2"/>
     </type>
     <type name="Mag_UMP_25Rnd">
         <nominal>25</nominal>
@@ -9630,8 +9675,8 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
+        <value name="Tier1"/>
         <value name="Tier2"/>
-        <value name="Tier3"/>
     </type>
     <type name="Mag_VSS_10Rnd">
         <nominal>10</nominal>
@@ -9644,6 +9689,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
+        <value name="Tier3"/>
     </type>
     <type name="Magnum">
         <nominal>10</nominal>
@@ -9656,8 +9702,9 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Village"/>
+        <usage name="Police"/>
+        <value name="Tier1"/>
         <value name="Tier2"/>
-        <value name="Tier3"/>
     </type>
     <type name="MakarovIJ70">
         <nominal>50</nominal>
@@ -9669,6 +9716,7 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
+        <usage name="Police"/>
         <tag name="shelves"/>
         <usage name="Village"/>
     </type>
@@ -12070,7 +12118,7 @@
         <usage name="Farm"/>
     </type>
     <type name="Ruger1022">
-        <nominal>15</nominal>
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
         <min>10</min>
@@ -12107,8 +12155,8 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
+        <value name="Tier1"/>
         <value name="Tier2"/>
-        <value name="Tier3"/>
     </type>
     <type name="SVD">
         <nominal>4</nominal>
@@ -12121,6 +12169,8 @@
         <flags count_in_cargo="1" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="1"/>
         <category name="weapons"/>
         <usage name="Military"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
     </type>
     <type name="Saiga">
         <nominal>5</nominal>
@@ -12133,7 +12183,9 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
-        <value name="Tier3"/>
+        <usage name="Police"/>
+        <value name="Tier1"/>
+        <value name="Tier2"/>
     </type>
     <type name="Saiga_Bttstck">
         <nominal>5</nominal>
@@ -14827,8 +14879,8 @@
         <flags count_in_cargo="1" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
+        <value name="Tier1"/>
         <value name="Tier2"/>
-        <value name="Tier3"/>
     </type>
     <type name="USMCJacket_Desert">
         <nominal>5</nominal>
@@ -14958,6 +15010,7 @@
         <flags count_in_cargo="1" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="1"/>
         <category name="weapons"/>
         <usage name="Military"/>
+        <value name="Tier3"/>
     </type>
     <type name="VitaminBottle">
         <nominal>30</nominal>
@@ -17926,6 +17979,8 @@
     <category name="tools"/>
     <tag name="floor"/>
     <usage name="Military"/>
+    <value name="Tier2"/>
+    <value name="Tier3"/>
   </type>
   <type name="Msp_MilitaryCrate_Green">
     <nominal>3</nominal>
@@ -17939,6 +17994,8 @@
     <category name="tools"/>
     <tag name="floor"/>
     <usage name="Military"/>
+    <value name="Tier2"/>
+    <value name="Tier3"/>
   </type>
   <type name="Msp_MilitaryCrate_Grey">
     <nominal>3</nominal>
@@ -17952,6 +18009,8 @@
     <category name="tools"/>
     <tag name="floor"/>
     <usage name="Military"/>
+    <value name="Tier2"/>
+    <value name="Tier3"/>
   </type>
   <type name="Msp_MilitaryCrate_Olive">
     <nominal>3</nominal>
@@ -17965,6 +18024,8 @@
     <category name="tools"/>
     <tag name="floor"/>
     <usage name="Military"/>
+    <value name="Tier2"/>
+    <value name="Tier3"/>
   </type>
   <type name="Msp_MilitaryCrate_Tan">
     <nominal>3</nominal>
@@ -17978,6 +18039,8 @@
     <category name="tools"/>
     <tag name="floor"/>
     <usage name="Military"/>
+    <value name="Tier2"/>
+    <value name="Tier3"/>
   </type>
   <!-- Donation Barrels -->
   <type name="Msp_Barrel_Donation">
@@ -18005,9 +18068,9 @@
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     <category name="tools"/>
     <tag name="floor"/>
-    <usage name="Industrial"/>
-    <usage name="Farm"/>
     <usage name="Military"/>
+    <value name="Tier2"/>
+    <value name="Tier3"/>
   </type>
   <type name="Msp_Barrel_Donation_Guns">
     <nominal>3</nominal>
@@ -18020,8 +18083,9 @@
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     <category name="tools"/>
     <tag name="floor"/>
-    <usage name="Industrial"/>
     <usage name="Military"/>
+    <value name="Tier2"/>
+    <value name="Tier3"/>
   </type>
   <type name="Msp_Barrel_Donation_Food">
     <nominal>3</nominal>
@@ -19725,7 +19789,7 @@
     <value name="Tier3"/>
   </type>
   <type name="TWP_FNS9">
-    <nominal>10</nominal>
+    <nominal>0</nominal>
     <lifetime>10800</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -19741,7 +19805,7 @@
     <value name="Tier3"/>
   </type>
   <type name="TWP_FNS9_mag_18Rnd">
-    <nominal>15</nominal>
+    <nominal>0</nominal>
     <lifetime>10800</lifetime>
     <restock>1800</restock>
     <min>0</min>
@@ -22335,7 +22399,7 @@
     <value name="Tier3"/>
   </type>
   <type name="TWP_AWMBlack">
-    <nominal>0</nominal>
+    <nominal>2</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -22344,9 +22408,7 @@
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     <category name="weapons"/>
-    <usage name="Town"/>
-    <usage name="Village"/>
-    <usage name="Hunting"/>
+    <usage name="Military"/>
     <value name="Tier2"/>
     <value name="Tier3"/>
   </type>
@@ -22393,7 +22455,7 @@
     <value name="Tier3"/>
   </type>
   <type name="TWP_AWMGreen">
-    <nominal>12</nominal>
+    <nominal>3</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -22407,7 +22469,7 @@
     <value name="Tier3"/>
   </type>
   <type name="TWP_AWMGreenTan">
-    <nominal>0</nominal>
+    <nominal>4</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -22662,7 +22724,7 @@
     <value name="Tier2"/>
   </type>
   <type name="TWP_Remington700">
-    <nominal>9</nominal>
+    <nominal>5</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -22691,7 +22753,7 @@
     <value name="Tier2"/>
   </type>
   <type name="TWP_RemingtonMSR_mag_5Rnd">
-    <nominal>14</nominal>
+    <nominal>6</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -22705,7 +22767,7 @@
     <value name="Tier2"/>
   </type>
   <type name="TWP_Sako75">
-    <nominal>14</nominal>
+    <nominal>10</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -27213,7 +27275,7 @@
     <usage name="Farm"/>
   </type>
   <type name="TWP_GhostBackpack_Angry">
-    <nominal>1</nominal>
+    <nominal>0</nominal>
     <lifetime>21600</lifetime>
     <restock>1800</restock>
     <min>0</min>
@@ -27223,9 +27285,10 @@
     <flags count_in_cargo="1" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
     <category name="containers"/>
     <usage name="Military"/>
+    <value name="Tier3" />
   </type>
   <type name="TWP_GhostBackpack_Vampire">
-    <nominal>1</nominal>
+    <nominal>0</nominal>
     <lifetime>21600</lifetime>
     <restock>1800</restock>
     <min>0</min>
@@ -27235,9 +27298,10 @@
     <flags count_in_cargo="1" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
     <category name="containers"/>
     <usage name="Military"/>
+    <value name="Tier3" />
   </type>
   <type name="TWP_GhostBackpack_Scared">
-    <nominal>5</nominal>
+    <nominal>0</nominal>
     <lifetime>21600</lifetime>
     <restock>1800</restock>
     <min>0</min>
@@ -27247,6 +27311,7 @@
     <flags count_in_cargo="1" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
     <category name="containers"/>
     <usage name="Military"/>
+    <value name="Tier3" />
   </type>
   <type name="TWP_PNade">
     <nominal>5</nominal>
@@ -31393,7 +31458,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <usage name="Military"/>
-    </type>	
+    </type>
     <type name="MVS_Holster_OD">
         <nominal>3</nominal>
         <lifetime>7200</lifetime>
@@ -31707,8 +31772,8 @@
         <usage name="Military"/>
     </type>
 
-<!--NEW PATCHES-->	
-	
+<!--NEW PATCHES-->
+
     <type name="MVS_Patch_19">
         <nominal>0</nominal>
         <lifetime>3600</lifetime>
@@ -31829,8 +31894,8 @@
         <category name="clothes"/>
         <usage name="Military"/>
     </type>
-	
-<!--NEW ITEMS and PATCHES-->	
+
+<!--NEW ITEMS and PATCHES-->
 
     <type name="MVS_Patch_29">
         <nominal>0</nominal>
@@ -31904,8 +31969,8 @@
         <category name="clothes"/>
         <usage name="Military"/>
     </type>
-	
-<!--HEAVY MVS GEAR and PATCHES-->	
+
+<!--HEAVY MVS GEAR and PATCHES-->
     <type name="MVS_Combat_Vest_Heavy_OD">
         <nominal>3</nominal>
         <lifetime>7200</lifetime>
@@ -32038,7 +32103,7 @@
         <category name="clothes"/>
         <usage name="Military"/>
     </type>
-	
+
 <!--NEW MVS ITEMS 3.13.2020-->
 
     <type name="MVS_Patch_34">
@@ -32287,7 +32352,7 @@
         <usage name="Military"/>
         <usage name="Hunting"/>
     </type>
-	
+
 <!--NEW MVS ITEMS 3.27.2020-->
 
     <type name="MVS_S10Respirator_Snow">
@@ -32543,7 +32608,7 @@
         <usage name="Military"/>
         <usage name="Hunting"/>
     </type>
-	
+
     <type name="MVS_BoonieHat">
         <nominal>3</nominal>
         <lifetime>7200</lifetime>
@@ -32640,7 +32705,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <usage name="Military"/>
-    </type>	
+    </type>
     <type name="MVS_BoonieHat_Snow">
         <nominal>3</nominal>
         <lifetime>7200</lifetime>
@@ -32809,7 +32874,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <usage name="Military"/>
-    </type>	
+    </type>
     <type name="MVS_Patch_35">
         <nominal>0</nominal>
         <lifetime>3600</lifetime>
@@ -32834,6 +32899,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <usage name="Military"/>
+        <value name="Tier3" />
     </type>
     <type name="MVS_Rucksack_ERDL">
         <nominal>3</nominal>
@@ -32846,6 +32912,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <usage name="Military"/>
+        <value name="Tier3" />
     </type>
     <type name="MVS_Rucksack_Tan">
         <nominal>3</nominal>
@@ -32858,6 +32925,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <usage name="Military"/>
+        <value name="Tier3" />
     </type>
     <type name="MVS_Rucksack_Black">
         <nominal>3</nominal>
@@ -32870,6 +32938,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <usage name="Military"/>
+        <value name="Tier3" />
     </type>
     <type name="MVS_Rucksack_Snow">
         <nominal>3</nominal>
@@ -32882,6 +32951,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <usage name="Military"/>
+        <value name="Tier3" />
     </type>
     <type name="MVS_Compact_1_OD">
         <nominal>3</nominal>
@@ -33135,7 +33205,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <usage name="Military"/>
-    </type>	
+    </type>
     <type name="MVS_Balaclava_Tan">
         <nominal>3</nominal>
         <lifetime>7200</lifetime>
@@ -33147,7 +33217,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <usage name="Military"/>
-    </type>	
+    </type>
     <type name="MVS_Balaclava_Black">
         <nominal>3</nominal>
         <lifetime>7200</lifetime>
@@ -33279,6 +33349,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <usage name="Military"/>
+        <value name="Tier3" />
     </type>
     <type name="MVS_Rucksack_Multicam_Tropic">
         <nominal>3</nominal>
@@ -33291,6 +33362,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <usage name="Military"/>
+        <value name="Tier3" />
     </type>
     <type name="MVS_Rucksack_Multicam_Black">
         <nominal>3</nominal>
@@ -33495,7 +33567,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <usage name="Military"/>
-    </type>	
+    </type>
     <type name="MVS_GorkaPants_Multicam_Tropic">
         <nominal>3</nominal>
         <lifetime>7200</lifetime>
@@ -33507,7 +33579,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <usage name="Military"/>
-    </type>	
+    </type>
     <type name="MVS_GorkaPants_Multicam_Black">
         <nominal>3</nominal>
         <lifetime>7200</lifetime>
@@ -33519,7 +33591,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <usage name="Military"/>
-    </type>	
+    </type>
     <type name="MVS_GorkaJacket_Multicam">
         <nominal>3</nominal>
         <lifetime>7200</lifetime>
@@ -34206,7 +34278,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <usage name="Military"/>
-    </type>	
+    </type>
     <type name="MVS_CombatPants_Multicam_Tropic">
         <nominal>3</nominal>
         <lifetime>7200</lifetime>
@@ -35143,7 +35215,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <usage name="Military"/>
-    </type>	
+    </type>
     <type name="MVS_CountryFlag_DominicanRepublic">
         <nominal>0</nominal>
         <lifetime>3600</lifetime>
@@ -36391,7 +36463,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <usage name="Military"/>
-    </type>	
+    </type>
     <type name="MVS_CountryFlag_Singapore">
         <nominal>0</nominal>
         <lifetime>3600</lifetime>
@@ -37160,7 +37232,7 @@
         <category name="clothes"/>
         <usage name="Military"/>
     </type>
-	
+
     <type name="MVS_Facemask_OD">
         <nominal>0</nominal>
         <lifetime>3600</lifetime>
@@ -37209,7 +37281,7 @@
         <category name="clothes"/>
         <usage name="Military"/>
     </type>
-	
+
     <type name="MVS_M50Respirator_OD">
         <nominal>0</nominal>
         <lifetime>3600</lifetime>
@@ -37259,7 +37331,7 @@
         <usage name="Military"/>
     </type>
 
-<!--NEW 6.17.2020-->	
+<!--NEW 6.17.2020-->
 
     <type name="MVS_Molle_Panel_OD">
         <nominal>5</nominal>
@@ -37393,7 +37465,7 @@
         <category name="clothes"/>
         <usage name="Military"/>
     </type>
-	
+
     <type name="MVS_Altyn_Visor_OD">
         <nominal>5</nominal>
         <lifetime>3600</lifetime>
@@ -37430,7 +37502,7 @@
         <category name="clothes"/>
         <usage name="Military"/>
     </type>
-	
+
     <type name="MVS_Altyn_Visor_Lifted_OD">
         <nominal>0</nominal>
         <lifetime>3600</lifetime>
@@ -37467,9 +37539,9 @@
         <category name="clothes"/>
         <usage name="Military"/>
     </type>
-	
-<!--NEW 7.23.2020-->	
-	
+
+<!--NEW 7.23.2020-->
+
     <type name="MVS_PMK2Respirator_Black">
         <nominal>3</nominal>
         <lifetime>3600</lifetime>
@@ -37554,9 +37626,9 @@
         <category name="clothes"/>
         <usage name="Military"/>
     </type>
-	
-<!--NEW 12.16.2020-->		
-	
+
+<!--NEW 12.16.2020-->
+
     <type name="MVS_Helmet_02_Tan">
         <nominal>3</nominal>
         <lifetime>7200</lifetime>
@@ -37765,7 +37837,7 @@
 		<attachments chance="1.00">
 			<item name="MVS_Canteen_OD" chance="1.00" />
 		</attachments>
-	</type>	
+	</type>
 	<type name="MVS_ChestRig_Tan">
 		<attachments chance="1.00">
 			<item name="MVS_Magazine_Pouch_Tan" chance="1.00" />
@@ -37782,7 +37854,7 @@
 		<attachments chance="1.00">
 			<item name="MVS_Canteen_Tan" chance="1.00" />
 		</attachments>
-	</type>	
+	</type>
 	<type name="MVS_ChestRig_Black">
 		<attachments chance="1.00">
 			<item name="MVS_Magazine_Pouch_Black" chance="1.00" />
@@ -37798,8 +37870,8 @@
 		</attachments>
 		<attachments chance="1.00">
 			<item name="MVS_Canteen_Black" chance="1.00" />
-		</attachments>		
-	</type> 
+		</attachments>
+	</type>
 	<type name="MVS_ChestRig_Snow">
 		<attachments chance="1.00">
 			<item name="MVS_Magazine_Pouch_Snow" chance="1.00" />
@@ -37815,8 +37887,8 @@
 		</attachments>
 		<attachments chance="1.00">
 			<item name="MVS_Canteen_Snow" chance="1.00" />
-		</attachments>	
-	</type> 
+		</attachments>
+	</type>
  	<type name="MVS_ChestRig_ERDL">
 		<attachments chance="1.00">
 			<item name="MVS_Magazine_Pouch_ERDL" chance="1.00" />
@@ -37834,7 +37906,7 @@
 			<item name="MVS_Canteen_ERDL" chance="1.00" />
 		</attachments>
 	</type>
- 	
+
 	<type name="MVS_Combat_Vest_OD">
 		<attachments chance="1.00">
 			<item name="MVS_Magazine_Pouch_OD" chance="1.00" />
@@ -37851,7 +37923,7 @@
 		<attachments chance="1.00">
 			<item name="MVS_Canteen_OD" chance="1.00" />
 		</attachments>
-	</type>	
+	</type>
 	<type name="MVS_Combat_Vest_Tan">
 		<attachments chance="1.00">
 			<item name="MVS_Magazine_Pouch_Tan" chance="1.00" />
@@ -37868,7 +37940,7 @@
 		<attachments chance="1.00">
 			<item name="MVS_Canteen_Tan" chance="1.00" />
 		</attachments>
-	</type>	
+	</type>
 	<type name="MVS_Combat_Vest_Black">
 		<attachments chance="1.00">
 			<item name="MVS_Magazine_Pouch_Black" chance="1.00" />
@@ -37884,8 +37956,8 @@
 		</attachments>
 		<attachments chance="1.00">
 			<item name="MVS_Canteen_Black" chance="1.00" />
-		</attachments>		
-	</type> 
+		</attachments>
+	</type>
 	<type name="MVS_Combat_Vest_Snow">
 		<attachments chance="1.00">
 			<item name="MVS_Magazine_Pouch_Snow" chance="1.00" />
@@ -37901,8 +37973,8 @@
 		</attachments>
 		<attachments chance="1.00">
 			<item name="MVS_Canteen_Snow" chance="1.00" />
-		</attachments>	
-	</type> 
+		</attachments>
+	</type>
  	<type name="MVS_Combat_Vest_ERDL">
 		<attachments chance="1.00">
 			<item name="MVS_Magazine_Pouch_ERDL" chance="1.00" />
@@ -37919,7 +37991,7 @@
 		<attachments chance="1.00">
 			<item name="MVS_Canteen_ERDL" chance="1.00" />
 		</attachments>
-	</type>	
+	</type>
 	<type name="MVS_Combat_Vest_Heavy_OD">
 		<attachments chance="1.00">
 			<item name="MVS_Heavy_Pouch_OD" chance="1.00" />
@@ -37930,7 +38002,7 @@
 		<attachments chance="1.00">
 			<item name="MVS_Canteen_OD" chance="1.00" />
 		</attachments>
-	</type> 
+	</type>
 	<type name="MVS_Combat_Vest_Heavy_Tan">
 		<attachments chance="1.00">
 			<item name="MVS_Heavy_Pouch_Tan" chance="1.00" />
@@ -37941,7 +38013,7 @@
 		<attachments chance="1.00">
 			<item name="MVS_Canteen_Tan" chance="1.00" />
 		</attachments>
-	</type> 
+	</type>
 	<type name="MVS_Combat_Vest_Heavy_Black">
 		<attachments chance="1.00">
 			<item name="MVS_Heavy_Pouch_Black" chance="1.00" />
@@ -37952,7 +38024,7 @@
 		<attachments chance="1.00">
 			<item name="MVS_Canteen_Black" chance="1.00" />
 		</attachments>
-	</type> 
+	</type>
 	<type name="MVS_Combat_Vest_Heavy_Snow">
 		<attachments chance="1.00">
 			<item name="MVS_Heavy_Pouch_Snow" chance="1.00" />
@@ -37963,7 +38035,7 @@
 		<attachments chance="1.00">
 			<item name="MVS_Canteen_Snow" chance="1.00" />
 		</attachments>
-	</type> 
+	</type>
 	<type name="MVS_Combat_Vest_Heavy_ERDL">
 		<attachments chance="1.00">
 			<item name="MVS_Heavy_Pouch_ERDL" chance="1.00" />
@@ -37974,7 +38046,7 @@
 		<attachments chance="1.00">
 			<item name="MVS_Canteen_ERDL" chance="1.00" />
 		</attachments>
-	</type> 
+	</type>
  	<type name="MVS_Belt_OD">
 		<attachments chance="1.00">
 			<item name="MVS_Magazine_Pouch_OD" chance="1.00" />
@@ -37988,7 +38060,7 @@
 		<attachments chance="1.00">
 			<item name="MVS_Holster_OD" chance="1.00" />
 		</attachments>
-	</type>	
+	</type>
  	<type name="MVS_Belt_Tan">
 		<attachments chance="1.00">
 			<item name="MVS_Magazine_Pouch_Tan" chance="1.00" />
@@ -38049,7 +38121,7 @@
 		<attachments chance="1.00">
 			<item name="MVS_Admin_Pouch_OD" chance="1.00" />
 		</attachments>
-	</type>	
+	</type>
  	<type name="MVS_Pack_Tan">
 		<attachments chance="1.00">
 			<item name="MVS_Admin_Pouch_Tan" chance="1.00" />
@@ -38069,7 +38141,7 @@
 		<attachments chance="1.00">
 			<item name="MVS_Admin_Pouch_ERDL" chance="1.00" />
 		</attachments>
-	</type>	
+	</type>
  	<type name="MVS_Assault_Pack_OD">
 		<attachments chance="1.00">
 			<item name="MVS_Admin_Pouch_OD" chance="1.00" />
@@ -38077,7 +38149,7 @@
 		<attachments chance="1.00">
 			<item name="MVS_Taco_Pouch_OD" chance="1.00" />
 		</attachments>
-	</type>	
+	</type>
  	<type name="MVS_Assault_Pack_Tan">
 		<attachments chance="1.00">
 			<item name="MVS_Admin_Pouch_Tan" chance="1.00" />
@@ -38109,13 +38181,13 @@
 		<attachments chance="1.00">
 			<item name="MVS_Taco_Pouch_ERDL" chance="1.00" />
 		</attachments>
-	</type>	
-	
+	</type>
+
  	<type name="MVS_Compact_1_OD">
 		<attachments chance="1.00">
 			<item name="MVS_Admin_Pouch_OD" chance="1.00" />
 		</attachments>
-	</type>	
+	</type>
  	<type name="MVS_Compact_1_Tan">
 		<attachments chance="1.00">
 			<item name="MVS_Admin_Pouch_Tan" chance="1.00" />
@@ -38136,7 +38208,7 @@
 			<item name="MVS_Admin_Pouch_ERDL" chance="1.00" />
 		</attachments>
 	</type>
-	
+
  	<type name="MVS_Compact_2_OD">
 		<attachments chance="1.00">
 			<item name="MVS_Admin_Pouch_OD" chance="1.00" />
@@ -38144,7 +38216,7 @@
 		<attachments chance="1.00">
 			<item name="MVS_Admin_Pouch_OD" chance="1.00" />
 		</attachments>
-	</type>	
+	</type>
  	<type name="MVS_Compact_2_Tan">
 		<attachments chance="1.00">
 			<item name="MVS_Admin_Pouch_Tan" chance="1.00" />
@@ -38177,7 +38249,7 @@
 			<item name="MVS_Admin_Pouch_ERDL" chance="1.00" />
 		</attachments>
 	</type>
-	
+
  	<type name="MVS_Radio_Pack_OD">
 		<attachments chance="1.00">
 			<item name="MVS_Admin_Pouch_OD" chance="1.00" />
@@ -38185,7 +38257,7 @@
 		<attachments chance="1.00">
 			<item name="MVS_Radio" chance="1.00" />
 		</attachments>
-	</type>	
+	</type>
  	<type name="MVS_Radio_Pack_Tan">
 		<attachments chance="1.00">
 			<item name="MVS_Admin_Pouch_Tan" chance="1.00" />
@@ -38217,7 +38289,7 @@
 		<attachments chance="1.00">
 			<item name="MVS_Radio" chance="1.00" />
 		</attachments>
-	</type>	
+	</type>
  	<type name="MVS_Altyn_OD">
 		<attachments chance="0.50">
 			<item name="MVS_Altyn_Visor_OD" chance="1.00" />
@@ -38225,7 +38297,7 @@
 		<attachments chance="0.50">
 			<item name="MVS_Altyn_Visor_Lifted_OD" chance="1.00" />
 		</attachments>
-	</type>	
+	</type>
  	<type name="MVS_Altyn_Tan">
 		<attachments chance="0.50">
 			<item name="MVS_Altyn_Visor_Tan" chance="1.00" />
