@@ -58,8 +58,8 @@
         <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
+        <value name="Tier1"/>
         <value name="Tier2"/>
-        <value name="Tier3"/>
     </type>
     <type name="AK74_Black">
         <nominal>0</nominal>
@@ -9296,7 +9296,7 @@
         <usage name="Police"/>
     </type>
     <type name="Mag_AK101_30Rnd">
-        <nominal>20</nominal>
+        <nominal>25</nominal>
         <lifetime>28800</lifetime>
         <restock>1800</restock>
         <min>10</min>
@@ -9320,8 +9320,8 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
+        <value name="Tier1"/>
         <value name="Tier2"/>
-        <value name="Tier3"/>
     </type>
     <type name="Mag_AKM_30Rnd">
         <nominal>35</nominal>
@@ -28964,7 +28964,7 @@
                 <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
             </type>
             <type name="MD_Fence_End_MetalGrid_Kit">
-                <nominal>1</nominal>
+                <nominal>0</nominal>
                 <lifetime>10400</lifetime>
                 <restock>10400</restock>
                 <min>1</min>
