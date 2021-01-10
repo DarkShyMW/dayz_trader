@@ -22415,7 +22415,6 @@
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     <category name="weapons"/>
     <usage name="Military"/>
-    <value name="Tier2"/>
     <value name="Tier3"/>
   </type>
   <type name="TWP_AWM_mag_5Rnd">
@@ -22443,7 +22442,6 @@
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     <category name="weapons"/>
     <usage name="Military"/>
-    <value name="Tier2"/>
     <value name="Tier3"/>
   </type>
   <type name="TWP_AWMDesert">
@@ -22457,7 +22455,6 @@
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     <category name="weapons"/>
     <usage name="Military"/>
-    <value name="Tier2"/>
     <value name="Tier3"/>
   </type>
   <type name="TWP_AWMGreen">
@@ -22471,7 +22468,6 @@
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     <category name="weapons"/>
     <usage name="Military"/>
-    <value name="Tier2"/>
     <value name="Tier3"/>
   </type>
   <type name="TWP_AWMGreenTan">
@@ -22485,7 +22481,6 @@
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     <category name="weapons"/>
     <usage name="Military"/>
-    <value name="Tier2"/>
     <value name="Tier3"/>
   </type>
   <type name="TWP_FRF2">
@@ -22499,7 +22494,6 @@
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     <category name="weapons"/>
     <usage name="Military"/>
-    <value name="Tier2"/>
     <value name="Tier3"/>
   </type>
   <type name="TWP_FRF2_mag_5Rnd">
@@ -22600,7 +22594,6 @@
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     <category name="weapons"/>
     <usage name="Military"/>
-    <value name="Tier2"/>
     <value name="Tier3"/>
   </type>
   <type name="TWP_L96A1_mag_5Rnd">
@@ -31988,6 +31981,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <usage name="Military"/>
+        <value name="Tier3"/>
     </type>
     <type name="MVS_Combat_Vest_Heavy_Tan">
         <nominal>3</nominal>
@@ -32000,6 +31994,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <usage name="Military"/>
+        <value name="Tier3"/>
     </type>
     <type name="MVS_Combat_Vest_Heavy_Black">
         <nominal>3</nominal>
@@ -32012,6 +32007,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <usage name="Military"/>
+        <value name="Tier3"/>
     </type>
     <type name="MVS_Combat_Vest_Heavy_Snow">
         <nominal>3</nominal>
@@ -32024,6 +32020,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <usage name="Military"/>
+        <value name="Tier3"/>
     </type>
     <type name="MVS_Heavy_Pouch_OD">
         <nominal>3</nominal>
@@ -32456,6 +32453,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <usage name="Military"/>
+        <value name="Tier3"/>
     </type>
     <type name="MVS_Heavy_Pouch_ERDL">
         <nominal>3</nominal>
@@ -34116,6 +34114,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <usage name="Military"/>
+        <value name="Tier3"/>
     </type>
     <type name="MVS_Combat_Vest_Heavy_Multicam_Tropic">
         <nominal>3</nominal>
@@ -34128,6 +34127,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <usage name="Military"/>
+        <value name="Tier3"/>
     </type>
     <type name="MVS_Combat_Vest_Heavy_Multicam_Black">
         <nominal>3</nominal>
@@ -34140,6 +34140,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <usage name="Military"/>
+        <value name="Tier3"/>
     </type>
     <type name="MVS_Combat_Vest_Multicam">
         <nominal>3</nominal>
