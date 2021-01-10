@@ -10328,8 +10328,8 @@
         <category name="weapons"/>
         <usage name="Village"/>
         <usage name="Hunting"/>
+        <value name="Tier1"/>
         <value name="Tier2"/>
-        <value name="Tier3"/>
     </type>
     <type name="Mosin9130_Black">
         <nominal>0</nominal>
@@ -26395,7 +26395,7 @@
     <value name="Tier3"/>
   </type>
   <type name="TWP_M16_Bayonet">
-    <nominal>0</nominal>
+    <nominal>2</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -26445,7 +26445,7 @@
     <value name="Tier3"/>
   </type>
   <type name="TWP_Ammo_50BMG">
-    <nominal>40</nominal>
+    <nominal>10</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>1</min>
@@ -26454,17 +26454,11 @@
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     <category name="weapons"/>
-    <usage name="Police"/>
-    <usage name="Farm"/>
-    <usage name="Town"/>
-    <usage name="Village"/>
-    <usage name="Hunting"/>
-    <value name="Tier1"/>
-    <value name="Tier2"/>
+    <usage name="Military"/>
     <value name="Tier3"/>
   </type>
   <type name="TWP_Ammo_408Cheytac">
-    <nominal>60</nominal>
+    <nominal>20</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>1</min>
@@ -26478,8 +26472,6 @@
     <usage name="Town"/>
     <usage name="Village"/>
     <usage name="Hunting"/>
-    <value name="Tier1"/>
-    <value name="Tier2"/>
     <value name="Tier3"/>
   </type>
   <type name="TWP_Ammo_762x25">
@@ -26547,7 +26539,7 @@
     <usage name="Hunting"/>
   </type>
   <type name="TWP_AmmoBox_3006_20Rnd">
-    <nominal>40</nominal>
+    <nominal>12</nominal>
     <lifetime>10800</lifetime>
     <restock>0</restock>
     <min>1</min>
@@ -26607,7 +26599,7 @@
     <value name="Tier3"/>
   </type>
   <type name="TWP_AmmoBox_40SW_30Rnd">
-    <nominal>40</nominal>
+    <nominal>15</nominal>
     <lifetime>10800</lifetime>
     <restock>0</restock>
     <min>1</min>
@@ -26652,7 +26644,7 @@
     <value name="Tier3"/>
   </type>
   <type name="TWP_Ammobox_408Cheytac_10Rnd">
-    <nominal>20</nominal>
+    <nominal>12</nominal>
     <lifetime>10800</lifetime>
     <restock>0</restock>
     <min>1</min>
@@ -26697,7 +26689,7 @@
     <value name="Tier3"/>
   </type>
   <type name="TWP_Ammo_44Mag">
-    <nominal>40</nominal>
+    <nominal>12</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>1</min>
@@ -26742,7 +26734,7 @@
     <value name="Tier3"/>
   </type>
   <type name="TWP_Ammo_3006">
-    <nominal>40</nominal>
+    <nominal>12</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>1</min>
@@ -26757,7 +26749,7 @@
     <value name="Tier3"/>
   </type>
   <type name="TWP_Ammo_40SW">
-    <nominal>30</nominal>
+    <nominal>12</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>1</min>
