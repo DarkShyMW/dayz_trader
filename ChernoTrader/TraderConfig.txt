@@ -1,5 +1,5 @@
 <Trader> Weapon Trader
-	<Category> Melee	
+	<Category> Melee
 		Msp_VorpalKnife,									W,      1000,   	100
 		Msp_GoodNightBat,									W,      5000,    	250
 		Msp_BeanBasher,										W,      5000,    	250
@@ -55,41 +55,41 @@
 		Msp_FireplaceRailing,									*,		600,	200
 		Msp_EmptySquarePlanterBox,								*,		600,	200
 		Msp_EmptyPlanterBox,									*,		600,	200
-		Msp_BeachChair_Kit,										*,		1000,	100	
-		Msp_KiddiePool_Kit,										*,		1000,	100	
-		Msp_KiddiePool_Pink_Kit,								*,		1000,	100	
-		Msp_KiddiePool_Yellow_Kit,								*,		1000,	100	
-		Msp_KiddiePool_Large_Kit,								*,		1000,	100	
-		Msp_KiddiePool_Large_Pink_Kit,							*,		1000,	100	
-		Msp_KiddiePool_Large_Yellow_Kit,						*,		1000,	100	
-		Msp_VolleyballNet_Kit,									*,		1000,	100	
-		Msp_FishingRodsRack_Kit,								*,		2000,	300	
-		Msp_GunCabinet_Kit,										*,		2000,	300	
-		Msp_GunRack_Kit,										*,		3000,	400	
-		Msp_DoubleGunRack_Kit,									*,		4000,	500	
-		Msp_MilitaryLocker_Kit,									*,		5000,	600	
-		Msp_Locker_Kit,											*,		5000,	600	
-		Msp_StorageBox_Kit,										*,		5000,	600	
-		Msp_ToolsBench_Blue_Kit,								*,		5000,	600	
-		Msp_ToolsBench_Grey_Kit,								*,		5000,	600	
-		Msp_ToolsBench_Red_Kit,									*,		5000,	600	
-		Msp_BlueFridge_Kit,										*,		5000,	600	
-		Msp_RetroBlueFridge_Kit,								*,		5000,	600	
-		Msp_RustyFridge_Kit,									*,		5000,	600	
-		Msp_Blue50sFridge_Kit,									*,		5000,	600	
-		Msp_50sFridge_Kit,										*,		5000,	600	
-		Msp_Freezer_Kit,										*,		5000,	600	
-		Msp_Gazebo_Kit,											*,		5000,	600	
+		Msp_BeachChair_Kit,										*,		1000,	100
+		Msp_KiddiePool_Kit,										*,		1000,	100
+		Msp_KiddiePool_Pink_Kit,								*,		1000,	100
+		Msp_KiddiePool_Yellow_Kit,								*,		1000,	100
+		Msp_KiddiePool_Large_Kit,								*,		1000,	100
+		Msp_KiddiePool_Large_Pink_Kit,							*,		1000,	100
+		Msp_KiddiePool_Large_Yellow_Kit,						*,		1000,	100
+		Msp_VolleyballNet_Kit,									*,		1000,	100
+		Msp_FishingRodsRack_Kit,								*,		2000,	300
+		Msp_GunCabinet_Kit,										*,		2000,	300
+		Msp_GunRack_Kit,										*,		3000,	400
+		Msp_DoubleGunRack_Kit,									*,		4000,	500
+		Msp_MilitaryLocker_Kit,									*,		5000,	600
+		Msp_Locker_Kit,											*,		5000,	600
+		Msp_StorageBox_Kit,										*,		5000,	600
+		Msp_ToolsBench_Blue_Kit,								*,		5000,	600
+		Msp_ToolsBench_Grey_Kit,								*,		5000,	600
+		Msp_ToolsBench_Red_Kit,									*,		5000,	600
+		Msp_BlueFridge_Kit,										*,		5000,	600
+		Msp_RetroBlueFridge_Kit,								*,		5000,	600
+		Msp_RustyFridge_Kit,									*,		5000,	600
+		Msp_Blue50sFridge_Kit,									*,		5000,	600
+		Msp_50sFridge_Kit,										*,		5000,	600
+		Msp_Freezer_Kit,										*,		5000,	600
+		Msp_Gazebo_Kit,											*,		5000,	600
 		Msp_StoneFireplace_Kit,									*,		5000,	600
-		Msp_Greenhouse_Kit,										*,		5000,	600	
-		Msp_GreenhouseWood_Kit,									*,		5000,	600	
-		Msp_Bookcase_Kit,										*,		5000,	600	
-		Msp_RifleSafe_Kit,										*,		5000,	600	
-		Msp_RifleSafe_Grey_Kit,									*,		5000,	600	
-		Msp_RifleSafe_Green_Kit,								*,		5000,	600	
-		Msp_RifleSafe_Purple_Kit,								*,		5000,	600	
-		Msp_RifleSafe_Tan_Kit,									*,		5000,	600	
-		Msp_MedicalBox_Kit,										*,		5000,	600	
+		Msp_Greenhouse_Kit,										*,		5000,	600
+		Msp_GreenhouseWood_Kit,									*,		5000,	600
+		Msp_Bookcase_Kit,										*,		5000,	600
+		Msp_RifleSafe_Kit,										*,		5000,	600
+		Msp_RifleSafe_Grey_Kit,									*,		5000,	600
+		Msp_RifleSafe_Green_Kit,								*,		5000,	600
+		Msp_RifleSafe_Purple_Kit,								*,		5000,	600
+		Msp_RifleSafe_Tan_Kit,									*,		5000,	600
+		Msp_MedicalBox_Kit,										*,		5000,	600
 		Msp_Gunwall_Kit,										*,		5000,	600	
 	<Category> Misc
 		Msp_Bunny,												*,		600,	200
@@ -114,8 +114,8 @@
 		Msp_Water_Gun_Mag,										*,		500,	50
 		Msp_WitchHat,											*,		-1,		500
 		MSP_WitchCauldron,										M,		3000,	500
-		Msp_MedievalGibbetWithMount_Kit,						*,		5000,	600	
-		Msp_MedievalGibbet_Kit,									*,		5000,	600	
+		Msp_MedievalGibbetWithMount_Kit,						*,		5000,	600
+		Msp_MedievalGibbet_Kit,									*,		5000,	600
 		Msp_SleepingBag_Green,			*,		2000,		200
 		Msp_SleepingBag_Blue,			*,		2000,		200
 		Msp_SleepingBag_LimeGreen,		*,		2000,		200
@@ -129,5 +129,3 @@
 		Msp_DeskClock,					*,		500,		50
 		Msp_WoodenTable_Kit,			*,		2000,		200
 		Msp_WoodenChair,				*,		2000,		200
-		
-		

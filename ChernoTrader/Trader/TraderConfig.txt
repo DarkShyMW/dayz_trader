@@ -41,7 +41,7 @@
 		AuriculariaMushroom,	*,		2,		1
 		BoletusMushroom,		*,		2,		1
 		PleurotusMushroom,		*,		2,		1
-	
+
 	<Category> Packaged Food
 		PowderedMilk,			*,		1,		-1
 		BoxCerealCrunchin,		*,		2,		1
@@ -52,8 +52,8 @@
 		TunaCan,				*,		4,		2
 		SpaghettiCan,			*,		5,		2
 		BakedBeansCan,			*,		5,		2
-		TacticalBaconCan,		*,		5,		3		
-		
+		TacticalBaconCan,		*,		5,		3
+
 	<Category> Meat
 		ChickenBreastMeat,		S,		2,		1
 		GoatSteakMeat,			S,		3,		1
@@ -62,17 +62,17 @@
 		BoarSteakMeat,			S,		4,		2
 		WolfSteakMeat,			S,		4,		2
 		DeerSteakMeat,			S,		5,		2
-		CowSteakMeat,			S,		5,		2	
+		CowSteakMeat,			S,		5,		2
 		Sardines,				S,		7,		4
 		Carp,					S,		10,		5
 		Mackerel,				S,		10,		5
-		
+
 	<Category> Animal Parts
 		Bone,					*,		2,		1
 		Lard,					*,		2,		1
 		Guts,					*,		2,		1
 		SmallGuts,				*,		2,		1
-		
+
 	<Category> Drinks
 		SodaCan_Cola, 			*,		2, 		1
 		SodaCan_Kvass, 			*,		2, 		1
@@ -81,7 +81,127 @@
 		WaterBottle,			*,		5,		2
 		Canteen,				*,		8,		4
 		Vodka,					*,		12,		8
-		
+
+		<Category> Storage
+				Msp_LargeAmmoBox,										*,		400,		100
+				Msp_AmericanAppleCrate,		                    		*,		600,		60
+				Msp_AppleCrate,		                    				*,		600,		60
+				Msp_PlasticCrate,		                    			*,		600,		60
+				Msp_AmmoCrate,		                    				*,		600,		60
+				Msp_TackleBox,		                    				*,		600,		60
+				Msp_TackleBox_Black,		                    		*,		600,		60
+				Msp_CoolerBox,		                    				*,		600,		60
+				Msp_CoolerBox_Black,		                    		*,		600,		60
+				Msp_SmallFridge,		                    			*,		1600,		400
+				Msp_JackDanielsFridge,		                    		*,		1600,		400
+				Msp_GrenadeBox,		                    				*,		1600,		400
+				Msp_TreasureChest,		                    			*,		1600,		400
+				Msp_MedievalChest,		                    			*,		5000,		1000
+				Msp_MilitaryCrate_Brown,		                    	*,		5000,		1000
+				Msp_MilitaryCrate_Green,		                    	*,		5000,		1000
+				Msp_MilitaryCrate_Grey,		                    		*,		5000,		1000
+				Msp_MilitaryCrate_Olive,		                    	*,		5000,		1000
+				Msp_MilitaryCrate_Tan,		                    		*,		5000,		1000
+				Msp_CoffinBox,		                    				*,		5000,		1000
+			<Category> Barrels
+				Msp_Barrel_Donation,		                    		*,		1600,		400
+				Msp_Barrel_Donation_Ammo,		                    	*,		1600,		400
+				Msp_Barrel_Donation_Guns,		                    	*,		1600,		400
+				Msp_Barrel_Donation_Food,		                    	*,		1600,		400
+				Msp_Barrel_Donation_Medical,		                    *,		1600,		400
+				Msp_Barrel_Donation_BloodONegative,		                *,		1600,		400
+				Msp_WaterBarrel_Plastic,		                    	*,		1600,		400
+				Msp_WaterBarrel_Plastic_Yellow,		                    *,		1600,		400
+				Msp_WaterBarrel_Plastic_Green,		                    *,		1600,		400
+				Msp_WaterBarrel_Plastic_Red,		                    *,		1600,		400
+				Msp_WaterBarrel_Plastic_Black,		                    *,		1600,		400
+				Msp_WaterBarrel_Plastic_White,		                	*,		1600,		400
+				Msp_WaterBarrel_Valve_Faucet,		                	*,		1000,		100
+				Msp_WaterBarrel,		                				*,		1600,		400
+				Msp_WaterBarrel_Darkwood,		                		*,		1600,		400
+				Msp_WaterBarrel_Stand,		                			*,		1000,		100
+				Msp_WaterBarrel_Stand_Darkwood,		                	*,		1000,		100
+				Msp_WaterBarrel_Valve,		                			*,		1000,		100
+				Msp_WaterBarrel_Valve_Darkwood,		                	*,		1000,		100
+			<Category> Kits and base items
+				Msp_FireplaceRailing,									*,		600,	20
+				Msp_EmptySquarePlanterBox,								*,		600,	20
+				Msp_EmptyPlanterBox,									*,		600,	20
+				Msp_BeachChair_Kit,										*,		1000,	10
+				Msp_KiddiePool_Kit,										*,		1000,	10
+				Msp_KiddiePool_Pink_Kit,								*,		1000,	10
+				Msp_KiddiePool_Yellow_Kit,								*,		1000,	10
+				Msp_KiddiePool_Large_Kit,								*,		1000,	10
+				Msp_KiddiePool_Large_Pink_Kit,							*,		1000,	10
+				Msp_KiddiePool_Large_Yellow_Kit,						*,		1000,	10
+				Msp_VolleyballNet_Kit,									*,		1000,	10
+				Msp_FishingRodsRack_Kit,								*,		2000,	30
+				Msp_GunCabinet_Kit,										*,		2000,	30
+				Msp_GunRack_Kit,										*,		3000,	40
+				Msp_DoubleGunRack_Kit,									*,		4000,	50
+				Msp_MilitaryLocker_Kit,									*,		5000,	60
+				Msp_Locker_Kit,											*,		5000,	60
+				Msp_StorageBox_Kit,										*,		5000,	60
+				Msp_ToolsBench_Blue_Kit,								*,		5000,	60
+				Msp_ToolsBench_Grey_Kit,								*,		5000,	60
+				Msp_ToolsBench_Red_Kit,									*,		5000,	60
+				Msp_BlueFridge_Kit,										*,		5000,	60
+				Msp_RetroBlueFridge_Kit,								*,		5000,	60
+				Msp_RustyFridge_Kit,									*,		5000,	60
+				Msp_Blue50sFridge_Kit,									*,		5000,	60
+				Msp_50sFridge_Kit,										*,		5000,	60
+				Msp_Freezer_Kit,										*,		5000,	60
+				Msp_Gazebo_Kit,											*,		5000,	60
+				Msp_StoneFireplace_Kit,									*,		5000,	60
+				Msp_Greenhouse_Kit,										*,		5000,	60
+				Msp_GreenhouseWood_Kit,									*,		5000,	60
+				Msp_Bookcase_Kit,										*,		5000,	60
+				Msp_RifleSafe_Kit,										*,		5000,	60
+				Msp_RifleSafe_Grey_Kit,									*,		5000,	60
+				Msp_RifleSafe_Green_Kit,								*,		5000,	60
+				Msp_RifleSafe_Purple_Kit,								*,		5000,	60
+				Msp_RifleSafe_Tan_Kit,									*,		5000,	60
+				Msp_MedicalBox_Kit,										*,		5000,	60
+				Msp_Gunwall_Kit,										*,		5000,	60
+			<Category> Misc
+				Msp_Bunny,												*,		600,	20
+				Msp_SantaJacket,										*,		600,	20
+				Msp_SantaPants,											*,		600,	20
+				Msp_MedicBag_Green,										*,		600,	20
+				Msp_MedicBag_Red,										*,		600,	20
+				Msp_MedicBag_Blue,										*,		600,	20
+				Msp_MedicBag_Black,										*,		600,	20
+				Msp_BeachUmbrella,										*,		600,	20
+				Msp_BeachBall,											*,		600,	20
+				Msp_Volleyball,											*,		600,	20
+				Msp_Floatie_Wheel,										*,		600,	20
+				Msp_Floatie_Unicorn,									*,		600,	20
+				Msp_Floatie_Unicorn_Rainbow,							*,		600,	20
+				Msp_Floatie_Unicorn_BlueRainbow,						*,		600,	20
+				Msp_Floatie_Unicorn_GreenRainbow,						*,		600,	20
+				Msp_Floatie_Unicorn_PurpleRainbow,						*,		600,	20
+				Msp_Floatie_Flamingo,									*,		600,	20
+				Msp_Floatie_Flamingo,									*,		600,	20
+				Msp_Water_Gun,											*,		350,	35
+				Msp_Water_Gun_Mag,										*,		50,	5
+				Msp_WitchHat,											*,		-1,		50
+				MSP_WitchCauldron,										M,		300,	50
+				Msp_MedievalGibbetWithMount_Kit,						*,		500,	60
+				Msp_MedievalGibbet_Kit,									*,		500,	60
+				Msp_SleepingBag_Green,			*,		200,		20
+				Msp_SleepingBag_Blue,			*,		200,		20
+				Msp_SleepingBag_LimeGreen,		*,		200,		20
+				Msp_SleepingBag_Orange,			*,		200,		20
+				Msp_SleepingBag_Purple,			*,		200,		20
+				Msp_SleepingBag_Red,			*,		200,		20
+				Msp_Mattress_Blue,				*,		200,		20
+				Msp_Mattress_Green,				*,		200,		20
+				Msp_Mattress_Pink,				*,		200,		20
+				Msp_Mattress_Yellow,			*,		200,		20
+				Msp_DeskClock,					*,		500,		50
+				Msp_WoodenTable_Kit,			*,		200,		20
+				Msp_WoodenChair,				*,		200,		20
+
 	<Category> Medical Supplies
 		//Rag,					1,		1,		-1
 		BandageDressing,		2,		3,		1
@@ -96,7 +216,7 @@
 		BloodBagEmpty,			*,		18,		10
 		FirstAidKit,			*,		20,		10
 		//Defibrillator,		*,		35, 	20
-		
+
 	<Category> Medications
 		CharcoalTablets,		*,		2,		1
 		DisinfectantAlcohol,	*,		4,		2
@@ -104,8 +224,8 @@
 		TetracyclineAntibiotics,*,		8,		5
 		PainkillerTablets,		*,		10,		6
 		Epinephrine,			*,		20,		10
-		Morphine,				*,		25,		15	
-		
+		Morphine,				*,		25,		15
+
 	<Category> Money Exchange
 		MoneyRuble1,			1,		1,		-1
 		MoneyRuble5,			1,		5,		-1
@@ -135,12 +255,12 @@
 		OrienteeringCompass,	*,		10,		4
 		Hatchet,				*,		10,		4
 		CombatKnife,			*,		10,		5
-		Machete,				*,		12,		6	
+		Machete,				*,		12,		6
 		ChernarusMap,			*,		15,		5
 		Lockpick,				*,		20,		10
-		Binoculars,				*,		30,		15		
+		Binoculars,				*,		30,		15
 		FishingRod,				*,		60,		25
-		
+
 	<Category> Tools (big)
 		LugWrench,				*,		4,		1
 		Crowbar,				*,		5,		3
@@ -149,7 +269,7 @@
 		SledgeHammer,			*,		12,		6
 		WoodAxe,				*,		20,		8
 		FirefighterAxe,			*,		30,		12
-		
+
 	<Category> Electronics
 		Battery9V,				*,		8,		3
 		PersonalRadio,			*,		10,		5
@@ -160,7 +280,7 @@
 		BaseRadio,				*,		50,		30
 		Rangefinder,			*,		60,		35
 		NVGoggles,				*,		400,	220
-	
+
 	<Category> Fire & Lights
 		Chemlight_Blue,			*,		2,		1
 		Chemlight_Green,		*,		2,		1
@@ -175,13 +295,13 @@
 		Headtorch_Black,		*,		40,		20
 		Headtorch_Grey,			*,		40,		20
 		Spotlight,				*,		600,	200
-	
+
 	<Category> Cooking & Hunting Supplies
 		PurificationTablets,	*,		5,		2
 		Pot,					M,		25,		10
 		Tripod,					*,		35,		15
 		BearTrap,				*,		50,		30
-	
+
 	<Category> Hardware Supplies
 		Paper,					*,		1,		0
 		Pen_Blue,				*,		2,		1
@@ -220,33 +340,42 @@
 		Barrel_Yellow,			M,		1500,	350
 		SeaChest,				*,		2000,	400
 		PowerGenerator,			*,		3000,	1000
-		MediumTent,				*,		3000,	500		
+		MediumTent,				*,		3000,	500
 		CarTent,				*,		5000,	700
 		LargeTent,				*,		7000,	1200
-	
+
 	<Category> Seeds & Lime
 		TomatoSeedsPack,		*,		4, 		1
 		PepperSeedsPack,		*,		4, 		1
 		ZucchiniSeedsPack,		*,		6, 		2
 		PumpkinSeedsPack,		*,		10, 	3
 		GardenLime,				*,		20,		7
-		
+
 	<Category> Fluffy Pets <3
 		Bear_Beige,				*,		5,		1
 		Bear_Dark,				*,		5,		1
 		Bear_Pink,				*,		5,		1
 		Bear_White,				*,		5,		1
 
-		
+
 <Trader> Weapon Trader
-	<Category> Melee	
-		BrassKnuckles_Shiny,	W,		15,		6
-		StunBaton,				W,		15,		9
-		Pipe,					W,		25,		10
-		CattleProd,				W,		25,		15
-		BaseballBat,			W,		35,		17
-		NailedBaseballBat,		W,		45,		20
-		
+	<Category> Melee
+		BrassKnuckles_Shiny,	W,		150,		60
+		StunBaton,				W,		150,		90
+		Pipe,					W,		250,		100
+		CattleProd,				W,		250,		150
+		BaseballBat,			W,		350,		170
+		NailedBaseballBat,		W,		450,		200
+		Msp_VorpalKnife,									W,      1000,   	100
+		Msp_GoodNightBat,									W,      5000,    	250
+		Msp_BeanBasher,										W,      5000,    	250
+		Msp_PipeAxe,										W,     1000,    	250
+		Msp_PlainBat,										W,     1000,    	250
+		Msp_PlainBat_Blue,									W,      1000,    	250
+		Msp_PlainBat_Black,									W,      1000,    	250
+		Msp_BlunderBat,										W,      1000,    	250
+		Msp_BassAxe,										W,      1000,    	250
+
 	<Category> Sidearms
 		MakarovIJ70,			W,		100,	50
 		CZ75,					W,		135,	70
@@ -255,39 +384,87 @@
 		MKII,					W,		320,	160
 		Colt1911,				W,		340,	180
 		Engraved1911,			W,		340,	180
-		
+
 	<Category> Rifles
-		Izh18,					W,		350,	175
-		Mosin9130,				W,		400,	200
-		CZ527,					W,		500,	250
-		Winchester70,			W,		500,	250
-		SKS,					W,		600,	300
-		
+		Izh18,						W,		1350,		575
+		Mosin9130,				W,		2400,	800
+		CZ527,						W,		2400,		850
+		Winchester70,			W,		3500,	850
+		SKS,							W,		3600,	1300
+		TTC_MAS36, 				W, 		5000, 2500
+		TTC_M4DMR, 				W, 		15000, 6500
+		TTC_M4DMROD, 			W, 		15000, 6500
+		TTC_M4DMRDesert, 	W, 		15000, 6500
+		TTC_M1Carbine, 		W, 		8000, 3500
+
+
+
 	<Category> Shotguns
 		Mp133Shotgun,			W,		500,	250
 		Izh43Shotgun,			W,		900,	400
 		Saiga,					W,		1500,	600
-		
+
 	<Category> Submachine Guns
 		CZ61,					W,		700,	300
 		UMP45,					W,		800,	350
-		MP5K,					W,		1000,	450	
+		MP5K,					W,		1000,	450
 		AKS74U,					W,		1100,	600
-		
+		TTC_AACHoney, W, 5000, 1500
+		TTC_AACHoney_B, W, 5000, 1500
+		TTC_AACHoney_300blk, W, 8000, 3000
+		TTC_AACHoney_300blk_B, W, 8000, 3000
+
 	<Category> Assault Rifles
-		FAL,					W,		1000,	450
-		AKM,					W,		1500,	750
-		AK101,					W,		1500,	750
-		AK74,					W,		1600,	750
-		M4A1,					W,		1500,	750
-		
+		FAL,		 W,		30000,	8450
+		AKM,		 W,		3500,	1750
+		AK101,	 W,		5500,	2750
+		AK74,		 W,		4600,	2250
+		M4A1,		 W,		5000,	2550
+		TTC_KAC, W, 	4000, 1500
+		TTC_HK416Tan, W, 5000, 2550
+		TTC_HK416OD, W, 5000, 2550
+		TTC_HK416Black, W, 5000, 2550
+		TTC_SG552, W, 5600, 2800
+		TTC_SG552_Wood, W, 5600, 2800
+		TTC_SG552_Black, W, 5600, 2800
+		TTC_SG550, W, 6000, 3000
+		TTC_SG550_Black, W, 6000, 3000
+		TTC_SG550_Pink, W, 6000, 3000
+		TTC_M16, W, 7000, 3500
+		TTC_AEK973, W, 4600, 2200
+		TTC_SCARL, W, 7000, 3500
+		TTC_SCARLSnow, W, 7000, 3500
+		TTC_SCARLBlack, W, 7000, 3500
+		TTC_M16A4, W, 6000, 2000
+
+
 	//<Category> Light Machine Guns
-		
+
 	<Category> Sniper Rifles
 		VSS,					W,		1600,	960
 		B95,					W,		1700,	1100
-		SVD,					W,		2000,	1200
-		
+		TTC_Winchester1873, W, 4000, 1500
+		SVD,					W,		12000, 3200
+		TTC_kar98k, 	W, 		15000, 6500
+		TTC_R700, 		W, 		12000, 3500
+		TTCSR25, 			W, 		20000, 7500
+		TTCSR25_Desert, W, 	20000, 7500
+		TTCSR25_Snow, W, 		20000, 7500
+		TTCSR25_OD, 	W, 		20000, 7500
+		TTC_FD338, 		W,	  40000, 17500
+		TTC_M24, W, 20000, 7500
+		TTC_M24_Bjorn, W, 20000, 7500
+		TTC_M24_Woodland, W, 20000, 7500
+		TTC_M24_WoodlandOld, W, 20000, 7500
+		TTC_SCARHBlack, W, 25000, 10500
+		TTC_Beowulf, W, 50000, 22500
+		TTC_M82, W, 140000, 25000
+		TTC_M82_Tan, W, 140000, 25000
+
+
+
+
+
 	<Category> Grenades
 		RGD5Grenade,			1,		300,	100
 		M67Grenade,				1,		300,	100
@@ -299,8 +476,8 @@
 		RDG2SmokeGrenade_Black,	1,		300,	100
 		RDG2SmokeGrenade_White,	1,		300,	100
 		FlashGrenade,			1,		300,	100
-		
-		
+
+
 <Trader> Weapon Supplies
 	<Category> Ammunition
 		Ammo_380,				1,		1,		-1
@@ -315,12 +492,12 @@
 		Ammo_545x39,			1,		5,		3
 		Ammo_556x45,			1,		5,		3
 		Ammo_762x39,			1,		5,		3
-		Ammo_762x54,			1,		10,		6		
+		Ammo_762x54,			1,		10,		6
 		Ammo_556x45Tracer,		1,		10,		5
 		Ammo_545x39Tracer,		1,		10,		5
 		Ammo_308WinTracer,		1,		10,		5
 		Ammo_762x39Tracer,		1,		10,		5
-		Ammo_762x54Tracer,		1,		20,		12		
+		Ammo_762x54Tracer,		1,		20,		12
 		// When changing Prices here keep in Mind that Players
 		// can just unpack the Ammoboxes and sell the Ammo seperatly!
 		// Originally the Ammoboxes buying Price is 20% less than
@@ -338,13 +515,25 @@
 		AmmoBox_545x39_20Rnd,	*,		80,		60
 		AmmoBox_556x45_20Rnd,	*,		80,		60
 		AmmoBox_762x39_20Rnd,	*,		80,		60
-		AmmoBox_762x54_20Rnd,	*,		200,	120		
+		AmmoBox_762x54_20Rnd,	*,		200,	120
 		AmmoBox_308WinTracer_20Rnd,		*,		160,	80
 		AmmoBox_545x39Tracer_20Rnd,		*,		160, 	80
 		AmmoBox_556x45Tracer_20Rnd,		*,		160,	80
 		AmmoBox_762x39Tracer_20Rnd,		*,		160,	80
 		AmmoBox_762x54Tracer_20Rnd,		*,		400,	200
-		
+		TTC_Ammo_8mm, 1, 20, 12
+		TTC_AmmoBox_8mm_20Rnd, *, 2000, 500
+		TTC_Ammo_30carbine, 1, 20, 12
+		TTC_AmmoBox_30CAL_30Rnd, *, 4000, 2000
+		TTC_AmmoBox_300blk_20rnd, *, 4000, 2000
+		TTC_Ammo_300blk, *, 400, 200
+		TTC_AmmoBox_338mm_10Rnd, *, 4000, 2000
+		TTC_Ammo_338, *, 400, 200
+		TTC_AmmoBox_50Beo_20rnd, *, 4000, 2000
+		TTC_Ammo_50Beo, *, 400, 200
+		TTC_Ammobox_50BMG_10rnd, *, 10000, 2000
+		TTC_Ammo_50BMG, *, 1000, 200
+
 	<Category> Magazines
 		Mag_IJ70_8Rnd,			M,		30,		15
 		Mag_CZ75_15Rnd,			M,		40,		20
@@ -374,7 +563,57 @@
 		Mag_VSS_10Rnd,			M,		220,	110
 		Mag_SVD_10Rnd,			M,		250,	125
 		Mag_308WinSnaploader_2Rnd,		M,		250,	125
-		
+		TTC_DMR_Barrel_556, *, 5000, 1500
+		TTC_DMR_Barrel_762, *, 5500, 1550
+		TTC_DMR_RifleFrame, *, 5600, 1800
+		Mag_SG_30Rnd, M, 500, 250
+		Mag_TTCM1_15Rnd, M, 500, 250
+		TTC_308Stanag, M, 200, 100
+		TTC_300Stanag, M, 200, 100
+		TTC_300Cmag, M, 200, 100
+		TTC_338mag_10rnd, M, 200, 100
+		TTC_M24mag_5rnd, M, 200, 100
+		TTC_SCARHMag, M, 200, 100
+		TTC_50Beo_mag, M, 200, 100
+		TTC_DMR_556Stanag_30rnd, M, 200, 100
+		TTC_DMR_556Stanag_30rnd_camo, M, 200, 100
+		TTC_DMR_556Stanag_30rnd_Digitan, M, 200, 100
+		TTC_DMR_556Stanag_30rnd_Tan, M, 200, 100
+		TTC_DMR_556Stanag_30rnd_UPC, M, 200, 100
+		TTC_DMR_556Stanag_100rnd, M, 5500, 100
+		TTC_DMR_556Stanag_100rnd_camo, M, 5500, 100
+		TTC_DMR_556Stanag_100rnd_Digitan, M, 5500, 100
+		TTC_DMR_556Stanag_100rnd_Tan, M, 5500, 100
+		TTC_DMR_556Stanag_100rnd_UPC, M, 5500, 100
+		TTC_DMR_556Pmag_30rnd, M, 1200, 100
+		TTC_DMR_556Pmag_30rnd_camo, M, 1200, 100
+		TTC_DMR_556Pmag_30rnd_Digitan, M, 1200, 100
+		TTC_DMR_556Pmag_30rnd_Tan, M, 1200, 100
+		TTC_DMR_556Pmag_30rnd_UPC, M, 1200, 100
+		TTC_DMR_556Pmag_40rnd, M, 2200, 100
+		TTC_DMR_556Pmag_40rnd_camo, M, 2200, 100
+		TTC_DMR_556Pmag_40rnd_Digitan, M, 2200, 100
+		TTC_DMR_556Pmag_40rnd_Tan, M, 2200, 100
+		TTC_DMR_556Pmag_40rnd_UPC, M, 2200, 100
+		TTC_DMR_556Pmag_100rnd, M, 5200, 100
+		TTC_DMR_556Pmag_100rnd_camo, M, 5200, 100
+		TTC_DMR_556Pmag_100rnd_Digitan, M, 5200, 100
+		TTC_DMR_556Pmag_100rnd_Tan, M, 5200, 100
+		TTC_DMR_556Pmag_100rnd_UPC, M, 5200, 100
+		TTC_DMR_762Stanag_20rnd, M, 200, 100
+		TTC_DMR_762Stanag_20rnd_camo, M, 200, 100
+		TTC_DMR_762Stanag_20rnd_Digitan, M, 200, 100
+		TTC_DMR_762Stanag_20rnd_Tan, M, 200, 100
+		TTC_DMR_762Stanag_20rnd_UPC, M, 200, 100
+		TTC_DMR_762Stanag_10rnd, M, 200, 100
+		TTC_DMR_762Stanag_10rnd_camo, M, 200, 100
+		TTC_DMR_762Stanag_10rnd_Digitan, M, 200, 100
+		TTC_DMR_762Stanag_10rnd_Tan, M, 200, 100
+		TTC_DMR_762Stanag_10rnd_UPC, M, 200, 100
+		TTC_M82_5rnd_Mag, M, 7600, 2100
+
+
+
 	<Category> Handguards
 		MP5_PlasticHndgrd,		*,		100,	50
 		MP5_RailHndgrd,			*,		150,	75
@@ -385,6 +624,9 @@
 		M4_PlasticHndgrd,		*,		150,	75
 		M4_RISHndgrd,			*,		200,	100
 		M4_MPHndgrd,			*,		200,	100
+		TTC_DMR_Hndguard, *, 250, 125
+		TTC_DMR_HndguardOD, *, 250, 125
+		TTC_DMR_HndguardDesert, *, 250, 125
 
 	<Category> Buttstocks
 		MP5k_StockBttstck,		*,		100,	50
@@ -399,7 +641,16 @@
 		M4_OEBttstck,			*,		150,	75
 		M4_CQBBttstck,			*,		150,	75
 		M4_MPBttstck,			*,		150,	75
-	
+		TTC_Buttstock, *, 300, 150
+		TTC_Buttstock2, *, 300, 150
+		TTC_Buttstock3, *, 300, 150
+		TTC_M1StockPouch, *, 500, 250
+		TTC_Buttstock_Honey, *, 300, 200
+		TTC_Buttstock_Camo, *, 300, 200
+		TTC_Buttstock_Digitan, *, 300, 200
+		TTC_Buttstock_Tan, *, 300, 200
+		TTC_Buttstock_UPC, *, 300, 200
+
 	<Category> Optics
 		M4_CarryHandleOptic,	*,		150,	60
 		BUISOptic,				*,		150,	60
@@ -411,15 +662,64 @@
 		KashtanOptic,			*,		700,	300
 		PUScopeOptic,			*,		900,	500
 		HuntingOptic,			*,		1000,	550
-		PSO1Optic,				*,		1100,	600	
+		PSO1Optic,				*,		1100,	600
 		PSO11Optic,				*,		1400,	840
 		KazuarOptic,			*,		2200,	1400
-	
+		AD_B13Mount,           *,      600,    150
+		AD_MosinMount,           *,      1500,    250
+		AD_ACOG,           *,      900,    350
+		AD_ACOG_MosinMount,           *,      1300,    350
+		AD_ACOG_B13,           *,      1350,    350
+		AD_ACOG_RMR,           *,      600,    300
+		AD_ACOG_RMR_MosinMount,           *,      900,    350
+		AD_ACOG_RMR_B13,           *,      950,    350
+		AD_DHF5,           *,      2900,    1350
+		AD_DHF5_MosinMount,           *,      3200,    1350
+		AD_DHF5_B13,           *,      3300,    1350
+		AD_MRS,           *,      500,    150
+		AD_MRS_MosinMount,           *,      900,    350
+		AD_MRS_B13,           *,      900,    350
+		AD_NFATACR,           *,      1800,    750
+		AD_NFATACR_MosinMount,           *,      1900,    850
+		AD_NFATACR_B13,           *,      1800,    850
+		AD_NFATACR_1_8,           *,      1800,    750
+		AD_NFATACR_1_8_MosinMount,           *,      1900,    850
+		AD_NFATACR_1_8_B13,           *,      1900,    850
+		AD_OKP7,           *,      1300,    550
+		AD_OKP7_MosinMount,           *,      1200,    550
+		AD_OKP7_B13,           *,      1200,    550
+		AD_Pilad,           *,      2900,    650
+		AD_Pilad_MosinMount,           *,      2900,    750
+		AD_Pilad_B13,           *,      2900,    750
+		AD_PVS4,           *,      2900,    1250
+		AD_PVS4_MosinMount,           *,      3800,    1350
+		AD_PVS4_B13,           *,      3900,    1350
+		AD_RMR,           *,      300,    150
+		AD_RMR_LM,           *,      500,    150
+		AD_RMR_LM_MosinMount,           *,      500,    150
+		AD_RMR_LM_B13,           *,      500,    250
+		AD_RMR_TM,           *,      500,    150
+		AD_RMR_TM_MosinMount,           *,      800,    250
+		AD_RMR_TM_B13,           *,      800,    250
+
 	<Category> Supressors
 		PistolSuppressor,		*,		150,	75
 		AK_Suppressor,			*,		250,	125
 		M4_Suppressor,			*,		250,	125
-		
+		TTC_Universal_Suppressor_BLACK, *, 3500, 1200
+		TTC_Universal_Suppressor_CAMO, *, 3500, 1200
+		TTC_Honey_Suppressor, *, 7500, 1500
+		TTC_Universal_Suppressor_Tan, *, 7500, 1500
+		TTC_Universal_Suppressor_Snow, *, 7500, 1200
+		TTC_DMR_Suppressor, *, 3500, 1200
+		TTC_DMR_AFG, *, 3500, 1200
+		TTC_DMR_AFG_Green, *, 3500, 1200
+		TTC_DMR_AFG_Tan, *, 3500, 1200
+		TTC_DMR_VFG, *, 3500, 1200
+		TTC_DMR_VFG_Green, *, 3500, 1200
+		TTC_DMR_VFG_Tan, *, 3500, 1200
+		TTC_DMR_Bipod, *, 3500, 1200
+
 	<Category> Compensators
 		Mosin_Compensator,		*,		150,	75
 		MP5_Compensator,		*,		200,	100
@@ -429,11 +729,11 @@
 		M9A1_Bayonet,			*,		150,	75
 		AK_Bayonet,				*,		150,	75
 		SKS_Bayonet,			*,		100,	60
-		
+
 	<Category> Flashlights
 		Universallight,			*,		120,	60
-	
-	
+
+
 <Trader> Clothing Trader
 	<Category> Glasses
 		SportGlasses_Orange,	*,		17,		8
@@ -446,7 +746,7 @@
 		AviatorGlasses,			*,		40,		20
 		TacticalGoggles,		*,		60,		30
 		NVGHeadstrap,			*,		200,	120
-		
+
 	<Category> Armbands
 		Armband_Pink,			*,		15,		5
 		Armband_Yellow,			*,		15,		5
@@ -456,7 +756,7 @@
 		Armband_White,			*,		15,		5
 		Armband_Black,			*,		15,		5
 		Armband_Green,			*,		15,		5
-		
+
 	<Category> Gloves
 		SurgicalGloves_LightBlue,*,		5,		1
 		SurgicalGloves_Blue,	*,		5,		1
@@ -543,7 +843,7 @@
 		Ushanka_Blue,			*,		50,		15
 		Ushanka_Black,			*,		50,		15
 		Ushanka_Green,			*,		55,		18
-		NBCHoodGray,			*,		100,	30		
+		NBCHoodGray,			*,		100,	30
 
 	<Category> Helmets
 		ConstructionHelmet_Yellow,*,	30,		7
@@ -629,7 +929,7 @@
 		TShirt_Green,			*,		12,		3
 		TelnyashkaShirt,		*,		14,		3
 		Shirt_RedCheck,			*,		16,		4
-		Shirt_BlueCheckBright,	*,		16,		4	
+		Shirt_BlueCheckBright,	*,		16,		4
 		Shirt_BlueCheck,		*,		16,		4
 		Shirt_WhiteCheck,		*,		16,		4
 		Shirt_PlaneBlack,		*,		17,		4
@@ -645,7 +945,7 @@
 		TacticalShirt_Grey,		*,		36,		10
 		TacticalShirt_Tan,		*,		37,		10
 		TacticalShirt_Black,	*,		38,		10
-		TacticalShirt_Olive,	*,		40,		12	
+		TacticalShirt_Olive,	*,		40,		12
 
 	<Category> Hoodies & Sweater
 		Sweater_Red,			*,		20,		5
@@ -660,7 +960,7 @@
 		Hoodie_Brown,			*,		30,		6
 		Hoodie_Black,			*,		30,		6
 		Hoodie_Green,			*,		35,		7
-		
+
 	<Category> Vests
 		ReflexVest,				*,		5,		1
 		PoliceVest,				*,		35,		10
@@ -816,7 +1116,7 @@
 		CanvasPantsMidi_Violet,	*,		24,		6
 		CanvasPantsMidi_Blue,	*,		24,		6
 		CanvasPantsMidi_Grey,	*,		24,		6
-		CanvasPantsMidi_Beige,	*,		25,		6	
+		CanvasPantsMidi_Beige,	*,		25,		6
 		CanvasPants_Red,		*,		26,		6
 		CanvasPants_Violet,		*,		26,		6
 		CanvasPants_Blue,		*,		26,		6
@@ -848,7 +1148,7 @@
 		Jeans_Grey,				*,		40,		10
 		Jeans_Brown,			*,		40,		10
 		Jeans_Black,			*,		42,		10
-		Jeans_Green,			*,		45,		12	
+		Jeans_Green,			*,		45,		12
 		TTSKOPants,				*,		55,		15
 		BDUPants,				*,		65,		18
 		USMCPants_Desert,		*,		65,		18
@@ -864,7 +1164,7 @@
 		GorkaPants_Autumn,		*,		130,	40
 		GorkaPants_Summer,		*,		130,	40
 		NBCPantsGray,			*,		200,	65
-	
+
 	<Category> Shoes & Boots
 		AthleticShoes_Blue,		*,		17,		4
 		AthleticShoes_Grey,		*,		20,		5
@@ -920,7 +1220,7 @@
 		NBCBootsGray,			*,		150,	50
 
 	<Category> Ghillie
-		// Keep in Mind that Players can also 
+		// Keep in Mind that Players can also
 		// craft Ghillie Clothing and sell them!
 		GhillieAtt_Mossy,		*,		220,	70
 		GhillieAtt_Tan,			*,		220,	70
@@ -937,7 +1237,7 @@
 		GhillieSuit_Mossy,		*,		1000,	300
 		GhillieSuit_Tan,		*,		1000,	300
 		GhillieSuit_Woodland,	*,		1000,	300
-		
+
 	//<Category> Seasonal
 		//SantasBeard,			*,		15,		0
 		//SantasHat,			*,		35,		0
@@ -947,11 +1247,11 @@
 		ChestHolster,			*,		60,		20
 		PlateCarrierHolster,	*,		60,		20
 		PlateCarrierPouches,	*,		100,		20
-		
+
 	<Category> Belt
 		CivilianBelt,			*,		100,	30
 		MilitaryBelt,			*,		100,	30
-		
+
 	<Category> Bags
 		ChildBag_Red,			*,		20,		5
 		ChildBag_Blue,			*,		20,		5
@@ -1019,8 +1319,8 @@
 		//LeatherSack_Black,	*,		0,		0
 		//LeatherSack_Brown,	*,		0,		0
 		//LeatherSack_Natural,	*,		0,		0
-	
-	
+
+
 <Trader> Vehicles Trader
 	<Category> Vehicles
 		OffroadHatchback,		V,		14000,	8000	// Use VNK instead of V as Quantity to not give a Vehicle Key when bought.
@@ -1035,7 +1335,7 @@
 		CivilianSedan,			V,		20000,	11000
 		CivilianSedan_Wine,		V,		20000,	11000
 		CivilianSedan_Black,	V,		20000,	11000
-	
+
 	<Category> Vehicle Parts
 		HeadlightH7_Box,		*,		30,		15
 		SparkPlug,				*,		60,		40
@@ -1136,12 +1436,12 @@
 		Sedan_02_Door_2_1_YellowRust,	*,		450,	160
 		Sedan_02_Door_2_1_RedRust,		*,		450,	160
 		Sedan_02_Door_2_1_GreyRust,		*,		450,	160
-		Sedan_02_Door_2_2,				*,		450,	160  
-		Sedan_02_Door_2_2_Red,			*,		450,	160  
-		Sedan_02_Door_2_2_Grey,			*,		450,	160  
-		Sedan_02_Door_2_2_YellowRust,	*,		450,	160  
-		Sedan_02_Door_2_2_RedRust,		*,		450,	160  
-		Sedan_02_Door_2_2_GreyRust,		*,		450,	160  
+		Sedan_02_Door_2_2,				*,		450,	160
+		Sedan_02_Door_2_2_Red,			*,		450,	160
+		Sedan_02_Door_2_2_Grey,			*,		450,	160
+		Sedan_02_Door_2_2_YellowRust,	*,		450,	160
+		Sedan_02_Door_2_2_RedRust,		*,		450,	160
+		Sedan_02_Door_2_2_GreyRust,		*,		450,	160
 		Sedan_02_Wheel,					*,		500,	100
 		CivSedanHood,						*,		400,	140
 		CivSedanHood_Wine,					*,		400,	140
@@ -1180,10 +1480,10 @@
 		CivSedanDoors_BackRight_WineRust,	*,		500,	180
 		CivSedanDoors_BackRight_BlackRust,	*,		500,	180
 		CivSedanWheel,						*,		600,	120
-		
+
 	<Category> Keys
 		VehicleKeyDuplicate,	K,		2000,	-1 		// The choosen Classname here only gets displayed in the UI (Name/Description); Make Sure SellValue is set to -1
-		
-		
+
+
 //<OpenFile> FileName.txt								// Links to another File; Must be right above <FileEnd>!
 <FileEnd>												// This has to be on the End of this File and is very importand!
