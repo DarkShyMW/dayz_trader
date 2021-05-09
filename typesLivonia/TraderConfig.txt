@@ -160,7 +160,7 @@
 		BatteryCharger,								*,		700,		250
 		BaseRadio,										*,		4500,		2100
 		Rangefinder,									*,		1500		700
-		NVGoggles,										*,		-1,			3000
+		NVGoggles,										*,		-1,			7000
 
 	<Category> Fire & Lights
 		Chemlight_Blue,								*,		100,		50
@@ -175,23 +175,13 @@
 		PortableGasStove,							*,		500,		250
 		Headtorch_Black,							*,		1200,		500
 		Headtorch_Grey,								*,		1200,		500
-		Spotlight,										*,		1500,	750
+		Spotlight,										*,		1500,		750
 
-	<Category> Melee
-				Msp_VorpalKnife,					W,      -1,   	900
-				Msp_GoodNightBat,					W,      -1,    	950
-				Msp_BeanBasher,						W,      -1,    	1700
-				Msp_PipeAxe,							W,      -1,    	2900
-				Msp_PlainBat,							W,      -1,    	950
-				Msp_PlainBat_Blue,				W,      -1,    	950
-				Msp_PlainBat_Black,				W,      -1,    	950
-				Msp_BlunderBat,						W,      -1,    	1200
-				Msp_BassAxe,							W,      -1,    	2500
 	<Category> Storage
 				Msp_LargeAmmoBox,																	*,		1000,		500
-				//Msp_AmericanAppleCrate,		                    		*,		600,		300
-				//Msp_AppleCrate,		                    						*,		600,		300
-				//Msp_PlasticCrate,		                    					*,		600,		300
+				//Msp_AmericanAppleCrate,		                    	*,		600,		300
+				//Msp_AppleCrate,		                    					*,		600,		300
+				//Msp_PlasticCrate,		                    				*,		600,		300
 				Msp_AmmoCrate,		                    						*,		4000,		60
 				Msp_TackleBox,		                    						*,		2000,		1000
 				Msp_TackleBox_Black,		                    			*,		2000,		1000
@@ -225,6 +215,7 @@
 				Msp_WaterBarrel_Stand_Darkwood,		                *,		800,		350
 				Msp_WaterBarrel_Valve,		                				*,		800,		350
 				Msp_WaterBarrel_Valve_Darkwood,		               	*,		800,		350
+
 			<Category> Kits and base items
 				Msp_FireplaceRailing,															*,		6000,	2000
 				//Msp_EmptySquarePlanterBox,												*,		600,	200
@@ -259,6 +250,7 @@
 				Msp_Wardrobe_Brown_Kit,														*,		14600,	6000
 				Msp_Wardrobe_Green_Kit,														*,		14600,	6000
 				Msp_Wardrobe_White_Kit,														*,		14600,	6000
+
 			<Category> Misc
 				Msp_SleepingBag_Green,														*,		2000,		500
 				Msp_SleepingBag_Blue,															*,		2000,		500
@@ -278,6 +270,7 @@
 				Msp_HousePlant_FicusTree,													*,		1000,		500
 				Msp_HousePlant_RubberFig,													*,		1000,		500
 				Msp_HousePlant_Succulent,													*,		1000,		500
+
 			<Category> Seasonal
 				Msp_Bunny,																				*,		550,	200
 				Msp_SantaJacket,																	*,		800,	300
@@ -345,9 +338,6 @@
 					sherlockpipe_mung,                  					 *,      100,    50
 					Clawhammer_mung,                    					 *,      200,    100
 					mag3_gasmask_mung,			         							 *,		   400,	 200
-					csmcmillan_mung,			         								 *,		   1000,	 500
-					Mag_cs5_10Rnd_mung,			       							   *,		   200,	 100
-					mcmillan_buttstock,			       							   *,		   100,	 50
 					pickles_closed,                     					 *,      100,    50
 					Zippo_new,                          					 *,      100,    50
 					fannypack_pink_mung,                					 *,      200,    100
@@ -398,6 +388,10 @@
 		BearTrap,																							*,		1900,		850
 
 	<Category> Hardware Supplies
+		Bear_Beige,																						*,		5,		1
+		Bear_Dark,																						*,		5,		1
+		Bear_Pink,																						*,		5,		1
+		Bear_White,																						*,		5,		1
 		Paper,																								*,		100,	50
 		Pen_Blue,																							*,		200,		100
 		Rope,																									*,		400,		200
@@ -446,298 +440,444 @@
 		PumpkinSeedsPack,																			*,		10, 	3
 		GardenLime,																						*,		20,		7
 
-	<Category> Fluffy Pets <3
-		Bear_Beige,																						*,		5,		1
-		Bear_Dark,																						*,		5,		1
-		Bear_Pink,																						*,		5,		1
-		Bear_White,																						*,		5,		1
-
-
 <Trader> Weapon Trader
 	<Category> Melee
-		BrassKnuckles_Shiny,																	W,		15,		6
-		StunBaton,																						W,		15,		9
-		Pipe,																									W,		25,		10
-		CattleProd,																						W,		25,		15
-		BaseballBat,																					W,		35,		17
-		NailedBaseballBat,																		W,		45,		20
-		TWP_NailedBat,																				W,		7500,	0
-		TWP_SawBat,																						W,		7500,	0
-		TWP_Mjolnir,																					W,		7500,	0
-		TWP_Rose,																							W,		7500,	0
-		TWP_Kukri,																						W,		7500,	0
-		TWP_Kukri_Gradient,																		W,		7500,	0
-		TWP_Kukri_Sakura,																			W,		7500,	0
-		TWP_Kukri_Engraved,																		W,		7500,	0
-		TWP_SmithWesson_Knife_Green,													W,		7500,	0
-		TWP_SmithWesson_Knife_Black,													W,		7500,	0
-		TWP_HolyMakarel,																			W,		7500,	0
-		TWP_NinjaSword,																				W,		7500,	0
-		TWP_Axe,																							W,		7500,	0
-		TWP_FirefighterAxe,																		W,		7500,	0
-		TWP_SledgeHammer,																			W,		7500,	0
+		BrassKnuckles_Shiny,																	W,		1000,		600
+		StunBaton,																						W,		1500,		900
+		Pipe,																									W,		2500,		1000
+		CattleProd,																						W,		900,		450
+		BaseballBat,																					W,		1200,		700
+		NailedBaseballBat,																		W,		1900,		1000
+		Msp_VorpalKnife,																			W,    -1,   	900
+		Msp_GoodNightBat,																			W,    -1,    	950
+		Msp_BeanBasher,																				W,    -1,    	1700
+		Msp_PipeAxe,																					W,    -1,    	2900
+		Msp_PlainBat,																					W,    -1,    	950
+		Msp_PlainBat_Blue,																		W,    -1,    	950
+		Msp_PlainBat_Black,																		W,    -1,    	950
+		Msp_BlunderBat,																				W,    -1,    	1200
+		Msp_BassAxe,																					W,    -1,    	2500
+		TWP_NailedBat,																				W,		-1,		3400
+		TWP_SawBat,																						W,		-1,		3400
+		TWP_Mjolnir,																					W,		-1,		3400
+		TWP_Rose,																							W,		-1,		3400
+		TWP_Kukri,																						W,		-1,		3400
+		TWP_Kukri_Gradient,																		W,		-1,		3400
+		TWP_Kukri_Sakura,																			W,		-1,		3400
+		TWP_Kukri_Engraved,																		W,		-1,		3400
+		TWP_SmithWesson_Knife_Green,													W,		-1,		3400
+		TWP_SmithWesson_Knife_Black,													W,		-1,		3400
+		TWP_HolyMakarel,																			W,		-1,		3400
+		TWP_NinjaSword,																				W,		-1,		3400
+		TWP_Axe,																							W,		-1,		3400
+		TWP_FirefighterAxe,																		W,		-1,		3400
+		TWP_SledgeHammer,																			W,		-1,		3400
 
 
 	<Category> Sidearms
-		Flaregun,            															    W,		80,		40
-		MakarovIJ70,																					W,		100,	50
-		CZ75,																									W,		135,	70
-		FNX45,																								W,		175,	90
-		Glock19,																							W,		300,	130
-		MKII,																									W,		320,	160
-		Colt1911,																							W,		340,	180
-		Engraved1911,																					W,		340,	180
-		MSFC_1911_Golden,																			W,		50000,		30000
-
-		TWP_ArexZero,																		W,   	600,	0 	// 9x19
-		TWP_Beretta92FS,																W,   	600,	0	// 9x19
-		TWP_Beretta92FSDesert,													W,   	600,	0
-		TWP_BerettaGoldenFlower,												W,   	600,	0	// 9x19
-		TWP_BerettaDEBurton,														W,   	1000,	0	// 44Mag
-		TWP_BerettaDEBlack,															W,   	1000,	0	// 44Mag
-		TWP_BerettaPX4,																	W,   	600,	0	// 9x19
-		TWP_BerettaSwordCutlass,												W,   	600,	0	// 9x19
-		TWP_Colt1911Gold,																W,   	600,	0	// 45ACP
-		TWP_Colt1911Holy,																W,   	600,	0	// 45ACP
-		TWP_Colt1911Stainless,													W,   	600,	0	// 45ACP
-		TWP_1911_WilsonCombat,													W,   	600,	0	// 45ACP
-		TWP_CZ75M,																			W,   	600,	0	// 9x19
-		TWP_DesertEagle,																W,   	2500,	0	// 50AE
-		TWP_DesertEagleSky,															W,   	2500,	0	// 50AE
-		TWP_DesertEagleFalcon,													W,   	2200,	0	// 44Mag
-		TWP_FN57Pink,																		W,   	600,	0	// 5.7x28
-		TWP_FN57Toxic,																	W,   	600,	0	// 5.7x28
-		TWP_FNS9,																				W,   	600,	0	// 9x19
-		TWP_Glock18Egyptian,														W,   	600,	0	// 9x19
-		TWP_Glock18Honor,																W,   	600,	0	// 9x19
-		TWP_Glock18Jungle,															W,   	600,	0	// 9x19
-		TWP_Glock18Rebel,																W,   	600,	0	// 9x19
-		TWP_Glock18Weasel,															W,   	600,	0	// 9x19
-		TWP_Glock18Wolf,																W,   	600,	0	// 9x19
-		TWP_Glock19M,																		W,   	600,	0	// 9x19
-		TWP_Glock42,																		W,   	600,	0	//380ACP
-		TWP_GlockZapper,																W,		600,	0	// 9x19
-		TWP_HK47,																				W,		600,	0	// 9x19
-		TWP_HK47Tan,																		W,		600,	0	// 9x19
-		TWP_LugerP08,																		W,		600,	0	// 9x19
-		TWP_MK23Socom,																	W,		600,	0	// 45ACP
-		TWP_MP40,																				W,		600,	0	// 40SW
-		TWP_MP443,																			W,		600,	0	// 9x19
-		TWP_P8,																					W,		600,	0	// 9x19
-		TWP_P2000BlueGirl,															W,		600,	0	// 9x19
-		TWP_P2000Protector,															W,		600,	0	// 9x19
-		TWP_P2000Renegade,															W,		600,	0	// 9x19
-		TWP_P2000Toxic,																	W,		600,	0	// 9x19
-		TWP_SigSauerP226,																W,		600,	0	// 357
-		TWP_SigSauerP229,																W,		600,	0	// 9x19
-		TWP_SigSauerP250,																W,		600,	0	// 45ACP
-		TWP_SigSauerP250Colored,												W,		600,	0	// 45ACP
-		TWP_SigSauerP250Patrician,											W,		600,	0	// 45ACP
-		TWP_SigSauerP250PeaCock,												W,		600,	0	// 45ACP
-		TWP_SigSauerP250Wingshot,												W,		600,	0	// 45ACP
-		TWP_SP1Vektor,																	W,		600,	0	// 9x19
-		TWP_SR1Gyrza,																		W,		600,	0	//380ACP
-		TWP_Tokarev,																		W,		600,	0	//380ACP
-		TWP_USPChromatic,																W,		600,	0	// 9x19
-		TWP_USPPsychodelic,															W,		600,	0	// 9x19
-		TWP_WaltherP99,																	W,		600,	0	// 9x19
-		TWP_WaltherQ5,																	W,		600,	0	// 9x19
-		TWP_Glock17,																		W,		600,	0	// 9x19
-		TWP_WaltherPPK,																	W,		600,	0	// 380ACP
+		Flaregun,            															    W,		2600,	1100
+		MakarovIJ70,																					W,		800,	350
+		CZ75,																									W,		1050,	500
+		FNX45,																								W,		1900,	700
+		Glock19,																							W,		1100,	500
+		MKII,																									W,		700,	350
+		Colt1911,																							W,		1200,	500
+		Engraved1911,																					W,		1340,	550
+		MSFC_1911_Golden,																			W,		-1,		30000
+		TWP_WaltherPPK,																				W,		1200,	600	//380ACP
+		TWP_SR1Gyrza,																					W,		1600,	750	//380ACP
+		TWP_Tokarev,																					W,		1200,	450	//380ACP
+		TWP_Glock42,																					W,   	1800,	800	//380ACP
+		TWP_SP1Vektor,																				W,		1900,	800	// 9x19
+		TWP_USPChromatic,																			W,		2100,	950	// 9x19
+		TWP_USPPsychodelic,																		W,		2100,	950	// 9x19
+		TWP_WaltherP99,																				W,		1700,	600	// 9x19
+		TWP_WaltherQ5,																				W,		1400,	500	// 9x19
+		TWP_Glock17,																					W,		1200,	600	// 9x19
+		TWP_ArexZero,																					W,   	1400,	500 // 9x19
+		TWP_Beretta92FS,																			W,   	1900,	600	// 9x19
+		TWP_Beretta92FSDesert,																W,   	2100,	900 // 9x19
+		TWP_BerettaGoldenFlower,															W,   	2100,	1100	// 9x19
+		TWP_MP443,																						W,		1400,	700	// 9x19
+		TWP_P8,																								W,		1100,	450	// 9x19
+		TWP_P2000BlueGirl,																		W,		1200,	550	// 9x19
+		TWP_P2000Protector,																		W,		1200,	550	// 9x19
+		TWP_P2000Renegade,																		W,		1200,	550	// 9x19
+		TWP_P2000Toxic,																				W,		1200,	550	// 9x19
+		//TWP_FNS9,																							W,   	1400,	700	// 9x19
+		TWP_Glock18Egyptian,																	W,   	1700,	850	// 9x19
+		TWP_Glock18Honor,																			W,   	1700,	850	// 9x19
+		TWP_Glock18Jungle,																		W,   	1700,	850	// 9x19
+		TWP_Glock18Rebel,																			W,   	1700,	850	// 9x19
+		TWP_Glock18Weasel,																		W,   	1700,	850	// 9x19
+		TWP_Glock18Wolf,																			W,   	1700,	850	// 9x19
+		TWP_Glock19M,																					W,   	1000,	400	// 9x19
+		TWP_GlockZapper,																			W,		1700,	850	// 9x19
+		TWP_HK47,																							W,		1400,	650	// 9x19
+		TWP_HK47Tan,																					W,		1400,	650	// 9x19
+		TWP_LugerP08,																					W,		2000,	1100	// 9x19
+		TWP_BerettaPX4,																				W,   	1400,	600	// 9x19
+		TWP_BerettaSwordCutlass,															W,   	1900,	1000	// 9x19
+		TWP_CZ75M,																						W,   	1100,	400	// 9x19
+		TWP_SigSauerP229,																			W,		1000,	400	// 9x19
+		TWP_SigSauerP250Patrician,														W,		1300,	700	// 45ACP
+		TWP_SigSauerP250PeaCock,															W,		1300,	700	// 45ACP
+		TWP_SigSauerP250Wingshot,															W,		1300,	700	// 45ACP
+		TWP_SigSauerP250,																			W,		1300,	700	// 45ACP
+		TWP_SigSauerP250Colored,															W,		1300,	700	// 45ACP
+		TWP_Colt1911Gold,																			W,   	-1,	30000	// 45ACP
+		TWP_Colt1911Holy,																			W,   	1200,	600	// 45ACP
+		TWP_Colt1911Stainless,																W,   	1200,	600	// 45ACP
+		TWP_1911_WilsonCombat,																W,   	1400,	600	// 45ACP
+		TWP_MK23Socom,																				W,		1600,	650	// 45ACP
+		TWP_BerettaDEBurton,																	W,   	-1,	6000	// 44Mag
+		TWP_BerettaDEBlack,																		W,   	-1,	6000	// 44Mag
+		TWP_DesertEagleFalcon,																W,   	7600,	3400	// 44Mag
+		TWP_FN57Pink,																					W,   	1400,	600	// 5.7x28
+		TWP_FN57Toxic,																				W,   	1400,	600	// 5.7x28
+		TWP_MP40,																							W,		1100,	450	// 40SW
+		TWP_SigSauerP226,																			W,		1200,	550	// 357
+		TWP_DesertEagle,																			W,   	9000,	4200	// 50AE
+		TWP_DesertEagleSky,																		W,   	9000,	4200	// 50AE
 
 		<Category> Rifles
-			Izh18,																							W,		350,	175
-			Mosin9130,																					W,		400,	200
-			CZ527,																							W,		500,	250
-			Winchester70,																				W,		500,	250
-			SKS,																								W,		600,	300
-			MSFC_VPO136,																				W,		5000,		3000
-			TWP_M1Carbine,																			W,		5000,	0 	//30Carbine
-			TWP_M1Garand,																				W,		5000,	0	// 30-06
-			TWP_G43,																						W,		5000,	0	//762x54
-			TWP_Kar98,																					W,		5000,	0	// 762x54
-			TWP_Arisaka,																				W,		5000,	0	//762x54
-			TWP_Winchester1873,															W,		5000,	0	// 357
-			TWP_WinchesterRifle,														W,		5000,	0	// 357
-			TWP_Marlin,																			W,		5000,	0	// 357
-			TWP_Sako75,																			W,		5000,	0	//308.win
-			TWP_SSG69,																			W,		5000,	0	//308.win
-			TWP_SVT38,																			W,		5000,	0	// 762x54
-			TWP_MosinNagant,																W,		5000,	0	//762x54
+			Izh18,																							W,		950,	440
+			Mosin9130,																					W,		3600,	1900
+			CZ527,																							W,		4100,	2600
+			Winchester70,																				W,		4500,	2700
+			SKS,																								W,		4500,	1600
+			MSFC_VPO136,																				W,		6000,		3000
+			TWP_M1Carbine,																			W,		4100,	2100 	//30Carbine
+			TWP_M1Garand,																				W,		4300,	2000	// 30-06
+			TWP_G43,																						W,		4900,	2300	//762x54
+			TWP_Kar98,																					W,		6000,	2500	// 762x54
+			TWP_Arisaka,																				W,		4700,	2600	//762x54
+			TWP_SVT38,																					W,		4600,	2400	// 762x54
+			TWP_MosinNagant,																		W,		5600,	2600	//762x54
+			TWP_Winchester1873,																	W,		6000,	2500	// 357
+			TWP_WinchesterRifle,																W,		6500,	3000	// 357
+			TWP_Marlin,																					W,		6500,	3000	// 357
+			TWP_Sako75,																					W,		9000,	4000	//308.win
+			TWP_SSG69,																					W,		9000,	4000	//308.win
 
 
 		<Category> Shotguns
-			Mp133Shotgun,																				W,		500,	250
-			Izh43Shotgun,																				W,		900,	400
-			Saiga,																							W,		1500,	600
+			Mp133Shotgun,																				W,		4500,	2250
+			Izh43Shotgun,																				W,		2200,	1000
+			Saiga,																							W,		6500,	3600
 			MSFC_BlackEagleII,																	W,		5000,		3000
 			MSFC_Mossberg590,																		W,		5000,		3000
 			MSFC_Vepr15,																				W,		5000,		3000
+			TWP_AA12,																						W,		3000,	0	//12ga
+			TWP_AA12Dragon,																			W,		3000,	0	//12ga
+			TWP_AA12HellDragon,																	W,		3000,	0	//12ga
+			TWP_BenelliLE,																			W,		3000,	0	//12ga
+			TWP_SPAS,																						W,		3000,	0	//12ga
+			TWP_SawedShotgun,																		W,		3000,	0	//12ga
+			TWP_Remington870Tactical,														W,		3000,	0	//12ga
+			TWP_Mossberg590a1,																	W,		3000,	0	//12ga
+			TWP_Mossberg500,																		W,		3000,	0	//12ga
+			TWP_KSG,																						W,		3000,	0	//12ga
+			TWP_Armsan,																					W,		3000,	0	//12ga
+			TWP_ClassicShotgun,																	W,		3000,	0	//12ga
+			TWP_BenelliM4,																			W,		3000,	0	//12ga
+			TWP_BenelliM3,																			W,		3000,	0	//12ga
+			TWP_ImprovisedShotgun,															W,		1000,	0	//12ga
+			TWP_IthacaM37,																			W,		1000,	0	//12ga
+			TWP_MP153,																					W,		1000,	0	//12ga
+			TWP_MP153Black,																			W,		1000,	0 //12ga
+			TWP_M1912,																					W,		1000,	0	//12ga
+			TWP_Komrad12,																				W,		1000,	0	//12ga
+			TWP_Spas15,																					W,		1000,	0	//12ga
+			TWP_AA12Black,																			W,		1000,	0	//20x76
+			TWP_DoubleBarrelShotgun,														W,		10000,0	// 20x76
+			TWP_Toz34,																					W,		1000,	0	//20x76
 
 		<Category> Submachine Guns
-			CZ61,																								W,		700,	300
-			UMP45,																							W,		800,	350
-			MSFC_UMP45_Desert,																	W,		3000,		1500
-			MSFC_UMP45_White,																		W,		3000,		1500
-			MSFC_UMP45_Green,																		W,		3000,		1500
-			MP5K,																								W,		1000,	450
+			CZ61,																								W,		3000,		1300
+			UMP45,																							W,		5000,		2400
+			MSFC_UMP45_Desert,																	W,		6800,		2500
+			MSFC_UMP45_White,																		W,		6800,		2500
+			MSFC_UMP45_Green,																		W,		3000,		2500
+			MP5K,																								W,		4500,		2200
 			MSFC_MP5K_Desert,																		W,		5000,		3000
 			MSFC_MP5K_White,																		W,		5000,		3000
 			MSFC_MP5K_Green,																		W,		5000,		3000
-			AKS74U,																							W,		1100,	600
+			AKS74U,																							W,		8000,		3900
 			MSFC_AKS74U_Desert,																	W,		5000,		3000
 			MSFC_AKS74U_White,																	W,		5000,		3000
 			MSFC_PP19_Vityaz,																		W,		3000,		1500
-			MSFC_PP19_Vityaz_Black,															W,		3000,		1500
-			MSFC_PP19_Vityaz_Green,															W,		3000,		1500
-			MSFC_PP19_Vityaz_Desert,														W,		3000,		1500
-			MSFC_PP19_Vityaz_White,															W,		3000,		1500
-			TWP_AEK919,																					W,		2000,	0	// 9x19
-			TWP_Auto9,																					W,		2000,	0	// 9x19
-			TWP_MP7,																						W,		2000,	0	// 4.6x30
-			TWP_MP7Eagle,																				W,		2000,	0	// 4.6x30
-			TWP_P90,																						W,		2000,	0	// 5.7x28
-			TWP_P90Arctic,																			W,		2000,	0	// 5.7x28
-			TWP_P90Colored,																			W,		2000,	0	// 5.7x28
-			TWP_P90Shallow_Grave,																W,		2000,	0	// 5.7x28
-			TWP_Uzi,																						W,		2000,	0	//380ACP
-			TWP_FMG9,																						W,		2000,	0	// 9x19
-			TWP_SRGlock,																				W,		2000,	0	// 9x19
-			TWP_SR2,																						W,		2000,	0	// 9x19
-			TWP_SR3,																						W,		2000,	0	// 9x39
-			TWP_SRFrame,																				*,		2000,	0
-			TWP_SST30,																					W,		2000,	0	// 9x19
-			TWP_SST30Orange,																		W,		2000,	0	// 9x19
-			TWP_SST30Halloween,																	W,		2000,	0	// 9x19
-			TWP_SST30Silenced,																	W,		2000,	0	// 9x19
-			TWP_Tec9,																						W,		2000,	0	// 9x19
-			TWP_M24R,																						W,		2000,	0	//380ACP
-			TWP_UMP,																						W,		2500,	0	// 45ACP
-			TWP_UMPPrimalSaber,																	W,		2500,	0	// 45ACP
-			TWP_MPX,																						W,		2500,	0	// 9x19
-			TWP_MP5Silenced,																		W,		2500,	0	// 9x19
-			TWP_PP19Vityaz,																			W,		2500,	0	// 9x19
-			TWP_CX4Storm,																				W,		100,	0	// 40SW
-			TWP_KacPDW,																					W,		100,	0	// 6x35
-			TWP_Spectre,																				W,		100,	0	// 40SW
-			TWP_Mac10,																					W,		2500,	0	// 45ACP
+			MSFC_PP19_Vityaz_Black,															W,		5000,		2500
+			MSFC_PP19_Vityaz_Green,															W,		5000,		2500
+			MSFC_PP19_Vityaz_Desert,														W,		5000,		2500
+			MSFC_PP19_Vityaz_White,															W,		5000,		2500
+			TWP_Thompson,																				W,		4500,		2200	//45ACP
+			TWP_ThompsonMK2,																		W,		4500,		2200	//45ACP
+			TWP_Uzi,																						W,		7000,	2300	//380ACP
+			TWP_M24R,																						W,		6500,	2200	//380ACP
+			TWP_AEK919,																					W,		6200,	3100	// 9x19
+			TWP_Auto9,																					W,		5800,	2900	// 9x19
+			TWP_FMG9,																						W,		5400,	2500	// 9x19
+			TWP_SRGlock,																				W,		4300,	2400	// 9x19
+			TWP_SR2,																						W,		6000,	2600	// 9x19
+			TWP_PP19Bison,																			W,		6400,	2600	//9x19
+			TWP_PPSH,																						W,		5500,	2200	//45ACP
+			//TWP_SRFrame,																			*,		-1,	0
+			TWP_SST30,																					W,		7000,	3000	// 9x19
+			TWP_SST30Orange,																		W,		9000,	4800	// 9x19
+			TWP_SST30Halloween,																	W,		9000,	4800	// 9x19
+			TWP_SST30Silenced,																	W,		11000,	6500	// 9x19
+			TWP_Tec9,																						W,		2300,	900	// 9x19
+			TWP_MPX,																						W,		12000,	6700	// 9x19
+			TWP_MP5Silenced,																		W,		7000,	3400	// 9x19
+			TWP_PP19Vityaz,																			W,		6000,	2300	// 9x19
+			TWP_UMP,																						W,		5900,	2600	// 45ACP
+			TWP_UMPPrimalSaber,																	W,		5900,	2600	// 45ACP
+			TWP_Mac10,																					W,		5000,	2400	// 45ACP
+			TWP_CX4Storm,																				W,		6300,	2900	// 40SW
+			TWP_KacPDW,																					W,		7000,	3500	// 6x35
+			TWP_Spectre,																				W,		9800,	4100	// 40SW
+			TWP_MP7,																						W,		9000,	4200	// 4.6x30
+			TWP_MP7Eagle,																				W,		9000,	5000	// 4.6x30
+			TWP_P90,																						W,		13000,	6700	// 5.7x28
+			TWP_P90Arctic,																			W,		13000,	6700	// 5.7x28
+			TWP_P90Colored,																			W,		13000,	6700	// 5.7x28
+			TWP_P90Shallow_Grave,																W,		13000,	6700	// 5.7x28
+			TWP_SR3,																						W,		17000,	9500	// 9x39
 
 		<Category> Assault Rifles
-			FAL,																								W,		1000,	450
-			AKM,																								W,		1500,	750
-			AK101,																							W,		1500,	750
-			AK74,																								W,		1600,	750
-			M4A1,																								W,		1500,	750
-			MSFC_M4A1_Desert,																		W,		5000,		3000
-			MSFC_M4A1_White,																		W,		5000,		3000
-			MSFC_AN94,																					W,		5000,		3000
-			MSFC_AN94_Black,																		W,		5000,		3000
-			MSFC_AN94_Green,																		W,		5000,		3000
-			MSFC_AN94_Desert,																		W,		5000,		3000
-			MSFC_AN94_White,																		W,		5000,		3000
-			MSFC_AK_ALFA,																				W,		5000,		3000
-			MSFC_AK_ALFA_Black,																	W,		5000,		3000
-			MSFC_AK_ALFA_Green,																	W,		5000,		3000
-			MSFC_AK_ALFA_Desert,																W,		5000,		3000
-			MSFC_AK_ALFA_White,																	W,		5000,		3000
-			MSFC_AK12MR,																				W,		5000,		3000
-			MSFC_AK12MR_Black,																	W,		5000,		3000
-			MSFC_AK12MR_Green,																	W,		5000,		3000
-			MSFC_AK12MR_Desert,																	W,		5000,		3000
-			MSFC_AK12MR_White,																	W,		5000,		3000
-			MSFC_AK103,																					W,		5000,		3000
-			MSFC_AK103_Black,																		W,		5000,		3000
-			MSFC_AK103_Green,																		W,		5000,		3000
-			MSFC_AK103_Desert,																	W,		5000,		3000
-			MSFC_AK103_White,																		W,		5000,		3000
-			MSFC_AK105,																					W,		5000,		3000
-			MSFC_AK105_Black,																		W,		5000,		3000
-			MSFC_AK105_Green,																		W,		5000,		3000
-			MSFC_AK105_Desert,																	W,		5000,		3000
-			MSFC_AK105_White,																		W,		5000,		3000
-			MSFC_AK15MR,																				W,		5000,		3000
-			MSFC_AK15MR_Black,																	W,		5000,		3000
-			MSFC_AK15MR_Green,																	W,		5000,		3000
-			MSFC_AK15MR_Desert,																	W,		5000,		3000
-			MSFC_AK15MR_White,																	W,		5000,		3000
-			MSFC_RPK,																						W,		5000,		3000
-			MSFC_RPK74,																					W,		5000,		3000
-			MSFC_RPK16MR,																				W,		5000,		3000
-			MSFC_RPK16MR_Black,																	W,		5000,		3000
-			MSFC_RPK16MR_Green,																	W,		5000,		3000
-			MSFC_RPK16MR_Desert,																W,		5000,		3000
-			MSFC_RPK16MR_White,																	W,		5000,		3000
-			MSFC_Tactical_AR15,																	W,		5000,		3000
-			MSFC_Tactical_AR15_Black,														W,		5000,		3000
-			MSFC_Tactical_AR15_Green,														W,		5000,		3000
-			MSFC_Tactical_AR15_Desert,													W,		5000,		3000
-			MSFC_Tactical_AR15_White,														W,		5000,		3000
-			MSFC_AK74_Desert,																		W,		5000,		3000
-			MSFC_AK74_White,																		W,		5000,		3000
-			MSFC_AK101_Desert,																	W,		5000,		3000
-			MSFC_AK101_White,																		W,		5000,		3000
-			MSFC_AKM_Desert,																		W,		5000,		3000
-			MSFC_AKM_White,																			W,		5000,		3000
-			MSFC_AKM_Green,																			W,		5000,		3000
-			MSFC_AKM_Golden,																		W,		100000,		60000
-			MSFC_AKM_Chrome,																		W,		50000,		30000
-			MSFC_HK416,																					W,		5000,		3000
-			MSFC_HK416_Black,																		W,		5000,		3000
-			MSFC_HK416_Green,																		W,		5000,		3000
-			MSFC_HK416_Desert,																	W,		5000,		3000
-			MSFC_HK416_White,																		W,		5000,		3000
-			MSFC_MSBS,																					W,		5000,		3000
-			MSFC_MSBS_Black,																		W,		5000,		3000
-			MSFC_MSBS_Green,																		W,		5000,		3000
-			MSFC_MSBS_Desert,																		W,		5000,		3000
+			FAL,																								W,		24000,	9500
+			AKM,																								W,		10000,		3750
+			AK101,																							W,		10000,	4750
+			AK74,																								W,		8000,		3250
+			M4A1,																								W,		12000,	5050
+			MSFC_M4A1_Desert,																		W,		15000,	6700
+			MSFC_M4A1_White,																		W,		15000,	6700
+			MSFC_AN94,																					W,		10000,	4000
+			MSFC_AN94_Black,																		W,		12000,	6400
+			MSFC_AN94_Green,																		W,		12000,	6400
+			MSFC_AN94_Desert,																		W,		12000,	6400
+			MSFC_AN94_White,																		W,		12000,	6400
+			MSFC_AK_ALFA,																				W,		9000,		4000
+			MSFC_AK_ALFA_Black,																	W,		9000,		4000
+			MSFC_AK_ALFA_Green,																	W,		9000,		4000
+			MSFC_AK_ALFA_Desert,																W,		9000,		4000
+			MSFC_AK_ALFA_White,																	W,		9000,		4000
+			MSFC_AK12MR,																				W,		13000,	5500
+			MSFC_AK12MR_Black,																	W,		13000,	5500
+			MSFC_AK12MR_Green,																	W,		13000,	5500
+			MSFC_AK12MR_Desert,																	W,		13000,	5500
+			MSFC_AK12MR_White,																	W,		13000,	5500
+			TWP_AK12,																						W,		13000,	6000	//545x39
+			TWP_AK12Green,																			W,		13000,	6000	//545x39
+			TWP_AK12Tan,																				W,		13000,	6000	//545x39
+			MSFC_AK103,																					W,		9000,		4500
+			MSFC_AK103_Black,																		W,		9000,		4500
+			MSFC_AK103_Green,																		W,		9000,		4500
+			MSFC_AK103_Desert,																	W,		9000,		4500
+			MSFC_AK103_White,																		W,		9000,		4500
+			MSFC_AK105,																					W,		12000,	5500
+			MSFC_AK105_Black,																		W,		12000,	5500
+			MSFC_AK105_Green,																		W,		12000,	5500
+			MSFC_AK105_Desert,																	W,		12000,	5500
+			MSFC_AK105_White,																		W,		12000,	5500
+			MSFC_AK15MR,																				W,		9000,		4500
+			MSFC_AK15MR_Black,																	W,		9000,		4500
+			MSFC_AK15MR_Green,																	W,		9000,		4500
+			MSFC_AK15MR_Desert,																	W,		9000,		4500
+			MSFC_AK15MR_White,																	W,		9000,		4500
+			MSFC_RPK,																						W,		14000,	6000
+			MSFC_RPK74,																					W,		13000,	5000
+			MSFC_RPK16MR,																				W,		12000,	5000
+			MSFC_RPK16MR_Black,																	W,		12000,	5500
+			MSFC_RPK16MR_Green,																	W,		12000,	5500
+			MSFC_RPK16MR_Desert,																W,		12000,	5500
+			MSFC_RPK16MR_White,																	W,		12000,	5500
+			MSFC_Tactical_AR15,																	W,		15000,	7000
+			MSFC_Tactical_AR15_Black,														W,		15000,	7000
+			MSFC_Tactical_AR15_Green,														W,		15000,	7000
+			MSFC_Tactical_AR15_Desert,													W,		15000,	7000
+			MSFC_Tactical_AR15_White,														W,		15000,	7000
+			MSFC_AK74_Desert,																		W,		9000,		4500
+			MSFC_AK74_White,																		W,		9000,		4500
+			MSFC_AK101_Desert,																	W,		9000,		4500
+			MSFC_AK101_White,																		W,		9000,		4500
+			MSFC_AKM_Desert,																		W,		11000,	5000
+			MSFC_AKM_White,																			W,		11000,	5000
+			MSFC_AKM_Green,																			W,		11000,	5000
+			MSFC_AKM_Golden,																		W,		-1,			60000
+			MSFC_AKM_Chrome,																		W,		-1,			30000
+			MSFC_HK416,																					W,		17000,	8000
+			MSFC_HK416_Black,																		W,		17000,	8000
+			MSFC_HK416_Green,																		W,		17000,	8000
+			MSFC_HK416_Desert,																	W,		17000,	8000
+			MSFC_HK416_White,																		W,		17000,	8000
+			TWP_HK416,																					W,		17000,	8000	//556x45
+			TWP_HK416Blue,																			W,		17000,	8000	//556x45
+			TWP_HK416Desert,																		W,		17000,	8000	//556x45
+			TWP_HK416Forest,																		W,		17000,	8000	//556x45
+			TWP_HK416Jungle,																		W,		17000,	8000	//556x45
+			TWP_HK416Urban,																			W,		17000,	8000	//556x45
+			TWP_HK416Wood,																			W,		17000,	8000	//556x45
+			TWP_HK417,																					W,		21000,	13000	//556x45
+			MSFC_MSBS,																					W,		14000,	5900
+			MSFC_MSBS_Black,																		W,		14000,	5900
+			MSFC_MSBS_Green,																		W,		14000,	5900
+			MSFC_MSBS_Desert,																		W,		14000,	5900
+			TWP_ACE23,																		W,		12000,	6000	//556x45
+			TWP_ACR,																			W,		11000,	4500	//762x39
+			TWP_ACWR,																			W,		14000,	5500	//762x39
+			TWP_AEK971,																		W,		13000,	6500	//545x39
+			TWP_AG43,																			W,		10900,	4300	//762x39
+			TWP_AK47,																			W,		11000,	4500	//762x39
+			TWP_AK47Blue,																	W,		13400,	6600	//762x39
+			TWP_AK47Boar,																	W,		13400,	6600	//762x39
+			TWP_AK47Dragon,																W,		13400,	6600	//762x39
+			TWP_AK47Spider,																W,		13400,	6600	//762x39
+			TWP_AK47Tactical,															W,		13400,	6600	//762x39
+			TWP_AK47Wolf,																	W,		13400,	6600	//762x39
+			TWP_AK47WhiteWolf,														W,		13400,	6600	//762x39
+			TWP_AK103,																		W,		12000,	8100	//762x39
+			TWP_AK105,																		W,		13000,	7200	//545x39
+			TWP_AMD,																			W,		13000,	7500	//762x39
+			TWP_AMDSpaceship,															W,		15000,	9000	//762x39
+			TWP_AN94,																			W,		13000,	5500	//545x39
+			TWP_AR15,																			W,		14000,	6200	//556x45
+			TWP_AR15_Cannabis,														W,		11000,	5200	//556x45
+			TWP_AR70,																			W,		12000,	5800	//556x45
+			TWP_ARX160,																		W,		14000,	6500	//556x45
+			TWP_ASR,																			W,		15400,	7100	//556x45
+			TWP_SteyrAug,																	W,		13000,	7400	//556x45
+			TWP_CalifasNomad,															W,		12000,	6700	//556x45
+			TWP_CZ805,																		W,		9000,		4200	//556x45
+			TWP_CZScorpion,																W,		9000,		3300	//9x19
+			TWP_Famas,																		W,		14000,	6500	//556x45
+			TWP_FamasSpecialOps,													W,		14000,	6500	//556x45
+			TWP_FamasTan,																	W,		14000,	6500	//556x45
+			TWP_FG42,																			W,		15000,	7200	//308.win
+			TWP_FG42Old,																	W,		15000,	7200	//308.win
+			TWP_FNF2000,																	W,		24000,	12000	//556x45
+			TWP_FNFNC,																		W,		18000,	7000	//556x45
+			TWP_FNM29,																		W,		15000,	6300	//308.win
+			TWP_GalilSAR,																	W,		11000,	5300	//30Carbine
+			TWP_G56,																			W,		14000,	7200	//556x45
+			TWP_G3A3,																			W,		19000,	8500	//308.win
+			TWP_G36,																			W,		15000,	9000	//556x45
+			TWP_G36c,																			W,		16000,	6550	//556x45
+			TWP_HK33,																			W,		11000,	4500	//556x45
+			TWP_HKCarabine,																W,		10000,	4500	//556x45
+			TWP_HoneyBadger,															W,		14000,	6500	//30-06
+			TWP_HoneyBadgerBlueWhite,											W,		14000,	6500
+			TWP_HoneyBadgerGold,													W,		-1,		45000	//30-06
+			TWP_IA2,																			W,		12000,	4500	//556x45
+			TWP_K2C,																			W,		12000,	4500	//556x45
+			TWP_AK5C,																			W,		14500,	7400	//762x39
+			TWP_AK5CGreen,																W,		14500,	7400	//762x39
+			TWP_AK5CGrey,																	W,		14500,	7400	//762x39
+			TWP_LR300,																		W,		10000,	4500	//556x45
+			TWP_LR300Camo,																W,		10000,	4500	//556x45
+			TWP_M4A1Black,																W,		10000,	4500
+			TWP_M4V5,																			W,		13000,	4500	//556x45
+			TWP_M16,																			W,		14000,	7200	//556x45
+			TWP_M16A1Black,																W,		14000,	7200	//556x45
+			TWP_M16A1Wood,																W,		14000,	7200	//556x45
+			TWP_M16A2,																		W,		11000,	4500	//556x45
+			TWP_M16A3,																		W,		11000,	4500	//556x45
+			TWP_M16A4_handle,															*,		500,		0
+			TWP_M16A4,																		W,		11000,	8000	//556x45
+			TWP_MK18,																			W,		14000,	5500	//556x45
+			TWP_MSBS_GrotBGold,														W,		-1,			44000	//556x45
+			TWP_MSBS_GrotC,																W,		21000,	13000	//556x45
+			TWP_OTSGrosa,																	W,		19000,	8800	//762x39
+			TWP_ParaSA58,																	W,		15000,	7500	//308.win
+			TWP_PindadSS2,																W,		10000,	4000	//556x45
+			TWP_PLR16,																		W,		14000,	7000	//556x45
+			TWP_QBZ03,																		W,		12000,	5500	//556x45
+			TWP_RemingtonR5,															W,		10000,	4000	//556x45
+			TWP_RK62,																			W,		12000,	6400	//762x39
+			TWP_Ruger556,																	W,		10000,	4000	//556x45
+			TWP_Ruger556_MagPul,													W,		10000,	4000	//556x45
+			TWP_RPK16,																		W,		24000,	11000	//762x39
+			TWP_RPK16Green,																W,		24000,	11000	//762x39
+			TWP_RPK16Tan,																	W,		24000,	11000	//762x39
+			TWP_ScarL,																		W,		14000,	6500	//556x45
+			TWP_ScarH,																		W,		18000,	9000	//308.win
+			TWP_ScarDragon,																W,		18000,	9000	//308.win
+			TWP_ScarLK,																		W,		15000,	9900	//762x39
+			TWP_ScarLKBlueCamo,														W,		15000,	9900	//762x39
+			TWP_ScarLKGreen,															W,		15000,	9900	//762x39
+			TWP_ScarLKGreenCamo,													W,		15000,	9900	//762x39
+			TWP_ScarLKTan,																W,		15000,	9900	//762x39
+			TWP_SteyrAug_Olive,														W,		14000,	6500	//556x45
+			TWP_SteyrAug_Tan,															W,		14000,	6500	//556x45
+			TWP_SteyrAug_Black,														W,		14000,	6500	//556x45
+			TWP_STG44,																		W,		8000,		0	//9x19
+			TWP_SG550,																		W,		8000,		0	//556x45
+			TWP_SG553,																		W,		8000,		0	//556x45
+			TWP_SR47,																			W,		8000,		0	//7.62x39
+			TWP_StenGun,																	W,		10000,	4500	//9x19
+			TWP_Sterling,																	W,		10000,	4500	//9x19
+			TWP_STG58,																		W,		14000,	7200	//308.win
+			TWP_Stoner63,																	W,		12000,	4500	//556x45
+			TWP_Tar21,																		W,		14000,	7000	//556x45
+			TWP_Type64,																		W,		24000,	13000	//308.win
+			TWP_Type89,																		W,		11000,	6000	//556x45
+			TWP_XM8,																			W,		15000,	7500	//556x45
+			TWP_G36x,																			W,		10000,	4500	//556x45
+			TWP_M4A1,																			W,		12000,	5500	//556x45
+			TWP_L85A2,																		W,		12000,	6700	//556x45
+			TWP_SG556,																		W,		12000,	6700	//556x45
 			//MSFC_AK12_Punk,																		W,		5000,		3000
 
 		<Category> Sniper Rifles
-			VSS,																								W,		1600,	960
-			B95,																								W,		1700,	1100
-			SVD,																								W,		2000,	1200
-			MSFC_SVD_Desert,																		W,		10000,		6000
-			MSFC_SVD_White,																			W,		10000,		6000
-			MSFC_SVD_Green,																			W,		10000,		6000
-			MSFC_SVD_Wooden,																		W,		10000,		6000
-			MSFC_L96A1,																					W,		10000,		6000
-			MSFC_L96A1_Black,																		W,		10000,		6000
-			MSFC_L96A1_Green,																		W,		10000,		6000
-			MSFC_L96A1_Desert,																	W,		10000,		6000
-			MSFC_L96A1_White,																		W,		10000,		6000
-			MSFC_CZ805,																					W,		5000,		3000
-			MSFC_CZ805_Black,																		W,		5000,		3000
-			MSFC_CZ805_Green,																		W,		5000,		3000
-			MSFC_CZ805_Desert,																	W,		5000,		3000
-			MSFC_CZ805_White,																		W,		5000,		3000
-			MSFC_Tigr308,																				W,		10000,		6000
-			MSFC_AR15_762x39,																		W,		5000,		3000
-			TWP_SV98NovaPriam,																	W,		5000,		0	//308.win
-			TWP_SVDDragunov,																		W,		5000,		0	// 762x54
-			TWP_SVDDragunovTan,																	W,		5000,		0	// 762x54
-			TWP_SVDDragunovBrownTan,														W,		5000,		0	// 762x54
-			TWP_SVDDragunovGreyTan,															W,		5000,		0	// 762x54
-			TWP_AmericanRifle,															W,		5000,	0	//308.win
-			TWP_AWMBlack,																		W,		5000,	0	//308.win
-			TWP_AWMCustom,																	W,		5000,	0
-			TWP_AWMDesert,																	W,		5000,	0	//308.win
-			TWP_AWMGreen,																		W,		5000,	0
-			TWP_AWMGreenTan,																W,		5000,	0	//308.win
-			TWP_McMillanCS5,																W,		5000,	0	// 308.win
-			TWP_SG550S,																			W,		5000,	0	//556x45
-			TWP_M24BrownTan,																W,		5000,	0	//308.win
-			TWP_M24GreenTan,																W,		5000,	0	//308.win
-			TWP_M24GreenTan2,																W,		5000,	0	//308.win
-			TWP_M24Snow,																		W,		5000,	0	//308.win
-			TWP_M24Wood,																		W,		5000,	0	//308.win
-			TWP_L96A1,																			W,		5000,	0	//308.win
-			TWP_M14,																				W,		5000,	0 	//308Win
-			TWP_M110,																				W,		5000,	0 	//308Win
-			TWP_M40A5,																			W,		5000,	0	//308.win
-			TWP_PSG1,																				W,		5000,	0	//308Win
-			TWP_R700Mod,																		W,		5000,	0	// 300WinMag
-			TWP_Remington700,																W,		5000,	0	//308.win
-			TWP_RemingtonMSR,																W,		5000,	0	//308.win
+			VSS,																								W,		51600,	15000
+			B95,																								W,		31000,	15000
+			SVD,																								W,		23000,	10000
+			MSFC_SVD_Desert,																		W,		26000,	12000
+			MSFC_SVD_White,																			W,		26000,	12000
+			MSFC_SVD_Green,																			W,		26000,	12000
+			MSFC_SVD_Wooden,																		W,		26000,	12000
+			MSFC_Tigr308,																				W,		28000,	14000
+			MSFC_L96A1,																					W,		29000,	18000
+			MSFC_L96A1_Black,																		W,		35000,	18000
+			MSFC_L96A1_Green,																		W,		30000,	15000
+			MSFC_L96A1_Desert,																	W,		30000,	15000
+			MSFC_L96A1_White,																		W,		30000,	15000
+			MSFC_CZ805,																					W,		15000,	7000
+			MSFC_CZ805_Black,																		W,		18000,	9000
+			MSFC_CZ805_Green,																		W,		18000,	9000
+			MSFC_CZ805_Desert,																	W,		18000,	9000
+			MSFC_CZ805_White,																		W,		18000,	9000
+			MSFC_AR15_762x39,																		W,		12000,	6000
+			TWP_SV98NovaPriam,																	W,		20000,	9500	//308.win
+			TWP_SVDDragunov,																		W,		26000,	12000	// 762x54
+			TWP_SVDDragunovTan,																	W,		26000,	12000	// 762x54
+			TWP_SVDDragunovBrownTan,														W,		26000,	12000	// 762x54
+			TWP_SVDDragunovGreyTan,															W,		26000,	12000	// 762x54
+			TWP_AmericanRifle,																	W,		29000,	16000	//308.win
+			TWP_AWMBlack,																				W,		42000,	24000	//308.win
+			TWP_AWMCustom,																			W,		42000,	25000
+			TWP_AWMDesert,																			W,		42000,	23000	//308.win
+			TWP_AWMGreen,																				W,		42000,	29000
+			TWP_AWMGreenTan,																		W,		42000,	29000	//308.win
+			TWP_McMillanCS5,																		W,		-1,			10000	// 308.win
+			TWP_SG550S,																					W,		13000,	7000	//556x45
+			TWP_M24BrownTan,																		W,		24000,	11500	//308.win
+			TWP_M24GreenTan,																		W,		24000,	11500	//308.win
+			TWP_M24GreenTan2,																		W,		24000,	11500	//308.win
+			TWP_M24Snow,																				W,		24000,	11500	//308.win
+			TWP_M24Wood,																				W,		24000,	11500	//308.win
+			TWP_L96A1,																					W,		19000,	8200	//308.win
+			TWP_M14,																						W,		18000,	7500 	//308Win
+			TWP_M110,																						W,		22000,	10000 	//308Win
+			TWP_M40A5,																					W,		24000,	11000	//308.win
+			TWP_PSG1,																						W,		34000,	19000	//308Win
+			TWP_R700Mod,																				W,		32000,	14000	// 300WinMag
+			TWP_Remington700,																		W,		32000,	14000	//308.win
+			TWP_RemingtonMSR,																		W,		32000,	14000	//308.win
+			csmcmillan_mung,			         										 	W,		-1,	 		10000
+			TWP_CalifasNomad,																		W,		10000,	4500	//556x45
+			TWP_MK14,																						W,		14000,	7400	//308.win
 
 		<Category> Grenades
 			RGD5Grenade,																				1,		5000,	1000
@@ -757,33 +897,42 @@
 
 
 			<Category> Special
-			MSFC_BarrettM82,																		W,		-1,		8000
-			MSFC_BarrettM82_Black,															W,		-1,		8000
-			MSFC_BarrettM82_Green,															W,		-1,		8000
-			MSFC_BarrettM82_Desert,															W,		-1,		8000
-			MSFC_BarrettM82_White,															W,		-1,		8000
-			MSFC_ORSIS_T5000,																		W,		-1,		3000
-			MSFC_ORSIS_T5000_Black,															W,		-1,		6000
-			MSFC_ORSIS_T5000_Green,															W,		-1,		6000
-			MSFC_ORSIS_T5000_Desert,														W,		-1,		6000
-			MSFC_ORSIS_T5000_White,															W,		-1,		6000
-			MSFC_OSV96,																					W,		-1,		8000
-			MSFC_OSV96_Black,																		W,		-1,		8000
-			MSFC_OSV96_Green,																		W,		-1,		8000
-			MSFC_OSV96_Desert,																	W,		-1,		8000
-			MSFC_OSV96_White,																		W,		-1,		8000
+			MSFC_BarrettM82,																		W,		-1,		10000
+			MSFC_BarrettM82_Black,															W,		-1,		10000
+			MSFC_BarrettM82_Green,															W,		-1,		10000
+			MSFC_BarrettM82_Desert,															W,		-1,		10000
+			MSFC_BarrettM82_White,															W,		-1,		10000
+			MSFC_ORSIS_T5000,																		W,		-1,		10000
+			MSFC_ORSIS_T5000_Black,															W,		-1,		10000
+			MSFC_ORSIS_T5000_Green,															W,		-1,		10000
+			MSFC_ORSIS_T5000_Desert,														W,		-1,		10000
+			MSFC_ORSIS_T5000_White,															W,		-1,		10000
+			MSFC_OSV96,																					W,		-1,		10000
+			MSFC_OSV96_Black,																		W,		-1,		10000
+			MSFC_OSV96_Green,																		W,		-1,		10000
+			MSFC_OSV96_Desert,																	W,		-1,		10000
+			MSFC_OSV96_White,																		W,		-1,		10000
 			TWP_BarrettM82,																			W,		-1,		10000	//50BMG
 			TWP_BarrettM82Desert,																W,		-1,		10000	//50BMG
 			TWP_BarrettM82Snow,																	W,		-1,		10000	//50BMG
 			TWP_Anzio,																					W,		-1,		10000	//20x102
 			TWP_VSSK,																						W,		-1,		10000	// 50bmg
-			TWP_M200,																						W,		-1,	10000	//408 Chey
-			TWP_M200Old,																				W,		-1,	10000	//408 Chey
-			TWP_Airbow,																					W,		-1,	10000	//Arrow
-			TWP_ASW338,																					W,		-1,	10000	//308.win
-			TWP_Beowulf,																				W,		-1,	10000	//50BMG
-			TWP_FRF2BlackDragon,																W,		-1,	10000	//308.win
-			TWP_FRF2,																						W,		-1,	10000	//308.win
+			TWP_M200,																						W,		-1,		10000	//408 Chey
+			TWP_M200Old,																				W,		-1,		10000	//408 Chey
+			TWP_Airbow,																					W,		-1,		10000	//Arrow
+			TWP_ASW338,																					W,		-1,		10000	//308.win
+			TWP_Beowulf,																				W,		-1,		10000	//50BMG
+			TWP_FRF2BlackDragon,																W,		-1,		10000	//308.win
+			TWP_FRF2,																						W,		-1,		10000	//308.win
+			//TWP_M134,																						W,		-1,		10000	//308Win
+			TWP_M60,																						W,		-1,		10000	//308.win
+			TWP_M249,																						W,		-1,		10000	//556x45
+			TWP_PKM,																						W,		-1,		10000	//762x54
+			//TWP_MiniGun,																				W,		-1,		10000	//308Win
+			TWP_MG42,																						W,		-1,		10000	//792x57
+			TWP_Ash12,																					W,		-1,		10000	//50BMG
+			TWP_AK9,																						W,		-1,		10000	//9x39
+			TWP_ASVal,																		W,		8000,		0	//762x39
 
 			<Category> Special mag123
 				TWP_BarrettM82_mag_10Rnd,												M,		-1,		4000
@@ -795,317 +944,15 @@
 				TWP_Beowulf_mag_10Rnd,													M,		-1,		4000
 				TWP_FRF2_mag_5Rnd,															M,		-1,		4000
 				TWP_FRF2BlackDragon_mag_10Rnd,									M,		-1,		4000
-				MSFC_OSV96_5rnd_MAg															M,		-1,		4000
-				MSFC_ORSIS_T5000_MAG														M,		-1,		4000
-
-				<Category> TeddyWeaponPack:Shotguns
-					TWP_AA12,																				W,		3000,	0	//12ga
-					TWP_AA12_mag_32Rnd,															M,		1000,	0
-					TWP_AA12Dragon,																	W,		3000,	0	//12ga
-					TWP_AA12Dragon_mag_32Rnd,												M,		1000,	0
-					TWP_AA12HellDragon,															W,		3000,	0	//12ga
-					TWP_AA12HellDragon_mag_32Rnd,										M,		1000,	0
-					TWP_BenelliLE,																	W,		3000,	0	//12ga
-					TWP_SPAS,																				W,		3000,	0	//12ga
-					TWP_SawedShotgun,																W,		3000,	0	//12ga
-					TWP_Remington870Tactical,												W,		3000,	0	//12ga
-					TWP_Mossberg590a1,															W,		3000,	0	//12ga
-					TWP_Mossberg500,																W,		3000,	0	//12ga
-					TWP_KSG,																				W,		3000,	0	//12ga
-					TWP_Armsan,																			W,		3000,	0	//12ga
-					TWP_ClassicShotgun,															W,		3000,	0	//12ga
-					TWP_BenelliM4,																	W,		3000,	0	//12ga
-					TWP_BenelliM3,																	W,		3000,	0	//12ga
-					TWP_ImprovisedShotgun,													W,		1000,	0	//12ga
-					TWP_IthacaM37,																	W,		1000,	0	//12ga
-					TWP_DoubleBarrelShotgun,												W,		10000,	0	// 20x76
-					TWP_MP153,																			W,		1000,	0	//12ga
-					TWP_MP153Black,																	W,		1000,	0 	//12ga
-					TWP_M1912,																			W,		1000,	0	//12ga
-					TWP_Komrad12,																		W,		1000,	0	//12ga
-					TWP_Komrad12_mag_10Rnd,													M,		1000,	0
-					TWP_Toz34,																			W,		1000,	0	//20x76
-					TWP_Spas15,																			W,		1000,	0	//12ga
-					TWP_Spas15_mag_8Rnd,														M,		1000,	0
-					TWP_AA12Black,																	W,		1000,	0	//20x76
-					TWP_AA12Black_mag_32Rnd,												M,		1000,	0
-
-				<Category> TeddyWeaponPack:Aussault Rifles
-					TWP_ACE23,										W,		8000,	0	//556x45
-					TWP_ACE23_mag_30Rnd,					M,		2500,	0
-					TWP_Ash12,										W,		8000,	0	//50BMG
-					TWP_Ash12_mag_10Rnd,		M,		2500,	0
-					TWP_ACR,					W,		8000,	0	//762x39
-					TWP_ACR_mag_30Rnd,			M,		2500,	0
-					TWP_ACWR,					W,		8000,	0	//762x39
-					TWP_ACWR_mag_30Rnd,			M,		2500,	0
-					TWP_AEK971,					W,		8000,	0	//545x39
-					TWP_AG43,					W,		8000,	0	//762x39
-					TWP_AG43_mag_20Rnd,			M,		2500,	0
-					TWP_AK9,					W,		8000,	0	//9x39
-					TWP_AK9_mag_30Rnd,			M,		2500,	0
-					TWP_AK12,					W,		8000,	0	//545x39
-					TWP_AK12Green,				W,		8000,	0	//545x39
-					TWP_AK12Tan,				W,		8000,	0	//545x39
-					TWP_AK12_mag_30Rnd,			M,		2500,	0
-					TWP_AK12Green_mag_30Rnd,	M,		2500,	0
-					TWP_AK12Tan_mag_30Rnd,		M,		2500,	0
-					TWP_AK47,					W,		8000,	0	//762x39
-					TWP_AK47_mag_30Rnd,			M,		2500,	0
-					TWP_AK47Blue,				W,		8000,	0	//762x39
-					TWP_AK47Blue_mag_35Rnd,		M,		2500,	0
-					TWP_AK47Boar,				W,		8000,	0	//762x39
-					TWP_AK47Boar_mag_30Rnd,		M,		2500,	0
-					TWP_AK47Dragon,				W,		8000,	0	//762x39
-					TWP_AK47Dragon_mag_30Rnd,	M,		2500,	0
-					TWP_AK47Spider,				W,		8000,	0	//762x39
-					TWP_AK47Spider_mag_30Rnd,	M,		2500,	0
-					TWP_AK47Tactical,			W,		8000,	0	//762x39
-					TWP_AK47Tactical_mag_45Rnd,	M,		2500,	0
-					TWP_AK47Wolf,				W,		8000,	0	//762x39
-					TWP_AK47Wolf_mag_30Rnd,		M,		2500,	0
-					TWP_AK47WhiteWolf,			W,		8000,	0	//762x39
-					TWP_AK47WhiteWolf_mag_30Rnd,		M,		2500,	0
-					TWP_AK103,					W,		8000,	0	//762x39
-					TWP_AK103_mag_30Rnd,		M,		2500,	0
-					TWP_AK105,					W,		8000,	0	//545x39
-					TWP_AK105_mag_30Rnd,		M,		2500,	0
-					TWP_AMD,					W,		8000,	0	//762x39
-					TWP_AMD_mag_30Rnd,			M,		2500,	0
-					TWP_AMDSpaceship,			W,		8000,	0	//762x39
-					TWP_AMDSpaceship_mag_30Rnd,	M,		2500,	0
-					TWP_AN94,					W,		8000,	0	//545x39
-					TWP_AN94_mag_30Rnd,			M,		2500,	0
-					TWP_AR15,					W,		8000,	0	//556x45
-					TWP_AR15_mag_30Rnd,			M,		2500,	0
-					TWP_AR15_Cannabis,			W,		8000,	0	//556x45
-					TWP_AR15Cannabis_mag_30Rnd,	M,		2500,	0
-					TWP_AR70,					W,		8000,	0	//556x45
-					TWP_AR70_mag_30Rnd,			M,		2500,	0
-					TWP_ARX160,					W,		8000,	0	//556x45
-					TWP_ARX160_mag_30Rnd,		M,		2500,	0
-					TWP_ASR,					W,		8000,	0	//556x45
-					TWP_ASR_mag_40Rnd,			M,		2500,	0
-					TWP_ASVal,					W,		8000,	0	//762x39
-					TWP_ASVal_mag_30Rnd,		M,		2500,	0
-					TWP_SteyrAug,				W,		8000,	0	//556x45
-					TWP_SteyrAug_mag_45Rnd,		M,		2500,	0
-					TWP_TWP_CalifasNomad,		W,		8000,	0	//556x45
-					TWP_CalifasNomad_mag_40Rnd,	M,		2500,	0
-					TWP_CZ805,					W,		8000,	0	//556x45
-					TWP_CZ805_mag_30Rnd,		M,		2500,	0
-					TWP_CZScorpion,				W,		8000,	0	//9x19
-					TWP_CZScorpion_mag_30Rnd,	M,		2500,	0
-					TWP_Famas,					W,		8000,	0	//556x45
-					TWP_Famas_mag_35Rnd,		M,		2500,	0
-					TWP_FamasSpecialOps,		W,		8000,	0	//556x45
-					TWP_FamasSpecialOps_mag_40Rnd,		M,		2500,	0
-					TWP_FamasTan,				W,		8000,	0	//556x45
-					TWP_FamasTan_mag_35Rnd,		M,		2500,	0
-					TWP_FG42,					W,		8000,	0	//308.win
-					TWP_FG42_mag_25Rnd,			M,		2500,	0
-					TWP_FG42Old,				W,		8000,	0	//308.win
-					TWP_FG42Old_mag_25Rnd,		M,		2500,	0
-					TWP_FNF2000,				W,		8000,	0	//556x45
-					TWP_FNF2000_mag_30Rnd,		M,		2500,	0
-					TWP_FNFNC,					W,		8000,	0	//556x45
-					TWP_FNFNC_mag_30Rnd,		M,		2500,	0
-					TWP_FNM29,					W,		8000,	0	//308.win
-					TWP_FNM29_mag_30Rnd,		M,		2500,	0
-					TWP_GalilSAR,				W,		8000,	0	//30Carbine
-					TWP_GalilSAR_mag_35Rnd,		M,		2500,	0
-					TWP_G56,					W,		8000,	0	//556x45
-					TWP_G56_mag_32Rnd,			M,		2500,	0
-					TWP_G3A3,					W,		8000,	0	//308.win
-					TWP_G3A3_mag_20Rnd,			M,		2500,	0
-					TWP_G36,					W,		8000,	0	//556x45
-					TWP_G36_mag_30Rnd,			M,		2500,	0
-					TWP_G36c,					W,		8000,	0	//556x45
-					TWP_G36c_mag_30Rnd,			M,		2500,	0
-					TWP_HK33,					W,		8000,	0	//556x45
-					TWP_HK33_mag_30Rnd,			M,		2500,	0
-					TWP_HK416,					W,		8000,	0	//556x45
-					TWP_HK416Blue,				W,		8000,	0	//556x45
-					TWP_HK416Desert,			W,		8000,	0	//556x45
-					TWP_HK416Forest,			W,		8000,	0	//556x45
-					TWP_HK416Jungle,			W,		8000,	0	//556x45
-					TWP_HK416Urban,				W,		8000,	0	//556x45
-					TWP_HK416Wood,				W,		8000,	0	//556x45
-					TWP_HK416_mag_40Rnd,		M,		2500,	0
-					TWP_HK417,					W,		8000,	0	//556x45
-					TWP_HK417_mag_30Rnd,		M,		2500,	0
-					TWP_HKCarabine,				W,		8000,	0	//556x45
-					TWP_HKCarabine_mag_30Rnd,	M,		2500,	0
-					TWP_HoneyBadger,			W,		8000,	0	//30-06
-					TWP_HoneyBadger_mag_40Rnd,	M,		2500,	0
-					TWP_HoneyBadgerBlueWhite,	W,		8000,	0
-					TWP_HoneyBadgerBW_mag_40Rnd, M,		2500, 	0
-					TWP_HoneyBadgerGold,		W,		8000,	0	//30-06
-					TWP_HoneyBadgerGold_mag_40Rnd,	M,		2500,	0
-					TWP_IA2,					W,		8000,	0	//556x45
-					TWP_IA2_mag_30Rnd,			M,		2500,	0
-					TWP_K2C,					W,		8000,	0	//556x45
-					TWP_K2C_mag_30Rnd,			M,		2500,	0
-					TWP_AK5C,					W,		8000,	0	//762x39
-					TWP_AK5C_mag_30Rnd,			M,		2500,	0
-					TWP_AK5CGreen,				W,		8000,	0	//762x39
-					TWP_AK5CGreen_mag_30Rnd,	M,		2500,	0
-					TWP_AK5CGrey,				W,		8000,	0	//762x39
-					TWP_AK5CGrey_mag_30Rnd,		M,		2500,	0
-					TWP_LR300,					W,		8000,	0	//556x45
-					TWP_LR300Camo,				W,		8000,	0	//556x45
-					TWP_LR300_mag_30Rnd,		M,		2500,	0
-					TWP_M4A1Black,				W,		8000,	0
-					TWP_M4V5,					W,		8000,	0	//556x45
-					TWP_M4V5_mag_30Rnd,			M,		2500,	0
-					TWP_M16,					W,		8000,	0	//556x45
-					TWP_M16A1Black,				W,		8000,	0	//556x45
-					TWP_M16A1Wood,				W,		8000,	0	//556x45
-					TWP_M16A1_mag_20Rnd,		M,		2500,	0
-					TWP_M16A2,					W,		8000,	0	//556x45
-					TWP_M16_mag_20Rnd,			M,		2500,	0
-					TWP_M16A3,					W,		8000,	0	//556x45
-					TWP_M16A4_handle,			*,		500,	0
-					TWP_M16A4,					W,		8000,	0	//556x45
-					TWP_M16A4_mag_30Rnd,		M,		2500,	0
-					TWP_M134,					W,		8000,	0	//308Win
-					TWP_M134_mag_500Rnd,		M,		2500,	0
-					TWP_M134_mag_750Rnd,		M,		2500,	0
-					TWP_M60,					W,		8000,	0	//308.win
-					TWP_M60_mag_200Rnd,			M,		2500,	0
-					TWP_M249,					W,		8000,	0	//556x45
-					TWP_M249_mag_200Rnd,		M,		2500,	0
-					TWP_MK14,					W,		8000,	0	//308.win
-					TWP_MK14_mag_30Rnd,			M,		2500,	0
-					TWP_MK18,					W,		8000,	0	//556x45
-					TWP_MK18_mag_100Rnd,		M,		2500,	0
-					TWP_MSBS_GrotBGold,			W,		8000,	0	//556x45
-					TWP_MSBS_GrotBGold_mag_30Rnd,	M,		2500,	0
-					TWP_MSBS_GrotC,				W,		8000,	0	//556x45
-					TWP_MSBS_GrotC_mag_30Rnd,	M,		2500,	0
-					TWP_OTSGrosa,				W,		8000,	0	//762x39
-					TWP_OTSGrosa_mag_30Rnd,		M,		2500,	0
-					TWP_ParaSA58,				W,		8000,	0	//308.win
-					TWP_ParaSA58_mag_20Rnd,		M,		2500,	0
-					TWP_PindadSS2,				W,		8000,	0	//556x45
-					TWP_PindadSS2_mag_30Rnd,	M,		2500,	0
-					TWP_PP19Bison,				W,		8000,	0	//9x19
-					TWP_PP19Bison_mag_64Rnd,	M,		2500,	0
-					TWP_PLR16,					W,		8000,	0	//556x45
-					TWP_PLR16_mag_30Rnd,		M,		2500,	0
-					TWP_PPSH,					W,		8000,	0	//45ACP
-					TWP_PPSH_mag_50Rnd,			M,		2500,	0
-					TWP_PKM,					W,		8000,	0	//762x54
-					TWP_PKM_mag_100Rnd,			M,		2500,	0
-					TWP_QBZ03,					W,		8000,	0	//556x45
-					TWP_QBZ03_mag_30Rnd,		M,		2500,	0
-					TWP_RemingtonR5,			W,		8000,	0	//556x45
-					TWP_RemingtonR5_mag_40Rnd,	M,		2500,	0
-					TWP_RK62,					W,		8000,	0	//762x39
-					TWP_RK62_mag_30Rnd,			M,		2500,	0
-					TWP_Ruger556,				W,		8000,	0	//556x45
-					TWP_Ruger556_MagPul,		W,		8000,	0	//556x45
-					TWP_Ruger556_mag_30Rnd,		M,		2500,	0
-					TWP_RPK16,					W,		8000,	0	//762x39
-					TWP_RPK16_mag_100Rnd,		M,		2500,	0
-					TWP_RPK16Green,				W,		8000,	0	//762x39
-					TWP_RPK16Green_mag_100Rnd,	M,		2500,	0
-					TWP_RPK16Tan,				W,		8000,	0	//762x39
-					TWP_RPK16Tan_mag_100Rnd,	M,		2500,	0
-					TWP_ScarL,					W,		8000,	0	//556x45
-					TWP_ScarL_mag_30Rnd,		M,		2500,	0
-					TWP_ScarH,					W,		8000,	0	//308.win
-					TWP_ScarH_mag_30Rnd,		M,		2500,	0
-					TWP_ScarDragon,				W,		8000,	0	//308.win
-					TWP_ScarDragon_mag_50Rnd,	M,		2500,	0
-					TWP_ScarLK,					W,		8000,	0	//762x39
-					TWP_ScarLKBlueCamo,			W,		8000,	0	//762x39
-					TWP_ScarLKGreen,			W,		8000,	0	//762x39
-					TWP_ScarLKGreenCamo,		W,		8000,	0	//762x39
-					TWP_ScarLKTan,				W,		8000,	0	//762x39
-					TWP_ScarLK_mag_30Rnd,		M,		2500,	0
-					TWP_SteyrAug_Olive,			W,		8000,	0	//556x45
-					TWP_SteyrAug_Tan,			W,		8000,	0	//556x45
-					TWP_SteyrAug_Black,			W,		8000,	0	//556x45
-					TWP_SteyrAug_mag_45Rnd,		M,		2500,	0
-					TWP_STG44,					W,		8000,	0	//9x19
-					TWP_STG44_mag_30Rnd,		M,		2500,	0
-					TWP_SG550,					W,		8000,	0	//556x45
-					TWP_SG550_mag_30Rnd,		M,		2500,	0
-					TWP_SG553,					W,		8000,	0	//556x45
-					TWP_SG553_mag_30Rnd,		M,		2500,	0
-					TWP_SR47,					W,		8000,	0	//7.62x39
-					TWP_SR47_mag_30Rnd,			M,		2500,	0
-					TWP_StenGun,				W,		8000,	0	//9x19
-					TWP_StenGun_mag_32Rnd,		M,		2500,	0
-					TWP_Sterling,				W,		8000,	0	//9x19
-					TWP_Sterling_mag_34Rnd,		M,		2500,	0
-					TWP_STG58,					W,		8000,	0	//308.win
-					TWP_STG58_mag_20Rnd,		M,		2500,	0
-					TWP_Stoner63,				W,		8000,	0	//556x45
-					TWP_Stoner63_mag_30Rnd,		M,		2500,	0
-					TWP_Tar21,					W,		8000,	0	//556x45
-					TWP_Tar21_mag_30Rnd,		M,		2500,	0
-					TWP_Thompson,				W,		8000,	0	//45ACP
-					TWP_Thompson_mag_50Rnd,		M,		2500,	0
-					TWP_ThompsonMK2,			W,		8000,	0	//45ACP
-					TWP_ThompsonMK2_mag_50Rnd,	M,		2500,	0
-					TWP_Type64,					W,		8000,	0	//308.win
-					TWP_Type64_mag_20Rnd,		M,		2500,	0
-					TWP_Type89,					W,		8000,	0	//556x45
-					TWP_Type89_mag_30Rnd,		M,		2500,	0
-					TWP_XM8,					W,		8000,	0	//556x45
-					TWP_XM8_mag_30Rnd,			M,		2500,	0
-					TWP_MiniGun,				W,		8000,	0	//308Win
-					TWP_MiniGun_mag_300Rnd,		M,		2500,	0
-					TWP_G36x,					W,		8000,	0	//556x45
-					TWP_G36x_mag_40Rnd,			M,		2500,	0
-					TWP_M4A1,					W,		8000,	0	//556x45
-					TWP_M4A1_mag_35Rnd,			M,		2500,	0
-					TWP_L85A2,					W,		8000,	0	//556x45
-					TWP_L85A2_mag_30Rnd,		M,		2500,	0
-					TWP_SG556,					W,		8000,	0	//556x45
-					TWP_SG556_mag_30Rnd,		M,		2500,	0
-					TWP_MG42,					W,		8000,	0	//792x57
-					TWP_MG42_mag_150Rnd,		M,		2500,	0
-					TWP_CalifasNomad,			W,		8000,	0	//556x45
-					TWP_CalifasNomad_mag_40Rnd,	M,		2500,	0
-
-				<Category> TeddyWeaponPack:Bayonets
-
-
-				<Category> TeddyWeaponPack:Ammo
-					TWP_AmmoBox_20x76_10rnd,	*,		200,	0
-					TWP_AmmoBox_50BMG_10rnd,	*,		200,	0
-					TWP_AmmoBox_3006_20Rnd,		*,		200,	0
-					TWP_AmmoBox_792x57_20Rnd,	*,		200,	0
-					TWP_AmmoBox_44mag_30Rnd,	*,		300,	0
-					TWP_AmmoBox_50AE_20Rnd,		*,		200,	0
-					TWP_AmmoBox_40SW_30Rnd,		*,		300,	0
-					TWP_AmmoBox_46x30_30Rnd,	*,		300,	0
-					TWP_AmmoBox_57x28_30Rnd,	*,		300,	0
-					TWP_AmmoBox_762x25_30Rnd,	*,		300,	0
-					TWP_Ammobox_408Cheytac_10Rnd,	*,	300,	0
-					TWP_Ammobox_6x35_20Rnd,		*,		300,	0
-					TWP_AmmoBox_30Carbine_30Rnd,	*,	300,	0
-					TWP_AmmoBox_300WinMag_20Rnd,	*,	300,	0
-					TWP_AmmoBox_20x102mm_10Rnd,		*,	300,	0
-					TWP_Ammo_30Carbine,			1,		20,		0
-					TWP_Ammo_300WinMag,			1,		20,		0
-					TWP_Ammo_20x102mm,			1,		20,		0
-					TWP_Ammo_20x76,				1,		20,		0
-					TWP_Ammo_50BMG,				1,		20,		0
-					TWP_Ammo_3006,				1,		10,		0
-					TWP_Ammo_792x57,			1,		10,		0
-					TWP_Ammo_44mag,				1,		10,		0
-					TWP_Ammo_50AE,				1,		10,		0
-					TWP_Ammo_40SW,				1,		10,		0
-					TWP_Ammo_46x30,				1,		10,		0
-					TWP_Ammo_57x28,				1,		10,		0
-					TWP_Ammo_Arrow,				1,		10,		0
-					TWP_Ammo_408Cheytac,		1,		10,		0
-					TWP_Ammo_762x25,			1,		10,		0
-					TWP_Ammo_6x35,				1,		10,		0
+				MSFC_OSV96_5rnd_MAg,														M,		-1,		4000
+				MSFC_ORSIS_T5000_MAG,														M,		-1,		4000
+				//TWP_M134_mag_500Rnd,														M,		-1,		4000
+				//TWP_M134_mag_750Rnd,														M,		-1,		4000
+				TWP_M60_mag_200Rnd,															M,		-1,		4000
+				TWP_M249_mag_200Rnd,														M,		-1,		4000
+				TWP_PKM_mag_100Rnd,															M,		-1,		4000
+				//TWP_MiniGun_mag_300Rnd,													M,		-1,		4000
+				TWP_MG42_mag_150Rnd,														M,		-1,		4000
 
 				<Category> TeddyWeaponPack:Lights
 					TWP_MK23Light,				*,		500,	0
@@ -1124,28 +971,6 @@
 					TWP_Ash12_Suppressor,		*,		1000,	0
 					TWP_AKSuppressor,			*,		1000,	0
 					TWP_M4Suppressor,			*,		1000,	0
-
-				<Category> TeddyWeaponPack:Optics
-					TWP_M16A3_handle,			*,		2000,	0
-					TWP_M16A4_handle,			*,		2000,	0
-					TWP_Optic_Vlife,			*,		2000,	0
-					TWP_Optic_NCSTAR,			*,		2000,	0
-					TWP_Optic_Steyr,			*,		2000,	0
-					TWP_Optic_Camouflage,		*,		2000,	0
-					TWP_Optic_Snowy,			*,		2000,	0
-					TWP_Optic_FG42,				*,		2000,	0
-					TWP_TrijiconACOG,			*,		2000,	0
-					TWP_Optic_reddot,			*,		2000,	0
-					TWP_Optic_Redcross,			*,		2000,	0
-					TWP_Optic_Acog,				*,		2000,	0
-					TWP_LongRangeOptic_Tan,		*,		2000,	0
-					TWP_LongRangeOptic_Green,	*,		2000,	0
-					TWP_LongRangeOptic_Black,	*,		2000,	0
-					TWP_Optic_BlackDragon,		*,		2000,	0
-					TWP_OldRifle_Optic,			*,		2000,	0
-					TWP_Optic_G3A3,				*,		2000,	0
-					TWP_M16A4_handle,			*,		2000,	0
-
 
 				<Category> TeddyWeaponPack:Attachments
 					TWP_Sling,					*,		1000,	0
@@ -1178,24 +1003,7 @@
 					TWP_ToiletRoll,				2,		3000,	0
 					TWP_SurgicalMask,			*,		1500,	0
 
-				<Category> TeddyWeaponPack:Melee
-					TWP_NailedBat,					W,		7500,	0
-					TWP_SawBat,						W,		7500,	0
-					TWP_Mjolnir,					W,		7500,	0
-					TWP_Rose,						W,		7500,	0
-					TWP_Kukri,						W,		7500,	0
-					TWP_Kukri_Gradient,				W,		7500,	0
-					TWP_Kukri_Sakura,				W,		7500,	0
-					TWP_Kukri_Engraved,				W,		7500,	0
-					TWP_SmithWesson_Knife_Green,	W,		7500,	0
-					TWP_SmithWesson_Knife_Black,	W,		7500,	0
-					TWP_HolyMakarel,				W,		7500,	0
-					TWP_NinjaSword,					W,		7500,	0
-					TWP_Axe,						W,		7500,	0
-					TWP_FirefighterAxe,				W,		7500,	0
-					TWP_SledgeHammer,				W,		7500,	0
-
-				<Category> TeddyWeaponPack:Cosmetics
+				<Category> TWPCosmetics
 					TWP_Cosmetic_Beaver,		*,		1000,	0
 					TWP_Cosmetic_BodyMale,		*,		1000,	0
 					TWP_Cosmetic_BodyFemale,	*,		1000,	0
@@ -1227,288 +1035,472 @@
 
 
 
-<Trader> Weapon Supplies
+<Trader> Weapon Supplies (10)
 	<Category> Ammunition
-		Ammo_380,						1,		1,		-1
-		Ammo_9x19,					1,		1,		-1
-		Ammo_22,						1,		1,		-1
-		Ammo_45ACP,					1,		1,		-1
-		Ammo_12gaPellets,		1,		3,		1
-		Ammo_12gaSlug,			1,		4,		2
-		Ammo_9x39,					1,		4,		2
-		Ammo_9x39AP,				1,		5,		3
-		Ammo_308Win,				1,		5,		3
-		Ammo_545x39,				1,		5,		3
-		Ammo_556x45,				1,		5,		3
-		Ammo_762x39,				1,		5,		3
-		Ammo_762x54,				1,		10,		6
-		Ammo_556x45Tracer,		1,		10,		5
-		Ammo_545x39Tracer,		1,		10,		5
-		Ammo_308WinTracer,		1,		10,		5
-		Ammo_762x39Tracer,		1,		10,		5
-		Ammo_Flare,				1,		15,		7
-	    Ammo_FlareBlue,			1,		15,		7
-	    Ammo_FlareGreen,		1,		15,		7
-	    Ammo_FlareRed,			1,		15,		7
-		Ammo_762x54Tracer,		1,		20,		12
+		Ammo_380,																				10,		165,		-1
+		Ammo_9x19,																			10,		300,		-1
+		Ammo_22,																				10,		40,		-1
+		Ammo_45ACP,																			10,		250,		-1
+		Ammo_12gaPellets,																10,		500,		250
+		Ammo_12gaSlug,																	10,		500,		250
+		Ammo_9x39,																			10,		1750,		500
+		Ammo_9x39AP,																		10,		2500,		1750
+		Ammo_308Win,																		10,		2100,		1000
+		Ammo_545x39,																		10,		750,		350
+		Ammo_556x45,																		10,		750,		350
+		Ammo_762x39,																		10,		750,		350
+		Ammo_762x54,																		10,		750,		350
+		Ammo_556x45Tracer,															10,		1200,		5
+		Ammo_545x39Tracer,															10,		1200,		5
+		Ammo_762x39Tracer,															10,		1200,		500
+		Ammo_762x54Tracer,															10,		2500,		500
+		Ammo_308WinTracer,															10,		3000,		1500
+		Ammo_Flare,																			10,		2500,		700
+	  Ammo_FlareBlue,																	10,		2500,		700
+	  Ammo_FlareGreen,																10,		2500,		700
+	  Ammo_FlareRed,																	10,		2500,		700
+		TWP_Ammo_30Carbine,															10,		1500,		500
+		TWP_Ammo_300WinMag,															10,		1500,		500
+		TWP_Ammo_20x102mm,															10,		-1,			5000
+		TWP_Ammo_20x76,																	10,		4700,		2200
+		TWP_Ammo_50BMG,																	10,		-1,			10000
+		TWP_Ammo_3006,																	10,		1000,		500
+		TWP_Ammo_792x57,																10,		1000,		500
+		TWP_Ammo_44mag,																	10,		1000,		500
+		TWP_Ammo_50AE,																	10,		3500,		1750
+		TWP_Ammo_40SW,																	10,		1000,		500
+		TWP_Ammo_46x30,																	10,		1000,		500
+		TWP_Ammo_57x28,																	10,		1000,		500
+		TWP_Ammo_Arrow,																	10,		5000,		2500
+		TWP_Ammo_408Cheytac,														10,		10000,	5500
+		TWP_Ammo_762x25,																10,		1500,		750
+		TWP_Ammo_6x35,																	10,		1500,		750
 		// When changing Prices here keep in Mind that Players
 		// can just unpack the Ammoboxes and sell the Ammo seperatly!
 		// Originally the Ammoboxes buying Price is 20% less than
 		// buying single Ammo. The Selling Price is the same as
 		// selling the Ammo seperately.
-		AmmoBox_380_35rnd,		*,		28,		-1
-		AmmoBox_9x19_25rnd,		*,		20,		-1
-		AmmoBox_45ACP_25rnd,	*,		20,		-1
-		AmmoBox_22_50Rnd,		*,		60,		20
-		AmmoBox_00buck_10rnd,	*,		24,		10
-		AmmoBox_12gaSlug_10Rnd,	*,		32,		20
-		AmmoBox_9x39_20Rnd,		*,		32,		20
-		AmmoBox_9x39AP_20Rnd,	*,		80,		60
-		AmmoBox_308Win_20Rnd,	*,		80,		60
-		AmmoBox_545x39_20Rnd,	*,		80,		60
-		AmmoBox_556x45_20Rnd,	*,		80,		60
-		AmmoBox_762x39_20Rnd,	*,		80,		60
-		AmmoBox_762x54_20Rnd,	*,		200,	120
-		AmmoBox_308WinTracer_20Rnd,		*,		160,	80
-		AmmoBox_545x39Tracer_20Rnd,		*,		160, 	80
-		AmmoBox_556x45Tracer_20Rnd,		*,		160,	80
-		AmmoBox_762x39Tracer_20Rnd,		*,		160,	80
-		AmmoBox_762x54Tracer_20Rnd,		*,		400,	200
+		AmmoBox_380_35rnd,															*,		500,		-1
+		AmmoBox_9x19_25rnd,															*,		600,		-1
+		AmmoBox_45ACP_25rnd,														*,		400,		-1
+		AmmoBox_22_50Rnd,																*,		200,		100
+		AmmoBox_00buck_10rnd,														*,		500,		300
+		AmmoBox_12gaSlug_10Rnd,													*,		500,		200
+		AmmoBox_9x39_20Rnd,															*,		3500,		2000
+		AmmoBox_9x39AP_20Rnd,														*,		5000,		3500
+		AmmoBox_308Win_20Rnd,														*,		4200,		2000
+		AmmoBox_545x39_20Rnd,														*,		1500,		750
+		AmmoBox_556x45_20Rnd,														*,		1500,		750
+		AmmoBox_762x39_20Rnd,														*,		1500,		750
+		AmmoBox_762x54_20Rnd,														*,		2000,	1000
+		AmmoBox_308WinTracer_20Rnd,											*,		6000,	3000
+		AmmoBox_545x39Tracer_20Rnd,											*,		2400, 1000
+		AmmoBox_556x45Tracer_20Rnd,											*,		2400,	1000
+		AmmoBox_762x39Tracer_20Rnd,											*,		2300,	1000
+		AmmoBox_762x54Tracer_20Rnd,											*,		5000,	2200
+		TWP_AmmoBox_20x76_10rnd,												*,		4700,	2200
+		TWP_AmmoBox_50BMG_10rnd,												*,		-1,	10000
+		TWP_AmmoBox_3006_20Rnd,													*,		2000,	1000
+		TWP_AmmoBox_792x57_20Rnd,												*,		2000,	1000
+		TWP_AmmoBox_44mag_30Rnd,												*,		3000,	1500
+		TWP_AmmoBox_50AE_20Rnd,													*,		7000,	3500
+		TWP_AmmoBox_40SW_30Rnd,													*,		3000,	1500
+		TWP_AmmoBox_46x30_30Rnd,												*,		3000,	1500
+		TWP_AmmoBox_57x28_30Rnd,												*,		3000,	1500
+		TWP_AmmoBox_762x25_30Rnd,												*,		3000,	1500
+		TWP_Ammobox_408Cheytac_10Rnd,										*,		10000, 5500
+		TWP_Ammobox_6x35_20Rnd,													*,		3000,	1500
+		TWP_AmmoBox_30Carbine_30Rnd,										*,		3000,	1500
+		TWP_AmmoBox_300WinMag_20Rnd,										*,		3000,	1500
+		TWP_AmmoBox_20x102mm_10Rnd,											*,		-1,	5000
 
 	<Category> Magazines
-		Mag_IJ70_8Rnd,			M,		30,		15
-		Mag_CZ75_15Rnd,			M,		40,		20
-		Mag_Glock_15Rnd,		M,		40,		20
-		Mag_MKII_10Rnd,			M,		40,		20
-		Mag_1911_7Rnd,			M,		40,		20
-		Mag_FNX45_15Rnd,		M,		40,		20
-		Mag_CZ527_5rnd,			M,		60,		30
-		Mag_CZ61_20Rnd,			M,		100,	50
-		Mag_UMP_25Rnd,			M,		150,	75
-		Mag_MP5_30Rnd,			M,		200,	100
-		Mag_FAL_20Rnd,			M,		100,	50
-		Mag_Saiga_5Rnd,			M,		100,	50
-		Mag_Saiga_8Rnd,			M,		220,	60
-		Mag_Saiga_Drum20Rnd,	M,		480,	110
-		Mag_AKM_30Rnd,			M,		220,	110
-		Mag_AKM_Palm30Rnd,		M,		220,	110
-		Mag_AKM_Drum75Rnd,		M,		480,	220
-		Mag_AK101_30Rnd,		M,		220,	110
-		Mag_AK74_30Rnd,			M,		220,	110
-		Mag_STANAG_30Rnd,		M,		220,	110
-		Mag_STANAGCoupled_30Rnd,M,		480,	220
-		Mag_CMAG_10Rnd,			M,		120,	60
-		Mag_CMAG_20Rnd,			M,		180,	80
-		Mag_CMAG_30Rnd,			M,		220,	110
-		Mag_CMAG_40Rnd,			M,		300,	150
-		Mag_VSS_10Rnd,			M,		220,	110
-		Mag_SVD_10Rnd,			M,		250,	125
-		Mag_308WinSnaploader_2Rnd,		M,		250,	125
+		Mag_IJ70_8Rnd,																  M,		300,		150
+		Mag_CZ75_15Rnd,																  M,		400,		200
+		Mag_Glock_15Rnd,															  M,		400,		200
+		Mag_MKII_10Rnd,																  M,		440,		200
+		Mag_1911_7Rnd,																  M,		540,		220
+		Mag_FNX45_15Rnd,															  M,		540,		220
+		Mag_CZ527_5rnd,																  M,		560,		230
+		Mag_CZ61_20Rnd,																  M,		500,	250
+		Mag_UMP_25Rnd,																  M,		450,	250
+		Mag_MP5_30Rnd,																  M,		500,	250
+		Mag_FAL_20Rnd,																  M,		2100,	500
+		Mag_Saiga_5Rnd,																  M,		500,	250
+		Mag_Saiga_8Rnd,																  M,		520,	260
+		Mag_Saiga_Drum20Rnd,													  M,		1480,	410
+		Mag_AKM_30Rnd,																  M,		1220,	510
+		Mag_AKM_Palm30Rnd,														  M,		1220,	410
+		Mag_AKM_Drum75Rnd,														  M,		2480,	1220
+		Mag_AK101_30Rnd,															  M,		720,	310
+		Mag_AK74_30Rnd,																  M,		720,	310
+		Mag_STANAG_30Rnd,															  M,		720,	310
+		Mag_STANAGCoupled_30Rnd,											  M,		480,	220
+		Mag_CMAG_10Rnd,																  M,		520,	320
+		Mag_CMAG_20Rnd,																  M,		680,	280
+		Mag_CMAG_30Rnd,																  M,		720,	350
+		Mag_CMAG_40Rnd,																  M,		900,	450
+		Mag_VSS_10Rnd,																  M,		2020,	610
+		Mag_SVD_10Rnd,																  M,		750,	325
+		Mag_308WinSnaploader_2Rnd,										  M,		750,	325
+		Mag_cs5_10Rnd_mung,			       							    *,		1200,	 500
 
 		//Pistol TWP
-		TWP_ArexZero_mag_18Rnd,													M,		100,	0
-		TWP_Beretta92FS_mag_15Rnd,											M,		100,	0
-		TWP_BerettaDE_mag_15Rnd,												M,		250,	0
-		TWP_BerettaPX4_mag_17Rnd,												M,		100,	0
-		TWP_BerettaSwordCutlass_mag_20Rnd,							M,		100,	0
-		TWP_Colt1911Gold_mag_7Rnd,											M,		100,	0
-		TWP_Colt1911Holy_mag_7Rnd,											M,		100,	0
-		TWP_Colt1911Stainless_mag_7Rnd,									M,		100,	0
-		TWP_1911_WilsonCombat_mag_7Rnd,									M,		100,	0
-		TWP_CZ75M_mag_20Rnd,														M,		100,	0
-		TWP_DesertEagle_mag_7Rnd,												M,		500,	0
-		TWP_DesertEagleFalcon_mag_7Rnd,									M,		400,	0
-		TWP_FN57Pink_mag_15Rnd,													M,		100,	0
-		TWP_FN57Toxic_mag_15Rnd,												M,		100,	0
-		TWP_FNS9_mag_18Rnd,															M,		100,	0
-		TWP_Glock18Egyptian_mag_17Rnd,									M,		100,	0
-		TWP_Glock18Honor_mag_17Rnd,											M,		100,	0
-		TWP_Glock18Jungle_mag_17Rnd,										M,		100,	0
-		TWP_Glock18Rebel_mag_17Rnd,											M,		100,	0
-		TWP_Glock18Weasel_mag_17Rnd,										M,		100,	0
-		TWP_Glock18Wolf_mag_17Rnd,											M,		100,	0
-		TWP_Glock19M_mag_15Rnd,													M,		100,	0
-		TWP_Glock42_mag_12Rnd,													M,		100,	0
-		TWP_Glock42_mag_50Rnd,													M,		300,	0
-		TWP_GlockZapper_mag_15Rnd,											M,		100,	0
-		TWP_HK47_mag_15Rnd,															M,		100,	0
-		TWP_HK47Tan_mag_15Rnd,													M,		100,	0
-		TWP_LugerP08_mag_8Rnd,													M,		100,	0
-		TWP_MK23Socom_mag_12Rnd,												M,		100,	0
-		TWP_MP40_mag_15Rnd,															M,		100,	0
-		TWP_MP443_mag_18Rnd,														M,		100,	0
-		TWP_P8_mag_15Rnd,																M,		100,	0
-		TWP_P2000BlueGirl_mag_16Rnd,										M,		100,	0
-		TWP_P2000Protector_mag_16Rnd,										M,		100,	0
-		TWP_P2000Renegade_mag_16Rnd,										M,		100,	0
-		TWP_P2000Toxic_mag_16Rnd,												M,		100,	0
-		TWP_SigSauerP226_mag_12Rnd,											M,		100,	0
-		TWP_SigSauerP229_mag_13Rnd,											M,		100,	0
-		TWP_SigSauerP250_mag_10Rnd,											M,		100,	0
-		TWP_SigSauerP250Colored_mag_10Rnd, 							M,		100,	0
-		TWP_SigSauerP250Patrician_mag_10Rnd, 						M,		100,	0
-		TWP_SigSauerP250PeaCock_mag_10Rnd,						  M,		100,	0
-		TWP_SigSauerP250Wingshot_mag_10Rnd, 						M,		100,	0
-		TWP_SP1Vektor_mag_15Rnd, 												M,		100,	0
-		TWP_SR1Gyrza_mag_18Rnd, 												M,		100,	0
-		TWP_Tokarev_mag_8Rnd,														M,		100,	0
-		TWP_USPChromatic_mag_15Rnd,											M,		100,	0
-		TWP_USPPsychodelic_mag_15Rnd,										M,		100,	0
-		TWP_WaltherP99_mag_15Rnd,												M,		100,	0
-		TWP_WaltherQ5_mag_15Rnd,												M,		100,	0
-		TWP_Glock17_mag_19Rnd,													M,		100,	0
-		TWP_WaltherPPK_mag_8Rnd,												M,		100,	0
+		TWP_ArexZero_mag_18Rnd,													M,		500,	250
+		TWP_Beretta92FS_mag_15Rnd,											M,		500,	250
+		TWP_BerettaDE_mag_15Rnd,												M,		500,	250
+		TWP_BerettaPX4_mag_17Rnd,												M,		500,	250
+		TWP_BerettaSwordCutlass_mag_20Rnd,							M,		500,	250
+		TWP_Colt1911Gold_mag_7Rnd,											M,		-1,		3000
+		TWP_Colt1911Holy_mag_7Rnd,											M,		500,	250
+		TWP_Colt1911Stainless_mag_7Rnd,									M,		500,	250
+		TWP_1911_WilsonCombat_mag_7Rnd,									M,		500,	250
+		TWP_CZ75M_mag_20Rnd,														M,		500,	250
+		TWP_DesertEagle_mag_7Rnd,												M,		500,	250
+		TWP_DesertEagleFalcon_mag_7Rnd,									M,		500,	250
+		TWP_FN57Pink_mag_15Rnd,													M,		500,	250
+		TWP_FN57Toxic_mag_15Rnd,												M,		500,	250
+		TWP_FNS9_mag_18Rnd,															M,		500,	250
+		TWP_Glock18Egyptian_mag_17Rnd,									M,		500,	250
+		TWP_Glock18Honor_mag_17Rnd,											M,		500,	250
+		TWP_Glock18Jungle_mag_17Rnd,										M,		500,	250
+		TWP_Glock18Rebel_mag_17Rnd,											M,		500,	250
+		TWP_Glock18Weasel_mag_17Rnd,										M,		500,	250
+		TWP_Glock18Wolf_mag_17Rnd,											M,		500,	250
+		TWP_Glock19M_mag_15Rnd,													M,		500,	250
+		TWP_Glock42_mag_12Rnd,													M,		500,	250
+		TWP_Glock42_mag_50Rnd,													M,		500,	250
+		TWP_GlockZapper_mag_15Rnd,											M,		500,	250
+		TWP_HK47_mag_15Rnd,															M,		500,	250
+		TWP_HK47Tan_mag_15Rnd,													M,		500,	250
+		TWP_LugerP08_mag_8Rnd,													M,		500,	250
+		TWP_MK23Socom_mag_12Rnd,												M,		500,	250
+		TWP_MP40_mag_15Rnd,															M,		500,	250350
+		TWP_MP443_mag_18Rnd,														M,		500,	250
+		TWP_P8_mag_15Rnd,																M,		500,	250
+		TWP_P2000BlueGirl_mag_16Rnd,										M,		500,	250
+		TWP_P2000Protector_mag_16Rnd,										M,		500,	250
+		TWP_P2000Renegade_mag_16Rnd,										M,		500,	250
+		TWP_P2000Toxic_mag_16Rnd,												M,		500,	250
+		TWP_SigSauerP226_mag_12Rnd,											M,		500,	250
+		TWP_SigSauerP229_mag_13Rnd,											M,		500,	250
+		TWP_SigSauerP250_mag_10Rnd,											M,		500,	250
+		TWP_SigSauerP250Colored_mag_10Rnd, 							M,		500,	250
+		TWP_SigSauerP250Patrician_mag_10Rnd, 						M,		500,	250
+		TWP_SigSauerP250PeaCock_mag_10Rnd,						  M,		500,	250
+		TWP_SigSauerP250Wingshot_mag_10Rnd, 						M,		500,	250
+		TWP_SP1Vektor_mag_15Rnd, 												M,		500,	250
+		TWP_SR1Gyrza_mag_18Rnd, 												M,		500,	250
+		TWP_Tokarev_mag_8Rnd,														M,		500,	250
+		TWP_USPChromatic_mag_15Rnd,											M,		500,	250
+		TWP_USPPsychodelic_mag_15Rnd,										M,		500,	250
+		TWP_WaltherP99_mag_15Rnd,												M,		500,	250
+		TWP_WaltherQ5_mag_15Rnd,												M,		500,	250
+		TWP_Glock17_mag_19Rnd,													M,		500,	250
+		TWP_WaltherPPK_mag_8Rnd,												M,		500,	250
 
 // PP TWP
-		TWP_AEK919_mag_20Rnd,														M,		700,	0
-		TWP_Auto9_mag_25Rnd,														M,		700,	0
-		TWP_MP7Eagle_mag_30Rnd,													M,		700,	0
-		TWP_MP7_mag_30Rnd,															M,		700,	0
-		TWP_MP7_magCoupled_60Rnd,												M,		1000,	0
-		TWP_MP7_RoundMag_60Rnd,													M,		1000,	0
-		TWP_P90_mag_50Rnd,															M,		1000,	0
-		TWP_TWP_P90Arctic_mag_50Rnd,										M,		1000,	0
-		TWP_P90Colored_mag_50Rnd,												M,		1000,	0
-		TWP_P90Shallow_Grave_mag_50Rnd,									M,		1000,	0
-		TWP_Uzi_mag_20Rnd,															M,		700,	0
-		TWP_FMG9_mag_32Rnd,															M,		700,	0
-		TWP_SRGlock_mag_33Rnd,													M,		2000,	0
-		TWP_SR2_mag_20Rnd,															M,		2000,	0
-		TWP_SR3_mag_30Rnd,															M,		2000,	0
-		TWP_SST30_mag_35Rnd,														M,		700,	0
-		TWP_SST30Halloween_mag_35Rnd,										M,		700,	0
-		TWP_SST30Silenced_mag_35Rnd,										M,		700,	0
-		TWP_Tec9_mag_50Rnd,															M,		700,	0
-		TWP_M24R_mag_40Rnd,															M,		700,	0
-		TWP_UMP_mag_35Rnd,															M,		1000,	0
-		TWP_UMPPrimalSaber_mag_35Rnd,										M,		1000,	0
-		TWP_MPX_mag_30Rnd,															M,		1000,	0
-		TWP_MP5Silenced_mag_30Rnd,											M,		1000,	0
-		TWP_PP19Vityaz_mag_30Rnd,												M,		1000,	0
-		TWP_CX4Storm_mag_30Rnd,													M,		100,	0
-		TWP_KacPDW_mag_30Rnd,														M,		100,	0
-		TWP_Spectre_mag_30Rnd,													M,		100,	0
-		TWP_Mac10_mag_32Rnd,														M,		1000,	0
+		TWP_AEK919_mag_20Rnd,														M,		700,	350
+		TWP_Auto9_mag_25Rnd,														M,		700,	350
+		TWP_MP7Eagle_mag_30Rnd,													M,		700,	350
+		TWP_MP7_mag_30Rnd,															M,		700,	350
+		TWP_MP7_magCoupled_60Rnd,												M,		1000,	500
+		TWP_MP7_RoundMag_60Rnd,													M,		1000,	500
+		TWP_P90_mag_50Rnd,															M,		1000,	500
+		TWP_TWP_P90Arctic_mag_50Rnd,										M,		1000,	500
+		TWP_P90Colored_mag_50Rnd,												M,		1000,	500
+		TWP_P90Shallow_Grave_mag_50Rnd,									M,		1000,	500
+		TWP_Uzi_mag_20Rnd,															M,		700,	350
+		TWP_FMG9_mag_32Rnd,															M,		700,	350
+		TWP_SRGlock_mag_33Rnd,													M,		2000,	1000
+		TWP_SR2_mag_20Rnd,															M,		2000,	1000
+		TWP_SR3_mag_30Rnd,															M,		2000,	1000
+		TWP_SST30_mag_35Rnd,														M,		700,	350
+		TWP_SST30Halloween_mag_35Rnd,										M,		700,	350
+		TWP_SST30Silenced_mag_35Rnd,										M,		700,	350
+		TWP_Tec9_mag_50Rnd,															M,		700,	350
+		TWP_M24R_mag_40Rnd,															M,		700,	350
+		TWP_UMP_mag_35Rnd,															M,		1000,	500
+		TWP_UMPPrimalSaber_mag_35Rnd,										M,		1000,	500
+		TWP_MPX_mag_30Rnd,															M,		1000,	500
+		TWP_MP5Silenced_mag_30Rnd,											M,		1000,	500
+		TWP_PP19Vityaz_mag_30Rnd,												M,		1000,	500
+		TWP_CX4Storm_mag_30Rnd,													M,		1000,	500
+		TWP_KacPDW_mag_30Rnd,														M,		1000,	500
+		TWP_Spectre_mag_30Rnd,													M,		1000,	500
+		TWP_Mac10_mag_32Rnd,														M,		1000,	500
 		//sniper TWP
-		TWP_AmericanRifle_mag_5Rnd,											M,		2000,	0
-		TWP_AWM_mag_5Rnd,																M,		2000,	0
-		TWP_G43_mag_10Rnd,															M,		2000,	0
-		TWP_L96A1_mag_5Rnd,															M,		2000,	0
-		TWP_M1Carbine_mag_15Rnd,												M,		2000,	0
-		TWP_M14_mag_20Rnd,															M,		2000,	0
-		TWP_M110_mag_20Rnd,															M,		2000,	0
-		TWP_M24_mag_4Rnd,																M,		2000,	0
-		TWP_M40A5_mag_5Rnd,															M,		2000,	0
-		TWP_PSG1_mag_5Rnd,															M,		2000,	0
-		TWP_R700_mag_10Rnd,															M,		2000,	0
-		TWP_RemingtonMSR_mag_5Rnd,											M,		2000,	0
-		TWP_SSG69_mag_5Rnd,															M,		2000,	0
-		TWP_SV98NovaPriam_mag_5Rnd,											M,		2000,	0
-		TWP_Dragunov_mag_10Rnd,													M,		2000,	0
-		TWP_SVT38_mag_10Rnd,														M,		2000,	0
+		TWP_AmericanRifle_mag_5Rnd,											M,		8000,	3900
+		TWP_AWM_mag_5Rnd,																M,		8000,	3900
+		TWP_G43_mag_10Rnd,															M,		8000,	3900
+		TWP_L96A1_mag_5Rnd,															M,		8000,	3900
+		TWP_M1Carbine_mag_15Rnd,												M,		8000,	3900
+		TWP_M14_mag_20Rnd,															M,		8000,	3900
+		TWP_M110_mag_20Rnd,															M,		8000,	3900
+		TWP_M24_mag_4Rnd,																M,		8000,	3900
+		TWP_M40A5_mag_5Rnd,															M,		8000,	3900
+		TWP_PSG1_mag_5Rnd,															M,		8000,	3900
+		TWP_R700_mag_10Rnd,															M,		8000,	3900
+		TWP_RemingtonMSR_mag_5Rnd,											M,		8000,	3900
+		TWP_SSG69_mag_5Rnd,															M,		8000,	3900
+		TWP_SV98NovaPriam_mag_5Rnd,											M,		8000,	3900
+		TWP_Dragunov_mag_10Rnd,													M,		8000,	3900
+		TWP_SVT38_mag_10Rnd,														M,		8000,	3900
+		TWP_MK14_mag_30Rnd,															M,		2500,	1250
 
+		//Shotguns
+		TWP_AA12_mag_32Rnd,															M,		2500,	500
+		TWP_AA12Dragon_mag_32Rnd,												M,		4000,	2000
+		TWP_AA12HellDragon_mag_32Rnd,										M,		4000,	2000
+		TWP_Komrad12_mag_10Rnd,													M,		2300,	1000
+		TWP_Spas15_mag_8Rnd,														M,		900,	700
+		TWP_AA12Black_mag_32Rnd,												M,		3000,	1000
+
+			//Aussault Rifles
+			TWP_ACE23_mag_30Rnd,													M,		2500,	700
+			TWP_Ash12_mag_10Rnd,													M,		2500,	700
+			TWP_ACR_mag_30Rnd,														M,		2500,	700
+			TWP_ACWR_mag_30Rnd,														M,		2500,	700
+			TWP_AG43_mag_20Rnd,														M,		2500,	700
+			TWP_AK9_mag_30Rnd,														M,		2500,	700
+			TWP_AK12_mag_30Rnd,														M,		2500,	700
+			TWP_AK12Green_mag_30Rnd,											M,		2500,	700
+			TWP_AK12Tan_mag_30Rnd,												M,		2500,	700
+			TWP_AK47_mag_30Rnd,														M,		2500,	700
+			TWP_AK47Blue_mag_35Rnd,												M,		2500,	700
+			TWP_AK47Boar_mag_30Rnd,												M,		2500,	700
+			TWP_AK47Dragon_mag_30Rnd,											M,		2500,	700
+			TWP_AK47Spider_mag_30Rnd,											M,		2500,	700
+			TWP_AK47Tactical_mag_45Rnd,										M,		2500,	700
+			TWP_AK47Wolf_mag_30Rnd,												M,		2500,	700
+			TWP_AK47WhiteWolf_mag_30Rnd,									M,		2500,	700
+			TWP_AK103_mag_30Rnd,													M,		2500,	700
+			TWP_AK105_mag_30Rnd,													M,		2500,	700
+			TWP_AMD_mag_30Rnd,														M,		2500,	700
+			TWP_AMDSpaceship_mag_30Rnd,										M,		2500,	700
+			TWP_AN94_mag_30Rnd,														M,		2500,	700
+			TWP_AR15_mag_30Rnd,														M,		2500,	700
+			TWP_AR15Cannabis_mag_30Rnd,										M,		2500,	700
+			TWP_AR70_mag_30Rnd,														M,		2500,	700
+			TWP_ARX160_mag_30Rnd,													M,		2500,	700
+			TWP_ASR_mag_40Rnd,														M,		2500,	700
+			TWP_ASVal_mag_30Rnd,													M,		2500,	700
+			TWP_SteyrAug_mag_45Rnd,												M,		2500,	700
+			TWP_CalifasNomad_mag_40Rnd,										M,		2500,	700
+			TWP_CZ805_mag_30Rnd,													M,		2500,	700
+			TWP_CZScorpion_mag_30Rnd,											M,		2500,	700
+			TWP_Famas_mag_35Rnd,													M,		2500,	700
+			TWP_FamasSpecialOps_mag_40Rnd,								M,		2500,	700
+			TWP_FamasTan_mag_35Rnd,												M,		2500,	700
+			TWP_FG42_mag_25Rnd,														M,		2500,	700
+			TWP_FG42Old_mag_25Rnd,												M,		2500,	700
+			TWP_FNF2000_mag_30Rnd,												M,		2500,	700
+			TWP_FNFNC_mag_30Rnd,													M,		2500,	700
+			TWP_FNM29_mag_30Rnd,													M,		2500,	700
+			TWP_GalilSAR_mag_35Rnd,												M,		2500,	700
+			TWP_G56_mag_32Rnd,														M,		2500,	700
+			TWP_G3A3_mag_20Rnd,														M,		2500,	700
+			TWP_G36_mag_30Rnd,														M,		2500,	700
+			TWP_G36c_mag_30Rnd,														M,		2500,	700
+			TWP_HK33_mag_30Rnd,														M,		2500,	700
+			TWP_HK416_mag_40Rnd,													M,		2500,	700
+			TWP_HK417_mag_30Rnd,													M,		2500,	700
+			TWP_HKCarabine_mag_30Rnd,											M,		2500,	700
+			TWP_HoneyBadger_mag_40Rnd,										M,		2500,	700
+			TWP_HoneyBadgerBW_mag_40Rnd, 									M,		2500, 700
+			TWP_HoneyBadgerGold_mag_40Rnd,								M,		2500,	700
+			TWP_IA2_mag_30Rnd,														M,		2500,	700
+			TWP_K2C_mag_30Rnd,														M,		2500,	700
+			TWP_AK5C_mag_30Rnd,														M,		2500,	700
+			TWP_AK5CGreen_mag_30Rnd,											M,		2500,	700
+			TWP_AK5CGrey_mag_30Rnd,												M,		2500,	700
+			TWP_LR300_mag_30Rnd,													M,		2500,	700
+			TWP_M4V5_mag_30Rnd,														M,		2500,	700
+			TWP_M16A1_mag_20Rnd,													M,		2500,	700
+			TWP_M16_mag_20Rnd,														M,		2500,	700
+			TWP_M16A4_mag_30Rnd,													M,		2500,	700
+			TWP_MK18_mag_100Rnd,													M,		2500,	700
+			TWP_MSBS_GrotBGold_mag_30Rnd,									M,		2500,	700
+			TWP_MSBS_GrotC_mag_30Rnd,											M,		2500,	700
+			TWP_OTSGrosa_mag_30Rnd,												M,		2500,	700
+			TWP_ParaSA58_mag_20Rnd,												M,		2500,	700
+			TWP_PindadSS2_mag_30Rnd,											M,		2500,	700
+			TWP_PP19Bison_mag_64Rnd,											M,		2500,	700
+			TWP_PLR16_mag_30Rnd,													M,		2500,	700
+			TWP_PPSH_mag_50Rnd,														M,		2500,	700
+			TWP_QBZ03_mag_30Rnd,													M,		2500,	700
+			TWP_RemingtonR5_mag_40Rnd,										M,		2500,	700
+			TWP_RK62_mag_30Rnd,														M,		2500,	700
+			TWP_Ruger556_mag_30Rnd,												M,		2500,	700
+			TWP_RPK16_mag_100Rnd,													M,		2500,	700
+			TWP_RPK16Green_mag_100Rnd,										M,		2500,	700
+			TWP_RPK16Tan_mag_100Rnd,											M,		2500,	700
+			TWP_ScarL_mag_30Rnd,													M,		2500,	700
+			TWP_ScarH_mag_30Rnd,													M,		2500,	700
+			TWP_ScarDragon_mag_50Rnd,											M,		2500,	700
+			TWP_ScarLK_mag_30Rnd,													M,		2500,	700
+			TWP_SteyrAug_mag_45Rnd,												M,		2500,	700
+			TWP_STG44_mag_30Rnd,													M,		2500,	700
+			TWP_SG550_mag_30Rnd,													M,		2500,	700
+			TWP_SG553_mag_30Rnd,													M,		2500,	700
+			TWP_SR47_mag_30Rnd,														M,		2500,	700
+			TWP_StenGun_mag_32Rnd,												M,		2500,	700
+			TWP_Sterling_mag_34Rnd,												M,		2500,	700
+			TWP_STG58_mag_20Rnd,													M,		2500,	700
+			TWP_Stoner63_mag_30Rnd,												M,		2500,	700
+			TWP_Tar21_mag_30Rnd,													M,		2500,	700
+			TWP_Thompson_mag_50Rnd,												M,		2500,	700
+			TWP_ThompsonMK2_mag_50Rnd,										M,		2500,	700
+			TWP_Type64_mag_20Rnd,													M,		2500,	700
+			TWP_Type89_mag_30Rnd,													M,		2500,	700
+			TWP_XM8_mag_30Rnd,														M,		2500,	700
+			TWP_G36x_mag_40Rnd,														M,		2500,	700
+			TWP_M4A1_mag_35Rnd,														M,		2500,	700
+			TWP_L85A2_mag_30Rnd,													M,		2500,	700
+			TWP_SG556_mag_30Rnd,													M,		2500,	700
+			TWP_CalifasNomad_mag_40Rnd,										M,		2500,	700
 
 	<Category> Handguards
-		MP5_PlasticHndgrd,		*,		100,	50
-		MP5_RailHndgrd,				*,		150,	75
-		AK74_Hndgrd,					*,		150,	75
-		AK_WoodHndgrd,				*,		200,	100
-		AK_RailHndgrd,				*,		200,	100
-		AK_PlasticHndgrd,			*,		200,	100
-		M4_PlasticHndgrd,			*,		150,	75
-		M4_RISHndgrd,					*,		200,	100
-		M4_MPHndgrd,					*,		200,	100
+		MP5_PlasticHndgrd,															*,		100,	50
+		MP5_RailHndgrd,																	*,		150,	75
+		AK74_Hndgrd,																		*,		150,	75
+		AK_WoodHndgrd,																	*,		200,	100
+		AK_RailHndgrd,																	*,		200,	100
+		AK_PlasticHndgrd,																*,		200,	100
+		M4_PlasticHndgrd,																*,		150,	75
+		M4_RISHndgrd,																		*,		200,	100
+		M4_MPHndgrd,																		*,		200,	100
 
 	<Category> Buttstocks
-		MP5k_StockBttstck,			*,		100,	50
-		Fal_OeBttstck,					*,		100,	50
-		Fal_FoldingBttstck,			*,		150,	75
-		Saiga_Bttstck,					*,		150,	75
-		AKS74U_Bttstck,					*,		150,	75
-		AK74_WoodBttstck,				*,		150,	75
-		AK_PlasticBttstck,			*,		100,	50
-		AK_WoodBttstck,					*,		150,	75
-		AK_FoldingBttstck,			*,		250,	125
-		M4_OEBttstck,						*,		150,	75
-		M4_CQBBttstck,					*,		150,	75
-		M4_MPBttstck,						*,		150,	75
-		TTC_Buttstock,					*, 300, 150
-		TTC_Buttstock2, 				*, 300, 150
-		TTC_Buttstock3, 				*, 300, 150
-		TTC_M1StockPouch, 			*, 500, 250
-		TTC_Buttstock_Honey,	  *, 300, 200
-		TTC_Buttstock_Camo, 		*, 300, 200
-		TTC_Buttstock_Digitan,  *, 300, 200
-		TTC_Buttstock_Tan, 			*, 300, 200
-		TTC_Buttstock_UPC, 			*, 300, 200
-		TTC_ButtstockHK, 				*, 300, 200
-		TTC_Buttstock_Morty, 		*, 300, 200
-		TTC_Buttstock_AK12, 		*, 300, 200
-		TTC_AKMod_bttstk, 			*, 300, 200
-		TTC_AKMod_Gold_bttstk, 	*, 300, 200
-		TTC_AKMod_Snow_bttstk, 	*, 300, 200
-		TTC_AKMod_Multi_bttstk, *, 300, 200
-		TTC_AKMod_Digi_bttstk, 	*, 300, 200
-		TTC_AKMod_Tan_bttstk, 	*, 300, 200
+		MP5k_StockBttstck,															*,		100,	50
+		Fal_OeBttstck,																	*,		100,	50
+		Fal_FoldingBttstck,															*,		150,	75
+		Saiga_Bttstck,																	*,		150,	75
+		AKS74U_Bttstck,																	*,		150,	75
+		AK74_WoodBttstck,																*,		150,	75
+		AK_PlasticBttstck,															*,		100,	50
+		AK_WoodBttstck,																	*,		150,	75
+		AK_FoldingBttstck,															*,		250,	125
+		M4_OEBttstck,																		*,		150,	75
+		M4_CQBBttstck,																	*,		150,	75
+		M4_MPBttstck,																		*,		150,	75
+		TTC_Buttstock,																	*, 300, 150
+		TTC_Buttstock2, 																*, 300, 150
+		TTC_Buttstock3, 																*, 300, 150
+		TTC_M1StockPouch, 															*, 500, 250
+		TTC_Buttstock_Honey,	  												*, 300, 200
+		TTC_Buttstock_Camo, 														*, 300, 200
+		TTC_Buttstock_Digitan,  												*, 300, 200
+		TTC_Buttstock_Tan, 															*, 300, 200
+		TTC_Buttstock_UPC, 															*, 300, 200
+		TTC_ButtstockHK, 																*, 300, 200
+		TTC_Buttstock_Morty, 														*, 300, 200
+		TTC_Buttstock_AK12, 														*, 300, 200
+		TTC_AKMod_bttstk, 															*, 300, 200
+		TTC_AKMod_Gold_bttstk, 													*, 300, 200
+		TTC_AKMod_Snow_bttstk, 													*, 300, 200
+		TTC_AKMod_Multi_bttstk, 												*, 300, 200
+		TTC_AKMod_Digi_bttstk, 													*, 300, 200
+		TTC_AKMod_Tan_bttstk, 													*, 300, 200
+		mcmillan_buttstock,			       							   	*,		   100,	 50
 
 	<Category> Optics
-		M4_CarryHandleOptic,	*,		150,	60
-		BUISOptic,				*,		150,	60
-		FNP45_MRDSOptic,		*,		250,	100
-		ACOGOptic,				*,		300,	120
-		M68Optic,				*,		500,	200
-		M4_T3NRDSOptic,			*,		500,	200
-		KobraOptic,				*,		600,	250
-		KashtanOptic,			*,		700,	300
-		PUScopeOptic,			*,		900,	500
-		HuntingOptic,			*,		1000,	550
-		PSO1Optic,				*,		1100,	600
-		PSO11Optic,				*,		1400,	840
-		KazuarOptic,			*,		2200,	1400
-		AD_B13Mount,           *,      900,    350
-		AD_MosinMount,           *,      900,    350
-		AD_ACOG,           *,      900,    350
-		AD_ACOG_MosinMount,           *,      900,    350
-		AD_ACOG_B13,           *,      900,    350
-		AD_ACOG_RMR,           *,      900,    350
-		AD_ACOG_RMR_MosinMount,           *,      900,    350
-		AD_ACOG_RMR_B13,           *,      900,    350
-		AD_DHF5,           *,      900,    350
-		AD_DHF5_MosinMount,           *,      900,    350
-		AD_DHF5_B13,           *,      900,    350
-		AD_MRS,           *,      900,    350
-		AD_MRS_MosinMount,           *,      900,    350
-		AD_MRS_B13,           *,      900,    350
-		AD_NFATACR,           *,      900,    350
-		AD_NFATACR_MosinMount,           *,      900,    350
-		AD_NFATACR_B13,           *,      900,    350
-		AD_NFATACR_1_8,           *,      900,    350
-		AD_NFATACR_1_8_MosinMount,           *,      900,    350
-		AD_NFATACR_1_8_B13,           *,      900,    350
-		AD_OKP7,           *,      900,    350
-		AD_OKP7_MosinMount,           *,      900,    350
-		AD_OKP7_B13,           *,      900,    350
-		AD_Pilad,           *,      900,    350
-		AD_Pilad_MosinMount,           *,      900,    350
-		AD_Pilad_B13,           *,      900,    350
-		AD_PVS4,           *,      900,    350
-		AD_PVS4_MosinMount,           *,      900,    350
-		AD_PVS4_B13,           *,      900,    350
-		AD_RMR,           *,      900,    350
-		AD_RMR_LM,           *,      900,    350
-		AD_RMR_LM_MosinMount,           *,      900,    350
-		AD_RMR_LM_B13,           *,      900,    350
-		AD_RMR_TM,           *,      900,    350
-		AD_RMR_TM_MosinMount,           *,      900,    350
-		AD_RMR_TM_B13,           *,      900,    350
-		AD_SpecterDR,           *,      900,    350
-		AD_SpecterDR_MosinMount,           *,      900,    350
-		AD_SpecterDR_B13,           *,      900,    350
+		M4_CarryHandleOptic,														*,			150,	60
+		BUISOptic,																			*,			150,	60
+		FNP45_MRDSOptic,																*,			250,	100
+		ACOGOptic,																			*,			300,	120
+		M68Optic,																				*,			500,	200
+		M4_T3NRDSOptic,																	*,			500,	200
+		KobraOptic,																			*,			600,	250
+		KashtanOptic,																		*,			700,	300
+		PUScopeOptic,																		*,			900,	500
+		HuntingOptic,																		*,			1000,	550
+		PSO1Optic,																			*,			1100,	600
+		PSO11Optic,																			*,			1400,	840
+		KazuarOptic,																		*,			2200,	1400
+		AD_B13Mount,          		 											*,      900,    350
+		AD_MosinMount,          	 											*,      900,    350
+		AD_ACOG,           				 											*,      900,    350
+		AD_ACOG_MosinMount,           									*,      900,    350
+		AD_ACOG_B13,          													*,      900,    350
+		AD_ACOG_RMR,           													*,      900,    350
+		AD_ACOG_RMR_MosinMount,          							  *,      900,    350
+		AD_ACOG_RMR_B13,            										*,      900,    350
+		AD_DHF5,           															*,      900,    350
+		AD_DHF5_MosinMount,         										*,      900,    350
+		AD_DHF5_B13,           													*,      900,    350
+		AD_MRS,           															*,      900,    350
+		AD_MRS_MosinMount,          										*,      900,    350
+		AD_MRS_B13,           													*,      900,    350
+		AD_NFATACR,           													*,      900,    350
+		AD_NFATACR_MosinMount,           								*,      900,    350
+		AD_NFATACR_B13,          	 											*,      900,    350
+		AD_NFATACR_1_8,         	 											*,      900,    350
+		AD_NFATACR_1_8_MosinMount,        						  *,      900,    350
+		AD_NFATACR_1_8_B13,           									*,      900,    350
+		AD_OKP7,           															*,      900,    350
+		AD_OKP7_MosinMount,           									*,      900,    350
+		AD_OKP7_B13,           													*,      900,    350
+		AD_Pilad,          		 													*,      900,    350
+		AD_Pilad_MosinMount,           									*,      900,    350
+		AD_Pilad_B13,           												*,      900,    350
+		AD_PVS4,           															*,      900,    350
+		AD_PVS4_MosinMount,           									*,      900,    350
+		AD_PVS4_B13,           													*,      900,    350
+		AD_RMR,           															*,      900,    350
+		AD_RMR_LM,           														*,      900,    350
+		AD_RMR_LM_MosinMount,           								*,      900,    350
+		AD_RMR_LM_B13,          												*,      900,    350
+		AD_RMR_TM,           														*,      900,    350
+		AD_RMR_TM_MosinMount,           								*,      900,    350
+		AD_RMR_TM_B13,          												*,      900,    350
+		AD_SpecterDR,           												*,      900,    350
+		AD_SpecterDR_MosinMount,           							*,      900,    350
+		AD_SpecterDR_B13,          										  *,      900,    350
+		TTC_G3_Optic, 																	*,		 5000, 2000
+		TTC_BugBuster, 																	*,		 5000, 2000
+		TTC_Holo, 																			*, 		5000, 2000
+		TTC_HAMR, 																			*, 		5000, 2000
+		TWP_M16A3_handle,																*,		2000,	500
+		TWP_M16A4_handle,																*,		2000,	500
+		TWP_Optic_Vlife,																*,		7000,	3500
+		TWP_Optic_NCSTAR,																*,		7000,	3500
+		TWP_Optic_Steyr,																*,		7000,	3500
+		TWP_Optic_Camouflage,														*,		7000,	3500
+		TWP_Optic_Snowy,																*,		7000,	3500
+		TWP_Optic_FG42,																	*,		5000,	2500
+		TWP_TrijiconACOG,																*,		7000,	3500
+		TWP_Optic_reddot,																*,		7000,	3500
+		TWP_Optic_Redcross,															*,		7000,	3500
+		TWP_Optic_Acog,																	*,		7000,	3500
+		TWP_LongRangeOptic_Tan,													*,		7000,	3500
+		TWP_LongRangeOptic_Green,												*,		7000,	3500
+		TWP_LongRangeOptic_Black,												*,		7000,	3500
+		TWP_Optic_BlackDragon,													*,		7000,	3500
+		TWP_OldRifle_Optic,															*,		7000,	3500
+		TWP_Optic_G3A3,																	*,		7000,	3500
+		TWP_M16A4_handle,																*,		2000,	500
 
 	<Category> Supressors
-		PistolSuppressor,		*,		150,	75
-		AK_Suppressor,			*,		250,	125
-		M4_Suppressor,			*,		250,	125
+		PistolSuppressor,																*,		150,	75
+		AK_Suppressor,																	*,		250,	125
+		M4_Suppressor,																	*,		250,	125
+		TTC_Universal_Suppressor_BLACK, 								*, 500, 200
+		TTC_Universal_Suppressor_CAMO,  								*, 500, 200
+		TTC_Honey_Suppressor, 													*, 500, 200
+		TTC_Universal_Suppressor_Tan, 									*, 500, 200
+		TTC_Universal_Suppressor_Snow,  								*, 500, 200
+		TTC_DMR_Suppressor, 														*, 500, 200
+		TTC_DMR_AFG, 																		*, 500, 200
+		TTC_DMR_AFG_Green, 															*, 500, 200
+		TTC_DMR_AFG_Tan, 																*, 500, 200
+		TTC_DMR_VFG, 																		*, 500, 200
+		TTC_DMR_VFG_Green, 															*, 500, 200
+		TTC_DMR_VFG_Tan, 																*, 500, 200
+		TTC_DMR_Bipod, 																	*, 500, 200
+		TTC_M14Suppressor, 															*, 500, 200
+		TTC_AKMOD_AFG, 																	*, 500, 200
+		TTC_AKMod_Suppressor, 													*, 500, 200
 
 	<Category> Compensators
 		Mosin_Compensator,		*,		150,	75
@@ -1695,25 +1687,6 @@
 		TTC_AKMod_762x54_30rnd, M, 200, 100
 		TTC_AKMod_762x54_65rnd, M, 400, 100
 
-		<Category> Mortys Supressors
-
-		TTC_Universal_Suppressor_BLACK, *, 500, 200
-		TTC_Universal_Suppressor_CAMO, *, 500, 200
-		TTC_Honey_Suppressor, *, 500, 200
-		TTC_Universal_Suppressor_Tan, *, 500, 200
-		TTC_Universal_Suppressor_Snow, *, 500, 200
-		TTC_DMR_Suppressor, *, 500, 200
-		TTC_DMR_AFG, *, 500, 200
-		TTC_DMR_AFG_Green, *, 500, 200
-		TTC_DMR_AFG_Tan, *, 500, 200
-		TTC_DMR_VFG, *, 500, 200
-		TTC_DMR_VFG_Green, *, 500, 200
-		TTC_DMR_VFG_Tan, *, 500, 200
-		TTC_DMR_Bipod, *, 500, 200
-		TTC_M14Suppressor, *, 500, 200
-		TTC_AKMOD_AFG, *, 500, 200
-		TTC_AKMod_Suppressor, *, 500, 200
-
 		<Category> Mortys Attachments
 
 		TTC_DMR_Hndguard, *, 250, 125
@@ -1725,13 +1698,6 @@
 		TTC_AKMod_Multi_Hndguard, *, 250, 125
 		TTC_AKMod_Digi_Hndguard, *, 250, 125
 		TTC_AKMod_Tan_Hndguard, *, 250, 125
-
-
-		<Category> Mortys Optics
-		TTC_G3_Optic, *, 5000, 2000
-		TTC_BugBuster, *, 5000, 2000
-		TTC_Holo, *, 5000, 2000
-		TTC_HAMR, *, 5000, 2000
 
 
 <Trader> Clothing Trader
