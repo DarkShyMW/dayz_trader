@@ -1129,7 +1129,7 @@
 		Mag_Saiga_5Rnd,																  M,		500,	250
 		Mag_Saiga_8Rnd,																  M,		520,	260
 		Mag_Saiga_Drum20Rnd,													  M,		1480,	410
-		Mag_AKM_30Rnd,																  M,		1220,	510
+		Mag_AKM_30Rnd,																  M,		1320,	510
 		Mag_AKM_Palm30Rnd,														  M,		1220,	410
 		Mag_AKM_Drum75Rnd,														  M,		2480,	1220
 		Mag_AK101_30Rnd,															  M,		720,	310
