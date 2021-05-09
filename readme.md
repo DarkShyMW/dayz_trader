@@ -1,2 +1,0 @@
-# /SlainsDayZ
-## DayZ server
