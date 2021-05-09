@@ -1175,7 +1175,7 @@
 		TWP_HK47Tan_mag_15Rnd,													M,		500,	250
 		TWP_LugerP08_mag_8Rnd,													M,		500,	250
 		TWP_MK23Socom_mag_12Rnd,												M,		500,	250
-		TWP_MP40_mag_15Rnd,															M,		500,	250350
+		TWP_MP40_mag_15Rnd,															M,		500,	250
 		TWP_MP443_mag_18Rnd,														M,		500,	250
 		TWP_P8_mag_15Rnd,																M,		500,	250
 		TWP_P2000BlueGirl_mag_16Rnd,										M,		500,	250
