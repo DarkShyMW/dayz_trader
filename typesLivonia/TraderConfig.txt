@@ -754,35 +754,35 @@
 		TTC_AKMod_Tan_bttstk, 													*, 300, 200
 		mcmillan_buttstock,			       							   	*,		   100,	 50
 
-	<Category> Optics
-		M4_CarryHandleOptic,														*,			150,	60
-		BUISOptic,																			*,			150,	60
-		FNP45_MRDSOptic,																*,			250,	100
-		ACOGOptic,																			*,			300,	120
-		M68Optic,																				*,			500,	200
-		M4_T3NRDSOptic,																	*,			500,	200
-		KobraOptic,																			*,			600,	250
-		KashtanOptic,																		*,			700,	300
-		PUScopeOptic,																		*,			900,	500
-		HuntingOptic,																		*,			1000,	550
-		PSO1Optic,																			*,			1100,	600
-		PSO11Optic,																			*,			1400,	840
-		KazuarOptic,																		*,			2200,	1400
-		AD_B13Mount,          		 											*,      900,    350
-		AD_MosinMount,          	 											*,      900,    350
-		AD_ACOG,           				 											*,      900,    350
-		AD_ACOG_MosinMount,           									*,      900,    350
-		AD_ACOG_B13,          													*,      900,    350
-		AD_ACOG_RMR,           													*,      900,    350
-		AD_ACOG_RMR_MosinMount,          							  *,      900,    350
-		AD_ACOG_RMR_B13,            										*,      900,    350
-		AD_DHF5,           															*,      900,    350
-		AD_DHF5_MosinMount,         										*,      900,    350
-		AD_DHF5_B13,           													*,      900,    350
-		AD_MRS,           															*,      900,    350
-		AD_MRS_MosinMount,          										*,      900,    350
-		AD_MRS_B13,           													*,      900,    350
-		AD_NFATACR,           													*,      900,    350
+	<Category> Оптика
+		M4_CarryHandleOptic,											*,			150,	60
+		BUISOptic,														*,			150,	60
+		FNP45_MRDSOptic,												*,			250,	100
+		ACOGOptic,														*,			300,	120
+		M68Optic,														*,			500,	200
+		M4_T3NRDSOptic,													*,			500,	200
+		KobraOptic,														*,			600,	250
+		KashtanOptic,													*,			700,	300
+		PUScopeOptic,													*,			900,	500
+		HuntingOptic,													*,			1000,	550
+		PSO1Optic,														*,			590,	200
+		PSO11Optic,														*,			600,	240
+		KazuarOptic,													*,			2200,	1000
+		AD_B13Mount,          		 									*,      	1900,   600
+		AD_MosinMount,          	 									*,      	3500,   1100
+		AD_ACOG,           				 								*,     		300,    120
+		AD_ACOG_MosinMount,           									*,     		3800,   1350
+		AD_ACOG_B13,          											*,      	900,    350
+		AD_ACOG_RMR,           											*,      	900,    350
+		AD_ACOG_RMR_MosinMount,          								*,     		900,    350
+		AD_ACOG_RMR_B13,            									*,      	900,    350
+		AD_DHF5,           												*,      	900,    350
+		AD_DHF5_MosinMount,         									*,      	900,    350
+		AD_DHF5_B13,           											*,      	900,    350
+		AD_MRS,           												*,      	900,    350
+		AD_MRS_MosinMount,          									*,      900,    350
+		AD_MRS_B13,           											*,      900,    350
+		AD_NFATACR,           											*,      900,    350
 		AD_NFATACR_MosinMount,           								*,      900,    350
 		AD_NFATACR_B13,          	 											*,      900,    350
 		AD_NFATACR_1_8,         	 											*,      900,    350
