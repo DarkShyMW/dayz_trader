@@ -20,91 +20,91 @@
 
 <Trader> Consume Trader								// Trader Name (first Trader has ID = 0, second Trader has ID = 1, and so on..)
 	<Category> Vegetables							// Category Name
-		CaninaBerry,									*,		1,		-1	// Item Classname, Quantity, Buyvalue, Sellvalue
+		CaninaBerry,								*,		1,		-1	// Item Classname, Quantity, Buyvalue, Sellvalue
 		SambucusBerry,								*,		1,		-1	// Quantity * means max value; Quantity V means Vehicle; Quantity VNK means Vehicle without Key; Quantity M means Magazine; Quantity W means Weapon; Quantity S means Steack Meat; Quantity K means Key Duplication
-		Plum,													*,		100,		-1	// Buyvalue -1 means it can not be bought
-		Kiwi,													*,		100,		-1	// Sellvalue -1 means it can not be selled
-		Apple,												*,		100,		-1
-		Pear,													*,		100,		-1
-		Orange,												*,		100,		-1
-		Banana,												*,		100,		-1
-		Tomato,												*,		100,		-1
-		Potato,												*,		100,		-1
-		GreenBellPepper,							*,		100,		-1
-		Zucchini,											*,		700,		150
-		Pumpkin,											*,		900,		400
+		Plum,										*,		100,	-1	// Buyvalue -1 means it can not be bought
+		Kiwi,										*,		100,	-1	// Sellvalue -1 means it can not be selled
+		Apple,										*,		100,	-1
+		Pear,										*,		100,	-1
+		Orange,										*,		100,	-1
+		Banana,										*,		100,	-1
+		Tomato,										*,		100,	-1
+		Potato,										*,		100,	-1
+		GreenBellPepper,							*,		100,	-1
+		Zucchini,									*,		700,	150
+		Pumpkin,									*,		900,	400
 		AgaricusMushroom,							*,		-1,		200
 		AmanitaMushroom,							*,		-1,		200
-		LactariusMushroom,						*,		-1,		200
-		MacrolepiotaMushroom,					*,		-1,		200
-		PsilocybeMushroom,						*,		-1,		200
-		AuriculariaMushroom,					*,		-1,		200
+		LactariusMushroom,							*,		-1,		200
+		MacrolepiotaMushroom,						*,		-1,		200
+		PsilocybeMushroom,							*,		-1,		200
+		AuriculariaMushroom,						*,		-1,		200
 		BoletusMushroom,							*,		-1,		200
-		PleurotusMushroom,						*,		-1,		200
+		PleurotusMushroom,							*,		-1,		200
 
 	<Category> Packaged Food
-		PowderedMilk,									*,		200,		-1
-		BoxCerealCrunchin,						*,		1200,		100
-		Rice,													*,		1200,		500
-		Marmalade,										*,		3000,		500
-		PeachesCan,										*,		2500,		700
-		SardinesCan,									*,		2500,		700
-		TunaCan,											*,		2700,		870
-		SpaghettiCan,									*,		2700,		870
+		PowderedMilk,								*,		200,		-1
+		BoxCerealCrunchin,							*,		1200,		100
+		Rice,										*,		1200,		500
+		Marmalade,									*,		3000,		500
+		PeachesCan,									*,		2500,		700
+		SardinesCan,								*,		2500,		700
+		TunaCan,									*,		2700,		870
+		SpaghettiCan,								*,		2700,		870
 		BakedBeansCan,								*,		2000,		870
 		TacticalBaconCan,							*,		3500,		1500
 
 	<Category> Meat
-		ChickenBreastMeat,						S,		1300,		500
+		ChickenBreastMeat,							S,		1300,	500
 		GoatSteakMeat,								S,		-1,		1000
 		SheepSteakMeat,								S,		-1,		1000
-		PigSteakMeat,									S,		-1,		2000
+		PigSteakMeat,								S,		-1,		2000
 		BoarSteakMeat,								S,		-1,		2000
 		WolfSteakMeat,								S,		-1,		2000
 		DeerSteakMeat,								S,		-1,		2000
-		CowSteakMeat,									S,		-1,		2000
-		Sardines,											S,		-1,		500
-		Carp,													S,		-1,		500
-		Mackerel,											S,		-1,		500
+		CowSteakMeat,								S,		-1,		2000
+		Sardines,									S,		-1,		500
+		Carp,										S,		-1,		500
+		Mackerel,									S,		-1,		500
 
 	<Category> Animal Parts
-		Bone,													*,		500,		250
-		Lard,													*,		500,		250
-		Guts,													*,		500,		250
-		SmallGuts,										*,		550,		250
+		Bone,										*,		500,		250
+		Lard,										*,		500,		250
+		Guts,										*,		500,		250
+		SmallGuts,									*,		550,		250
 
 	<Category> Drinks
 		SodaCan_Cola, 								*,		500, 		250
 		SodaCan_Kvass, 								*,		500, 		250
 		SodaCan_Pipsi, 								*,		500, 		250
 		SodaCan_Spite, 								*,		500, 		250
-		WaterBottle,									*,		1000,		250
-		Canteen,											*,		800,		400
-		Vodka,												*,		2500,		1200
+		WaterBottle,								*,		1000,		250
+		Canteen,									*,		800,		400
+		Vodka,										*,		2500,		1200
 
 	<Category> Medical Supplies
-		//Rag,												1,		1,		-1
+		Rag,										1,		1,		-1
 		BandageDressing,							2,		1200,		500
-		BloodTestKit,									*,		700,		300
+		BloodTestKit,								*,		700,		300
 		//InjectionVial,							*,		5, 			2
-		Thermometer,									*,		800,		400
-		DisinfectantSpray,						*,		9000,		2000
-		//Syringe,										*,		8, 		5
-		Heatpack,											*,		1800,		500
-		StartKitIV,										*,		3200,		900
-		SalineBag,										*,		2500,		700
+		Thermometer,								*,		800,		400
+		DisinfectantSpray,							*,		9000,		2000
+		Syringe,									*,		8, 		5
+		Heatpack,									*,		1800,		500
+		StartKitIV,									*,		3200,		900
+		SalineBag,									*,		2500,		700
 		BloodBagEmpty,								*,		1300,		250
-		FirstAidKit,									*,		900,		250
+		FirstAidKit,								*,		900,		250
 		//Defibrillator,							*,		35, 		20
 
 	<Category> Medications
 		CharcoalTablets,							*,		999,		490
-		DisinfectantAlcohol,					*,		9000,		-1
+		DisinfectantAlcohol,						*,		9000,		-1
 		VitaminBottle,								*,		1000,		450
-		TetracyclineAntibiotics,			*,		2000,		900
-		PainkillerTablets,						*,		1500,		600
-		Epinephrine,									*,		4000,		1500
-		Morphine,											*,		5000,		1500
+		TetracyclineAntibiotics,					*,		2000,		900
+		PainkillerTablets,							*,		1500,		600
+		Epinephrine,								*,		4000,		1500
+		Morphine,									*,		5000,		1500
 
 	<Category> Money Exchange
 		MoneyRuble1,									1,		1,		-1
@@ -112,55 +112,57 @@
 		MoneyRuble10,									1,		10,		-1
 		MoneyRuble25,									1,		25,		-1
 		MoneyRuble50,									1,		50,		-1
-		MoneyRuble100,								1,		100,	-1
+		MoneyRuble100,									1,		100,	-1
 
 
 <Trader> Misc Trader
 	<Category> Tools (small)
 		Screwdriver,									*,		300,		100
-		Wrench,												*,		300,		100
+		Wrench,											*,		300,		100
 		SewingKit,										*,		400, 		200
-		Pliers,												*,		400, 		100
-		LeatherSewingKit,							*,		400, 		200
+		Pliers,											*,		400, 		100
+		LeatherSewingKit,								*,		400, 		200
 		Whetstone,										*,		500,		200
-		Hammer,												*,		1700,		550
-		Hacksaw,											*,		1500,		550
-		HandSaw,											*,		1800,		600
-		WeaponCleaningKit,						*,		4000, 	700
+		Hammer,											*,		1700,		550
+		Hacksaw,										*,		1500,		550
+		HandSaw,										*,		1800,		600
+		WeaponCleaningKit,								*,		4000, 	700
 		KitchenKnife,									*,		950,		250
 		SteakKnife,										*,		900,		250
 		HuntingKnife,									*,		1200,		500
 		CanOpener,										*,		700,		250
-		Compass,											*,		200,		100
-		OrienteeringCompass,					*,		200,		100
-		Hatchet,											*,		2000,		700
+		Compass,										*,		200,		100
+		OrienteeringCompass,							*,		200,		100
+		Hatchet,										*,		2000,		700
 		CombatKnife,									*,		1000,		500
-		Machete,											*,		1700,		600
+		Machete,										*,		1700,		600
 		ChernarusMap,									*,		4000,		500
-		Lockpick,											*,		-1,		500
+		Lockpick,										*,		-1,			500
 		Binoculars,										*,		1200,		250
 		FishingRod,										*,		7000,		1200
 
+
 	<Category> Tools (big)
-		LugWrench,										*,		700,		200
+		LugWrench,											*,		700,		200
 		Crowbar,											*,		800,		300
 		Shovel,												*,		-1,		700
 		Pickaxe,											*,		-1,		700
-		SledgeHammer,									*,		-1,		700
-		PipeWrench,										W,		1500,		600
+		SledgeHammer,										*,		-1,		700
+		PipeWrench,											W,		1500,		600
 		WoodAxe,											*,		2000,		800
-		FirefighterAxe,								*,		3000,		1200
+		FirefighterAxe,										*,		3000,		1200
 
 	<Category> Electronics
 		Battery9V,										*,		100,		50
-		PersonalRadio,								*,		200,		100
+		PersonalRadio,									*,		200,		100
 		Megaphone,										*,		2000,		400
-		ElectronicRepairKit,					*,		900,		490
+		ElectronicRepairKit,							*,		900,		490
 		CableReel,										*,		800,		400
-		BatteryCharger,								*,		700,		250
+		BatteryCharger,									*,		700,		250
 		BaseRadio,										*,		4500,		2100
 		Rangefinder,									*,		1500		700
 		NVGoggles,										*,		-1,			7000
+		CodeLock,										*,		8500,		2000
 
 	<Category> Fire & Lights
 		Chemlight_Blue,								*,		100,		50
@@ -168,90 +170,92 @@
 		Chemlight_Red,								*,		100,		50
 		Chemlight_White,							*,		100,		50
 		Chemlight_Yellow,							*,		100,		50
-		Roadflare,										*,		400,		200
-		Matchbox,											*,		250,		100
-		Flashlight,										*,		150,		50
+		Roadflare,									*,		400,		200
+		Matchbox,									*,		250,		100
+		Flashlight,									*,		150,		50
 		PortableGasLamp,							*,		500,		250
 		PortableGasStove,							*,		500,		250
 		Headtorch_Black,							*,		1200,		500
 		Headtorch_Grey,								*,		1200,		500
 		Spotlight,										*,		1500,		750
 
-	<Category> Storage
-				Msp_LargeAmmoBox,																	*,		1000,		500
+	<Category> Ящики
+				Msp_LargeAmmoBox,										*,		1000,		500
 				//Msp_AmericanAppleCrate,		                    	*,		600,		300
-				//Msp_AppleCrate,		                    					*,		600,		300
-				//Msp_PlasticCrate,		                    				*,		600,		300
-				Msp_AmmoCrate,		                    						*,		4000,		60
-				Msp_TackleBox,		                    						*,		2000,		1000
-				Msp_TackleBox_Black,		                    			*,		2000,		1000
-				Msp_CoolerBox,		                    						*,		2000,		1000
-				Msp_CoolerBox_Black,		                    			*,		2000,		1000
-				Msp_GrenadeBox,		                    						*,		5000,		2000
-				Msp_TreasureChest,		                    				*,		7000,		2900
-				Msp_MedievalChest,		                    				*,		11000,	5000
+				//Msp_AppleCrate,		                    			*,		600,		300
+				//Msp_PlasticCrate,		                    			*,		600,		300
+				Msp_AmmoCrate,		                    				*,		4000,		60
+				Msp_TackleBox,		                    				*,		2000,		1000
+				Msp_TackleBox_Black,		                    		*,		2000,		1000
+				Msp_CoolerBox,		                    				*,		2000,		1000
+				Msp_CoolerBox_Black,		                    		*,		2000,		1000
+				Msp_GrenadeBox,		                    				*,		5000,		2000
+				Msp_TreasureChest,		                    			*,		7000,		2900
+				Msp_MedievalChest,		                    			*,		11000,	5000
 				Msp_MilitaryCrate_Brown,		                    	*,		14000,	6000
 				Msp_MilitaryCrate_Green,		                    	*,		14000,	6000
 				Msp_MilitaryCrate_Grey,		                    		*,		14000,	6000
 				Msp_MilitaryCrate_Olive,		                    	*,		14000,	6000
 				Msp_MilitaryCrate_Tan,		                    		*,		14000,	6000
-			<Category> Barrels
-				Msp_Barrel_Donation,		                    			*,		9600,		4000
+
+			<Category> Бочки
+				Msp_Barrel_Donation,		                    		*,		9600,		4000
 				Msp_Barrel_Donation_Ammo,		                    	*,		9600,		4000
 				Msp_Barrel_Donation_Guns,		                    	*,		9600,		4000
 				Msp_Barrel_Donation_Food,		                    	*,		9600,		4000
-				Msp_Barrel_Donation_Medical,		                  *,		9600,		4000
-				Msp_Barrel_Donation_BloodONegative,		            *,		14000,	7500
+				Msp_Barrel_Donation_Medical,		                  	*,		9600,		4000
+				Msp_Barrel_Donation_BloodONegative,		            	*,		14000,		7500
 				Msp_WaterBarrel_Plastic,		                    	*,		3000,		1400
-				Msp_WaterBarrel_Plastic_Yellow,		                *,		3000,		1400
-				Msp_WaterBarrel_Plastic_Green,		                *,		3000,		1400
-				Msp_WaterBarrel_Plastic_Red,		                  *,		3000,		1400
-				Msp_WaterBarrel_Plastic_Black,		                *,		3000,		1400
-				Msp_WaterBarrel_Plastic_White,		               	*,		3000,		1400
+				Msp_WaterBarrel_Plastic_Yellow,		                	*,		3000,		1400
+				Msp_WaterBarrel_Plastic_Green,		                	*,		3000,		1400
+				Msp_WaterBarrel_Plastic_Red,		                 	*,		3000,		1400
+				Msp_WaterBarrel_Plastic_Black,		               		*,		3000,		1400
+				Msp_WaterBarrel_Plastic_White,		               		*,		3000,		1400
 				Msp_WaterBarrel_Valve_Faucet,		                	*,		500,		100
-				Msp_WaterBarrel,		                							*,		1600,		800
-				Msp_WaterBarrel_Darkwood,		             		   		*,		1600,		800
-				Msp_WaterBarrel_Stand,		                				*,		800,		350
-				Msp_WaterBarrel_Stand_Darkwood,		                *,		800,		350
-				Msp_WaterBarrel_Valve,		                				*,		800,		350
-				Msp_WaterBarrel_Valve_Darkwood,		               	*,		800,		350
+				Msp_WaterBarrel,		                				*,		1600,		800
+				Msp_WaterBarrel_Darkwood,		             		   	*,		1600,		800
+				Msp_WaterBarrel_Stand,		                			*,		800,		350
+				Msp_WaterBarrel_Stand_Darkwood,		              	  	*,		800,		350
+				Msp_WaterBarrel_Valve,		                			*,		800,		350
+				Msp_WaterBarrel_Valve_Darkwood,		               		*,		800,		350
 
-			<Category> Kits and base items
-				Msp_FireplaceRailing,															*,		6000,	2000
-				//Msp_EmptySquarePlanterBox,												*,		600,	200
-				//Msp_EmptyPlanterBox,															*,		600,	200
-				Msp_FishingRodsRack_Kit,													*,		3000,	1000
-				Msp_GunCabinet_Kit,																*,		5000,	2000
-				Msp_GunRack_Kit,																	*,		11000,	6000
-				Msp_DoubleGunRack_Kit,														*,		22000,	10000
-				Msp_MilitaryLocker_Kit,														*,		9000,	3500
-				Msp_Locker_Kit,																		*,		6500,	2300
-				Msp_StorageBox_Kit,																*,		12500,	4900
-				Msp_ToolsBench_Blue_Kit,													*,		7000,	2500
-				Msp_ToolsBench_Grey_Kit,													*,		7000,	2500
-				Msp_ToolsBench_Red_Kit,														*,		7000,	2500
-				Msp_MoskvaFridge_Blue_Kit,												*,		4000,	1500
-				Msp_MoskvaFridge_Cream_Kit,												*,		4000,	1500
-				Msp_MoskvaFridge_Red_Kit,													*,		4000,	1500
-				Msp_SovietOkaFridge_Kit,													*,		4000,	1800
-				Msp_SnowballFridge_Kit,														*,		4000,	1500
-				Msp_Gazebo_Kit,																		*,		-1,		4000
-				Msp_StoneFireplace_Kit,														*,		9000,	4200
-				Msp_Greenhouse_Kit,																*,		12000,	5500
-				Msp_GreenhouseWood_Kit,														*,		12000,	5500
-				Msp_Bookcase_Kit,																	*,		-1,		6000
-				Msp_RifleSafe_Kit,																*,		8700,	3900
-				Msp_RifleSafe_Grey_Kit,														*,		8700,	3900
-				Msp_RifleSafe_Green_Kit,													*,		8700,	3900
-				Msp_RifleSafe_Purple_Kit,													*,		8700,	3900
-				Msp_RifleSafe_Tan_Kit,														*,		8700,	3900
-				Msp_MedicalBox_Kit,																*,		2500,	1000
-				Msp_Gunwall_Kit,																	*,		4500,	1200
-				Msp_Wardrobe_Brown_Kit,														*,		14600,	6000
-				Msp_Wardrobe_Green_Kit,														*,		14600,	6000
-				Msp_Wardrobe_White_Kit,														*,		14600,	6000
+			<Category> Наборы для установки на базе
+				Msp_FireplaceRailing,									*,		6000,	2000
+				Вещь выше позволяет ставить костер где угодно!
+				//Msp_EmptySquarePlanterBox,							*,		600,	200
+				//Msp_EmptyPlanterBox,									*,		600,	200
+				Msp_FishingRodsRack_Kit,								*,		3000,	1000
+				Msp_GunCabinet_Kit,										*,		5000,	2000
+				Msp_GunRack_Kit,										*,		11000,	6000
+				Msp_DoubleGunRack_Kit,									*,		22000,	10000
+				Msp_MilitaryLocker_Kit,									*,		9000,	3500
+				Msp_Locker_Kit,											*,		6500,	2300
+				Msp_StorageBox_Kit,										*,		12500,	4900
+				Msp_ToolsBench_Blue_Kit,								*,		7000,	2500
+				Msp_ToolsBench_Grey_Kit,								*,		7000,	2500
+				Msp_ToolsBench_Red_Kit,									*,		7000,	2500
+				Msp_MoskvaFridge_Blue_Kit,								*,		4000,	1500
+				Msp_MoskvaFridge_Cream_Kit,								*,		4000,	1500
+				Msp_MoskvaFridge_Red_Kit,								*,		4000,	1500
+				Msp_SovietOkaFridge_Kit,								*,		4000,	1800
+				Msp_SnowballFridge_Kit,									*,		4000,	1500
+				Msp_Gazebo_Kit,											*,		-1,		4000
+				Msp_StoneFireplace_Kit,									*,		9000,	4200
+				Msp_Greenhouse_Kit,										*,		12000,	5500
+				Msp_GreenhouseWood_Kit,									*,		12000,	5500
+				Msp_Bookcase_Kit,										*,		-1,		6000
+				Msp_RifleSafe_Kit,										*,		8700,	3900
+				Msp_RifleSafe_Grey_Kit,									*,		8700,	3900
+				Msp_RifleSafe_Green_Kit,								*,		8700,	3900
+				Msp_RifleSafe_Purple_Kit,								*,		8700,	3900
+				Msp_RifleSafe_Tan_Kit,									*,		8700,	3900
+				Msp_MedicalBox_Kit,										*,		2500,	1000
+				Msp_Gunwall_Kit,										*,		4500,	1200
+				Msp_Wardrobe_Brown_Kit,									*,		14600,	6000
+				Msp_Wardrobe_Green_Kit,									*,		14600,	6000
+				Msp_Wardrobe_White_Kit,									*,		14600,	6000
 
-			<Category> Misc
+			<Category> Прочее
 				Msp_SleepingBag_Green,														*,		2000,		500
 				Msp_SleepingBag_Blue,															*,		2000,		500
 				Msp_SleepingBag_LimeGreen,												*,		2000,		500
@@ -271,7 +275,7 @@
 				Msp_HousePlant_RubberFig,													*,		1000,		500
 				Msp_HousePlant_Succulent,													*,		1000,		500
 
-			<Category> Seasonal
+			<Category> Сезонное
 				Msp_Bunny,																				*,		550,	200
 				Msp_SantaJacket,																	*,		800,	300
 				Msp_SantaPants,																		*,		800,	300
@@ -306,7 +310,7 @@
 				Msp_MedievalGibbet_Kit,														*,		-1,	3000
 				Msp_CoffinBox,		                    						*,		6500,		2000
 
-				<Category> Munghards Itempack
+				<Category> Всякий хлам
 
 				  clownmask_mung,			            							 *,		 	 100,	 50
 					strawhat_mung,                  					     *,      100,    50
@@ -377,17 +381,15 @@
 					Gewehr43_mung,			              						 *,		   1200,	 600
 					Mag_gewehr43_10Rnd_mung,				 							 *,		   400,	 200
 					makeshifttent_mung,			         							 *,		   1000,	 500
-					gunwall_kit_mung,                  					   *,      1000,   400
-					gunwall_metal_kit_mung,            					   *,      1000,   400
 
 
-	<Category> Cooking & Hunting Supplies
+	<Category> Приготовление пищи и для охоты
 		PurificationTablets,																	*,		2500,		1000
 		Pot,																									M,		1600,		700
 		Tripod,																								*,		980,		400
 		BearTrap,																							*,		1900,		850
 
-	<Category> Hardware Supplies
+	<Category> 1000 мелочей
 		Bear_Beige,																						*,		5,		1
 		Bear_Dark,																						*,		5,		1
 		Bear_Pink,																						*,		5,		1
@@ -413,7 +415,7 @@
 		MediumGasCanister,																		*,		100,	40
 		LargeGasCanister,																			*,		200,	70
 		CanisterGasoline,																			*,		300,	80
-		NailBox,																							*,		300,	120
+		NailBox,																							*,		30000,	1200
 		BarbedWire,																						*,		450,	200
 		Camonet,																							*,		600,	250
 		HescoBox,																							*,		650,	250
@@ -440,158 +442,54 @@
 		PumpkinSeedsPack,																			*,		10, 	3
 		GardenLime,																						*,		20,		7
 
-<Trader> Weapon Trader
-	<Category> Melee
-		BrassKnuckles_Shiny,																	W,		1000,		600
+<Trader> Оружие
+	<Category> Ближний бой
+		BrassKnuckles_Shiny,																			W,		1000,		600
 		StunBaton,																						W,		1500,		900
-		Pipe,																									W,		2500,		1000
+		Pipe,																							W,		2500,		1000
 		CattleProd,																						W,		900,		450
 		BaseballBat,																					W,		1200,		700
-		NailedBaseballBat,																		W,		1900,		1000
-		Msp_VorpalKnife,																			W,    -1,   	900
-		Msp_GoodNightBat,																			W,    -1,    	950
-		Msp_BeanBasher,																				W,    -1,    	1700
-		Msp_PipeAxe,																					W,    -1,    	2900
-		Msp_PlainBat,																					W,    -1,    	950
-		Msp_PlainBat_Blue,																		W,    -1,    	950
-		Msp_PlainBat_Black,																		W,    -1,    	950
-		Msp_BlunderBat,																				W,    -1,    	1200
-		Msp_BassAxe,																					W,    -1,    	2500
-		TWP_NailedBat,																				W,		-1,		3400
-		TWP_SawBat,																						W,		-1,		3400
-		TWP_Mjolnir,																					W,		-1,		3400
-		TWP_Rose,																							W,		-1,		3400
-		TWP_Kukri,																						W,		-1,		3400
-		TWP_Kukri_Gradient,																		W,		-1,		3400
-		TWP_Kukri_Sakura,																			W,		-1,		3400
-		TWP_Kukri_Engraved,																		W,		-1,		3400
-		TWP_SmithWesson_Knife_Green,													W,		-1,		3400
-		TWP_SmithWesson_Knife_Black,													W,		-1,		3400
-		TWP_HolyMakarel,																			W,		-1,		3400
-		TWP_NinjaSword,																				W,		-1,		3400
-		TWP_Axe,																							W,		-1,		3400
-		TWP_FirefighterAxe,																		W,		-1,		3400
-		TWP_SledgeHammer,																			W,		-1,		3400
+		NailedBaseballBat,																				W,		1900,		1000
+		Msp_VorpalKnife,																				W,    	2110,   	900
+		Msp_GoodNightBat,																				W,    	2150,    	950
+		Msp_BeanBasher,																					W,    	3400,    	1700
+		Msp_PipeAxe,																					W,    	5800,    	2900
+		Msp_PlainBat,																					W,    	1900,    	950
+		Msp_PlainBat_Blue,																				W,    	1900,    	950
+		Msp_PlainBat_Black,																				W,    	1900,    	950
+		Msp_BlunderBat,																					W,    	2400,    	1200
+		Msp_BassAxe,																					W,    	5000,    	2500
 
 
-	<Category> Sidearms
-		Flaregun,            															    W,		2600,	1100
+	<Category> Пистолеты
+		Flaregun,            															   			    W,		2600,	1100
 		MakarovIJ70,																					W,		800,	350
-		CZ75,																									W,		1050,	500
-		FNX45,																								W,		1900,	700
-		Glock19,																							W,		1100,	500
-		MKII,																									W,		700,	350
-		Colt1911,																							W,		1200,	500
+		CZ75,																							W,		1050,	500
+		FNX45,																							W,		1900,	700
+		Glock19,																						W,		1100,	500
+		MKII,																							W,		700,	350
+		Colt1911,																						W,		1200,	500
 		Engraved1911,																					W,		1340,	550
-		MSFC_1911_Golden,																			W,		-1,		30000
-		TWP_WaltherPPK,																				W,		1200,	600	//380ACP
-		TWP_SR1Gyrza,																					W,		1600,	750	//380ACP
-		TWP_Tokarev,																					W,		1200,	450	//380ACP
-		TWP_Glock42,																					W,   	1800,	800	//380ACP
-		TWP_SP1Vektor,																				W,		1900,	800	// 9x19
-		TWP_USPChromatic,																			W,		2100,	950	// 9x19
-		TWP_USPPsychodelic,																		W,		2100,	950	// 9x19
-		TWP_WaltherP99,																				W,		1700,	600	// 9x19
-		TWP_WaltherQ5,																				W,		1400,	500	// 9x19
-		TWP_Glock17,																					W,		1200,	600	// 9x19
-		TWP_ArexZero,																					W,   	1400,	500 // 9x19
-		TWP_Beretta92FS,																			W,   	1900,	600	// 9x19
-		TWP_Beretta92FSDesert,																W,   	2100,	900 // 9x19
-		TWP_BerettaGoldenFlower,															W,   	2100,	1100	// 9x19
-		TWP_MP443,																						W,		1400,	700	// 9x19
-		TWP_P8,																								W,		1100,	450	// 9x19
-		TWP_P2000BlueGirl,																		W,		1200,	550	// 9x19
-		TWP_P2000Protector,																		W,		1200,	550	// 9x19
-		TWP_P2000Renegade,																		W,		1200,	550	// 9x19
-		TWP_P2000Toxic,																				W,		1200,	550	// 9x19
-		//TWP_FNS9,																							W,   	1400,	700	// 9x19
-		TWP_Glock18Egyptian,																	W,   	1700,	850	// 9x19
-		TWP_Glock18Honor,																			W,   	1700,	850	// 9x19
-		TWP_Glock18Jungle,																		W,   	1700,	850	// 9x19
-		TWP_Glock18Rebel,																			W,   	1700,	850	// 9x19
-		TWP_Glock18Weasel,																		W,   	1700,	850	// 9x19
-		TWP_Glock18Wolf,																			W,   	1700,	850	// 9x19
-		TWP_Glock19M,																					W,   	1000,	400	// 9x19
-		TWP_GlockZapper,																			W,		1700,	850	// 9x19
-		TWP_HK47,																							W,		1400,	650	// 9x19
-		TWP_HK47Tan,																					W,		1400,	650	// 9x19
-		TWP_LugerP08,																					W,		2000,	1100	// 9x19
-		TWP_BerettaPX4,																				W,   	1400,	600	// 9x19
-		TWP_BerettaSwordCutlass,															W,   	1900,	1000	// 9x19
-		TWP_CZ75M,																						W,   	1100,	400	// 9x19
-		TWP_SigSauerP229,																			W,		1000,	400	// 9x19
-		TWP_SigSauerP250Patrician,														W,		1300,	700	// 45ACP
-		TWP_SigSauerP250PeaCock,															W,		1300,	700	// 45ACP
-		TWP_SigSauerP250Wingshot,															W,		1300,	700	// 45ACP
-		TWP_SigSauerP250,																			W,		1300,	700	// 45ACP
-		TWP_SigSauerP250Colored,															W,		1300,	700	// 45ACP
-		TWP_Colt1911Gold,																			W,   	-1,	30000	// 45ACP
-		TWP_Colt1911Holy,																			W,   	1200,	600	// 45ACP
-		TWP_Colt1911Stainless,																W,   	1200,	600	// 45ACP
-		TWP_1911_WilsonCombat,																W,   	1400,	600	// 45ACP
-		TWP_MK23Socom,																				W,		1600,	650	// 45ACP
-		TWP_BerettaDEBurton,																	W,   	-1,	6000	// 44Mag
-		TWP_BerettaDEBlack,																		W,   	-1,	6000	// 44Mag
-		TWP_DesertEagleFalcon,																W,   	7600,	3400	// 44Mag
-		TWP_FN57Pink,																					W,   	1400,	600	// 5.7x28
-		TWP_FN57Toxic,																				W,   	1400,	600	// 5.7x28
-		TWP_MP40,																							W,		1100,	450	// 40SW
-		TWP_SigSauerP226,																			W,		1200,	550	// 357
-		TWP_DesertEagle,																			W,   	9000,	4200	// 50AE
-		TWP_DesertEagleSky,																		W,   	9000,	4200	// 50AE
+		MSFC_1911_Golden,																				W,		-1,		80000
+		
 
-		<Category> Rifles
-			Izh18,																							W,		950,	440
+		<Category> Винтовки
+			Izh18,																						W,		950,	440
 			Mosin9130,																					W,		3600,	1900
-			CZ527,																							W,		4100,	2600
+			CZ527,																						W,		4100,	2600
 			Winchester70,																				W,		4500,	2700
-			SKS,																								W,		4500,	1600
-			MSFC_VPO136,																				W,		6000,		3000
-			TWP_M1Carbine,																			W,		4100,	2100 	//30Carbine
-			TWP_M1Garand,																				W,		4300,	2000	// 30-06
-			TWP_G43,																						W,		4900,	2300	//762x54
-			TWP_Kar98,																					W,		6000,	2500	// 762x54
-			TWP_Arisaka,																				W,		4700,	2600	//762x54
-			TWP_SVT38,																					W,		4600,	2400	// 762x54
-			TWP_MosinNagant,																		W,		5600,	2600	//762x54
-			TWP_Winchester1873,																	W,		6000,	2500	// 357
-			TWP_WinchesterRifle,																W,		6500,	3000	// 357
-			TWP_Marlin,																					W,		6500,	3000	// 357
-			TWP_Sako75,																					W,		9000,	4000	//308.win
-			TWP_SSG69,																					W,		9000,	4000	//308.win
+			SKS,																						W,		4500,	1600
+			MSFC_VPO136,																				W,		6000,	3000 //7,62×39 мм
 
 
-		<Category> Shotguns
+		<Category> Дробовики
 			Mp133Shotgun,																				W,		4500,	2250
 			Izh43Shotgun,																				W,		2200,	1000
-			Saiga,																							W,		6500,	3600
-			MSFC_BlackEagleII,																	W,		5000,		3000
-			MSFC_Mossberg590,																		W,		5000,		3000
+			Saiga,																						W,		6500,	3600
+			MSFC_BlackEagleII,																			W,		5000,		3000
+			MSFC_Mossberg590,																			W,		5000,		3000
 			MSFC_Vepr15,																				W,		5000,		3000
-			TWP_AA12,																						W,		3000,	0	//12ga
-			TWP_AA12Dragon,																			W,		3000,	0	//12ga
-			TWP_AA12HellDragon,																	W,		3000,	0	//12ga
-			TWP_BenelliLE,																			W,		3000,	0	//12ga
-			TWP_SPAS,																						W,		3000,	0	//12ga
-			TWP_SawedShotgun,																		W,		3000,	0	//12ga
-			TWP_Remington870Tactical,														W,		3000,	0	//12ga
-			TWP_Mossberg590a1,																	W,		3000,	0	//12ga
-			TWP_Mossberg500,																		W,		3000,	0	//12ga
-			TWP_KSG,																						W,		3000,	0	//12ga
-			TWP_Armsan,																					W,		3000,	0	//12ga
-			TWP_ClassicShotgun,																	W,		3000,	0	//12ga
-			TWP_BenelliM4,																			W,		3000,	0	//12ga
-			TWP_BenelliM3,																			W,		3000,	0	//12ga
-			TWP_ImprovisedShotgun,															W,		1000,	0	//12ga
-			TWP_IthacaM37,																			W,		1000,	0	//12ga
-			TWP_MP153,																					W,		1000,	0	//12ga
-			TWP_MP153Black,																			W,		1000,	0 //12ga
-			TWP_M1912,																					W,		1000,	0	//12ga
-			TWP_Komrad12,																				W,		1000,	0	//12ga
-			TWP_Spas15,																					W,		1000,	0	//12ga
-			TWP_AA12Black,																			W,		1000,	0	//20x76
-			TWP_DoubleBarrelShotgun,														W,		10000,0	// 20x76
-			TWP_Toz34,																					W,		1000,	0	//20x76
+			
 
 		<Category> Submachine Guns
 			CZ61,																								W,		3000,		1300
