@@ -471,6 +471,8 @@
 		Colt1911,																						W,		1200,	500
 		Engraved1911,																					W,		1340,	550
 		MSFC_1911_Golden,																				W,		-1,		80000
+		TTC_Kimber, W, 3500, 1000
+
 		
 
 		<Category> Винтовки
@@ -489,6 +491,9 @@
 			MSFC_BlackEagleII,																			W,		5000,		3000
 			MSFC_Mossberg590,																			W,		5000,		3000
 			MSFC_Vepr15,																				W,		5000,		3000
+			TTC_Maverick, W, 5000, 2500
+			TTC_Mossberg, W, 5500, 2500
+
 			
 
 		<Category> Submachine Guns
@@ -515,7 +520,8 @@
 			TTC_AACHoney_300blk_B, 														W, 20000, 7500
 
 
-		<Category> Assault Rifles
+		<Category> Автоматы
+			TTC_HK417, W, 20000, 7500
 			FAL,																								W,		24000,	9500
 			AKM,																								W,		10000,		3750
 			AK101,																							W,		10000,	4750
@@ -605,8 +611,33 @@
 			TTC_M4DMR, 																				W, 20000, 7500
 			TTC_M4DMROD,																		 	W, 20000, 7500
 			TTC_M4DMRDesert,																 		W, 20000, 7500
+			TTC_SCARL, W, 20000, 7500
+			TTC_SCARLSnow, W, 20000, 7500
+			TTC_SCARLBlack, W, 20000, 7500
+			TTC_M16A4, W, 5000, 2000
+			TTC_M4Tac, W, 8000, 3500
+			TTC_AK12, W, 20000, 7500
+			TTC_AK12_Worn, W, 20000, 7500
+			TTC_G3, W, 20000, 7500
+			TTC_AKMod, W, 20000, 7500
+			TTC_AKMod_Gold, W, 200000, 7500
+			TTC_AKMod_Snow, W, 20000, 7500
+			TTC_AKMod_Multi, W, 20000, 7500
+			TTC_AKMod_Digi, W, 20000, 7500
+			TTC_AKMod_Tan, W, 20000, 7500
+			TTC_AKModPK, W, 25000, 7500
+			TTC_AKModPK_Gold, W, 25000, 7500
+			TTC_AKModPK_Snow, W, 25000, 7500
+			TTC_AKModPK_Multi, W, 25000, 7500
+			TTC_AKModPK_Digi, W, 25000, 7500
+			TTC_AKModPK_Tan, W, 25000, 7500
 
 		<Category> Sniper Rifles
+			TTC_M110, W, 20000, 7500
+			TTC_M110_Black, W, 20000, 7500
+			TTC_M14, W, 20000, 7500
+			TTC_M14_Camo, W, 20000, 7500
+			TTC_M14_Snow, W, 20000, 7500
 			VSS,																					W,		51600,	15000
 			B95,																					W,		31000,	15000
 			SVD,																					W,		23000,	10000
@@ -629,6 +660,15 @@
 			TTC_MAS36,																				W, 		20000, 	7500
 			TTC_M1Carbine, 																			W, 		20000, 	7500
 			TTC_FD338, 																				W, 		80000, 	7500
+			TTC_M24,  																				W, 40000, 7500
+			TTC_M24_Bjorn,  																		W, 40000, 7500
+			TTC_M24_Woodland,  																		W, 40000, 7500
+			TTC_M24_WoodlandOld,  																	W, 40000, 7500
+			TTC_SCARHBlack, 																		W, 20000, 7500
+			TTC_HKG28, 																				W, 40000, 7500
+			TTC_LeeEnfield, W, 7000, 4500
+			TTC_M1Garand, W, 7000, 4000
+			
 			
 
 		<Category> Grenades
@@ -644,75 +684,30 @@
 			FlashGrenade,																				1,		1600,	700
 
 
-			<Category> Special
-			MSFC_BarrettM82,																		W,		-1,		10000
-			MSFC_BarrettM82_Black,															W,		-1,		10000
-			MSFC_BarrettM82_Green,															W,		-1,		10000
-			MSFC_BarrettM82_Desert,															W,		-1,		10000
-			MSFC_BarrettM82_White,															W,		-1,		10000
-			MSFC_ORSIS_T5000,																		W,		-1,		10000
-			MSFC_ORSIS_T5000_Black,															W,		-1,		10000
-			MSFC_ORSIS_T5000_Green,															W,		-1,		10000
-			MSFC_ORSIS_T5000_Desert,														W,		-1,		10000
-			MSFC_ORSIS_T5000_White,															W,		-1,		10000
-			MSFC_OSV96,																					W,		-1,		10000
-			MSFC_OSV96_Black,																		W,		-1,		10000
-			MSFC_OSV96_Green,																		W,		-1,		10000
-			MSFC_OSV96_Desert,																	W,		-1,		10000
-			MSFC_OSV96_White,																		W,		-1,		10000
-
-					<Category> Mortys Weapons
-
-		
-		
-		
-		
-		
-		
-		TTC_M24, W, 40000, 7500
-		TTC_M24_Bjorn, W, 40000, 7500
-		TTC_M24_Woodland, W, 40000, 7500
-		TTC_M24_WoodlandOld, W, 40000, 7500
-		TTC_SCARHBlack, W, 20000, 7500
-		TTC_SCARL, W, 20000, 7500
-		TTC_SCARLSnow, W, 20000, 7500
-		TTC_SCARLBlack, W, 20000, 7500
-		TTC_M16A4, W, 20000, 7500
-		TTC_Beowulf, W, 40000, 7500
-		TTC_M82, W, 80000, 7500
-		TTC_M82_Tan, W, 80000, 7500
-		TTC_HKG28, W, 20000, 7500
-		TTC_LeeEnfield, W, 20000, 7500
-		TTC_M1Garand, W, 20000, 7500
-		TTC_M4Tac, W, 20000, 7500
-		TTC_M14, W, 20000, 7500
-		TTC_MRAD, W, 20000, 7500
-		TTC_XM2010, W, 20000, 7500
-		TTC_AK12, W, 20000, 7500
-		TTC_AK12_Worn, W, 20000, 7500
-		TTC_G3, W, 20000, 7500
-		TTC_M14_Camo, W, 20000, 7500
-		TTC_M14_Snow, W, 20000, 7500
-		TTC_Kimber, W, 7500, 3500
-		TTC_Mossberg, W, 20000, 7500
-		TTC_HK417, W, 20000, 7500
-		TTC_M9, W, 7500, 3500
-		TTC_AKMod, W, 20000, 7500
-		TTC_AKMod_Gold, W, 20000, 7500
-		TTC_AKMod_Snow, W, 20000, 7500
-		TTC_AKMod_Multi, W, 20000, 7500
-		TTC_AKMod_Digi, W, 20000, 7500
-		TTC_AKMod_Tan, W, 20000, 7500
-		TTC_AKModPK, W, 25000, 7500
-		TTC_AKModPK_Gold, W, 25000, 7500
-		TTC_AKModPK_Snow, W, 25000, 7500
-		TTC_AKModPK_Multi, W, 25000, 7500
-		TTC_AKModPK_Digi, W, 25000, 7500
-		TTC_AKModPK_Tan, W, 25000, 7500
-		TTC_R700_Black, W, 20000, 7500
-		TTC_M110, W, 20000, 7500
-		TTC_M110_Black, W, 20000, 7500
-		TTC_Maverick, W, 20000, 7500
+			<Category> Черный Торговец
+			Никто его не видел, но все говорят, что он где-то есть.
+			Я готов купить у вас это оружие..
+			MSFC_BarrettM82,																W,		-1,		100000
+			MSFC_BarrettM82_Black,															W,		-1,		100000
+			MSFC_BarrettM82_Green,															W,		-1,		100000
+			MSFC_BarrettM82_Desert,															W,		-1,		100000
+			MSFC_BarrettM82_White,															W,		-1,		100000
+			MSFC_ORSIS_T5000,																W,		-1,		120000
+			MSFC_ORSIS_T5000_Black,															W,		-1,		120000
+			MSFC_ORSIS_T5000_Green,															W,		-1,		120000
+			MSFC_ORSIS_T5000_Desert,														W,		-1,		120000
+			MSFC_ORSIS_T5000_White,															W,		-1,		120000
+			MSFC_OSV96,																		W,		-1,		120000
+			MSFC_OSV96_Black,																W,		-1,		120000
+			MSFC_OSV96_Green,																W,		-1,		120000
+			MSFC_OSV96_Desert,																W,		-1,		120000
+			MSFC_OSV96_White,																W,		-1,		120000
+			TTC_Beowulf,																	W, 		-1,		80000
+			TTC_M82, 																		W,		-1,		100000
+			TTC_M82_Tan, 																	W, 		-1,		100000
+			TTC_MRAD, W, -1, 50000
+			TTC_XM2010, W, -1, 75000
+			TTC_R700_Black, W, -1, 9000
 
 			
 <Trader> Патроны и все остальное
