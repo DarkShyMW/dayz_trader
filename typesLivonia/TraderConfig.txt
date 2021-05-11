@@ -1045,7 +1045,7 @@
 		TacticalGoggles,		*,		60,		30
 		NVGHeadstrap,			*,		200,	120
 
-		<Category> SQUAD MSF-C (Base color clothes)
+	<Category> SQUAD MSF-C (Base color clothes)
 			MSFC_OPS_Core_EarProtection_Black,	*,		1000,		650
 			MSFC_OPS_Core_EarProtection_Green,	*,		1000,		650
 			MSFC_OPS_Core_EarProtection_Desert,	*,		1000,		650
@@ -2318,7 +2318,7 @@
 		MVS_CountryFlag_Tanzania,                                                                                 	*,      50,     25
 		MVS_CountryFlag_Thailand,                                                                                 	*,      50,     25
 		MVS_CountryFlag_Tibet,                                                                                 	*,      50,     25
-				MVS_CountryFlag_Togo,                                                                                 	*,      50,     25
+		MVS_CountryFlag_Togo,                                                                                 	*,      50,     25
 		MVS_CountryFlag_Tonga,                                                                                 	*,      50,     25
 		MVS_CountryFlag_Trinidad,                                                                                 	*,      50,     25
 		MVS_CountryFlag_Tunisia,                                                                                 	*,      50,     25
@@ -2499,21 +2499,21 @@
 
 <Trader> Vehicles Trader
 	<Category> Vehicles
-		OffroadHatchback,		V,		14000,	8000	// Use VNK instead of V as Quantity to not give a Vehicle Key when bought.
-		OffroadHatchback_Blue,	V,		14000,	8000
-		OffroadHatchback_White,	V,		14000,	8000
-		Hatchback_02,			V,		16000,	9600
-		Hatchback_02_Blue,		V,		16000,	9600
-		Hatchback_02_Black,		V,		16000,	9600
-		Sedan_02,				V,		18000,	10200
-		Sedan_02_Red,			V,		18000,	10200
-		Sedan_02_Grey,			V,		18000,	10200
-		CivilianSedan,			V,		20000,	11000
-		CivilianSedan_Wine,		V,		20000,	11000
-		CivilianSedan_Black,	V,		20000,	11000
-		Truck_01_Covered,		V,		50000,	30000
-        Truck_01_Covered_Blue,	V,		50000,	30000
-        Truck_01_Covered_Orange,V,		50000,	30000
+		OffroadHatchback,		V,		60000,	30000	// Use VNK instead of V as Quantity to not give a Vehicle Key when bought.
+		OffroadHatchback_Blue,	V,		60000,	30000
+		OffroadHatchback_White,	V,		60000,	30000
+		Hatchback_02,			V,		120000,	60000
+		Hatchback_02_Blue,		V,		120000,	60000
+		Hatchback_02_Black,		V,		120000,	60000
+		Sedan_02,				V,		98000,	50200
+		Sedan_02_Red,			V,		98000,	50200
+		Sedan_02_Grey,			V,		98000,	50200
+		CivilianSedan,			V,		80000,	41000
+		CivilianSedan_Wine,		V,		80000,	41000
+		CivilianSedan_Black,	V,		80000,	11000
+		Truck_01_Covered,		V,		150000,	50000
+        Truck_01_Covered_Blue,	V,		150000,	50000
+        Truck_01_Covered_Orange,V,		150000,	50000
 
 	<Category> Vehicle Parts
 		HeadlightH7_Box,		*,		30,		15
