@@ -496,7 +496,7 @@
 
 			
 
-		<Category> Submachine Guns
+		<Category> Пистолеты - пулемёты
 			CZ61,																								W,		3000,		1300
 			UMP45,																							W,		5000,		2400
 			MSFC_UMP45_Desert,																	W,		6800,		2500
@@ -632,7 +632,7 @@
 			TTC_AKModPK_Digi, W, 25000, 7500
 			TTC_AKModPK_Tan, W, 25000, 7500
 
-		<Category> Sniper Rifles
+		<Category> Снайперские винтовки
 			TTC_M110, W, 20000, 7500
 			TTC_M110_Black, W, 20000, 7500
 			TTC_M14, W, 20000, 7500
@@ -671,7 +671,7 @@
 			
 			
 
-		<Category> Grenades
+		<Category> Гранаты
 			RGD5Grenade,																				1,		5000,	1000
 			M67Grenade,																					1,		5000,	1000
 			M18SmokeGrenade_Red,																1,		1600,	700
@@ -755,7 +755,7 @@
 		AmmoBox_762x39Tracer_20Rnd,													*,		240,	100
 		AmmoBox_762x54Tracer_20Rnd,													*,		500,	220
 
-	<Category> Magazines
+	<Category> Магазины
 		Mag_IJ70_8Rnd,																  M,		70,		25
 		Mag_CZ75_15Rnd,																  M,		85,		30
 		Mag_Glock_15Rnd,															  M,		90,		25
@@ -889,7 +889,7 @@
 		TTC_Holo, 														*, 		5000,	2000
 		TTC_HAMR, 														*, 		5000, 	2000
 
-	<Category> Supressors
+	<Category> Глушители
 		PistolSuppressor,																*,		150,	75
 		AK_Suppressor,																	*,		250,	125
 		M4_Suppressor,																	*,		250,	125
@@ -910,11 +910,11 @@
 		TTC_AKMOD_AFG, 																	*, 500, 200
 		TTC_AKMod_Suppressor, 													*, 500, 200
 
-	<Category> Compensators
+	<Category> Компенсаторы
 		Mosin_Compensator,		*,		150,	75
 		MP5_Compensator,		*,		200,	100
 
-	<Category> Bayonets
+	<Category> Штыковые ножи
 		Mosin_Bayonet,			*,		100,	60
 		M9A1_Bayonet,			*,		150,	75
 		AK_Bayonet,				*,		150,	75
@@ -927,11 +927,10 @@
 		TWP_Kar98_Bayonet,			*,		1500,	0
 		TWP_Arisaka_Bayonet			*,		1500,   0
 
-	<Category> Flashlights
+	<Category> фонарики
 		Universallight,			*,		120,	60
 
-		<Category> Mortys Weapon Parts
-
+	<Category> Платформы
 		TTC_DMR_Barrel_556, *, 10000, 7500
 		TTC_DMR_Barrel_762, *, 11000, 7500
 		TTC_DMR_RifleFrame, *, 20000, 7500
@@ -939,7 +938,9 @@
 		TTC_AKMod_Barrel_76254, *, 11000, 7500
 		TTC_AKMod_RifleFrame, *, 20000, 7500
 
-		<Category> Mortys Ammunition
+		
+
+		<Category> Патроны(мод)
 
 		TTC_Ammo_8mm, 1, 20, 12
 		TTC_AmmoBox_8mm_20Rnd, *, 400, 200
@@ -961,7 +962,7 @@
 		TTC_Ammo_4570, *, 1000, 200
 
 
-		<Category> Mortys Mags
+		<Category> Магазины
 
 		Mag_SG_30Rnd, M, 500, 250
 		Mag_TTCM1_15Rnd, M, 500, 250
