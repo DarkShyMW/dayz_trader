@@ -1,6 +1,6 @@
 	<Category> SQUAD MSF-C (Melee Weapons)
-		MSFC_HuntsmanKnife,	W,		1000,		500
-		MSFC_CombatKnife,	W,		1000,		500
-		MSFC_DownrangeTomahawk_Desert,	W,		1000,		500
-		MSFC_DownrangeTomahawk_Black,	W,		1000,		500
-		MSFC_DownrangeTomahawk_Green,	W,		1000,		500
+		MSFC_HuntsmanKnife,									W,		1500,		500
+		MSFC_CombatKnife,										W,		2500,		1000
+		MSFC_DownrangeTomahawk_Desert,			W,		13000,	5000
+		MSFC_DownrangeTomahawk_Black,				W,		-1,		5000
+		MSFC_DownrangeTomahawk_Green,				W,		-1,		5000

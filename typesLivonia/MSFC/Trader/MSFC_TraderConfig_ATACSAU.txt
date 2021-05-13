@@ -1,18 +1,18 @@
 	<Category> SQUAD MSF-C (ATACS AU)
-		MSFC_Alice_Bag_ATACSAU,			*,		1000,		650
-		MSFC_NBC_Hood_ATACSAU,			*,		1000,		650
-		MSFC_Mich2001_ATACSAU,			*,		1000,		650
-		MSFC_BoonieHat_ATACSAU,			*,		1000,		650
-		MSFC_Mich2000_ATACSAU,			*,		1000,		650
-		MSFC_Smersh_Vest_ATACSAU,			*,		1000,		650
-		MSFC_HighCapacity_Vest_ATACSAU,			*,		1000,		650
-		MSFC_PlateCarrier_Vest_ATACSAU,			*,		1000,		650
-		MSFC_PlateCarrier_Holster_ATACSAU,			*,		1000,		650
-		MSFC_PlateCarrier_Pouches_ATACSAU,			*,		1000,		650
-		MSFC_NBC_Pants_ATACSAU,			*,		1000,		650
-		MSFC_Gorka_Pants_ATACSAU,			*,		1000,		650
-		MSFC_Gorka_Jacket_ATACSAU,			*,		1000,		650
-		MSFC_Cargo_Pants_ATACSAU,			*,		1000,		650
+		MSFC_Alice_Bag_ATACSAU,														*,		1000,		650
+		MSFC_NBC_Hood_ATACSAU,														*,		1000,		650
+		MSFC_Mich2001_ATACSAU,														*,		1000,		650
+		MSFC_BoonieHat_ATACSAU,														*,		1000,		650
+		MSFC_Mich2000_ATACSAU,														*,		1000,		650
+		MSFC_Smersh_Vest_ATACSAU,													*,		1000,		650
+		MSFC_HighCapacity_Vest_ATACSAU,										*,		1000,		650
+		MSFC_PlateCarrier_Vest_ATACSAU,										*,		1000,		650
+		MSFC_PlateCarrier_Holster_ATACSAU,								*,		1000,		650
+		MSFC_PlateCarrier_Pouches_ATACSAU,								*,		1000,		650
+		MSFC_NBC_Pants_ATACSAU,														*,		1000,		650
+		MSFC_Gorka_Pants_ATACSAU,													*,		1000,		650
+		MSFC_Gorka_Jacket_ATACSAU,												*,		1000,		650
+		MSFC_Cargo_Pants_ATACSAU,													*,		1000,		650
 		MSFC_TShirt_ATACSAU,			*,		1000,		650
 		MSFC_PCU5_ATACSAU,			*,		1000,		650
 		MSFC_Sweater_ATACSAU,			*,		1000,		650
