@@ -473,7 +473,7 @@
 		MSFC_1911_Golden,																				W,		-1,		80000
 		TTC_Kimber, W, 3500, 1000
 
-		
+
 
 		<Category> Винтовки
 			Izh18,																						W,		950,	440
@@ -494,9 +494,9 @@
 			TTC_Maverick, W, 5000, 2500
 			TTC_Mossberg, W, 5500, 2500
 
-			
 
-		<Category> Пистолеты - пулемёты
+
+		<Category> Submachine Guns
 			CZ61,																								W,		3000,		1300
 			UMP45,																							W,		5000,		2400
 			MSFC_UMP45_Desert,																	W,		6800,		2500
@@ -632,7 +632,7 @@
 			TTC_AKModPK_Digi, W, 25000, 7500
 			TTC_AKModPK_Tan, W, 25000, 7500
 
-		<Category> Снайперские винтовки
+		<Category> Sniper Rifles
 			TTC_M110, W, 20000, 7500
 			TTC_M110_Black, W, 20000, 7500
 			TTC_M14, W, 20000, 7500
@@ -668,10 +668,10 @@
 			TTC_HKG28, 																				W, 40000, 7500
 			TTC_LeeEnfield, W, 7000, 4500
 			TTC_M1Garand, W, 7000, 4000
-			
-			
 
-		<Category> Гранаты
+
+
+		<Category> Grenades
 			RGD5Grenade,																				1,		5000,	1000
 			M67Grenade,																					1,		5000,	1000
 			M18SmokeGrenade_Red,																1,		1600,	700
@@ -685,7 +685,7 @@
 
 
 			<Category> Черный Торговец
-			Никто его не видел но все говорят что он где-то есть.
+			Никто его не видел, но все говорят, что он где-то есть.
 			Я готов купить у вас это оружие..
 			MSFC_BarrettM82,																W,		-1,		100000
 			MSFC_BarrettM82_Black,															W,		-1,		100000
@@ -709,7 +709,7 @@
 			TTC_XM2010, W, -1, 75000
 			TTC_R700_Black, W, -1, 9000
 
-			
+
 <Trader> Патроны и все остальное
 	<Category> Патроны россыпью по 10
 		Ammo_380,																			10,		16,		-1
@@ -735,7 +735,7 @@
 	    Ammo_FlareGreen,																	10,		250,	70
 	    Ammo_FlareRed,																		10,		250,	70
 
-	<Category> Коробки с патронами	
+	<Category> Коробки с патронами
 		AmmoBox_380_35rnd,															*,		500,	-1
 		AmmoBox_9x19_25rnd,															*,		500,	-1
 		AmmoBox_45ACP_25rnd,														*,		400,	-1
@@ -755,7 +755,7 @@
 		AmmoBox_762x39Tracer_20Rnd,													*,		240,	100
 		AmmoBox_762x54Tracer_20Rnd,													*,		500,	220
 
-	<Category> Магазины
+	<Category> Magazines
 		Mag_IJ70_8Rnd,																  M,		70,		25
 		Mag_CZ75_15Rnd,																  M,		85,		30
 		Mag_Glock_15Rnd,															  M,		90,		25
@@ -786,8 +786,8 @@
 		Mag_308WinSnaploader_2Rnd,													  M,		750,	325
 		Mag_cs5_10Rnd_mung,			       							 				   *,		1200,	500
 
-		
-	<Category> Рукоядки 
+
+	<Category> Рукоядки
 		MP5_PlasticHndgrd,																*,		100,	50
 		MP5_RailHndgrd,																	*,		150,	75
 		AK74_Hndgrd,																	*,		150,	75
@@ -889,7 +889,7 @@
 		TTC_Holo, 														*, 		5000,	2000
 		TTC_HAMR, 														*, 		5000, 	2000
 
-	<Category> Глушители
+	<Category> Supressors
 		PistolSuppressor,																*,		150,	75
 		AK_Suppressor,																	*,		250,	125
 		M4_Suppressor,																	*,		250,	125
@@ -910,11 +910,11 @@
 		TTC_AKMOD_AFG, 																	*, 500, 200
 		TTC_AKMod_Suppressor, 													*, 500, 200
 
-	<Category> Компенсаторы
+	<Category> Compensators
 		Mosin_Compensator,		*,		150,	75
 		MP5_Compensator,		*,		200,	100
 
-	<Category> Штыковые ножи
+	<Category> Bayonets
 		Mosin_Bayonet,			*,		100,	60
 		M9A1_Bayonet,			*,		150,	75
 		AK_Bayonet,				*,		150,	75
@@ -927,10 +927,11 @@
 		TWP_Kar98_Bayonet,			*,		1500,	0
 		TWP_Arisaka_Bayonet			*,		1500,   0
 
-	<Category> фонарики
+	<Category> Flashlights
 		Universallight,			*,		120,	60
 
-	<Category> Платформы
+		<Category> Mortys Weapon Parts
+
 		TTC_DMR_Barrel_556, *, 10000, 7500
 		TTC_DMR_Barrel_762, *, 11000, 7500
 		TTC_DMR_RifleFrame, *, 20000, 7500
@@ -938,9 +939,7 @@
 		TTC_AKMod_Barrel_76254, *, 11000, 7500
 		TTC_AKMod_RifleFrame, *, 20000, 7500
 
-		
-
-		<Category> Патроны(мод)
+		<Category> Mortys Ammunition
 
 		TTC_Ammo_8mm, 1, 20, 12
 		TTC_AmmoBox_8mm_20Rnd, *, 400, 200
@@ -962,7 +961,7 @@
 		TTC_Ammo_4570, *, 1000, 200
 
 
-		<Category> Магазины
+		<Category> Mortys Mags
 
 		Mag_SG_30Rnd, M, 500, 250
 		Mag_TTCM1_15Rnd, M, 500, 250
@@ -1033,54 +1032,38 @@
 		TTC_AKMod_Tan_Hndguard, *, 250, 125
 
 
-<Trader> H&M
-	<Category> Очки/Маски
-		SportGlasses_Orange,			*,		17,			8
-		SportGlasses_Blue,				*,		18,			9
-		SportGlasses_Black,				*,		20,			10
-		SportGlasses_Green,				*,		20,			10
-		ThinFramesGlasses,				*,		20,			10
-		ThickFramesGlasses,				*,		23,			11
-		DesignerGlasses,				*,		30,			15
-		AviatorGlasses,					*,		40,			20
-		TacticalGoggles,				*,		60,			30
-		NVGHeadstrap,					*,		200,		120
-		MSFC_GP21_Black,				*,		400,		150
-		MSFC_GP21_Green,				*,		400,		150
-		MSFC_GP21_Blue,					*,		400,		150
-		MSFC_GP21_Yellow,				*,		400,		150
-		MSFC_Balaclava_Skull,			*,		550,		200
-		MSFC_Balaclava_Black,			*,		550,		200
-		MSFC_Balaclava_Green,			*,		550,		200
-		MSFC_Balaclava_Desert,			*,		550,		200
-		MSFC_Facemask_Skull,			*,		550,		200
-		MSFC_Facemask_Black,			*,		550,		200
-		MSFC_Facemask_Green,			*,		550,		200
-		MSFC_Facemask_Desert,			*,		550,		200
-		MSFC_Ballistic_Goggles_Black,	*,		550,		200
-		MSFC_Ballistic_Goggles_Green,	*,		550,		200
-		MSFC_Ballistic_Goggles_Desert,	*,		550,		200
-		MSFC_Glasses_BBB_Comander,		*,		550,		200
-		MSFC_Glasses_Bolle_Cobra,		*,		550,		200
-		MSFC_Glasses_Bolle_Contour_Platinum,*,	550,		200
-		MSFC_Glasses_ESS_Crossbow,		*,		550,		200
-		MSFC_Glasses_ESS_ICE,			*,		550,		200
-		MSFC_Glasses_ESS_RollBar,		*,		550,		200
-		MSFC_Glasses_Oakley_M_Frame,	*,		550,		200
+<Trader> Clothing Trader
+	<Category> Glasses
+		SportGlasses_Orange,	*,		17,		8
+		SportGlasses_Blue,		*,		18,		9
+		SportGlasses_Black,		*,		20,		10
+		SportGlasses_Green,		*,		20,		10
+		ThinFramesGlasses,		*,		20,		10
+		ThickFramesGlasses,		*,		23,		11
+		DesignerGlasses,		*,		30,		15
+		AviatorGlasses,			*,		40,		20
+		TacticalGoggles,		*,		60,		30
+		NVGHeadstrap,			*,		200,	120
 
 	<Category> SQUAD MSF-C (Base color clothes)
-			MSFC_OPS_Core_EarProtection_Black,	*,	1000,		650
-			MSFC_OPS_Core_EarProtection_Green,	*,	1000,		650
-			MSFC_OPS_Core_EarProtection_Desert,	*,	1000,		650
+			MSFC_OPS_Core_EarProtection_Black,	*,		1000,		650
+			MSFC_OPS_Core_EarProtection_Green,	*,		1000,		650
+			MSFC_OPS_Core_EarProtection_Desert,	*,		1000,		650
 			MSFC_OPS_Core_Mandible_Black,	*,		1000,		650
 			MSFC_OPS_Core_Mandible_Green,	*,		1000,		650
 			MSFC_OPS_Core_Mandible_Desert,	*,		1000,		650
 			MSFC_OPS_Core_Headset_Black,	*,		1000,		650
 			MSFC_OPS_Core_Headset_Green,	*,		1000,		650
 			MSFC_OPS_Core_Headset_Desert,	*,		1000,		650
-			MSFC_Altyn_Visor_Green,			*,		1000,		650
-
-			
+			MSFC_Altyn_Visor_Green,	*,		1000,		650
+			MSFC_GP21_Black,	*,		1000,		650
+			MSFC_GP21_Green,	*,		1000,		650
+			MSFC_GP21_Blue,	*,		1000,		650
+			MSFC_GP21_Yellow,	*,		1000,		650
+			MSFC_Balaclava_Skull,	*,		1000,		650
+			MSFC_Balaclava_Black,	*,		1000,		650
+			MSFC_Balaclava_Green,	*,		1000,		650
+			MSFC_Balaclava_Desert,	*,		1000,		650
 			MSFC_Altyn_Green,	*,		1000,		650
 			MSFC_6B47_Black,	*,		1000,		650
 			MSFC_6B47_Green,	*,		1000,		650
@@ -1091,7 +1074,10 @@
 			MSFC_OPS_Core_Black,	*,		1000,		650
 			MSFC_OPS_Core_Green,	*,		1000,		650
 			MSFC_OPS_Core_Desert,	*,		1000,		650
-			
+			MSFC_Facemask_Skull,	*,		1000,		650
+			MSFC_Facemask_Black,	*,		1000,		650
+			MSFC_Facemask_Green,	*,		1000,		650
+			MSFC_Facemask_Desert,	*,		1000,		650
 			MSFC_TShirt_Black_Logo,	*,		1000,		650
 			MSFC_Gorka_Jacket_Desert,	*,		1000,		650
 			MSFC_Gorka_Jacket_Green,	*,		1000,		650
@@ -1102,7 +1088,16 @@
 			MSFC_Headset_Black,	*,		1000,		650
 			MSFC_Headset_Green,	*,		1000,		650
 			MSFC_Headset_Desert,	*,		1000,		650
-			
+			MSFC_Ballistic_Goggles_Black,	*,		1000,		650
+			MSFC_Ballistic_Goggles_Green,	*,		1000,		650
+			MSFC_Ballistic_Goggles_Desert,	*,		1000,		650
+			MSFC_Glasses_BBB_Comander,	*,		1000,		650
+			MSFC_Glasses_Bolle_Cobra,	*,		1000,		650
+			MSFC_Glasses_Bolle_Contour_Platinum,	*,		1000,		650
+			MSFC_Glasses_ESS_Crossbow,	*,		1000,		650
+			MSFC_Glasses_ESS_ICE,	*,		1000,		650
+			MSFC_Glasses_ESS_RollBar,	*,		1000,		650
+			MSFC_Glasses_Oakley_M_Frame,	*,		1000,		650
 			MSFC_Tactical_Cap_Black,	*,		1000,		650
 			MSFC_Tactical_Cap_Green,	*,		1000,		650
 			MSFC_Tactical_Cap_Desert,	*,		1000,		650
@@ -2348,7 +2343,100 @@
 		MVS_CountryFlag_Yugoslavia,                                                                                 	*,      50,     25
 		MVS_CountryFlag_Zambia,                                                                                 	*,      50,     25
 		MVS_CountryFlag_Zimbabwe,                                                                                 	*,      50,     25
+		<Category> SQUAD MSF-C (NVG)
+			MSFC_NVG,		*,		4500,	2250
+			MSFC_NVG_One,		*,		4500,	2250
+			MSFC_NVG_GPNVG18,		*,		4500,	2250
+			<Category> SQUAD MSF-C (SURPAT)
+				MSFC_Alice_Bag_SURPAT,			*,		1000,		650
+				MSFC_NBC_Hood_SURPAT,			*,		1000,		650
+				MSFC_Mich2001_SURPAT,			*,		1000,		650
+				MSFC_BoonieHat_SURPAT,			*,		1000,		650
+				MSFC_Mich2000_SURPAT,			*,		1000,		650
+				MSFC_Smersh_Vest_SURPAT,			*,		1000,		650
+				MSFC_HighCapacity_Vest_SURPAT,			*,		1000,		650
+				MSFC_PlateCarrier_Vest_SURPAT,			*,		1000,		650
+				MSFC_PlateCarrier_Holster_SURPAT,			*,		1000,		650
+				MSFC_PlateCarrier_Pouches_SURPAT,			*,		1000,		650
+				MSFC_NBC_Pants_SURPAT,			*,		1000,		650
+				MSFC_Gorka_Pants_SURPAT,			*,		1000,		650
+				MSFC_Gorka_Jacket_SURPAT,			*,		1000,		650
+				MSFC_Cargo_Pants_SURPAT,			*,		1000,		650
+				MSFC_TShirt_SURPAT,			*,		1000,		650
+				MSFC_PCU5_SURPAT,			*,		1000,		650
+				MSFC_Sweater_SURPAT,			*,		1000,		650
+				MSFC_NBC_Jacket_SURPAT,			*,		1000,		650
+				MSFC_M65_Jacket_SURPAT,			*,		1000,		650
+				MSFC_Gloves_SURPAT,			*,		1000,		650
+				MSFC_NBC_Gloves_SURPAT,			*,		1000,		650
+				MSFC_NBC_Boots_SURPAT,			*,		1000,		650
+				MSFC_Boots_SURPAT,			*,		1000,		650
+				MSFC_Boots_Lowa_SURPAT,			*,		1000,		650
+				MSFC_Boots_Trekking_SURPAT,			*,		1000,		650
+				MSFC_Tortila_SURPAT,			*,		1000,		650
+				MSFC_Smersh_Bag_SURPAT,			*,		1000,		650
+				MSFC_Mountain_Bag_SURPAT,			*,		1000,		650
+				MSFC_Coyote_Bag_SURPAT,			*,		1000,		650
+				MSFC_PlateCarrier_Vest_SURPAT_Logo,			*,		1000,		650
+				MSFC_HighCapacity_Vest_SURPAT_Logo,			*,		1000,		650
+				MSFC_Gorka_Jacket_SURPAT_NoLogo,			*,		1000,		650
+				MSFC_PCU5_SURPAT_NoLogo,			*,		1000,		650
+				MSFC_Smersh_Bag_Medic_SURPAT,			*,		1000,		650
+				MSFC_OPS_Core_SURPAT,			*,		1000,		650
+				MSFC_Facemask_SURPAT,			*,		1000,		650
+				MSFC_Tactical_Cap_SURPAT,			*,		1000,		650
+				MSFC_WarBelt_SURPAT,			*,		1000,		650
+				MSFC_Pouches_Magazine_SURPAT,			*,		1000,		650
+				MSFC_Pouches_One_SURPAT,			*,		1000,		650
+				MSFC_Pouches_Two_SURPAT,			*,		1000,		650
+				MSFC_Pouches_IFAK_SURPAT,			*,		1000,		650
+				MSFC_Canteen_SURPAT,			*,		1000,		650
+				MSFC_Case_SURPAT,			*,		1000,		650
+				MSFC_TacticalBelt_SURPAT,			*,		1000,		650
+				MSFC_JPC_Vest_SURPAT,			*,		1000,		650
+				MSFC_TacTec_Vest_SURPAT,			*,		1000,		650
+				//MSFC_Defender_Vest_SURPAT,			*,		1000,		650
+				MSFC_CargoBag_SURPAT,			*,		1000,		650
+				MSFC_PegasusBag_SURPAT,			*,		1000,		650
+				MSFC_MilitaryTacticalBag30L_SURPAT,			*,		1000,		650
+				MSFC_MilitaryTacticalBag70L_SURPAT,			*,		1000,		650
+				MSFC_G3Pants_SURPAT,			*,		1000,		650
 
+				<Category> SQUAD MSF-C (Flag Pole)
+					MSFC_Flag_MSFC_Camping,		*,		500,	250
+					MSFC_Flag_Russia_Camping,		*,		500,	250
+					MSFC_Flag_USSR_Camping,		*,		500,	250
+					MSFC_Flag_USA_Camping,		*,		500,	250
+					MSFC_Flag_KhabarovskCity_Camping,		*,		500,	250
+					MSFC_Flag_Australia_Camping,		*,		500,	250
+					MSFC_Flag_Austria_Camping,		*,		500,	250
+					MSFC_Flag_Belarus_Camping,		*,		500,	250
+					MSFC_Flag_UK_Camping,		*,		500,	250
+					MSFC_Flag_Bulgaria_Camping,		*,		500,	250
+					MSFC_Flag_China_Camping,		*,		500,	250
+					MSFC_Flag_Czech_Camping,		*,		500,	250
+					MSFC_Flag_Europe_Camping,		*,		500,	250
+					MSFC_Flag_Finland_Camping,		*,		500,	250
+					MSFC_Flag_France_Camping,		*,		500,	250
+					MSFC_Flag_Germany_Camping,		*,		500,	250
+					MSFC_Flag_Brazil_Camping,		*,		500,	250
+					MSFC_Flag_Italy_Camping,		*,		500,	250
+					MSFC_Flag_Japan_Camping,		*,		500,	250
+					MSFC_Flag_Kazakhstan_Camping,		*,		500,	250
+					MSFC_Flag_Latvia_Camping,		*,		500,	250
+					MSFC_Flag_NATO_Camping,		*,		500,	250
+					MSFC_Flag_Norway_Camping,		*,		500,	250
+					MSFC_Flag_Poland_Camping,		*,		500,	250
+					MSFC_Flag_RussianEmpire_Camping,		*,		500,	250
+					MSFC_Flag_Serbia_Camping,		*,		500,	250
+					MSFC_Flag_Spain_Camping,		*,		500,	250
+					MSFC_Flag_Sweden_Camping,		*,		500,	250
+					MSFC_Flag_Switzerland_Camping,		*,		500,	250
+					MSFC_Flag_Turkey_Camping,		*,		500,	250
+					MSFC_Flag_Ukraine_Camping,		*,		500,	250
+					MSFC_Flag_UN_Camping,		*,		500,	250
+					MSFC_Flag_Netherlands_Camping,		*,		500,	250
+					MSFC_Flag_Canada_Camping,		*,		500,	250
 
 	//<Category> Handmade
 		//LeatherGloves_Beige,	*,		0,		0

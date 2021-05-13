@@ -1,0 +1,4 @@
+	<Category> SQUAD MSF-C (NVG)
+		MSFC_NVG,		*,		4500,	2250
+		MSFC_NVG_One,		*,		4500,	2250
+		MSFC_NVG_GPNVG18,		*,		4500,	2250
