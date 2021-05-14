@@ -1664,25 +1664,6 @@
 		MilitaryBoots_Black,	*,		110,	35
 		NBCBootsGray,			*,		150,	50
 
-	<Category> Ghillie
-		// Keep in Mind that Players can also
-		// craft Ghillie Clothing and sell them!
-		GhillieAtt_Mossy,		*,		220,	70
-		GhillieAtt_Tan,			*,		220,	70
-		GhillieAtt_Woodland,	*,		220,	70
-		GhillieHood_Mossy,		*,		220,	70
-		GhillieHood_Tan,		*,		220,	70
-		GhillieHood_Woodland,	*,		220,	70
-		GhillieBushrag_Mossy,	*,		400,	130
-		GhillieBushrag_Tan,		*,		400,	130
-		GhillieBushrag_Woodland,*,		400,	130
-		GhillieTop_Mossy,		*,		600,	200
-		GhillieTop_Tan,			*,		600,	200
-		GhillieTop_Woodland,	*,		600,	200
-		GhillieSuit_Mossy,		*,		1000,	300
-		GhillieSuit_Tan,		*,		1000,	300
-		GhillieSuit_Woodland,	*,		1000,	300
-
 	//<Category> Seasonal
 		//SantasBeard,			*,		15,		0
 		//SantasHat,			*,		35,		0
