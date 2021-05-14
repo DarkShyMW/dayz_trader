@@ -1979,21 +1979,21 @@
 
 <Trader> Vehicles Trader
 	<Category> Vehicles
-		OffroadHatchback,		V,		60000,	30000	// Use VNK instead of V as Quantity to not give a Vehicle Key when bought.
-		OffroadHatchback_Blue,	V,		60000,	30000
-		OffroadHatchback_White,	V,		60000,	30000
-		Hatchback_02,			V,		120000,	60000
-		Hatchback_02_Blue,		V,		120000,	60000
-		Hatchback_02_Black,		V,		120000,	60000
-		Sedan_02,				V,		98000,	50200
-		Sedan_02_Red,			V,		98000,	50200
-		Sedan_02_Grey,			V,		98000,	50200
-		CivilianSedan,			V,		80000,	41000
-		CivilianSedan_Wine,		V,		80000,	41000
-		CivilianSedan_Black,	V,		80000,	11000
-		Truck_01_Covered,		V,		150000,	50000
-        Truck_01_Covered_Blue,	V,		150000,	50000
-        Truck_01_Covered_Orange,V,		150000,	50000
+		OffroadHatchback,																				V,		160000,	30000	// Use VNK instead of V as Quantity to not give a Vehicle Key when bought.
+		OffroadHatchback_Blue,																	V,		160000,	30000
+		OffroadHatchback_White,																	V,		160000,	30000
+		Hatchback_02,																						V,		320000,	60000
+		Hatchback_02_Blue,																			V,		320000,	60000
+		Hatchback_02_Black,																			V,		320000,	60000
+		Sedan_02,																								V,		208000,	50200
+		Sedan_02_Red,																						V,		208000,	50200
+		Sedan_02_Grey,																					V,		208000,	50200
+		CivilianSedan,																					V,		80000,	41000
+		CivilianSedan_Wine,																			V,		80000,	41000
+		CivilianSedan_Black,																		V,		80000,	11000
+		Truck_01_Covered,																				V,		150000,	50000
+        Truck_01_Covered_Blue,															V,		450000,	150000
+        Truck_01_Covered_Orange,														V,		450000,	150000
 
 	<Category> Vehicle Parts
 		HeadlightH7_Box,		*,		30,		15
