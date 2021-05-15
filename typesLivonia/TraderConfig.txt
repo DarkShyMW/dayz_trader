@@ -442,57 +442,177 @@
 		PumpkinSeedsPack,																			*,		10, 	3
 		GardenLime,																						*,		20,		7
 
+		<Category> Much Decos
+			MD_GraveShovel,		                    							*,		600,		60
+			MD_Crafting_Book,																		*,		4000,		400
+			MD_Box_C,																						*,		4000,		400
+			MD_TrashCan,																				*,		15000,		400
+			MD_GreenTrashCan,																		*,		15000,		400
+			MD_Small_WoodBox,		                    						*,		1600,		400
+			MD_Large_WoodBox,		                    						*,		1600,		400
+			MD_Flat_WoodBox,		                    						*,		1600,		400
+			MD_Bucket,		                    									*,		600,		60
+			MD_DeskGlobe,		                    								*,		600,		60
+			MD_TV,		                    											*,		600,		60
+			MD_OldRadio,		                    								*,		600,		60
+			MD_Radio,		                    										*,		600,		60
+			MD_Scale,		                    										*,		600,		60
+			MD_Cashier,		                    									*,		600,		60
+			MD_Clock,		                    										*,		600,		60
+			MD_ClothBag,		                    								*,		600,		60
+			MD_Canister,		                    								*,		600,		60
+			MD_Padlock,		                    									*,		2000,		60
+			MD_WhiteFridge,		                    							*,		1600,		400
+			MD_DoubleFridge,		                    						*,		1600,		400
+			MD_DarkWoodenCrate,		                    					*,		1600,		400
+			MD_Power_Transformer_Kit,		                    		*,		10000,		500
+			MD_Sink_Kit,		                    								*,		30000,		300
+			MD_PostBox_Kit,		                    							*,		600,		60
+			MD_PostBoxWall_Kit,		                    					*,		600,		60
+			MD_BlueBench_Kit,		                    						*,		600,		60
+			MD_Sunshade_Kit,		                    						*,		600,		60
+			MD_BrownWardrobe_Kit,		                    				*,		1600,		400
+			MD_GreenWardrobe_Kit,		                    				*,		1600,		400
+			MD_Bed_Double_Kit,		                    					*,		600,		60
+			MD_Bed_Folding_Kit,		                    					*,		600,		60
+			MD_Bed_Wood_Kit,		                    						*,		600,		60
+
+		<Category> Much Decos Fences
+			MD_Fence_PipeFenceLarge_Kit,		                    *,		1000,		100
+			MD_Fence_PipeRailing_Kit,		                    		*,		500,		50
+			MD_Fence_PipeFenceSmall_Kit,		                    *,		500,		50
+			MD_Fence_WoodPole_Kit,		                    			*,		500,		50
+			MD_Fence_End_WoodPole_Kit,		                    	*,		250,		25
+			MD_Fence_Vineyard_Kit,		                    			*,		500,		50
+			MD_Fence_Forest_Kit,		                    				*,		500,		50
+			MD_Fence_End_Forest_Kit,		                    		*,		250,		25
+			MD_Fence_WoodGrid_Kit,		                    			*,		500,		50
+			MD_Fence_End_WoodGrid_Kit,		                    	*,		250,		25
+			MD_Fence_MetalGrid_Kit,		                    			*,		500,		50
+			MD_Fence_End_MetalGrid_Kit,		                    	*,		250,		25
+			MD_Fence_Field_Kit,		                    					*,		500,		50
+			MD_Fence_End_Field_Kit,		                    			*,		250,		25
+		<Category> Much Decos Gates
+			MD_Fence_Gate_Forest_Kit,		                    		*,		500,		50
+			MD_Gate_TallSliding_Kit,		                    		*,		500,		50
+			MD_Gate_ShortSliding_Kit,														*,		500,		50
+			MD_Double_Gate_MetalFence1_Kit,		                  *,		500,		50
+			MD_Double_Gate_MetalFence2_Kit,		                  *,		500,		50
+			MD_Double_Gate_TinFence1_Kit,		                    *,		500,		50
+			MD_Double_Gate_TinFence2_Kit,		                    *,		500,		50
+
+		<Category> Much Decos Buildings
+			MD_NewsStand1_Kit,																	*,		30000,		300
+			MD_NewsStand2_Kit,																	*,		30000,		300
+			MD_FastFoodStand_Kit,																*,		30000,		300
+			MD_GroceryStand_Kit,																*,		30000,		300
+			MD_CampHouse_White_Kit,															*,		30000,		300
+			MD_CampHouse_Brown_Kit,															*,		30000,		300
+			MD_CampHouse_Red_Kit,																*,		30000,		300
+			MD_Caravan_WGreen_Kit,															*,		30000,		300
+			MD_Caravan_WBrown_Kit,															*,		30000,		300
+			MD_Caravan_MRust_Kit,																*,		30000,		300
+			MD_Polytunnel_Kit,																	*,		30000,		300
+			MD_Greenhouse_Kit,																	*,		30000,		300
+			MD_Shed_M1_Kit,																			*,		30000,		300
+			MD_Shed_M3_Kit,																			*,		30000,		300
+			MD_Shed_M4_Kit,																			*,		30000,		300
+			MD_Shed_W1_Kit,																			*,		30000,		300
+			MD_Shed_W2_Kit,																			*,		30000,		300
+			MD_Shed_W3_Kit,																			*,		30000,		300
+			MD_Shed_W4_Kit,																			*,		30000,		300
+			MD_Shed_W5_Kit,																			*,		30000,		300
+			MD_Medical_Tent_Large_Kit,		           						*,		10000,		500
+
+		<Category> Much Decos Tables
+			MD_StudentDesk_Kit,		                    					*,		600,		60
+			MD_TeacherDesk_Kit,		                    					*,		600,		60
+			MD_LabDesk_Kit,		                    							*,		600,		60
+			MD_CampTable_Small_Kit,		                					*,		600,		60
+			MD_CampTable_Long_Kit,		                					*,		600,		60
+			MD_TableDrawer_Kit,		                    					*,		600,		60
+			MD_OfficeTable_Kit,		                    					*,		600,		60
+			MD_ConferenceTable_Kit,		                					*,		600,		60
+			MD_OfficeDesk_Kit,		                    					*,		600,		60
+			MD_KitchenCheckeredTable_Kit,		          					*,		600,		60
+			MD_KitchenTable_Kit,		                  					*,		600,		60
+			MD_MarketTable_Kit,		                    					*,		600,		60
+
+		<Category> Much Decos Chairs
+			MD_OfficeChair_Kit,		                    					*,		600,		60
+			MD_StudentChair_Kit,		                  					*,		600,		60
+			MD_RedChair_Kit,		                    						*,		600,		60
+			MD_LobbyChair_Kit,		                    					*,		600,		60
+			MD_TentChair_Kit,		                    						*,		600,		60
+			MD_WoodenChair_Kit,		                    					*,		600,		60
+			MD_PaddedWoodenChair_Kit,		              					*,		600,		60
+			MD_KitchenChair_Kit,		                  					*,		600,		60
+
+		<Category> Much Decos Shelter
+			MD_CamonetShelter_Kit,		                    			*,		600,		60
+			MD_CamonetShelter_BE_Kit,		                    		*,		600,		60
+			MD_CamonetShelter_BN_Kit,		                    		*,		600,		60
+			MD_CamonetShelter_RE_Kit,		                    		*,		600,		60
+			MD_CamonetShelter_RN_Kit,		                    		*,		600,		60
+			MD_CamonetShelter_SE_Kit,		                    		*,		600,		60
+			MD_CamonetShelter_SN_Kit,		                    		*,		600,		60
+			MD_SlumShelter_LightBlue_Kit,		                    *,		600,		60
+			MD_SlumShelter_DarkBlue_Kit,		                    *,		600,		60
+			MD_SlumShelter_ThinBlue_Kit,		                    *,		600,		60
+			MD_SlumShelter_SmallMetal_Kit,		                  *,		600,		60
+			MD_SlumShelter_LargeMetal_Kit,		                  *,		600,		60
+
 <Trader> Оружие
 	<Category> Ближний бой
-		BrassKnuckles_Shiny,																			W,		1000,		600
+		BrassKnuckles_Shiny,																	W,		1000,		600
 		StunBaton,																						W,		1500,		900
-		Pipe,																							W,		2500,		1000
+		Pipe,																									W,		2500,		1000
 		CattleProd,																						W,		900,		450
 		BaseballBat,																					W,		1200,		700
-		NailedBaseballBat,																				W,		1900,		1000
-		Msp_VorpalKnife,																				W,    	2110,   	900
-		Msp_GoodNightBat,																				W,    	2150,    	950
-		Msp_BeanBasher,																					W,    	3400,    	1700
+		NailedBaseballBat,																		W,		1900,		1000
+		Msp_VorpalKnife,																			W,    	2110,   	900
+		Msp_GoodNightBat,																			W,    	2150,    	950
+		Msp_BeanBasher,																				W,    	3400,    	1700
 		Msp_PipeAxe,																					W,    	5800,    	2900
 		Msp_PlainBat,																					W,    	1900,    	950
-		Msp_PlainBat_Blue,																				W,    	1900,    	950
-		Msp_PlainBat_Black,																				W,    	1900,    	950
-		Msp_BlunderBat,																					W,    	2400,    	1200
+		Msp_PlainBat_Blue,																		W,    	1900,    	950
+		Msp_PlainBat_Black,																		W,    	1900,    	950
+		Msp_BlunderBat,																				W,    	2400,    	1200
 		Msp_BassAxe,																					W,    	5000,    	2500
 
 
 	<Category> Пистолеты
 		Flaregun,            															   			    W,		2600,	1100
 		MakarovIJ70,																					W,		800,	350
-		CZ75,																							W,		1050,	500
-		FNX45,																							W,		1900,	700
-		Glock19,																						W,		1100,	500
-		MKII,																							W,		700,	350
-		Colt1911,																						W,		1200,	500
+		CZ75,																									W,		1050,	500
+		FNX45,																								W,		1900,	700
+		Glock19,																							W,		1100,	500
+		MKII,																									W,		700,	350
+		Colt1911,																							W,		1200,	500
 		Engraved1911,																					W,		1340,	550
-		MSFC_1911_Golden,																				W,		-1,		80000
+		MSFC_1911_Golden,																			W,		-1,		80000
 		TTC_Kimber, W, 3500, 1000
 
 
 
 		<Category> Винтовки
-			Izh18,																						W,		950,	440
+			Izh18,																							W,		950,	440
 			Mosin9130,																					W,		3600,	1900
-			CZ527,																						W,		4100,	2600
+			CZ527,																							W,		4100,	2600
 			Winchester70,																				W,		4500,	2700
-			SKS,																						W,		4500,	1600
+			SKS,																								W,		4500,	1600
 			MSFC_VPO136,																				W,		6000,	3000 //7,62×39 мм
 
 
 		<Category> Дробовики
 			Mp133Shotgun,																				W,		4500,	2250
 			Izh43Shotgun,																				W,		2200,	1000
-			Saiga,																						W,		6500,	3600
-			MSFC_BlackEagleII,																			W,		5000,		3000
-			MSFC_Mossberg590,																			W,		5000,		3000
+			Saiga,																							W,		6500,	3600
+			MSFC_BlackEagleII,																	W,		5000,		3000
+			MSFC_Mossberg590,																		W,		5000,		3000
 			MSFC_Vepr15,																				W,		5000,		3000
-			TTC_Maverick, W, 5000, 2500
-			TTC_Mossberg, W, 5500, 2500
+			TTC_Maverick, 																			W, 5000, 2500
+			TTC_Mossberg, 																			W, 5500, 2500
 
 
 
@@ -514,10 +634,10 @@
 			MSFC_PP19_Vityaz_Green,															W,		5000,		2500
 			MSFC_PP19_Vityaz_Desert,														W,		5000,		2500
 			MSFC_PP19_Vityaz_White,															W,		5000,		2500
-			TTC_AACHoney,																	 W, 20000, 7500
-			TTC_AACHoney_B, 															W, 20000, 7500
-			TTC_AACHoney_300blk, 														W, 20000, 7500
-			TTC_AACHoney_300blk_B, 														W, 20000, 7500
+			TTC_AACHoney,																	 			W, 20000, 7500
+			TTC_AACHoney_B, 																		W, 20000, 7500
+			TTC_AACHoney_300blk, 																W, 20000, 7500
+			TTC_AACHoney_300blk_B, 															W, 20000, 7500
 
 
 		<Category> Автоматы
@@ -583,91 +703,91 @@
 			MSFC_HK416,																					W,		17000,	8000
 			MSFC_HK416_Black,																		W,		17000,	8000
 			MSFC_HK416_Green,																		W,		17000,	8000
-			MSFC_HK416_Desert,																		W,		17000,	8000
+			MSFC_HK416_Desert,																	W,		17000,	8000
 			MSFC_HK416_White,																		W,		17000,	8000
-			MSFC_MSBS,																				W,		14000,	5900
+			MSFC_MSBS,																					W,		14000,	5900
 			MSFC_MSBS_Black,																		W,		14000,	5900
 			MSFC_MSBS_Green,																		W,		14000,	5900
 			MSFC_MSBS_Desert,																		W,		14000,	5900
-			TTC_KAC, 																				W, 		20000, 	7500
-			TTC_Winchester1873, 																	W, 		20000, 7500
-			TTC_kar98k,																				W, 		20000, 7500
-			TTC_R700, 																				W, 		20000, 7500
-			TTCSR25,																				W,		20000, 7500
+			TTC_KAC, 																						W, 		20000, 	7500
+			TTC_Winchester1873, 																W, 		20000, 7500
+			TTC_kar98k,																					W, 		20000, 7500
+			TTC_R700, 																					W, 		20000, 7500
+			TTCSR25,																						W,		20000, 7500
 			TTCSR25_Desert, 																		W, 		20000, 7500
 			TTCSR25_Snow, 																			W, 		20000, 7500
-			TTCSR25_OD, 																			W, 		20000, 7500
+			TTCSR25_OD, 																				W, 		20000, 7500
 			TTC_HK416Tan, 																			W, 20000, 7500
-			TTC_HK416OD, 																			W, 20000, 7500
+			TTC_HK416OD, 																				W, 20000, 7500
 			TTC_HK416Black, 																		W, 20000, 7500
-			TTC_SG552, 																				W, 20000, 7500
+			TTC_SG552, 																					W, 20000, 7500
 			TTC_SG552_Wood, 																		W, 20000, 7500
 			TTC_SG552_Black, 																		W, 20000, 7500
-			TTC_SG550, 																				W, 20000, 7500
+			TTC_SG550, 																					W, 20000, 7500
 			TTC_SG550_Black, 																		W, 20000, 7500
 			TTC_SG550_Pink, 																		W, 20000, 7500
-			TTC_M16, 																				W, 20000, 7500
-			TTC_AEK973, 																			W, 20000, 7500
-			TTC_M4DMR, 																				W, 20000, 7500
-			TTC_M4DMROD,																		 	W, 20000, 7500
+			TTC_M16, 																						W, 20000, 7500
+			TTC_AEK973, 																				W, 20000, 7500
+			TTC_M4DMR, 																					W, 20000, 7500
+			TTC_M4DMROD,																			 	W, 20000, 7500
 			TTC_M4DMRDesert,																 		W, 20000, 7500
-			TTC_SCARL, W, 20000, 7500
-			TTC_SCARLSnow, W, 20000, 7500
-			TTC_SCARLBlack, W, 20000, 7500
-			TTC_M16A4, W, 5000, 2000
-			TTC_M4Tac, W, 8000, 3500
-			TTC_AK12, W, 20000, 7500
-			TTC_AK12_Worn, W, 20000, 7500
-			TTC_G3, W, 20000, 7500
-			TTC_AKMod, W, 20000, 7500
-			TTC_AKMod_Gold, W, 200000, 7500
-			TTC_AKMod_Snow, W, 20000, 7500
-			TTC_AKMod_Multi, W, 20000, 7500
-			TTC_AKMod_Digi, W, 20000, 7500
-			TTC_AKMod_Tan, W, 20000, 7500
-			TTC_AKModPK, W, 25000, 7500
-			TTC_AKModPK_Gold, W, 25000, 7500
-			TTC_AKModPK_Snow, W, 25000, 7500
-			TTC_AKModPK_Multi, W, 25000, 7500
-			TTC_AKModPK_Digi, W, 25000, 7500
-			TTC_AKModPK_Tan, W, 25000, 7500
+			TTC_SCARL, 																					W, 20000, 7500
+			TTC_SCARLSnow, 																			W, 20000, 7500
+			TTC_SCARLBlack, 																		W, 20000, 7500
+			TTC_M16A4, 																					W, 5000, 2000
+			TTC_M4Tac, 																					W, 8000, 3500
+			TTC_AK12, 																					W, 20000, 7500
+			TTC_AK12_Worn, 																			W, 20000, 7500
+			TTC_G3, 																						W, 20000, 7500
+			TTC_AKMod, 																					W, 20000, 7500
+			TTC_AKMod_Gold,		  																W, 200000, 7500
+			TTC_AKMod_Snow, 																		W, 20000, 7500
+			TTC_AKMod_Multi, 																		W, 20000, 7500
+			TTC_AKMod_Digi, 																		W, 20000, 7500
+			TTC_AKMod_Tan, 																			W, 20000, 7500
+			TTC_AKModPK, 																				W, 25000, 7500
+			TTC_AKModPK_Gold, 																	W, 25000, 7500
+			TTC_AKModPK_Snow, 																	W, 25000, 7500
+			TTC_AKModPK_Multi, 																	W, 25000, 7500
+			TTC_AKModPK_Digi, 																	W, 25000, 7500
+			TTC_AKModPK_Tan, 																		W, 25000, 7500
 
 		<Category> Sniper Rifles
-			TTC_M110, W, 20000, 7500
-			TTC_M110_Black, W, 20000, 7500
-			TTC_M14, W, 20000, 7500
-			TTC_M14_Camo, W, 20000, 7500
-			TTC_M14_Snow, W, 20000, 7500
-			VSS,																					W,		51600,	15000
-			B95,																					W,		31000,	15000
-			SVD,																					W,		23000,	10000
+			TTC_M110, 																					W, 20000, 7500
+			TTC_M110_Black, 																		W, 20000, 7500
+			TTC_M14, 																						W, 20000, 7500
+			TTC_M14_Camo, 																			W, 20000, 7500
+			TTC_M14_Snow, 																			W, 20000, 7500
+			VSS,																								W,		51600,	15000
+			B95,																								W,		31000,	15000
+			SVD,																								W,		23000,	10000
 			MSFC_SVD_Desert,																		W,		26000,	12000
 			MSFC_SVD_White,																			W,		26000,	12000
 			MSFC_SVD_Green,																			W,		26000,	12000
 			MSFC_SVD_Wooden,																		W,		26000,	12000
-			MSFC_Tigr308,																			W,		28000,	14000
-			MSFC_L96A1,																				W,		29000,	18000
+			MSFC_Tigr308,																				W,		28000,	14000
+			MSFC_L96A1,																					W,		29000,	18000
 			MSFC_L96A1_Black,																		W,		35000,	18000
 			MSFC_L96A1_Green,																		W,		30000,	15000
-			MSFC_L96A1_Desert,																		W,		30000,	15000
+			MSFC_L96A1_Desert,																	W,		30000,	15000
 			MSFC_L96A1_White,																		W,		30000,	15000
-			MSFC_CZ805,																				W,		15000,	7000
+			MSFC_CZ805,																					W,		15000,	7000
 			MSFC_CZ805_Black,																		W,		18000,	9000
 			MSFC_CZ805_Green,																		W,		18000,	9000
-			MSFC_CZ805_Desert,																		W,		18000,	9000
+			MSFC_CZ805_Desert,																	W,		18000,	9000
 			MSFC_CZ805_White,																		W,		18000,	9000
 			MSFC_AR15_762x39,																		W,		12000,	6000
-			TTC_MAS36,																				W, 		20000, 	7500
+			TTC_MAS36,																					W, 		20000, 	7500
 			TTC_M1Carbine, 																			W, 		20000, 	7500
-			TTC_FD338, 																				W, 		80000, 	7500
-			TTC_M24,  																				W, 40000, 7500
-			TTC_M24_Bjorn,  																		W, 40000, 7500
-			TTC_M24_Woodland,  																		W, 40000, 7500
-			TTC_M24_WoodlandOld,  																	W, 40000, 7500
-			TTC_SCARHBlack, 																		W, 20000, 7500
-			TTC_HKG28, 																				W, 40000, 7500
-			TTC_LeeEnfield, W, 7000, 4500
-			TTC_M1Garand, W, 7000, 4000
+			TTC_FD338, 																					W, 		80000, 	7500
+			TTC_M24,  																					W, 	40000, 7500
+			TTC_M24_Bjorn,  																		W, 	40000, 7500
+			TTC_M24_Woodland,  																	W, 	40000, 7500
+			TTC_M24_WoodlandOld,  															W,	 40000, 7500
+			TTC_SCARHBlack, 																		W,	 20000, 7500
+			TTC_HKG28, 																					W,	 40000, 7500
+			TTC_LeeEnfield, 																		W,	 7000, 4500
+				TTC_M1Garand, 																		W,	 7000, 4000
 
 
 
@@ -687,34 +807,34 @@
 			<Category> Черный Торговец
 			Никто его не видел, но все говорят, что он где-то есть.
 			Я готов купить у вас это оружие..
-			MSFC_BarrettM82,																W,		-1,		100000
+			MSFC_BarrettM82,																		W,		-1,		100000
 			MSFC_BarrettM82_Black,															W,		-1,		100000
 			MSFC_BarrettM82_Green,															W,		-1,		100000
 			MSFC_BarrettM82_Desert,															W,		-1,		100000
 			MSFC_BarrettM82_White,															W,		-1,		100000
-			MSFC_ORSIS_T5000,																W,		-1,		120000
+			MSFC_ORSIS_T5000,																		W,		-1,		120000
 			MSFC_ORSIS_T5000_Black,															W,		-1,		120000
 			MSFC_ORSIS_T5000_Green,															W,		-1,		120000
 			MSFC_ORSIS_T5000_Desert,														W,		-1,		120000
 			MSFC_ORSIS_T5000_White,															W,		-1,		120000
-			MSFC_OSV96,																		W,		-1,		120000
-			MSFC_OSV96_Black,																W,		-1,		120000
-			MSFC_OSV96_Green,																W,		-1,		120000
-			MSFC_OSV96_Desert,																W,		-1,		120000
-			MSFC_OSV96_White,																W,		-1,		120000
-			TTC_Beowulf,																	W, 		-1,		80000
-			TTC_M82, 																		W,		-1,		100000
-			TTC_M82_Tan, 																	W, 		-1,		100000
-			TTC_MRAD, W, -1, 50000
-			TTC_XM2010, W, -1, 75000
-			TTC_R700_Black, W, -1, 9000
+			MSFC_OSV96,																					W,		-1,		120000
+			MSFC_OSV96_Black,																		W,		-1,		120000
+			MSFC_OSV96_Green,																		W,		-1,		120000
+			MSFC_OSV96_Desert,																	W,		-1,		120000
+			MSFC_OSV96_White,																		W,		-1,		120000
+			TTC_Beowulf,																				W, 		-1,		80000
+			TTC_M82, 																						W,		-1,		100000
+			TTC_M82_Tan, 																				W, 		-1,		100000
+			TTC_MRAD, 																					W, -1, 50000
+			TTC_XM2010, 																				W, -1, 75000
+			TTC_R700_Black, 																		W, -1, 9000
 
 
 <Trader> Патроны и все остальное
 	<Category> Патроны россыпью по 10
-		Ammo_380,																			10,		16,		-1
-		Ammo_9x19,																			10,		20,		-1
-		Ammo_22,																			10,		10,		-1
+		Ammo_380,																							10,		16,		-1
+		Ammo_9x19,																						10,		20,		-1
+		Ammo_22,																							10,		10,		-1
 		Ammo_45ACP,																			10,		20,		-1
 		Ammo_12gaPellets,																	10,		10,		5
 		Ammo_12gaSlug,																		10,		15,		5
@@ -1021,315 +1141,315 @@
 
 		<Category> Mortys Attachments
 
-		TTC_DMR_Hndguard, *, 250, 125
-		TTC_DMR_HndguardOD, *, 250, 125
-		TTC_DMR_HndguardDesert, *, 250, 125
-		TTC_AKMod_Hndguard, *, 250, 125
-		TTC_AKMod_Gold_Hndguard, *, 250, 125
-		TTC_AKMod_Snow_Hndguard, *, 250, 125
-		TTC_AKMod_Multi_Hndguard, *, 250, 125
-		TTC_AKMod_Digi_Hndguard, *, 250, 125
-		TTC_AKMod_Tan_Hndguard, *, 250, 125
+		TTC_DMR_Hndguard, 					*, 800, 400
+		TTC_DMR_HndguardOD, 				*, 800, 400
+		TTC_DMR_HndguardDesert, 		*, 800, 400
+		TTC_AKMod_Hndguard, 				*, 800, 400
+		TTC_AKMod_Gold_Hndguard, 		*, -1, 3000
+		TTC_AKMod_Snow_Hndguard, 		*, 800, 400
+		TTC_AKMod_Multi_Hndguard, 	*, 800, 400
+		TTC_AKMod_Digi_Hndguard, 		*, 800, 400
+		TTC_AKMod_Tan_Hndguard, 		*, 800, 400
 
 
 <Trader> Clothing Trader
 	<Category> Glasses
-		SportGlasses_Orange,	*,		17,		8
-		SportGlasses_Blue,		*,		18,		9
-		SportGlasses_Black,		*,		20,		10
-		SportGlasses_Green,		*,		20,		10
-		ThinFramesGlasses,		*,		20,		10
-		ThickFramesGlasses,		*,		23,		11
-		DesignerGlasses,		*,		30,		15
-		AviatorGlasses,			*,		40,		20
-		TacticalGoggles,		*,		60,		30
-		NVGHeadstrap,			*,		200,	120
+		SportGlasses_Orange,	*,		300,		150
+		SportGlasses_Blue,		*,		300,		150
+		SportGlasses_Black,		*,		300,		150
+		SportGlasses_Green,		*,		300,		150
+		ThinFramesGlasses,		*,		300,		150
+		ThickFramesGlasses,		*,		300,		150
+		DesignerGlasses,			*,		300,		150
+		AviatorGlasses,				*,		400,		200
+		TacticalGoggles,			*,		600,		300
+		NVGHeadstrap,					*,		12000,	4000
 
 	<Category> SQUAD MSF-C (Base color clothes)
-			MSFC_OPS_Core_EarProtection_Black,	*,		1000,		650
-			MSFC_OPS_Core_EarProtection_Green,	*,		1000,		650
-			MSFC_OPS_Core_EarProtection_Desert,	*,		1000,		650
-			MSFC_OPS_Core_Mandible_Black,	*,		1000,		650
-			MSFC_OPS_Core_Mandible_Green,	*,		1000,		650
-			MSFC_OPS_Core_Mandible_Desert,	*,		1000,		650
-			MSFC_OPS_Core_Headset_Black,	*,		1000,		650
-			MSFC_OPS_Core_Headset_Green,	*,		1000,		650
-			MSFC_OPS_Core_Headset_Desert,	*,		1000,		650
-			MSFC_Altyn_Visor_Green,	*,		1000,		650
-			MSFC_GP21_Black,	*,		1000,		650
-			MSFC_GP21_Green,	*,		1000,		650
-			MSFC_GP21_Blue,	*,		1000,		650
-			MSFC_GP21_Yellow,	*,		1000,		650
-			MSFC_Balaclava_Skull,	*,		1000,		650
-			MSFC_Balaclava_Black,	*,		1000,		650
-			MSFC_Balaclava_Green,	*,		1000,		650
-			MSFC_Balaclava_Desert,	*,		1000,		650
-			MSFC_Altyn_Green,	*,		1000,		650
-			MSFC_6B47_Black,	*,		1000,		650
-			MSFC_6B47_Green,	*,		1000,		650
-			MSFC_6B47_Desert,	*,		1000,		650
-			MSFC_6B47_Cover_Black,	*,		1000,		650
-			MSFC_6B47_Cover_Green,	*,		1000,		650
-			MSFC_6B47_Cover_Desert,	*,		1000,		650
-			MSFC_OPS_Core_Black,	*,		1000,		650
-			MSFC_OPS_Core_Green,	*,		1000,		650
-			MSFC_OPS_Core_Desert,	*,		1000,		650
-			MSFC_Facemask_Skull,	*,		1000,		650
-			MSFC_Facemask_Black,	*,		1000,		650
-			MSFC_Facemask_Green,	*,		1000,		650
-			MSFC_Facemask_Desert,	*,		1000,		650
-			MSFC_TShirt_Black_Logo,	*,		1000,		650
-			MSFC_Gorka_Jacket_Desert,	*,		1000,		650
-			MSFC_Gorka_Jacket_Green,	*,		1000,		650
-			MSFC_Gorka_Jacket_Blue,	*,		1000,		650
-			MSFC_Gorka_Pants_Desert,	*,		1000,		650
-			MSFC_Gorka_Pants_Green,	*,		1000,		650
-			MSFC_Gorka_Pants_Blue,	*,		1000,		650
-			MSFC_Headset_Black,	*,		1000,		650
-			MSFC_Headset_Green,	*,		1000,		650
-			MSFC_Headset_Desert,	*,		1000,		650
-			MSFC_Ballistic_Goggles_Black,	*,		1000,		650
-			MSFC_Ballistic_Goggles_Green,	*,		1000,		650
-			MSFC_Ballistic_Goggles_Desert,	*,		1000,		650
-			MSFC_Glasses_BBB_Comander,	*,		1000,		650
-			MSFC_Glasses_Bolle_Cobra,	*,		1000,		650
-			MSFC_Glasses_Bolle_Contour_Platinum,	*,		1000,		650
-			MSFC_Glasses_ESS_Crossbow,	*,		1000,		650
-			MSFC_Glasses_ESS_ICE,	*,		1000,		650
-			MSFC_Glasses_ESS_RollBar,	*,		1000,		650
-			MSFC_Glasses_Oakley_M_Frame,	*,		1000,		650
-			MSFC_Tactical_Cap_Black,	*,		1000,		650
-			MSFC_Tactical_Cap_Green,	*,		1000,		650
-			MSFC_Tactical_Cap_Desert,	*,		1000,		650
-			MSFC_CombatHelmet_Black,	*,		1000,		650
-			MSFC_CombatHelmet_Green,	*,		1000,		650
-			MSFC_CombatHelmet_Desert,	*,		1000,		650
-			MSFC_ACH_Black,	*,		1000,		650
-			MSFC_ACH_Green,	*,		1000,		650
-			MSFC_ACH_Desert,	*,		1000,		650
-			MSFC_ZSh12M_Black,	*,		1000,		650
-			MSFC_ZSh12M_Green,	*,		1000,		650
-			MSFC_ZSh12M_Desert,	*,		1000,		650
-			MSFC_ZSh12M_Visor_Black,	*,		1000,		650
-			MSFC_ZSh12M_Visor_Green,	*,		1000,		650
-			MSFC_ZSh12M_Visor_Desert,	*,		1000,		650
-			MSFC_ZSh12M_Visor_AbiBASS,	*,		1000,		650
-			MSFC_WarBelt_Black,	*,		1000,		650
-			MSFC_WarBelt_Green,	*,		1000,		650
-			MSFC_WarBelt_Desert,	*,		1000,		650
-			MSFC_Pouches_Magazine_Black,	*,		1000,		650
-			MSFC_Pouches_Magazine_Green,	*,		1000,		650
-			MSFC_Pouches_Magazine_Desert,	*,		1000,		650
-			MSFC_Pouches_EmptyMags_Black,	*,		1000,		650
-			MSFC_Pouches_EmptyMags_Green,	*,		1000,		650
-			MSFC_Pouches_EmptyMags_Desert,	*,		1000,		650
-			MSFC_Pouches_One_Black,	*,		1000,		650
-			MSFC_Pouches_One_Green,	*,		1000,		650
-			MSFC_Pouches_One_Desert,	*,		1000,		650
-			MSFC_Pouches_Two_Black,	*,		1000,		650
-			MSFC_Pouches_Two_Green,	*,		1000,		650
-			MSFC_Pouches_Two_Desert,	*,		1000,		650
-			MSFC_Pouches_IFAK_Black,	*,		1000,		650
-			MSFC_Pouches_IFAK_Green,	*,		1000,		650
-			MSFC_Pouches_IFAK_Desert,	*,		1000,		650
-			MSFC_Canteen_Black,	*,		1000,		650
-			MSFC_Canteen_Green,	*,		1000,		650
-			MSFC_Canteen_Desert,	*,		1000,		650
-			MSFC_Case,	*,		1000,		650
+			MSFC_OPS_Core_EarProtection_Black,	*,		700,		250
+			MSFC_OPS_Core_EarProtection_Green,	*,		700,		250
+			MSFC_OPS_Core_EarProtection_Desert,	*,		700,		250
+			MSFC_OPS_Core_Mandible_Black,	*,		700,		250
+			MSFC_OPS_Core_Mandible_Green,	*,		700,		250
+			MSFC_OPS_Core_Mandible_Desert,	*,		700,		250
+			MSFC_OPS_Core_Headset_Black,	*,		900,		400
+			MSFC_OPS_Core_Headset_Green,	*,		900,		400
+			MSFC_OPS_Core_Headset_Desert,	*,		900,		400
+			MSFC_Altyn_Visor_Green,	*,		6000,		2500
+			MSFC_GP21_Black,	*,		2500,		1200
+			MSFC_GP21_Green,	*,		2500,		1200
+			MSFC_GP21_Blue,	*,		2500,		1200
+			MSFC_GP21_Yellow,	*,		2500,		1200
+			MSFC_Balaclava_Skull,	*,		500,		200
+			MSFC_Balaclava_Black,	*,		500,		200
+			MSFC_Balaclava_Green,	*,		500,		200
+			MSFC_Balaclava_Desert,	*,		500,		200
+			MSFC_Altyn_Green,	*,		1000,		2200
+			MSFC_6B47_Black,	*,		5000,		2200
+			MSFC_6B47_Green,	*,		5000,		2200
+			MSFC_6B47_Desert,	*,		5000,		2200
+			MSFC_6B47_Cover_Black,	*,		5000,		2200
+			MSFC_6B47_Cover_Green,	*,		5000,		2200
+			MSFC_6B47_Cover_Desert,	*,		5000,		2200
+			MSFC_OPS_Core_Black,	*,		3000,		1100
+			MSFC_OPS_Core_Green,	*,		3000,		1100
+			MSFC_OPS_Core_Desert,	*,		3000,		1100
+			MSFC_Facemask_Skull,	*,		900,		400
+			MSFC_Facemask_Black,	*,		900,		400
+			MSFC_Facemask_Green,	*,		900,		400
+			MSFC_Facemask_Desert,	*,		900,		400
+			MSFC_TShirt_Black_Logo,	*,		400,		200
+			MSFC_Gorka_Jacket_Desert,	*,		1800,		900
+			MSFC_Gorka_Jacket_Green,	*,		1800,		900
+			MSFC_Gorka_Jacket_Blue,	*,		1800,		900
+			MSFC_Gorka_Pants_Desert,	*,		1500,		700
+			MSFC_Gorka_Pants_Green,	*,		1500,		700
+			MSFC_Gorka_Pants_Blue,	*,		1500,		700
+			MSFC_Headset_Black,	*,		900,		400
+			MSFC_Headset_Green,	*,		900,		400
+			MSFC_Headset_Desert,	*,		900,		400
+			MSFC_Ballistic_Goggles_Black,	*,		700,		250
+			MSFC_Ballistic_Goggles_Green,	*,		700,		250
+			MSFC_Ballistic_Goggles_Desert,	*,		700,		250
+			MSFC_Glasses_BBB_Comander,	*,		500,		200
+			MSFC_Glasses_Bolle_Cobra,	*,		500,		200
+			MSFC_Glasses_Bolle_Contour_Platinum,	*,		500,		200
+			MSFC_Glasses_ESS_Crossbow,	*,		500,		200
+			MSFC_Glasses_ESS_ICE,	*,		500,		200
+			MSFC_Glasses_ESS_RollBar,	*,		500,		200
+			MSFC_Glasses_Oakley_M_Frame,	*,		500,		200
+			MSFC_Tactical_Cap_Black,	*,		500,		200
+			MSFC_Tactical_Cap_Green,	*,		500,		200
+			MSFC_Tactical_Cap_Desert,	*,		500,		200
+			MSFC_CombatHelmet_Black,	*,		4000,		650
+			MSFC_CombatHelmet_Green,	*,		4000,		650
+			MSFC_CombatHelmet_Desert,	*,		4000,		650
+			MSFC_ACH_Black,	*,		1900,		800
+			MSFC_ACH_Green,	*,		1900,		800
+			MSFC_ACH_Desert,	*,		1900,		800
+			MSFC_ZSh12M_Black,	*,		4000,		1750
+			MSFC_ZSh12M_Green,	*,		4000,		1750
+			MSFC_ZSh12M_Desert,	*,		4000,		1750
+			MSFC_ZSh12M_Visor_Black,	*,		4000,		1750
+			MSFC_ZSh12M_Visor_Green,	*,		4000,		1750
+			MSFC_ZSh12M_Visor_Desert,	*,		4000,		1750
+			MSFC_ZSh12M_Visor_AbiBASS,	*,		4000,	1750
+			MSFC_WarBelt_Black,	*,		2000,		900
+			MSFC_WarBelt_Green,	*,		2000,		900
+			MSFC_WarBelt_Desert,	*,		2000,		900
+			MSFC_Pouches_Magazine_Black,	*,		1000,		500
+			MSFC_Pouches_Magazine_Green,	*,		1000,		500
+			MSFC_Pouches_Magazine_Desert,	*,		1000,		500
+			MSFC_Pouches_EmptyMags_Black,	*,		1000,		500
+			MSFC_Pouches_EmptyMags_Green,	*,		1000,		500
+			MSFC_Pouches_EmptyMags_Desert,	*,		1000,		500
+			MSFC_Pouches_One_Black,	*,		1000,		500
+			MSFC_Pouches_One_Green,	*,		1000,		500
+			MSFC_Pouches_One_Desert,	*,		1000,		500
+			MSFC_Pouches_Two_Black,	*,		1000,		500
+			MSFC_Pouches_Two_Green,	*,		1000,		500
+			MSFC_Pouches_Two_Desert,	*,		1000,		500
+			MSFC_Pouches_IFAK_Black,	*,		1000,		500
+			MSFC_Pouches_IFAK_Green,	*,		1000,		500
+			MSFC_Pouches_IFAK_Desert,	*,		1000,		500
+			MSFC_Canteen_Black,	*,		1200,		400
+			MSFC_Canteen_Green,	*,		1200,		400
+			MSFC_Canteen_Desert,	*,		1200,		400
+			MSFC_Case,	*,		2000,		1000
 			MSFC_FirstAidKit,	*,		1000,		650
-			MSFC_Smersh_Vest_Black,	*,		1000,		650
-			MSFC_Smersh_Vest_Green,	*,		1000,		650
-			MSFC_Smersh_Vest_Desert,	*,		1000,		650
-			MSFC_Smersh_Bag_Black,	*,		1000,		650
-			MSFC_Smersh_Bag_Green,	*,		1000,		650
-			MSFC_Smersh_Bag_Desert,	*,		1000,		650
-			MSFC_TacticalBelt_Black,	*,		1000,		650
-			MSFC_TacticalBelt_Green,	*,		1000,		650
-			MSFC_TacticalBelt_Desert,	*,		1000,		650
-			MSFC_JPC_Vest_Black,	*,		1000,		650
-			MSFC_JPC_Vest_Green,	*,		1000,		650
-			MSFC_JPC_Vest_Desert,	*,		1000,		650
-			MSFC_TacTec_Vest_Black,	*,		1000,		650
-			MSFC_TacTec_Vest_Green,	*,		1000,		650
-			MSFC_TacTec_Vest_Desert,	*,		1000,		650
-			MSFC_6B45_Vest_Black,	*,		1000,		650
-			MSFC_6B45_Vest_Green,	*,		1000,		650
-			MSFC_6B45_Vest_Desert,	*,		1000,		650
-			MSFC_OPS_Core_Visor_Black,	*,		1000,		650
-			MSFC_OPS_Core_Visor_Green,	*,		1000,		650
-			MSFC_OPS_Core_Visor_Desert,	*,		1000,		650
-			MSFC_MTV_Vest_Black,	*,		1000,		650
-			MSFC_MTV_Vest_Green,	*,		1000,		650
-			MSFC_MTV_Vest_Desert,	*,		1000,		650
-			MSFC_Defender_Vest_Green,	*,		1000,		650
-			MSFC_Defender_Vest_Black,	*,		1000,		650
-			MSFC_Defender_Vest_Desert,	*,		1000,		650
-			MSFC_CargoBag_Black,	*,		1000,		650
-			MSFC_CargoBag_Green,	*,		1000,		650
-			MSFC_CargoBag_Desert,	*,		1000,		650
-			MSFC_PegasusBag_Black,	*,		1000,		650
-			MSFC_PegasusBag_Green,	*,		1000,		650
-			MSFC_PegasusBag_Desert,	*,		1000,		650
-			MSFC_MilitaryTacticalBag30L_Black,	*,		1000,		650
-			MSFC_MilitaryTacticalBag30L_Green,	*,		1000,		650
-			MSFC_MilitaryTacticalBag30L_Desert,	*,		1000,		650
-			MSFC_MilitaryTacticalBag70L_Black,	*,		1000,		650
-			MSFC_MilitaryTacticalBag70L_Green,	*,		1000,		650
-			MSFC_MilitaryTacticalBag70L_Desert,	*,		1000,		650
-			MSFC_G3Pants_Black,	*,		1000,		650
-			MSFC_G3Pants_Green,	*,		1000,		650
-			MSFC_G3Pants_Desert,	*,		1000,		650
-			MSFC_PlateCarrier_Vest_Black,	*,		1000,		650
-			MSFC_PlateCarrier_Vest_Green,	*,		1000,		650
-			MSFC_PlateCarrier_Vest_Desert,	*,		1000,		650
-			MSFC_PlateCarrier_Holster_Black,	*,		1000,		650
-			MSFC_PlateCarrier_Pouches_Black,	*,		1000,		650
-			MSFC_PlateCarrier_Holster_Green,	*,		1000,		650
-			MSFC_PlateCarrier_Pouches_Green,	*,		1000,		650
-			MSFC_PlateCarrier_Holster_Desert,	*,		1000,		650
-			MSFC_PlateCarrier_Pouches_Desert,	*,		1000,		650
+			MSFC_Smersh_Vest_Black,	*,		1100,		500
+			MSFC_Smersh_Vest_Green,	*,		1100,		500
+			MSFC_Smersh_Vest_Desert,	*,		1100,	500
+			MSFC_Smersh_Bag_Black,	*,		1400,		650
+			MSFC_Smersh_Bag_Green,	*,		1400,		650
+			MSFC_Smersh_Bag_Desert,	*,		1400,		650
+			MSFC_TacticalBelt_Black,	*,		9000,		4600
+			MSFC_TacticalBelt_Green,	*,		9000,		4600
+			MSFC_TacticalBelt_Desert,	*,		9000,		4600
+			MSFC_JPC_Vest_Black,	*,		6000,		2900
+			MSFC_JPC_Vest_Green,	*,		6000,		2900
+			MSFC_JPC_Vest_Desert,	*,		6000,		2900
+			MSFC_TacTec_Vest_Black,	*,		5300,		2650
+			MSFC_TacTec_Vest_Green,	*,		5300,		2650
+			MSFC_TacTec_Vest_Desert,	*,		5300,		2650
+			MSFC_6B45_Vest_Black,	*,		7000,		3500
+			MSFC_6B45_Vest_Green,	*,		7000,		3500
+			MSFC_6B45_Vest_Desert,	*,		7000,	3500
+			MSFC_OPS_Core_Visor_Black,	*,		2500,		1200
+			MSFC_OPS_Core_Visor_Green,	*,		2500,		1200
+			MSFC_OPS_Core_Visor_Desert,	*,		2500,		1200
+			MSFC_MTV_Vest_Black,	*,		8000,		3500
+			MSFC_MTV_Vest_Green,	*,		8000,		3500
+			MSFC_MTV_Vest_Desert,	*,		8000,		3500
+			MSFC_Defender_Vest_Green,	*,		7000,		3500
+			MSFC_Defender_Vest_Black,	*,		7000,		3500
+			MSFC_Defender_Vest_Desert,	*,		7000,	3500
+			MSFC_CargoBag_Black,	*,		4200,		1900
+			MSFC_CargoBag_Green,	*,		4200,		1900
+			MSFC_CargoBag_De4200sert,	*,		4200,		1900
+			MSFC_PegasusBag_Black,	*,		8000,		3900
+			MSFC_PegasusBag_Green,	*,		8000,		3900
+			MSFC_PegasusBag_Desert,	*,		8000,		3900
+			MSFC_MilitaryTacticalBag30L_Black,	*,		5500,		2000
+			MSFC_MilitaryTacticalBag30L_Green,	*,		5500,		2000
+			MSFC_MilitaryTacticalBag30L_Desert,	*,		5500,		2000
+			MSFC_MilitaryTacticalBag70L_Black,	*,		12000,		6500
+			MSFC_MilitaryTacticalBag70L_Green,	*,		12000,		6500
+			MSFC_MilitaryTacticalBag70L_Desert,	*,		1200,		6500
+			MSFC_G3Pants_Black,	*,		1500,		700
+			MSFC_G3Pants_Green,	*,		1500,		700
+			MSFC_G3Pants_Desert,	*,		1500,		700
+			MSFC_PlateCarrier_Vest_Black,	*,		5000,		2500
+			MSFC_PlateCarrier_Vest_Green,	*,		5000,		2500
+			MSFC_PlateCarrier_Vest_Desert,	*,		5000,		2500
+			MSFC_PlateCarrier_Holster_Black,	*,		5000,		2500
+			MSFC_PlateCarrier_Pouches_Black,	*,		5000,		2500
+			MSFC_PlateCarrier_Holster_Green,	*,		5000,		2500
+			MSFC_PlateCarrier_Pouches_Green,	*,		5000,		2500
+			MSFC_PlateCarrier_Holster_Desert,	*,		5000,		2500
+			MSFC_PlateCarrier_Pouches_Desert,	*,		5000,		2500
 			//MSFC_MPC_Vest_Black,	*,		1000,		650
 			//MSFC_MPC_Vest_Green,	*,		1000,		650
 			//MSFC_MPC_Vest_Desert,	*,		1000,		650
 
 	<Category> Armbands
-		Armband_Pink,			*,		15,		5
-		Armband_Yellow,			*,		15,		5
-		Armband_Orange,			*,		15,		5
-		Armband_Red,			*,		15,		5
-		Armband_Blue,			*,		15,		5
-		Armband_White,			*,		15,		5
-		Armband_Black,			*,		15,		5
-		Armband_Green,			*,		15,		5
+		Armband_Pink,			*,		150,		50
+		Armband_Yellow,			*,		150,		50
+		Armband_Orange,			*,		150,		50
+		Armband_Red,			*,		150,		50
+		Armband_Blue,			*,		150,		50
+		Armband_White,			*,		150,		50
+		Armband_Black,			*,		150,		50
+		Armband_Green,			*,		150,		50
 
 	<Category> Gloves
-		SurgicalGloves_LightBlue,*,		5,		1
-		SurgicalGloves_Blue,	*,		5,		1
-		SurgicalGloves_White,	*,		5,		1
-		SurgicalGloves_Green,	*,		5,		1
-		WorkingGloves_Yellow,	*,		25,		6
-		WorkingGloves_Beige,	*,		30,		8
-		WorkingGloves_Brown,	*,		30,		8
-		WorkingGloves_Black,	*,		30,		8
-		TacticalGloves_Beige,	*,		35,		10
-		TacticalGloves_Black,	*,		35,		10
-		TacticalGloves_Green,	*,		35,		10
-		OMNOGloves_Gray,		*,		40,		12
-		OMNOGloves_Brown,		*,		40,		12
-		NBCGlovesGray,			*,		65,		20
+		SurgicalGloves_LightBlue,			*,		200,		100
+		SurgicalGloves_Blue,					*,		200,		100
+		SurgicalGloves_White,					*,		200,		100
+		SurgicalGloves_Green,					*,		200,		100
+		WorkingGloves_Yellow,					*,		250,		100
+		WorkingGloves_Beige,					*,		300,		100
+		WorkingGloves_Brown,					*,		300,		100
+		WorkingGloves_Black,					*,		300,		100
+		TacticalGloves_Beige,					*,		350,		100
+		TacticalGloves_Black,					*,		350,		100
+		TacticalGloves_Green,					*,		350,		100
+		OMNOGloves_Gray,							*,		400,		120
+		OMNOGloves_Brown,							*,		400,		120
+		NBCGlovesGray,								*,		650,		200
 
 	<Category> Hats & Caps
-		MedicalScrubsHat_Blue,	*,		2,		1
-		MedicalScrubsHat_White,	*,		2,		1
-		MedicalScrubsHat_Green,	*,		2,		1
-		Bandana_Polkapattern,	*,		6,		2
-		Bandana_Redpattern,		*,		6,		2
-		Bandana_Blackpattern,	*,		6,		2
-		Bandana_Greenpattern,	*,		8,		2
-		Bandana_Camopattern,	*,		10,		3
-		BaseballCap_CMMG_Pink,	*,		12,		3
-		BaseballCap_Pink,		*,		12,		3
-		BaseballCap_Red,		*,		12,		3
-		BaseballCap_Blue,		*,		12,		3
-		BaseballCap_Beige,		*,		12,		3
-		BaseballCap_CMMG_Black,	*,		12,		3
-		BaseballCap_Black,		*,		13,		3
-		BaseballCap_Olive,		*,		14,		4
-		BaseballCap_Camo,		*,		16,		5
-		PrisonerCap,			*,		16,		5
-		BoonieHat_Orange,		*,		16,		5
-		BoonieHat_Red,			*,		16,		5
-		BoonieHat_Blue,			*,		16,		5
-		BoonieHat_NavyBlue,		*,		16,		5
-		BoonieHat_Black,		*,		17,		5
-		BoonieHat_Tan,			*,		18,		6
-		BoonieHat_Olive,		*,		18,		6
-		BoonieHat_DPM,			*,		20,		7
-		BoonieHat_Dubok,		*,		20,		7
-		BoonieHat_Flecktran,	*,		20,		7
-		CowboyHat_Brown,		*,		20,		7
-		CowboyHat_darkBrown,	*,		20,		7
-		CowboyHat_black,		*,		20,		7
-		CowboyHat_green,		*,		20,		7
-		PilotkaCap,				*,		25,		7
-		OfficerHat,				*,		25,		7
-		PoliceCap,				*,		25,		7
-		MilitaryBeret_ChDKZ,	*,		26,		7
-		MilitaryBeret_Red,		*,		26,		7
-		MilitaryBeret_UN,		*,		26,		7
-		MilitaryBeret_CDF,		*,		27,		7
-		MilitaryBeret_NZ,		*,		27,		7
-		BeanieHat_Pink,			*,		30,		8
-		BeanieHat_Red,			*,		30,		8
-		BeanieHat_Blue,			*,		30,		8
-		BeanieHat_Grey,			*,		30,		8
-		BeanieHat_Beige,		*,		30,		8
-		BeanieHat_Brown,		*,		30,		8
-		BeanieHat_Black,		*,		31,		8
-		BeanieHat_Green,		*,		32,		9
-		FlatCap_Red,			*,		32,		8
-		FlatCap_Blue,			*,		32,		8
-		FlatCap_BrownCheck,		*,		32,		8
-		FlatCap_GreyCheck,		*,		32,		8
-		FlatCap_Grey,			*,		32,		8
-		FlatCap_Brown,			*,		32,		8
-		FlatCap_Black,			*,		32,		8
-		FlatCap_BlackCheck,		*,		32,		8
-		ZmijovkaCap_Red,		*,		36,		9
-		ZmijovkaCap_Blue,		*,		36,		9
-		ZmijovkaCap_Brown,		*,		36,		9
-		ZmijovkaCap_Black,		*,		37,		9
-		ZmijovkaCap_Green,		*,		38,		10
-		RadarCap_Red,			*,		40,		10
-		RadarCap_Blue,			*,		40,		10
-		RadarCap_Brown,			*,		40,		10
-		RadarCap_Black,			*,		42,		10
-		RadarCap_Green,			*,		45,		12
-		Ushanka_Blue,			*,		50,		15
-		Ushanka_Black,			*,		50,		15
-		Ushanka_Green,			*,		55,		18
-		NBCHoodGray,			*,		100,	30
+		MedicalScrubsHat_Blue,	*,		200,		100
+		MedicalScrubsHat_White,	*,		200,		100
+		MedicalScrubsHat_Green,	*,		200,		100
+		Bandana_Polkapattern,	*,		600,		100
+		Bandana_Redpattern,		*,		200,		100
+		Bandana_Blackpattern,	*,		200,		100
+		Bandana_Greenpattern,	*,		200,		100
+		Bandana_Camopattern,	*,		200,		100
+		BaseballCap_CMMG_Pink,	*,		200,		100
+		BaseballCap_Pink,		*,		200,		100
+		BaseballCap_Red,		*,		200,		100
+		BaseballCap_Blue,		*,		200,		100
+		BaseballCap_Beige,		*,		200,		100
+		BaseballCap_CMMG_Black,	*,		200,		100
+		BaseballCap_Black,		*,		200,		100
+		BaseballCap_Olive,		*,		200,		100
+		BaseballCap_Camo,		*,		200,		100
+		PrisonerCap,			*,		200,		100
+		BoonieHat_Orange,		*,		200,		100
+		BoonieHat_Red,			*,		200,		100
+		BoonieHat_Blue,			*,		200,		100
+		BoonieHat_NavyBlue,		*,	200,		100
+		BoonieHat_Black,		*,		200,		100
+		BoonieHat_Tan,			*,		200,		100
+		BoonieHat_Olive,		*,		200,		100
+		BoonieHat_DPM,			*,		200,		100
+		BoonieHat_Dubok,		*,		200,		100
+		BoonieHat_Flecktran,	*,		200,		100
+		CowboyHat_Brown,		*,		200,		100
+		CowboyHat_darkBrown,	*,		200,		100
+		CowboyHat_black,		*,		200,		100
+		CowboyHat_green,		*,		200,		100
+		PilotkaCap,				*,		300,		150
+		OfficerHat,				*,		300,		150
+		PoliceCap,				*,		300,		150
+		MilitaryBeret_ChDKZ,	*,		300,		150
+		MilitaryBeret_Red,		*,		300,		150
+		MilitaryBeret_UN,		*,		300,		150
+		MilitaryBeret_CDF,		*,		300,		150
+		MilitaryBeret_NZ,		*,		300,		150
+		BeanieHat_Pink,			*,		300,		150
+		BeanieHat_Red,			*,		300,		150
+		BeanieHat_Blue,			*,		300,		150
+		BeanieHat_Grey,			*,		300,		150
+		BeanieHat_Beige,		*,		300,		150
+		BeanieHat_Brown,		*,		300,		150
+		BeanieHat_Black,		*,		310,		150
+		BeanieHat_Green,		*,		320,		150
+		FlatCap_Red,			*,		320,		150
+		FlatCap_Blue,			*,		320,		150
+		FlatCap_BrownCheck,		*,		320,		150
+		FlatCap_GreyCheck,		*,		320,		150
+		FlatCap_Grey,			*,		320,		150
+		FlatCap_Brown,			*,		320,		8150
+		FlatCap_Black,			*,		320,		150
+		FlatCap_BlackCheck,		*,		320,		150
+		ZmijovkaCap_Red,		*,		360,		150
+		ZmijovkaCap_Blue,		*,		360,		150
+		ZmijovkaCap_Brown,		*,		360,		150
+		ZmijovkaCap_Black,		*,		370,		150
+		ZmijovkaCap_Green,		*,		380,		150
+		RadarCap_Red,			*,		400,		100
+		RadarCap_Blue,			*,		400,		150
+		RadarCap_Brown,			*,		400,		150
+		RadarCap_Black,			*,		420,		150
+		RadarCap_Green,			*,		450,		120
+		Ushanka_Blue,			*,		500,		150
+		Ushanka_Black,			*,		500,		150
+		Ushanka_Green,			*,		550,		180
+		NBCHoodGray,			*,		5000,	2200
 
 	<Category> Helmets
-		ConstructionHelmet_Yellow,*,	30,		7
-		ConstructionHelmet_Orange,*,	30,		7
-		ConstructionHelmet_Red,	*,		30,		7
-		ConstructionHelmet_Blue,*,		30,		7
-		ConstructionHelmet_White,*,		30,		7
-		ConstructionHelmet_Lime,*,		33,		8
-		SkateHelmet_Red,		*,		45,		12
-		SkateHelmet_Blue,		*,		45,		12
-		SkateHelmet_Gray,		*,		45,		12
-		SkateHelmet_Black,		*,		47,		12
-		SkateHelmet_Green,		*,		50,		13
-		HockeyHelmet_Red,		*,		50,		13
-		HockeyHelmet_Blue,		*,		50,		13
-		HockeyHelmet_White,		*,		50,		13
-		HockeyHelmet_Black,		*,		55,		14
-		DirtBikeHelmet_Mouthguard,*,	15,		4
-		DirtBikeHelmet_Visor,	*,		25,		8
-		DirtBikeHelmet_Red,		*,		60,		15
-		DirtBikeHelmet_Blue,	*,		60,		15
-		DirtBikeHelmet_Police,	*,		60,		15
-		DirtBikeHelmet_Green,	*,		60,		15
-		DirtBikeHelmet_Chernarus,*,		60,		15
-		DirtBikeHelmet_Black,	*,		65,		16
-		DirtBikeHelmet_Khaki,	*,		70,		18
-		MotoHelmet_Red,			*,		70,		18
-		MotoHelmet_Blue,		*,		70,		18
-		MotoHelmet_White,		*,		70,		18
-		MotoHelmet_Lime,		*,		70,		18
-		MotoHelmet_Grey,		*,		75,		18
-		MotoHelmet_Black,		*,		75,		20
-		MotoHelmet_Green,		*,		80,		22
-		DarkMotoHelmet_Red,		*,		80,		22
-		DarkMotoHelmet_Blue,	*,		80,		22
-		DarkMotoHelmet_White,	*,		80,		22
-		DarkMotoHelmet_Lime,	*,		80,		22
-		DarkMotoHelmet_Grey,	*,		80,		22
-		DarkMotoHelmet_Black,	*,		85,		23
-		DarkMotoHelmet_Green,	*,		90,		25
-		TankerHelmet,			*,		100,	25
+		ConstructionHelmet_Yellow,*,	300,	150
+		ConstructionHelmet_Orange,*,	300,	150
+		ConstructionHelmet_Red,	*,		300,	150
+		ConstructionHelmet_Blue,*,		300,	150
+		ConstructionHelmet_White,*,		300,	150
+		ConstructionHelmet_Lime,*,		330,	150
+		SkateHelmet_Red,		*,		400,		200
+		SkateHelmet_Blue,		*,		400,		200
+		SkateHelmet_Gray,		*,		400,		200
+		SkateHelmet_Black,		*,		400,		200
+		SkateHelmet_Green,		*,		400,		200
+		HockeyHelmet_Red,		*,		500,		250
+		HockeyHelmet_Blue,		*,		500,		250
+		HockeyHelmet_White,		*,		500,		250
+		HockeyHelmet_Black,		*,		500,		250
+		DirtBikeHelmet_Mouthguard,*,	600,	250
+		DirtBikeHelmet_Visor,	*,		600,		250
+		DirtBikeHelmet_Red,		*,		600,		250
+		DirtBikeHelmet_Blue,	*,		600,		250
+		DirtBikeHelmet_Police,	*,		600,		250
+		DirtBikeHelmet_Green,	*,		600,		250
+		DirtBikeHelmet_Chernarus,*,		600,		250
+		DirtBikeHelmet_Black,	*,		600,		250
+		DirtBikeHelmet_Khaki,	*,	600,		250
+		MotoHelmet_Red,			*,		400,		180
+		MotoHelmet_Blue,		*,		400,		180
+		MotoHelmet_White,		*,		400,		180
+		MotoHelmet_Lime,		*,		400,		18
+		MotoHelmet_Grey,		*,		400,		180
+		MotoHelmet_Black,		*,		400,		200
+		MotoHelmet_Green,		*,		400,		220
+		DarkMotoHelmet_Red,		*,		400,		250
+		DarkMotoHelmet_Blue,	*,		400,		250
+		DarkMotoHelmet_White,	*,		400,		250
+		DarkMotoHelmet_Lime,	*,		400,		250
+		DarkMotoHelmet_Grey,	*,		400,		250
+		DarkMotoHelmet_Black,	*,		400,		250
+		DarkMotoHelmet_Green,	*,		400,		250
+		TankerHelmet,			*,		400,	250
 		GreatHelm,				*,		120,	30
 		ZSh3PilotHelmet,		*,		130,	35
 		FirefightersHelmet_Yellow,*,	150,	40
@@ -1344,53 +1464,53 @@
 		BallisticHelmet_Green,	*,		350,	110
 
 	<Category> Masks
-		SurgicalMask,			*,		15,		3
-		BandanaMask_PolkaPattern,*,		25,		6
-		BandanaMask_RedPattern,	*,		25,		6
-		BandanaMask_BlackPattern,*,		25,		6
-		BandanaMask_GreenPattern,*,		30,		8
-		BandanaMask_CamoPattern,*,		35,		10
-		NioshFaceMask,			*,		40,		10
-		HockeyMask,				*,		40,		10
-		//HoxtonMask,			*,		40,		10
-		//WolfMask,				*,		40,		10
-		//DallasMask,			*,		40,		10
-		Balaclava3Holes_Blue,	*,		50,		12
-		Balaclava3Holes_Beige,	*,		50,		12
-		Balaclava3Holes_Black,	*,		55,		13
-		Balaclava3Holes_Green,	*,		60,		15
-		WeldingMask,			*,		70,		20
-		GP5GasMask,				*,		120,	40
+		SurgicalMask,			*,		150,		50
+		BandanaMask_PolkaPattern,*,		250,		100
+		BandanaMask_RedPattern,	*,		250,		100
+		BandanaMask_BlackPattern,*,		250,		100
+		BandanaMask_GreenPattern,*,		300,		150
+		BandanaMask_CamoPattern,*,		350,		100
+		NioshFaceMask,			*,		400,		200
+		HockeyMask,				*,		400,		200
+		//HoxtonMask,			*,		400,		200
+		//WolfMask,				*,		400,		200
+		//DallasMask,			*,		400,		200
+		Balaclava3Holes_Blue,	*,		500,		250
+		Balaclava3Holes_Beige,	*,		500,	250
+		Balaclava3Holes_Black,	*,		550,	250
+		Balaclava3Holes_Green,	*,		600,	350
+		WeldingMask,			*,		700,		300
+		GP5GasMask,				*,		1200,	400
 
 	<Category> Shirts
-		TShirt_OrangeWhiteStripes,*,	8,		2
-		TShirt_RedBlackStripes,	*,		8,		2
-		TShirt_Red,				*,		8,		2
-		TShirt_Blue,			*,		8,		2
-		TShirt_White,			*,		10,		2
-		TShirt_Grey,			*,		10,		2
-		TShirt_Beige,			*,		10,		2
-		TShirt_Black,			*,		12,		3
-		TShirt_Green,			*,		12,		3
-		TelnyashkaShirt,		*,		14,		3
-		Shirt_RedCheck,			*,		16,		4
-		Shirt_BlueCheckBright,	*,		16,		4
-		Shirt_BlueCheck,		*,		16,		4
-		Shirt_WhiteCheck,		*,		16,		4
-		Shirt_PlaneBlack,		*,		17,		4
-		Shirt_GreenCheck,		*,		18,		4
-		Blouse_Violet,			*,		16,		4
-		Blouse_Blue,			*,		16,		4
-		Blouse_White,			*,		16,		4
-		Blouse_Green,			*,		18,		4
-		MedicalScrubsShirt_Blue,*,		20,		5
-		MedicalScrubsShirt_White,*,		20,		5
-		MedicalScrubsShirt_Green,*,		20,		5
-		ChernarusSportShirt,	*,		25,		6
-		TacticalShirt_Grey,		*,		36,		10
-		TacticalShirt_Tan,		*,		37,		10
-		TacticalShirt_Black,	*,		38,		10
-		TacticalShirt_Olive,	*,		40,		12
+		TShirt_OrangeWhiteStripes,*,	300,		100
+		TShirt_RedBlackStripes,	*,		300,		100
+		TShirt_Red,				*,		300,		100
+		TShirt_Blue,			*,		300,		100
+		TShirt_White,			*,		300,		100
+		TShirt_Grey,			*,		300,		100
+		TShirt_Beige,			*,		300,		100
+		TShirt_Black,			*,		300,		100
+		TShirt_Green,			*,		300,		100
+		TelnyashkaShirt,		*,		300,		100
+		Shirt_RedCheck,			*,		300,		100
+		Shirt_BlueCheckBright,	*,		300,		100
+		Shirt_BlueCheck,		*,		300,		100
+		Shirt_WhiteCheck,		*,		300,		100
+		Shirt_PlaneBlack,		*,		300,		100
+		Shirt_GreenCheck,		*,		300,		100
+		Blouse_Violet,			*,		300,		100
+		Blouse_Blue,			*,		300,		100
+		Blouse_White,			*,		300,		100
+		Blouse_Green,			*,		300,		100
+		MedicalScrubsShirt_Blue,*,		300,		150
+		MedicalScrubsShirt_White,*,		300,		150
+		MedicalScrubsShirt_Green,*,		300,		150
+		ChernarusSportShirt,	*,		300,		150
+		TacticalShirt_Grey,		*,		1200,		600
+		TacticalShirt_Tan,		*,		1200,		600
+		TacticalShirt_Black,	*,		1200,		600
+		TacticalShirt_Olive,	*,		1200,		600
 
 	<Category> Hoodies & Sweater
 		Sweater_Red,			*,		20,		5
@@ -1511,23 +1631,23 @@
 		GorkaEJacket_Summer,	*,		140,	45
 		USMCJacket_Desert,		*,		140,	45
 		USMCJacket_Woodland,	*,		155,	55
-		NBCJacketGray,			*,		250,	80
+		NBCJacketGray,			*,		5000,	2200
 
 	<Category> Skirts & Dresses
-		Skirt_Yellow,			*,		30,		10
-		Skirt_Red,				*,		30,		10
-		Skirt_Blue,				*,		30,		10
-		Skirt_White,			*,		30,		10
-		MiniDress_Pink,			*,		35,		10
-		MiniDress_PinkChecker,	*,		35,		10
-		MiniDress_RedChecker,	*,		35,		10
-		MiniDress_BlueChecker,	*,		35,		10
-		MiniDress_BlueWithDots,	*,		35,		10
-		MiniDress_WhiteChecker,	*,		35,		10
-		MiniDress_BrownChecker,	*,		35,		10
-		MiniDress_GreenChecker,	*,		35,		10
-		NurseDress_Blue,		*,		40,		10
-		NurseDress_White,		*,		40,		10
+		Skirt_Yellow,			*,		300,		100
+		Skirt_Red,				*,		300,		100
+		Skirt_Blue,				*,		300,		100
+		Skirt_White,			*,		300,		100
+		MiniDress_Pink,			*,		350,		100
+		MiniDress_PinkChecker,	*,		350,		100
+		MiniDress_RedChecker,	*,		350,		100
+		MiniDress_BlueChecker,	*,		350,		100
+		MiniDress_BlueWithDots,	*,		350,		100
+		MiniDress_WhiteChecker,	*,		350,		100
+		MiniDress_BrownChecker,	*,		350,		100
+		MiniDress_GreenChecker,	*,		350,		100
+		NurseDress_Blue,		*,		400,		100
+		NurseDress_White,		*,		400,		100
 
 	<Category> Pants
 		MedicalScrubsPants_Blue,*,		10,		2
@@ -1608,80 +1728,80 @@
 		GorkaPants_PautRev,		*,		130,	40
 		GorkaPants_Autumn,		*,		130,	40
 		GorkaPants_Summer,		*,		130,	40
-		NBCPantsGray,			*,		200,	65
+		NBCPantsGray,			*,		5000,	2200
 
 	<Category> Shoes & Boots
-		AthleticShoes_Blue,		*,		17,		4
-		AthleticShoes_Grey,		*,		20,		5
-		AthleticShoes_Brown,	*,		20,		5
-		AthleticShoes_Black,	*,		23,		5
-		AthleticShoes_Green,	*,		23,		5
-		JoggingShoes_Violet,	*,		30,		7
-		JoggingShoes_Red,		*,		30,		7
-		JoggingShoes_Blue,		*,		30,		7
-		JoggingShoes_White,		*,		30,		7
-		JoggingShoes_Black,		*,		30,		7
-		Sneakers_Red,			*,		30,		7
-		Sneakers_White,			*,		30,		7
-		Sneakers_Gray,			*,		30,		7
-		Sneakers_Black,			*,		31,		7
-		Sneakers_Green,			*,		32,		7
-		DressShoes_White,		*,		32,		7
-		DressShoes_Brown,		*,		35,		8
-		DressShoes_Black,		*,		35,		8
-		DressShoes_Beige,		*,		35,		8
-		DressShoes_Sunburst,	*,		35,		8
-		HikingBootsLow_Blue,	*,		45,		12
-		HikingBootsLow_Grey,	*,		45,		12
-		HikingBootsLow_Beige,	*,		48,		13
-		HikingBootsLow_Black,	*,		50,		14
-		WorkingBoots_Yellow,	*,		55,		12
-		WorkingBoots_Grey,		*,		60,		15
-		WorkingBoots_Beige,		*,		60,		15
-		WorkingBoots_Brown,		*,		60,		15
-		WorkingBoots_Green,		*,		65,		17
-		HikingBoots_Brown,		*,		75,		20
-		HikingBoots_Black,		*,		75,		20
-		CombatBoots_Grey,		*,		80,		22
-		CombatBoots_Beige,		*,		80,		22
-		CombatBoots_Brown,		*,		80,		22
-		CombatBoots_Black,		*,		80,		22
-		CombatBoots_Green,		*,		80,		22
-		JungleBoots_Beige,		*,		85,		24
-		JungleBoots_Brown,		*,		85,		24
-		JungleBoots_Black,		*,		85,		24
-		JungleBoots_Olive,		*,		85,		24
-		JungleBoots_Green,		*,		85,		24
-		Wellies_Grey,			*,		85,		25
-		Wellies_Brown,			*,		85,		25
-		Wellies_Black,			*,		85,		25
-		Wellies_Green,			*,		90,		28
-		TTSKOBoots,				*,		100,	35
-		MilitaryBoots_Redpunk,	*,		100,	35
-		MilitaryBoots_Bluerock,	*,		105,	35
-		MilitaryBoots_Beige,	*,		110,	35
-		MilitaryBoots_Brown,	*,		110,	35
-		MilitaryBoots_Black,	*,		110,	35
-		NBCBootsGray,			*,		150,	50
+		AthleticShoes_Blue,		*,		370,		100
+		AthleticShoes_Grey,		*,		300,		100
+		AthleticShoes_Brown,	*,		300,		100
+		AthleticShoes_Black,	*,		330,		100
+		AthleticShoes_Green,	*,		330,		100
+		JoggingShoes_Violet,	*,		300,		100
+		JoggingShoes_Red,		*,		300,		100
+		JoggingShoes_Blue,		*,		300,		100
+		JoggingShoes_White,		*,		300,		100
+		JoggingShoes_Black,		*,		300,		100
+		Sneakers_Red,			*,		300,		100
+		Sneakers_White,			*,		300,		100
+		Sneakers_Gray,			*,		300,		100
+		Sneakers_Black,			*,		310,		100
+		Sneakers_Green,			*,		320,		100
+		DressShoes_White,		*,		320,		100
+		DressShoes_Brown,		*,		350,		100
+		DressShoes_Black,		*,		350,		100
+		DressShoes_Beige,		*,		350,		100
+		DressShoes_Sunburst,	*,		350,		80
+		HikingBootsLow_Blue,	*,		450,		120
+		HikingBootsLow_Grey,	*,		450,		120
+		HikingBootsLow_Beige,	*,		480,		130
+		HikingBootsLow_Black,	*,		500,		140
+		WorkingBoots_Yellow,	*,		550,		120
+		WorkingBoots_Grey,		*,		600,		150
+		WorkingBoots_Beige,		*,		600,		150
+		WorkingBoots_Brown,		*,		600,		150
+		WorkingBoots_Green,		*,		650,		170
+		HikingBoots_Brown,		*,		750,		200
+		HikingBoots_Black,		*,		750,		200
+		CombatBoots_Grey,		*,		800,		220
+		CombatBoots_Beige,		*,		800,		220
+		CombatBoots_Brown,		*,		800,		220
+		CombatBoots_Black,		*,		800,		220
+		CombatBoots_Green,		*,		800,		220
+		JungleBoots_Beige,		*,		850,		240
+		JungleBoots_Brown,		*,		850,		240
+		JungleBoots_Black,		*,		850,		240
+		JungleBoots_Olive,		*,		850,		240
+		JungleBoots_Green,		*,		850,		240
+		Wellies_Grey,			*,		850,		300
+		Wellies_Brown,			*,		850,		300
+		Wellies_Black,			*,		850,		300
+		Wellies_Green,			*,		900,		300
+		TTSKOBoots,				*,		1000,	500
+		MilitaryBoots_Redpunk,	*,		1000,	500
+		MilitaryBoots_Bluerock,	*,		1050,	500
+		MilitaryBoots_Beige,	*,		1100,	550
+		MilitaryBoots_Brown,	*,		1100,	550
+		MilitaryBoots_Black,	*,		1100,	550
+		NBCBootsGray,			*,		5000,	2200
 
 	<Category> Ghillie
 		// Keep in Mind that Players can also
 		// craft Ghillie Clothing and sell them!
-		GhillieAtt_Mossy,		*,		220,	70
-		GhillieAtt_Tan,			*,		220,	70
-		GhillieAtt_Woodland,	*,		220,	70
-		GhillieHood_Mossy,		*,		220,	70
-		GhillieHood_Tan,		*,		220,	70
-		GhillieHood_Woodland,	*,		220,	70
-		GhillieBushrag_Mossy,	*,		400,	130
-		GhillieBushrag_Tan,		*,		400,	130
-		GhillieBushrag_Woodland,*,		400,	130
-		GhillieTop_Mossy,		*,		600,	200
-		GhillieTop_Tan,			*,		600,	200
-		GhillieTop_Woodland,	*,		600,	200
-		GhillieSuit_Mossy,		*,		1000,	300
-		GhillieSuit_Tan,		*,		1000,	300
-		GhillieSuit_Woodland,	*,		1000,	300
+		GhillieAtt_Mossy,							*,		6850,	3100
+		GhillieAtt_Tan,								*,		6850,	3100
+		GhillieAtt_Woodland,					*,		6850,	3100
+		GhillieHood_Mossy,						*,		6000,	2700
+		GhillieHood_Tan,							*,		6000,	2700
+		GhillieHood_Woodland,					*,		6000,	2700
+		GhillieBushrag_Mossy,					*,		5000,	2200
+		GhillieBushrag_Tan,						*,		5000,	2200
+		GhillieBushrag_Woodland,			*,		5000,	2200
+		GhillieTop_Mossy,							*,		8000,	3600
+		GhillieTop_Tan,								*,		8000,	3600
+		GhillieTop_Woodland,					*,		8000,	3600
+		GhillieSuit_Mossy,						*,		12900,	5000
+		GhillieSuit_Tan,							*,		12900,	5000
+		GhillieSuit_Woodland,					*,		12900,	5000
 
 	//<Category> Seasonal
 		//SantasBeard,			*,		15,		0
@@ -1689,105 +1809,273 @@
 		//PumpkinHelmet,		*,		50,		0
 
 	<Category> Holster & Pouches
-		ChestHolster,			*,		60,		20
-		PlateCarrierHolster,	*,		60,		20
-		PlateCarrierPouches,	*,		100,		20
+		ChestHolster,			*,		300,		100
+		PlateCarrierHolster,	*,		600,		200
+		PlateCarrierPouches,	*,		1100,		500
 
 	<Category> Belt
-		CivilianBelt,			*,		100,	30
-		MilitaryBelt,			*,		100,	30
+		CivilianBelt,			*,		800,	300
+		MilitaryBelt,			*,		2000,	800
 
 	<Category> Bags
-		ChildBag_Red,			*,		20,		5
-		ChildBag_Blue,			*,		20,		5
-		ChildBag_Green,			*,		25,		6
-		DryBag_Yellow,			*,		30,		8
-		DryBag_Orange,			*,		30,		8
-		DryBag_Red,				*,		30,		8
-		DryBag_Blue,			*,		30,		8
-		DryBag_Black,			*,		35,		8
+		ChildBag_Red,			*,		1000,	400
+		ChildBag_Blue,			*,	1000,	400
+		ChildBag_Green,			*,	1000,	400
+		DryBag_Yellow,			*,	3200,	200
+		DryBag_Orange,			*,	3200,	200
+		DryBag_Red,				*,		3200,	1500
+		DryBag_Blue,			*,		3200,	1500
+		DryBag_Black,			*,		3500,	1500
 		DryBag_Green,			*,		40,		10
-		TaloonBag_Orange,		*,		50,		10
-		TaloonBag_Violet,		*,		50,		10
-		TaloonBag_Blue,			*,		50,		10
-		TaloonBag_Green,		*,		70,		20
-		SmershBag,				*,		100,	30
-		WaterproofBag_Yellow,	*,		100,	30
-		WaterproofBag_Orange,	*,		100,	30
-		WaterproofBag_Green,	*,		110,	30
-		AssaultBag_Black,		*,		110,	30
-		AssaultBag_Green,		*,		110,	30
-		AssaultBag_Ttsko,		*,		130,	30
-		HuntingBag,				*,		130,	30
-		TortillaBag,			*,		180,	60
-		CoyoteBag_Brown,		*,		180,	60
-		CoyoteBag_Green,		*,		180,	60
-		MountainBag_Orange,		*,		300,	80
-		MountainBag_Red,		*,		300,	80
-		MountainBag_Blue,		*,		300,	80
-		MountainBag_Green,		*,		360,	100
-		AliceBag_Black,			*,		400,	150
-		AliceBag_Green,			*,		400,	150
-		AliceBag_Camo,			*,		500,	220
+		TaloonBag_Orange,		*,	2150,	950
+		TaloonBag_Violet,		*,	2150,	950
+		TaloonBag_Blue,			*,	2150,	950
+		TaloonBag_Green,		*,	2150,	950
+		SmershBag,				*,		900,	350
+		WaterproofBag_Yellow,	*,		800,	300
+		WaterproofBag_Orange,	*,		800,	300
+		WaterproofBag_Green,	*,		800,	300
+		AssaultBag_Black,		*,		4000,	1600
+		AssaultBag_Green,		*,		4000,	1600
+		AssaultBag_Ttsko,		*,		4000,	1600
+		HuntingBag,				*,		4500,	2300
+		TortillaBag,			*,		3800,	1400
+		CoyoteBag_Brown,		*,		4500,	1900
+		CoyoteBag_Green,		*,		5000,	2300
+		MountainBag_Orange,		*,	7000,	3000
+		MountainBag_Red,		*,		7000,	3000
+		MountainBag_Blue,		*,		7000,	3000
+		MountainBag_Green,		*,		7000,	3000
+		AliceBag_Black,			*,		9000,	4000
+		AliceBag_Green,			*,		9000,	4000
+		AliceBag_Camo,			*,		9000,	4000
 
 		<Category> SQUAD MSF-C (NVG)
-			MSFC_NVG,		*,		4500,	2250
-			MSFC_NVG_One,		*,		4500,	2250
-			MSFC_NVG_GPNVG18,		*,		4500,	2250
-			<Category> SQUAD MSF-C (SURPAT)
-				MSFC_Alice_Bag_SURPAT,			*,		1000,		650
-				MSFC_NBC_Hood_SURPAT,			*,		1000,		650
-				MSFC_Mich2001_SURPAT,			*,		1000,		650
-				MSFC_BoonieHat_SURPAT,			*,		1000,		650
-				MSFC_Mich2000_SURPAT,			*,		1000,		650
-				MSFC_Smersh_Vest_SURPAT,			*,		1000,		650
-				MSFC_HighCapacity_Vest_SURPAT,			*,		1000,		650
-				MSFC_PlateCarrier_Vest_SURPAT,			*,		1000,		650
-				MSFC_PlateCarrier_Holster_SURPAT,			*,		1000,		650
-				MSFC_PlateCarrier_Pouches_SURPAT,			*,		1000,		650
-				MSFC_NBC_Pants_SURPAT,			*,		1000,		650
-				MSFC_Gorka_Pants_SURPAT,			*,		1000,		650
-				MSFC_Gorka_Jacket_SURPAT,			*,		1000,		650
-				MSFC_Cargo_Pants_SURPAT,			*,		1000,		650
-				MSFC_TShirt_SURPAT,			*,		1000,		650
-				MSFC_PCU5_SURPAT,			*,		1000,		650
-				MSFC_Sweater_SURPAT,			*,		1000,		650
-				MSFC_NBC_Jacket_SURPAT,			*,		1000,		650
-				MSFC_M65_Jacket_SURPAT,			*,		1000,		650
-				MSFC_Gloves_SURPAT,			*,		1000,		650
-				MSFC_NBC_Gloves_SURPAT,			*,		1000,		650
-				MSFC_NBC_Boots_SURPAT,			*,		1000,		650
-				MSFC_Boots_SURPAT,			*,		1000,		650
-				MSFC_Boots_Lowa_SURPAT,			*,		1000,		650
-				MSFC_Boots_Trekking_SURPAT,			*,		1000,		650
-				MSFC_Tortila_SURPAT,			*,		1000,		650
-				MSFC_Smersh_Bag_SURPAT,			*,		1000,		650
-				MSFC_Mountain_Bag_SURPAT,			*,		1000,		650
-				MSFC_Coyote_Bag_SURPAT,			*,		1000,		650
-				MSFC_PlateCarrier_Vest_SURPAT_Logo,			*,		1000,		650
-				MSFC_HighCapacity_Vest_SURPAT_Logo,			*,		1000,		650
-				MSFC_Gorka_Jacket_SURPAT_NoLogo,			*,		1000,		650
-				MSFC_PCU5_SURPAT_NoLogo,			*,		1000,		650
-				MSFC_Smersh_Bag_Medic_SURPAT,			*,		1000,		650
-				MSFC_OPS_Core_SURPAT,			*,		1000,		650
-				MSFC_Facemask_SURPAT,			*,		1000,		650
-				MSFC_Tactical_Cap_SURPAT,			*,		1000,		650
-				MSFC_WarBelt_SURPAT,			*,		1000,		650
-				MSFC_Pouches_Magazine_SURPAT,			*,		1000,		650
-				MSFC_Pouches_One_SURPAT,			*,		1000,		650
-				MSFC_Pouches_Two_SURPAT,			*,		1000,		650
-				MSFC_Pouches_IFAK_SURPAT,			*,		1000,		650
-				MSFC_Canteen_SURPAT,			*,		1000,		650
-				MSFC_Case_SURPAT,			*,		1000,		650
-				MSFC_TacticalBelt_SURPAT,			*,		1000,		650
-				MSFC_JPC_Vest_SURPAT,			*,		1000,		650
-				MSFC_TacTec_Vest_SURPAT,			*,		1000,		650
-				//MSFC_Defender_Vest_SURPAT,			*,		1000,		650
-				MSFC_CargoBag_SURPAT,			*,		1000,		650
-				MSFC_PegasusBag_SURPAT,			*,		1000,		650
-				MSFC_MilitaryTacticalBag30L_SURPAT,			*,		1000,		650
-				MSFC_MilitaryTacticalBag70L_SURPAT,			*,		1000,		650
-				MSFC_G3Pants_SURPAT,			*,		1000,		650
+			MSFC_NVG,									*,		14500,	5250
+			MSFC_NVG_One,							*,		14500,	5250
+			MSFC_NVG_GPNVG18,					*,		14500,	5250
+
+		<Category> SQUAD MSF-C (SURPAT)
+				MSFC_Alice_Bag_SURPAT,												*,		10000,	4500
+				MSFC_NBC_Hood_SURPAT,													*,		5000,		2400
+				MSFC_Mich2001_SURPAT,													*,		2500,		1400
+				MSFC_BoonieHat_SURPAT,												*,		400,		150
+				MSFC_Mich2000_SURPAT,													*,		3000,		1350
+				MSFC_Smersh_Vest_SURPAT,											*,		1100,		500
+				MSFC_HighCapacity_Vest_SURPAT,								*,		2000,		900
+				MSFC_PlateCarrier_Vest_SURPAT,								*,		5000,		2200
+				MSFC_PlateCarrier_Holster_SURPAT,							*,		600,		200
+				MSFC_PlateCarrier_Pouches_SURPAT,							*,		1200,		500
+				MSFC_NBC_Pants_SURPAT,												*,		5000,		2400
+				MSFC_Gorka_Pants_SURPAT,											*,		1500,		700
+				MSFC_Gorka_Jacket_SURPAT,											*,		1800,		900
+				MSFC_Cargo_Pants_SURPAT,											*,		1500,		700
+				MSFC_TShirt_SURPAT,														*,		200,		100
+				MSFC_PCU5_SURPAT,															*,		1500,		700
+				MSFC_Sweater_SURPAT,													*,		200,		100
+				MSFC_NBC_Jacket_SURPAT,												*,		5000,		2400
+				MSFC_M65_Jacket_SURPAT,												*,		1800,		800
+				MSFC_Gloves_SURPAT,														*,		700,		250
+				MSFC_NBC_Gloves_SURPAT,												*,		5000,		2400
+				MSFC_NBC_Boots_SURPAT,												*,		5000,		2400
+				MSFC_Boots_SURPAT,														*,		1200,		700
+				MSFC_Boots_Lowa_SURPAT,												*,		1500,		900
+				MSFC_Boots_Trekking_SURPAT,										*,		1800,		1000
+				MSFC_Tortila_SURPAT,													*,		5000,		2500
+				MSFC_Smersh_Bag_SURPAT,												*,		900,		350
+				MSFC_Mountain_Bag_SURPAT,											*,		9000,		3500
+				MSFC_Coyote_Bag_SURPAT,												*,		5000,		2300
+				MSFC_PlateCarrier_Vest_SURPAT_Logo,						*,		5000,		2500
+				MSFC_HighCapacity_Vest_SURPAT_Logo,						*,		2000,		900
+				MSFC_Gorka_Jacket_SURPAT_NoLogo,							*,		2000,		800
+				MSFC_PCU5_SURPAT_NoLogo,											*,		1500,		500
+				MSFC_Smersh_Bag_Medic_SURPAT,									*,		900,		350
+				MSFC_OPS_Core_SURPAT,													*,		3000,		1100
+				MSFC_Facemask_SURPAT,													*,		500,		200
+				MSFC_Tactical_Cap_SURPAT,											*,		500,		200
+				MSFC_WarBelt_SURPAT,													*,		2000,		900
+				MSFC_Pouches_Magazine_SURPAT,									*,		1000,		650
+				MSFC_Pouches_One_SURPAT,											*,		1000,		650
+				MSFC_Pouches_Two_SURPAT,											*,		1000,		650
+				MSFC_Pouches_IFAK_SURPAT,											*,		1000,		650
+				MSFC_Canteen_SURPAT,													*,		1200,		400
+				MSFC_Case_SURPAT,															*,		2000,		1000
+				MSFC_TacticalBelt_SURPAT,											*,		9000,		3650
+				MSFC_JPC_Vest_SURPAT,													*,		6000,		650
+				MSFC_TacTec_Vest_SURPAT,											*,		5000,		2800
+				//MSFC_Defender_Vest_SURPAT,									*,		1000,		650
+				MSFC_CargoBag_SURPAT,													*,		4200,		1900
+				MSFC_PegasusBag_SURPAT,												*,		8000,		3900
+				MSFC_MilitaryTacticalBag30L_SURPAT,						*,		5500,		2000
+				MSFC_MilitaryTacticalBag70L_SURPAT,						*,		12000,	6500
+				MSFC_G3Pants_SURPAT,													*,		1500,		650
+
+				<Category> SQUAD MSF-C (ATACSAU)
+						MSFC_Alice_Bag_ATACSAU,												*,		10000,	4500
+						MSFC_NBC_Hood_ATACSAU,													*,		5000,		2400
+						MSFC_Mich2001_ATACSAU,													*,		2500,		1400
+						MSFC_BoonieHat_ATACSAU,												*,		400,		150
+						MSFC_Mich2000_ATACSAU,													*,		3000,		1350
+						MSFC_Smersh_Vest_ATACSAU,											*,		1100,		500
+						MSFC_HighCapacity_Vest_ATACSAU,								*,		2000,		900
+						MSFC_PlateCarrier_Vest_ATACSAU,								*,		5000,		2200
+						MSFC_PlateCarrier_Holster_ATACSAU,							*,		600,		200
+						MSFC_PlateCarrier_Pouches_ATACSAU,							*,		1200,		500
+						MSFC_NBC_Pants_ATACSAU,												*,		5000,		2400
+						MSFC_Gorka_Pants_ATACSAU,											*,		1500,		700
+						MSFC_Gorka_Jacket_ATACSAU,											*,		1800,		900
+						MSFC_Cargo_Pants_ATACSAU,											*,		1500,		700
+						MSFC_TShirt_ATACSAU,														*,		200,		100
+						MSFC_PCU5_ATACSAU,															*,		1500,		700
+						MSFC_Sweater_ATACSAU,													*,		200,		100
+						MSFC_NBC_Jacket_ATACSAU,												*,		5000,		2400
+						MSFC_M65_Jacket_ATACSAU,												*,		1800,		800
+						MSFC_Gloves_ATACSAU,														*,		700,		250
+						MSFC_NBC_Gloves_ATACSAU,												*,		5000,		2400
+						MSFC_NBC_Boots_ATACSAU,												*,		5000,		2400
+						MSFC_Boots_ATACSAU,														*,		1200,		700
+						MSFC_Boots_Lowa_ATACSAU,												*,		1500,		900
+						MSFC_Boots_Trekking_ATACSAU,										*,		1800,		1000
+						MSFC_Tortila_ATACSAU,													*,		5000,		2500
+						MSFC_Smersh_Bag_ATACSAU,												*,		1900,		750
+						MSFC_Mountain_Bag_ATACSAU,											*,		9000,		3500
+						MSFC_Coyote_Bag_ATACSAU,												*,		5000,		650
+						MSFC_PlateCarrier_Vest_ATACSAU_Logo,						*,		5000,		2500
+						MSFC_HighCapacity_Vest_ATACSAU_Logo,						*,		2000,		900
+						MSFC_Gorka_Jacket_ATACSAU_NoLogo,							*,		2000,		800
+						MSFC_PCU5_ATACSAU_NoLogo,											*,		1500,		500
+						MSFC_Smersh_Bag_Medic_ATACSAU,									*,		1900,		750
+						MSFC_OPS_Core_ATACSAU,													*,		3000,		1100
+						MSFC_Facemask_ATACSAU,													*,		500,		200
+						MSFC_Tactical_Cap_ATACSAU,											*,		500,		200
+						MSFC_WarBelt_ATACSAU,													*,		2000,		900
+						MSFC_Pouches_Magazine_ATACSAU,									*,		1000,		650
+						MSFC_Pouches_One_ATACSAU,											*,		1000,		650
+						MSFC_Pouches_Two_ATACSAU,											*,		1000,		650
+						MSFC_Pouches_IFAK_ATACSAU,											*,		1000,		650
+						MSFC_Canteen_ATACSAU,													*,		1200,		400
+						MSFC_Case_ATACSAU,															*,		2000,		1000
+						MSFC_TacticalBelt_ATACSAU,											*,		9000,		3650
+						MSFC_JPC_Vest_ATACSAU,													*,		6000,		650
+						MSFC_TacTec_Vest_ATACSAU,											*,		5000,		2800
+						//MSFC_Defender_Vest_ATACSAU,									*,		1000,		650
+						MSFC_CargoBag_ATACSAU,													*,		4200,		1900
+						MSFC_PegasusBag_ATACSAU,												*,		8000,		3900
+						MSFC_MilitaryTacticalBag30L_ATACSAU,						*,		5500,		2000
+						MSFC_MilitaryTacticalBag70L_ATACSAU,						*,		12000,	6500
+						MSFC_G3Pants_ATACSAU,													*,		1500,		650
+
+				<Category> SQUAD MSF-C (ATACS FG)
+							MSFC_Alice_Bag_ATACSFG,												*,		10000,	4500
+							MSFC_NBC_Hood_ATACSFG,													*,		5000,		2400
+							MSFC_Mich2001_ATACSFG,													*,		2500,		1400
+							MSFC_BoonieHat_ATACSFG,												*,		400,		150
+							MSFC_Mich2000_ATACSFG,													*,		3000,		1350
+							MSFC_Smersh_Vest_ATACSFG,											*,		1100,		500
+							MSFC_HighCapacity_Vest_ATACSFG,								*,		2000,		900
+							MSFC_PlateCarrier_Vest_ATACSFG,								*,		5000,		2200
+							MSFC_PlateCarrier_Holster_ATACSFG,							*,		600,		200
+							MSFC_PlateCarrier_Pouches_ATACSFG,							*,		1200,		500
+							MSFC_NBC_Pants_ATACSFG,												*,		5000,		2400
+							MSFC_Gorka_Pants_ATACSFG,											*,		1500,		700
+							MSFC_Gorka_Jacket_ATACSFG,											*,		1800,		900
+							MSFC_Cargo_Pants_ATACSFG,											*,		1500,		700
+							MSFC_TShirt_ATACSFG,														*,		200,		100
+							MSFC_PCU5_ATACSFG,															*,		1500,		700
+							MSFC_Sweater_ATACSFG,													*,		200,		100
+							MSFC_NBC_Jacket_ATACSFG,												*,		5000,		2400
+							MSFC_M65_Jacket_ATACSFG,												*,		1800,		800
+							MSFC_Gloves_ATACSFG,														*,		700,		250
+							MSFC_NBC_Gloves_ATACSFG,												*,		5000,		2400
+							MSFC_NBC_Boots_ATACSFG,												*,		5000,		2400
+							MSFC_Boots_ATACSFG,														*,		1200,		700
+							MSFC_Boots_Lowa_ATACSFG,												*,		1500,		900
+							MSFC_Boots_Trekking_ATACSFG,										*,		1800,		1000
+							MSFC_Tortila_ATACSFG,													*,		5000,		2500
+							MSFC_Smersh_Bag_ATACSFG,												*,		1900,		750
+							MSFC_Mountain_Bag_ATACSFG,											*,		9000,		3500
+							MSFC_Coyote_Bag_ATACSFG,												*,		5000,		650
+							MSFC_PlateCarrier_Vest_ATACSFG_Logo,						*,		5000,		2500
+							MSFC_HighCapacity_Vest_ATACSFG_Logo,						*,		2000,		900
+							MSFC_Gorka_Jacket_ATACSFG_NoLogo,							*,		2000,		800
+							MSFC_PCU5_ATACSFG_NoLogo,											*,		1500,		500
+							MSFC_Smersh_Bag_Medic_ATACSFG,									*,		1900,		750
+							MSFC_OPS_Core_ATACSFG,													*,		3000,		1100
+							MSFC_Facemask_ATACSFG,													*,		500,		200
+							MSFC_Tactical_Cap_ATACSFG,											*,		500,		200
+							MSFC_WarBelt_ATACSFG,													*,		2000,		900
+							MSFC_Pouches_Magazine_ATACSFG,									*,		1000,		650
+							MSFC_Pouches_One_ATACSFG,											*,		1000,		650
+							MSFC_Pouches_Two_ATACSFG,											*,		1000,		650
+							MSFC_Pouches_IFAK_ATACSFG,											*,		1000,		650
+							MSFC_Canteen_ATACSFG,													*,		1200,		400
+							MSFC_Case_ATACSFG,															*,		2000,		1000
+							MSFC_TacticalBelt_ATACSFG,											*,		9000,		3650
+							MSFC_JPC_Vest_ATACSFG,													*,		6000,		650
+							MSFC_TacTec_Vest_ATACSFG,											*,		5000,		2800
+							//MSFC_Defender_Vest_ATACSFG,									*,		1000,		650
+							MSFC_CargoBag_ATACSFG,													*,		4200,		1900
+							MSFC_PegasusBag_ATACSFG,												*,		8000,		3900
+							MSFC_MilitaryTacticalBag30L_ATACSFG,						*,		5500,		2000
+							MSFC_MilitaryTacticalBag70L_ATACSFG,						*,		12000,	6500
+							MSFC_G3Pants_ATACSFG,													*,		1500,		650
+
+				<Category> SQUAD MSF-C (Multicam Black)
+							MSFC_Alice_Bag_MulticamBlack,												*,		10000,	4500
+							MSFC_NBC_Hood_MulticamBlack,													*,		5000,		2400
+							MSFC_Mich2001_MulticamBlack,													*,		2500,		1400
+							MSFC_BoonieHat_MulticamBlack,												*,		400,		150
+							MSFC_Mich2000_MulticamBlack,													*,		3000,		1350
+							MSFC_Smersh_Vest_MulticamBlack,											*,		1100,		500
+							MSFC_HighCapacity_Vest_MulticamBlack,								*,		2000,		900
+							MSFC_PlateCarrier_Vest_MulticamBlack,								*,		5000,		2200
+							MSFC_PlateCarrier_Holster_MulticamBlack,							*,		600,		200
+							MSFC_PlateCarrier_Pouches_MulticamBlack,							*,		1200,		500
+							MSFC_NBC_Pants_MulticamBlack,												*,		5000,		2400
+							MSFC_Gorka_Pants_MulticamBlack,											*,		1500,		700
+							MSFC_Gorka_Jacket_MulticamBlack,											*,		1800,		900
+							MSFC_Cargo_Pants_MulticamBlack,											*,		1500,		700
+							MSFC_TShirt_MulticamBlack,														*,		200,		100
+							MSFC_PCU5_MulticamBlack,															*,		1500,		700
+							MSFC_Sweater_MulticamBlack,													*,		200,		100
+							MSFC_NBC_Jacket_MulticamBlack,												*,		5000,		2400
+							MSFC_M65_Jacket_MulticamBlack,												*,		1800,		800
+							MSFC_Gloves_MulticamBlack,														*,		700,		250
+							MSFC_NBC_Gloves_MulticamBlack,												*,		5000,		2400
+							MSFC_NBC_Boots_MulticamBlack,												*,		5000,		2400
+							MSFC_Boots_MulticamBlack,														*,		1200,		700
+							MSFC_Boots_Lowa_MulticamBlack,												*,		1500,		900
+							MSFC_Boots_Trekking_MulticamBlack,										*,		1800,		1000
+							MSFC_Tortila_MulticamBlack,													*,		5000,		2500
+							MSFC_Smersh_Bag_MulticamBlack,												*,		1900,		750
+							MSFC_Mountain_Bag_MulticamBlack,											*,		9000,		3500
+							MSFC_Coyote_Bag_MulticamBlack,												*,		5000,		650
+							MSFC_PlateCarrier_Vest_MulticamBlack_Logo,						*,		5000,		2500
+							MSFC_HighCapacity_Vest_MulticamBlack_Logo,						*,		2000,		900
+							MSFC_Gorka_Jacket_MulticamBlack_NoLogo,							*,		2000,		800
+							MSFC_PCU5_MulticamBlack_NoLogo,											*,		1500,		500
+							MSFC_Smersh_Bag_Medic_MulticamBlack,									*,		1900,		750
+							MSFC_OPS_Core_MulticamBlack,													*,		3000,		1100
+							MSFC_Facemask_MulticamBlack,													*,		500,		200
+							MSFC_Tactical_Cap_MulticamBlack,											*,		500,		200
+							MSFC_WarBelt_MulticamBlack,													*,		2000,		900
+							MSFC_Pouches_Magazine_MulticamBlack,									*,		1000,		650
+							MSFC_Pouches_One_MulticamBlack,											*,		1000,		650
+							MSFC_Pouches_Two_MulticamBlack,											*,		1000,		650
+							MSFC_Pouches_IFAK_MulticamBlack,											*,		1000,		650
+							MSFC_Canteen_MulticamBlack,													*,		1200,		400
+							MSFC_Case_MulticamBlack,															*,		2000,		1000
+							MSFC_TacticalBelt_MulticamBlack,											*,		9000,		3650
+							MSFC_JPC_Vest_MulticamBlack,													*,		6000,		650
+							MSFC_TacTec_Vest_MulticamBlack,											*,		5000,		2800
+							//MSFC_Defender_Vest_MulticamBlack,									*,		1000,		650
+							MSFC_CargoBag_MulticamBlack,													*,		4200,		1900
+							MSFC_PegasusBag_MulticamBlack,												*,		8000,		3900
+							MSFC_MilitaryTacticalBag30L_MulticamBlack,						*,		5500,		2000
+							MSFC_MilitaryTacticalBag70L_MulticamBlack,						*,		12000,	6500
+							MSFC_G3Pants_MulticamBlack,													*,		1500,		650
+
+
 
 				<Category> SQUAD MSF-C (Flag Pole)
 					MSFC_Flag_MSFC_Camping,		*,		500,	250
@@ -1859,122 +2147,6 @@
 		//LeatherSack_Black,	*,		0,		0
 		//LeatherSack_Brown,	*,		0,		0
 		//LeatherSack_Natural,	*,		0,		0
-
-		<Category> Much Decos
-			MD_GraveShovel,		                    				*,		600,		60
-			MD_Crafting_Book,										*,		4000,		400
-			MD_Box_C,												*,		4000,		400
-			MD_TrashCan,											*,		15000,		400
-			MD_GreenTrashCan,										*,		15000,		400
-			MD_Small_WoodBox,		                    			*,		1600,		400
-			MD_Large_WoodBox,		                    			*,		1600,		400
-			MD_Flat_WoodBox,		                    			*,		1600,		400
-			MD_Bucket,		                    					*,		600,		60
-			MD_DeskGlobe,		                    				*,		600,		60
-			MD_TV,		                    						*,		600,		60
-			MD_OldRadio,		                    				*,		600,		60
-			MD_Radio,		                    					*,		600,		60
-			MD_Scale,		                    					*,		600,		60
-			MD_Cashier,		                    					*,		600,		60
-			MD_Clock,		                    					*,		600,		60
-			MD_ClothBag,		                    				*,		600,		60
-			MD_Canister,		                    				*,		600,		60
-			MD_Padlock,		                    					*,		2000,		60
-			MD_WhiteFridge,		                    				*,		1600,		400
-			MD_DoubleFridge,		                    			*,		1600,		400
-			MD_DarkWoodenCrate,		                    			*,		1600,		400
-			MD_Power_Transformer_Kit,		                    	*,		10000,		500
-			MD_Sink_Kit,		                    				*,		30000,		300
-			MD_PostBox_Kit,		                    				*,		600,		60
-			MD_PostBoxWall_Kit,		                    			*,		600,		60
-			MD_BlueBench_Kit,		                    			*,		600,		60
-			MD_Sunshade_Kit,		                    			*,		600,		60
-			MD_BrownWardrobe_Kit,		                    		*,		1600,		400
-			MD_GreenWardrobe_Kit,		                    		*,		1600,		400
-			MD_Bed_Double_Kit,		                    			*,		600,		60
-			MD_Bed_Folding_Kit,		                    			*,		600,		60
-			MD_Bed_Wood_Kit,		                    			*,		600,		60
-		<Category> Much Decos Fences
-			MD_Fence_PipeFenceLarge_Kit,		                    *,		1000,		100
-			MD_Fence_PipeRailing_Kit,		                    	*,		500,		50
-			MD_Fence_PipeFenceSmall_Kit,		                    *,		500,		50
-			MD_Fence_WoodPole_Kit,		                    		*,		500,		50
-			MD_Fence_End_WoodPole_Kit,		                    	*,		250,		25
-			MD_Fence_Vineyard_Kit,		                    		*,		500,		50
-			MD_Fence_Forest_Kit,		                    		*,		500,		50
-			MD_Fence_End_Forest_Kit,		                    	*,		250,		25
-			MD_Fence_WoodGrid_Kit,		                    		*,		500,		50
-			MD_Fence_End_WoodGrid_Kit,		                    	*,		250,		25
-			MD_Fence_MetalGrid_Kit,		                    		*,		500,		50
-			MD_Fence_End_MetalGrid_Kit,		                    	*,		250,		25
-			MD_Fence_Field_Kit,		                    			*,		500,		50
-			MD_Fence_End_Field_Kit,		                    		*,		250,		25
-		<Category> Much Decos Gates
-			MD_Fence_Gate_Forest_Kit,		                    	*,		500,		50
-			MD_Gate_TallSliding_Kit,		                    	*,		500,		50
-			MD_Gate_ShortSliding_Kit,								*,		500,		50
-			MD_Double_Gate_MetalFence1_Kit,		                    *,		500,		50
-			MD_Double_Gate_MetalFence2_Kit,		                    *,		500,		50
-			MD_Double_Gate_TinFence1_Kit,		                    *,		500,		50
-			MD_Double_Gate_TinFence2_Kit,		                    *,		500,		50
-		<Category> Much Decos Buildings
-			MD_NewsStand1_Kit,										*,		30000,		300
-			MD_NewsStand2_Kit,										*,		30000,		300
-			MD_FastFoodStand_Kit,									*,		30000,		300
-			MD_GroceryStand_Kit,									*,		30000,		300
-			MD_CampHouse_White_Kit,									*,		30000,		300
-			MD_CampHouse_Brown_Kit,									*,		30000,		300
-			MD_CampHouse_Red_Kit,									*,		30000,		300
-			MD_Caravan_WGreen_Kit,									*,		30000,		300
-			MD_Caravan_WBrown_Kit,									*,		30000,		300
-			MD_Caravan_MRust_Kit,									*,		30000,		300
-			MD_Polytunnel_Kit,										*,		30000,		300
-			MD_Greenhouse_Kit,										*,		30000,		300
-			MD_Shed_M1_Kit,											*,		30000,		300
-			MD_Shed_M3_Kit,											*,		30000,		300
-			MD_Shed_M4_Kit,											*,		30000,		300
-			MD_Shed_W1_Kit,											*,		30000,		300
-			MD_Shed_W2_Kit,											*,		30000,		300
-			MD_Shed_W3_Kit,											*,		30000,		300
-			MD_Shed_W4_Kit,											*,		30000,		300
-			MD_Shed_W5_Kit,											*,		30000,		300
-			MD_Medical_Tent_Large_Kit,		                    	*,		10000,		500
-		<Category> Much Decos Tables
-			MD_StudentDesk_Kit,		                    			*,		600,		60
-			MD_TeacherDesk_Kit,		                    			*,		600,		60
-			MD_LabDesk_Kit,		                    				*,		600,		60
-			MD_CampTable_Small_Kit,		                    		*,		600,		60
-			MD_CampTable_Long_Kit,		                    		*,		600,		60
-			MD_TableDrawer_Kit,		                    			*,		600,		60
-			MD_OfficeTable_Kit,		                    			*,		600,		60
-			MD_ConferenceTable_Kit,		                    		*,		600,		60
-			MD_OfficeDesk_Kit,		                    			*,		600,		60
-			MD_KitchenCheckeredTable_Kit,		                    *,		600,		60
-			MD_KitchenTable_Kit,		                    		*,		600,		60
-			MD_MarketTable_Kit,		                    			*,		600,		60
-		<Category> Much Decos Chairs
-			MD_OfficeChair_Kit,		                    			*,		600,		60
-			MD_StudentChair_Kit,		                    		*,		600,		60
-			MD_RedChair_Kit,		                    			*,		600,		60
-			MD_LobbyChair_Kit,		                    			*,		600,		60
-			MD_TentChair_Kit,		                    			*,		600,		60
-			MD_WoodenChair_Kit,		                    			*,		600,		60
-			MD_PaddedWoodenChair_Kit,		                    	*,		600,		60
-			MD_KitchenChair_Kit,		                    		*,		600,		60
-		<Category> Much Decos Shelter
-			MD_CamonetShelter_Kit,		                    		*,		600,		60
-			MD_CamonetShelter_BE_Kit,		                    	*,		600,		60
-			MD_CamonetShelter_BN_Kit,		                    	*,		600,		60
-			MD_CamonetShelter_RE_Kit,		                    	*,		600,		60
-			MD_CamonetShelter_RN_Kit,		                    	*,		600,		60
-			MD_CamonetShelter_SE_Kit,		                    	*,		600,		60
-			MD_CamonetShelter_SN_Kit,		                    	*,		600,		60
-			MD_SlumShelter_LightBlue_Kit,		                    *,		600,		60
-			MD_SlumShelter_DarkBlue_Kit,		                    *,		600,		60
-			MD_SlumShelter_ThinBlue_Kit,		                    *,		600,		60
-			MD_SlumShelter_SmallMetal_Kit,		                    *,		600,		60
-			MD_SlumShelter_LargeMetal_Kit,		                    *,		600,		60
-
 
 
 <Trader> Vehicles Trader
