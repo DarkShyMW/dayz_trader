@@ -1378,7 +1378,7 @@
 		MotoHelmet_Red,																		*,		400,		180
 		MotoHelmet_Blue,																	*,		400,		180
 		MotoHelmet_White,																	*,		400,		180
-		MotoHelmet_Lime,																	*,		400,		18
+		MotoHelmet_Lime,																	*,		400,		180
 		MotoHelmet_Grey,																	*,		400,		180
 		MotoHelmet_Black,																	*,		400,		200
 		MotoHelmet_Green,																	*,		400,		220
