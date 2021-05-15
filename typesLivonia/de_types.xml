@@ -1107,13 +1107,13 @@
         <usage name="Village"/>
     </type>
 	<type name="shovel_Mung">
-        <nominal>30</nominal>
-        <lifetime>7200</lifetime>
+        <nominal>0</nominal>
+        <lifetime>0</lifetime>
         <restock>0</restock>
-        <min>5</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
-        <cost>100</cost>
+        <cost>0</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="tools"/>
         <usage name="Industrial"/>
