@@ -1389,19 +1389,19 @@
 		DarkMotoHelmet_Black,															*,		400,		250
 		DarkMotoHelmet_Green,															*,		400,		250
 		TankerHelmet,																			*,		400,	250
-		GreatHelm,																				*,		120,	30
-		ZSh3PilotHelmet,																	*,		130,	35
-		FirefightersHelmet_Yellow,												*,		150,	40
-		FirefightersHelmet_Red,														*,		150,	40
-		FirefightersHelmet_White,												  *,		150,	40
-		Mich2001Helmet,																		*,		150,	40
-		GorkaHelmetVisor,																	*,		50,		20
-		GorkaHelmet,																			*,		190,	50
-		Ssh68Helmet,																			*,		250,	80
-		BallisticHelmet_UN,																*,		250,	80
-		BallisticHelmet_Black,														*,		300,	100
-		BallisticHelmet_Green,														*,		350,	110
-		m52helmet_mung,			             								  *,		400,	200
+		GreatHelm,																				*,		1200,	400
+		ZSh3PilotHelmet,																	*,		1300,	450
+		FirefightersHelmet_Yellow,												*,		1500,	600
+		FirefightersHelmet_Red,														*,		1500,	600
+		FirefightersHelmet_White,												  *,		1500,	600
+		Mich2001Helmet,																		*,		1500,	600
+		GorkaHelmetVisor,																	*,		5000,	2000
+		GorkaHelmet,																			*,		1900,	500
+		Ssh68Helmet,																			*,		2500,	800
+		BallisticHelmet_UN,																*,		2500,	800
+		BallisticHelmet_Black,														*,		3000,	2500
+		BallisticHelmet_Green,														*,		3500,	2100
+		m52helmet_mung,			             								  *,		1000,	500
 
 	<Category> Masks
 		SurgicalMask,																			*,		150,		50
@@ -1828,9 +1828,9 @@
 		6B38_LETO_mung,			           							 	 		*,		11000,	 5400
 
 		<Category> SQUAD MSF-C (NVG)
-			MSFC_NVG,									*,		14500,	5250
-			MSFC_NVG_One,							*,		14500,	5250
-			MSFC_NVG_GPNVG18,					*,		14500,	5250
+			MSFC_NVG,																				*,		14500,	5250
+			MSFC_NVG_One,																		*,		14500,	5250
+			MSFC_NVG_GPNVG18,																*,		14500,	5250
 
 		<Category> SQUAD MSF-C (SURPAT)
 				MSFC_Alice_Bag_SURPAT,												*,		10000,	4500
