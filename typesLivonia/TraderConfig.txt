@@ -1784,6 +1784,7 @@
 		MilitaryBoots_Black,	*,		1100,	550
 		NBCBootsGray,			*,		5000,	2200
 
+<<<<<<< HEAD
 	<Category> Ghillie
 		// Keep in Mind that Players can also
 		// craft Ghillie Clothing and sell them!
@@ -1803,6 +1804,8 @@
 		GhillieSuit_Tan,							*,		12900,	5000
 		GhillieSuit_Woodland,					*,		12900,	5000
 
+=======
+>>>>>>> 1930e086640b468b816f13eb20bcf2078b4e30f7
 	//<Category> Seasonal
 		//SantasBeard,			*,		15,		0
 		//SantasHat,			*,		35,		0
