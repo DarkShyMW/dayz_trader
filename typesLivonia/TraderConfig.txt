@@ -42,6 +42,7 @@
 		BoletusMushroom,																	*,		-1,		200
 		PleurotusMushroom,																*,		-1,		200
 
+
 	<Category> Packaged Food
 		PowderedMilk,																			*,		200,		-1
 		sandwich_mung,                       					 		*,    1100,   250
