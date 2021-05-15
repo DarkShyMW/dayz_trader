@@ -1698,7 +1698,7 @@
 		DressShoes_Brown,																	*,		350,		100
 		DressShoes_Black,																	*,		350,		100
 		DressShoes_Beige,																	*,		350,		100
-		DressShoes_Sunburst,															*,		350,		80
+		DressShoes_Sunburst,															*,		350,		150
 		HikingBootsLow_Blue,															*,		450,		120
 		HikingBootsLow_Grey,															*,		450,		120
 		HikingBootsLow_Beige,															*,		480,		130
