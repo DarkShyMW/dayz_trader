@@ -44,7 +44,9 @@
 
 	<Category> Packaged Food
 		PowderedMilk,																			*,		200,		-1
-		BoxCerealCrunchin,																*,		1200,		100
+		sandwich_mung,                       					 		*,    1100,   250
+		wonderbread_mung,                    					 		*,    1200,   250
+		BoxCerealCrunchin,																*,		1200,		300
 		Rice,																							*,		1200,		500
 		Marmalade,																				*,		3000,		500
 		PeachesCan,																				*,		2500,		700
@@ -52,7 +54,10 @@
 		TunaCan,																					*,		2700,		870
 		SpaghettiCan,																			*,		2700,		870
 		BakedBeansCan,																		*,		2000,		870
+		vinegar_mung,			             								 		*,	 	2000,	 750
+		ketchup_mung,			             								 		*,	  2000,	 750
 		TacticalBaconCan,																	*,		3500,		1500
+		pickles_closed,                     					 		*,    5000,   2500
 
 	<Category> Meat
 		ChickenBreastMeat,																S,		1300,	500
@@ -220,40 +225,42 @@
 				Msp_WaterBarrel_Valve_Darkwood,		               		*,		800,		350
 
 			<Category> Наборы для установки на базе
-				Msp_FireplaceRailing,									*,		6000,	2000
+				Msp_FireplaceRailing,															*,		6000,	2000
 				Вещь выше позволяет ставить костер где угодно!
-				//Msp_EmptySquarePlanterBox,							*,		600,	200
-				//Msp_EmptyPlanterBox,									*,		600,	200
-				Msp_FishingRodsRack_Kit,								*,		3000,	1000
-				Msp_GunCabinet_Kit,										*,		5000,	2000
-				Msp_GunRack_Kit,										*,		11000,	6000
-				Msp_DoubleGunRack_Kit,									*,		22000,	10000
-				Msp_MilitaryLocker_Kit,									*,		9000,	3500
-				Msp_Locker_Kit,											*,		6500,	2300
-				Msp_StorageBox_Kit,										*,		12500,	4900
-				Msp_ToolsBench_Blue_Kit,								*,		7000,	2500
-				Msp_ToolsBench_Grey_Kit,								*,		7000,	2500
-				Msp_ToolsBench_Red_Kit,									*,		7000,	2500
-				Msp_MoskvaFridge_Blue_Kit,								*,		4000,	1500
-				Msp_MoskvaFridge_Cream_Kit,								*,		4000,	1500
-				Msp_MoskvaFridge_Red_Kit,								*,		4000,	1500
-				Msp_SovietOkaFridge_Kit,								*,		4000,	1800
-				Msp_SnowballFridge_Kit,									*,		4000,	1500
-				Msp_Gazebo_Kit,											*,		-1,		4000
-				Msp_StoneFireplace_Kit,									*,		9000,	4200
-				Msp_Greenhouse_Kit,										*,		12000,	5500
-				Msp_GreenhouseWood_Kit,									*,		12000,	5500
-				Msp_Bookcase_Kit,										*,		-1,		6000
-				Msp_RifleSafe_Kit,										*,		8700,	3900
-				Msp_RifleSafe_Grey_Kit,									*,		8700,	3900
-				Msp_RifleSafe_Green_Kit,								*,		8700,	3900
-				Msp_RifleSafe_Purple_Kit,								*,		8700,	3900
-				Msp_RifleSafe_Tan_Kit,									*,		8700,	3900
-				Msp_MedicalBox_Kit,										*,		2500,	1000
-				Msp_Gunwall_Kit,										*,		4500,	1200
-				Msp_Wardrobe_Brown_Kit,									*,		14600,	6000
-				Msp_Wardrobe_Green_Kit,									*,		14600,	6000
-				Msp_Wardrobe_White_Kit,									*,		14600,	6000
+				//Msp_EmptySquarePlanterBox,											*,		600,	200
+				//Msp_EmptyPlanterBox,														*,		600,	200
+				Msp_FishingRodsRack_Kit,													*,		3000,	1000
+				Msp_GunCabinet_Kit,																*,		5000,	2000
+				Msp_GunRack_Kit,																	*,		11000,	6000
+				Msp_DoubleGunRack_Kit,														*,		22000,	10000
+				Msp_MilitaryLocker_Kit,														*,		9000,	3500
+				Msp_Locker_Kit,																		*,		6500,	2300
+				Msp_StorageBox_Kit,																*,		12500,	4900
+				Msp_ToolsBench_Blue_Kit,													*,		7000,	2500
+				Msp_ToolsBench_Grey_Kit,													*,		7000,	2500
+				Msp_ToolsBench_Red_Kit,														*,		7000,	2500
+				Msp_MoskvaFridge_Blue_Kit,												*,		4000,	1500
+				Msp_MoskvaFridge_Cream_Kit,												*,		4000,	1500
+				Msp_MoskvaFridge_Red_Kit,													*,		4000,	1500
+				Msp_SovietOkaFridge_Kit,													*,		4000,	1800
+				Msp_SnowballFridge_Kit,														*,		4000,	1500
+				Msp_Gazebo_Kit,																		*,		-1,		4000
+				Msp_StoneFireplace_Kit,														*,		9000,	4200
+				Msp_Greenhouse_Kit,																*,		12000,	5500
+				Msp_GreenhouseWood_Kit,														*,		12000,	5500
+				Msp_Bookcase_Kit,																	*,		-1,		6000
+				Msp_RifleSafe_Kit,																*,		8700,	3900
+				Msp_RifleSafe_Grey_Kit,														*,		8700,	3900
+				Msp_RifleSafe_Green_Kit,													*,		8700,	3900
+				Msp_RifleSafe_Purple_Kit,													*,		8700,	3900
+				Msp_RifleSafe_Tan_Kit,														*,		8700,	3900
+				Msp_MedicalBox_Kit,																*,		2500,	1000
+				Msp_Gunwall_Kit,																	*,		4500,	1200
+				Msp_Wardrobe_Brown_Kit,														*,		14600,	6000
+				Msp_Wardrobe_Green_Kit,														*,		14600,	6000
+				Msp_Wardrobe_White_Kit,														*,		14600,	6000
+				ballgrill_mung,			          							   		*,		 	 300,	 150
+				hardigg_Mung,                     					   		*,      300,    150
 
 			<Category> Прочее
 				Msp_SleepingBag_Green,														*,		2000,		500
@@ -303,79 +310,6 @@
 				Msp_MedievalGibbet_Kit,														*,		-1,	3000
 				Msp_CoffinBox,		                    						*,		6500,		2000
 
-				<Category> Всякий хлам
-
-				  clownmask_mung,			            							 *,		 	 100,	 50
-					strawhat_mung,                  					     *,      100,    50
-					jesterhat_mung,                 					     *,      100,    50
-					bandana_mung,                   					     *,      100,    50
-					guitar_mung,                    					     *,      200,    100
-					teddyhead_mung,			          							   *,		   200,	 100
-					ballgrill_mung,			          							   *,		 	 300,	 150
-					bowieknife_mung,			       									 *,		   200,	 100
-					zenitco_pt3_buttstock,			  							   *,		   200,	 100
-					rifleholster_black_mung,          					   *,      300,    150
-					hardigg_Mung,                     					   *,      300,    150
-					stielhandgranate_mung,            					   *,      800,    400
-					rifleholster_camo_mung,           					   *,      400,    200
-					rifleholster_camo_ucp_mung,										 *,		   400,	 200
-					6B38_camo_mung,			           							 	 *,		   1000,	 500
-					6B38_LETO_mung,			           							 	 *,		   1000,	 500
-					oxygentankrig_mung,			      							   *,		   500,	 250
-					shovel_Mung,                       						 *,      400,    200
-					RollingPapers_Jest,                						 *,      100,    50
-					hannibal_mask_mung,                 					 *,      100,    50
-					joint_mung,                        						 *,      100,    50
-					cigarette_mung,			           							   *,		   100,	 50
-					cigar_mung,			               							   *,		   100,	 50
-					vinegar_mung,			             								 *,		   100,	 50
-					ketchup_mung,			             								 *,		   100,	 50
-					Vesuri_mung,                         					 *,      100,    50
-					brain_Mung,                          					 *,      100,    50
-					sherlockpipe_mung,                  					 *,      100,    50
-					Clawhammer_mung,                    					 *,      200,    100
-					mag3_gasmask_mung,			         							 *,		   400,	 200
-					pickles_closed,                     					 *,      100,    50
-					Zippo_new,                          					 *,      100,    50
-					fannypack_pink_mung,                					 *,      200,    100
-					fannypack_black_mung,               					 *,      200,    100
-					fannypack_camo_mung,			    								 *,		 	 300,	 100
-					fannypack_multi_mung,			    								 *,		 	 300,	 100
-					Hikingbagmung_white,			    								 *,		 	 500,	 250
-					Hikingbagmung_yellow,			    								 *,		 	 500,	 250
-					Hikingbagmung_red,                 						 *,      500,    250
-					Hikingbagmung_blue,                						 *,      500,    250
-					Hikingbagmung_green,              						 *,      500,    250
-					Hikingbagmung_black,              						 *,      600,    300
-					Hikingbagmung_camo,			      							   *,		   600,	 300
-					katana_Mung,			            								 *,		   500,	 250
-					Lennon_glasses_pink_mung,											 *,		   200,	 100
-					Lennon_glasses_galaxy_mung,										 *,		   200,	 100
-					Lennon_glasses_black_mung,           					 *,      200,	 100
-					Lennon_glasses_blue_mung,            					 *,      200,	 100
-					Lennon_glasses_yellow_mung,          					 *,      200,	 100
-					Lennon_glasses_white_mung,           					 *,      200,	 100
-					m52helmet_mung,			             							 *,		   400,	 200
-					maglite_mung,			             								 *,		   600,	 300
-					Airam_mung,			                 							 *,		   400,	 200
-					oillamp_mung,			             							   *,		   200,	 100
-					SAK_Mung,                            					 *,      300,    150
-					sandwich_mung,                       					 *,      100,    50
-					Scythe_Mung,                        				   *,      200,    100
-					simplebackpack_blue_mung,            					 *,      800,    400
-					simplebackpack_camoblack_mung,		 						 *,		   800,    400
-					simplebackpack_green_mung,			 							 *,		   800,    400
-					simplebackpack_redpink_mung,	    						 *,		   800,    400
-					simplebackpack_redyellow_mung,								 *,		   800,    400
-					stalker_gasmask_white_mung,         					 *,      500,    250
-					stalker_gasmask_black_mung,         					 *,      500,    250
-					wonderbread_mung,                    					 *,      100,    50
-					Nagant1895_mung,                     					 *,      1000,   500
-					Gewehr43_mung,			              						 *,		   1200,	 600
-					Mag_gewehr43_10Rnd_mung,				 							 *,		   400,	 200
-					makeshifttent_mung,			         							 *,		   1000,	 500
-
-
 	<Category> Приготовление пищи и для охоты
 		PurificationTablets,																	*,		2500,		1000
 		Pot,																									M,		1600,		700
@@ -383,31 +317,31 @@
 		BearTrap,																							*,		1900,		850
 
 	<Category> 1000 мелочей
-		Bear_Beige,																						*,		5,		1
-		Bear_Dark,																						*,		5,		1
-		Bear_Pink,																						*,		5,		1
-		Bear_White,																						*,		5,		1
+		Bear_Beige,																						*,		50,		10
+		Bear_Dark,																						*,		50,		10
+		Bear_Pink,																						*,		50,		10
+		Bear_White,																						*,		50,		10
 		Paper,																								*,		100,	50
 		Pen_Blue,																							*,		200,		100
 		Rope,																									*,		400,		200
-		TannedLeather,																				*,		4,		1
-		AntiPestsSpray,																				*,		8,		4
-		MetalWire,																						*,		15,		6
-		EpoxyPutty,																						*,		15,		6
-		DuctTape,																							*,		20,		8
-		XmasLights,																						*,		25,		10
-		HandcuffKeys,																					*,		35,		12
-		Handcuffs,																						*,		50,		15
-		Netting,																							1,		50,		10
-		BurlapSack,																						*,		50,		10
-		WoodenPlank,																					10,		50,		15
-		MetalPlate,																						*,		60,		18
-		SmallProtectorCase,																		*,		70,		30
-		AmmoBox,																							*,		80,		35
-		SmallGasCanister,																			*,		80,		35
-		MediumGasCanister,																		*,		100,	40
-		LargeGasCanister,																			*,		200,	70
-		CanisterGasoline,																			*,		300,	80
+		TannedLeather,																				*,		400,		100
+		AntiPestsSpray,																				*,		800,		400
+		MetalWire,																						*,		150,		60
+		EpoxyPutty,																						*,		150,		60
+		DuctTape,																							*,		200,		80
+		XmasLights,																						*,		250,		50
+		HandcuffKeys,																					*,		350,		250
+		Handcuffs,																						*,		500,		250
+		Netting,																							1,		500,		250
+		BurlapSack,																						*,		500,		250
+		WoodenPlank,																					10,		500,		250
+		MetalPlate,																						*,		600,		300
+		SmallProtectorCase,																		*,		700,		300
+		AmmoBox,																							*,		800,		350
+		SmallGasCanister,																			*,		800,		350
+		MediumGasCanister,																		*,		100,	50
+		LargeGasCanister,																			*,		200,	100
+		CanisterGasoline,																			*,		300,	140
 		NailBox,																							*,		30000,	1200
 		BarbedWire,																						*,		450,	200
 		Camonet,																							*,		600,	250
@@ -424,9 +358,16 @@
 		Barrel_Yellow,																				M,		1500,	350
 		SeaChest,																							*,		2000,	400
 		PowerGenerator,																				*,		3000,	1000
+		makeshifttent_mung,			         							 				*,		1000,	 500
+		Zippo_new,                          					 				*,    100,    50
+		maglite_mung,			             								 				*,		600,	 300
+		Airam_mung,			                 							 				*,		400,	 200
+		oillamp_mung,			             							   				*,		200,	 100
+		SAK_Mung,                            					 				*,    300,    150
 		MediumTent,																						*,		3000,	500
 		CarTent,																							*,		5000,	700
 		LargeTent,																						*,		7000,	1200
+		brain_Mung,                          					 				*,    -1,   100000
 
 	<Category> Seeds & Lime
 		TomatoSeedsPack,																			*,		4, 		1
@@ -436,7 +377,7 @@
 		GardenLime,																						*,		20,		7
 
 		<Category> Much Decos
-			MD_GraveShovel,		                    							*,		600,		60
+			MD_GraveShovel,		                    							*,		600,		300
 			MD_Crafting_Book,																		*,		4000,		400
 			MD_Box_C,																						*,		4000,		400
 			MD_TrashCan,																				*,		15000,		400
@@ -444,31 +385,31 @@
 			MD_Small_WoodBox,		                    						*,		1600,		400
 			MD_Large_WoodBox,		                    						*,		1600,		400
 			MD_Flat_WoodBox,		                    						*,		1600,		400
-			MD_Bucket,		                    									*,		600,		60
-			MD_DeskGlobe,		                    								*,		600,		60
-			MD_TV,		                    											*,		600,		60
-			MD_OldRadio,		                    								*,		600,		60
-			MD_Radio,		                    										*,		600,		60
-			MD_Scale,		                    										*,		600,		60
-			MD_Cashier,		                    									*,		600,		60
-			MD_Clock,		                    										*,		600,		60
-			MD_ClothBag,		                    								*,		600,		60
-			MD_Canister,		                    								*,		600,		60
-			MD_Padlock,		                    									*,		2000,		60
+			MD_Bucket,		                    									*,		800,		300
+			MD_DeskGlobe,		                    								*,		800,		300
+			MD_TV,		                    											*,		800,		300
+			MD_OldRadio,		                    								*,		800,		300
+			MD_Radio,		                    										*,		800,		300
+			MD_Scale,		                    										*,		800,		300
+			MD_Cashier,		                    									*,		800,		300
+			MD_Clock,		                    										*,		800,		300
+			MD_ClothBag,		                    								*,		800,		300
+			MD_Canister,		                    								*,		800,		300
+			MD_Padlock,		                    									*,		2000,		300
 			MD_WhiteFridge,		                    							*,		1600,		400
 			MD_DoubleFridge,		                    						*,		1600,		400
 			MD_DarkWoodenCrate,		                    					*,		1600,		400
 			MD_Power_Transformer_Kit,		                    		*,		10000,		500
 			MD_Sink_Kit,		                    								*,		30000,		300
-			MD_PostBox_Kit,		                    							*,		600,		60
-			MD_PostBoxWall_Kit,		                    					*,		600,		60
-			MD_BlueBench_Kit,		                    						*,		600,		60
-			MD_Sunshade_Kit,		                    						*,		600,		60
+			MD_PostBox_Kit,		                    							*,		600,		300
+			MD_PostBoxWall_Kit,		                    					*,		600,		300
+			MD_BlueBench_Kit,		                    						*,		600,		300
+			MD_Sunshade_Kit,		                    						*,		600,		300
 			MD_BrownWardrobe_Kit,		                    				*,		1600,		400
 			MD_GreenWardrobe_Kit,		                    				*,		1600,		400
-			MD_Bed_Double_Kit,		                    					*,		600,		60
-			MD_Bed_Folding_Kit,		                    					*,		600,		60
-			MD_Bed_Wood_Kit,		                    						*,		600,		60
+			MD_Bed_Double_Kit,		                    					*,		600,		300
+			MD_Bed_Folding_Kit,		                    					*,		600,		300
+			MD_Bed_Wood_Kit,		                    						*,		600,		300
 
 		<Category> Much Decos Fences
 			MD_Fence_PipeFenceLarge_Kit,		                    *,		1000,		500
@@ -573,6 +514,13 @@
 		Msp_PlainBat_Black,																		W,    1900,    	950
 		Msp_BlunderBat,																				W,    2400,    	1200
 		Msp_BassAxe,																					W,    5000,    	2500
+		guitar_mung,                    					     				*,    2000,    	1000
+		bowieknife_mung,			       									 				*,		2000,	 		1000
+		katana_Mung,			            								 				*,		5000,	 		2500
+		Scythe_Mung,                        				   				*,    2000,    	1000
+		shovel_Mung,                       						 				*,    4000,    	2000
+		Vesuri_mung,                         					 				*,    1000,    	500
+		Clawhammer_mung,                    					 				*,    2000,    	1000
 
 
 	<Category> Пистолеты
@@ -587,6 +535,7 @@
 		MSFC_1911_Golden,																			W,		-1,		80000
 		TTC_Kimber, 																					W, 		3500, 1000
 		Msp_Water_Gun,																				*,		-1,	5000
+		Nagant1895_mung,                     					 				*,      1000,   500
 
 
 
@@ -604,6 +553,7 @@
 			TTC_M1Carbine, 																			W, 		7000, 	3300
 			B95,																								W,		21000,	10000
 			TTC_R700, 																					W, 		45000, 	17000
+			Gewehr43_mung,			              						 			*,		4200,	 	2100
 
 
 		<Category> Дробовики
@@ -918,7 +868,6 @@
 		Mag_SVD_10Rnd,																  	M,		900,	450
 		Mag_308WinSnaploader_2Rnd,											  M,		1200,	500
 		Mag_cs5_10Rnd_mung,			       							 		  M,		1200,	500
-		Msp_Water_Gun_Mag,																*,		4000,	1200
 		Mag_SG_30Rnd,		 																	M, 500, 250
 		Mag_TTCM1_15Rnd, 																	M, 500, 250
 		//ttc
@@ -975,7 +924,9 @@
 		TTC_Mag_M9_15Rnd, 																M, 200, 100
 		TTC_AKMod_762x54_30rnd, 													M, 200, 100
 		TTC_AKMod_762x54_65rnd, 													M, 400, 100
-
+		//Msp
+		Mag_gewehr43_10Rnd_mung,				 							 		*,		   400,	 200
+		Msp_Water_Gun_Mag,																*,		4000,	1200
 
 	<Category> Рукоядки
 		MP5_PlasticHndgrd,																*,		250,	100
@@ -1029,6 +980,7 @@
 		TTC_AKMod_Digi_bttstk, 														*, 		700, 	350
 		TTC_AKMod_Tan_bttstk, 														*, 		700, 	350
 		mcmillan_buttstock,			       							   		*,		1600,	750
+		zenitco_pt3_buttstock,			  							   		*,		1200,	600
 
 	<Category> Оптика
 		M4_CarryHandleOptic,															*,			150,	60
@@ -1136,6 +1088,12 @@
 		DesignerGlasses,																	*,		300,		150
 		AviatorGlasses,																		*,		400,		200
 		TacticalGoggles,																	*,		600,		300
+		Lennon_glasses_pink_mung,													*,		200,	 100
+		Lennon_glasses_galaxy_mung,										 		*,		200,	 100
+		Lennon_glasses_black_mung,           					 		*,    200,	 100
+		Lennon_glasses_blue_mung,            					 		*,    200,	 100
+		Lennon_glasses_yellow_mung,          					 		*,    200,	 100
+		Lennon_glasses_white_mung,           					 		*,    200,	 100
 		NVGHeadstrap,																			*,		12000,	4000
 
 	<Category> SQUAD MSF-C (Base color clothes)
@@ -1294,6 +1252,11 @@
 		Armband_White,																		*,		150,		50
 		Armband_Black,																		*,		150,		50
 		Armband_Green,																		*,		150,		50
+		RollingPapers_Jest,                						 *,      100,    50
+		joint_mung,                        						 *,      100,    50
+		cigarette_mung,			           							   *,		   100,	 	50
+		cigar_mung,			               							   *,		   100,	 50
+		sherlockpipe_mung,                  					 *,      100,    50
 
 	<Category> Gloves
 		SurgicalGloves_LightBlue,													*,		200,		100
@@ -1381,6 +1344,9 @@
 		Ushanka_Blue,																			*,		500,		150
 		Ushanka_Black,																		*,		500,		150
 		Ushanka_Green,																		*,		550,		180
+		strawhat_mung,                  					     		*,    100,    50
+		jesterhat_mung,                 					     		*,    100,    50
+		teddyhead_mung,			          							   		*,	  200,	 100
 		NBCHoodGray,																			*,		5000,	2200
 
 	<Category> Helmets
@@ -1435,6 +1401,7 @@
 		BallisticHelmet_UN,																*,		250,	80
 		BallisticHelmet_Black,														*,		300,	100
 		BallisticHelmet_Green,														*,		350,	110
+		m52helmet_mung,			             								  *,		400,	200
 
 	<Category> Masks
 		SurgicalMask,																			*,		150,		50
@@ -1443,6 +1410,7 @@
 		BandanaMask_BlackPattern,													*,		250,		100
 		BandanaMask_GreenPattern,													*,		300,		150
 		BandanaMask_CamoPattern,													*,		350,		100
+		bandana_mung,                   					     		*,    350,    150
 		NioshFaceMask,																		*,		400,		200
 		HockeyMask,																				*,		400,		200
 		//HoxtonMask,																			*,		400,		200
@@ -1454,6 +1422,11 @@
 		Balaclava3Holes_Green,														*,		600,		350
 		WeldingMask,																			*,		700,		300
 		GP5GasMask,																				*,		1200,		400
+		clownmask_mung,			            							 		*,		500,	 	250
+		hannibal_mask_mung,                 					 		*,    500,    250
+		mag3_gasmask_mung,			         							 		*,	  400,	 	200
+		stalker_gasmask_white_mung,         					 		*,    500,    250
+		stalker_gasmask_black_mung,         					 		*,    500,    250
 
 	<Category> Shirts
 		TShirt_OrangeWhiteStripes,												*,		300,		100
@@ -1793,6 +1766,10 @@
 	<Category> Belt
 		CivilianBelt,																			*,		800,	300
 		MilitaryBelt,																			*,		2000,	800
+		fannypack_pink_mung,                					 		*,    500,  250
+		fannypack_black_mung,               					 		*,    500,  250
+		fannypack_camo_mung,			    								 		*,		500,	250
+		fannypack_multi_mung,			    								 		*,	  500,	250
 
 	<Category> Bags
 		ChildBag_Red,																			*,		1000,	400
@@ -1830,6 +1807,25 @@
 		Msp_MedicBag_Red,																	*,		9000,	200
 		Msp_MedicBag_Blue,																*,		9000,	200
 		Msp_MedicBag_Black,																*,		9000,	200
+		stielhandgranate_mung,            					   		*,    800,    400
+		rifleholster_camo_mung,           					   		*,    500,    250
+		rifleholster_camo_ucp_mung,										 		*,		500,	 	250
+		rifleholster_black_mung,          					   		*,    500,    250
+		oxygentankrig_mung,			      							   		*,		1200,	 	600
+		Hikingbagmung_white,			    								 		*,		10000,	4500
+		Hikingbagmung_yellow,			    								 		*,		10000,	4500
+		Hikingbagmung_red,                 						 		*,    10000,  4500
+		Hikingbagmung_blue,                						 		*,    10000,  4500
+		Hikingbagmung_green,              						 		*,    10000,  4500
+		Hikingbagmung_black,              						 		*,    10000,  4500
+		Hikingbagmung_camo,			      							   		*,		10000,	4500
+		simplebackpack_blue_mung,            					 		*,    2500,    400
+		simplebackpack_camoblack_mung,		 						 		*,		2500,    400
+		simplebackpack_green_mung,			 							 		*,		2500,    400
+		simplebackpack_redpink_mung,	    						 		*,		2500,    400
+		simplebackpack_redyellow_mung,								 		*,		2500,    400
+		6B38_camo_mung,			           							 	 		*,		11000,	 5400
+		6B38_LETO_mung,			           							 	 		*,		11000,	 5400
 
 		<Category> SQUAD MSF-C (NVG)
 			MSFC_NVG,									*,		14500,	5250
@@ -2156,142 +2152,142 @@
 		TruckBattery,																						*,		1800,	1000
 		CarRadiator,																						*,		2000,	1000
 		TireRepairKit,																					*,		2200,	1000
-		HatchbackHood,																					*,		300,	100
-		HatchbackHood_Blue,																			*,		300,	100
-		HatchbackHood_White,																		*,		300,	100
-		HatchbackHood_GreenRust,																*,		300,	100
-		HatchbackHood_BlueRust,																	*,		300,	100
-		HatchbackHood_WhiteRust,																*,		300,	100
-		HatchbackTrunk,																					*,		380,	130
-		HatchbackTrunk_Blue,																		*,		380,	130
-		HatchbackTrunk_White,																		*,		380,	130
-		HatchbackTrunk_GreenRust,																*,		380,	130
-		HatchbackTrunk_BlueRust,																*,		380,	130
-		HatchbackTrunk_WhiteRust,																*,		380,	130
-		HatchbackDoors_Driver,																	*,		450,	160
-		HatchbackDoors_Driver_Blue,															*,		450,	160
-		HatchbackDoors_Driver_White,														*,		450,	160
-		HatchbackDoors_Driver_GreenRust,												*,		450,	160
-		HatchbackDoors_Driver_BlueRust,													*,		450,	160
-		HatchbackDoors_Driver_WhiteRust,												*,		450,	160
-		HatchbackDoors_CoDriver,																*,		450,	160
-		HatchbackDoors_CoDriver_Blue,														*,		450,	160
-		HatchbackDoors_CoDriver_White,													*,		450,	160
-		HatchbackDoors_CoDriver_GreenRust,											*,		450,	160
-		HatchbackDoors_CoDriver_BlueRust,												*,		450,	160
-		HatchbackDoors_CoDriver_WhiteRust,											*,		450,	160
-		HatchbackWheel,																					*,		500,	100
-		Hatchback_02_Hood,																			*,		300,	100
-		Hatchback_02_Hood_Black,																*,		300,	100
-		Hatchback_02_Hood_Blue,																	*,		300,	100
-		Hatchback_02_Hood_RedRust,															*,		300,	100
-		Hatchback_02_Hood_BlackRust,														*,		300,	100
-		Hatchback_02_Hood_BlueRust,															*,		300,	100
-		Hatchback_02_Trunk,																			*,		380,	130
-		Hatchback_02_Trunk_Black,																*,		380,	130
-		Hatchback_02_Trunk_Blue,																*,		380,	130
-		Hatchback_02_Trunk_RedRust,															*,		380,	130
-		Hatchback_02_Trunk_BlackRust,														*,		380,	130
-		Hatchback_02_Trunk_BlueRust,														*,		380,	130
-		Hatchback_02_Door_1_1,																	*,		450,	160
-		Hatchback_02_Door_1_1_Black,														*,		450,	160
-		Hatchback_02_Door_1_1_Blue,															*,		450,	160
-		Hatchback_02_Door_1_1_RedRust,													*,		450,	160
-		Hatchback_02_Door_1_1_BlackRust,												*,		450,	160
-		Hatchback_02_Door_1_1_BlueRust,													*,		450,	160
-		Hatchback_02_Door_1_2,																	*,		450,	160
-		Hatchback_02_Door_1_2_Black,														*,		450,	160
-		Hatchback_02_Door_1_2_Blue,															*,		450,	160
-		Hatchback_02_Door_1_2_RedRust,													*,		450,	160
-		Hatchback_02_Door_1_2_BlackRust,												*,		450,	160
-		Hatchback_02_Door_1_2_BlueRust,													*,		450,	160
-		Hatchback_02_Door_2_1,																	*,		450,	160
-		Hatchback_02_Door_2_1_Black,														*,		450,	160
-		Hatchback_02_Door_2_1_Blue,															*,		450,	160
-		Hatchback_02_Door_2_1_RedRust,													*,		450,	160
-		Hatchback_02_Door_2_1_BlackRust,												*,		450,	160
-		Hatchback_02_Door_2_1_BlueRust,													*,		450,	160
-		Hatchback_02_Door_2_2,																	*,		450,	160
-		Hatchback_02_Door_2_2_Black,														*,		450,	160
-		Hatchback_02_Door_2_2_Blue,															*,		450,	160
-		Hatchback_02_Door_2_2_RedRust,													*,		450,	160
-		Hatchback_02_Door_2_2_BlackRust,												*,		450,	160
-		Hatchback_02_Door_2_2_BlueRust,													*,		450,	160
-		Hatchback_02_Wheel,																			*,		500,	100
-		Sedan_02_Hood,																					*,		300,	100
-		Sedan_02_Hood_Red,																			*,		300,	100
-		Sedan_02_Hood_Grey,																			*,		300,	100
-		Sedan_02_Hood_YellowRust,																*,		300,	100
-		Sedan_02_Hood_RedRust,																	*,		300,	100
-		Sedan_02_Hood_GreyRust,																	*,		300,	100
-		Sedan_02_Trunk,																					*,		450,	150
-		Sedan_02_Trunk_Red,																			*,		450,	150
-		Sedan_02_Trunk_Grey,																		*,		450,	150
-		Sedan_02_Trunk_YellowRust,															*,		450,	150
-		Sedan_02_Trunk_RedRust,																	*,		450,	150
-		Sedan_02_Trunk_GreyRust,																*,		450,	150
-		Sedan_02_Door_1_1,																			*,		450,	160
-		Sedan_02_Door_1_1_Red,																	*,		450,	160
-		Sedan_02_Door_1_1_Grey,																	*,		450,	160
-		Sedan_02_Door_1_1_YellowRust,														*,		450,	160
-		Sedan_02_Door_1_1_RedRust,															*,		450,	160
-		Sedan_02_Door_1_1_GreyRust,															*,		450,	160
-		Sedan_02_Door_1_2,																			*,		450,	160
-		Sedan_02_Door_1_2_Red,																	*,		450,	160
-		Sedan_02_Door_1_2_Grey,																	*,		450,	160
-		Sedan_02_Door_1_2_YellowRust,														*,		450,	160
-		Sedan_02_Door_1_2_RedRust,															*,		450,	160
-		Sedan_02_Door_1_2_GreyRust,															*,		450,	160
-		Sedan_02_Door_2_1,																			*,		450,	160
-		Sedan_02_Door_2_1_Red,																	*,		450,	160
-		Sedan_02_Door_2_1_Grey,																	*,		450,	160
-		Sedan_02_Door_2_1_YellowRust,														*,		450,	160
-		Sedan_02_Door_2_1_RedRust,															*,		450,	160
-		Sedan_02_Door_2_1_GreyRust,															*,		450,	160
-		Sedan_02_Door_2_2,																			*,		450,	160
-		Sedan_02_Door_2_2_Red,																	*,		450,	160
-		Sedan_02_Door_2_2_Grey,																	*,		450,	160
-		Sedan_02_Door_2_2_YellowRust,														*,		450,	160
-		Sedan_02_Door_2_2_RedRust,															*,		450,	160
-		Sedan_02_Door_2_2_GreyRust,															*,		450,	160
-		Sedan_02_Wheel,																					*,		500,	100
-		CivSedanHood,																						*,		400,	140
-		CivSedanHood_Wine,																			*,		400,	140
-		CivSedanHood_Black,																			*,		400,	140
-		CivSedanHood_WhiteRust,																	*,		400,	140
-		CivSedanHood_WineRust,																	*,		400,	140
-		CivSedanHood_BlackRust,																	*,		400,	140
-		CivSedanTrunk,																					*,		450,	150
-		CivSedanTrunk_Wine,																			*,		450,	150
-		CivSedanTrunk_Black,																		*,		450,	150
-		CivSedanTrunk_WhiteRust,																*,		450,	150
-		CivSedanTrunk_WineRust,																	*,		450,	150
-		CivSedanTrunk_BlackRust,																*,		450,	150
-		CivSedanDoors_Driver,																		*,		500,	180
-		CivSedanDoors_Driver_Wine,															*,		500,	180
-		CivSedanDoors_Driver_Black,															*,		500,	180
-		CivSedanDoors_Driver_WhiteRust,													*,		500,	180
-		CivSedanDoors_Driver_WineRust,													*,		500,	180
-		CivSedanDoors_Driver_BlackRust,													*,		500,	180
-		CivSedanDoors_CoDriver,																	*,		500,	180
-		CivSedanDoors_CoDriver_Wine,														*,		500,	180
-		CivSedanDoors_CoDriver_Black,														*,		500,	180
-		CivSedanDoors_CoDriver_WhiteRust,												*,		500,	180
-		CivSedanDoors_CoDriver_WineRust,												*,		500,	180
-		CivSedanDoors_CoDriver_BlackRust,												*,		500,	180
-		CivSedanDoors_BackLeft,																	*,		500,	180
-		CivSedanDoors_BackLeft_Wine,														*,		500,	180
-		CivSedanDoors_BackLeft_Black,														*,		500,	180
-		CivSedanDoors_BackLeft_WhiteRust,												*,		500,	180
-		CivSedanDoors_BackLeft_WineRust,												*,		500,	180
-		CivSedanDoors_BackLeft_BlackRust,												*,		500,	180
-		CivSedanDoors_BackRight,																*,		500,	180
-		CivSedanDoors_BackRight_Wine,														*,		500,	180
-		CivSedanDoors_BackRight_Black,													*,		500,	180
-		CivSedanDoors_BackRight_WhiteRust,											*,		500,	180
-		CivSedanDoors_BackRight_WineRust,												*,		500,	180
-		CivSedanDoors_BackRight_BlackRust,											*,		500,	180
-		CivSedanWheel,																					*,		6000,	3000
+		HatchbackHood,																					*,		2300,	1000
+		HatchbackHood_Blue,																			*,		2300,	1000
+		HatchbackHood_White,																		*,		2300,	1000
+		HatchbackHood_GreenRust,																*,		2300,	1000
+		HatchbackHood_BlueRust,																	*,		2300,	1000
+		HatchbackHood_WhiteRust,																*,		2300,	1000
+		HatchbackTrunk,																					*,		2380,	1300
+		HatchbackTrunk_Blue,																		*,		2380,	1300
+		HatchbackTrunk_White,																		*,		2380,	1300
+		HatchbackTrunk_GreenRust,																*,		2380,	1300
+		HatchbackTrunk_BlueRust,																*,		2380,	1300
+		HatchbackTrunk_WhiteRust,																*,		2380,	1300
+		HatchbackDoors_Driver,																	*,		3450,	1600
+		HatchbackDoors_Driver_Blue,															*,		3450,	1600
+		HatchbackDoors_Driver_White,														*,		3450,	1600
+		HatchbackDoors_Driver_GreenRust,												*,		3450,	1600
+		HatchbackDoors_Driver_BlueRust,													*,		3450,	1600
+		HatchbackDoors_Driver_WhiteRust,												*,		3450,	1600
+		HatchbackDoors_CoDriver,																*,		3450,	1600
+		HatchbackDoors_CoDriver_Blue,														*,		3450,	1600
+		HatchbackDoors_CoDriver_White,													*,		3450,	1600
+		HatchbackDoors_CoDriver_GreenRust,											*,		3450,	1600
+		HatchbackDoors_CoDriver_BlueRust,												*,		3450,	1600
+		HatchbackDoors_CoDriver_WhiteRust,											*,		3450,	1600
+		HatchbackWheel,																					*,		2500,	1000
+		Hatchback_02_Hood,																			*,		4800,	2600
+		Hatchback_02_Hood_Black,																*,		4800,	2600
+		Hatchback_02_Hood_Blue,																	*,		4800,	2600
+		Hatchback_02_Hood_RedRust,															*,		4800,	2600
+		Hatchback_02_Hood_BlackRust,														*,		4800,	2600
+		Hatchback_02_Hood_BlueRust,															*,		4800,	2600
+		Hatchback_02_Trunk,																			*,		4880,	2600
+		Hatchback_02_Trunk_Black,																*,		4380,	2600
+		Hatchback_02_Trunk_Blue,																*,		4380,	2600
+		Hatchback_02_Trunk_RedRust,															*,		4380,	2600
+		Hatchback_02_Trunk_BlackRust,														*,		4380,	2600
+		Hatchback_02_Trunk_BlueRust,														*,		4380,	2600
+		Hatchback_02_Door_1_1,																	*,		8450,	3660
+		Hatchback_02_Door_1_1_Black,														*,		8450,	3660
+		Hatchback_02_Door_1_1_Blue,															*,		8450,	3660
+		Hatchback_02_Door_1_1_RedRust,													*,		8450,	3660
+		Hatchback_02_Door_1_1_BlackRust,												*,		8450,	3660
+		Hatchback_02_Door_1_1_BlueRust,													*,		8450,	3660
+		Hatchback_02_Door_1_2,																	*,		8450,	3660
+		Hatchback_02_Door_1_2_Black,														*,		8450,	3660
+		Hatchback_02_Door_1_2_Blue,															*,		8450,	3660
+		Hatchback_02_Door_1_2_RedRust,													*,		8450,	3660
+		Hatchback_02_Door_1_2_BlackRust,												*,		8450,	3660
+		Hatchback_02_Door_1_2_BlueRust,													*,		8450,	3660
+		Hatchback_02_Door_2_1,																	*,		8450,	3660
+		Hatchback_02_Door_2_1_Black,														*,		8450,	3660
+		Hatchback_02_Door_2_1_Blue,															*,		8450,	3660
+		Hatchback_02_Door_2_1_RedRust,													*,		8450,	3660
+		Hatchback_02_Door_2_1_BlackRust,												*,		8450,	3660
+		Hatchback_02_Door_2_1_BlueRust,													*,		8450,	3660
+		Hatchback_02_Door_2_2,																	*,		8450,	3660
+		Hatchback_02_Door_2_2_Black,														*,		8450,	3660
+		Hatchback_02_Door_2_2_Blue,															*,		8450,	3660
+		Hatchback_02_Door_2_2_RedRust,													*,		8450,	3660
+		Hatchback_02_Door_2_2_BlackRust,												*,		8450,	3660
+		Hatchback_02_Door_2_2_BlueRust,													*,		8450,	3660
+		Hatchback_02_Wheel,																			*,		10000,	4000
+		Sedan_02_Hood,																					*,		5300,	2100
+		Sedan_02_Hood_Red,																			*,		5300,	2100
+		Sedan_02_Hood_Grey,																			*,		5300,	2100
+		Sedan_02_Hood_YellowRust,																*,		5300,	2100
+		Sedan_02_Hood_RedRust,																	*,		5300,	2100
+		Sedan_02_Hood_GreyRust,																	*,		5300,	2100
+		Sedan_02_Trunk,																					*,		2450,	1150
+		Sedan_02_Trunk_Red,																			*,		2450,	1150
+		Sedan_02_Trunk_Grey,																		*,		2450,	1150
+		Sedan_02_Trunk_YellowRust,															*,		2450,	1150
+		Sedan_02_Trunk_RedRust,																	*,		2450,	1150
+		Sedan_02_Trunk_GreyRust,																*,		2450,	1150
+		Sedan_02_Door_1_1,																			*,		4450,	2160
+		Sedan_02_Door_1_1_Red,																	*,		4450,	2160
+		Sedan_02_Door_1_1_Grey,																	*,		4450,	2160
+		Sedan_02_Door_1_1_YellowRust,														*,		4450,	2160
+		Sedan_02_Door_1_1_RedRust,															*,		4450,	2160
+		Sedan_02_Door_1_1_GreyRust,															*,		4450,	2160
+		Sedan_02_Door_1_2,																			*,		4450,	2160
+		Sedan_02_Door_1_2_Red,																	*,		4450,	2160
+		Sedan_02_Door_1_2_Grey,																	*,		4450,	2160
+		Sedan_02_Door_1_2_YellowRust,														*,		4450,	2160
+		Sedan_02_Door_1_2_RedRust,															*,		4450,	2160
+		Sedan_02_Door_1_2_GreyRust,															*,		4450,	2160
+		Sedan_02_Door_2_1,																			*,		4450,	2160
+		Sedan_02_Door_2_1_Red,																	*,		4450,	2160
+		Sedan_02_Door_2_1_Grey,																	*,		4450,	2160
+		Sedan_02_Door_2_1_YellowRust,														*,		4450,	2160
+		Sedan_02_Door_2_1_RedRust,															*,		4450,	2160
+		Sedan_02_Door_2_1_GreyRust,															*,		4450,	2160
+		Sedan_02_Door_2_2,																			*,		4450,	2160
+		Sedan_02_Door_2_2_Red,																	*,		4450,	2160
+		Sedan_02_Door_2_2_Grey,																	*,		4450,	2160
+		Sedan_02_Door_2_2_YellowRust,														*,		4450,	2160
+		Sedan_02_Door_2_2_RedRust,															*,		4450,	2160
+		Sedan_02_Door_2_2_GreyRust,															*,		4450,	2160
+		Sedan_02_Wheel,																					*,		8500,	2600
+		CivSedanHood,																						*,		2400,	1400
+		CivSedanHood_Wine,																			*,		2400,	1400
+		CivSedanHood_Black,																			*,		2400,	1400
+		CivSedanHood_WhiteRust,																	*,		2400,	1400
+		CivSedanHood_WineRust,																	*,		2400,	1400
+		CivSedanHood_BlackRust,																	*,		2400,	1400
+		CivSedanTrunk,																					*,		2450,	1500
+		CivSedanTrunk_Wine,																			*,		2450,	1500
+		CivSedanTrunk_Black,																		*,		2450,	1500
+		CivSedanTrunk_WhiteRust,																*,		2450,	1500
+		CivSedanTrunk_WineRust,																	*,		2450,	1500
+		CivSedanTrunk_BlackRust,																*,		2450,	1500
+		CivSedanDoors_Driver,																		*,		3500,	1800
+		CivSedanDoors_Driver_Wine,															*,		3500,	1800
+		CivSedanDoors_Driver_Black,															*,		3500,	1800
+		CivSedanDoors_Driver_WhiteRust,													*,		3500,	1800
+		CivSedanDoors_Driver_WineRust,													*,		3500,	1800
+		CivSedanDoors_Driver_BlackRust,													*,		3500,	1800
+		CivSedanDoors_CoDriver,																	*,		3500,	1800
+		CivSedanDoors_CoDriver_Wine,														*,		3500,	1800
+		CivSedanDoors_CoDriver_Black,														*,		3500,	1800
+		CivSedanDoors_CoDriver_WhiteRust,												*,		3500,	1800
+		CivSedanDoors_CoDriver_WineRust,												*,		3500,	1800
+		CivSedanDoors_CoDriver_BlackRust,												*,		3500,	1800
+		CivSedanDoors_BackLeft,																	*,		3500,	1800
+		CivSedanDoors_BackLeft_Wine,														*,		3500,	1800
+		CivSedanDoors_BackLeft_Black,														*,		3500,	1800
+		CivSedanDoors_BackLeft_WhiteRust,												*,		3500,	1800
+		CivSedanDoors_BackLeft_WineRust,												*,		3500,	1800
+		CivSedanDoors_BackLeft_BlackRust,												*,		3500,	1800
+		CivSedanDoors_BackRight,																*,		3500,	1800
+		CivSedanDoors_BackRight_Wine,														*,		3500,	1800
+		CivSedanDoors_BackRight_Black,													*,		3500,	1800
+		CivSedanDoors_BackRight_WhiteRust,											*,		3500,	1800
+		CivSedanDoors_BackRight_WineRust,												*,		3500,	1800
+		CivSedanDoors_BackRight_BlackRust,											*,		3500,	1800
+		CivSedanWheel,																					*,		2300,	1200
 		Truck_01_Hood,																					*,		4000,	1900
 		Truck_01_Hood_Blue,																			*,		4000,	1900
     Truck_01_Hood_Orange,																		*,		4000,	1900
