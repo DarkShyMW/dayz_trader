@@ -294,6 +294,7 @@
 				Msp_Wardrobe_White_Kit,														*,		14600,	6000
 				ballgrill_mung,			          							   		*,		3000,	 1500
 				hardigg_Mung,                     					   		*,    15000,  8000
+				WoodenCrate,																			*,    15000,  -1
 
 			<Category> Прочее
 				Msp_SleepingBag_Green,														*,		2000,		500
@@ -554,6 +555,12 @@
 		//shovel_Mung,                       						 			*,    4000,    	2000
 		Vesuri_mung,                         					 				*,    1000,    	500
 		Clawhammer_mung,                    					 				*,    2000,    	1000
+		FarmingHoe,																						*,    2000,     900
+		MSFC_HuntsmanKnife,																		W,		1500,		500
+		MSFC_CombatKnife,																			W,		2500,		1000
+		MSFC_DownrangeTomahawk_Desert,												W,		-1,			9000
+		MSFC_DownrangeTomahawk_Black,													W,		-1,			9000
+		MSFC_DownrangeTomahawk_Green,													W,		-1,			9000
 
 
 	<Category> Пистолеты
@@ -570,7 +577,8 @@
 		MSFC_1911_Golden,																			W,		-1,		80000
 		TTC_Kimber, 																					W, 		3500, 1000
 		Msp_Water_Gun,																				*,		-1,	5000
-		Nagant1895_mung,                     					 				*,      1000,   500
+		Nagant1895_mung,                     					 				*,     1100,   550
+		lebedev_PL15_mung,																		*,     1400,   700
 
 
 
@@ -600,6 +608,9 @@
 			MSFC_Vepr15,																				W,		5000,		3000
 			TTC_Maverick, 																			W, 		5000, 	2500
 			TTC_Mossberg, 																			W, 		5500, 	2500
+			izh54_sawnoff_mung,																	W, 		3800, 	1950
+			Sawedofflzh43Shotgun,																W, 		3400, 	1500
+			Sawedofflzh18,																				W, 		3000, 	1100
 
 
 
@@ -623,8 +634,8 @@
 			MSFC_PP19_Vityaz_White,															W,		5000,		2500
 			TTC_AACHoney,																	 			W, 		14000, 6300
 			TTC_AACHoney_B, 																		W, 		14000, 6300
-			TTC_AACHoney_300blk, 																W, 		18000, 8500
-			TTC_AACHoney_300blk_B, 															W, 		18000, 8500
+			TTC_AACHoney_300blk, 																W, 		50000, 18500
+			TTC_AACHoney_300blk_B, 															W, 		50000, 18500
 
 
 		<Category> Автоматы
@@ -710,6 +721,7 @@
 			TTC_SCARL, 																					W, 		14000, 	6000
 			TTC_SCARLSnow, 																			W, 		14000, 	6000
 			TTC_SCARLBlack, 																		W, 		16000, 	8000
+			TTC_SCARH, 																					W,	 	14000, 	6000
 			TTC_SCARHBlack, 																		W,	 	16000, 	8000
 			TTC_M16A4, 																					W, 		5000, 	2000
 			TTC_M4Tac, 																					W, 		8000, 	3500
@@ -766,12 +778,13 @@
 			TTC_M4DMR, 																					W, 		14000, 	5750
 			TTC_M4DMROD,																			 	W, 		14000, 	5750
 			TTC_M4DMRDesert,																 		W, 		14000, 	5750
+			csmcmillan_mung,																		*,		-1,			15000
 
 
 
 		<Category> Grenades
-			RGD5Grenade,																				1,		5000,	1000
-			M67Grenade,																					1,		5000,	1000
+			RGD5Grenade,																				1,		-1,	3000
+			M67Grenade,																					1,		-1,	3000
 			M18SmokeGrenade_Red,																1,		1600,	700
 			M18SmokeGrenade_Green,															1,		1600,	700
 			M18SmokeGrenade_Yellow,															1,		1600,	700
@@ -779,22 +792,23 @@
 			M18SmokeGrenade_White,															1,		1600,	700
 			RDG2SmokeGrenade_Black,															1,		1600,	700
 			RDG2SmokeGrenade_White,															1,		1600,	700
+			stielhandgranate_mung,            					   			*,    -1,  5000
 			FlashGrenade,																				1,		1600,	700
 
 
 			<Category> Черный Торговец
 			Никто его не видел, но все говорят, что он где-то есть.
 			Я готов купить у вас это оружие..
-			MSFC_BarrettM82,																		W,		-1,		100000
-			MSFC_BarrettM82_Black,															W,		-1,		100000
-			MSFC_BarrettM82_Green,															W,		-1,		100000
-			MSFC_BarrettM82_Desert,															W,		-1,		100000
-			MSFC_BarrettM82_White,															W,		-1,		100000
-			MSFC_ORSIS_T5000,																		W,		-1,		120000
-			MSFC_ORSIS_T5000_Black,															W,		-1,		120000
-			MSFC_ORSIS_T5000_Green,															W,		-1,		120000
-			MSFC_ORSIS_T5000_Desert,														W,		-1,		120000
-			MSFC_ORSIS_T5000_White,															W,		-1,		120000
+			MSFC_BarrettM82,																		W,		-1,		900000
+			MSFC_BarrettM82_Black,															W,		-1,		900000
+			MSFC_BarrettM82_Green,															W,		-1,		900000
+			MSFC_BarrettM82_Desert,															W,		-1,		900000
+			MSFC_BarrettM82_White,															W,		-1,		900000
+			MSFC_ORSIS_T5000,																		W,		-1,		90000
+			MSFC_ORSIS_T5000_Black,															W,		-1,		92000
+			MSFC_ORSIS_T5000_Green,															W,		-1,		92000
+			MSFC_ORSIS_T5000_Desert,														W,		-1,		92000
+			MSFC_ORSIS_T5000_White,															W,		-1,		92000
 			MSFC_OSV96,																					W,		-1,		120000
 			MSFC_OSV96_Black,																		W,		-1,		120000
 			MSFC_OSV96_Green,																		W,		-1,		120000
@@ -881,6 +895,7 @@
 		Mag_1911_7Rnd,																    M,		110,	50
 		Mag_FNX45_15Rnd,															    M,		150,	50
 		Mag_Deagle_9rnd, 																	M,		750,	250
+		Mag_lebedev_PL15_16Rnd,														M,		200,	100
 		Mag_CZ527_5rnd,																    M,		120,	60
 		Mag_CZ61_20Rnd,																    M,		140,	70
 		Mag_UMP_25Rnd,																    M,		250,	70
@@ -961,35 +976,101 @@
 		TTC_AKMod_762x54_30rnd, 													M, 800, 400
 		TTC_AKMod_762x54_65rnd, 													M, 3600, 1000
 		//Msp
-		Mag_gewehr43_10Rnd_mung,				 							 		*,		   400,	 200
+		Mag_gewehr43_10Rnd_mung,				 							 		*,		1400,	 700
 		Msp_Water_Gun_Mag,																*,		4000,	1200
 		//MSFC
-		MSFC_AK15MR_30RND,
-		MSFC_AK15MR_30RND_Black,													M, 400, 100
-		MSFC_AK15MR_30RND_Green,													M, 400, 100
-		MSFC_AK15MR_30RND_Desert, 												M, 400, 100
-		MSFC_AK15MR_30RND_White,													M, 400, 100
-		MSFC_AR15_762x39_RND,															M, 400, 100
+		MSFC_PP19_Vityaz_Mag_30Rnd,												M,		700,		250
+		MSFC_Tigr308_10_Rnd,															M,		2900,		900
+		MSFC_AK12MR_30RND,																M,		900,		350
+		MSFC_AK12MR_30RND_Black,													M,		900,		350
+		MSFC_AK12MR_30RND_Green,													M,		900,		350
+		MSFC_AK12MR_30RND_Desert,													M,		900,		350
+		MSFC_AK12MR_30RND_White,													M,		900,		350
+		MSFC_AK12MR_60RND,																M,		3500,		350
+		MSFC_AK12MR_60RND_Black,													M,		3500,		350
+		MSFC_AK12MR_60RND_Green,													M,		3500,		350
+		MSFC_AK12MR_60RND_Desert,													M,		3500,		350
+		MSFC_AK12MR_60RND_White,													M,		3500,		350
+		MSFC_AK15MR_30RND,																M,		1100,		550
+		MSFC_AK15MR_30RND_Black,													M,		1100,		550
+		MSFC_AK15MR_30RND_Green,													M,		1100,		550
+		MSFC_AK15MR_30RND_Desert,													M,		1100,		550
+		MSFC_AK15MR_30RND_White,													M,		1100,		550
+		MSFC_RPK16MR_45RND,																M,		4500,		2300
+		MSFC_RPK16MR_45RND_Black,													M,		4500,		2300
+		MSFC_RPK16MR_45RND_Green,													M,		4500,		2300
+		MSFC_RPK16MR_45RND_Desert,												M,		4500,		2300
+		MSFC_RPK16MR_45RND_White,													M,		4500,		2300
+		MSFC_RPK16MR_DRUM,																M,		6500,		3050
+		MSFC_RPK16MR_DRUM_Black,													M,		6500,		3050
+		MSFC_RPK16MR_DRUM_Green,													M,		6500,		3050
+		MSFC_RPK16MR_DRUM_Desert,													M,		6500,		3050
+		MSFC_RPK16MR_DRUM_White,													M,		6500,		3050
+		MSFC_BarrettM82_Mag10RND,													M,		10000,	5000
+		MSFC_L96A1_MAG,																		M,		5700,		2150
+		MSFC_ORSIS_T5000_MAG,															M,		12000,	6000
+		MSFC_OSV96_5rnd_Mag,															M,		12000,	6000
+		MSFC_AR15_762x39_30RND,														M,		2500,		1050
+		MSFC_RPK74_45RND,																	M,		4500,		2450
+		MSFC_RPK_45RND,																		M,		3500,		1250
+		MSFC_AKM_30RND,																		M,		1100,		500
+		MSFC_AKM_30RND_Black,															M,		1100,		500
+		MSFC_AKM_30RND_Green,															M,		1100,		500
+		MSFC_AKM_30RND_Desert,														M,		1100,		500
+		MSFC_AKM_30RND_White,															M,		1100,		500
+		MSFC_Mag_AKM_Golden_30Rnd,												M,		-1,			30000
+		MSFC_Mag_AKM_Chrome_30Rnd,												M,		15000,		8000
+		//MSFC_RPK74_Plastic_45RND,												M,		500,		350
+		//MSFC_RPK_Plastic_45RND,													M,		500,		350
+
+
 
 	<Category> Рукоядки
 		MP5_PlasticHndgrd,																*,		250,	100
 		MP5_RailHndgrd,																		*,		250,	100
-		AK74_Hndgrd,																			*,		600,	300
-		AK_WoodHndgrd,																		*,		600,	300
-		AK_RailHndgrd,																		*,		600,	300
-		AK_PlasticHndgrd,																	*,		600,	300
-		M4_PlasticHndgrd,																	*,		800,	400
-		M4_RISHndgrd,																			*,		800,	400
-		M4_MPHndgrd,																			*,		800,	400
-		TTC_DMR_Hndguard, 																*, 		800, 400
-		TTC_DMR_HndguardOD, 															*, 		800, 400
-		TTC_DMR_HndguardDesert, 													*, 		800, 400
-		TTC_AKMod_Hndguard, 															*, 		800, 400
+		AK74_Hndgrd,																			*,		900,	300
+		AK_WoodHndgrd,																		*,		900,	300
+		AK_RailHndgrd,																		*,		900,	300
+		AK_PlasticHndgrd,																	*,		1700,	500
+		M4_PlasticHndgrd,																	*,		1700,	500
+		M4_RISHndgrd,																			*,		1700,	500
+		M4_MPHndgrd,																			*,		1500,	500
+		TTC_DMR_Hndguard, 																*, 		1500, 500
+		TTC_DMR_HndguardOD, 															*, 		1500, 500
+		TTC_DMR_HndguardDesert, 													*, 		1500, 500
+		TTC_AKMod_Hndguard, 															*, 		1500, 500
 		TTC_AKMod_Gold_Hndguard, 													*, 		-1, 3000
-		TTC_AKMod_Snow_Hndguard, 													*, 		800, 400
-		TTC_AKMod_Multi_Hndguard, 												*, 		800, 400
-		TTC_AKMod_Digi_Hndguard, 													*, 		800, 400
-		TTC_AKMod_Tan_Hndguard, 													*, 		800, 400
+		TTC_AKMod_Snow_Hndguard, 													*, 		1400, 600
+		TTC_AKMod_Multi_Hndguard, 												*, 		1400, 600
+		TTC_AKMod_Digi_Hndguard, 													*, 		1400, 600
+		TTC_AKMod_Tan_Hndguard, 													*, 		1400, 600
+		MSFC_Handguard_HK416,															*,		2600,	1200
+		MSFC_Handguard_HK416_Black,												*,		2600,	1200
+		MSFC_Handguard_HK416_Green,												*,		2600,	1200
+		MSFC_Handguard_HK416_Desert,											*,		2600,	1200
+		MSFC_Handguard_HK416_White,												*,		2600,	1200
+		MSFC_Handguard_Tactical_AR15,											*,		1600,	600
+		MSFC_Handguard_Tactical_AR15_Black,								*,		1600,	600
+		MSFC_Handguard_Tactical_AR15_Green,								*,		1600,	600
+		MSFC_Handguard_Tactical_AR15_Desert,							*,		1600,	600
+		MSFC_Handguard_Tactical_AR15_White,								*,		1600,	600
+		MSFC_Handguard_AK12MR,														*,		1200,	500
+		MSFC_Handguard_AK12MR_Black,											*,		1200,	500
+		MSFC_Handguard_AK12MR_Green,											*,		1200,	500
+		MSFC_Handguard_AK12MR_Desert,											*,		1200,	500
+		MSFC_Handguard_AK12MR_White,											*,		1200,	500
+		MSFC_Handguard_RPK16MR,														*,		2200,	800
+		MSFC_Handguard_RPK16MR_Black,											*,		2200,	800
+		MSFC_Handguard_RPK16MR_Green,											*,		2200,	800
+		MSFC_Handguard_RPK16MR_Desert,										*,		2200,	800
+		MSFC_Handguard_RPK16MR_White,											*,		2200,	800
+		MSFC_Handguard_RPK,																*,		2400,	900
+		MSFC_Handguard_RPK74,															*,		2400,	900
+		MSFC_AK_Zenitco_Handguard,												*,		900,	400
+		MSFC_AK_Zenitco_Handguard_Black,									*,		900,	400
+		MSFC_AK_Zenitco_Handguard_Green,									*,		900,	400
+		MSFC_AK_Zenitco_Handguard_Desert,									*,		900,	400
+		MSFC_AK_Zenitco_Handguard_White,									*,		900,	400
 
 	<Category> Приклады
 		MP5k_StockBttstck,																*,		250,	100
@@ -1000,116 +1081,172 @@
 		AK74_WoodBttstck,																	*,		800,	400
 		AK_PlasticBttstck,																*,		800,	400
 		AK_WoodBttstck,																		*,		800,	400
-		AK_Folding800Bttstck,															*,		800,	400
-		M4_OEBttstck,																			*,		900,	500
-		M4_CQBBttstck,																		*,		900,	500
-		M4_MPBttstck,																			*,		900,	500
-		TTC_Buttstock,																		*, 		300, 	150
-		TTC_Buttstock2, 																	*, 		300, 	150
-		TTC_Buttstock3, 																	*, 		300, 	150
-		TTC_M1StockPouch, 																*, 		500, 	250
-		TTC_Buttstock_Honey,	  													*, 		600, 	300
-		TTC_Buttstock_Camo, 															*, 		600, 	300
-		TTC_Buttstock_Digitan,  													*, 		600, 	300
-		TTC_Buttstock_Tan, 																*, 		600, 	300
-		TTC_Buttstock_UPC, 																*, 		600, 	300
-		TTC_ButtstockHK, 																	*, 		600, 	300
-		TTC_Buttstock_Morty, 															*, 		600, 	300
-		TTC_Buttstock_AK12, 															*, 		700, 	350
+		AK_Folding800Bttstck,															*,		1800,	400
+		M4_OEBttstck,																			*,		1900,	500
+		M4_CQBBttstck,																		*,		1900,	500
+		M4_MPBttstck,																			*,		1900,	500
+		TTC_Buttstock,																		*, 		1300, 500
+		TTC_Buttstock2, 																	*, 		1300, 500
+		TTC_Buttstock3, 																	*, 		1300, 500
+		TTC_M1StockPouch, 																*, 		1500, 	700
+		TTC_Buttstock_Honey,	  													*, 		1600, 	500
+		TTC_Buttstock_Camo, 															*, 		1600, 	650
+		TTC_Buttstock_Digitan,  													*, 		1600, 	650
+		TTC_Buttstock_Tan, 																*, 		1600, 	650
+		TTC_Buttstock_UPC, 																*, 		1600, 	650
+		TTC_ButtstockHK, 																	*, 		1600, 	650
+		TTC_Buttstock_Morty, 															*, 		1600, 	650
+		TTC_Buttstock_AK12, 															*, 		1700, 	900
 		TTC_AKMod_bttstk, 																*, 		300, 	200
-		TTC_AKMod_Gold_bttstk, 														*, 		700, 	350
+		TTC_AKMod_Gold_bttstk, 														*, 		-1, 	4000
 		TTC_AKMod_Snow_bttstk, 														*, 		700, 	350
 		TTC_AKMod_Multi_bttstk, 													*, 		700, 	350
 		TTC_AKMod_Digi_bttstk, 														*, 		700, 	350
 		TTC_AKMod_Tan_bttstk, 														*, 		700, 	350
 		mcmillan_buttstock,			       							   		*,		1600,	750
 		zenitco_pt3_buttstock,			  							   		*,		1200,	600
+		//MSFC
+		MSFC_ButtstockAK12MR,															*,		1250,	550
+		MSFC_ButtstockAK12MR_Black,												*,		1250,	550
+		MSFC_ButtstockAK12MR_Green,												*,		1250,	550
+		MSFC_ButtstockAK12MR_Desert,											*,		1250,	550
+		MSFC_ButtstockAK12MR_White,												*,		1250,	550
+		MSFC_AK_Zenitco_Buttstock,												*,		1400,	750
+		MSFC_AK_Zenitco_Buttstock_Black,									*,		1400,	750
+		MSFC_AK_Zenitco_Buttstock_Green,									*,		1400,	750
+		MSFC_AK_Zenitco_Buttstock_Desert,									*,		1400,	750
+		MSFC_AK_Zenitco_Buttstock_White,									*,		1400,	750
+		MSFC_ButtstockRPK,																*,		2600,	900
+		MSFC_ButtstockRPK74,															*,		2000,	700
+		MSFC_ButtstockHK416,															*,		1850,	750
+		MSFC_ButtstockHK416_Black,												*,		1850,	750
+		MSFC_ButtstockHK416_Green,												*,		1850,	750
+		MSFC_ButtstockHK416_Desert,												*,		1850,	750
+		MSFC_ButtstockHK416_White,												*,		1850,	750
+		MSFC_ButtstockCZ805,															*,		2600,	1400
+		MSFC_ButtstockCZ805_Black,												*,		2600,	1400
+		MSFC_ButtstockCZ805_Green,												*,		2600,	1400
+		MSFC_ButtstockCZ805_Desert,												*,		2600,	1400
+		MSFC_ButtstockCZ805_White,												*,		2600,	1400
+		MSFC_ButtstockAK_ALFA,														*,		2000,	800
+		MSFC_ButtstockAK_ALFA_Black,											*,		2000,	800
+		MSFC_ButtstockAK_ALFA_Green,											*,		2000,	800
+		MSFC_ButtstockAK_ALFA_Desert,											*,		2000,	800
+		MSFC_ButtstockAK_ALFA_Whute,											*,		2000,	800
+		MSFC_Buttstock_ORSIS_T5000,												*,		7000,	2500
+		MSFC_Buttstock_ORSIS_T5000_Black,									*,		7000,	2500
+		MSFC_Buttstock_ORSIS_T5000_Green,									*,		7000,	2500
+		MSFC_Buttstock_ORSIS_T5000_Desert,								*,		7000,	2500
+		MSFC_Buttstock_ORSIS_T5000_White,									*,		7000,	2500
+		MSFC_ButtstockAK12Punk,														*,		1000,	500
+		//MSFC_AK_Mount,																	*,		600,	400
+		//MSFC_AK_Mount_Black,														*,		600,	400
+		//MSFC_AK_Mount_Green,														*,		600,	400
+		//MSFC_AK_Mount_Desert,														*,		600,	400
+		//MSFC_AK_Mount_White,														*,		600,	400
 
 	<Category> Оптика
 		M4_CarryHandleOptic,															*,			150,	60
 		BUISOptic,																				*,			150,	60
 		FNP45_MRDSOptic,																	*,			250,	100
-		ACOGOptic,																				*,			300,	120
-		M68Optic,																					*,			500,	200
+		ACOGOptic,																				*,			2300,	1200
+		M68Optic,																					*,			2500,	1100
 		M4_T3NRDSOptic,																		*,			500,	200
-		KobraOptic,																				*,			600,	250
-		KashtanOptic,																			*,			700,	300
-		PUScopeOptic,																			*,			900,	500
-		HuntingOptic,																			*,			1000,	550
-		PSO1Optic,																				*,			590,	200
-		PSO11Optic,																				*,			600,	240
+		KobraOptic,																				*,			900,	450
+		KashtanOptic,																			*,			1100,	500
+		PUScopeOptic,																			*,			1900,	600
+		HuntingOptic,																			*,			4800,	2550
+		PSO1Optic,																				*,			2590,	1200
+		PSO11Optic,																				*,			2600,	1240
 		KazuarOptic,																			*,			2200,	1000
-		AD_B13Mount,          		 												*,      	1900,   600
-		AD_MosinMount,          	 												*,      	3500,   1100
-		AD_ACOG,           				 												*,     		300,    120
-		AD_ACOG_MosinMount,           										*,     		3800,   1350
-		AD_ACOG_B13,          														*,      	2200,   1300
-		AD_ACOG_RMR,           														*,      	2100,   1200
-		AD_ACOG_RMR_MosinMount,          									*,     		4000,   1400
-		AD_ACOG_RMR_B13,            											*,      	2500,   1400
-		AD_DHF5,           																*,      	5000,   1350
-		AD_DHF5_MosinMount,         											*,      	9000,   2550
-		AD_DHF5_B13,           														*,      	6550,   2300
-		AD_MRS,           																*,      	900,    350
-		AD_MRS_MosinMount,          											*,      900,    350
-		AD_MRS_B13,           														*,      900,    350
-		AD_NFATACR,           														*,      900,    350
-		AD_NFATACR_MosinMount,           									*,      900,    350
-		AD_NFATACR_B13,          	 												*,      900,    350
-		AD_NFATACR_1_8,         	 												*,      900,    350
-		AD_NFATACR_1_8_MosinMount,        						  	*,      900,    350
-		AD_NFATACR_1_8_B13,           										*,      900,    350
-		AD_OKP7,           																*,      900,    350
-		AD_OKP7_MosinMount,           										*,      900,    350
-		AD_OKP7_B13,           														*,      900,    350
-		AD_Pilad,          		 														*,      900,    350
-		AD_Pilad_MosinMount,           										*,      900,    350
-		AD_Pilad_B13,           													*,      900,    350
-		AD_PVS4,           																*,      900,    350
-		AD_PVS4_MosinMount,           										*,      900,    350
-		AD_PVS4_B13,           														*,      900,    350
-		AD_RMR,           																*,      900,    350
-		AD_RMR_LM,           															*,      900,    350
-		AD_RMR_LM_MosinMount,           									*,      900,    350
-		AD_RMR_LM_B13,          													*,      900,    350
-		AD_RMR_TM,           															*,      900,    350
-		AD_RMR_TM_MosinMount,           									*,      900,    350
-		AD_RMR_TM_B13,          													*,      900,    350
-		AD_SpecterDR,           													*,      900,    350
-		AD_SpecterDR_MosinMount,           								*,      900,    350
-		AD_SpecterDR_B13,          												*,      900,    350
-		TTC_G3_Optic, 																		*,			5000, 	2000
-		TTC_BugBuster, 																		*,			5000,		2000
-		TTC_Holo, 																				*, 			5000,		2000
-		TTC_HAMR, 																				*, 			5000, 	2000
+		MSFC_Optic_EOtech_XPS20,													*,			1600,	550
+		MSFC_Optic_HartmanMH1,														*,			1600,	550
+		AD_B13Mount,          		 												*,      1900,   600
+		AD_MosinMount,          	 												*,     	3500,   1100
+		AD_ACOG,           				 												*,     	1300,    500
+		AD_ACOG_MosinMount,           										*,     	3800,   1350
+		AD_ACOG_B13,          														*,      2200,   1300
+		AD_ACOG_RMR,           														*,     	2100,   1200
+		AD_ACOG_RMR_MosinMount,          									*,     	4000,   1400
+		AD_ACOG_RMR_B13,            											*,      2500,   1400
+		AD_DHF5,           																*,     	5000,   1350
+		AD_DHF5_MosinMount,         											*,     	9000,   2550
+		AD_DHF5_B13,           														*,     	6550,   2300
+		AD_MRS,           																*,     	1500,    750
+		AD_MRS_MosinMount,          											*,      1100,    650
+		AD_MRS_B13,           														*,      1400,    650
+		AD_NFATACR,           														*,      8000,    3350
+		AD_NFATACR_MosinMount,           									*,      2600,    1350
+		AD_NFATACR_B13,          	 												*,      4400,    2000
+		AD_NFATACR_1_8,         	 												*,      4600,    2000
+		AD_NFATACR_1_8_MosinMount,        						  	*,      2200,    1100
+		AD_NFATACR_1_8_B13,           										*,      4100,    1800
+		AD_OKP7,           																*,      1900,    800
+		AD_OKP7_MosinMount,           										*,      1100,    500
+		AD_OKP7_B13,           														*,      1500,    700
+		AD_Pilad,          		 														*,      8000,   3900
+		AD_Pilad_MosinMount,           										*,      2400,   1050
+		AD_Pilad_B13,           													*,      5100,   2550
+		AD_PVS4,           																*,      4500,   2100
+		AD_PVS4_MosinMount,           										*,      3400,   1200
+		AD_PVS4_B13,           														*,      3900,   1500
+		AD_RMR,           																*,      800,    400
+		AD_RMR_LM,           															*,      800,    400
+		AD_RMR_LM_MosinMount,           									*,      800,    400
+		AD_RMR_LM_B13,          													*,      800,    400
+		AD_RMR_TM,           															*,      800,    400
+		AD_RMR_TM_MosinMount,           									*,      800,    400
+		AD_RMR_TM_B13,          													*,      800,    400
+		AD_SpecterDR,           													*,      800,    400
+		AD_SpecterDR_MosinMount,           								*,      800,    400
+		AD_SpecterDR_B13,          												*,      800,    400
+		TTC_G3_Optic, 																		*,			4000, 	2000
+		TTC_BugBuster, 																		*,			5000,		2500
+		TTC_Holo, 																				*, 			5000,		2500
+		TTC_HAMR, 																				*, 			5000, 	2500
 
 	<Category> Supressors & Compensators & Bayonets
-		PistolSuppressor,																	*,		150,	75
-		AK_Suppressor,																		*,		250,	125
-		M4_Suppressor,																		*,		250,	125
+		PistolSuppressor,																	*,		1500,	750
+		AK_Suppressor,																		*,		2500,	1250
+		M4_Suppressor,																		*,		2500,	1250
 		TTC_Universal_Suppressor_BLACK, 									*, 		7500, 2000
 		TTC_Universal_Suppressor_CAMO,  									*, 		7500, 2000
 		TTC_Universal_Suppressor_Tan, 										*, 		7500, 2000
 		TTC_Universal_Suppressor_Snow,  									*, 		7500, 2000
-		TTC_Honey_Suppressor, 														*, 		2500, 900
-		TTC_DMR_Suppressor, 															*, 		500, 200
-		TTC_DMR_AFG, 																			*, 		500, 200
-		TTC_DMR_AFG_Green, 																*, 		500, 200
-		TTC_DMR_AFG_Tan, 																	*, 		500, 200
-		TTC_DMR_VFG, 																			*, 		500, 200
-		TTC_DMR_VFG_Green, 																*, 		500, 200
-		TTC_DMR_VFG_Tan, 																	*, 		500, 200
-		TTC_DMR_Bipod, 																		*, 		500, 200
-		TTC_M14Suppressor, 																*, 		500, 200
-		TTC_AKMOD_AFG, 																		*, 		500, 200
-		TTC_AKMod_Suppressor, 														*, 		500, 200
-		Mosin_Compensator,																*,		150,	75
-		MP5_Compensator,																	*,		200,	100
-		Mosin_Bayonet,																		*,		100,	60
-		M9A1_Bayonet,																			*,		150,	75
-		AK_Bayonet,																				*,		150,	75
-		SKS_Bayonet,																			*,		100,	60
-		Universallight,																		*,		120,	60
+		TTC_Honey_Suppressor, 														*, 		5500, 2000
+		TTC_DMR_Suppressor, 															*, 		5000, 2000
+		MSFC_DHG_M4_Suppressor,														*,		3000,	1500
+		MSFC_DHG_M4_Suppressor_Black,											*,		3000,	1500
+		MSFC_DHG_M4_Suppressor_Green,											*,		3000,	1500
+		MSFC_DHG_M4_Suppressor_Desert,										*,		3000,	1500
+		MSFC_DHG_M4_Suppressor_White,											*,		3000,	1500
+		MSFC_PBS4_AK_Suppressor,													*,		2500,	1000
+		MSFC_PBS4_AK_Suppressor_Black,										*,		2500,	1000
+		MSFC_PBS4_AK_Suppressor_Green,										*,		2500,	1000
+		MSFC_PBS4_AK_Suppressor_Desert,										*,		2500,	1000
+		MSFC_PBS4_AK_Suppressor_White,										*,		2500,	1000
+		TTC_M14Suppressor, 																*, 		7500, 2500
+		TTC_AKMod_Suppressor, 														*, 		4500, 2300
+		MSFC_RO_Pistol_Suppressor,												*,		1800,	500
+		MSFC_RO_Pistol_Suppressor_Black,									*,		1800,	500
+		MSFC_RO_Pistol_Suppressor_Green,									*,		1800,	500
+		MSFC_RO_Pistol_Suppressor_Desert,									*,		1800,	500
+		MSFC_RO_Pistol_Suppressor_White,									*,		1800,	500
+		TTC_DMR_AFG, 																			*, 		4500, 2200
+		TTC_DMR_AFG_Green, 																*, 		4500, 2200
+		TTC_DMR_AFG_Tan, 																	*, 		4500, 2200
+		TTC_DMR_VFG, 																			*, 		4500, 2200
+		TTC_DMR_VFG_Green, 																*, 		4500, 2200
+		TTC_DMR_VFG_Tan, 																	*, 		4500, 2200
+		TTC_DMR_Bipod, 																		*, 		4500, 2200
+		TTC_AKMOD_AFG, 																		*, 		3500, 1200
+		Mosin_Compensator,																*,		1500,	750
+		MP5_Compensator,																	*,		2000,	1000
+		Mosin_Bayonet,																		*,		1000,	600
+		M9A1_Bayonet,																			*,		1500,	750
+		AK_Bayonet,																				*,		1500,	750
+		SKS_Bayonet,																			*,		1000,	600
+		Universallight,																		*,		1200,	600
 
 		<Category> Mortys Weapon Parts
 
@@ -1846,11 +1983,10 @@
 		AliceBag_Black,																		*,		9000,	4000
 		AliceBag_Green,																		*,		9000,	4000
 		AliceBag_Camo,																		*,		9000,	4000
-		Msp_MedicBag_Green,																*,		9000,	200
-		Msp_MedicBag_Red,																	*,		9000,	200
-		Msp_MedicBag_Blue,																*,		9000,	200
-		Msp_MedicBag_Black,																*,		9000,	200
-		stielhandgranate_mung,            					   		*,    800,    400
+		Msp_MedicBag_Green,																*,		9000,	3700
+		Msp_MedicBag_Red,																	*,		9000,	3700
+		Msp_MedicBag_Blue,																*,		9000,	3700
+		Msp_MedicBag_Black,																*,		9000,	3700
 		rifleholster_camo_mung,           					   		*,    500,    250
 		rifleholster_camo_ucp_mung,										 		*,		500,	 	250
 		rifleholster_black_mung,          					   		*,    500,    250
