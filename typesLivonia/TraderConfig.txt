@@ -2358,7 +2358,7 @@
 		Truck_01_Covered,																				V,		450000,	150000
     Truck_01_Covered_Blue,																	V,		450000,	150000
     Truck_01_Covered_Orange,												V,		450000,	150000
-    Jeep_Cheroke_1984_byBlizzM,												V,		470000,	150000
+    	 Jeep_Cheroke_1984_byBlizzM,												V,		470000,	150000
 
 	<Category> Vehicle Parts
 		HeadlightH7_Box,																				*,		300,		150
@@ -2517,8 +2517,8 @@
     Truck_01_WheelDouble,																		*,		6000,	2500
 
 	<Category> Keys
-		VehicleKeyDuplicate,																		K,		2000,	-1 		// The choosen Classname here only gets displayed in the UI (Name/Description); Make Sure SellValue is set to -1
-		VehicleKeyLost,    																			KL,    	5000,   -1		// The choosen Classname here only gets displayed in the UI (Name/Description); Make Sure SellValue is set to -1
+		VehicleKeyDuplicate,																		K,		4000,	-1 		// The choosen Classname here only gets displayed in the UI (Name/Description); Make Sure SellValue is set to -1
+		VehicleKeyLost,    																			KL,    	20000,   -1		// The choosen Classname here only gets displayed in the UI (Name/Description); Make Sure SellValue is set to -1
 
 
 //<OpenFile> FileName.txt								// Links to another File; Must be right above <FileEnd>!
