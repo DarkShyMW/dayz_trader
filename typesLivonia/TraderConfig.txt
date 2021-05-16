@@ -44,10 +44,23 @@
 
 
 	<Category> Packaged Food
-		PowderedMilk,																			*,		200,		-1
-		sandwich_mung,                       					 		*,    1100,   250
-		wonderbread_mung,                    					 		*,    1200,   250
-		BoxCerealCrunchin,																*,		1200,		300
+		BrisketSpread,																		*,		2200,		500
+		Pate,																							*,		2200,		900
+		Pajka,																						*,		2200,		900
+		PorkCan,																					*,		2200,		900
+		CatFoodCan,																				*,		-1,			2500
+		DogFoodCan,																				*,		-1,			2500
+		Chips,																						*,		2200,		400
+		Crackers,																					*,		2200,		900
+		SaltySticks,																			*,		2200,		500
+		ZagorkyPeanuts,																		*,		2500,		1100
+		ZagorkyChocolate, 																*,		2500,		1100
+		Zagorky,																					*,		2500,		1100
+		Lunchmeat,																				*,		2500,		500
+		PowderedMilk,																			*,		1000,		500
+		sandwich_mung,                       					 		*,    2100,   250
+		wonderbread_mung,                    					 		*,    2200,   250
+		BoxCerealCrunchin,																*,		2200,		300
 		Rice,																							*,		5200,		1500
 		Marmalade,																				*,		3000,		1500
 		PeachesCan,																				*,		3500,		1700
@@ -56,7 +69,9 @@
 		SpaghettiCan,																			*,		3700,		1870
 		BakedBeansCan,																		*,		3000,		1400
 		TacticalBaconCan,																	*,		5500,		2500
+		UnknownFoodCan, 																	*,		-1,			4000
 		pickles_closed,                     					 		*,    8000,   4500
+		Honey,																						*,		-1,			8000
 
 	<Category> Meat
 		ChickenBreastMeat,																S,		1300,	500
@@ -67,6 +82,12 @@
 		WolfSteakMeat,																		S,		-1,		2000
 		DeerSteakMeat,																		S,		-1,		2000
 		CowSteakMeat,																			S,		-1,		2000
+		FoxSteakMeat, 																		S,		-1,		8000
+		RabbitLegMeat,																		S,		-1,		1000
+		HumanSteakMeat, 																	S,		-1,		200
+		CarpFilletMeat, 																	S,		-1,		400
+		MackerelFilletMeat, 															S,		-1,		400
+		BearSteakMeat, 																		S,		-1,		5000
 		Sardines,																					S,		-1,		500
 		Carp,																							S,		-1,		500
 		Mackerel,																					S,		-1,		500
@@ -201,7 +222,7 @@
 				//Msp_AmericanAppleCrate,		                    			*,		600,		300
 				//Msp_AppleCrate,		                    							*,		600,		300
 				//Msp_PlasticCrate,		                    						*,		600,		300
-				Msp_AmmoCrate,		                    								*,		7000,		60
+				Msp_AmmoCrate,		                    								*,		7000,		1600
 				Msp_TackleBox,		                    								*,		5000,		1000
 				Msp_TackleBox_Black,		                    					*,		5000,		1000
 				Msp_CoolerBox,		                    								*,		5000,		1000
