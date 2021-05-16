@@ -1066,11 +1066,11 @@
 		PistolSuppressor,																	*,		150,	75
 		AK_Suppressor,																		*,		250,	125
 		M4_Suppressor,																		*,		250,	125
-		TTC_Universal_Suppressor_BLACK, 									*, 		500, 200
-		TTC_Universal_Suppressor_CAMO,  									*, 		500, 200
-		TTC_Honey_Suppressor, 														*, 		500, 200
-		TTC_Universal_Suppressor_Tan, 										*, 		500, 200
-		TTC_Universal_Suppressor_Snow,  									*, 		500, 200
+		TTC_Universal_Suppressor_BLACK, 									*, 		7500, 2000
+		TTC_Universal_Suppressor_CAMO,  									*, 		7500, 2000
+		TTC_Universal_Suppressor_Tan, 										*, 		7500, 2000
+		TTC_Universal_Suppressor_Snow,  									*, 		7500, 2000
+		TTC_Honey_Suppressor, 														*, 		2500, 900
 		TTC_DMR_Suppressor, 															*, 		500, 200
 		TTC_DMR_AFG, 																			*, 		500, 200
 		TTC_DMR_AFG_Green, 																*, 		500, 200
@@ -1248,7 +1248,7 @@
 			MSFC_MilitaryTacticalBag30L_Desert,							*,		5500,		2000
 			MSFC_MilitaryTacticalBag70L_Black,							*,		12000,		6500
 			MSFC_MilitaryTacticalBag70L_Green,							*,		12000,		6500
-			MSFC_MilitaryTacticalBag70L_Desert,							*,		1200,		6500
+			MSFC_MilitaryTacticalBag70L_Desert,							*,		12000,		6500
 			MSFC_G3Pants_Black,															*,		1500,		700
 			MSFC_G3Pants_Green,															*,		1500,		700
 			MSFC_G3Pants_Desert,														*,		1500,		700
@@ -2147,7 +2147,8 @@
 		CivilianSedan_Black,																		V,		120000,	50000
 		Truck_01_Covered,																				V,		450000,	150000
     Truck_01_Covered_Blue,																	V,		450000,	150000
-    Truck_01_Covered_Orange,																V,		450000,	150000
+    Truck_01_Covered_Orange,	
+    Jeep_Cheroke_1984_byBlizzM,												V,		470000,	150000
 
 	<Category> Vehicle Parts
 		HeadlightH7_Box,																				*,		300,		150
