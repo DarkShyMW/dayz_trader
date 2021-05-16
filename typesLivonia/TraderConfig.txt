@@ -907,7 +907,7 @@
 		Mag_AKM_30Rnd,																    M,		300,	155
 		Mag_AKM_Palm30Rnd,															  M,		350,	160
 		Mag_AKM_Drum75Rnd,															  M,		-1,		1220
-		Mag_AK101_30Rnd,															    M,		480,	250
+		Mag_AK101_30Rnd,															    M,		780,	250
 		Mag_AK74_30Rnd,																    M,		450,	220
 		Mag_STANAG_30Rnd,															 	  M,		500,	210
 		Mag_STANAGCoupled_30Rnd,													M,		1140,	350
