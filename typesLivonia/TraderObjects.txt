@@ -58,7 +58,7 @@
 
 //black
 <TraderMarker> 			6
-<TraderMarkerPosition>	3704.41,  402.012, 5995.33
+<TraderMarkerPosition>	24.514, 544.623, 11911.2
 <TraderMarkerSafezone>	0
 
 // ------------------------------------------------------ Objects to Spawn ------------------------------------------------------
@@ -279,6 +279,17 @@
 
 <Object> 			SurvivorM_Jose
 <ObjectPosition>	8365.63,	292.012,	5977.71
+<ObjectOrientation>	-22.091135,	0,			0
+<ObjectAttachment>	LugWrench
+<ObjectAttachment>	WorkingGloves_Black
+<ObjectAttachment>	ReflexVest
+<ObjectAttachment>	JumpsuitJacket_Blue
+<ObjectAttachment>	JumpsuitPants_Blue
+<ObjectAttachment>	HikingBootsLow_Blue
+
+//BLACK TRADER
+<Object> 			SurvivorM_Jose
+<ObjectPosition>	24.514, 544.623, 11911.2
 <ObjectOrientation>	-22.091135,	0,			0
 <ObjectAttachment>	LugWrench
 <ObjectAttachment>	WorkingGloves_Black
