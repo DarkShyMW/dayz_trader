@@ -610,7 +610,7 @@
 			TTC_Mossberg, 																			W, 		5500, 	2500
 			izh54_sawnoff_mung,																	W, 		3800, 	1950
 			Sawedofflzh43Shotgun,																W, 		3400, 	1500
-			Sawedofflzh18,																				W, 		3000, 	1100
+			Sawedofflzh18,																			W, 		3000, 	1100
 
 
 
@@ -1019,7 +1019,7 @@
 		MSFC_AKM_30RND_Desert,														M,		1100,		500
 		MSFC_AKM_30RND_White,															M,		1100,		500
 		MSFC_Mag_AKM_Golden_30Rnd,												M,		-1,			30000
-		MSFC_Mag_AKM_Chrome_30Rnd,												M,		15000,		8000
+		MSFC_Mag_AKM_Chrome_30Rnd,												M,		-1,			15000
 		//MSFC_RPK74_Plastic_45RND,												M,		500,		350
 		//MSFC_RPK_Plastic_45RND,													M,		500,		350
 
