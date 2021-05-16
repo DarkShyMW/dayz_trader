@@ -2147,7 +2147,7 @@
 		CivilianSedan_Black,																		V,		120000,	50000
 		Truck_01_Covered,																				V,		450000,	150000
     Truck_01_Covered_Blue,																	V,		450000,	150000
-    Truck_01_Covered_Orange,	
+    Truck_01_Covered_Orange,												V,		450000,	150000
     Jeep_Cheroke_1984_byBlizzM,												V,		470000,	150000
 
 	<Category> Vehicle Parts
