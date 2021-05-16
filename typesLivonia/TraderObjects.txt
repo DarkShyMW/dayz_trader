@@ -58,8 +58,8 @@
 
 //black
 <TraderMarker> 			6
-<TraderMarkerPosition>	8354.06,    293.143,    5995.87
-<TraderMarkerSafezone>	80
+<TraderMarkerPosition>	3704.41,  402.012, 5995.33
+<TraderMarkerSafezone>	0
 
 // ------------------------------------------------------ Objects to Spawn ------------------------------------------------------
 

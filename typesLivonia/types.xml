@@ -30203,7 +30203,7 @@
   <value name="Tier4" />
 </type>
 <type name="MSFC_ORSIS_T5000">
-  <nominal>2</nominal>
+  <nominal>1</nominal>
   <lifetime>7200</lifetime>
   <restock>1800</restock>
   <min>1</min>
@@ -30213,7 +30213,6 @@
   <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
   <category name="weapons" />
   <usage name="Military" />
-  <value name="Tier3" />
   <value name="Tier4" />
 </type>
 <type name="MSFC_OSV96">
