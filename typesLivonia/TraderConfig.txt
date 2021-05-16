@@ -1344,7 +1344,7 @@
 			MSFC_ZSh12M_Visor_Black,												*,		4000,		1750
 			MSFC_ZSh12M_Visor_Green,												*,		4000,		1750
 			MSFC_ZSh12M_Visor_Desert,												*,		4000,		1750
-			MSFC_ZSh12M_Visor_AbiBASS,											*,		4000,	1750
+			MSFC_ZSh12M_Visor_AbiBASS,											*,		4000,		1750
 			MSFC_WarBelt_Black,															*,		2000,		900
 			MSFC_WarBelt_Green,															*,		2000,		900
 			MSFC_WarBelt_Desert,														*,		2000,		900
@@ -2007,6 +2007,59 @@
 		bag_6B38_LETO_mung,			           							 	*,		11000,	 5400
 		bag_6B38_Black_mung,			           							*,		11000,	 5400
 		bag_6B38_Snow_mung,			           							 	*,		11000,	 5400
+
+		<Category> SQUAD MSF-C (Velcro Patch)
+			MSFC_Velcro_Patch_Flag,		*,		100,	50
+			MSFC_Velcro_Patch_MSFC,		*,		100,	50
+			MSFC_Velcro_Patch_RU,		*,		100,	50
+			MSFC_Velcro_Patch_BY,		*,		100,	50
+			MSFC_Velcro_Patch_UA,		*,		100,	50
+			MSFC_Velcro_Patch_DE,		*,		100,	50
+			MSFC_Velcro_Patch_US,		*,		100,	50
+			MSFC_Velcro_Patch_Chernarus,		*,		100,	50
+			MSFC_Velcro_Patch_FSB,		*,		100,	50
+			MSFC_Velcro_Patch_MAMA_IM_SPEC,		*,		100,	50
+			MSFC_Velcro_Patch_MEDIC_EN,		*,		100,	50
+			MSFC_Velcro_Patch_MEDIC_RU,		*,		100,	50
+			MSFC_Velcro_Patch_MSFC_TEXT,		*,		100,	50
+			MSFC_Velcro_Patch_POEHAVSHY,		*,		100,	50
+			MSFC_Velcro_Patch_SBCH,		*,		100,	50
+			MSFC_Velcro_Patch_SOFA_ARMY_RF,		*,		100,	50
+			MSFC_Velcro_Patch_BENDER,		*,		100,	50
+			MSFC_Velcro_Patch_Afghanistan,		*,		100,	50
+			MSFC_Velcro_Patch_Australia,		*,		100,	50
+			MSFC_Velcro_Patch_Austria,		*,		100,	50
+			MSFC_Velcro_Patch_Belgium,		*,		100,	50
+			MSFC_Velcro_Patch_Canada,		*,		100,	50
+			MSFC_Velcro_Patch_Croatia,		*,		100,	50
+			MSFC_Velcro_Patch_Czech,		*,		100,	50
+			MSFC_Velcro_Patch_DANGER,		*,		100,	50
+			MSFC_Velcro_Patch_Denmark,		*,		100,	50
+			MSFC_Velcro_Patch_Estonia,		*,		100,	50
+			MSFC_Velcro_Patch_Finland,		*,		100,	50
+			MSFC_Velcro_Patch_France,		*,		100,	50
+			MSFC_Velcro_Patch_Greece,		*,		100,	50
+			MSFC_Velcro_Patch_Hungary,		*,		100,	50
+			MSFC_Velcro_Patch_Irland,		*,		100,	50
+			MSFC_Velcro_Patch_Island,		*,		100,	50
+			MSFC_Velcro_Patch_Israel,		*,		100,	50
+			MSFC_Velcro_Patch_Italy,		*,		100,	50
+			MSFC_Velcro_Patch_Japan,		*,		100,	50
+			MSFC_Velcro_Patch_Netherlands,		*,		100,	50
+			MSFC_Velcro_Patch_Norway,		*,		100,	50
+			MSFC_Velcro_Patch_Poland,		*,		100,	50
+			MSFC_Velcro_Patch_Portugal,		*,		100,	50
+			MSFC_Velcro_Patch_Puerto,		*,		100,	50
+			MSFC_Velcro_Patch_SA,		*,		100,	50
+			MSFC_Velcro_Patch_Scotland,		*,		100,	50
+			MSFC_Velcro_Patch_Spain,		*,		100,	50
+			MSFC_Velcro_Patch_Sweden,		*,		100,	50
+			MSFC_Velcro_Patch_Switzerland,		*,		100,	50
+			MSFC_Velcro_Patch_Thailand,		*,		100,	50
+			MSFC_Velcro_Patch_Turkey,		*,		100,	50
+			MSFC_Velcro_Patch_UK,		*,		100,	50
+			MSFC_Velcro_Patch_UN,		*,		100,	50
+			MSFC_Velcro_Patch_715,		*,		100,	50
 
 		<Category> SQUAD MSF-C (NVG)
 			MSFC_NVG,																				*,		14500,	5250
