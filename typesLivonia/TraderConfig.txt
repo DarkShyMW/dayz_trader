@@ -799,11 +799,11 @@
 			<Category> Черный Торговец
 			Никто его не видел, но все говорят, что он где-то есть.
 			Я готов купить у вас это оружие..
-			MSFC_BarrettM82,																		W,		-1,		900000
-			MSFC_BarrettM82_Black,															W,		-1,		900000
-			MSFC_BarrettM82_Green,															W,		-1,		900000
-			MSFC_BarrettM82_Desert,															W,		-1,		900000
-			MSFC_BarrettM82_White,															W,		-1,		900000
+			MSFC_BarrettM82,																		W,		-1,		90000
+			MSFC_BarrettM82_Black,															W,		-1,		90000
+			MSFC_BarrettM82_Green,															W,		-1,		90000
+			MSFC_BarrettM82_Desert,															W,		-1,		90000
+			MSFC_BarrettM82_White,															W,		-1,		90000
 			MSFC_ORSIS_T5000,																		W,		-1,		90000
 			MSFC_ORSIS_T5000_Black,															W,		-1,		92000
 			MSFC_ORSIS_T5000_Green,															W,		-1,		92000
@@ -815,13 +815,13 @@
 			MSFC_OSV96_Desert,																	W,		-1,		120000
 			MSFC_OSV96_White,																		W,		-1,		120000
 			TTC_Beowulf,																				W, 		-1,		80000
-			TTC_M82, 																						W,		-1,		100000
-			TTC_M82_Tan, 																				W, 		-1,		100000
+			TTC_M82, 																						W,		-1,		90000
+			TTC_M82_Tan, 																				W, 		-1,		90000
 			TTC_MRAD, 																					W, 		-1, 	50000
 			TTC_XM2010, 																				W, 		-1, 	75000
 			TTC_R700_Black, 																		W, 		-1, 	9000
-			TTC_M110, 																					W, 		-1, 	140000
-			TTC_M110_Black, 																		W, 		-1, 	150000
+			TTC_M110, 																					W, 		-1, 	90000
+			TTC_M110_Black, 																		W, 		-1, 	90000
 
 
 <Trader> Патроны и все остальное
